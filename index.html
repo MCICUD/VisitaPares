@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCIC — Autoevaluación y Visita de Pares Académicos CNA 2026</title>
+  <meta name="description" content="Portal integral de autoevaluación permanente, plan de mejoramiento, resultados de encuestas y agenda de visita de pares académicos de la Maestría en Ciencias de la Información y las Comunicaciones (MCIC) de la Universidad Distrital Francisco José de Caldas.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       ENCABEZADO INSTITUCIONAL Y NAVEGACIÓN
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="header-top-left">
+        <span>🏛️ Universidad Distrital Francisco José de Caldas</span>
+        <span>•</span>
+        <span>Facultad de Ingeniería / Posgrados</span>
+      </div>
+      <div class="header-top-right">
+        <span class="badge-cna">Acreditación de Alta Calidad CNA</span>
+        <span>Visita Externa: <strong>23, 24 y 25 de Septiembre de 2026</strong></span>
+      </div>
+    </div>
+
+    <div class="header-main">
+      <div class="brand-block">
+        <h1>Maestría en Ciencias de la Información y las Comunicaciones (MCIC)</h1>
+        <p>Proceso de Autoevaluación Permanente Institucional y Preparación de Visita de Pares Académicos</p>
+      </div>
+
+      <div class="snies-pills">
+        <div class="snies-pill">
+          <strong>Investigación:</strong> SNIES 17528 <br>
+          <span style="font-size: 10.5px; opacity: 0.85;">Res. 16163 (05/09/2023)</span>
+        </div>
+        <div class="snies-pill">
+          <strong>Profundización:</strong> SNIES 116070 <br>
+          <span style="font-size: 10.5px; opacity: 0.85;">Res. 9925 (21/06/2023)</span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-tabs-wrapper" aria-label="Navegación principal">
+      <ul class="nav-tabs">
+        <li>
+          <button class="nav-tab-btn active" data-tab="agenda">
+            <span>📅</span> Agenda Visita de Pares
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="plan">
+            <span>🎯</span> Plan de Mejoramiento (CC-FR-001)
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="encuestas">
+            <span>📊</span> Resultados Encuestas CNA (2026-1)
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="analisis">
+            <span>📝</span> Análisis Cualitativo
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="autoevaluacion">
+            <span>🏛️</span> Factores CNA & Autoevaluación
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="documentos">
+            <span>📁</span> Repositorio Documental (10)
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========================================================================
+       CONTENIDO PRINCIPAL
+       ======================================================================== -->
+  <main class="main-container">
+
+    <!-- HERO BANNER -->
+    <section class="hero-banner">
+      <div class="hero-text">
+        <h2>Panel Integral de Acreditación y Autoevaluación 2026</h2>
+        <p>
+          Este portal centraliza toda la evidencia, matrices, encuestas aplicadas a la comunidad académica y el plan de mejoramiento continuo para la visita de evaluación externa de pares académicos del Consejo Nacional de Acreditación (CNA).
+        </p>
+
+        <div class="hero-stats-row">
+          <div class="stat-box">
+            <div class="stat-val">12</div>
+            <div class="stat-lbl">Factores Modelo CNA</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">46</div>
+            <div class="stat-lbl">Encuestados (35 Est, 9 Doc, 2 Dir)</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">82</div>
+            <div class="stat-lbl">Tesis Finalizadas (2022-2026)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-peer-card">
+        <h3><span>🎓</span> Equipo de Pares Académicos CNA</h3>
+        <div id="hero-peer-list">
+          <!-- Renderizado dinámico desde app.js -->
+        </div>
+        <div style="margin-top: 12px; font-size: 11.5px; color: var(--text-soft); border-top: 1px solid #BFDBFE; padding-top: 8px;">
+          📍 Sedes: Aduanilla de Paiba (Cl. 13 #31-75) & Fac. Ingeniería (Cra. 7 #40b-53 Piso 10)
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 1: AGENDA VISITA DE PARES
+         ====================================================================== -->
+    <section id="section-agenda" class="tab-section active">
+      <div class="section-header">
+        <h2><span>📅</span> Agenda de la Visita de Evaluación Externa</h2>
+        <div class="section-actions">
+          <select id="agenda-version-select" class="filter-select">
+            <option value="oficial">Versión Oficial (Dr. Carlos Betancourt & Dr. Juan Camilo Giraldo)</option>
+            <option value="previa">Propuesta Preliminar (Dr. Alexander Barón)</option>
+          </select>
+
+          <div class="search-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="agenda-search" placeholder="Buscar actividad, participante o lugar...">
+          </div>
+
+          <button class="btn btn-outline" onclick="window.print()">
+            🖨️ Imprimir Agenda
+          </button>
+        </div>
+      </div>
+
+      <div class="agenda-day-selector">
+        <button class="agenda-day-btn active" data-day="all">Todos los 3 Días</button>
+        <button class="agenda-day-btn" data-day="0">Día 1: Miércoles 23 Sept</button>
+        <button class="agenda-day-btn" data-day="1">Día 2: Jueves 24 Sept</button>
+        <button class="agenda-day-btn" data-day="2">Día 3: Viernes 25 Sept</button>
+      </div>
+
+      <div id="agenda-timeline">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 2: PLAN DE MEJORAMIENTO INSTITUCIONAL (CC-FR-001)
+         ====================================================================== -->
+    <section id="section-plan" class="tab-section">
+      <div class="section-header">
+        <div>
+          <h2><span>🎯</span> Plan de Mejoramiento del Programa (Formato CC-FR-001 v04)</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
+            Macroproceso: Direccionamiento Estratégico • Proceso: Currículo y Calidad • Aplicable a Investigación y Profundización
+          </p>
+        </div>
+
+        <div class="section-actions">
+          <select id="plan-factor-filter" class="filter-select">
+            <option value="all">Todos los Factores</option>
+          </select>
+
+          <select id="plan-type-filter" class="filter-select">
+            <option value="all">Todos los Tipos</option>
+            <option value="Oportunidad">Oportunidad de Mejora</option>
+            <option value="Fortaleza">Fortaleza</option>
+          </select>
+
+          <div class="search-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="plan-search" placeholder="Buscar proyecto, indicador, meta o responsable...">
+          </div>
+        </div>
+      </div>
+
+      <div id="plan-grid" class="plan-grid">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 3: RESULTADOS ENCUESTAS CNA (2026-1)
+         ====================================================================== -->
+    <section id="section-encuestas" class="tab-section">
+      <div class="section-header">
+        <div>
+          <h2><span>📊</span> Resultados de Apreciación por Estamento (Modelo CNA 2020)</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
+            Datos cuantitativos y distribución de calificaciones aplicadas en el período 2026-1 en la Facultad de Ingeniería
+          </p>
+        </div>
+
+        <div class="section-actions">
+          <select id="survey-factor-select" class="filter-select">
+            <option value="all">Todos los Factores</option>
+          </select>
+
+          <div class="search-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="survey-search" placeholder="Buscar pregunta o enunciado...">
+          </div>
+        </div>
+      </div>
+
+      <div class="stakeholder-tabs">
+        <button class="stakeholder-btn active" data-stakeholder="estudiantes">
+          🎓 Estudiantes (35 participantes - 163 ítems)
+        </button>
+        <button class="stakeholder-btn" data-stakeholder="docentes">
+          👨‍🏫 Docentes (9 participantes - 131 ítems)
+        </button>
+        <button class="stakeholder-btn" data-stakeholder="directivos">
+          🏛️ Directivos (2 participantes - 71 ítems)
+        </button>
+      </div>
+
+      <div id="survey-stats-summary" class="hero-stats-row" style="margin-bottom: 20px;">
+        <!-- Estadísticas dinámicas -->
+      </div>
+
+      <div id="survey-items-list" class="survey-items-list">
+        <!-- Preguntas dinámicas con barras de distribución -->
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 4: ANÁLISIS CUALITATIVO
+         ====================================================================== -->
+    <section id="section-analisis" class="tab-section">
+      <div class="section-header">
+        <div>
+          <h2><span>📝</span> Análisis Cualitativo de Instrumentos de Apreciación</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
+            Síntesis interpretativa de percepciones estudiantiles, profesorales y directivas de la MCIC (2026-1)
+          </p>
+        </div>
+      </div>
+
+      <div id="analisis-cualitativo-container">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 5: FACTORES CNA & AUTOEVALUACIÓN PERMANENTE
+         ====================================================================== -->
+    <section id="section-autoevaluacion" class="tab-section">
+      <div class="section-header">
+        <div>
+          <h2><span>🏛️</span> Factores CNA, Ponderaciones y Balance Institucional</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
+            Estructura de ponderación del Modelo CNA 2020, matriz de fortalezas/oportunidades y datos clave del programa
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px;">
+        <!-- Planta Docente -->
+        <div class="card" style="margin-bottom: 0;">
+          <h3 class="card-title">👨‍🏫 Cuerpo Docente del Programa</h3>
+          <div style="max-height: 260px; overflow-y: auto;">
+            <table style="width: 100%; border-collapse: collapse;">
+              <thead>
+                <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align: left; font-size: 12px; color: var(--text-soft);">
+                  <th style="padding: 8px 12px;">DOCENTE</th>
+                  <th style="padding: 8px 12px;">TIPO DE VINCULACIÓN</th>
+                </tr>
+              </thead>
+              <tbody id="docentes-table-body">
+                <!-- Dinámico -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Proyectos y Actividades 2026 -->
+        <div class="card" style="margin-bottom: 0;">
+          <h3 class="card-title">📚 Proyectos de Grado por Énfasis (2022-2026)</h3>
+          <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+            <thead>
+              <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align: left; font-size: 12px; color: var(--text-soft);">
+                <th style="padding: 6px 12px;">ÉNFASIS DISCIPLINAR</th>
+                <th style="padding: 6px 12px; text-align: right;">PROYECTOS FINALIZADOS</th>
+              </tr>
+            </thead>
+            <tbody id="proyectos-table-body">
+              <!-- Dinámico -->
+            </tbody>
+          </table>
+
+          <h3 class="card-title" style="font-size: 14px; margin-top: 12px;">📅 Actividades Clave de Socialización 2026</h3>
+          <div id="actividades-2026-container">
+            <!-- Dinámico -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Ponderaciones CNA -->
+      <div class="card">
+        <h3 class="card-title">⚖️ Ponderación Oficial de Factores y Características (Modelo CNA 2020)</h3>
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+          Pesos porcentuales acordados por el Comité de Currículo y Calidad para la evaluación de los 12 factores del programa.
+        </p>
+        <div id="cna-weights-grid" class="weights-grid">
+          <!-- Dinámico -->
+        </div>
+      </div>
+
+      <!-- SWOT / Fortalezas y Oportunidades -->
+      <div class="card">
+        <h3 class="card-title">📋 Matriz de Fortalezas y Oportunidades de Mejoramiento por Capítulo</h3>
+        <div id="swot-container">
+          <!-- Dinámico -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 6: REPOSITORIO DOCUMENTAL
+         ====================================================================== -->
+    <section id="section-documentos" class="tab-section">
+      <div class="section-header">
+        <div>
+          <h2><span>📁</span> Catálogo de Documentos Originales (AUTOEVALUACION)</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
+            Archivos Word (`.docx`) y Excel (`.xlsx`) analizados, clasificados y disponibles en el repositorio local
+          </p>
+        </div>
+      </div>
+
+      <div id="documentos-grid" class="doc-grid">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       MODAL DE DETALLE (DRAWER)
+       ======================================================================== -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-title">Detalle del Elemento</h3>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Cerrar">&times;</button>
+      </div>
+      <div id="modal-body" class="modal-body">
+        <!-- Contenido dinámico -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       PIE DE PÁGINA
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong style="color: white; font-size: 14px;">Maestría en Ciencias de la Información y las Comunicaciones (MCIC)</strong><br>
+        Universidad Distrital Francisco José de Caldas • Facultad de Ingeniería • Comité Curricular<br>
+        Carrera 7 # 40b - 53 Piso 10, Bogotá D.C., Colombia
+      </div>
+      <div style="text-align: right;">
+        <span>Proceso de Acreditación de Alta Calidad CNA • 2026-1</span><br>
+        <span>Generado automáticamente para la Visita de Pares Académicos</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
