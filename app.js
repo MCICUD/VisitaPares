@@ -177,16 +177,39 @@ function renderAgenda() {
 }
 
 // ==========================================================================
-// 4. PLAN DE MEJORAMIENTO (CC-FR-001)
+// 4. PLAN DE MEJORAMIENTO (CC-FR-001) - SEPARADO POR MODALIDAD
 // ==========================================================================
+let currentPlanModality = 'investigacion'; // 'investigacion' | 'profundizacion'
+
 function initPlanMejoramiento() {
   const searchInput = document.getElementById('plan-search');
   const factorFilter = document.getElementById('plan-factor-filter');
   const typeFilter = document.getElementById('plan-type-filter');
+  const btnInv = document.getElementById('plan-btn-investigacion');
+  const btnProf = document.getElementById('plan-btn-profundizacion');
 
-  // Populate factor filter dropdown
-  if (factorFilter) {
-    const factors = [...new Set(MCIC_DATA.planMejoramiento.map(p => p.factor))];
+  if (btnInv && btnProf) {
+    btnInv.addEventListener('click', () => {
+      currentPlanModality = 'investigacion';
+      btnInv.classList.add('active');
+      btnProf.classList.remove('active');
+      updatePlanFactorFilter();
+      renderPlanMejoramiento();
+    });
+
+    btnProf.addEventListener('click', () => {
+      currentPlanModality = 'profundizacion';
+      btnProf.classList.add('active');
+      btnInv.classList.remove('active');
+      updatePlanFactorFilter();
+      renderPlanMejoramiento();
+    });
+  }
+
+  function updatePlanFactorFilter() {
+    if (!factorFilter) return;
+    const planGroup = getPlanGroup();
+    const factors = [...new Set(planGroup.items.map(p => p.factor))];
     factorFilter.innerHTML = `<option value="all">Todos los Factores CNA (12)</option>` +
       factors.map((f, i) => `<option value="${f}">${f.split('.')[0]} - ${f.split('.')[1] ? f.split('.')[1].substring(0, 32) : f}...</option>`).join('');
   }
@@ -195,18 +218,76 @@ function initPlanMejoramiento() {
     if (el) el.addEventListener('input', renderPlanMejoramiento);
   });
 
+  updatePlanFactorFilter();
   renderPlanMejoramiento();
+}
+
+function getPlanGroup() {
+  if (MCIC_DATA.planMejoramiento && MCIC_DATA.planMejoramiento[currentPlanModality]) {
+    return MCIC_DATA.planMejoramiento[currentPlanModality];
+  }
+  return {
+    modalidad: currentPlanModality === 'investigacion' ? 'Investigación' : 'Profundización',
+    snies: currentPlanModality === 'investigacion' ? '17528' : '116070',
+    resolucion: currentPlanModality === 'investigacion' ? 'Resolución 16163 (05/09/2023)' : 'Resolución 9925 (21/06/2023)',
+    repEstudiantil: currentPlanModality === 'investigacion' ? 'Cristian Leonardo Alape' : 'Jhon Jairo Soler Umbarila',
+    repDocente: currentPlanModality === 'investigacion' ? 'Dr. Leonardo Plazas Nossa' : 'Dr. Andrés Leonardo Jutinico',
+    archivoSoporte: currentPlanModality === 'investigacion' ? 'CC-FR-001 Plan de mejoramiento INV.xlsx' : 'CC-FR-001 Plan de mejoramiento PROF.xlsx',
+    rutaSoporte: currentPlanModality === 'investigacion' ? 'AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx' : 'AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx',
+    items: []
+  };
 }
 
 function renderPlanMejoramiento() {
   const gridEl = document.getElementById('plan-grid');
+  const bannerEl = document.getElementById('plan-modality-banner');
   if (!gridEl) return;
+
+  const planGroup = getPlanGroup();
+
+  // Render Modality Banner
+  if (bannerEl) {
+    const isInv = currentPlanModality === 'investigacion';
+    bannerEl.innerHTML = `
+      <div class="modality-banner-header">
+        <div class="modality-banner-title">
+          <span>${isInv ? '🔬' : '💼'}</span>
+          <span>Plan de Mejoramiento — Modalidad ${planGroup.modalidad}</span>
+          <span class="factor-tag" style="background: ${isInv ? 'var(--ud-blue-soft)' : '#FEF3C7'}; color: ${isInv ? 'var(--ud-blue)' : '#92400E'};">
+            SNIES ${planGroup.snies}
+          </span>
+        </div>
+        <a href="${encodeURI(planGroup.rutaSoporte)}" download="${planGroup.archivoSoporte}" class="btn btn-outline" style="font-size: 12px; font-weight: 700; color: var(--ud-blue); background: white; text-decoration: none;">
+          📥 Descargar Matriz Oficial Excel (${planGroup.modalidad})
+        </a>
+      </div>
+
+      <div class="modality-banner-grid">
+        <div class="modality-banner-item">
+          <span>Registro Calificado & Vigencia:</span>
+          <strong>${planGroup.resolucion} (${planGroup.vigencia || '7 años'})</strong>
+        </div>
+        <div class="modality-banner-item">
+          <span>Representante Docente:</span>
+          <strong>${planGroup.repDocente}</strong>
+        </div>
+        <div class="modality-banner-item">
+          <span>Representante Estudiantil:</span>
+          <strong>${planGroup.repEstudiantil}</strong>
+        </div>
+        <div class="modality-banner-item">
+          <span>Archivo Institucional:</span>
+          <strong>${planGroup.archivoSoporte}</strong>
+        </div>
+      </div>
+    `;
+  }
 
   const searchTerm = (document.getElementById('plan-search')?.value || '').toLowerCase();
   const selectedFactor = document.getElementById('plan-factor-filter')?.value || 'all';
   const selectedType = document.getElementById('plan-type-filter')?.value || 'all';
 
-  const items = MCIC_DATA.planMejoramiento.filter(p => {
+  const items = planGroup.items.filter(p => {
     const matchesFactor = selectedFactor === 'all' || p.factor === selectedFactor;
     const matchesType = selectedType === 'all' || p.tipo.toLowerCase().includes(selectedType.toLowerCase());
     const matchesSearch = p.factor.toLowerCase().includes(searchTerm) ||
@@ -218,7 +299,7 @@ function renderPlanMejoramiento() {
   });
 
   if (items.length === 0) {
-    gridEl.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-soft);">No se encontraron proyectos o acciones en el Plan de Mejoramiento con los filtros dados.</div>`;
+    gridEl.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-soft);">No se encontraron proyectos o acciones en el Plan de Mejoramiento de ${planGroup.modalidad} con los filtros dados.</div>`;
     return;
   }
 
@@ -268,13 +349,15 @@ function renderPlanMejoramiento() {
 }
 
 window.openPlanModal = function(index) {
-  const p = MCIC_DATA.planMejoramiento[index];
+  const planGroup = getPlanGroup();
+  const p = planGroup.items[index];
   if (!p) return;
 
   const content = `
-    <div style="display: flex; gap: 8px; margin-bottom: 12px; align-items: center;">
+    <div style="display: flex; gap: 8px; margin-bottom: 12px; align-items: center; flex-wrap: wrap;">
       <span class="factor-tag">${p.factor.split('.')[0]}</span>
       <span class="type-tag ${p.tipo.toLowerCase().includes('fortaleza') ? 'fortaleza' : 'oportunidad'}">${p.tipo}</span>
+      <span class="factor-tag" style="background: #FEF3C7; color: #92400E;">Modalidad: ${planGroup.modalidad} (SNIES ${planGroup.snies})</span>
       <span style="font-size: 12px; color: var(--text-soft); margin-left: auto;">Origen: ${p.origen}</span>
     </div>
 
@@ -327,7 +410,7 @@ window.openPlanModal = function(index) {
     </div>
   `;
 
-  showModal(`Detalle Plan de Mejoramiento — ${p.factor.split('.')[0]}`, content);
+  showModal(`Detalle Plan de Mejoramiento (${planGroup.modalidad}) — ${p.factor.split('.')[0]}`, content);
 };
 
 // ==========================================================================

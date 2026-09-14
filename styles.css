@@ -582,8 +582,102 @@ body {
 }
 
 /* ==========================================================================
-   PLAN DE MEJORAMIENTO MATRIX
+   PLAN DE MEJORAMIENTO: MODALIDADES Y MATRIX
    ========================================================================== */
+.modality-tabs-wrapper {
+  margin-bottom: 16px;
+}
+
+.modality-tabs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.modality-btn {
+  padding: 12px 22px;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-color);
+  background: #FFFFFF;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+  font-family: inherit;
+}
+
+.modality-btn:hover {
+  border-color: var(--ud-blue-light);
+  color: var(--ud-blue);
+  background: var(--bg-subtle);
+}
+
+.modality-btn.active {
+  background: var(--ud-blue);
+  color: #FFFFFF;
+  border-color: var(--ud-blue);
+  box-shadow: var(--shadow-md);
+}
+
+.modality-banner {
+  background: linear-gradient(135deg, #FFFFFF 0%, var(--ud-blue-soft) 100%);
+  border: 1px solid #BFDBFE;
+  border-left: 5px solid var(--ud-blue);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.modality-banner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.modality-banner-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--ud-blue-dark);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modality-banner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  font-size: 12.5px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(191, 219, 254, 0.6);
+}
+
+.modality-banner-item span:first-child {
+  display: block;
+  font-size: 11px;
+  color: var(--text-soft);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 2px;
+}
+
+.modality-banner-item strong {
+  color: var(--text-main);
+  font-size: 13px;
+}
+
 .plan-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
