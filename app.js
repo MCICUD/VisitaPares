@@ -181,6 +181,53 @@ function renderAgenda() {
 // ==========================================================================
 let currentPlanModality = 'investigacion'; // 'investigacion' | 'profundizacion'
 
+function switchPlanModality(modality) {
+  if (modality !== 'investigacion' && modality !== 'profundizacion') return;
+  currentPlanModality = modality;
+
+  const btnInv = document.getElementById('plan-btn-investigacion');
+  const btnProf = document.getElementById('plan-btn-profundizacion');
+
+  if (btnInv) {
+    btnInv.classList.toggle('active', modality === 'investigacion');
+    if (modality === 'investigacion') {
+      btnInv.style.backgroundColor = 'var(--ud-blue)';
+      btnInv.style.color = '#FFFFFF';
+      btnInv.style.borderColor = 'var(--ud-blue)';
+    } else {
+      btnInv.style.backgroundColor = '#FFFFFF';
+      btnInv.style.color = 'var(--text-muted)';
+      btnInv.style.borderColor = 'var(--border-color)';
+    }
+  }
+
+  if (btnProf) {
+    btnProf.classList.toggle('active', modality === 'profundizacion');
+    if (modality === 'profundizacion') {
+      btnProf.style.backgroundColor = 'var(--ud-blue)';
+      btnProf.style.color = '#FFFFFF';
+      btnProf.style.borderColor = 'var(--ud-blue)';
+    } else {
+      btnProf.style.backgroundColor = '#FFFFFF';
+      btnProf.style.color = 'var(--text-muted)';
+      btnProf.style.borderColor = 'var(--border-color)';
+    }
+  }
+
+  updatePlanFactorFilter();
+  renderPlanMejoramiento();
+}
+window.switchPlanModality = switchPlanModality;
+
+function updatePlanFactorFilter() {
+  const factorFilter = document.getElementById('plan-factor-filter');
+  if (!factorFilter) return;
+  const planGroup = getPlanGroup();
+  const factors = [...new Set(planGroup.items.map(p => p.factor))];
+  factorFilter.innerHTML = `<option value="all">Todos los Factores CNA (${factors.length})</option>` +
+    factors.map((f, i) => `<option value="${f}">${f.split('.')[0]} - ${f.split('.')[1] ? f.split('.')[1].substring(0, 32) : f}...</option>`).join('');
+}
+
 function initPlanMejoramiento() {
   const searchInput = document.getElementById('plan-search');
   const factorFilter = document.getElementById('plan-factor-filter');
@@ -188,30 +235,18 @@ function initPlanMejoramiento() {
   const btnInv = document.getElementById('plan-btn-investigacion');
   const btnProf = document.getElementById('plan-btn-profundizacion');
 
-  if (btnInv && btnProf) {
-    btnInv.addEventListener('click', () => {
-      currentPlanModality = 'investigacion';
-      btnInv.classList.add('active');
-      btnProf.classList.remove('active');
-      updatePlanFactorFilter();
-      renderPlanMejoramiento();
-    });
-
-    btnProf.addEventListener('click', () => {
-      currentPlanModality = 'profundizacion';
-      btnProf.classList.add('active');
-      btnInv.classList.remove('active');
-      updatePlanFactorFilter();
-      renderPlanMejoramiento();
+  if (btnInv) {
+    btnInv.addEventListener('click', (e) => {
+      e.preventDefault();
+      switchPlanModality('investigacion');
     });
   }
 
-  function updatePlanFactorFilter() {
-    if (!factorFilter) return;
-    const planGroup = getPlanGroup();
-    const factors = [...new Set(planGroup.items.map(p => p.factor))];
-    factorFilter.innerHTML = `<option value="all">Todos los Factores CNA (12)</option>` +
-      factors.map((f, i) => `<option value="${f}">${f.split('.')[0]} - ${f.split('.')[1] ? f.split('.')[1].substring(0, 32) : f}...</option>`).join('');
+  if (btnProf) {
+    btnProf.addEventListener('click', (e) => {
+      e.preventDefault();
+      switchPlanModality('profundizacion');
+    });
   }
 
   [searchInput, factorFilter, typeFilter].forEach(el => {
@@ -244,15 +279,15 @@ function renderPlanMejoramiento() {
   if (!gridEl) return;
 
   const planGroup = getPlanGroup();
+  const isInv = currentPlanModality === 'investigacion';
 
   // Render Modality Banner
   if (bannerEl) {
-    const isInv = currentPlanModality === 'investigacion';
     bannerEl.innerHTML = `
       <div class="modality-banner-header">
         <div class="modality-banner-title">
           <span>${isInv ? '🔬' : '💼'}</span>
-          <span>Plan de Mejoramiento — Modalidad ${planGroup.modalidad}</span>
+          <span>Plan de Mejoramiento Oficial — Modalidad ${planGroup.modalidad}</span>
           <span class="factor-tag" style="background: ${isInv ? 'var(--ud-blue-soft)' : '#FEF3C7'}; color: ${isInv ? 'var(--ud-blue)' : '#92400E'};">
             SNIES ${planGroup.snies}
           </span>
@@ -291,10 +326,10 @@ function renderPlanMejoramiento() {
     const matchesFactor = selectedFactor === 'all' || p.factor === selectedFactor;
     const matchesType = selectedType === 'all' || p.tipo.toLowerCase().includes(selectedType.toLowerCase());
     const matchesSearch = p.factor.toLowerCase().includes(searchTerm) ||
-                          p.proyecto.toLowerCase().includes(searchTerm) ||
-                          p.descripcion.toLowerCase().includes(searchTerm) ||
-                          p.meta.toLowerCase().includes(searchTerm) ||
-                          p.responsable.toLowerCase().includes(searchTerm);
+                          (p.proyecto && p.proyecto.toLowerCase().includes(searchTerm)) ||
+                          (p.descripcion && p.descripcion.toLowerCase().includes(searchTerm)) ||
+                          (p.meta && p.meta.toLowerCase().includes(searchTerm)) ||
+                          (p.responsable && p.responsable.toLowerCase().includes(searchTerm));
     return matchesFactor && matchesType && matchesSearch;
   });
 
@@ -306,12 +341,16 @@ function renderPlanMejoramiento() {
   gridEl.innerHTML = items.map((p, index) => {
     const isFortaleza = p.tipo.toLowerCase().includes('fortaleza');
     const factorNum = p.factor.split('.')[0].trim();
+    const itemId = p.id || `item-${index}`;
     
     return `
       <div class="plan-card ${isFortaleza ? 'fortaleza' : ''}">
         <div>
           <div class="plan-card-header">
             <span class="factor-tag">${factorNum}</span>
+            <span class="plan-modality-tag ${isInv ? 'tag-inv' : 'tag-prof'}">
+              ${isInv ? '🔬 INVESTIGACIÓN (SNIES 17528)' : '💼 PROFUNDIZACIÓN (SNIES 116070)'}
+            </span>
             <span class="type-tag ${isFortaleza ? 'fortaleza' : 'oportunidad'}">${p.tipo}</span>
           </div>
           <h3>${p.proyecto || p.factor}</h3>
@@ -320,11 +359,11 @@ function renderPlanMejoramiento() {
           <div class="plan-meta-box">
             <div class="plan-meta-row">
               <span>Indicador:</span>
-              <span title="${p.indicador}">${p.indicador.length > 50 ? p.indicador.substring(0, 50) + '...' : p.indicador}</span>
+              <span title="${p.indicador}">${p.indicador.length > 55 ? p.indicador.substring(0, 55) + '...' : p.indicador}</span>
             </div>
             <div class="plan-meta-row">
               <span>Meta:</span>
-              <span title="${p.meta}">${p.meta.length > 50 ? p.meta.substring(0, 50) + '...' : p.meta}</span>
+              <span title="${p.meta}">${p.meta.length > 55 ? p.meta.substring(0, 55) + '...' : p.meta}</span>
             </div>
             <div class="plan-meta-row">
               <span>Responsable:</span>
@@ -339,7 +378,7 @@ function renderPlanMejoramiento() {
 
         <div class="plan-card-actions">
           <span style="font-size: 11px; color: var(--text-soft);">Prioridad: <strong>${p.prioridad || 'Alta'}</strong></span>
-          <button class="btn btn-outline" onclick="openPlanModal(${index})">
+          <button class="btn btn-outline" onclick="openPlanModal('${itemId}')">
             Ver detalle completo ➔
           </button>
         </div>
@@ -348,9 +387,15 @@ function renderPlanMejoramiento() {
   }).join('');
 }
 
-window.openPlanModal = function(index) {
+window.openPlanModal = function(itemId) {
   const planGroup = getPlanGroup();
-  const p = planGroup.items[index];
+  let p = planGroup.items.find(item => item.id === itemId);
+  if (!p && typeof itemId === 'number') {
+    p = planGroup.items[itemId];
+  }
+  if (!p && planGroup.items.length > 0) {
+    p = planGroup.items[0];
+  }
   if (!p) return;
 
   const content = `

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MCIC — Autoevaluación y Visita de Pares Académicos CNA 2026</title>
   <meta name="description" content="Portal integral de autoevaluación permanente, plan de mejoramiento, resultados de encuestas y agenda de visita de pares académicos de la Maestría en Ciencias de la Información y las Comunicaciones (MCIC) de la Universidad Distrital Francisco José de Caldas.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260914-v4">
 </head>
 <body>
 
@@ -185,12 +185,20 @@
       </div>
 
       <!-- Selector Diferenciado de Modalidad -->
-      <div class="modality-tabs-wrapper">
-        <div class="modality-tabs">
-          <button id="plan-btn-investigacion" class="modality-btn active" data-modality="investigacion">
+      <div class="modality-tabs-wrapper" style="margin-bottom: 18px;">
+        <div class="modality-tabs" style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <button id="plan-btn-investigacion" 
+                  class="modality-btn active" 
+                  data-modality="investigacion"
+                  onclick="switchPlanModality('investigacion')"
+                  style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; font-weight: 700; border-radius: var(--radius-md); cursor: pointer; border: 2px solid var(--ud-blue); background: var(--ud-blue); color: #FFFFFF; font-family: inherit; font-size: 14px; box-shadow: var(--shadow-md);">
             <span>🔬</span> Modalidad Investigación (SNIES 17528)
           </button>
-          <button id="plan-btn-profundizacion" class="modality-btn" data-modality="profundizacion">
+          <button id="plan-btn-profundizacion" 
+                  class="modality-btn" 
+                  data-modality="profundizacion"
+                  onclick="switchPlanModality('profundizacion')"
+                  style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; font-weight: 700; border-radius: var(--radius-md); cursor: pointer; border: 2px solid var(--border-color); background: #FFFFFF; color: var(--text-muted); font-family: inherit; font-size: 14px; box-shadow: var(--shadow-sm);">
             <span>💼</span> Modalidad Profundización (SNIES 116070)
           </button>
         </div>
@@ -425,8 +433,8 @@
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <!-- Scripts con control de caché -->
+  <script src="data.js?v=20260914-v4"></script>
+  <script src="app.js?v=20260914-v4"></script>
 </body>
 </html>
