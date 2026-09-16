@@ -1,17 +1,54 @@
 /**
- * APLICACIÓN PORTAL AUTOEVALUACIÓN Y VISITA DE PARES MCIC 2026
+ * MICROSITIO PLAN DE MEJORAMIENTO — VISITA DE PARES MCIC (Renovación AAC)
  * Universidad Distrital Francisco José de Caldas
+ *
+ * Todo el contenido se renderiza a partir de GOLD_DATA (Data/Gold/gold_data.js),
+ * generado por app/run_pipeline.py directamente desde los archivos en Data/Bronze.
+ * No hay ningún dato escrito a mano en este archivo.
  */
+
+const MODALIDAD_LABEL = {
+  investigacion: 'Investigación',
+  profundizacion: 'Profundización',
+  ambas: 'Ambas modalidades',
+  general: 'General / Institucional',
+};
+
+const MODALIDAD_TAG_CLASS = {
+  investigacion: 'tag-inv',
+  profundizacion: 'tag-prof',
+  ambas: 'tag-ambas',
+  general: 'tag-general',
+};
+
+const MODALIDAD_ICON = {
+  investigacion: '🔬',
+  profundizacion: '💼',
+  ambas: '🔗',
+  general: '🏛️',
+};
+
+let state = {
+  modalidad: 'investigacion',
+  factorFiltro: 'all',
+  tipoFiltro: 'all',
+  busqueda: '',
+};
+
+let bronzeState = {
+  modalidad: 'all',
+  carpeta: 'all',
+  extension: 'all',
+  busqueda: '',
+};
 
 function initApp() {
   initNavigation();
-  initHeroStats();
-  initAgenda();
+  renderHeaderMeta();
+  renderHeroStats();
   initPlanMejoramiento();
-  initEncuestas();
-  initAnalisisCualitativo();
-  initAutoevaluacion();
   initDocumentos();
+  initBronzeCatalog();
   initModal();
 }
 
@@ -22,787 +59,450 @@ if (document.readyState === 'loading') {
 }
 
 // ==========================================================================
-// 1. NAVEGACIÓN Y TABS
+// UTILIDADES
+// ==========================================================================
+function escapeHtml(value) {
+  if (value === null || value === undefined) return '';
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function fileHref(relativePath) {
+  return encodeURI(relativePath);
+}
+
+function fileLabel(relativePath) {
+  return relativePath.split('/').pop();
+}
+
+function fuenteHtml(fuente, label) {
+  if (!fuente) return '';
+  const texto = label || `Ver archivo fuente (hoja "${escapeHtml(fuente.hoja)}", fila ${escapeHtml(fuente.fila)})`;
+  return `<a class="btn btn-outline" style="font-size:12px; padding:6px 12px;" href="${fileHref(fuente.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(fuente.archivo)}">🔎 ${texto}</a>`;
+}
+
+function modalidadTagHtml(modalidad) {
+  const cls = MODALIDAD_TAG_CLASS[modalidad] || 'tag-general';
+  const label = MODALIDAD_LABEL[modalidad] || modalidad;
+  return `<span class="plan-modality-tag ${cls}">${MODALIDAD_ICON[modalidad] || ''} ${escapeHtml(label)}</span>`;
+}
+
+function factorNumeroYNombre(factorTexto) {
+  const match = /^(FACTOR\s*\d+)\.?\s*(.*)$/i.exec(factorTexto || '');
+  if (match) {
+    return { numero: match[1].toUpperCase(), nombre: match[2].replace(/\.$/, '').trim() };
+  }
+  return { numero: '', nombre: factorTexto || '' };
+}
+
+function formatFecha(iso) {
+  if (!iso) return '—';
+  const [y, m] = iso.split('-');
+  const meses = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  return `${meses[parseInt(m, 10) - 1]} ${y}`;
+}
+
+// ==========================================================================
+// NAVEGACIÓN Y TABS
 // ==========================================================================
 function initNavigation() {
   const tabButtons = document.querySelectorAll('.nav-tab-btn');
   const tabSections = document.querySelectorAll('.tab-section');
 
   function switchTab(tabKey) {
-    const cleanKey = tabKey.replace('tab-', '').replace('section-', '');
-    tabButtons.forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.tab === cleanKey);
-    });
-    tabSections.forEach(sec => {
-      sec.classList.toggle('active', sec.id === 'section-' + cleanKey);
-    });
+    tabButtons.forEach((btn) => btn.classList.toggle('active', btn.dataset.tab === tabKey));
+    tabSections.forEach((sec) => sec.classList.toggle('active', sec.id === 'section-' + tabKey));
     if (window.history && window.history.replaceState) {
-      window.history.replaceState(null, null, '#' + cleanKey);
+      window.history.replaceState(null, null, '#' + tabKey);
     }
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
-  tabButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      switchTab(btn.dataset.tab);
-    });
-  });
+  tabButtons.forEach((btn) => btn.addEventListener('click', () => switchTab(btn.dataset.tab)));
 
-  // Handle URL hash on load
   const currentHash = window.location.hash.replace('#', '');
-  if (currentHash) {
-    switchTab(currentHash);
-  }
+  if (currentHash) switchTab(currentHash);
 }
 
 // ==========================================================================
-// 2. HERO STATS & METADATA
+// ENCABEZADO: PASTILLAS SNIES / REGISTRO / ACREDITACIÓN
 // ==========================================================================
-function initHeroStats() {
-  const meta = MCIC_DATA.meta;
-  
-  // Update peers card
-  const peerListEl = document.getElementById('hero-peer-list');
-  if (peerListEl) {
-    peerListEl.innerHTML = meta.pares.slice(0, 2).map(p => `
-      <div class="peer-item">
-        <div class="peer-avatar">CNA</div>
-        <div>
-          <div class="peer-name">${p.nombre}</div>
-          <div class="peer-tag">${p.rol} (${p.estado})</div>
-        </div>
-      </div>
-    `).join('');
-  }
-}
-
-// ==========================================================================
-// 3. AGENDA VISITA DE PARES
-// ==========================================================================
-let currentAgendaVersion = 'oficial';
-let currentAgendaDay = 'all';
-
-function initAgenda() {
-  const versionSelect = document.getElementById('agenda-version-select');
-  const searchInput = document.getElementById('agenda-search');
-  const dayButtons = document.querySelectorAll('.agenda-day-btn');
-
-  if (versionSelect) {
-    versionSelect.addEventListener('change', (e) => {
-      currentAgendaVersion = e.target.value;
-      renderAgenda();
-    });
-  }
-
-  if (searchInput) {
-    searchInput.addEventListener('input', () => {
-      renderAgenda();
-    });
-  }
-
-  dayButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      dayButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentAgendaDay = btn.dataset.day;
-      renderAgenda();
-    });
-  });
-
-  renderAgenda();
-}
-
-function renderAgenda() {
-  const timelineEl = document.getElementById('agenda-timeline');
-  if (!timelineEl) return;
-
-  const rawAgenda = currentAgendaVersion === 'oficial' ? MCIC_DATA.agendaOficial : MCIC_DATA.agendaPrevia;
-  const searchTerm = (document.getElementById('agenda-search')?.value || '').toLowerCase();
-
-  let filteredDays = rawAgenda;
-  if (currentAgendaDay !== 'all') {
-    const dayIdx = parseInt(currentAgendaDay, 10);
-    filteredDays = [rawAgenda[dayIdx]].filter(Boolean);
-  }
-
-  let html = '';
-
-  filteredDays.forEach(day => {
-    const matchingItems = day.items.filter(item => {
-      return item.actividad.toLowerCase().includes(searchTerm) ||
-             item.participantes.toLowerCase().includes(searchTerm) ||
-             item.lugar.toLowerCase().includes(searchTerm);
-    });
-
-    if (matchingItems.length === 0) return;
-
-    html += `
-      <div style="margin-bottom: 24px;">
-        <div style="background: var(--ud-blue-soft); border-left: 4px solid var(--ud-blue); padding: 10px 16px; border-radius: var(--radius-sm); margin-bottom: 14px;">
-          <h3 style="font-size: 15px; font-weight: 800; color: var(--ud-blue);">${day.dia}</h3>
-          <p style="font-size: 12.5px; color: var(--text-muted);">${day.titulo}</p>
-        </div>
-        <div class="timeline">
-    `;
-
-    matchingItems.forEach(item => {
-      html += `
-        <div class="timeline-item">
-          <div class="timeline-time-col">
-            <div class="timeline-time">
-              <span>🕒</span> ${item.hora}
-            </div>
-            <div class="timeline-badge-loc">
-              📍 <strong>Lugar:</strong> ${item.lugar}
-            </div>
-          </div>
-          <div class="timeline-content-col">
-            <h4>${item.actividad}</h4>
-            <div class="timeline-participants">
-              <strong>Participantes:</strong> ${item.participantes}
-            </div>
-          </div>
-        </div>
-      `;
-    });
-
-    html += `</div></div>`;
-  });
-
-  if (!html) {
-    html = `<div style="text-align: center; padding: 40px; color: var(--text-soft);">No se encontraron actividades con los filtros seleccionados.</div>`;
-  }
-
-  timelineEl.innerHTML = html;
-}
-
-// ==========================================================================
-// 4. PLAN DE MEJORAMIENTO (CC-FR-001) - SEPARADO POR MODALIDAD
-// ==========================================================================
-let currentPlanModality = 'investigacion'; // 'investigacion' | 'profundizacion'
-
-function switchPlanModality(modality) {
-  if (modality !== 'investigacion' && modality !== 'profundizacion') return;
-  currentPlanModality = modality;
-
-  const btnInv = document.getElementById('plan-btn-investigacion');
-  const btnProf = document.getElementById('plan-btn-profundizacion');
-
-  if (btnInv) {
-    btnInv.classList.toggle('active', modality === 'investigacion');
-    if (modality === 'investigacion') {
-      btnInv.style.backgroundColor = 'var(--ud-blue)';
-      btnInv.style.color = '#FFFFFF';
-      btnInv.style.borderColor = 'var(--ud-blue)';
-    } else {
-      btnInv.style.backgroundColor = '#FFFFFF';
-      btnInv.style.color = 'var(--text-muted)';
-      btnInv.style.borderColor = 'var(--border-color)';
-    }
-  }
-
-  if (btnProf) {
-    btnProf.classList.toggle('active', modality === 'profundizacion');
-    if (modality === 'profundizacion') {
-      btnProf.style.backgroundColor = 'var(--ud-blue)';
-      btnProf.style.color = '#FFFFFF';
-      btnProf.style.borderColor = 'var(--ud-blue)';
-    } else {
-      btnProf.style.backgroundColor = '#FFFFFF';
-      btnProf.style.color = 'var(--text-muted)';
-      btnProf.style.borderColor = 'var(--border-color)';
-    }
-  }
-
-  updatePlanFactorFilter();
-  renderPlanMejoramiento();
-}
-window.switchPlanModality = switchPlanModality;
-
-function updatePlanFactorFilter() {
-  const factorFilter = document.getElementById('plan-factor-filter');
-  if (!factorFilter) return;
-  const planGroup = getPlanGroup();
-  const factors = [...new Set(planGroup.items.map(p => p.factor))];
-  factorFilter.innerHTML = `<option value="all">Todos los Factores CNA (${factors.length})</option>` +
-    factors.map((f, i) => `<option value="${f}">${f.split('.')[0]} - ${f.split('.')[1] ? f.split('.')[1].substring(0, 32) : f}...</option>`).join('');
-}
-
-function initPlanMejoramiento() {
-  const searchInput = document.getElementById('plan-search');
-  const factorFilter = document.getElementById('plan-factor-filter');
-  const typeFilter = document.getElementById('plan-type-filter');
-  const btnInv = document.getElementById('plan-btn-investigacion');
-  const btnProf = document.getElementById('plan-btn-profundizacion');
-
-  if (btnInv) {
-    btnInv.addEventListener('click', (e) => {
-      e.preventDefault();
-      switchPlanModality('investigacion');
-    });
-  }
-
-  if (btnProf) {
-    btnProf.addEventListener('click', (e) => {
-      e.preventDefault();
-      switchPlanModality('profundizacion');
-    });
-  }
-
-  [searchInput, factorFilter, typeFilter].forEach(el => {
-    if (el) el.addEventListener('input', renderPlanMejoramiento);
-  });
-
-  updatePlanFactorFilter();
-  renderPlanMejoramiento();
-}
-
-function getPlanGroup() {
-  if (MCIC_DATA.planMejoramiento && MCIC_DATA.planMejoramiento[currentPlanModality]) {
-    return MCIC_DATA.planMejoramiento[currentPlanModality];
-  }
-  return {
-    modalidad: currentPlanModality === 'investigacion' ? 'Investigación' : 'Profundización',
-    snies: currentPlanModality === 'investigacion' ? '17528' : '116070',
-    resolucion: currentPlanModality === 'investigacion' ? 'Resolución 16163 (05/09/2023)' : 'Resolución 9925 (21/06/2023)',
-    repEstudiantil: currentPlanModality === 'investigacion' ? 'Cristian Leonardo Alape' : 'Jhon Jairo Soler Umbarila',
-    repDocente: currentPlanModality === 'investigacion' ? 'Dr. Leonardo Plazas Nossa' : 'Dr. Andrés Leonardo Jutinico',
-    archivoSoporte: currentPlanModality === 'investigacion' ? 'CC-FR-001 Plan de mejoramiento INV.xlsx' : 'CC-FR-001 Plan de mejoramiento PROF.xlsx',
-    rutaSoporte: currentPlanModality === 'investigacion' ? 'AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx' : 'AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx',
-    items: []
-  };
-}
-
-function renderPlanMejoramiento() {
-  const gridEl = document.getElementById('plan-grid');
-  const bannerEl = document.getElementById('plan-modality-banner');
-  if (!gridEl) return;
-
-  const planGroup = getPlanGroup();
-  const isInv = currentPlanModality === 'investigacion';
-
-  // Render Modality Banner
-  if (bannerEl) {
-    bannerEl.innerHTML = `
-      <div class="modality-banner-header">
-        <div class="modality-banner-title">
-          <span>${isInv ? '🔬' : '💼'}</span>
-          <span>Plan de Mejoramiento Oficial — Modalidad ${planGroup.modalidad}</span>
-          <span class="factor-tag" style="background: ${isInv ? 'var(--ud-blue-soft)' : '#FEF3C7'}; color: ${isInv ? 'var(--ud-blue)' : '#92400E'};">
-            SNIES ${planGroup.snies}
-          </span>
-        </div>
-        <a href="${encodeURI(planGroup.rutaSoporte)}" download="${planGroup.archivoSoporte}" class="btn btn-outline" style="font-size: 12px; font-weight: 700; color: var(--ud-blue); background: white; text-decoration: none;">
-          📥 Descargar Matriz Oficial Excel (${planGroup.modalidad})
-        </a>
-      </div>
-
-      <div class="modality-banner-grid">
-        <div class="modality-banner-item">
-          <span>Registro Calificado & Vigencia:</span>
-          <strong>${planGroup.resolucion} (${planGroup.vigencia || '7 años'})</strong>
-        </div>
-        <div class="modality-banner-item">
-          <span>Representante Docente:</span>
-          <strong>${planGroup.repDocente}</strong>
-        </div>
-        <div class="modality-banner-item">
-          <span>Representante Estudiantil:</span>
-          <strong>${planGroup.repEstudiantil}</strong>
-        </div>
-        <div class="modality-banner-item">
-          <span>Archivo Institucional:</span>
-          <strong>${planGroup.archivoSoporte}</strong>
-        </div>
-      </div>
-    `;
-  }
-
-  const searchTerm = (document.getElementById('plan-search')?.value || '').toLowerCase();
-  const selectedFactor = document.getElementById('plan-factor-filter')?.value || 'all';
-  const selectedType = document.getElementById('plan-type-filter')?.value || 'all';
-
-  const items = planGroup.items.filter(p => {
-    const matchesFactor = selectedFactor === 'all' || p.factor === selectedFactor;
-    const matchesType = selectedType === 'all' || p.tipo.toLowerCase().includes(selectedType.toLowerCase());
-    const matchesSearch = p.factor.toLowerCase().includes(searchTerm) ||
-                          (p.proyecto && p.proyecto.toLowerCase().includes(searchTerm)) ||
-                          (p.descripcion && p.descripcion.toLowerCase().includes(searchTerm)) ||
-                          (p.meta && p.meta.toLowerCase().includes(searchTerm)) ||
-                          (p.responsable && p.responsable.toLowerCase().includes(searchTerm));
-    return matchesFactor && matchesType && matchesSearch;
-  });
-
-  if (items.length === 0) {
-    gridEl.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-soft);">No se encontraron proyectos o acciones en el Plan de Mejoramiento de ${planGroup.modalidad} con los filtros dados.</div>`;
-    return;
-  }
-
-  gridEl.innerHTML = items.map((p, index) => {
-    const isFortaleza = p.tipo.toLowerCase().includes('fortaleza');
-    const factorNum = p.factor.split('.')[0].trim();
-    const itemId = p.id || `item-${index}`;
-    
-    return `
-      <div class="plan-card ${isFortaleza ? 'fortaleza' : ''}">
-        <div>
-          <div class="plan-card-header">
-            <span class="factor-tag">${factorNum}</span>
-            <span class="plan-modality-tag ${isInv ? 'tag-inv' : 'tag-prof'}">
-              ${isInv ? '🔬 INVESTIGACIÓN (SNIES 17528)' : '💼 PROFUNDIZACIÓN (SNIES 116070)'}
-            </span>
-            <span class="type-tag ${isFortaleza ? 'fortaleza' : 'oportunidad'}">${p.tipo}</span>
-          </div>
-          <h3>${p.proyecto || p.factor}</h3>
-          <p class="plan-card-desc">${p.descripcion}</p>
-          
-          <div class="plan-meta-box">
-            <div class="plan-meta-row">
-              <span>Indicador:</span>
-              <span title="${p.indicador}">${p.indicador.length > 55 ? p.indicador.substring(0, 55) + '...' : p.indicador}</span>
-            </div>
-            <div class="plan-meta-row">
-              <span>Meta:</span>
-              <span title="${p.meta}">${p.meta.length > 55 ? p.meta.substring(0, 55) + '...' : p.meta}</span>
-            </div>
-            <div class="plan-meta-row">
-              <span>Responsable:</span>
-              <span>${p.responsable}</span>
-            </div>
-            <div class="plan-meta-row">
-              <span>Periodicidad:</span>
-              <span>${p.periodicidad}</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="plan-card-actions">
-          <span style="font-size: 11px; color: var(--text-soft);">Prioridad: <strong>${p.prioridad || 'Alta'}</strong></span>
-          <button class="btn btn-outline" onclick="openPlanModal('${itemId}')">
-            Ver detalle completo ➔
-          </button>
-        </div>
-      </div>
-    `;
-  }).join('');
-}
-
-window.openPlanModal = function(itemId) {
-  const planGroup = getPlanGroup();
-  let p = planGroup.items.find(item => item.id === itemId);
-  if (!p && typeof itemId === 'number') {
-    p = planGroup.items[itemId];
-  }
-  if (!p && planGroup.items.length > 0) {
-    p = planGroup.items[0];
-  }
-  if (!p) return;
-
-  const content = `
-    <div style="display: flex; gap: 8px; margin-bottom: 12px; align-items: center; flex-wrap: wrap;">
-      <span class="factor-tag">${p.factor.split('.')[0]}</span>
-      <span class="type-tag ${p.tipo.toLowerCase().includes('fortaleza') ? 'fortaleza' : 'oportunidad'}">${p.tipo}</span>
-      <span class="factor-tag" style="background: #FEF3C7; color: #92400E;">Modalidad: ${planGroup.modalidad} (SNIES ${planGroup.snies})</span>
-      <span style="font-size: 12px; color: var(--text-soft); margin-left: auto;">Origen: ${p.origen}</span>
+function renderHeaderMeta() {
+  const container = document.getElementById('header-snies-pills');
+  const mods = GOLD_DATA.meta.modalidades;
+  container.innerHTML = Object.entries(mods).map(([key, cab]) => `
+    <div class="snies-pill">
+      <strong>${MODALIDAD_LABEL[key]}:</strong> ${escapeHtml(cab.registro_calificado)}<br>
+      <span style="font-size: 10.5px; opacity: 0.85;">
+        Acreditación AAC: ${escapeHtml(cab.acreditacion_alta_calidad)} · Vigencia ${escapeHtml(cab.acreditacion_alta_calidad_vigencia)}
+      </span>
     </div>
+  `).join('');
+}
 
-    <h3 style="font-size: 17px; font-weight: 800; color: var(--ud-blue); margin-bottom: 8px;">${p.proyecto || p.factor}</h3>
-    <h4 style="font-size: 13.5px; font-weight: 700; color: var(--text-muted); margin-bottom: 16px;">${p.factor}</h4>
+// ==========================================================================
+// HERO: ESTADÍSTICAS DERIVADAS Y LISTA DE FUENTES
+// ==========================================================================
+function renderHeroStats() {
+  const statsInv = GOLD_DATA.stats.investigacion;
+  const statsProf = GOLD_DATA.stats.profundizacion;
+  const totalFactores = statsInv.total_factores + statsProf.total_factores;
+  const totalFortalezas = (statsInv.conteo_por_tipo['Fortaleza'] || 0) + (statsProf.conteo_por_tipo['Fortaleza'] || 0);
+  const totalOportunidades = (statsInv.conteo_por_tipo['Oportunidad de mejora'] || 0) + (statsProf.conteo_por_tipo['Oportunidad de mejora'] || 0);
 
-    <div style="background: var(--bg-subtle); padding: 14px; border-radius: var(--radius-md); margin-bottom: 16px;">
-      <strong style="font-size: 12px; text-transform: uppercase; color: var(--text-soft); display: block; margin-bottom: 4px;">Descripción de la Situación:</strong>
-      <p style="font-size: 13.5px; color: var(--text-main); line-height: 1.5;">${p.descripcion}</p>
+  const statsRow = document.getElementById('hero-stats-row');
+  statsRow.innerHTML = `
+    <div class="stat-box">
+      <div class="stat-val">${totalFactores}</div>
+      <div class="stat-lbl">Factores documentados (INV + PROF)</div>
     </div>
-
-    <div style="background: white; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 14px; margin-bottom: 16px;">
-      <strong style="font-size: 12px; text-transform: uppercase; color: var(--text-soft); display: block; margin-bottom: 4px;">Objetivo del Proyecto / Acción Global:</strong>
-      <p style="font-size: 13.5px; color: var(--text-main); line-height: 1.5;">${p.objetivo}</p>
+    <div class="stat-box">
+      <div class="stat-val">${totalOportunidades}</div>
+      <div class="stat-lbl">Oportunidades de mejora</div>
     </div>
-
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 16px;">
-      <div style="background: var(--ud-blue-soft); padding: 12px; border-radius: var(--radius-sm);">
-        <strong style="font-size: 11.5px; color: var(--ud-blue-dark); text-transform: uppercase; display: block; margin-bottom: 4px;">Indicador de Cumplimiento:</strong>
-        <p style="font-size: 13px; font-weight: 700; color: var(--ud-blue);">${p.indicador}</p>
-        <span style="font-size: 11px; color: var(--text-soft);">Tipo: ${p.tipo_indicador || 'Resultado'}</span>
-      </div>
-      <div style="background: var(--success-bg); padding: 12px; border-radius: var(--radius-sm);">
-        <strong style="font-size: 11.5px; color: var(--success); text-transform: uppercase; display: block; margin-bottom: 4px;">Meta Proyectada:</strong>
-        <p style="font-size: 13px; font-weight: 700; color: #14532d;">${p.meta}</p>
-        <span style="font-size: 11px; color: var(--text-soft);">Línea Base: ${p.linea_base || '2026-1'}</span>
-      </div>
-    </div>
-
-    <div style="margin-bottom: 16px;">
-      <strong style="font-size: 13px; color: var(--ud-blue-dark); display: block; margin-bottom: 6px;">Actividades Requeridas para el Logro:</strong>
-      <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
-        ${p.actividades.map(a => `<li>${a}</li>`).join('')}
-      </ul>
-    </div>
-
-    <div style="background: var(--bg-app); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 12px; font-size: 12.5px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-      <div>
-        <span style="color: var(--text-soft); display: block;">Responsable:</span>
-        <strong>${p.responsable}</strong>
-      </div>
-      <div>
-        <span style="color: var(--text-soft); display: block;">Periodicidad:</span>
-        <strong>${p.periodicidad}</strong>
-      </div>
-      <div>
-        <span style="color: var(--text-soft); display: block;">Recursos:</span>
-        <strong>${p.recursos}</strong>
-      </div>
+    <div class="stat-box">
+      <div class="stat-val">${totalFortalezas}</div>
+      <div class="stat-lbl">Fortalezas identificadas</div>
     </div>
   `;
 
-  showModal(`Detalle Plan de Mejoramiento (${planGroup.modalidad}) — ${p.factor.split('.')[0]}`, content);
-};
+  const fuentesList = document.getElementById('hero-fuentes-list');
+  fuentesList.innerHTML = GOLD_DATA.documentosPrincipales.map((doc) => `
+    <div class="peer-item">
+      <div class="peer-avatar">${doc.modalidad === 'investigacion' ? 'INV' : 'PRO'}</div>
+      <div>
+        <div class="peer-name">${escapeHtml(doc.titulo)}</div>
+        <a class="peer-tag" href="${fileHref(doc.archivo)}" target="_blank" rel="noopener noreferrer">${escapeHtml(fileLabel(doc.archivo))}</a>
+      </div>
+    </div>
+  `).join('');
+}
 
 // ==========================================================================
-// 5. ENCUESTAS Y RESULTADOS CNA
+// PLAN DE MEJORAMIENTO
 // ==========================================================================
-let currentStakeholder = 'estudiantes';
-
-function initEncuestas() {
-  const stakeholderBtns = document.querySelectorAll('.stakeholder-btn');
-  const factorSelect = document.getElementById('survey-factor-select');
-  const searchInput = document.getElementById('survey-search');
-
-  stakeholderBtns.forEach(btn => {
+function initPlanMejoramiento() {
+  document.querySelectorAll('.modality-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
-      stakeholderBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentStakeholder = btn.dataset.stakeholder;
-      populateSurveyFactors();
-      renderEncuestas();
+      state.modalidad = btn.dataset.modality;
+      document.querySelectorAll('.modality-btn').forEach((b) => b.classList.toggle('active', b === btn));
+      populateFactorFilter();
+      renderPlanBanner();
+      renderPlanGrid();
     });
   });
 
-  if (factorSelect) {
-    factorSelect.addEventListener('change', renderEncuestas);
-  }
-  if (searchInput) {
-    searchInput.addEventListener('input', renderEncuestas);
-  }
-
-  populateSurveyFactors();
-  renderEncuestas();
-}
-
-function populateSurveyFactors() {
-  const factorSelect = document.getElementById('survey-factor-select');
-  if (!factorSelect) return;
-
-  const items = MCIC_DATA.encuestas[currentStakeholder] || [];
-  const factors = [...new Set(items.map(i => i.factor))];
-
-  factorSelect.innerHTML = `<option value="all">Todos los Factores Evaluados (${factors.length})</option>` +
-    factors.map(f => `<option value="${f}">${f.split('.')[0]} - ${f.split('.')[1] ? f.split('.')[1].substring(0, 32) : f}...</option>`).join('');
-}
-
-function renderEncuestas() {
-  const listEl = document.getElementById('survey-items-list');
-  const statsEl = document.getElementById('survey-stats-summary');
-  if (!listEl) return;
-
-  const items = MCIC_DATA.encuestas[currentStakeholder] || [];
-  const selectedFactor = document.getElementById('survey-factor-select')?.value || 'all';
-  const searchTerm = (document.getElementById('survey-search')?.value || '').toLowerCase();
-
-  const filtered = items.filter(it => {
-    const matchesFactor = selectedFactor === 'all' || it.factor === selectedFactor;
-    const matchesSearch = it.item.toLowerCase().includes(searchTerm) || it.factor.toLowerCase().includes(searchTerm);
-    return matchesFactor && matchesSearch;
+  document.getElementById('plan-factor-filter').addEventListener('change', (e) => {
+    state.factorFiltro = e.target.value;
+    renderPlanGrid();
+  });
+  document.getElementById('plan-type-filter').addEventListener('change', (e) => {
+    state.tipoFiltro = e.target.value;
+    renderPlanGrid();
+  });
+  document.getElementById('plan-search').addEventListener('input', (e) => {
+    state.busqueda = e.target.value.trim().toLowerCase();
+    renderPlanGrid();
   });
 
-  // Calculate stats
-  if (statsEl) {
-    const totalResp = currentStakeholder === 'estudiantes' ? 35 : (currentStakeholder === 'docentes' ? 9 : 2);
-    const avgFav = filtered.length > 0 ? (filtered.reduce((acc, c) => acc + c.favorablePct, 0) / filtered.length).toFixed(1) : 0;
-    
-    statsEl.innerHTML = `
-      <div class="stat-box">
-        <div class="stat-val">${filtered.length}</div>
-        <div class="stat-lbl">Ítems Evaluados</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-val">${totalResp}</div>
-        <div class="stat-lbl">Muestra Participante</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-val" style="color: ${avgFav >= 75 ? 'var(--success)' : (avgFav >= 60 ? 'var(--warning)' : 'var(--danger)')};">${avgFav}%</div>
-        <div class="stat-lbl">Satisfacción Favorable Promedio (4 y 5)</div>
-      </div>
+  populateFactorFilter();
+  renderPlanBanner();
+  renderPlanGrid();
+  renderTransparencyNote();
+}
+
+function renderTransparencyNote() {
+  const cmp = GOLD_DATA.comparacionModalidades;
+  const note = document.getElementById('plan-transparency-note');
+  if (cmp.factores_con_diferencias.length === 0) {
+    note.innerHTML = `
+      ℹ️ <strong>Nota de transparencia:</strong> el texto de los 12 factores del plan de mejoramiento es
+      <strong>idéntico</strong> en el archivo de Investigación y en el de Profundización — así están redactados
+      en ambos <code>.xlsx</code> fuente. Lo único que cambia entre modalidades es el encabezado institucional
+      (<em>${escapeHtml(cmp.campos_cabecera_distintos.join(', ') || 'ninguno')}</em>), visible arriba en el
+      banner de cada modalidad. El botón "Ver fuente" de cada tarjeta te lleva siempre al archivo real de la
+      modalidad activa (INV o PROF), aunque el contenido textual coincida.
+    `;
+  } else {
+    note.innerHTML = `
+      ℹ️ <strong>Nota de transparencia:</strong> ${cmp.factores_con_diferencias.length} factor(es) tienen
+      contenido distinto entre Investigación y Profundización (calculado campo a campo contra ambos <code>.xlsx</code>).
     `;
   }
+}
 
-  if (filtered.length === 0) {
-    listEl.innerHTML = `<div style="text-align: center; padding: 40px; color: var(--text-soft);">No se encontraron preguntas de la encuesta con los filtros dados.</div>`;
+function populateFactorFilter() {
+  const select = document.getElementById('plan-factor-filter');
+  const factores = GOLD_DATA.factores[state.modalidad];
+  select.innerHTML = '<option value="all">Todos los Factores</option>' +
+    factores.map((f) => {
+      const { numero } = factorNumeroYNombre(f.factor);
+      return `<option value="${escapeHtml(f.factor)}">${escapeHtml(numero)}</option>`;
+    }).join('');
+  state.factorFiltro = 'all';
+}
+
+function renderPlanBanner() {
+  const cab = GOLD_DATA.meta.modalidades[state.modalidad];
+  const stats = GOLD_DATA.stats[state.modalidad];
+  const banner = document.getElementById('plan-modality-banner');
+  banner.classList.toggle('theme-profundizacion', state.modalidad === 'profundizacion');
+  banner.classList.toggle('theme-investigacion', state.modalidad === 'investigacion');
+
+  banner.innerHTML = `
+    <div class="modality-banner-header">
+      <div class="modality-banner-title">
+        ${MODALIDAD_ICON[state.modalidad]} Estás viendo: Modalidad ${MODALIDAD_LABEL[state.modalidad]}
+      </div>
+      ${fuenteHtml(cab.fuente, 'Ver cabecera en el archivo fuente')}
+    </div>
+    <div class="modality-banner-grid">
+      <div class="modality-banner-item"><span>Archivo Fuente</span><strong>${escapeHtml(fileLabel(cab.fuente.archivo))}</strong></div>
+      <div class="modality-banner-item"><span>Registro Calificado</span><strong>${escapeHtml(cab.registro_calificado)}</strong></div>
+      <div class="modality-banner-item"><span>Vigencia Registro</span><strong>${escapeHtml(cab.registro_calificado_vigencia)}</strong></div>
+      <div class="modality-banner-item"><span>Acreditación Alta Calidad</span><strong>${escapeHtml(cab.acreditacion_alta_calidad)}</strong></div>
+      <div class="modality-banner-item"><span>Vigencia Acreditación</span><strong>${escapeHtml(cab.acreditacion_alta_calidad_vigencia)}</strong></div>
+      <div class="modality-banner-item"><span>Fecha Proyección del Plan</span><strong>${escapeHtml(cab.fecha_proyeccion_plan)}</strong></div>
+      <div class="modality-banner-item"><span>Peso-Prioridad Promedio (12 factores)</span><strong>${stats.peso_prioridad_promedio}</strong></div>
+    </div>
+  `;
+
+  document.getElementById('plan-header-subtitle').innerHTML =
+    `${escapeHtml(cab.macroproceso)} • ${escapeHtml(cab.proceso)} — ` +
+    `<strong>Modalidad activa: ${MODALIDAD_LABEL[state.modalidad]}</strong> ` +
+    `(archivo <code>${escapeHtml(fileLabel(cab.fuente.archivo))}</code>)`;
+}
+
+function renderPlanGrid() {
+  const grid = document.getElementById('plan-grid');
+  const factores = GOLD_DATA.factores[state.modalidad];
+
+  const filtrados = factores.filter((f) => {
+    if (state.factorFiltro !== 'all' && f.factor !== state.factorFiltro) return false;
+    if (state.tipoFiltro !== 'all') {
+      const esOportunidad = (f.tipo || '').toLowerCase().includes('oportunidad');
+      if (state.tipoFiltro === 'Oportunidad' && !esOportunidad) return false;
+      if (state.tipoFiltro === 'Fortaleza' && esOportunidad) return false;
+    }
+    if (state.busqueda) {
+      const haystack = [f.proyecto, f.indicador_cumplimiento, f.meta, f.responsable, f.factor]
+        .join(' ').toLowerCase();
+      if (!haystack.includes(state.busqueda)) return false;
+    }
+    return true;
+  });
+
+  if (filtrados.length === 0) {
+    grid.innerHTML = '<p style="color: var(--text-soft); padding: 20px;">No hay factores que coincidan con el filtro/búsqueda actual.</p>';
     return;
   }
 
-  listEl.innerHTML = filtered.slice(0, 50).map((it, idx) => {
-    let badgeClass = 'high';
-    if (it.favorablePct < 60) badgeClass = 'low';
-    else if (it.favorablePct < 75) badgeClass = 'medium';
+  grid.innerHTML = filtrados.map((f, idx) => renderPlanCard(f, factores.indexOf(f))).join('');
 
-    return `
-      <div class="survey-item-card">
-        <div class="survey-header-row">
-          <span class="survey-factor-tag">${it.factor}</span>
-          <span class="satisfaction-badge ${badgeClass}">
-            ★ ${it.favorablePct}% Favorable (Escala 4 y 5)
-          </span>
-        </div>
-
-        <div class="survey-question-text">${it.item}</div>
-
-        <!-- Horizontal Distribution Bar -->
-        <div class="distribution-bar">
-          ${it.distribucion.map(d => {
-            const pctNum = parseFloat(d.porcentaje.replace('%', '')) || 0;
-            if (pctNum <= 0) return '';
-            let optClass = 'opt-other';
-            if (d.opcion === '1') optClass = 'opt-1';
-            else if (d.opcion === '2') optClass = 'opt-2';
-            else if (d.opcion === '3') optClass = 'opt-3';
-            else if (d.opcion === '4') optClass = 'opt-4';
-            else if (d.opcion === '5') optClass = 'opt-5';
-
-            return `
-              <div class="dist-slice ${optClass}" style="width: ${pctNum}%;" title="Opción ${d.opcion}: ${d.cantidad} respuestas (${d.porcentaje})">
-                ${pctNum >= 12 ? d.opcion + ' (' + Math.round(pctNum) + '%)' : ''}
-              </div>
-            `;
-          }).join('')}
-        </div>
-
-        <div class="dist-legend">
-          <span>Respuestas: <strong>${it.respuestas}</strong></span>
-          ${it.distribucion.map(d => `
-            <span>
-              <span class="legend-dot" style="background: ${getOptColor(d.opcion)};"></span>
-              ${d.opcion}: ${d.cantidad} (${d.porcentaje})
-            </span>
-          `).join('')}
-        </div>
-      </div>
-    `;
-  }).join('') + (filtered.length > 50 ? `<div style="text-align: center; padding: 12px; color: var(--text-soft); font-size: 13px;">Mostrando los primeros 50 ítems de ${filtered.length}. Utilice los filtros para explorar factores específicos.</div>` : '');
-}
-
-function getOptColor(opt) {
-  switch (opt) {
-    case '1': return '#EF4444';
-    case '2': return '#F97316';
-    case '3': return '#FBBF24';
-    case '4': return '#34D399';
-    case '5': return '#10B981';
-    default: return '#64748B';
-  }
-}
-
-// ==========================================================================
-// 6. ANÁLISIS CUALITATIVO
-// ==========================================================================
-function initAnalisisCualitativo() {
-  const container = document.getElementById('analisis-cualitativo-container');
-  if (!container) return;
-
-  const estamentos = [
-    { key: 'estudiantes', label: 'Estudiantes (35 participantes)', color: 'var(--ud-blue)' },
-    { key: 'docentes', label: 'Docentes (9 participantes)', color: '#047857' },
-    { key: 'directivos', label: 'Directivos (2 participantes)', color: '#B45309' }
-  ];
-
-  let html = '';
-
-  estamentos.forEach(est => {
-    const list = MCIC_DATA.analisisCualitativo[est.key] || [];
-    html += `
-      <div style="margin-bottom: 30px;">
-        <div style="background: var(--bg-subtle); border-left: 4px solid ${est.color}; padding: 10px 18px; border-radius: var(--radius-sm); margin-bottom: 16px;">
-          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main);">Apreciación de ${est.label}</h3>
-          <p style="font-size: 12.5px; color: var(--text-muted);">Síntesis cualitativa extraída de los instrumentos aplicados en 2026-1</p>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 16px;">
-          ${list.map(f => `
-            <div class="card" style="margin-bottom: 0;">
-              <h4 style="font-size: 14px; font-weight: 800; color: var(--ud-blue); margin-bottom: 10px; border-bottom: 1px solid var(--border-color); padding-bottom: 6px;">
-                ${f.factor}
-              </h4>
-              ${f.parrafos.map(p => `
-                <p style="font-size: 13px; color: var(--text-muted); line-height: 1.55; margin-bottom: 8px;">
-                  ${p}
-                </p>
-              `).join('')}
-            </div>
-          `).join('')}
-        </div>
-      </div>
-    `;
+  grid.querySelectorAll('[data-open-modal]').forEach((el) => {
+    el.addEventListener('click', () => openFactorModal(state.modalidad, parseInt(el.dataset.openModal, 10)));
   });
-
-  container.innerHTML = html;
 }
 
-// ==========================================================================
-// 7. AUTOEVALUACIÓN, PONDERACIONES & SWOT
-// ==========================================================================
-function initAutoevaluacion() {
-  renderPonderacionesCNA();
-  renderSWOT();
-  renderDocentes();
-  renderProyectosRoadmap();
-}
-
-function renderPonderacionesCNA() {
-  const container = document.getElementById('cna-weights-grid');
-  if (!container) return;
-
-  container.innerHTML = MCIC_DATA.factorsCNA.map(f => `
-    <div class="weight-card">
-      <div class="weight-header">
-        <span class="weight-factor-num">Factor ${f.numero}</span>
-        <span class="weight-pct-pill">${f.ponderacion}</span>
+function renderPlanCard(f, indexEnModalidad) {
+  const { numero, nombre } = factorNumeroYNombre(f.factor);
+  const esFortaleza = (f.tipo || '').toLowerCase().includes('fortaleza');
+  return `
+    <div class="plan-card ${esFortaleza ? 'fortaleza' : ''}">
+      <div>
+        <div class="plan-card-header">
+          <span class="factor-tag">${escapeHtml(numero)}</span>
+          <div style="display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-end;">
+            ${modalidadTagHtml(state.modalidad)}
+            <span class="type-tag ${esFortaleza ? 'fortaleza' : 'oportunidad'}">${escapeHtml(f.tipo || 'Sin especificar')}</span>
+          </div>
+        </div>
+        <h3>${escapeHtml(f.proyecto || nombre)}</h3>
+        <p class="plan-card-desc">${escapeHtml(f.descripcion)}</p>
+        <div class="plan-meta-box">
+          <div class="plan-meta-row"><span>Peso-Prioridad</span><span>${escapeHtml(f.peso_prioridad)} / 10</span></div>
+          <div class="plan-meta-row"><span>Periodo Ejecución</span><span>${formatFecha(f.periodo_inicio)} – ${formatFecha(f.periodo_fin)}</span></div>
+          <div class="plan-meta-row"><span>Responsable</span><span>${escapeHtml(f.responsable)}</span></div>
+        </div>
       </div>
-      <h4>${f.nombre}</h4>
-      <ul class="caract-list">
-        ${f.caracteristicas.map(c => `
-          <li>
-            <span>${c.nombre}</span>
-            <span>${c.ponderacion}</span>
-          </li>
-        `).join('')}
-      </ul>
-    </div>
-  `).join('');
-}
-
-function renderSWOT() {
-  const container = document.getElementById('swot-container');
-  if (!container) return;
-
-  container.innerHTML = MCIC_DATA.swot.map(s => `
-    <div class="swot-factor-block">
-      <div class="swot-factor-title">${s.titulo}</div>
-      <div class="swot-columns">
-        <div class="swot-col fortalezas">
-          <h5><span>✓</span> Fortalezas Institucionales</h5>
-          <ul class="swot-list">
-            ${s.items.filter(i => i.fortaleza).map(i => `<li>${i.fortaleza}</li>`).join('')}
-          </ul>
-        </div>
-        <div class="swot-col oportunidades">
-          <h5><span>▲</span> Oportunidades de Mejoramiento</h5>
-          <ul class="swot-list">
-            ${s.items.filter(i => i.oportunidad).map(i => `<li>${i.oportunidad}</li>`).join('')}
-          </ul>
-        </div>
+      <div class="plan-card-actions">
+        <button class="btn btn-primary" style="font-size:12px; padding:6px 12px;" data-open-modal="${indexEnModalidad}">Ver detalle completo</button>
+        ${fuenteHtml(f.fuente, 'Ver fuente')}
       </div>
     </div>
-  `).join('');
-}
-
-function renderDocentes() {
-  const container = document.getElementById('docentes-table-body');
-  if (!container) return;
-
-  container.innerHTML = MCIC_DATA.docentes.map((d, i) => `
-    <tr style="border-bottom: 1px solid var(--border-color);">
-      <td style="padding: 10px 12px; font-size: 13px; font-weight: 700; color: var(--text-main);">${i + 1}. ${d.nombre}</td>
-      <td style="padding: 10px 12px; font-size: 12.5px; color: var(--ud-blue); font-weight: 600;">${d.vinculacion}</td>
-    </tr>
-  `).join('');
-}
-
-function renderProyectosRoadmap() {
-  const container = document.getElementById('proyectos-table-body');
-  if (!container) return;
-
-  container.innerHTML = MCIC_DATA.proyectosEnfasis.map(p => `
-    <tr style="border-bottom: 1px solid var(--border-color); font-weight: ${p.enfasis === 'Total' ? '800' : 'normal'};">
-      <td style="padding: 8px 12px; font-size: 13px;">${p.enfasis}</td>
-      <td style="padding: 8px 12px; font-size: 14px; text-align: right; color: var(--ud-blue); font-weight: 800;">${p.proyectos}</td>
-    </tr>
-  `).join('');
-
-  const actContainer = document.getElementById('actividades-2026-container');
-  if (actContainer) {
-    actContainer.innerHTML = MCIC_DATA.actividades2026.map(a => `
-      <div style="background: white; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 10px;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
-          <strong style="font-size: 13px; color: var(--ud-blue);">${a.actividad}</strong>
-          <span style="font-size: 11.5px; font-weight: 700; color: var(--ud-gold-dark);">${a.fecha}</span>
-        </div>
-        <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 4px;">${a.objetivo}</p>
-        <span style="font-size: 11px; color: var(--text-soft);">Participantes: ${a.participantes}</span>
-      </div>
-    `).join('');
-  }
+  `;
 }
 
 // ==========================================================================
-// 8. DOCUMENTOS REPOSITORIO
+// MODAL DE DETALLE DE FACTOR
+// ==========================================================================
+function initModal() {
+  const overlay = document.getElementById('modal-overlay');
+  document.getElementById('modal-close-btn').addEventListener('click', () => overlay.classList.remove('open'));
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) overlay.classList.remove('open');
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') overlay.classList.remove('open');
+  });
+}
+
+function openFactorModal(modalidad, index) {
+  const f = GOLD_DATA.factores[modalidad][index];
+  const { numero, nombre } = factorNumeroYNombre(f.factor);
+  document.getElementById('modal-title').textContent = `${numero} — ${nombre}`;
+
+  const seguimientoTexto = (corte) => {
+    const c = f.seguimiento[corte];
+    const hayDatos = c.fecha_seguimiento || c.descripcion_avance_cualitativo || c.balance_cualitativo;
+    return hayDatos
+      ? `${escapeHtml(c.fecha_seguimiento || '')} — ${escapeHtml(c.descripcion_avance_cualitativo || c.balance_cualitativo || '')}`
+      : '<em style="color: var(--text-soft);">Sin reportes registrados a la fecha en el archivo fuente.</em>';
+  };
+
+  document.getElementById('modal-body').innerHTML = `
+    <div style="display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap;">
+      ${modalidadTagHtml(modalidad)}
+      <span class="type-tag ${(f.tipo || '').toLowerCase().includes('fortaleza') ? 'fortaleza' : 'oportunidad'}">${escapeHtml(f.tipo)}</span>
+      ${fuenteHtml(f.fuente)}
+    </div>
+    <p style="margin-bottom:12px;"><strong>Proyecto / Acción global:</strong><br>${escapeHtml(f.proyecto)}</p>
+    <p style="margin-bottom:12px;"><strong>Origen:</strong> ${escapeHtml(f.origen)}</p>
+    <p style="margin-bottom:12px;"><strong>Descripción:</strong><br>${escapeHtml(f.descripcion)}</p>
+    <p style="margin-bottom:12px;"><strong>Objetivo:</strong><br>${escapeHtml(f.objetivo)}</p>
+    <p style="margin-bottom:12px;"><strong>Articulación con el Plan Institucional:</strong><br>${escapeHtml(f.articulacion_plan_institucional)}</p>
+
+    <div class="plan-meta-box" style="margin-bottom:14px;">
+      <div class="plan-meta-row"><span>Periodo de Ejecución</span><span>${formatFecha(f.periodo_inicio)} – ${formatFecha(f.periodo_fin)}</span></div>
+      <div class="plan-meta-row"><span>Peso-Prioridad</span><span>${escapeHtml(f.peso_prioridad)} / 10</span></div>
+      <div class="plan-meta-row"><span>Indicador de Cumplimiento</span><span>${escapeHtml(f.indicador_cumplimiento)}</span></div>
+      <div class="plan-meta-row"><span>Tipo de Indicador</span><span>${escapeHtml(f.tipo_indicador)}</span></div>
+      <div class="plan-meta-row"><span>Línea Base</span><span>${escapeHtml(f.linea_base)}</span></div>
+      <div class="plan-meta-row"><span>Meta</span><span>${escapeHtml(f.meta)}</span></div>
+      <div class="plan-meta-row"><span>Periodicidad</span><span>${escapeHtml(f.periodicidad)}</span></div>
+      <div class="plan-meta-row"><span>Tipo de Actividad</span><span>${escapeHtml(f.tipo_actividad)}</span></div>
+      <div class="plan-meta-row"><span>Apoyo Requerido</span><span>${['programa_academico', 'facultad', 'institucion'].filter((k) => f.apoyo_requerido[k]).map((k) => ({ programa_academico: 'Programa', facultad: 'Facultad', institucion: 'Institución' }[k])).join(', ') || '—'}</span></div>
+      <div class="plan-meta-row"><span>Responsable</span><span>${escapeHtml(f.responsable)}</span></div>
+      <div class="plan-meta-row"><span>Recursos</span><span>${escapeHtml(f.recursos)}</span></div>
+    </div>
+
+    <p style="margin-bottom:8px;"><strong>Actividades requeridas para lograr la meta:</strong></p>
+    <p style="margin-bottom:14px; white-space: pre-line; font-size: 13px; color: var(--text-muted);">${escapeHtml(f.actividades)}</p>
+
+    <p style="margin-bottom:8px;"><strong>Seguimiento (Corte 1):</strong></p>
+    <p style="margin-bottom:12px; font-size: 13px;">${seguimientoTexto('corte_1')}</p>
+    <p style="margin-bottom:8px;"><strong>Seguimiento (Corte 2):</strong></p>
+    <p style="margin-bottom:12px; font-size: 13px;">${seguimientoTexto('corte_2')}</p>
+    <p style="margin-bottom:8px;"><strong>Balance acumulado / evaluación:</strong></p>
+    <p style="font-size: 13px;">${seguimientoTexto('acumulado')}</p>
+  `;
+
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+// ==========================================================================
+// DOCUMENTOS FUENTE
 // ==========================================================================
 function initDocumentos() {
-  const gridEl = document.getElementById('documentos-grid');
-  if (!gridEl) return;
+  const sharepointUrl = GOLD_DATA.meta.sharepointUrl;
+  document.getElementById('sharepoint-link-btn').href = sharepointUrl;
+  document.getElementById('sharepoint-link-banner').href = sharepointUrl;
 
-  gridEl.innerHTML = MCIC_DATA.documentos.map(doc => {
-    const isDocx = doc.tipo === 'DOCX';
+  const grid = document.getElementById('documentos-grid');
+  grid.innerHTML = GOLD_DATA.documentosPrincipales.map((doc) => {
+    const ext = doc.extension;
     return `
-      <div class="doc-card">
-        <div>
-          <div class="doc-card-top">
-            <div class="doc-icon ${isDocx ? 'docx' : 'xlsx'}">${doc.tipo}</div>
-            <div>
-              <div class="doc-name">${doc.nombre}</div>
-              <span style="font-size: 11px; color: var(--ud-blue); font-weight: 700;">${doc.categoria}</span>
-            </div>
+    <div class="doc-card">
+      <div>
+        <div class="doc-card-top">
+          <div class="doc-icon ${ext}">${ext.toUpperCase()}</div>
+          <div>
+            <div class="doc-name">${escapeHtml(doc.titulo)}</div>
+            ${modalidadTagHtml(doc.modalidad)}
           </div>
-          <p class="doc-desc">${doc.descripcion}</p>
-          <code class="doc-path-code" title="${doc.ruta}">${doc.ruta}</code>
         </div>
-        <div class="doc-footer">
-          <span>Tamaño: <strong>${doc.tamano}</strong></span>
-          <a href="${encodeURI(doc.ruta)}" download="${doc.nombre}" class="btn btn-outline" style="padding: 4px 10px; font-size: 11px; text-decoration: none; color: var(--ud-blue); font-weight: 700;">
-            ⬇️ Abrir / Descargar
-          </a>
-        </div>
+        <span class="doc-path-code">${escapeHtml(doc.archivo)}</span>
       </div>
-    `;
+      <div class="doc-footer">
+        <span>${escapeHtml(doc.tamano_legible)}</span>
+        <a class="btn btn-outline" style="font-size:12px; padding:6px 12px;" href="${fileHref(doc.archivo)}" target="_blank" rel="noopener noreferrer">Abrir archivo ↗</a>
+      </div>
+    </div>
+  `;
   }).join('');
 }
 
 // ==========================================================================
-// 9. MODAL COMPONENT
+// CATÁLOGO COMPLETO DE Data/Bronze (data RAW)
 // ==========================================================================
-function initModal() {
-  const overlay = document.getElementById('modal-overlay');
-  const closeBtn = document.getElementById('modal-close-btn');
+function initBronzeCatalog() {
+  const manifest = GOLD_DATA.documentosBronze;
+  const stats = GOLD_DATA.documentosBronzeStats;
 
-  if (closeBtn && overlay) {
-    closeBtn.addEventListener('click', () => {
-      overlay.classList.remove('open');
-    });
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) {
-        overlay.classList.remove('open');
-      }
-    });
-  }
+  const carpetaSelect = document.getElementById('bronze-carpeta-filter');
+  const carpetas = Object.keys(stats.por_carpeta_raiz).sort();
+  carpetaSelect.innerHTML = '<option value="all">Todas las carpetas</option>' +
+    carpetas.map((c) => `<option value="${escapeHtml(c)}">${escapeHtml(c)} (${stats.por_carpeta_raiz[c]})</option>`).join('');
+
+  const extSelect = document.getElementById('bronze-extension-filter');
+  const extensiones = Object.keys(stats.por_extension).sort();
+  extSelect.innerHTML = '<option value="all">Todos los tipos de archivo</option>' +
+    extensiones.map((e) => `<option value="${escapeHtml(e)}">.${escapeHtml(e)} (${stats.por_extension[e]})</option>`).join('');
+
+  document.getElementById('bronze-modalidad-filter').addEventListener('change', (e) => {
+    bronzeState.modalidad = e.target.value;
+    renderBronzeTable();
+  });
+  carpetaSelect.addEventListener('change', (e) => {
+    bronzeState.carpeta = e.target.value;
+    renderBronzeTable();
+  });
+  extSelect.addEventListener('change', (e) => {
+    bronzeState.extension = e.target.value;
+    renderBronzeTable();
+  });
+  document.getElementById('bronze-search').addEventListener('input', (e) => {
+    bronzeState.busqueda = e.target.value.trim().toLowerCase();
+    renderBronzeTable();
+  });
+
+  renderBronzeTable();
 }
 
-function showModal(title, bodyHtml) {
-  const overlay = document.getElementById('modal-overlay');
-  const titleEl = document.getElementById('modal-title');
-  const bodyEl = document.getElementById('modal-body');
+function renderBronzeTable() {
+  const manifest = GOLD_DATA.documentosBronze;
+  const stats = GOLD_DATA.documentosBronzeStats;
 
-  if (overlay && titleEl && bodyEl) {
-    titleEl.textContent = title;
-    bodyEl.innerHTML = bodyHtml;
-    overlay.classList.add('open');
+  const filtrados = manifest.filter((doc) => {
+    if (bronzeState.modalidad !== 'all' && doc.modalidad !== bronzeState.modalidad) return false;
+    if (bronzeState.carpeta !== 'all' && doc.carpeta_raiz !== bronzeState.carpeta) return false;
+    if (bronzeState.extension !== 'all' && doc.extension !== bronzeState.extension) return false;
+    if (bronzeState.busqueda && !doc.archivo.toLowerCase().includes(bronzeState.busqueda)) return false;
+    return true;
+  });
+
+  document.getElementById('bronze-count-label').textContent =
+    `Mostrando ${filtrados.length} de ${stats.total} archivos reales en Data/Bronze/ (recorrido automático por app/build_bronze_manifest.py).`;
+
+  const tbody = document.getElementById('bronze-table-body');
+  if (filtrados.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="6" style="color: var(--text-soft); padding: 16px;">Ningún archivo coincide con el filtro/búsqueda actual.</td></tr>';
+    return;
   }
+
+  tbody.innerHTML = filtrados.map((doc) => `
+    <tr>
+      <td>
+        <span class="bronze-file-name">${escapeHtml(doc.nombre)}</span>
+        <span class="bronze-path">${escapeHtml(doc.carpeta_contenedora)}</span>
+      </td>
+      <td>${escapeHtml(doc.carpeta_raiz)}</td>
+      <td>${modalidadTagHtml(doc.modalidad)}</td>
+      <td><span class="bronze-ext-badge">${escapeHtml(doc.extension)}</span></td>
+      <td>${escapeHtml(doc.tamano_legible)}</td>
+      <td><a class="btn btn-outline" style="font-size:11.5px; padding:5px 10px;" href="${fileHref(doc.archivo)}" target="_blank" rel="noopener noreferrer">Abrir ↗</a></td>
+    </tr>
+  `).join('');
 }

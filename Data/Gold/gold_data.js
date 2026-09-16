@@ -1,0 +1,10717 @@
+const GOLD_DATA = {
+  "meta": {
+    "institucion": "Universidad Distrital Francisco José de Caldas",
+    "programa": "MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES",
+    "facultad": "INGENIERÍA ",
+    "sharepointUrl": "https://udistritaleduco-my.sharepoint.com/:f:/g/personal/mcic_udistrital_edu_co/IgDD4JkqpY8YRqm7HlQGnwa7ATrRmbdIThjfnlLXwk2FPDM?e=kfKTko",
+    "modalidades": {
+      "investigacion": {
+        "codigo_formato": "Código: \n CC-FR-001",
+        "version_formato": "Versión:  04",
+        "fecha_aprobacion_formato": "Fecha de Aprobación:  \n2025/09/29",
+        "macroproceso": "Macroproceso: Direccionamiento Estratégico",
+        "proceso": "Proceso: Curriculo y Calidad",
+        "facultad": "INGENIERÍA ",
+        "programa_academico": "MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES",
+        "registro_calificado": "Prof. 9925 21 JUN 2023/       Inv. 16163 05 SEP 2023",
+        "registro_calificado_vigencia": "7 AÑOS",
+        "acreditacion_alta_calidad": "24858 30 DIC 2022",
+        "acreditacion_alta_calidad_vigencia": "4 AÑOS",
+        "nivel_formacion": "POSTGRADO",
+        "fecha_proyeccion_plan": "2026-2027",
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": "2-9 (cabecera)"
+        }
+      },
+      "profundizacion": {
+        "codigo_formato": "Código: \n CC-FR-001",
+        "version_formato": "Versión:  04",
+        "fecha_aprobacion_formato": "Fecha de Aprobación:  \n2025/09/29",
+        "macroproceso": "Macroproceso: Direccionamiento Estratégico",
+        "proceso": "Proceso: Curriculo y Calidad",
+        "facultad": "INGENIERÍA ",
+        "programa_academico": "MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES",
+        "registro_calificado": "Resolución 9925 21 JUN 2023",
+        "registro_calificado_vigencia": "7 AÑOS",
+        "acreditacion_alta_calidad": "24858 30 DIC 2022",
+        "acreditacion_alta_calidad_vigencia": "4 AÑOS",
+        "nivel_formacion": "POSTGRADO",
+        "fecha_proyeccion_plan": "2026-2027",
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": "2-9 (cabecera)"
+        }
+      }
+    },
+    "generadoPor": "app/run_pipeline.py (Bronze -> Silver -> Gold)"
+  },
+  "factores": {
+    "investigacion": [
+      {
+        "factor": "FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL.",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "De acuerdo con los lineamientos institucionales vigentes y los procesos de Autoevaluación permanente desarrollados por la Maestría, es pertinente fortalecer la socialización del Proyecto Educativo del Programa, los mecanismos de seguimiento institucional y la participación de la comunidad académica en los procesos de autoevaluación y autorregulación.",
+        "proyecto": "Estrategia de socialización y apropiación del PEP y del sistema de autoevaluación",
+        "objetivo": "Fortalecer la socialización del PEP, los indicadores de gestión y las acciones de mejoramiento continuo por parte de estudiantes y docentes.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Número de jornadas de socialización ejecutadas y documentadas",
+        "tipo_indicador": "Resultado",
+        "linea_base": "jornadas de socialización registradas en 2026-1",
+        "meta": "3 jornadas de socialización ejecutadas y documentadas",
+        "actividades": "a. Diseñar cronograma; \nb. Convocar estudiantes y docentes; \nc. Socializar con la comunidad académica el documento del Proyecto Educativo de Programa actualizado.\nd. Divulgar indicadores y resultados. ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": false,
+          "institucion": false
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 15
+        }
+      },
+      {
+        "factor": "FACTOR 2. ESTUDIANTES",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer las estrategias de divulgación y posicionamiento de la Maestría en sus dos componentes (Investigación y Profundización) para favorecer el ingreso de nuevos estudiantes, así como promover el conocimiento de los estatutos, los estímulos académicos, los mecanismos de seguimiento estudiantil y el desarrollo de competencias transversales asociadas al liderazgo, la toma de decisiones y el trabajo colaborativo, contribuyendo al fortalecimiento del proceso formativo y la permanencia estudiantil.",
+        "proyecto": "Estrategia de divulgación, acompañamiento y fortalecimiento de competencias estudiantiles",
+        "objetivo": "Fortalecer la divulgación y posicionamiento de las Maestrías en Investigación y Profundización, así como promover el conocimiento de los mecanismos institucionales de apoyo y el desarrollo de competencias transversales que contribuyan al ingreso, permanencia y fortalecimiento del proceso formativo de los estudiantes.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad. y Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Número de actualizaciones realizadas en las páginas web; porcentaje de información académica actualizada y publicada; número de piezas promocionales producidas y divulgadas.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Información de la oferta académica publicada en las páginas web de la Maestría correspondiente al semestre anterior, con necesidad de actualización y fortalecimiento de los procesos de divulgación institucional.",
+        "meta": "Realizar al menos dos (2) actualizaciones anuales de las páginas web de las Maestrías en Investigación y en Profundización, garantizando la publicación oportuna del 100 % de la información relacionada con oferta académica, requisitos, calendarios y procesos de inscripción y admisión, así como producir y divulgar mínimo dos (2) piezas de material promocional. ",
+        "actividades": "a) Actualización web, \nb) Verificación de calendario académico,\nc) Actualización de formatos, elaboración de materiales promocionales, divulgación digital\nd) Seguimiento a la información publicada. \ne) Realizar jornadas de inducción y reinducción; divulgar estatutos y estímulos  ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 16
+        }
+      },
+      {
+        "factor": "FACTOR 3. PROFESORES",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la formación y actualización del cuerpo docente en aspectos didácticos, pedagógicos, epistemológicos y de enseñanza en segunda lengua, con el propósito de garantizar la coherencia del proceso formativo con la propuesta curricular, promover la innovación en las prácticas de enseñanza y fortalecer la internacionalización del currículo. Esta oportunidad de mejora contribuye al Factor 3. Profesores y se articula con el Factor 10. Medios educativos y ambientes de aprendizaje mediante el fortalecimiento del uso pedagógico de recursos y tecnologías educativas.",
+        "proyecto": "Procesos Institucionales Capacitación permanente del equipo docente",
+        "objetivo": "Fortalecer las competencias pedagógicas, didácticas, tecnológicas y de internacionalización del cuerpo docente, mediante procesos de formación y actualización permanente que contribuyan a la calidad del proceso formativo, la innovación en los ambientes de aprendizaje y la coherencia con la propuesta curricular y los resultados de aprendizaje del programa.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental. y Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 6,
+        "indicador_cumplimiento": "Porcentaje de profesores de las Maestrías que participan como asistentes en actividades de capacitación académica y/o administrativa.",
+        "tipo_indicador": "Resultado",
+        "linea_base": "Número de docentes de la Maestría capacitados en el año anterior.",
+        "meta": "Lograr que mínimo el 15 % de los profesores de las Maestrías participen como asistentes en actividades de capacitación académica y/o administrativa durante el periodo de seguimiento.",
+        "actividades": "a) Consolidar periódicamente informes sobre la participación de los docentes de las Maestrías en actividades de formación y capacitación.                                                                                                                                                     b) Analizar  la incidencia de las actividades de formación y capacitación en el proceso formativo de las Maestrías. ",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 17
+        }
+      },
+      {
+        "factor": "FACTOR 4. EGRESADOS",
+        "tipo": "Fortaleza",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer el relacionamiento con los egresados mediante mecanismos de seguimiento, comunicación y participación académica que permitan conocer el impacto de las Maestrías en Investigación y en Profundización en el ámbito profesional, académico e investigativo, así como consolidar canales institucionales (página web, redes sociales y eventos académicos) y desarrollar un estudio de impacto que contribuya al mejoramiento continuo y a la evidencia de la pertinencia del programa.",
+        "proyecto": "Estrategia de seguimiento, comunicación y evaluación del impacto de egresados",
+        "objetivo": "Fortalecer el vínculo con los egresados de la Maestría mediante mecanismos de seguimiento, comunicación y participación académica que permitan identificar su impacto profesional, académico e investigativo y utilizar esta información para retroalimentar los procesos de mejoramiento continuo y evidenciar la pertinencia y relevancia de la formación ofrecida por el programa.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 7,
+        "indicador_cumplimiento": "Porcentaje de egresados con información actualizada en el módulo institucional de Hoja de Vida de Egresados.",
+        "tipo_indicador": "Gestión",
+        "linea_base": "Base de datos de egresados",
+        "meta": "Lograr que al menos el 50 % de los egresados de las Maestrías cuenten con información actualizada en el módulo institucional de Hoja de Vida de Egresados desarrollado por la OATI, fortaleciendo la disponibilidad y sistematización de información para el seguimiento, caracterización y análisis de su trayectoria e impacto durante el periodo 2026-2027.",
+        "actividades": "a) Revisar y depurar la información disponible de los egresados de las Maestrías.\nb) Socializar con los egresados el nuevo módulo institucional y orientar el proceso para el registro y actualización de su información.\nc) Desarrollar estrategias de comunicación y contacto con los egresados para promover la actualización de sus datos y hoja de vida en el sistema institucional.\nd) Realizar seguimiento periódico al porcentaje de egresados que han actualizado su información en el módulo.\ne) Utilizar la información consolidada en el sistema institucional como insumo para la caracterización, seguimiento y análisis del impacto de los egresados de las Maestrías.",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 18
+        }
+      },
+      {
+        "factor": "FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la integración de los Resultados de Aprendizaje en la propuesta formativa de las Maestrías en sus dos componentes (investigación y profundización), en coherencia con el Decreto 1330 de 2019 y el Acuerdo 002 de 2020, mediante la consolidación de un sistema de evaluación y seguimiento que permita valorar el avance del proceso formativo, garantizar la retroalimentación permanente de los procesos de enseñanza y aprendizaje y orientar la actualización curricular de acuerdo con las demandas sociales, tecnológicas y profesionales del campo de las ciencias de la información y las comunicaciones. Esta oportunidad de mejora tiene carácter transversal y contribuye al fortalecimiento de los Factores 2 y 6 ",
+        "proyecto": "Actualización curricular y fortalecimiento de la retroalimentación de resultados de aprendizaje",
+        "objetivo": "Fortalecer la integración de los Resultados de Aprendizaje en la propuesta curricular de las Maestrías en Investigación y en Profundización mediante la consolidación de un sistema de evaluación, seguimiento y retroalimentación que permita valorar el avance del proceso formativo, orientar la actualización curricular y favorecer el logro de los resultados de aprendizaje",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 8,
+        "indicador_cumplimiento": "Porcentaje de Resultados de Aprendizaje definidos y asociados a su correspondiente sistema de evaluación.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Ejes de formación y competencias definidos por los programas de Maestría en Investigación y en Profundización.",
+        "meta": "Resultados de Aprendizaje 100% paras las Maestrías en Investigación y en Profundización y el correspondiente sistema de evaluación.",
+        "actividades": "a) Definición y socialización de ejes de fornacióny competencias de los proyectos curriculares  con el equipo docente. b) definición de los Resultados de Aprendizaje a nivel microcurricular de las Maestrías en Investigación y en Profundización                                                                                                                                                                                                                                                                                               ",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 19
+        }
+      },
+      {
+        "factor": "FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la estrategia de flexibilización curricular y acompañamiento académico dirigida a estudiantes que han culminado todos los espacios académicos del programa y tienen pendiente únicamente el trabajo de grado, mediante el cambio de modalidad (profundización/investigación), la homologación de los espacios académicos cursados y el seguimiento académico-administrativo, con el fin de favorecer la permanencia, evitar la pérdida de la calidad de estudiante y promover la graduación oportuna.",
+        "proyecto": "Estrategia de flexibilización curricular y acompañamiento para la graduación oportuna",
+        "objetivo": "Fortalecer la permanencia y promover la graduación oportuna de los estudiantes de la Maestría en Ciencias de la Información y las Comunicaciones mediante una estrategia de flexibilización curricular, homologación de espacios académicos y acompañamiento académico-administrativo para estudiantes que únicamente tienen pendiente el trabajo de grado y presentan riesgo de pérdida de la calidad de estudiante.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad. y Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 6,
+        "indicador_cumplimiento": "Porcentaje de estudiantes identificados con pendiente exclusivo de trabajo de grado y riesgo de pérdida de calidad que culminan satisfactoriamente el trabajo de grado y obtienen su grado académico.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Casos de flexibilización curricular y homologación para estudiantes con pendiente exclusivo de trabajo de grado. ",
+        "meta": "Implementar y consolidar la estrategia para que al menos el 50% de los estudiantes identificados con pendiente exclusivo de trabajo de grado y riesgo de pérdida de calidad de estudiante culminen su trabajo de grado y obtengan su grado académico durante el periodo 2026-2027",
+        "actividades": "a) Identificar semestralmente estudiantes con pendiente exclusivo de trabajo de grado.\nb) Realizar análisis académico y normativo de viabilidad para cambio de modalidad (profundización / investigación).\nc) Gestionar los procesos de homologación de espacios académicos cursados y aprobados.\nd) Realizar seguimiento periódico al avance de los trabajos de grado y a los tiempos de permanencia.\ne) Consolidar reportes semestrales de estudiantes beneficiados, trabajos sustentados y graduados efectivos derivados de la estrategia.",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 20
+        }
+      },
+      {
+        "factor": "FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer y consolidar las alianzas, convenios y mecanismos de cooperación con instituciones nacionales e internacionales, promoviendo la movilidad académica y la participación de docentes y estudiantes en redes de intercambio científico e investigación, con el fin de ampliar la proyección y los contextos de incidencia académica e investigativa de las Maestrías en Investigación y en Profundización.",
+        "proyecto": "Cooperación interinstitucional de orden Nacional e internacional de la MCIC",
+        "objetivo": "Incrementar la interacción del programa con instituciones nacionales e internacionales y ampliar las oportunidades de movilidad y cooperación académica.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 3. Integrar las funciones universitarias por medio de la investigación, creación, innovación para la ampliación del conocimiento como bien público y para la solución de problemas de la ciudad-región y de la sociedad en general.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Porcentaje de incremento en el número de convenios activos, actividades de cooperación y participaciones en redes académicas respecto al periodo base.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Número de convenios vigentes para la Maestría en el año anterior",
+        "meta": "Incrementar en al menos un 30 % el número de convenios activos y actividades de  cooperación o participación en redes académicas para las Maestrías en Investigación y en Profundización con el fin que se realice la participación de la comunidad académica ",
+        "actividades": "a)Diagnóstico de los convenios vigentes aplicables a las Maestrías. b) elaborar un diagnostico del las organizaciones o entidades Nacionales e Internacionales con las que es pertinente que las Maestrías establezcan acciones de cooperación.   \nb) Establecer contacto con entidades o instituciones del orden Nacional e Internacional para construir un diálogo investigativo y académico que aporte a los procesos académicos de los que son parte los estudiantes de las Maestrías.  \nc) Definir las acciones para formalización de convenios en articulación con la Unidad de Relaciones Internacionales e Interinstitucionales de la Universidad.\nd) Promover la participación de la comunidad académica en los convenios formalizados.",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 21
+        }
+      },
+      {
+        "factor": "FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN, ASOCIADOS AL PROGRAMA ACADÉMICO",
+        "tipo": "Fortaleza",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la vinculación de los estudiantes a los procesos y proyectos de investigación desarrollados en las Maestrías, con el fin de consolidar competencias investigativas y de profundización coherentes con el perfil de formación de cada programa. Esta acción contribuye al fortalecimiento del proceso formativo estudiantil y se articula con el Factor 2. Estudiantes al fortalecer uno de los componentes fundamentales de su formación y su rol dentro de las Maestrías en coherencia con los perfiles académicos propuestos.",
+        "proyecto": "Fortalecimiento de la producción académica y la articulación institucional de la investigación en las Maestría",
+        "objetivo": "Promover la participación de los estudiantes en los procesos y proyectos de investigación de las Maestrías en Investigación y en Profundización, mediante estrategias de vinculación y acompañamiento que consoliden competencias investigativas y de profundización coherentes con los perfiles de formación y contribuyan al fortalecimiento de su proceso formativo y su rol académico dentro del programa",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 3. Integrar las funciones universitarias por medio de la investigación, creación, innovación para la ampliación del conocimiento como bien público y para la solución de problemas de la ciudad-región y de la sociedad en general.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Número de productos académicos o investigativos derivados de los procesos de investigación de las Maestría",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Número de estudiantes que participan en los grupos de investigación que desarrollan proyectos en las Maestrías en Investigación y en Profundización en el año anterior. ",
+        "meta": "incrementar el número de productos académicos o investigativos derivados de los procesos de investigación y profundización de las Maestrías. ",
+        "actividades": "a) Presentar a los nuevos estudiantes en cada cohorte las rutas y procesos de Invetigación en cada una de las Maestrías (Investigación y Profundización).                                                                                                                                                                                                                                                         b) Socializar y vincular de manera permanente las actividades de Investigación y de Profundización en la que pueden participar los estudiantes y su contribución al proceso formativo.    ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 22
+        }
+      },
+      {
+        "factor": "FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la divulgación y apropiación de los servicios de Bienestar Institucional, promoviendo una mayor participación de estudiantes y docentes en las estrategias de desarrollo humano, apoyo socioeconómico, cultura, deporte y salud integral.",
+        "proyecto": "Estrategia de articulación y divulgación de Bienestar Institucional para posgrados",
+        "objetivo": "Promover el acceso y la participación de la comunidad académica del programa en los servicios y actividades de Bienestar Institucional.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Porcentaje de estudiantes activos informados sobre la oferta de actividades y servicios de Bienestar Institucional",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Oferta de actividades y serivcios  de Bienestar Universitario para estudiantes de las Maestrías y del número de estudiantes que acceden.",
+        "meta": "Informar al 100 % de los estudiantes activos de las Maestrías sobre la oferta de actividades y servicios de Bienestar Institucional.",
+        "actividades": "a) Solicitar periodicamente a la Oficina de Bienestar Institucional las activiades y servicios que ofrecen a los estudiantes de las Maestrías.                                                                                                                                              b) Realizar semestralmente la divulgación de las actividades y los servicios que ofrece Bienestar Universitario con el fin que los estudiantes puedan utilizarlos.  ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 23
+        }
+      },
+      {
+        "factor": "FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Respecto a medios educativos y de aprendizaje necesarios en el desarrollo de los procesos de formación se destaca el papel de las tecnologías como escenario para diversificar los modos como se accede al conocimiento y se participa de su generación. Por tal motivo, en este factor se subraya la articulación con instancias de la Universidad para identificar qué recursos aportan en la construcción de ambientes de aprendizaje y de recursos que fortalezcan todos los ámbitos académicos que conforman las Maestrías en Investigación y en Profundización.",
+        "proyecto": "Medios educativos y ambientes de aprendizaje en las Maestrías en Investigación y en Profundizacióon.",
+        "objetivo": "Fortalecer la articulación con las instancias institucionales responsables de los recursos educativos y tecnológicos para identificar, gestionar y consolidar ambientes de aprendizaje y recursos académicos que favorezcan el acceso al conocimiento, la participación en su generación y el desarrollo de los procesos de formación e investigación de las Maestrías en Investigación y en Profundización.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Número de ambientes de aprendizaje diseñados e implementados",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Diagnóstico de los ambientes de aprendizaje y los recursos disponibles para las Maestrías en Investigación y en Profundización.",
+        "meta": "Consolidación de los ambientes de aprendizaje y medios educativos que apoyen los procesos académicos de las Maestrías en Investigación y en Profundización.  ",
+        "actividades": "a) Elaborar un diagnóstico sobre ambientes de aprendizaje y medios educativos disponibles para las Maestrías.                                                                                                                                                                                                              b) Consolidar una propuesta de medios educativos coherentes para los procesos de las Maestrías en articulación con la Unidad Biblioteca, el Comité de Planes TIC y demás instancias que aporten al ejercicio.    ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 24
+        }
+      },
+      {
+        "factor": "FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Con el objetivo de garantizar el desarrollo de los procesos de autoevaluación y la toma de decisiones de manera oportuna, se requiere contar con el Sistema (Metodología) interno de aseguramiento de calidad, desde el cual identificar logros, resultados e impacto de los procesos académicos y administrativos. Así las cosas se considera que este elemento requiere un lugar en el plan de mejoramiento al constituir el soporte de la Acreditación en Alta Calidad en cuanto reconocimiento de procesos desarrollados con altos criterios de gestión curricular y administrativa. ",
+        "proyecto": "Sistema Interno de Aseguramiento de la Calidad",
+        "objetivo": "Consolidar mecanismos de seguimiento, comunicación y articulación institucional que fortalezcan el sistema interno de aseguramiento de la calidad, apoyen los procesos de autoevaluación y mejoren la eficiencia de la gestión académica y administrativa del programa para contribuir al sostenimiento de las condiciones de Acreditación en Alta Calidad.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 5. Consolidar y fortalecer la democracia participativa, la gobernanza y la gobernabilidad para la cohesión de la comunidad universitaria.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Sistema Interno de Aseguramiento de la Calidad estructurado por la Universidad e implementado por las Maestrías en Investigación y en Profundización.",
+        "tipo_indicador": "Gestión",
+        "linea_base": "Lineamientos internos para el desarrollo de procesos de autoevaluación que sustenten el mejoramiento continuo y la calidad",
+        "meta": "Participar del establecimiento del Sistema interno de aseguramiento de calidad en la Universidad.",
+        "actividades": "a) Articular los proceso de las Maestrías en relación con el Sistema Interno de Aseguramiento de la Calidad con las perspectivas y los lineamientos institucionales.                                                    b) Participar en el ejercicio institucional de conformación del Sistema Interno de Aseguramiento de la Calidad propuesto desde los órganos de consulta y decisión de la Universidad.                                                                                                                                            c)  Implementar los lineamientos del Sistema Interno de Aseguramiento de la Calidad en los procesos de Autoevaluación del programa.                                                                                     d) Construir reportes que evidencien apropiación del Sistema Interno de Aseguramiento Calidad en el programa.",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular \nComité Currículo y Calidad de Posgrados\nFacultad de Ingeniería  y Comité Currículo y Calidad Institucional",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 25
+        }
+      },
+      {
+        "factor": "FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la articulación institucional y el seguimiento a las acciones de mejoramiento de la infraestructura física y tecnológica de la Facultad de Ingeniería, con el fin de garantizar condiciones adecuadas para el desarrollo de los procesos académicos, investigativos y administrativos de las Maestrías en Investigación y Profundización.",
+        "proyecto": "Estrategia de articulación institucional y seguimiento al fortalecimiento de la infraestructura física y tecnológica",
+        "objetivo": "Fortalecer la articulación entre las dependencias institucionales y el seguimiento a las acciones de mejoramiento de la infraestructura física y tecnológica de la Facultad de Ingeniería, con el propósito de garantizar condiciones adecuadas para el desarrollo de los procesos académicos, investigativos y administrativos de la Maestría",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Porcentaje proyectado de aprovechamiento de los espacios académicos y tecnológicos asignados a las Maestrías en Investigación y en Profundización en el nuevo edificio de la Facultad de Ingeniería.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Informe del avance de la obra de nueva infraestructura de la Facultad de Ingeniería en el momento de obtención de la Acreditación en Alta Calidad",
+        "meta": "Proyectar un aprovechamiento de al menos el 80 % de los espacios académicos y tecnológicos asignados a las Maestría en el nuevo edificio de la Facultad de Ingeniería, para el desarrollo de sus actividades académicas.",
+        "actividades": "a) Solicitar el informe de avance de la obra al momento de optención de la Acreditación de Alta Calidad. b)Solicitar informes periódicos sobre el avance de la obra de nueva infraestructura de la Facultad de Ingeniería a las instancias lideres del proceso. \nc) Socializar con la comunidad académica las acciones y avances que impacten el funcionamiento de los programas de posgrado.",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 26
+        }
+      }
+    ],
+    "profundizacion": [
+      {
+        "factor": "FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL.",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "De acuerdo con los lineamientos institucionales vigentes y los procesos de Autoevaluación permanente desarrollados por la Maestría, es pertinente fortalecer la socialización del Proyecto Educativo del Programa, los mecanismos de seguimiento institucional y la participación de la comunidad académica en los procesos de autoevaluación y autorregulación.",
+        "proyecto": "Estrategia de socialización y apropiación del PEP y del sistema de autoevaluación",
+        "objetivo": "Fortalecer la socialización del PEP, los indicadores de gestión y las acciones de mejoramiento continuo por parte de estudiantes y docentes.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Número de jornadas de socialización ejecutadas y documentadas",
+        "tipo_indicador": "Resultado",
+        "linea_base": "jornadas de socialización registradas en 2026-1",
+        "meta": "3 jornadas de socialización ejecutadas y documentadas",
+        "actividades": "a. Diseñar cronograma; \nb. Convocar estudiantes y docentes; \nc. Socializar con la comunidad académica el documento del Proyecto Educativo de Programa actualizado.\nd. Divulgar indicadores y resultados. ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": false,
+          "institucion": false
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 15
+        }
+      },
+      {
+        "factor": "FACTOR 2. ESTUDIANTES",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer las estrategias de divulgación y posicionamiento de la Maestría en sus dos componentes (Investigación y Profundización) para favorecer el ingreso de nuevos estudiantes, así como promover el conocimiento de los estatutos, los estímulos académicos, los mecanismos de seguimiento estudiantil y el desarrollo de competencias transversales asociadas al liderazgo, la toma de decisiones y el trabajo colaborativo, contribuyendo al fortalecimiento del proceso formativo y la permanencia estudiantil.",
+        "proyecto": "Estrategia de divulgación, acompañamiento y fortalecimiento de competencias estudiantiles",
+        "objetivo": "Fortalecer la divulgación y posicionamiento de las Maestrías en Investigación y Profundización, así como promover el conocimiento de los mecanismos institucionales de apoyo y el desarrollo de competencias transversales que contribuyan al ingreso, permanencia y fortalecimiento del proceso formativo de los estudiantes.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad. y Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Número de actualizaciones realizadas en las páginas web; porcentaje de información académica actualizada y publicada; número de piezas promocionales producidas y divulgadas.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Información de la oferta académica publicada en las páginas web de la Maestría correspondiente al semestre anterior, con necesidad de actualización y fortalecimiento de los procesos de divulgación institucional.",
+        "meta": "Realizar al menos dos (2) actualizaciones anuales de las páginas web de las Maestrías en Investigación y en Profundización, garantizando la publicación oportuna del 100 % de la información relacionada con oferta académica, requisitos, calendarios y procesos de inscripción y admisión, así como producir y divulgar mínimo dos (2) piezas de material promocional. ",
+        "actividades": "a) Actualización web, \nb) Verificación de calendario académico,\nc) Actualización de formatos, elaboración de materiales promocionales, divulgación digital\nd) Seguimiento a la información publicada. \ne) Realizar jornadas de inducción y reinducción; divulgar estatutos y estímulos  ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 16
+        }
+      },
+      {
+        "factor": "FACTOR 3. PROFESORES",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la formación y actualización del cuerpo docente en aspectos didácticos, pedagógicos, epistemológicos y de enseñanza en segunda lengua, con el propósito de garantizar la coherencia del proceso formativo con la propuesta curricular, promover la innovación en las prácticas de enseñanza y fortalecer la internacionalización del currículo. Esta oportunidad de mejora contribuye al Factor 3. Profesores y se articula con el Factor 10. Medios educativos y ambientes de aprendizaje mediante el fortalecimiento del uso pedagógico de recursos y tecnologías educativas.",
+        "proyecto": "Procesos Institucionales Capacitación permanente del equipo docente",
+        "objetivo": "Fortalecer las competencias pedagógicas, didácticas, tecnológicas y de internacionalización del cuerpo docente, mediante procesos de formación y actualización permanente que contribuyan a la calidad del proceso formativo, la innovación en los ambientes de aprendizaje y la coherencia con la propuesta curricular y los resultados de aprendizaje del programa.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental. y Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 6,
+        "indicador_cumplimiento": "Porcentaje de profesores de las Maestrías que participan como asistentes en actividades de capacitación académica y/o administrativa.",
+        "tipo_indicador": "Resultado",
+        "linea_base": "Número de docentes de la Maestría capacitados en el año anterior.",
+        "meta": "Lograr que mínimo el 15 % de los profesores de las Maestrías participen como asistentes en actividades de capacitación académica y/o administrativa durante el periodo de seguimiento.",
+        "actividades": "a) Consolidar periódicamente informes sobre la participación de los docentes de las Maestrías en actividades de formación y capacitación.                                                                                                                                                     b) Analizar  la incidencia de las actividades de formación y capacitación en el proceso formativo de las Maestrías. ",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 17
+        }
+      },
+      {
+        "factor": "FACTOR 4. EGRESADOS",
+        "tipo": "Fortaleza",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer el relacionamiento con los egresados mediante mecanismos de seguimiento, comunicación y participación académica que permitan conocer el impacto de las Maestrías en Investigación y en Profundización en el ámbito profesional, académico e investigativo, así como consolidar canales institucionales (página web, redes sociales y eventos académicos) y desarrollar un estudio de impacto que contribuya al mejoramiento continuo y a la evidencia de la pertinencia del programa.",
+        "proyecto": "Estrategia de seguimiento, comunicación y evaluación del impacto de egresados",
+        "objetivo": "Fortalecer el vínculo con los egresados de la Maestría mediante mecanismos de seguimiento, comunicación y participación académica que permitan identificar su impacto profesional, académico e investigativo y utilizar esta información para retroalimentar los procesos de mejoramiento continuo y evidenciar la pertinencia y relevancia de la formación ofrecida por el programa.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 7,
+        "indicador_cumplimiento": "Porcentaje de egresados con información actualizada en el módulo institucional de Hoja de Vida de Egresados.",
+        "tipo_indicador": "Gestión",
+        "linea_base": "Base de datos de egresados",
+        "meta": "Lograr que al menos el 50 % de los egresados de las Maestrías cuenten con información actualizada en el módulo institucional de Hoja de Vida de Egresados desarrollado por la OATI, fortaleciendo la disponibilidad y sistematización de información para el seguimiento, caracterización y análisis de su trayectoria e impacto durante el periodo 2026-2027.",
+        "actividades": "a) Revisar y depurar la información disponible de los egresados de las Maestrías.\nb) Socializar con los egresados el nuevo módulo institucional y orientar el proceso para el registro y actualización de su información.\nc) Desarrollar estrategias de comunicación y contacto con los egresados para promover la actualización de sus datos y hoja de vida en el sistema institucional.\nd) Realizar seguimiento periódico al porcentaje de egresados que han actualizado su información en el módulo.\ne) Utilizar la información consolidada en el sistema institucional como insumo para la caracterización, seguimiento y análisis del impacto de los egresados de las Maestrías.",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 18
+        }
+      },
+      {
+        "factor": "FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la integración de los Resultados de Aprendizaje en la propuesta formativa de las Maestrías en sus dos componentes (investigación y profundización), en coherencia con el Decreto 1330 de 2019 y el Acuerdo 002 de 2020, mediante la consolidación de un sistema de evaluación y seguimiento que permita valorar el avance del proceso formativo, garantizar la retroalimentación permanente de los procesos de enseñanza y aprendizaje y orientar la actualización curricular de acuerdo con las demandas sociales, tecnológicas y profesionales del campo de las ciencias de la información y las comunicaciones. Esta oportunidad de mejora tiene carácter transversal y contribuye al fortalecimiento de los Factores 2 y 6 ",
+        "proyecto": "Actualización curricular y fortalecimiento de la retroalimentación de resultados de aprendizaje",
+        "objetivo": "Fortalecer la integración de los Resultados de Aprendizaje en la propuesta curricular de las Maestrías en Investigación y en Profundización mediante la consolidación de un sistema de evaluación, seguimiento y retroalimentación que permita valorar el avance del proceso formativo, orientar la actualización curricular y favorecer el logro de los resultados de aprendizaje",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 8,
+        "indicador_cumplimiento": "Porcentaje de Resultados de Aprendizaje definidos y asociados a su correspondiente sistema de evaluación.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Ejes de formación y competencias definidos por los programas de Maestría en Investigación y en Profundización.",
+        "meta": "Resultados de Aprendizaje 100% paras las Maestrías en Investigación y en Profundización y el correspondiente sistema de evaluación.",
+        "actividades": "a) Definición y socialización de ejes de fornacióny competencias de los proyectos curriculares  con el equipo docente. b) definición de los Resultados de Aprendizaje a nivel microcurricular de las Maestrías en Investigación y en Profundización                                                                                                                                                                                                                                                                                               ",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 19
+        }
+      },
+      {
+        "factor": "FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la estrategia de flexibilización curricular y acompañamiento académico dirigida a estudiantes que han culminado todos los espacios académicos del programa y tienen pendiente únicamente el trabajo de grado, mediante el cambio de modalidad (profundización/investigación), la homologación de los espacios académicos cursados y el seguimiento académico-administrativo, con el fin de favorecer la permanencia, evitar la pérdida de la calidad de estudiante y promover la graduación oportuna.",
+        "proyecto": "Estrategia de flexibilización curricular y acompañamiento para la graduación oportuna",
+        "objetivo": "Fortalecer la permanencia y promover la graduación oportuna de los estudiantes de la Maestría en Ciencias de la Información y las Comunicaciones mediante una estrategia de flexibilización curricular, homologación de espacios académicos y acompañamiento académico-administrativo para estudiantes que únicamente tienen pendiente el trabajo de grado y presentan riesgo de pérdida de la calidad de estudiante.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad. y Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 6,
+        "indicador_cumplimiento": "Porcentaje de estudiantes identificados con pendiente exclusivo de trabajo de grado y riesgo de pérdida de calidad que culminan satisfactoriamente el trabajo de grado y obtienen su grado académico.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Casos de flexibilización curricular y homologación para estudiantes con pendiente exclusivo de trabajo de grado. ",
+        "meta": "Implementar y consolidar la estrategia para que al menos el 50% de los estudiantes identificados con pendiente exclusivo de trabajo de grado y riesgo de pérdida de calidad de estudiante culminen su trabajo de grado y obtengan su grado académico durante el periodo 2026-2027",
+        "actividades": "a) Identificar semestralmente estudiantes con pendiente exclusivo de trabajo de grado.\nb) Realizar análisis académico y normativo de viabilidad para cambio de modalidad (profundización / investigación).\nc) Gestionar los procesos de homologación de espacios académicos cursados y aprobados.\nd) Realizar seguimiento periódico al avance de los trabajos de grado y a los tiempos de permanencia.\ne) Consolidar reportes semestrales de estudiantes beneficiados, trabajos sustentados y graduados efectivos derivados de la estrategia.",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 20
+        }
+      },
+      {
+        "factor": "FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer y consolidar las alianzas, convenios y mecanismos de cooperación con instituciones nacionales e internacionales, promoviendo la movilidad académica y la participación de docentes y estudiantes en redes de intercambio científico e investigación, con el fin de ampliar la proyección y los contextos de incidencia académica e investigativa de las Maestrías en Investigación y en Profundización.",
+        "proyecto": "Cooperación interinstitucional de orden Nacional e internacional de la MCIC",
+        "objetivo": "Incrementar la interacción del programa con instituciones nacionales e internacionales y ampliar las oportunidades de movilidad y cooperación académica.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 3. Integrar las funciones universitarias por medio de la investigación, creación, innovación para la ampliación del conocimiento como bien público y para la solución de problemas de la ciudad-región y de la sociedad en general.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Porcentaje de incremento en el número de convenios activos, actividades de cooperación y participaciones en redes académicas respecto al periodo base.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Número de convenios vigentes para la Maestría en el año anterior",
+        "meta": "Incrementar en al menos un 30 % el número de convenios activos y actividades de  cooperación o participación en redes académicas para las Maestrías en Investigación y en Profundización con el fin que se realice la participación de la comunidad académica ",
+        "actividades": "a)Diagnóstico de los convenios vigentes aplicables a las Maestrías. b) elaborar un diagnostico del las organizaciones o entidades Nacionales e Internacionales con las que es pertinente que las Maestrías establezcan acciones de cooperación.   \nb) Establecer contacto con entidades o instituciones del orden Nacional e Internacional para construir un diálogo investigativo y académico que aporte a los procesos académicos de los que son parte los estudiantes de las Maestrías.  \nc) Definir las acciones para formalización de convenios en articulación con la Unidad de Relaciones Internacionales e Interinstitucionales de la Universidad.\nd) Promover la participación de la comunidad académica en los convenios formalizados.",
+        "periodicidad": "ANUAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 21
+        }
+      },
+      {
+        "factor": "FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN, ASOCIADOS AL PROGRAMA ACADÉMICO",
+        "tipo": "Fortaleza",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la vinculación de los estudiantes a los procesos y proyectos de investigación desarrollados en las Maestrías, con el fin de consolidar competencias investigativas y de profundización coherentes con el perfil de formación de cada programa. Esta acción contribuye al fortalecimiento del proceso formativo estudiantil y se articula con el Factor 2. Estudiantes al fortalecer uno de los componentes fundamentales de su formación y su rol dentro de las Maestrías en coherencia con los perfiles académicos propuestos.",
+        "proyecto": "Fortalecimiento de la producción académica y la articulación institucional de la investigación en las Maestría",
+        "objetivo": "Promover la participación de los estudiantes en los procesos y proyectos de investigación de las Maestrías en Investigación y en Profundización, mediante estrategias de vinculación y acompañamiento que consoliden competencias investigativas y de profundización coherentes con los perfiles de formación y contribuyan al fortalecimiento de su proceso formativo y su rol académico dentro del programa",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 3. Integrar las funciones universitarias por medio de la investigación, creación, innovación para la ampliación del conocimiento como bien público y para la solución de problemas de la ciudad-región y de la sociedad en general.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 10,
+        "indicador_cumplimiento": "Número de productos académicos o investigativos derivados de los procesos de investigación de las Maestría",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Número de estudiantes que participan en los grupos de investigación que desarrollan proyectos en las Maestrías en Investigación y en Profundización en el año anterior. ",
+        "meta": "incrementar el número de productos académicos o investigativos derivados de los procesos de investigación y profundización de las Maestrías. ",
+        "actividades": "a) Presentar a los nuevos estudiantes en cada cohorte las rutas y procesos de Invetigación en cada una de las Maestrías (Investigación y Profundización).                                                                                                                                                                                                                                                         b) Socializar y vincular de manera permanente las actividades de Investigación y de Profundización en la que pueden participar los estudiantes y su contribución al proceso formativo.    ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 22
+        }
+      },
+      {
+        "factor": "FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la divulgación y apropiación de los servicios de Bienestar Institucional, promoviendo una mayor participación de estudiantes y docentes en las estrategias de desarrollo humano, apoyo socioeconómico, cultura, deporte y salud integral.",
+        "proyecto": "Estrategia de articulación y divulgación de Bienestar Institucional para posgrados",
+        "objetivo": "Promover el acceso y la participación de la comunidad académica del programa en los servicios y actividades de Bienestar Institucional.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Porcentaje de estudiantes activos informados sobre la oferta de actividades y servicios de Bienestar Institucional",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Oferta de actividades y serivcios  de Bienestar Universitario para estudiantes de las Maestrías y del número de estudiantes que acceden.",
+        "meta": "Informar al 100 % de los estudiantes activos de las Maestrías sobre la oferta de actividades y servicios de Bienestar Institucional.",
+        "actividades": "a) Solicitar periodicamente a la Oficina de Bienestar Institucional las activiades y servicios que ofrecen a los estudiantes de las Maestrías.                                                                                                                                              b) Realizar semestralmente la divulgación de las actividades y los servicios que ofrece Bienestar Universitario con el fin que los estudiantes puedan utilizarlos.  ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 23
+        }
+      },
+      {
+        "factor": "FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Respecto a medios educativos y de aprendizaje necesarios en el desarrollo de los procesos de formación se destaca el papel de las tecnologías como escenario para diversificar los modos como se accede al conocimiento y se participa de su generación. Por tal motivo, en este factor se subraya la articulación con instancias de la Universidad para identificar qué recursos aportan en la construcción de ambientes de aprendizaje y de recursos que fortalezcan todos los ámbitos académicos que conforman las Maestrías en Investigación y en Profundización.",
+        "proyecto": "Medios educativos y ambientes de aprendizaje en las Maestrías en Investigación y en Profundizacióon.",
+        "objetivo": "Fortalecer la articulación con las instancias institucionales responsables de los recursos educativos y tecnológicos para identificar, gestionar y consolidar ambientes de aprendizaje y recursos académicos que favorezcan el acceso al conocimiento, la participación en su generación y el desarrollo de los procesos de formación e investigación de las Maestrías en Investigación y en Profundización.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Número de ambientes de aprendizaje diseñados e implementados",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Diagnóstico de los ambientes de aprendizaje y los recursos disponibles para las Maestrías en Investigación y en Profundización.",
+        "meta": "Consolidación de los ambientes de aprendizaje y medios educativos que apoyen los procesos académicos de las Maestrías en Investigación y en Profundización.  ",
+        "actividades": "a) Elaborar un diagnóstico sobre ambientes de aprendizaje y medios educativos disponibles para las Maestrías.                                                                                                                                                                                                              b) Consolidar una propuesta de medios educativos coherentes para los procesos de las Maestrías en articulación con la Unidad Biblioteca, el Comité de Planes TIC y demás instancias que aporten al ejercicio.    ",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 24
+        }
+      },
+      {
+        "factor": "FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Con el objetivo de garantizar el desarrollo de los procesos de autoevaluación y la toma de decisiones de manera oportuna, se requiere contar con el Sistema (Metodología) interno de aseguramiento de calidad, desde el cual identificar logros, resultados e impacto de los procesos académicos y administrativos. Así las cosas se considera que este elemento requiere un lugar en el plan de mejoramiento al constituir el soporte de la Acreditación en Alta Calidad en cuanto reconocimiento de procesos desarrollados con altos criterios de gestión curricular y administrativa. ",
+        "proyecto": "Sistema Interno de Aseguramiento de la Calidad",
+        "objetivo": "Consolidar mecanismos de seguimiento, comunicación y articulación institucional que fortalezcan el sistema interno de aseguramiento de la calidad, apoyen los procesos de autoevaluación y mejoren la eficiencia de la gestión académica y administrativa del programa para contribuir al sostenimiento de las condiciones de Acreditación en Alta Calidad.",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 5. Consolidar y fortalecer la democracia participativa, la gobernanza y la gobernabilidad para la cohesión de la comunidad universitaria.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Sistema Interno de Aseguramiento de la Calidad estructurado por la Universidad e implementado por las Maestrías en Investigación y en Profundización.",
+        "tipo_indicador": "Gestión",
+        "linea_base": "Lineamientos internos para el desarrollo de procesos de autoevaluación que sustenten el mejoramiento continuo y la calidad",
+        "meta": "Participar del establecimiento del Sistema interno de aseguramiento de calidad en la Universidad.",
+        "actividades": "a) Articular los proceso de las Maestrías en relación con el Sistema Interno de Aseguramiento de la Calidad con las perspectivas y los lineamientos institucionales.                                                    b) Participar en el ejercicio institucional de conformación del Sistema Interno de Aseguramiento de la Calidad propuesto desde los órganos de consulta y decisión de la Universidad.                                                                                                                                            c)  Implementar los lineamientos del Sistema Interno de Aseguramiento de la Calidad en los procesos de Autoevaluación del programa.                                                                                     d) Construir reportes que evidencien apropiación del Sistema Interno de Aseguramiento Calidad en el programa.",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Mejora",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular \nComité Currículo y Calidad de Posgrados\nFacultad de Ingeniería  y Comité Currículo y Calidad Institucional",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 25
+        }
+      },
+      {
+        "factor": "FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS",
+        "tipo": "Oportunidad de mejora",
+        "origen": "Acciones propias de la autoevaluación permanente",
+        "descripcion": "Fortalecer la articulación institucional y el seguimiento a las acciones de mejoramiento de la infraestructura física y tecnológica de la Facultad de Ingeniería, con el fin de garantizar condiciones adecuadas para el desarrollo de los procesos académicos, investigativos y administrativos de las Maestrías en Investigación y Profundización.",
+        "proyecto": "Estrategia de articulación institucional y seguimiento al fortalecimiento de la infraestructura física y tecnológica",
+        "objetivo": "Fortalecer la articulación entre las dependencias institucionales y el seguimiento a las acciones de mejoramiento de la infraestructura física y tecnológica de la Facultad de Ingeniería, con el propósito de garantizar condiciones adecuadas para el desarrollo de los procesos académicos, investigativos y administrativos de la Maestría",
+        "articulacion_plan_institucional": "Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+        "periodo_inicio": "2026-08-01",
+        "periodo_fin": "2027-12-01",
+        "peso_prioridad": 5,
+        "indicador_cumplimiento": "Porcentaje proyectado de aprovechamiento de los espacios académicos y tecnológicos asignados a las Maestrías en Investigación y en Profundización en el nuevo edificio de la Facultad de Ingeniería.",
+        "tipo_indicador": "Resultados",
+        "linea_base": "Informe del avance de la obra de nueva infraestructura de la Facultad de Ingeniería en el momento de obtención de la Acreditación en Alta Calidad",
+        "meta": "Proyectar un aprovechamiento de al menos el 80 % de los espacios académicos y tecnológicos asignados a las Maestría en el nuevo edificio de la Facultad de Ingeniería, para el desarrollo de sus actividades académicas.",
+        "actividades": "a) Solicitar el informe de avance de la obra al momento de optención de la Acreditación de Alta Calidad. b)Solicitar informes periódicos sobre el avance de la obra de nueva infraestructura de la Facultad de Ingeniería a las instancias lideres del proceso. \nc) Socializar con la comunidad académica las acciones y avances que impacten el funcionamiento de los programas de posgrado.",
+        "periodicidad": "SEMESTRAL",
+        "tipo_actividad": "Sostenibilidad",
+        "apoyo_requerido": {
+          "programa_academico": true,
+          "facultad": true,
+          "institucion": true
+        },
+        "responsable": "Coordinación Proyecto Curricular",
+        "recursos": "Físicos, Tecnológicos y Humanos",
+        "seguimiento": {
+          "corte_1": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "corte_2": {
+            "fecha_seguimiento": null,
+            "descripcion_avance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "otras_observaciones": null
+          },
+          "acumulado": {
+            "balance_cualitativo": null,
+            "pct_avance_cuantitativo": null,
+            "unidad_medida_evidencia": null,
+            "enlace_evidencia": null,
+            "otras_observaciones": null
+          }
+        },
+        "fuente": {
+          "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "hoja": "Plan de mejoramiento",
+          "fila": 26
+        }
+      }
+    ]
+  },
+  "stats": {
+    "investigacion": {
+      "total_factores": 12,
+      "conteo_por_tipo": {
+        "Oportunidad de mejora": 10,
+        "Fortaleza": 2
+      },
+      "conteo_por_tipo_actividad": {
+        "Mejora": 6,
+        "Sostenibilidad": 6
+      },
+      "peso_prioridad_promedio": 7.25,
+      "peso_prioridad_total": 87,
+      "periodo_ejecucion_min": "2026-08-01",
+      "periodo_ejecucion_max": "2027-12-01",
+      "derivado_de": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "filas": "15-26",
+        "nota": "Conteos y promedios calculados por app/build_gold.py a partir de estas filas; no son datos manuales."
+      }
+    },
+    "profundizacion": {
+      "total_factores": 12,
+      "conteo_por_tipo": {
+        "Oportunidad de mejora": 10,
+        "Fortaleza": 2
+      },
+      "conteo_por_tipo_actividad": {
+        "Mejora": 6,
+        "Sostenibilidad": 6
+      },
+      "peso_prioridad_promedio": 7.25,
+      "peso_prioridad_total": 87,
+      "periodo_ejecucion_min": "2026-08-01",
+      "periodo_ejecucion_max": "2027-12-01",
+      "derivado_de": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "filas": "15-26",
+        "nota": "Conteos y promedios calculados por app/build_gold.py a partir de estas filas; no son datos manuales."
+      }
+    }
+  },
+  "comparacionModalidades": {
+    "campos_cabecera_distintos": [
+      "registro_calificado"
+    ],
+    "factores_con_diferencias": [],
+    "nota": "Comparación calculada campo a campo entre los dos archivos .xlsx. Si 'factores_con_diferencias' está vacío, significa que el texto de los 12 factores es idéntico en ambos archivos fuente (solo cambia el encabezado institucional); no es un error de esta pipeline."
+  },
+  "documentosPrincipales": [
+    {
+      "titulo": "Plan de Mejoramiento CC-FR-001 — Investigación",
+      "modalidad": "investigacion",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+      "tamano_legible": "122.0 KB",
+      "extension": "xlsx"
+    },
+    {
+      "titulo": "Autoevaluación Permanente Institucional — Investigación",
+      "modalidad": "investigacion",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/MCIC AutoevaluacionPermanenteInstitucional INV.docx",
+      "tamano_legible": "531.0 KB",
+      "extension": "docx"
+    },
+    {
+      "titulo": "Plan de Mejoramiento CC-FR-001 — Profundización",
+      "modalidad": "profundizacion",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+      "tamano_legible": "122.0 KB",
+      "extension": "xlsx"
+    },
+    {
+      "titulo": "Autoevaluación Permanente Institucional — Profundización",
+      "modalidad": "profundizacion",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/MCIC AutoevaluacionPermanenteInstitucional PROF.docx",
+      "tamano_legible": "531.4 KB",
+      "extension": "docx"
+    }
+  ],
+  "documentosBronze": [
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CA ACUERDO 023 - 2012.pdf",
+      "nombre": "CA ACUERDO 023 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 971579,
+      "tamano_legible": "948.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CA ACUERDO 024 DE 2012.pdf",
+      "nombre": "CA ACUERDO 024 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 40760,
+      "tamano_legible": "39.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CA ACUERDO 04 - 2022.pdf",
+      "nombre": "CA ACUERDO 04 - 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 430841,
+      "tamano_legible": "420.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CA ACUERDO 041 DE 2016.pdf",
+      "nombre": "CA ACUERDO 041 DE 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 195198,
+      "tamano_legible": "190.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CA RESOLUCIOтХа├╝N 012 DE 2023.pdf",
+      "nombre": "CA RESOLUCIOтХа├╝N 012 DE 2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 617894,
+      "tamano_legible": "603.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CFI ACUERDO 001 - 2009.pdf",
+      "nombre": "CFI ACUERDO 001 - 2009.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 969716,
+      "tamano_legible": "947.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CPA RESOLUCIOтХа├╝N 015 DE 2020.pdf",
+      "nombre": "CPA RESOLUCIOтХа├╝N 015 DE 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 253662,
+      "tamano_legible": "247.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 001 - 2020.pdf",
+      "nombre": "CSU ACUERDO 001 - 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 134584,
+      "tamano_legible": "131.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 002-2023.pdf",
+      "nombre": "CSU ACUERDO 002-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 326771,
+      "tamano_legible": "319.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 003 - 1997.pdf",
+      "nombre": "CSU ACUERDO 003 - 1997.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 645522,
+      "tamano_legible": "630.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 004 - 1996.pdf",
+      "nombre": "CSU ACUERDO 004 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 108237,
+      "tamano_legible": "105.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 007-2023.pdf",
+      "nombre": "CSU ACUERDO 007-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 693577,
+      "tamano_legible": "677.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 01 DE 2006.pdf",
+      "nombre": "CSU ACUERDO 01 DE 2006.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 368871,
+      "tamano_legible": "360.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 011 - 2002.pdf",
+      "nombre": "CSU ACUERDO 011 - 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 379123,
+      "tamano_legible": "370.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 014 - 1994.pdf",
+      "nombre": "CSU ACUERDO 014 - 1994.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 83682,
+      "tamano_legible": "81.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 03 - 2010.pdf",
+      "nombre": "CSU ACUERDO 03 - 2010.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 597302,
+      "tamano_legible": "583.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 09 - 1996.pdf",
+      "nombre": "CSU ACUERDO 09 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 327261,
+      "tamano_legible": "319.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 09 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 09 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 301814,
+      "tamano_legible": "294.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 10 - 1996.pdf",
+      "nombre": "CSU ACUERDO 10 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 425947,
+      "tamano_legible": "416.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU ACUERDO 11 - 2002.pdf",
+      "nombre": "CSU ACUERDO 11 - 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 379123,
+      "tamano_legible": "370.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/CSU RESOLUCION 010 - 2022.pdf",
+      "nombre": "CSU RESOLUCION 010 - 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 117606,
+      "tamano_legible": "114.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/MCIC_Anexo_reunion_IngSoftware.pdf",
+      "nombre": "MCIC_Anexo_reunion_IngSoftware.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 25767,
+      "tamano_legible": "25.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/MCIC_Anexo_reunion_geomatica.pdf",
+      "nombre": "MCIC_Anexo_reunion_geomatica.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 42444,
+      "tamano_legible": "41.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/MEN-Resolucion-023653-10-12-2021.pdf",
+      "nombre": "MEN-Resolucion-023653-10-12-2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 465776,
+      "tamano_legible": "454.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/RE Resolucion 16 - 2025.pdf",
+      "nombre": "RE Resolucion 16 - 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 223650,
+      "tamano_legible": "218.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/RECTORIA RESOLICION 130 - 2004.pdf",
+      "nombre": "RECTORIA RESOLICION 130 - 2004.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 75605,
+      "tamano_legible": "73.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/RECTORIA RESOLUCION 214 DE 2014.pdf",
+      "nombre": "RECTORIA RESOLUCION 214 DE 2014.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 302512,
+      "tamano_legible": "295.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/RECTORIA RESOLUCION 285 DE 2020.pdf",
+      "nombre": "RECTORIA RESOLUCION 285 DE 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 272209,
+      "tamano_legible": "265.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos/res_2014-214.pdf",
+      "nombre": "res_2014-214.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos",
+      "tamano_bytes": 302512,
+      "tamano_legible": "295.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I/CA ACUERDO 022 DE 2012.pdf",
+      "nombre": "CA ACUERDO 022 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I",
+      "tamano_bytes": 2058596,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I/CSU ACUERDO 004 - 2012.pdf",
+      "nombre": "CSU ACUERDO 004 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I",
+      "tamano_bytes": 4604979,
+      "tamano_legible": "4.4 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I/FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).docx",
+      "nombre": "FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).docx",
+      "extension": "docx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I",
+      "tamano_bytes": 58928,
+      "tamano_legible": "57.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I/FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).pdf",
+      "nombre": "FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos I",
+      "tamano_bytes": 475677,
+      "tamano_legible": "464.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II/CSU ACUERDO 011 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 011 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II",
+      "tamano_bytes": 1045679,
+      "tamano_legible": "1021.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II/MCIC_Anexo_reunion_Docentes.pdf",
+      "nombre": "MCIC_Anexo_reunion_Docentes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II",
+      "tamano_bytes": 1431185,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II/RECTORIA RESOLUCION 444 - 2018.pdf",
+      "nombre": "RECTORIA RESOLUCION 444 - 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II",
+      "tamano_bytes": 1053286,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II/Resolucion Univ No. 177 de 2016.pdf",
+      "nombre": "Resolucion Univ No. 177 de 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos II",
+      "tamano_bytes": 1401532,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund/Acta 009 de 2024 Profundizaci├│n_Firmada.pdf",
+      "nombre": "Acta 009 de 2024 Profundizaci├│n_Firmada.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 873240,
+      "tamano_legible": "852.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund/CuadroMaestro_AcreditacionPrograma Profundizacion.xlsx",
+      "nombre": "CuadroMaestro_AcreditacionPrograma Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 483542,
+      "tamano_legible": "472.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund/PEP-MCIC-PROF-V0.docx",
+      "nombre": "PEP-MCIC-PROF-V0.docx",
+      "extension": "docx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 1168040,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund/Plan de Mejoramiento MCIC Profundizacion.xlsx",
+      "nombre": "Plan de Mejoramiento MCIC Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 125997,
+      "tamano_legible": "123.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Cuadros maestros.xlsx",
+      "nombre": "SNIES116070-Cuadros maestros.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n",
+      "tamano_bytes": 487892,
+      "tamano_legible": "476.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Informe autoevaluaci├│n.pdf",
+      "nombre": "SNIES116070-Informe autoevaluaci├│n.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n",
+      "tamano_bytes": 4366769,
+      "tamano_legible": "4.2 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Plan mejora.xlsx",
+      "nombre": "SNIES116070-Plan mejora.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n",
+      "tamano_bytes": 125682,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Res 016 2025-CA.pdf",
+      "nombre": "SNIES116070-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus  PROCESAMIENTO DE IMAтХа├╝GENES Y ELABORACIOтХа├╝N DE PRODUCTOS CARTOGRAтХа├╝FICOS O FOTOGRAMEтХа├╝TRICOS.xlsx",
+      "nombre": "Syllabus  PROCESAMIENTO DE IMAтХа├╝GENES Y ELABORACIOтХа├╝N DE PRODUCTOS CARTOGRAтХа├╝FICOS O FOTOGRAMEтХа├╝TRICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 65779,
+      "tamano_legible": "64.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus ANAтХа├╝LISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANAтХа├╝LISIS ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 66715,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.XLS",
+      "nombre": "Syllabus Bases de Datos Espaciales.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68544,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus ESTADIтХа├╝STICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADIтХа├╝STICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 71751,
+      "tamano_legible": "70.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68549,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus SERVICIOS GEOGRAтХа├╝FICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRAтХа├╝FICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67270,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODEтХа├╝SICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODEтХа├╝SICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67490,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 68444,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALAтХа├╝MBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALAтХа├╝MBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66444,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIOтХа├╝N DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIOтХа├╝N DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70657,
+      "tamano_legible": "69.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus POLIтХа├╝TICA SECTORIAL Y REGULACIOтХа├╝N EN TELECOMUNICACIONES.xlsx",
+      "nombre": "Syllabus POLIтХа├╝TICA SECTORIAL Y REGULACIOтХа├╝N EN TELECOMUNICACIONES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66336,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCAтХа├╝STICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCAтХа├╝STICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70092,
+      "tamano_legible": "68.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 63551,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 66096,
+      "tamano_legible": "64.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Construccion y Pruebas de Software.XLS",
+      "nombre": "Syllabus Construccion y Pruebas de Software.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Ingenieria Software I.XLS",
+      "nombre": "Syllabus Ingenieria Software I.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 64111,
+      "tamano_legible": "62.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Ingenieria Software II.XLS",
+      "nombre": "Syllabus Ingenieria Software II.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 63791,
+      "tamano_legible": "62.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Patrones.XLS",
+      "nombre": "Syllabus Patrones.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 64769,
+      "tamano_legible": "63.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software/SyllabusTendenciasenIngenieriтХа├╝adeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieriтХа├╝adeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 66816,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 373197,
+      "tamano_legible": "364.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 67967,
+      "tamano_legible": "66.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus COMPUTACIOтХа├╝N PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIOтХа├╝N PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 67010,
+      "tamano_legible": "65.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 69803,
+      "tamano_legible": "68.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 67058,
+      "tamano_legible": "65.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 69052,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Fundamentales",
+      "tamano_bytes": 68826,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Fundamentales/Syllabus Informatica.xlsx",
+      "nombre": "Syllabus Informatica.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/Fundamentales",
+      "tamano_bytes": 68689,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/InvestigacioтХа├╝n/Syllabus - SEMINARIO DE INVESTIGACIOтХа├╝N.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIOтХа├╝N.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n/SNIES116070-Syllabus/InvestigacioтХа├╝n",
+      "tamano_bytes": 68145,
+      "tamano_legible": "66.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES116070-MCIC-Profundizaci├│n.zip",
+      "nombre": "SNIES116070-MCIC-Profundizaci├│n.zip",
+      "extension": "zip",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD",
+      "tamano_bytes": 36843281,
+      "tamano_legible": "35.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Andr├йs Felipe S├бnchez Cruz.pdf",
+      "nombre": "Ponencia Andr├йs Felipe S├бnchez Cruz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 249219,
+      "tamano_legible": "243.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Cristian Jhonatan Izquierdo Ort├нz.pdf",
+      "nombre": "Ponencia Cristian Jhonatan Izquierdo Ort├нz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 191485,
+      "tamano_legible": "187.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Daniel Alexander Hern├бndez Montealegre.pdf",
+      "nombre": "Ponencia Daniel Alexander Hern├бndez Montealegre.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 140467,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Daniela Martin Vega.pdf",
+      "nombre": "Ponencia Daniela Martin Vega.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 726538,
+      "tamano_legible": "709.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia H├йctor Ricardo Pati├▒o Rivera.pdf",
+      "nombre": "Ponencia H├йctor Ricardo Pati├▒o Rivera.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 18806,
+      "tamano_legible": "18.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Iv├бn Dar├нo Bello Gonz├бlez.pdf",
+      "nombre": "Ponencia Iv├бn Dar├нo Bello Gonz├бlez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 141713,
+      "tamano_legible": "138.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Jaime Antonio ├Бvila S├бnchez.pdf",
+      "nombre": "Ponencia Jaime Antonio ├Бvila S├бnchez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 960847,
+      "tamano_legible": "938.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Jawy Andr├йs Romero Pinto.pdf",
+      "nombre": "Ponencia Jawy Andr├йs Romero Pinto.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 326446,
+      "tamano_legible": "318.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Jeisson Rodrigo Pi├▒eros Ram├нrez.pdf",
+      "nombre": "Ponencia Jeisson Rodrigo Pi├▒eros Ram├нrez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 762454,
+      "tamano_legible": "744.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Jeyson Stith Ar├йvalo Sandoval.pdf",
+      "nombre": "Ponencia Jeyson Stith Ar├йvalo Sandoval.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 105448,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Joaqu├нn Eduardo Caicedo Navarro.pdf",
+      "nombre": "Ponencia Joaqu├нn Eduardo Caicedo Navarro.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 14700758,
+      "tamano_legible": "14.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Jorge Armando Mill├бn G├│mez.pdf",
+      "nombre": "Ponencia Jorge Armando Mill├бn G├│mez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 1301571,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Jorge Eliecer Beltr├бn Garc├нa.pdf",
+      "nombre": "Ponencia Jorge Eliecer Beltr├бn Garc├нa.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 1028316,
+      "tamano_legible": "1004.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Jos├й Agust├нn Ar├йvalo Silva.pdf",
+      "nombre": "Ponencia Jos├й Agust├нn Ar├йvalo Silva.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 298570,
+      "tamano_legible": "291.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Juan Guillermo Cotta Garc├нa.pdf",
+      "nombre": "Ponencia Juan Guillermo Cotta Garc├нa.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 140673,
+      "tamano_legible": "137.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Kevin Camilo D├нaz Monje.pdf",
+      "nombre": "Ponencia Kevin Camilo D├нaz Monje.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 140444,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Lady Viviana Garay Gonz├бlez.pdf",
+      "nombre": "Ponencia Lady Viviana Garay Gonz├бlez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 105446,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "nombre": "Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 175878,
+      "tamano_legible": "171.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Nancy Johana Matta Monroy.pdf",
+      "nombre": "Ponencia Nancy Johana Matta Monroy.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 80627,
+      "tamano_legible": "78.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia No├й Arcos Mu├▒├│z.pdf",
+      "nombre": "Ponencia No├й Arcos Mu├▒├│z.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 1081292,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Oscar Javier Idrobo L├│pez.pdf",
+      "nombre": "Ponencia Oscar Javier Idrobo L├│pez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 388484,
+      "tamano_legible": "379.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "nombre": "Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 140573,
+      "tamano_legible": "137.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Santiago Andr├йs Pe├▒a Arismendi.pdf",
+      "nombre": "Ponencia Santiago Andr├йs Pe├▒a Arismendi.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 334865,
+      "tamano_legible": "327.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Tania Lorena Ru├нz Morales.pdf",
+      "nombre": "Ponencia Tania Lorena Ru├нz Morales.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 140416,
+      "tamano_legible": "137.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia William Steven Rodr├нguez Rodr├нguez.pdf",
+      "nombre": "Ponencia William Steven Rodr├нguez Rodr├нguez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 141793,
+      "tamano_legible": "138.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/ANEXOS PONENCIAS",
+      "tamano_bytes": 141649,
+      "tamano_legible": "138.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos/CA ACUERDO 022 DE 2012.pdf",
+      "nombre": "CA ACUERDO 022 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos",
+      "tamano_bytes": 2058596,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos/CSU ACUERDO 004 - 2012.pdf",
+      "nombre": "CSU ACUERDO 004 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos",
+      "tamano_bytes": 4604979,
+      "tamano_legible": "4.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos/FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).docx",
+      "nombre": "FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).docx",
+      "extension": "docx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos",
+      "tamano_bytes": 58928,
+      "tamano_legible": "57.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos/FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).pdf",
+      "nombre": "FORMATO DE INFORME DE GESTIOтХа├╝N CONSOLIDADO 2025 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos",
+      "tamano_bytes": 475677,
+      "tamano_legible": "464.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II/CSU ACUERDO 011 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 011 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II",
+      "tamano_bytes": 1045679,
+      "tamano_legible": "1021.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II/MCIC_Anexo_reunion_Docentes.pdf",
+      "nombre": "MCIC_Anexo_reunion_Docentes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II",
+      "tamano_bytes": 1431185,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II/RECTORIA RESOLUCION 444 - 2018.pdf",
+      "nombre": "RECTORIA RESOLUCION 444 - 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II",
+      "tamano_bytes": 1053286,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II/Resolucion Univ No. 177 de 2016.pdf",
+      "nombre": "Resolucion Univ No. 177 de 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos II",
+      "tamano_bytes": 1401532,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n/Acta 011 de 2025 Investigaci├│n_Firmada.pdf",
+      "nombre": "Acta 011 de 2025 Investigaci├│n_Firmada.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n",
+      "tamano_bytes": 889841,
+      "tamano_legible": "869.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+      "nombre": "CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n",
+      "tamano_bytes": 483664,
+      "tamano_legible": "472.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n/PEP-MCIC-INV-V2.docx",
+      "nombre": "PEP-MCIC-INV-V2.docx",
+      "extension": "docx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n",
+      "tamano_bytes": 1124502,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n/Plan de Mejoramiento MCIC Investigacion.xlsx",
+      "nombre": "Plan de Mejoramiento MCIC Investigacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Anexos espc investigaci├│n",
+      "tamano_bytes": 126091,
+      "tamano_legible": "123.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Cuadros maestros.xlsx",
+      "nombre": "SNIES17528-Cuadros maestros.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n",
+      "tamano_bytes": 497071,
+      "tamano_legible": "485.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Informe autoevaluaci├│n.pdf",
+      "nombre": "SNIES17528-Informe autoevaluaci├│n.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n",
+      "tamano_bytes": 4214191,
+      "tamano_legible": "4.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Res 016 2025-CA.pdf",
+      "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus  PROCESAMIENTO DE IMAтХа├╝GENES Y ELABORACIOтХа├╝N DE PRODUCTOS CARTOGRAтХа├╝FICOS O FOTOGRAMEтХа├╝TRICOS.xlsx",
+      "nombre": "Syllabus  PROCESAMIENTO DE IMAтХа├╝GENES Y ELABORACIOтХа├╝N DE PRODUCTOS CARTOGRAтХа├╝FICOS O FOTOGRAMEтХа├╝TRICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 65779,
+      "tamano_legible": "64.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ANAтХа├╝LISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANAтХа├╝LISIS ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 66715,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.XLS",
+      "nombre": "Syllabus Bases de Datos Espaciales.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68544,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ESTADIтХа├╝STICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADIтХа├╝STICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 71751,
+      "tamano_legible": "70.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68549,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SERVICIOS GEOGRAтХа├╝FICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRAтХа├╝FICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67270,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODEтХа├╝SICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODEтХа├╝SICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67490,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 68444,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALAтХа├╝MBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALAтХа├╝MBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66444,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIOтХа├╝N DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIOтХа├╝N DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70657,
+      "tamano_legible": "69.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus POLIтХа├╝TICA SECTORIAL Y REGULACIOтХа├╝N EN TELECOMUNICACIONES.xlsx",
+      "nombre": "Syllabus POLIтХа├╝TICA SECTORIAL Y REGULACIOтХа├╝N EN TELECOMUNICACIONES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66336,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCAтХа├╝STICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCAтХа├╝STICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70092,
+      "tamano_legible": "68.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 63551,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 66096,
+      "tamano_legible": "64.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Construccion y Pruebas de Software.XLS",
+      "nombre": "Syllabus Construccion y Pruebas de Software.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Ingenieria Software I.XLS",
+      "nombre": "Syllabus Ingenieria Software I.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 64111,
+      "tamano_legible": "62.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Ingenieria Software II.XLS",
+      "nombre": "Syllabus Ingenieria Software II.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 63791,
+      "tamano_legible": "62.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software/Syllabus Patrones.XLS",
+      "nombre": "Syllabus Patrones.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 64769,
+      "tamano_legible": "63.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software/SyllabusTendenciasenIngenieriтХа├╝adeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieriтХа├╝adeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Ing Software",
+      "tamano_bytes": 66816,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 373197,
+      "tamano_legible": "364.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 67967,
+      "tamano_legible": "66.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus COMPUTACIOтХа├╝N PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIOтХа├╝N PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 67010,
+      "tamano_legible": "65.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 69803,
+      "tamano_legible": "68.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 67058,
+      "tamano_legible": "65.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/EтХа├╝nfasis Inteligencia Artificial",
+      "tamano_bytes": 69052,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Fundamentales",
+      "tamano_bytes": 68826,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Fundamentales/Syllabus Informatica.xlsx",
+      "nombre": "Syllabus Informatica.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/Fundamentales",
+      "tamano_bytes": 68689,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/InvestigacioтХа├╝n/Syllabus - SEMINARIO DE INVESTIGACIOтХа├╝N.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIOтХа├╝N.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n/SNIES17528-Syllabus/InvestigacioтХа├╝n",
+      "tamano_bytes": 68145,
+      "tamano_legible": "66.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/ACREDITACI├УN DE ALTA CALIDAD/SNIES17528-MCIC-Investigaci├│n.zip",
+      "nombre": "SNIES17528-MCIC-Investigaci├│n.zip",
+      "extension": "zip",
+      "carpeta_raiz": "ACREDITACI├УN DE ALTA CALIDAD",
+      "carpeta_contenedora": "ACREDITACI├УN DE ALTA CALIDAD",
+      "tamano_bytes": 27169386,
+      "tamano_legible": "25.9 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Acta de reunion con OATI.doc",
+      "nombre": "Acta de reunion con OATI.doc",
+      "extension": "doc",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 205312,
+      "tamano_legible": "200.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Acuerdo N°005 Norma creacion.pdf",
+      "nombre": "Acuerdo N°005 Norma creacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 419999,
+      "tamano_legible": "410.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Creacion de asignaturas registro calificado - SGA OATI.xlsx",
+      "nombre": "Creacion de asignaturas registro calificado - SGA OATI.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 22031,
+      "tamano_legible": "21.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Creacion de asignaturas registro calificado.xlsx",
+      "nombre": "Creacion de asignaturas registro calificado.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 24284,
+      "tamano_legible": "23.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/DOC MAES REGCALI MCIC-PROF.docx",
+      "nombre": "DOC MAES REGCALI MCIC-PROF.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 1564746,
+      "tamano_legible": "1.5 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Infor docentes.docx",
+      "nombre": "Infor docentes.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 12858,
+      "tamano_legible": "12.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Informacion pagina web.docx",
+      "nombre": "Informacion pagina web.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 406288,
+      "tamano_legible": "396.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Plantilla Anteproyecto.docx",
+      "nombre": "Plantilla Anteproyecto.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 113462,
+      "tamano_legible": "110.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Registro de programa en sga 2024-3.xlsx",
+      "nombre": "Registro de programa en sga 2024-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 22822,
+      "tamano_legible": "22.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Registro de programa en sga-nt (1).xlsx",
+      "nombre": "Registro de programa en sga-nt (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 15039,
+      "tamano_legible": "14.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Res 009925 junio 2023-Rn RC Prof MCIC-22-06-23.pdf",
+      "nombre": "Res 009925 junio 2023-Rn RC Prof MCIC-22-06-23.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 172183,
+      "tamano_legible": "168.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Resolución No. 06, MCIC, profundización.docx (2).pdf",
+      "nombre": "Resolución No. 06, MCIC, profundización.docx (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Información normativa de acreditacion",
+      "tamano_bytes": 579542,
+      "tamano_legible": "566.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/Entregables Plan de Mejoramiento.xlsx",
+      "nombre": "Entregables Plan de Mejoramiento.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento",
+      "tamano_bytes": 12254,
+      "tamano_legible": "12.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-PROF.docx",
+      "nombre": "DOC MAES REGCALI MCIC-PROF.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 8493885,
+      "tamano_legible": "8.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-PROF-V0.docx",
+      "nombre": "PEP-MCIC-PROF-V0.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 1314286,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Proyecto Educativo del Programa-2017.pdf",
+      "nombre": "Proyecto Educativo del Programa-2017.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 1278216,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+      "nombre": "Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 884314,
+      "tamano_legible": "863.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/Información bases de datos.pdf",
+      "nombre": "Información bases de datos.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento",
+      "tamano_bytes": 698963,
+      "tamano_legible": "682.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024/1_AA-AUT-FCS-Plantilla_Autoevaluación Permanente _ Institucional.docx",
+      "nombre": "1_AA-AUT-FCS-Plantilla_Autoevaluación Permanente _ Institucional.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024",
+      "tamano_bytes": 464045,
+      "tamano_legible": "453.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024/2. Bitácora - Proceso de Autoevaluación.pdf",
+      "nombre": "2. Bitácora - Proceso de Autoevaluación.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024",
+      "tamano_bytes": 19811736,
+      "tamano_legible": "18.9 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024/3. Decreto 1330 2019 Registro Calificado Ministerio Educación Nacional.pdf",
+      "nombre": "3. Decreto 1330 2019 Registro Calificado Ministerio Educación Nacional.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024",
+      "tamano_bytes": 10678918,
+      "tamano_legible": "10.2 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024/4. Auto1_AA-FR-001-Formato Plan de Mejoramiento_Categorías sistémicas.xlsx",
+      "nombre": "4. Auto1_AA-FR-001-Formato Plan de Mejoramiento_Categorías sistémicas.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024",
+      "tamano_bytes": 15680,
+      "tamano_legible": "15.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024/5_Guia4_PM_MEN.pdf",
+      "nombre": "5_Guia4_PM_MEN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024",
+      "tamano_bytes": 5072185,
+      "tamano_legible": "4.8 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024/6_Decreto_0529_abril_2024.pdf",
+      "nombre": "6_Decreto_0529_abril_2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024",
+      "tamano_bytes": 7579974,
+      "tamano_legible": "7.2 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024/OneDrive_1_9-8-2024.zip",
+      "nombre": "OneDrive_1_9-8-2024.zip",
+      "extension": "zip",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/REGISTRO CALIFICADO/Autoevaluación 2024",
+      "tamano_bytes": 43623742,
+      "tamano_legible": "41.6 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Aval de facultad proceso de renovacion acredi.pdf",
+      "nombre": "Aval de facultad proceso de renovacion acredi.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación",
+      "tamano_bytes": 423734,
+      "tamano_legible": "413.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/Entregables Plan de Mejoramiento.xlsx",
+      "nombre": "Entregables Plan de Mejoramiento.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
+      "tamano_bytes": 14315,
+      "tamano_legible": "14.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-INV.docx",
+      "nombre": "DOC MAES REGCALI MCIC-INV.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 7810154,
+      "tamano_legible": "7.4 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V0.docx",
+      "nombre": "PEP-MCIC-INV-V0.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 612742,
+      "tamano_legible": "598.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V1.docx",
+      "nombre": "PEP-MCIC-INV-V1.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 1122722,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.docx",
+      "nombre": "PEP-MCIC-INV-V2.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 1256525,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Proyecto Educativo del Programa-2017.pdf",
+      "nombre": "Proyecto Educativo del Programa-2017.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 1278216,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Respuesta PEP.pdf",
+      "nombre": "Respuesta PEP.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 723198,
+      "tamano_legible": "706.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+      "nombre": "Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 884314,
+      "tamano_legible": "863.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/Listado Linea de geomatica 26-5-25.pdf",
+      "nombre": "Listado Linea de geomatica 26-5-25.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+      "tamano_bytes": 5713271,
+      "tamano_legible": "5.4 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_IngSoftware.pdf",
+      "nombre": "MCIC_Anexo_reunion_IngSoftware.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+      "tamano_bytes": 25767,
+      "tamano_legible": "25.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_geomatica.pdf",
+      "nombre": "MCIC_Anexo_reunion_geomatica.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+      "tamano_bytes": 42444,
+      "tamano_legible": "41.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  investigacion.png",
+      "nombre": "Actualizacion pagiona web mcic -  investigacion.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 1357261,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  profundizacion.png",
+      "nombre": "Actualizacion pagiona web mcic -  profundizacion.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 1143435,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "ambas"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic.png",
+      "nombre": "Actualizacion pagiona web mcic.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 745240,
+      "tamano_legible": "727.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Colnvocatoria investigacion.pdf",
+      "nombre": "Colnvocatoria investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 395156,
+      "tamano_legible": "385.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgacio grupos 2025-3.pdf",
+      "nombre": "Divulgacio grupos 2025-3.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 370889,
+      "tamano_legible": "362.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-1.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 199721,
+      "tamano_legible": "195.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-3.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 160744,
+      "tamano_legible": "157.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulghacion grupos 2024-1.pdf",
+      "nombre": "Divulghacion grupos 2024-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 283951,
+      "tamano_legible": "277.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Encuentro estudiantes evaluacion docente.jpg",
+      "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 189320,
+      "tamano_legible": "184.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
+      "nombre": "INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 0,
+      "tamano_legible": "0 B",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Induccion 2025-1.pdf",
+      "nombre": "Induccion 2025-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 388758,
+      "tamano_legible": "379.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2025-1.jpg",
+      "nombre": "Inducción 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 218229,
+      "tamano_legible": "213.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Informacion de contacto.pdf",
+      "nombre": "Informacion de contacto.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 524100,
+      "tamano_legible": "511.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitacion brics.pdf",
+      "nombre": "Invitacion brics.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 358672,
+      "tamano_legible": "350.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitación Evento académico Horizonte.pdf",
+      "nombre": "Invitación Evento académico Horizonte.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 555550,
+      "tamano_legible": "542.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
+      "nombre": "RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 0,
+      "tamano_legible": "0 B",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Participcion docente.xlsx",
+      "nombre": "Participcion docente.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
+      "tamano_bytes": 31098,
+      "tamano_legible": "30.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+      "tamano_bytes": 373197,
+      "tamano_legible": "364.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Construccion y pruebas.XLS",
+      "nombre": "Syllabus Construccion y pruebas.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Herramientas matematicas.XLS",
+      "nombre": "Syllabus Herramientas matematicas.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+      "tamano_bytes": 68826,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Metodos avanzados en analisi.xlsx",
+      "nombre": "Syllabus Metodos avanzados en analisi.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+      "tamano_bytes": 68549,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos/Matematicas avanzadas.XLS",
+      "nombre": "Matematicas avanzadas.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos",
+      "tamano_bytes": 68548,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/CYC POS 022 2024  02.04.24.pdf",
+      "nombre": "CYC POS 022 2024  02.04.24.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC",
+      "tamano_bytes": 574182,
+      "tamano_legible": "560.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/Creacion de asignaturas registro calificado A - copia.xlsx",
+      "nombre": "Creacion de asignaturas registro calificado A - copia.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC",
+      "tamano_bytes": 22140,
+      "tamano_legible": "21.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/Creacion de asignaturas registro calificado A.xlsx",
+      "nombre": "Creacion de asignaturas registro calificado A.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC",
+      "tamano_bytes": 24373,
+      "tamano_legible": "23.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/Formato AA-FR-001-Plan de Mejoramiento 12 factores AC.xlsm",
+      "nombre": "Formato AA-FR-001-Plan de Mejoramiento 12 factores AC.xlsm",
+      "extension": "xlsm",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC",
+      "tamano_bytes": 112786,
+      "tamano_legible": "110.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/INFORME DE PARES CNA 09-10-2020.pdf",
+      "nombre": "INFORME DE PARES CNA 09-10-2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC",
+      "tamano_bytes": 718803,
+      "tamano_legible": "702.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/Plan-Mejoramiento MCIC-2024-2026 Borrados 1.xlsx",
+      "nombre": "Plan-Mejoramiento MCIC-2024-2026 Borrados 1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC",
+      "tamano_bytes": 18059,
+      "tamano_legible": "17.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/Plan-Mejoramiento MCIC-2024-2026 V.2.xlsx",
+      "nombre": "Plan-Mejoramiento MCIC-2024-2026 V.2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC",
+      "tamano_bytes": 22745,
+      "tamano_legible": "22.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
+      "nombre": "CC-FR-001 Plan de mejoramiento INV.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN",
+      "tamano_bytes": 124911,
+      "tamano_legible": "122.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/MCIC AutoevaluacionPermanenteInstitucional INV.docx",
+      "nombre": "MCIC AutoevaluacionPermanenteInstitucional INV.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN",
+      "tamano_bytes": 543714,
+      "tamano_legible": "531.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+      "nombre": "CC-FR-001 Plan de mejoramiento PROF.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN",
+      "tamano_bytes": 124883,
+      "tamano_legible": "122.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/MCIC AutoevaluacionPermanenteInstitucional PROF.docx",
+      "nombre": "MCIC AutoevaluacionPermanenteInstitucional PROF.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN",
+      "tamano_bytes": 544161,
+      "tamano_legible": "531.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.docx",
+      "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 28753,
+      "tamano_legible": "28.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026/MCIC AutoevaluacionPermanenteInstitucional.docx",
+      "nombre": "MCIC AutoevaluacionPermanenteInstitucional.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 398468,
+      "tamano_legible": "389.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026/MCIC.xlsx",
+      "nombre": "MCIC.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 14437,
+      "tamano_legible": "14.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 124265,
+      "tamano_legible": "121.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/Propuesta Agenda - Sept-2026 (2) (1).docx",
+      "nombre": "Propuesta Agenda - Sept-2026 (2) (1).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION",
+      "tamano_bytes": 50381,
+      "tamano_legible": "49.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/Propuesta Agenda Visita Pares MCIC- Sept-2026.docx",
+      "nombre": "Propuesta Agenda Visita Pares MCIC- Sept-2026.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION",
+      "tamano_bytes": 72721,
+      "tamano_legible": "71.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/BASES 2019-2024 PARA ACREDITACIÓN/MCIC - Base de datos GRANDE.xlsx",
+      "nombre": "MCIC - Base de datos GRANDE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/BASES 2019-2024 PARA ACREDITACIÓN",
+      "tamano_bytes": 1046235,
+      "tamano_legible": "1021.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/BASES 2019-2024 PARA ACREDITACIÓN/MCIC - Base de datos INVESTIGACION.xlsx",
+      "nombre": "MCIC - Base de datos INVESTIGACION.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/BASES 2019-2024 PARA ACREDITACIÓN",
+      "tamano_bytes": 330879,
+      "tamano_legible": "323.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/BASES 2019-2024 PARA ACREDITACIÓN/MCIC - Base de datos PROFUNDIZACIÓN.xlsx",
+      "nombre": "MCIC - Base de datos PROFUNDIZACIÓN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/BASES 2019-2024 PARA ACREDITACIÓN",
+      "tamano_bytes": 403318,
+      "tamano_legible": "393.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 023 - 2012.pdf",
+      "nombre": "CA ACUERDO 023 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 971579,
+      "tamano_legible": "948.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 024 DE 2012.pdf",
+      "nombre": "CA ACUERDO 024 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 40760,
+      "tamano_legible": "39.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 04 - 2022.pdf",
+      "nombre": "CA ACUERDO 04 - 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 430841,
+      "tamano_legible": "420.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 041 DE 2016.pdf",
+      "nombre": "CA ACUERDO 041 DE 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 195198,
+      "tamano_legible": "190.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA RESOLUCIO╠üN 012 DE 2023.pdf",
+      "nombre": "CA RESOLUCIO╠üN 012 DE 2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 617894,
+      "tamano_legible": "603.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CFI ACUERDO 001 - 2009.pdf",
+      "nombre": "CFI ACUERDO 001 - 2009.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 969716,
+      "tamano_legible": "947.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CPA RESOLUCIO╠üN 015 DE 2020.pdf",
+      "nombre": "CPA RESOLUCIO╠üN 015 DE 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 253662,
+      "tamano_legible": "247.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 001 - 2020.pdf",
+      "nombre": "CSU ACUERDO 001 - 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 134584,
+      "tamano_legible": "131.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 002-2023.pdf",
+      "nombre": "CSU ACUERDO 002-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 326771,
+      "tamano_legible": "319.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 003 - 1997.pdf",
+      "nombre": "CSU ACUERDO 003 - 1997.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 645522,
+      "tamano_legible": "630.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 004 - 1996.pdf",
+      "nombre": "CSU ACUERDO 004 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 108237,
+      "tamano_legible": "105.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 007-2023.pdf",
+      "nombre": "CSU ACUERDO 007-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 693577,
+      "tamano_legible": "677.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 01 DE 2006.pdf",
+      "nombre": "CSU ACUERDO 01 DE 2006.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 368871,
+      "tamano_legible": "360.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 011 - 2002.pdf",
+      "nombre": "CSU ACUERDO 011 - 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 379123,
+      "tamano_legible": "370.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 014 - 1994.pdf",
+      "nombre": "CSU ACUERDO 014 - 1994.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 83682,
+      "tamano_legible": "81.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 03 - 2010.pdf",
+      "nombre": "CSU ACUERDO 03 - 2010.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 597302,
+      "tamano_legible": "583.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 09 - 1996.pdf",
+      "nombre": "CSU ACUERDO 09 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 327261,
+      "tamano_legible": "319.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 09 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 09 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 301814,
+      "tamano_legible": "294.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 10 - 1996.pdf",
+      "nombre": "CSU ACUERDO 10 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 425947,
+      "tamano_legible": "416.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU ACUERDO 11 - 2002.pdf",
+      "nombre": "CSU ACUERDO 11 - 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 379123,
+      "tamano_legible": "370.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CSU RESOLUCION 010 - 2022.pdf",
+      "nombre": "CSU RESOLUCION 010 - 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 117606,
+      "tamano_legible": "114.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/MCIC_Anexo_reunion_IngSoftware.pdf",
+      "nombre": "MCIC_Anexo_reunion_IngSoftware.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 25767,
+      "tamano_legible": "25.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/MCIC_Anexo_reunion_geomatica.pdf",
+      "nombre": "MCIC_Anexo_reunion_geomatica.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 42444,
+      "tamano_legible": "41.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/MEN-Resolucion-023653-10-12-2021.pdf",
+      "nombre": "MEN-Resolucion-023653-10-12-2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 465776,
+      "tamano_legible": "454.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/RE Resolucion 16 - 2025.pdf",
+      "nombre": "RE Resolucion 16 - 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 223650,
+      "tamano_legible": "218.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/RECTORIA RESOLICION 130 - 2004.pdf",
+      "nombre": "RECTORIA RESOLICION 130 - 2004.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 75605,
+      "tamano_legible": "73.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/RECTORIA RESOLUCION 214 DE 2014.pdf",
+      "nombre": "RECTORIA RESOLUCION 214 DE 2014.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 302512,
+      "tamano_legible": "295.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/RECTORIA RESOLUCION 285 DE 2020.pdf",
+      "nombre": "RECTORIA RESOLUCION 285 DE 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 272209,
+      "tamano_legible": "265.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/res_2014-214.pdf",
+      "nombre": "res_2014-214.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 302512,
+      "tamano_legible": "295.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I/CA ACUERDO 022 DE 2012.pdf",
+      "nombre": "CA ACUERDO 022 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I",
+      "tamano_bytes": 2058596,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I/CSU ACUERDO 004 - 2012.pdf",
+      "nombre": "CSU ACUERDO 004 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I",
+      "tamano_bytes": 4604979,
+      "tamano_legible": "4.4 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I/FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).docx",
+      "nombre": "FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I",
+      "tamano_bytes": 58928,
+      "tamano_legible": "57.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I/FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).pdf",
+      "nombre": "FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos I",
+      "tamano_bytes": 475677,
+      "tamano_legible": "464.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II/CSU ACUERDO 011 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 011 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II",
+      "tamano_bytes": 1045679,
+      "tamano_legible": "1021.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II/MCIC_Anexo_reunion_Docentes.pdf",
+      "nombre": "MCIC_Anexo_reunion_Docentes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II",
+      "tamano_bytes": 1431185,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II/RECTORIA RESOLUCION 444 - 2018.pdf",
+      "nombre": "RECTORIA RESOLUCION 444 - 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II",
+      "tamano_bytes": 1053286,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II/Resolucion Univ No. 177 de 2016.pdf",
+      "nombre": "Resolucion Univ No. 177 de 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos II",
+      "tamano_bytes": 1401532,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund/Acta 009 de 2024 Profundización_Firmada.pdf",
+      "nombre": "Acta 009 de 2024 Profundización_Firmada.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 873240,
+      "tamano_legible": "852.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund/CuadroMaestro_AcreditacionPrograma Profundizacion.xlsx",
+      "nombre": "CuadroMaestro_AcreditacionPrograma Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 483542,
+      "tamano_legible": "472.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund/PEP-MCIC-PROF-V0.docx",
+      "nombre": "PEP-MCIC-PROF-V0.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 1168040,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund/Plan de Mejoramiento MCIC Profundizacion.xlsx",
+      "nombre": "Plan de Mejoramiento MCIC Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Anexos esp Profund",
+      "tamano_bytes": 125682,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Cuadros maestros.xlsx",
+      "nombre": "SNIES116070-Cuadros maestros.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 483542,
+      "tamano_legible": "472.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Informe autoevaluación.pdf",
+      "nombre": "SNIES116070-Informe autoevaluación.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 4366769,
+      "tamano_legible": "4.2 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Plan mejora.xlsx",
+      "nombre": "SNIES116070-Plan mejora.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 125682,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Res 016 2025-CA.pdf",
+      "nombre": "SNIES116070-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus  PROCESAMIENTO DE IMA╠üGENES Y ELABORACIO╠üN DE PRODUCTOS CARTOGRA╠üFICOS O FOTOGRAME╠üTRICOS.xlsx",
+      "nombre": "Syllabus  PROCESAMIENTO DE IMA╠üGENES Y ELABORACIO╠üN DE PRODUCTOS CARTOGRA╠üFICOS O FOTOGRAME╠üTRICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 65779,
+      "tamano_legible": "64.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus ANA╠üLISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANA╠üLISIS ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 66715,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.XLS",
+      "nombre": "Syllabus Bases de Datos Espaciales.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68544,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 71751,
+      "tamano_legible": "70.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68549,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67270,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67490,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 68444,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66444,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70657,
+      "tamano_legible": "69.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus POLI╠üTICA SECTORIAL Y REGULACIO╠üN EN TELECOMUNICACIONES.xlsx",
+      "nombre": "Syllabus POLI╠üTICA SECTORIAL Y REGULACIO╠üN EN TELECOMUNICACIONES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66336,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70092,
+      "tamano_legible": "68.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 63551,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 66096,
+      "tamano_legible": "64.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software/Syllabus Construccion y Pruebas de Software.XLS",
+      "nombre": "Syllabus Construccion y Pruebas de Software.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software I.XLS",
+      "nombre": "Syllabus Ingenieria Software I.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 64111,
+      "tamano_legible": "62.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software II.XLS",
+      "nombre": "Syllabus Ingenieria Software II.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 63791,
+      "tamano_legible": "62.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software/Syllabus Patrones.XLS",
+      "nombre": "Syllabus Patrones.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 64769,
+      "tamano_legible": "63.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software/SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 66816,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 373197,
+      "tamano_legible": "364.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67967,
+      "tamano_legible": "66.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67010,
+      "tamano_legible": "65.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 69803,
+      "tamano_legible": "68.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67058,
+      "tamano_legible": "65.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 69052,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Fundamentales",
+      "tamano_bytes": 68826,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Fundamentales/Syllabus Informatica.xlsx",
+      "nombre": "Syllabus Informatica.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Fundamentales",
+      "tamano_bytes": 68689,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Investigacio╠ün/Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES116070-MCIC-Profundización/SNIES116070-Syllabus/Investigacio╠ün",
+      "tamano_bytes": 68145,
+      "tamano_legible": "66.5 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Andrés Felipe Sánchez Cruz.pdf",
+      "nombre": "Ponencia Andrés Felipe Sánchez Cruz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 249219,
+      "tamano_legible": "243.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+      "nombre": "Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 191485,
+      "tamano_legible": "187.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Daniel Alexander Hernández Montealegre.pdf",
+      "nombre": "Ponencia Daniel Alexander Hernández Montealegre.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 140467,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Daniela Martin Vega.pdf",
+      "nombre": "Ponencia Daniela Martin Vega.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 726538,
+      "tamano_legible": "709.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Héctor Ricardo Patiño Rivera.pdf",
+      "nombre": "Ponencia Héctor Ricardo Patiño Rivera.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 18806,
+      "tamano_legible": "18.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Iván Darío Bello González.pdf",
+      "nombre": "Ponencia Iván Darío Bello González.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 141713,
+      "tamano_legible": "138.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Jaime Antonio Ávila Sánchez.pdf",
+      "nombre": "Ponencia Jaime Antonio Ávila Sánchez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 960847,
+      "tamano_legible": "938.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Jawy Andrés Romero Pinto.pdf",
+      "nombre": "Ponencia Jawy Andrés Romero Pinto.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 326446,
+      "tamano_legible": "318.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+      "nombre": "Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 762454,
+      "tamano_legible": "744.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+      "nombre": "Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 105448,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+      "nombre": "Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 14700758,
+      "tamano_legible": "14.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Jorge Armando Millán Gómez.pdf",
+      "nombre": "Ponencia Jorge Armando Millán Gómez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 1301571,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Jorge Eliecer Beltrán García.pdf",
+      "nombre": "Ponencia Jorge Eliecer Beltrán García.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 1028316,
+      "tamano_legible": "1004.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia José Agustín Arévalo Silva.pdf",
+      "nombre": "Ponencia José Agustín Arévalo Silva.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 298570,
+      "tamano_legible": "291.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Juan Guillermo Cotta García.pdf",
+      "nombre": "Ponencia Juan Guillermo Cotta García.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 140673,
+      "tamano_legible": "137.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Kevin Camilo Díaz Monje.pdf",
+      "nombre": "Ponencia Kevin Camilo Díaz Monje.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 140444,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Lady Viviana Garay González.pdf",
+      "nombre": "Ponencia Lady Viviana Garay González.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 105446,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "nombre": "Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 175878,
+      "tamano_legible": "171.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Nancy Johana Matta Monroy.pdf",
+      "nombre": "Ponencia Nancy Johana Matta Monroy.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 80627,
+      "tamano_legible": "78.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Noé Arcos Muñóz.pdf",
+      "nombre": "Ponencia Noé Arcos Muñóz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 1081292,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Oscar Javier Idrobo López.pdf",
+      "nombre": "Ponencia Oscar Javier Idrobo López.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 388484,
+      "tamano_legible": "379.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "nombre": "Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 140573,
+      "tamano_legible": "137.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Santiago Andrés Peña Arismendi.pdf",
+      "nombre": "Ponencia Santiago Andrés Peña Arismendi.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 334865,
+      "tamano_legible": "327.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Tania Lorena Ruíz Morales.pdf",
+      "nombre": "Ponencia Tania Lorena Ruíz Morales.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 140416,
+      "tamano_legible": "137.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia William Steven Rodríguez Rodríguez.pdf",
+      "nombre": "Ponencia William Steven Rodríguez Rodríguez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 141793,
+      "tamano_legible": "138.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/ANEXOS PONENCIAS",
+      "tamano_bytes": 141649,
+      "tamano_legible": "138.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos/CA ACUERDO 022 DE 2012.pdf",
+      "nombre": "CA ACUERDO 022 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos",
+      "tamano_bytes": 2058596,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos/CSU ACUERDO 004 - 2012.pdf",
+      "nombre": "CSU ACUERDO 004 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos",
+      "tamano_bytes": 4604979,
+      "tamano_legible": "4.4 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos/FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).docx",
+      "nombre": "FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos",
+      "tamano_bytes": 58928,
+      "tamano_legible": "57.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos/FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).pdf",
+      "nombre": "FORMATO DE INFORME DE GESTIO╠üN CONSOLIDADO 2025 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos",
+      "tamano_bytes": 475677,
+      "tamano_legible": "464.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II/CSU ACUERDO 011 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 011 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II",
+      "tamano_bytes": 1045679,
+      "tamano_legible": "1021.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II/MCIC_Anexo_reunion_Docentes.pdf",
+      "nombre": "MCIC_Anexo_reunion_Docentes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II",
+      "tamano_bytes": 1431185,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II/RECTORIA RESOLUCION 444 - 2018.pdf",
+      "nombre": "RECTORIA RESOLUCION 444 - 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II",
+      "tamano_bytes": 1053286,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II/Resolucion Univ No. 177 de 2016.pdf",
+      "nombre": "Resolucion Univ No. 177 de 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos II",
+      "tamano_bytes": 1401532,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/Acta 011 de 2025 Investigación_Firmada.pdf",
+      "nombre": "Acta 011 de 2025 Investigación_Firmada.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación",
+      "tamano_bytes": 889841,
+      "tamano_legible": "869.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+      "nombre": "CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación",
+      "tamano_bytes": 483664,
+      "tamano_legible": "472.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/PEP-MCIC-INV-V2.docx",
+      "nombre": "PEP-MCIC-INV-V2.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación",
+      "tamano_bytes": 1124502,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/Plan de Mejoramiento MCIC Investigacion.xlsx",
+      "nombre": "Plan de Mejoramiento MCIC Investigacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación",
+      "tamano_bytes": 125686,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Cuadros maestros.xlsx",
+      "nombre": "SNIES17528-Cuadros maestros.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación",
+      "tamano_bytes": 490422,
+      "tamano_legible": "478.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Informe autoevaluación.pdf",
+      "nombre": "SNIES17528-Informe autoevaluación.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación",
+      "tamano_bytes": 4214191,
+      "tamano_legible": "4.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Res 016 2025-CA.pdf",
+      "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus  PROCESAMIENTO DE IMA╠üGENES Y ELABORACIO╠üN DE PRODUCTOS CARTOGRA╠üFICOS O FOTOGRAME╠üTRICOS.xlsx",
+      "nombre": "Syllabus  PROCESAMIENTO DE IMA╠üGENES Y ELABORACIO╠üN DE PRODUCTOS CARTOGRA╠üFICOS O FOTOGRAME╠üTRICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 65779,
+      "tamano_legible": "64.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ANA╠üLISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANA╠üLISIS ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 66715,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.XLS",
+      "nombre": "Syllabus Bases de Datos Espaciales.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68544,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 71751,
+      "tamano_legible": "70.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68549,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67270,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67490,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 68444,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66444,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70657,
+      "tamano_legible": "69.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus POLI╠üTICA SECTORIAL Y REGULACIO╠üN EN TELECOMUNICACIONES.xlsx",
+      "nombre": "Syllabus POLI╠üTICA SECTORIAL Y REGULACIO╠üN EN TELECOMUNICACIONES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66336,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70092,
+      "tamano_legible": "68.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 63551,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 66096,
+      "tamano_legible": "64.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Construccion y Pruebas de Software.XLS",
+      "nombre": "Syllabus Construccion y Pruebas de Software.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software I.XLS",
+      "nombre": "Syllabus Ingenieria Software I.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 64111,
+      "tamano_legible": "62.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software II.XLS",
+      "nombre": "Syllabus Ingenieria Software II.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 63791,
+      "tamano_legible": "62.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Patrones.XLS",
+      "nombre": "Syllabus Patrones.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 64769,
+      "tamano_legible": "63.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software/SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 66816,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 373197,
+      "tamano_legible": "364.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67967,
+      "tamano_legible": "66.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67010,
+      "tamano_legible": "65.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 69803,
+      "tamano_legible": "68.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67058,
+      "tamano_legible": "65.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 69052,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Fundamentales",
+      "tamano_bytes": 68826,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Fundamentales/Syllabus Informatica.xlsx",
+      "nombre": "Syllabus Informatica.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Fundamentales",
+      "tamano_bytes": 68689,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Investigacio╠ün/Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/CORREGIDO/SNIES17528-MCIC-Investigación/SNIES17528-Syllabus/Investigacio╠ün",
+      "tamano_bytes": 68145,
+      "tamano_legible": "66.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 023 - 2012.pdf",
+      "nombre": "CA ACUERDO 023 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 971579,
+      "tamano_legible": "948.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 024 DE 2012.pdf",
+      "nombre": "CA ACUERDO 024 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 40760,
+      "tamano_legible": "39.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 04 - 2022.pdf",
+      "nombre": "CA ACUERDO 04 - 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 430841,
+      "tamano_legible": "420.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos/CA ACUERDO 041 DE 2016.pdf",
+      "nombre": "CA ACUERDO 041 DE 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Anexos",
+      "tamano_bytes": 195198,
+      "tamano_legible": "190.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Cuadros maestros.xlsx",
+      "nombre": "SNIES116070-Cuadros maestros.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 483542,
+      "tamano_legible": "472.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Informe autoevaluación.pdf",
+      "nombre": "SNIES116070-Informe autoevaluación.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 4366769,
+      "tamano_legible": "4.2 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Plan mejora.xlsx",
+      "nombre": "SNIES116070-Plan mejora.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 125682,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización/SNIES116070-Res 016 2025-CA.pdf",
+      "nombre": "SNIES116070-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización/SNIES116070-MCIC-Profundización",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES116070-MCIC-Profundización.zip",
+      "nombre": "SNIES116070-MCIC-Profundización.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD",
+      "tamano_bytes": 36843281,
+      "tamano_legible": "35.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación/SNIES17528-Anexos/CA ACUERDO 022 DE 2012.pdf",
+      "nombre": "CA ACUERDO 022 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación/SNIES17528-Anexos",
+      "tamano_bytes": 2058596,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación/SNIES17528-Anexos/CSU ACUERDO 004 - 2012.pdf",
+      "nombre": "CSU ACUERDO 004 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación/SNIES17528-Anexos",
+      "tamano_bytes": 4604979,
+      "tamano_legible": "4.4 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación/SNIES17528-Cuadros maestros.xlsx",
+      "nombre": "SNIES17528-Cuadros maestros.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación",
+      "tamano_bytes": 483664,
+      "tamano_legible": "472.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación/SNIES17528-Informe autoevaluación.pdf",
+      "nombre": "SNIES17528-Informe autoevaluación.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación",
+      "tamano_bytes": 4214191,
+      "tamano_legible": "4.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación/SNIES17528-Res 016 2025-CA.pdf",
+      "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1)/SNIES17528-MCIC-Investigación",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación (1).zip",
+      "nombre": "SNIES17528-MCIC-Investigación (1).zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/RENOVACIÓN ACREDITACIÓN DE ALTA CALIDAD",
+      "tamano_bytes": 27169386,
+      "tamano_legible": "25.9 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Aprobación Consejo de Facultad..pdf",
+      "nombre": "Aprobación Consejo de Facultad..pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025",
+      "tamano_bytes": 249191,
+      "tamano_legible": "243.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/1. IDENTIDAD/AA-PEP-Maestría Ciencias Información y Comunicaciones.pdf",
+      "nombre": "AA-PEP-Maestría Ciencias Información y Comunicaciones.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/1. IDENTIDAD",
+      "tamano_bytes": 2215949,
+      "tamano_legible": "2.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/CUADRO MAESTRO ESTUDIANTES (FACULTAD DE INGENIERIA) 2025-1.xlsx",
+      "nombre": "CUADRO MAESTRO ESTUDIANTES (FACULTAD DE INGENIERIA) 2025-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL",
+      "tamano_bytes": 12833,
+      "tamano_legible": "12.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/Base de datos de resultados agregados de saber pro 2021 UD (3).xlsx",
+      "nombre": "Base de datos de resultados agregados de saber pro 2021 UD (3).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 159967,
+      "tamano_legible": "156.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/Base de datos de resultados agregados de saber pro 2023 UD (2).xlsx",
+      "nombre": "Base de datos de resultados agregados de saber pro 2023 UD (2).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 166687,
+      "tamano_legible": "162.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/Base de datos resultados agregados de Saber Pro 2022 UD.xlsx",
+      "nombre": "Base de datos resultados agregados de Saber Pro 2022 UD.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 215057,
+      "tamano_legible": "210.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/CUADRO MAESTRO ESTUDIANTES (FACULTAD DE INGENIERIA) 2023-3.xlsx",
+      "nombre": "CUADRO MAESTRO ESTUDIANTES (FACULTAD DE INGENIERIA) 2023-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 12522,
+      "tamano_legible": "12.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/CUADRO MAESTRO ESTUDIANTES (FACULTAD DE INGENIERIA) 2024-1.xlsx",
+      "nombre": "CUADRO MAESTRO ESTUDIANTES (FACULTAD DE INGENIERIA) 2024-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 12593,
+      "tamano_legible": "12.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/CUADRO MAESTRO ESTUDIANTES.docx",
+      "nombre": "CUADRO MAESTRO ESTUDIANTES.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 185175,
+      "tamano_legible": "180.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/ESTUDIANTES POR ESTRATO (FACULTAD INGENIERIA).xls",
+      "nombre": "ESTUDIANTES POR ESTRATO (FACULTAD INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 50176,
+      "tamano_legible": "49.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/GUIA CUADRO MAESTRO ESTUDIANTES (1).docx",
+      "nombre": "GUIA CUADRO MAESTRO ESTUDIANTES (1).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 87617,
+      "tamano_legible": "85.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/GUIA ESTUDIANTES MATRICULADOS POR LOCALIDADES.docx",
+      "nombre": "GUIA ESTUDIANTES MATRICULADOS POR LOCALIDADES.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 84480,
+      "tamano_legible": "82.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/GUIA ESTUDIANTES POR ESTRATO.docx",
+      "nombre": "GUIA ESTUDIANTES POR ESTRATO.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 86188,
+      "tamano_legible": "84.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/GUIA MATRICULADOS POR MECANISMOS EXCEPCION.docx",
+      "nombre": "GUIA MATRICULADOS POR MECANISMOS EXCEPCION.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 85979,
+      "tamano_legible": "84.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/Guia_Saber_Pro_Programa_Academico.pdf",
+      "nombre": "Guia_Saber_Pro_Programa_Academico.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 2580453,
+      "tamano_legible": "2.5 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta/MATRICULADOS LOCALIDADES (FACULTAD DE INGENIERIA).xls",
+      "nombre": "MATRICULADOS LOCALIDADES (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/2. CARACTERIZACION Y DESARROLLO ESTUDIANTIL/Nueva carpeta",
+      "tamano_bytes": 33792,
+      "tamano_legible": "33.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTE LISTADO.docx",
+      "nombre": "DOCENTE LISTADO.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 789756,
+      "tamano_legible": "771.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO (FACULTAD DE INGENIERIA) (1)2020-3.xls",
+      "nombre": "DOCENTES LISTADO (FACULTAD DE INGENIERIA) (1)2020-3.xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 31232,
+      "tamano_legible": "30.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO (FACULTAD DE INGENIERIA) (2) 2021-1.xls",
+      "nombre": "DOCENTES LISTADO (FACULTAD DE INGENIERIA) (2) 2021-1.xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 30720,
+      "tamano_legible": "30.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO (FACULTAD DE INGENIERIA)-2020-1.xls",
+      "nombre": "DOCENTES LISTADO (FACULTAD DE INGENIERIA)-2020-1.xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 30208,
+      "tamano_legible": "29.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2021-3 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2021-3 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 30208,
+      "tamano_legible": "29.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2022-1 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2022-1 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 30208,
+      "tamano_legible": "29.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2022-3 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2022-3 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 27648,
+      "tamano_legible": "27.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2023-1 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2023-1 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 28160,
+      "tamano_legible": "27.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2023-3 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2023-3 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 27136,
+      "tamano_legible": "26.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2024-1 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2024-1 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 37888,
+      "tamano_legible": "37.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2024-3 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2024-3 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 29696,
+      "tamano_legible": "29.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES LISTADO 2025-1 (FACULTAD DE INGENIERIA).xls",
+      "nombre": "DOCENTES LISTADO 2025-1 (FACULTAD DE INGENIERIA).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 29184,
+      "tamano_legible": "28.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA 2020-1 (INGENIERÍA).xlsx",
+      "nombre": "DOCENTES PLANTA 2020-1 (INGENIERÍA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 49172,
+      "tamano_legible": "48.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA 2020-3 (INGENIERÍA).xlsx",
+      "nombre": "DOCENTES PLANTA 2020-3 (INGENIERÍA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 49625,
+      "tamano_legible": "48.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA 2021-1 (INGENIERÍA).xlsx",
+      "nombre": "DOCENTES PLANTA 2021-1 (INGENIERÍA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 51951,
+      "tamano_legible": "50.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA 2021-3 (INGENIERÍA).xlsx",
+      "nombre": "DOCENTES PLANTA 2021-3 (INGENIERÍA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 31911,
+      "tamano_legible": "31.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA 2022-1 (INGENIERÍA).xlsx",
+      "nombre": "DOCENTES PLANTA 2022-1 (INGENIERÍA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 31740,
+      "tamano_legible": "31.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA FACULTAD DE INGENIERÍA 2022-3.xlsx",
+      "nombre": "DOCENTES PLANTA FACULTAD DE INGENIERÍA 2022-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 32223,
+      "tamano_legible": "31.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA FACULTAD DE INGENIERÍA 2023-1.xlsx",
+      "nombre": "DOCENTES PLANTA FACULTAD DE INGENIERÍA 2023-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 31365,
+      "tamano_legible": "30.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA FACULTAD DE INGENIERÍA 2024-1.xlsx",
+      "nombre": "DOCENTES PLANTA FACULTAD DE INGENIERÍA 2024-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 32905,
+      "tamano_legible": "32.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA FACULTAD DE INGENIERÍA 2024-3.xlsx",
+      "nombre": "DOCENTES PLANTA FACULTAD DE INGENIERÍA 2024-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 31686,
+      "tamano_legible": "30.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES PLANTA FACULTAD DE INGENIERÍA 2025-1.xlsx",
+      "nombre": "DOCENTES PLANTA FACULTAD DE INGENIERÍA 2025-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 34133,
+      "tamano_legible": "33.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES V.E. FACULTAD DE INGENIERÍA 2022-3.xlsx",
+      "nombre": "DOCENTES V.E. FACULTAD DE INGENIERÍA 2022-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 41870,
+      "tamano_legible": "40.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES VINCULACION ESPECIAL 2020-1(INGENIERIA).xlsx",
+      "nombre": "DOCENTES VINCULACION ESPECIAL 2020-1(INGENIERIA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 57926,
+      "tamano_legible": "56.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES VINCULACION ESPECIAL 2020-3 (INGENIERIA) (1).xlsx",
+      "nombre": "DOCENTES VINCULACION ESPECIAL 2020-3 (INGENIERIA) (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 58571,
+      "tamano_legible": "57.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES VINCULACION ESPECIAL 2021-1 (INGENIERIA) (1).xlsx",
+      "nombre": "DOCENTES VINCULACION ESPECIAL 2021-1 (INGENIERIA) (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 61068,
+      "tamano_legible": "59.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES VINCULACION ESPECIAL 2021-3 (INGENIERIA).xlsx",
+      "nombre": "DOCENTES VINCULACION ESPECIAL 2021-3 (INGENIERIA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 41612,
+      "tamano_legible": "40.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES VINCULACION ESPECIAL 2022-1 (INGENIERIA) (1).xlsx",
+      "nombre": "DOCENTES VINCULACION ESPECIAL 2022-1 (INGENIERIA) (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 39891,
+      "tamano_legible": "39.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/DOCENTES VINCULACION ESPECIAL 2022-1 (INGENIERIA).xlsx",
+      "nombre": "DOCENTES VINCULACION ESPECIAL 2022-1 (INGENIERIA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 450022,
+      "tamano_legible": "439.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/GUIA CUADRO LISTADO DOCENTES (1).docx",
+      "nombre": "GUIA CUADRO LISTADO DOCENTES (1).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 84235,
+      "tamano_legible": "82.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/GUIA DOCENTES DE PLANTA.docx",
+      "nombre": "GUIA DOCENTES DE PLANTA.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 84155,
+      "tamano_legible": "82.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD/GUIA DOCENTES DE VINCULACION ESPECIAL (1).docx",
+      "nombre": "GUIA DOCENTES DE VINCULACION ESPECIAL (1).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/3. DOCENTE DE PLANTA FACULTAD",
+      "tamano_bytes": 84379,
+      "tamano_legible": "82.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/4. ASPECTOS CURRICULARES/GUIA TRANSFERENCIAS ESTUDIANTES.docx",
+      "nombre": "GUIA TRANSFERENCIAS ESTUDIANTES.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/4. ASPECTOS CURRICULARES",
+      "tamano_bytes": 86652,
+      "tamano_legible": "84.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/4. ASPECTOS CURRICULARES/OneDrive_2025-11-07.zip",
+      "nombre": "OneDrive_2025-11-07.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/4. ASPECTOS CURRICULARES",
+      "tamano_bytes": 4299482,
+      "tamano_legible": "4.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO/CONVENIOS Y ALIANZAS 2020.xlsx",
+      "nombre": "CONVENIOS Y ALIANZAS 2020.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO",
+      "tamano_bytes": 152823,
+      "tamano_legible": "149.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO/CONVENIOS_ALIANZAS 2021-3.xlsx",
+      "nombre": "CONVENIOS_ALIANZAS 2021-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO",
+      "tamano_bytes": 158169,
+      "tamano_legible": "154.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO/CONVENIOS_ALIANZAS 2022-1.xlsx",
+      "nombre": "CONVENIOS_ALIANZAS 2022-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO",
+      "tamano_bytes": 130862,
+      "tamano_legible": "127.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO/CONVENIOS_ALIANZAS 2022-3.xlsx",
+      "nombre": "CONVENIOS_ALIANZAS 2022-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO",
+      "tamano_bytes": 74992,
+      "tamano_legible": "73.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO/CONVENIOS_ALIANZAS 2023-1.xlsx",
+      "nombre": "CONVENIOS_ALIANZAS 2023-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO",
+      "tamano_bytes": 493049,
+      "tamano_legible": "481.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO/CONVENIOS_ALIANZAS NUEVO FORMATO (2025-1).xlsx",
+      "nombre": "CONVENIOS_ALIANZAS NUEVO FORMATO (2025-1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/CONVENIOS Y ALIANZAS NUEVO FORMATO",
+      "tamano_bytes": 66572,
+      "tamano_legible": "65.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/DOCENTES INVESTIGADORES CATEGORÍA MINCIENCIAS (INSTITUCIONAL)/CATEGORIA INVESTIGADOR MINCIENCIAS.xlsx",
+      "nombre": "CATEGORIA INVESTIGADOR MINCIENCIAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/DOCENTES INVESTIGADORES CATEGORÍA MINCIENCIAS (INSTITUCIONAL)",
+      "tamano_bytes": 142317,
+      "tamano_legible": "139.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/INVESTIGACION, GRUPOS (INSTITUCIONAL)/INVESTIGACIONES GRUPOS (DICIEMBRE DE 2023).xlsx",
+      "nombre": "INVESTIGACIONES GRUPOS (DICIEMBRE DE 2023).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/INVESTIGACION, GRUPOS (INSTITUCIONAL)",
+      "tamano_bytes": 154129,
+      "tamano_legible": "150.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/INVESTIGACION, GRUPOS (INSTITUCIONAL)/PRODUCCIÓN GRUPOS DE INVESTIGACIÓN INSTITUCIONAL 2020-3.xlsx",
+      "nombre": "PRODUCCIÓN GRUPOS DE INVESTIGACIÓN INSTITUCIONAL 2020-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/INVESTIGACION, GRUPOS (INSTITUCIONAL)",
+      "tamano_bytes": 35151,
+      "tamano_legible": "34.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/INVESTIGACION, GRUPOS (INSTITUCIONAL)/PRODUCCIÓN GRUPOS DE INVESTIGACIÓN INSTITUCIONAL 2021.xlsx",
+      "nombre": "PRODUCCIÓN GRUPOS DE INVESTIGACIÓN INSTITUCIONAL 2021.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/INVESTIGACION, GRUPOS (INSTITUCIONAL)",
+      "tamano_bytes": 35061,
+      "tamano_legible": "34.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/MOVILIDAD DOCENTE/GUIA MOVILIDAD DOCENTE CERI.docx",
+      "nombre": "GUIA MOVILIDAD DOCENTE CERI.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/MOVILIDAD DOCENTE",
+      "tamano_bytes": 86295,
+      "tamano_legible": "84.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/MOVILIDAD ESTUDIANTES/MOVILIDAD ESTUDIANTES INGENIERÍA (ACTUALIZADO a 2025-1).xlsx",
+      "nombre": "MOVILIDAD ESTUDIANTES INGENIERÍA (ACTUALIZADO a 2025-1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/MOVILIDAD ESTUDIANTES",
+      "tamano_bytes": 199317,
+      "tamano_legible": "194.6 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE/GUIA PRODUCCION ACADEMICA.docx",
+      "nombre": "GUIA PRODUCCION ACADEMICA.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE",
+      "tamano_bytes": 83748,
+      "tamano_legible": "81.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE/PRODUCCION ACADEMICA 2019-2020-3(INGENIERÍA) (1).xls",
+      "nombre": "PRODUCCION ACADEMICA 2019-2020-3(INGENIERÍA) (1).xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE",
+      "tamano_bytes": 588288,
+      "tamano_legible": "574.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE/PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2021.xls",
+      "nombre": "PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2021.xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE",
+      "tamano_bytes": 231936,
+      "tamano_legible": "226.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE/PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2022.xls",
+      "nombre": "PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2022.xls",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE",
+      "tamano_bytes": 214016,
+      "tamano_legible": "209.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE/PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2023-3.xlsx",
+      "nombre": "PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2023-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE",
+      "tamano_bytes": 52485,
+      "tamano_legible": "51.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE/PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2024.xlsx",
+      "nombre": "PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2024.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE",
+      "tamano_bytes": 45586,
+      "tamano_legible": "44.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE/PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2025-1.xlsx",
+      "nombre": "PRODUCCIÓN ACADEMICA FACULTAD INGENIERÍA 2025-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PRODUCCIÓN ACADEMICA RECONOCIDA POR DOCENTE",
+      "tamano_bytes": 34906,
+      "tamano_legible": "34.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL/IDEXUD COMPILADO.xlsx",
+      "nombre": "IDEXUD COMPILADO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL",
+      "tamano_bytes": 57118,
+      "tamano_legible": "55.8 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL 2015-2021.xlsx",
+      "nombre": "PROYECTOS DE EXTENSIÓN INSTITUCIONAL 2015-2021.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL",
+      "tamano_bytes": 78199,
+      "tamano_legible": "76.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL 2015-2024 (Act-11-04-2025) (1).xlsx",
+      "nombre": "PROYECTOS DE EXTENSIÓN INSTITUCIONAL 2015-2024 (Act-11-04-2025) (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/PROYECTOS DE EXTENSIÓN INSTITUCIONAL",
+      "tamano_bytes": 108937,
+      "tamano_legible": "106.4 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/SOLO COMO HISTÓRICO PROYECTOS DE INVESTIGACIÓN INSTITUCIONAL/PROYECTOS DE INVESTIGACION INSTITUCIONAL 2022-1.xlsx",
+      "nombre": "PROYECTOS DE INVESTIGACION INSTITUCIONAL 2022-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/SOLO COMO HISTÓRICO PROYECTOS DE INVESTIGACIÓN INSTITUCIONAL",
+      "tamano_bytes": 911587,
+      "tamano_legible": "890.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/SOLO COMO HISTÓRICO PROYECTOS DE INVESTIGACIÓN INSTITUCIONAL/PROYECTOS DE INVESTIGACION INSTITUCIONAL.xlsx",
+      "nombre": "PROYECTOS DE INVESTIGACION INSTITUCIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/5. INVESTIGACION, CREACION ARTISTICA Y CULTURAL, INTERNACIONALIZACION Y PROYECCIÓN SOCIAL/SOLO COMO HISTÓRICO PROYECTOS DE INVESTIGACIÓN INSTITUCIONAL",
+      "tamano_bytes": 239876,
+      "tamano_legible": "234.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BENEFICIADOS JOVENES EN ACCION/GUIA JOVENES EN ACCION.doc",
+      "nombre": "GUIA JOVENES EN ACCION.doc",
+      "extension": "doc",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BENEFICIADOS JOVENES EN ACCION",
+      "tamano_bytes": 111616,
+      "tamano_legible": "109.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ADQUISICIONES/2013-2025-1/Biblioteca Inversión Adquisición Recusos Bibliograficos 2025-1.xlsx",
+      "nombre": "Biblioteca Inversión Adquisición Recusos Bibliograficos 2025-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ADQUISICIONES/2013-2025-1",
+      "tamano_bytes": 287781,
+      "tamano_legible": "281.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ADQUISICIONES/Biblioteca Ejemplares adquiridos 2024-I.xlsx",
+      "nombre": "Biblioteca Ejemplares adquiridos 2024-I.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ADQUISICIONES",
+      "tamano_bytes": 92974,
+      "tamano_legible": "90.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS/Biblioteca recursos bibliográficos 2024-I.xlsx",
+      "nombre": "Biblioteca recursos bibliográficos 2024-I.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS",
+      "tamano_bytes": 334357,
+      "tamano_legible": "326.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS/Biblioteca recursos bibliográficos 2024-III.xlsx",
+      "nombre": "Biblioteca recursos bibliográficos 2024-III.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS",
+      "tamano_bytes": 121423,
+      "tamano_legible": "118.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS/Biblioteca recursos bibliográficos 2025-1.xlsx",
+      "nombre": "Biblioteca recursos bibliográficos 2025-1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS",
+      "tamano_bytes": 123181,
+      "tamano_legible": "120.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS/Carta de servicios Biblioteca 2025.pdf",
+      "nombre": "Carta de servicios Biblioteca 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS",
+      "tamano_bytes": 3116793,
+      "tamano_legible": "3.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS/GUIA BIBLIOTECA RECURSOS BIBLIOGRAFICOS.docx",
+      "nombre": "GUIA BIBLIOTECA RECURSOS BIBLIOGRAFICOS.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS",
+      "tamano_bytes": 83169,
+      "tamano_legible": "81.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS/Presentación Biblioteca - Versión acreditación.pptx",
+      "nombre": "Presentación Biblioteca - Versión acreditación.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS",
+      "tamano_bytes": 10145994,
+      "tamano_legible": "9.7 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS/Unidad de Biblioteca informe Ejecutivo gestión 2024.pdf",
+      "nombre": "Unidad de Biblioteca informe Ejecutivo gestión 2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ALIANZAS",
+      "tamano_bytes": 2480815,
+      "tamano_legible": "2.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC/Biblioteca Estadísticas Generales 2018-2025-I.xlsx",
+      "nombre": "Biblioteca Estadísticas Generales 2018-2025-I.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC",
+      "tamano_bytes": 327932,
+      "tamano_legible": "320.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC/Biblioteca Estadísticas Generales 2024-I.xlsx",
+      "nombre": "Biblioteca Estadísticas Generales 2024-I.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC",
+      "tamano_bytes": 608090,
+      "tamano_legible": "593.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC/Biblioteca Estadísticas x Proyecto Curricular 2018-2025-I.xlsx",
+      "nombre": "Biblioteca Estadísticas x Proyecto Curricular 2018-2025-I.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC",
+      "tamano_bytes": 621140,
+      "tamano_legible": "606.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC/GUIA BIBLIOTECA ESTADISTICAS GENERALES.docx",
+      "nombre": "GUIA BIBLIOTECA ESTADISTICAS GENERALES.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/BIBLIOTECA ESTADISTICAS MCIC",
+      "tamano_bytes": 66372,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/Biblioteca Infraestructura física 2024-3.xlsx",
+      "nombre": "Biblioteca Infraestructura física 2024-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA",
+      "tamano_bytes": 134667,
+      "tamano_legible": "131.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/Espacios Físicos Biblioteca/Biblioteca Infraestructura física 2025.xlsx",
+      "nombre": "Biblioteca Infraestructura física 2025.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/Espacios Físicos Biblioteca",
+      "tamano_bytes": 135449,
+      "tamano_legible": "132.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/Plan Maestro Espacios Biblioteca/Plan maestro de espacios_Biblioteca.pdf",
+      "nombre": "Plan maestro de espacios_Biblioteca.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/BIBLIOTECA/Plan Maestro Espacios Biblioteca",
+      "tamano_bytes": 7276495,
+      "tamano_legible": "6.9 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/CREDITOS ICETEX/BENEFICIADOS ICETEX (FACULTAD DE INGENIERIA) 2024-3 (1).xlsx",
+      "nombre": "BENEFICIADOS ICETEX (FACULTAD DE INGENIERIA) 2024-3 (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/CREDITOS ICETEX",
+      "tamano_bytes": 17021,
+      "tamano_legible": "16.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/CREDITOS ICETEX/GUIA CREDITOS ICETEX.doc",
+      "nombre": "GUIA CREDITOS ICETEX.doc",
+      "extension": "doc",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/CREDITOS ICETEX",
+      "tamano_bytes": 111616,
+      "tamano_legible": "109.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS/1. ESPACIOS FISICOS (FAC Ingenieria).xlsx",
+      "nombre": "1. ESPACIOS FISICOS (FAC Ingenieria).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS",
+      "tamano_bytes": 15170,
+      "tamano_legible": "14.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS/1. ESPACIOS FISICOS (TODA LA UNIVERSIDAD).xlsx",
+      "nombre": "1. ESPACIOS FISICOS (TODA LA UNIVERSIDAD).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS",
+      "tamano_bytes": 17691,
+      "tamano_legible": "17.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS/2. SALAS_SISTEMAS (FAC Ingenieria).xlsx",
+      "nombre": "2. SALAS_SISTEMAS (FAC Ingenieria).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS",
+      "tamano_bytes": 143973,
+      "tamano_legible": "140.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS/3. LABORATORIOS (FAC Ingenieria).xlsx",
+      "nombre": "3. LABORATORIOS (FAC Ingenieria).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS",
+      "tamano_bytes": 97469,
+      "tamano_legible": "95.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS/Biblioteca Infraestructura física 2024-3.xlsx",
+      "nombre": "Biblioteca Infraestructura física 2024-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS",
+      "tamano_bytes": 132682,
+      "tamano_legible": "129.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS POR FACULTAD/1. ESPACIOS FISICOS (TODA LA UNIVERSIDAD)/1. ESPACIOS FISICOS (TODA LA UNIVERSIDAD) (4).xlsx",
+      "nombre": "1. ESPACIOS FISICOS (TODA LA UNIVERSIDAD) (4).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS POR FACULTAD/1. ESPACIOS FISICOS (TODA LA UNIVERSIDAD)",
+      "tamano_bytes": 39878,
+      "tamano_legible": "38.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS POR FACULTAD/2. SALAS SISTEMAS (TODA LA UNIVERSIDAD)/2. SALAS_SISTEMAS (TODA LA UNIVERSIDAD).xlsx",
+      "nombre": "2. SALAS_SISTEMAS (TODA LA UNIVERSIDAD).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/ESPACIOS FISICOS POR FACULTAD/2. SALAS SISTEMAS (TODA LA UNIVERSIDAD)",
+      "tamano_bytes": 143843,
+      "tamano_legible": "140.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/MOVILIDAD APOYADA POR BIENESTAR/GUIA MOVILIDAD APOYADA POR BIENESTAR.docx",
+      "nombre": "GUIA MOVILIDAD APOYADA POR BIENESTAR.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/MOVILIDAD APOYADA POR BIENESTAR",
+      "tamano_bytes": 84991,
+      "tamano_legible": "83.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/MOVILIDAD APOYADA POR BIENESTAR/MOVILIDAD APOYADA BIENESTAR(INGENIERIA).xlsx",
+      "nombre": "MOVILIDAD APOYADA BIENESTAR(INGENIERIA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/MOVILIDAD APOYADA POR BIENESTAR",
+      "tamano_bytes": 24813,
+      "tamano_legible": "24.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2013 - 2022/BIENESTAR SOCIOECONOMICO (INGENIERÍA).xlsx",
+      "nombre": "BIENESTAR SOCIOECONOMICO (INGENIERÍA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2013 - 2022",
+      "tamano_bytes": 12730,
+      "tamano_legible": "12.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2013-2022-1/BIENESTAR DESARROLLO HUMANO (.xlsx",
+      "nombre": "BIENESTAR DESARROLLO HUMANO (.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2013-2022-1",
+      "tamano_bytes": 19530,
+      "tamano_legible": "19.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2022-3/SERVICIOS BIENESTA.xlsx",
+      "nombre": "SERVICIOS BIENESTA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2022-3",
+      "tamano_bytes": 20148,
+      "tamano_legible": "19.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2022-3/SERVICIOS BIENESTAR CIENCIAS INGENIERÍA  (ESTUDIANTES) (1).xlsx",
+      "nombre": "SERVICIOS BIENESTAR CIENCIAS INGENIERÍA  (ESTUDIANTES) (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2022-3",
+      "tamano_bytes": 14063,
+      "tamano_legible": "13.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2022-3/SERVICIOS BIENESTAR TOTAL UNIVERSIDAD (DOCENTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR TOTAL UNIVERSIDAD (DOCENTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2022-3",
+      "tamano_bytes": 19642,
+      "tamano_legible": "19.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-1/SERVICIOS BIENESTAR INGENIERÍA  (ADMINISTRATIVOS).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA  (ADMINISTRATIVOS).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-1",
+      "tamano_bytes": 14050,
+      "tamano_legible": "13.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-1/SERVICIOS BIENESTAR INGENIERÍA  (DOCENTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA  (DOCENTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-1",
+      "tamano_bytes": 14376,
+      "tamano_legible": "14.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-1/SERVICIOS BIENESTAR INGENIERÍA  (ESTUDIANTES) (1).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA  (ESTUDIANTES) (1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-1",
+      "tamano_bytes": 13928,
+      "tamano_legible": "13.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-3/SERVICIOS BIENESTAR INGENIERÍA 2023-3 (ADMINISTRATIVOS).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2023-3 (ADMINISTRATIVOS).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-3",
+      "tamano_bytes": 14182,
+      "tamano_legible": "13.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-3/SERVICIOS BIENESTAR INGENIERÍA 2023-3 (DOCENTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2023-3 (DOCENTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-3",
+      "tamano_bytes": 14295,
+      "tamano_legible": "14.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-3/SERVICIOS BIENESTAR INGENIERÍA 2023-3 (ESTUDIANTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2023-3 (ESTUDIANTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2023-3",
+      "tamano_bytes": 15348,
+      "tamano_legible": "15.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-1/SERVICIOS BIENESTAR INGENIERÍA 2024-1 (ADMINISTRATIVOS).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2024-1 (ADMINISTRATIVOS).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-1",
+      "tamano_bytes": 12693,
+      "tamano_legible": "12.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-1/SERVICIOS BIENESTAR INGENIERÍA 2024-1 (DOCENTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2024-1 (DOCENTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-1",
+      "tamano_bytes": 12958,
+      "tamano_legible": "12.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-1/SERVICIOS BIENESTAR INGENIERÍA 2024-1 (ESTUDIANTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2024-1 (ESTUDIANTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-1",
+      "tamano_bytes": 13661,
+      "tamano_legible": "13.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-3/SERVICIOS BIENESTAR INGENIERÍA 2024-3 (ADMINISTRATIVOS).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2024-3 (ADMINISTRATIVOS).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-3",
+      "tamano_bytes": 13936,
+      "tamano_legible": "13.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-3/SERVICIOS BIENESTAR INGENIERÍA 2024-3 (DOCENTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2024-3 (DOCENTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-3",
+      "tamano_bytes": 13012,
+      "tamano_legible": "12.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-3/SERVICIOS BIENESTAR INGENIERÍA 2024-3 (ESTUDIANTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2024-3 (ESTUDIANTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2024-3",
+      "tamano_bytes": 15298,
+      "tamano_legible": "14.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2025-1/SERVICIOS BIENESTAR INGENIERÍA 2025-1 (ADMINISTRATIVOS).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2025-1 (ADMINISTRATIVOS).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2025-1",
+      "tamano_bytes": 12112,
+      "tamano_legible": "11.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2025-1/SERVICIOS BIENESTAR INGENIERÍA 2025-1 (DOCENTES).xlsx",
+      "nombre": "SERVICIOS BIENESTAR INGENIERÍA 2025-1 (DOCENTES).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/6. INFRAESTRUCTURA Y BIENESTAR/SERVICIOS PRESTADOS POR BIENESTAR/2025-1",
+      "tamano_bytes": 11683,
+      "tamano_legible": "11.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA/BIENESTAR DESARROLLO HUMANO (INGENIERÍA).xlsx",
+      "nombre": "BIENESTAR DESARROLLO HUMANO (INGENIERÍA).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA",
+      "tamano_bytes": 19530,
+      "tamano_legible": "19.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA/Biblioteca Inversión realizada en recursos bibliográfico 2024-I.xlsx",
+      "nombre": "Biblioteca Inversión realizada en recursos bibliográfico 2024-I.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA",
+      "tamano_bytes": 101953,
+      "tamano_legible": "99.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA/Biblioteca Inversión_Adquisición Recusos Bibliograficos 2024-3.xlsx",
+      "nombre": "Biblioteca Inversión_Adquisición Recusos Bibliograficos 2024-3.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA",
+      "tamano_bytes": 286395,
+      "tamano_legible": "279.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA/GUIA INVERSION MATERIAL BIBLIOGRAFICO.docx",
+      "nombre": "GUIA INVERSION MATERIAL BIBLIOGRAFICO.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/7. GESTION ACADEMICA ADMINISTRATIVA FINANCIERA",
+      "tamano_bytes": 82667,
+      "tamano_legible": "80.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Experiencias UD.pdf",
+      "nombre": "Experiencias UD.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS",
+      "tamano_bytes": 623035,
+      "tamano_legible": "608.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados/GestionOficina de Egresados -2020.pdf",
+      "nombre": "GestionOficina de Egresados -2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados",
+      "tamano_bytes": 5836709,
+      "tamano_legible": "5.6 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados/Gestión Últimos Años Oficina de Egresados 2021.pdf",
+      "nombre": "Gestión Últimos Años Oficina de Egresados 2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados",
+      "tamano_bytes": 3100173,
+      "tamano_legible": "3.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados/INFORME DE GESTIÓN 2021.pdf",
+      "nombre": "INFORME DE GESTIÓN 2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados",
+      "tamano_bytes": 1070265,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados/INFORME DE GESTIÓN BIENESTAR UNIVERSITARIO 2023 (2).pdf",
+      "nombre": "INFORME DE GESTIÓN BIENESTAR UNIVERSITARIO 2023 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados",
+      "tamano_bytes": 2236174,
+      "tamano_legible": "2.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados/Informe Segundo Encuentro Virtual de Oportunidades 2021.pdf",
+      "nombre": "Informe Segundo Encuentro Virtual de Oportunidades 2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados",
+      "tamano_bytes": 7709539,
+      "tamano_legible": "7.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados/Informe de gestion 2022.pdf",
+      "nombre": "Informe de gestion 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Informes Programas Egresados",
+      "tamano_bytes": 1985137,
+      "tamano_legible": "1.9 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios/Infografía Consultorio de Empleabilidad UD.pdf",
+      "nombre": "Infografía Consultorio de Empleabilidad UD.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios",
+      "tamano_bytes": 482893,
+      "tamano_legible": "471.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios/Infografía Equema Normativo.pdf",
+      "nombre": "Infografía Equema Normativo.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios",
+      "tamano_bytes": 1855067,
+      "tamano_legible": "1.8 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+      "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios",
+      "tamano_bytes": 293770,
+      "tamano_legible": "286.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
+      "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios",
+      "tamano_bytes": 15316937,
+      "tamano_legible": "14.6 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios/RESOLUCIÓN PORTAFOLIO DE SERVICIOS No. 689 - 15 de diciembre del 2022.pdf",
+      "nombre": "RESOLUCIÓN PORTAFOLIO DE SERVICIOS No. 689 - 15 de diciembre del 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/8. EGRESADOS/Servicios",
+      "tamano_bytes": 500503,
+      "tamano_legible": "488.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/BIENESTAR.xlsx",
+      "nombre": "BIENESTAR.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso",
+      "tamano_bytes": 32340,
+      "tamano_legible": "31.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/CuadroMaestro_AcreditacionProgramaS.xlsx",
+      "nombre": "CuadroMaestro_AcreditacionProgramaS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso",
+      "tamano_bytes": 486596,
+      "tamano_legible": "475.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/INFO FALTANTE.xlsx",
+      "nombre": "INFO FALTANTE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso",
+      "tamano_bytes": 27863,
+      "tamano_legible": "27.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/Infor docentes.xlsx",
+      "nombre": "Infor docentes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso",
+      "tamano_bytes": 17969,
+      "tamano_legible": "17.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso/Participcion docente.xlsx",
+      "nombre": "Participcion docente.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Cuadros maestrso",
+      "tamano_bytes": 31098,
+      "tamano_legible": "30.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica/Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+      "nombre": "Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica",
+      "tamano_bytes": 65779,
+      "tamano_legible": "64.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica/Syllabus ANÁLISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANÁLISIS ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica",
+      "tamano_bytes": 66715,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.XLS",
+      "nombre": "Syllabus Bases de Datos Espaciales.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68544,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica/Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica",
+      "tamano_bytes": 71751,
+      "tamano_legible": "70.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68549,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica/Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67270,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67490,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 68444,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66444,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70657,
+      "tamano_legible": "69.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica/Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+      "nombre": "Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66336,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70092,
+      "tamano_legible": "68.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 63551,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Fundamentales",
+      "tamano_bytes": 68826,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Fundamentales/Syllabus Informatica.xlsx",
+      "nombre": "Syllabus Informatica.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Fundamentales",
+      "tamano_bytes": 68689,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Investigación/Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Investigación",
+      "tamano_bytes": 68145,
+      "tamano_legible": "66.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software",
+      "tamano_bytes": 66317,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software/Syllabus Construccion y Pruebas de Software.XLS",
+      "nombre": "Syllabus Construccion y Pruebas de Software.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software/Syllabus Ingenieria Software I.XLS",
+      "nombre": "Syllabus Ingenieria Software I.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software",
+      "tamano_bytes": 64111,
+      "tamano_legible": "62.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software/Syllabus Ingenieria Software II.XLS",
+      "nombre": "Syllabus Ingenieria Software II.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software",
+      "tamano_bytes": 63791,
+      "tamano_legible": "62.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software/Syllabus Patrones.XLS",
+      "nombre": "Syllabus Patrones.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software",
+      "tamano_bytes": 64769,
+      "tamano_legible": "63.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software/SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Ing Software",
+      "tamano_bytes": 66816,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 373197,
+      "tamano_legible": "364.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 67967,
+      "tamano_legible": "66.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial/Syllabus COMPUTACIÓN PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIÓN PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 67010,
+      "tamano_legible": "65.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 69803,
+      "tamano_legible": "68.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 67058,
+      "tamano_legible": "65.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Anexo syllabus/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 69052,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA ACUERDO 01 - 2019.pdf",
+      "nombre": "CA ACUERDO 01 - 2019.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 2383402,
+      "tamano_legible": "2.3 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA ACUERDO 022 DE 2012.pdf",
+      "nombre": "CA ACUERDO 022 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 2058596,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA ACUERDO 023 - 2012.pdf",
+      "nombre": "CA ACUERDO 023 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 971579,
+      "tamano_legible": "948.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA ACUERDO 024 DE 2012.pdf",
+      "nombre": "CA ACUERDO 024 DE 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 40760,
+      "tamano_legible": "39.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA ACUERDO 04 - 2022.pdf",
+      "nombre": "CA ACUERDO 04 - 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 430841,
+      "tamano_legible": "420.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA ACUERDO 041 DE 2016.pdf",
+      "nombre": "CA ACUERDO 041 DE 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 195198,
+      "tamano_legible": "190.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA RESOLUCION 016 - 2025.pdf",
+      "nombre": "CA RESOLUCION 016 - 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CA RESOLUCIÓN 012 DE 2023.pdf",
+      "nombre": "CA RESOLUCIÓN 012 DE 2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 617894,
+      "tamano_legible": "603.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CESU - ACUERDO 02 DE 2020.pdf",
+      "nombre": "CESU - ACUERDO 02 DE 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 23348462,
+      "tamano_legible": "22.3 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CFI ACUERDO 001 - 2009.pdf",
+      "nombre": "CFI ACUERDO 001 - 2009.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 969716,
+      "tamano_legible": "947.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CPA RESOLUCIÓN 015 DE 2020.pdf",
+      "nombre": "CPA RESOLUCIÓN 015 DE 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 253662,
+      "tamano_legible": "247.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 001 - 2020.pdf",
+      "nombre": "CSU ACUERDO 001 - 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 134584,
+      "tamano_legible": "131.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 002-2023.pdf",
+      "nombre": "CSU ACUERDO 002-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 326771,
+      "tamano_legible": "319.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 003 - 1997.pdf",
+      "nombre": "CSU ACUERDO 003 - 1997.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 645522,
+      "tamano_legible": "630.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 004 - 1996.pdf",
+      "nombre": "CSU ACUERDO 004 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 108237,
+      "tamano_legible": "105.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 004 - 2012.pdf",
+      "nombre": "CSU ACUERDO 004 - 2012.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 4604979,
+      "tamano_legible": "4.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 007-2023.pdf",
+      "nombre": "CSU ACUERDO 007-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 693577,
+      "tamano_legible": "677.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 01 DE 2006.pdf",
+      "nombre": "CSU ACUERDO 01 DE 2006.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 368871,
+      "tamano_legible": "360.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 011 - 2002.pdf",
+      "nombre": "CSU ACUERDO 011 - 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 379123,
+      "tamano_legible": "370.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 011 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 011 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 1045679,
+      "tamano_legible": "1021.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 014 - 1994.pdf",
+      "nombre": "CSU ACUERDO 014 - 1994.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 83682,
+      "tamano_legible": "81.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 03 - 2010.pdf",
+      "nombre": "CSU ACUERDO 03 - 2010.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 597302,
+      "tamano_legible": "583.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 09 - 1996.pdf",
+      "nombre": "CSU ACUERDO 09 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 327261,
+      "tamano_legible": "319.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 09 DE 2018.pdf",
+      "nombre": "CSU ACUERDO 09 DE 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 301814,
+      "tamano_legible": "294.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 10 - 1996.pdf",
+      "nombre": "CSU ACUERDO 10 - 1996.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 425947,
+      "tamano_legible": "416.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU ACUERDO 11 - 2002.pdf",
+      "nombre": "CSU ACUERDO 11 - 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 379123,
+      "tamano_legible": "370.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/CSU RESOLUCION 010 - 2022.pdf",
+      "nombre": "CSU RESOLUCION 010 - 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 117606,
+      "tamano_legible": "114.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Guía No. 3 de 2021 del CNA.pdf",
+      "nombre": "Guía No. 3 de 2021 del CNA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 5520062,
+      "tamano_legible": "5.3 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Guía No.04 de Seguimiento y Evaluación de los Planes de Mejoramiento.pdf",
+      "nombre": "Guía No.04 de Seguimiento y Evaluación de los Planes de Mejoramiento.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 5072185,
+      "tamano_legible": "4.8 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/MCIC_Anexo_reunion_Docentes.pdf",
+      "nombre": "MCIC_Anexo_reunion_Docentes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 1431185,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/MCIC_Anexo_reunion_IngSoftware.pdf",
+      "nombre": "MCIC_Anexo_reunion_IngSoftware.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 25767,
+      "tamano_legible": "25.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/MCIC_Anexo_reunion_geomatica.pdf",
+      "nombre": "MCIC_Anexo_reunion_geomatica.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 42444,
+      "tamano_legible": "41.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/MEN - DECRETO 1330 DEL 25 DE JULIO DE 2019.pdf",
+      "nombre": "MEN - DECRETO 1330 DEL 25 DE JULIO DE 2019.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 3845148,
+      "tamano_legible": "3.7 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/MEN-Resolucion-023653-10-12-2021.pdf",
+      "nombre": "MEN-Resolucion-023653-10-12-2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 465776,
+      "tamano_legible": "454.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/RE Resolucion 16 - 2025.pdf",
+      "nombre": "RE Resolucion 16 - 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 223650,
+      "tamano_legible": "218.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/RECTORIA RESOLICION 130 - 2004.pdf",
+      "nombre": "RECTORIA RESOLICION 130 - 2004.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 75605,
+      "tamano_legible": "73.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/RECTORIA RESOLUCION 214 DE 2014.pdf",
+      "nombre": "RECTORIA RESOLUCION 214 DE 2014.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 302512,
+      "tamano_legible": "295.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/RECTORIA RESOLUCION 285 DE 2020.pdf",
+      "nombre": "RECTORIA RESOLUCION 285 DE 2020.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 272209,
+      "tamano_legible": "265.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/RECTORIA RESOLUCION 444 - 2018.pdf",
+      "nombre": "RECTORIA RESOLUCION 444 - 2018.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 1053286,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/Resolucion Univ No. 177 de 2016.pdf",
+      "nombre": "Resolucion Univ No. 177 de 2016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 1401532,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos/res_2014-214.pdf",
+      "nombre": "res_2014-214.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos",
+      "tamano_bytes": 302512,
+      "tamano_legible": "295.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion/Acta 011 de 2025 Investigación_Firmada.pdf",
+      "nombre": "Acta 011 de 2025 Investigación_Firmada.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion",
+      "tamano_bytes": 889841,
+      "tamano_legible": "869.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+      "nombre": "CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion",
+      "tamano_bytes": 483664,
+      "tamano_legible": "472.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion/PEP-MCIC-INV-V2.docx",
+      "nombre": "PEP-MCIC-INV-V2.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion",
+      "tamano_bytes": 1124502,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion/Plan de Mejoramiento MCIC Investigacion.xlsx",
+      "nombre": "Plan de Mejoramiento MCIC Investigacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion",
+      "tamano_bytes": 125686,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion/Acta 009 de 2024 Profundización_Firmada.pdf",
+      "nombre": "Acta 009 de 2024 Profundización_Firmada.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion",
+      "tamano_bytes": 873240,
+      "tamano_legible": "852.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion/CuadroMaestro_AcreditacionPrograma Profundizacion.xlsx",
+      "nombre": "CuadroMaestro_AcreditacionPrograma Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion",
+      "tamano_bytes": 483542,
+      "tamano_legible": "472.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion/PEP-MCIC-PROF-V0.docx",
+      "nombre": "PEP-MCIC-PROF-V0.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion",
+      "tamano_bytes": 1168040,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion/Plan de Mejoramiento MCIC Profundizacion.xlsx",
+      "nombre": "Plan de Mejoramiento MCIC Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion",
+      "tamano_bytes": 125682,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/IE 3962-2025_AAC_MCIyC_FINGENIERÍA_26-03-2025 (2).pdf",
+      "nombre": "IE 3962-2025_AAC_MCIyC_FINGENIERÍA_26-03-2025 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos",
+      "tamano_bytes": 380648,
+      "tamano_legible": "371.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/1.ObservacionesMCIC_Investigacion.pdf",
+      "nombre": "1.ObservacionesMCIC_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 162737,
+      "tamano_legible": "158.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/12750IE-2025 _AAC_AE_MCIC_06-10-2025 (2).pdf",
+      "nombre": "12750IE-2025 _AAC_AE_MCIC_06-10-2025 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 564203,
+      "tamano_legible": "551.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/2.RInformeAutoevAAC-MCICINVESTIGACION.docx",
+      "nombre": "2.RInformeAutoevAAC-MCICINVESTIGACION.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 3425882,
+      "tamano_legible": "3.3 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/3.ReporteTurnitinMCIC_INVESTIGACION.pdf",
+      "nombre": "3.ReporteTurnitinMCIC_INVESTIGACION.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 4051373,
+      "tamano_legible": "3.9 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/4.comparacionDocumentosInvestigacionProfundizacion.pdf",
+      "nombre": "4.comparacionDocumentosInvestigacionProfundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 4130229,
+      "tamano_legible": "3.9 MB",
+      "modalidad": "ambas"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/CC-PR-004 Guía Radicación SACES-CNA_2024.docx",
+      "nombre": "CC-PR-004 Guía Radicación SACES-CNA_2024.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 7128785,
+      "tamano_legible": "6.8 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/IE 3962-2025_AAC_MCIyC_FINGENIERÍA_26-03-2025.pdf",
+      "nombre": "IE 3962-2025_AAC_MCIyC_FINGENIERÍA_26-03-2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 380648,
+      "tamano_legible": "371.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par1-BeatrizJaramillo/BeatrizJaramillo.docx",
+      "nombre": "BeatrizJaramillo.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par1-BeatrizJaramillo",
+      "tamano_bytes": 12098,
+      "tamano_legible": "11.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par1-BeatrizJaramillo/RevisiónMCIC-Investigación.pdf",
+      "nombre": "RevisiónMCIC-Investigación.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par1-BeatrizJaramillo",
+      "tamano_bytes": 56277,
+      "tamano_legible": "55.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava/1.ObservacionesMCIC_Investigacion_annotated.pdf",
+      "nombre": "1.ObservacionesMCIC_Investigacion_annotated.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava",
+      "tamano_bytes": 162737,
+      "tamano_legible": "158.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava/2.RInformeAutoev.ConFinesdeRenovaciondeAAC-MCICINVESTIGACION.docx",
+      "nombre": "2.RInformeAutoev.ConFinesdeRenovaciondeAAC-MCICINVESTIGACION.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava",
+      "tamano_bytes": 3244622,
+      "tamano_legible": "3.1 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava/3.ReporteTurnitinMCIC_INVESTIGACION.pdf",
+      "nombre": "3.ReporteTurnitinMCIC_INVESTIGACION.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava",
+      "tamano_bytes": 4051373,
+      "tamano_legible": "3.9 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava/4.comparacionDocumentosInvestigacionProfundizacion.pdf",
+      "nombre": "4.comparacionDocumentosInvestigacionProfundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava",
+      "tamano_bytes": 4130229,
+      "tamano_legible": "3.9 MB",
+      "modalidad": "ambas"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava/RobertoPava.docx",
+      "nombre": "RobertoPava.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par2-RobertoPava",
+      "tamano_bytes": 13714,
+      "tamano_legible": "13.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par3-RubenJavierMedina/RubenJavierMedina.docx",
+      "nombre": "RubenJavierMedina.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par3-RubenJavierMedina",
+      "tamano_bytes": 12976,
+      "tamano_legible": "12.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par3-RubenJavierMedina/a.InformeAutoev.ConfinesdeRenovaciónDeAAC-MCICPROFUNDIZACIÓN.pdf",
+      "nombre": "a.InformeAutoev.ConfinesdeRenovaciónDeAAC-MCICPROFUNDIZACIÓN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par3-RubenJavierMedina",
+      "tamano_bytes": 6354503,
+      "tamano_legible": "6.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par4-RobertoCardenas/RobertoCardenas.docx",
+      "nombre": "RobertoCardenas.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par4-RobertoCardenas",
+      "tamano_bytes": 12961,
+      "tamano_legible": "12.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par4-RobertoCardenas/a.InformeAutoev.ConfinesdeRenovaciónDeAAC-MCICPROFUNDIZACIÓNwk.docx",
+      "nombre": "a.InformeAutoev.ConfinesdeRenovaciónDeAAC-MCICPROFUNDIZACIÓNwk.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/ObservacionesdelosParesAcademicos/ObservacionesdelosParesAcademicos/Par4-RobertoCardenas",
+      "tamano_bytes": 4504153,
+      "tamano_legible": "4.3 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/PLantilla 2 MCIC con sugerencias AEO.pptx",
+      "nombre": "PLantilla 2 MCIC con sugerencias AEO.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 3644715,
+      "tamano_legible": "3.5 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/Revisión como par académico- Documento Reacreditación Maestría en Ciencias de la In.zip",
+      "nombre": "Revisión como par académico- Documento Reacreditación Maestría en Ciencias de la In.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 11589697,
+      "tamano_legible": "11.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/a.InformeAutoev.ConfinesdeRenovación de AAC-MCICPROFUNDIZACIÓN.pdf",
+      "nombre": "a.InformeAutoev.ConfinesdeRenovación de AAC-MCICPROFUNDIZACIÓN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 6354503,
+      "tamano_legible": "6.1 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/articles-413485_XCuadroMaestro_AcreditacionProgramasPOSGRADO_Maestria_Doctorados.xlsx",
+      "nombre": "articles-413485_XCuadroMaestro_AcreditacionProgramasPOSGRADO_Maestria_Doctorados.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 356043,
+      "tamano_legible": "347.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos/revisión MCIC - Investigación.pdf",
+      "nombre": "revisión MCIC - Investigación.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Conceptos",
+      "tamano_bytes": 56277,
+      "tamano_legible": "55.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+      "nombre": "Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA",
+      "tamano_bytes": 4214191,
+      "tamano_legible": "4.0 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+      "nombre": "Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA",
+      "tamano_bytes": 4366769,
+      "tamano_legible": "4.2 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Informe autoev. con fines de renovación de AAC - MCIC INVESTIGACIÓN.docx",
+      "nombre": "Informe autoev. con fines de renovación de AAC - MCIC INVESTIGACIÓN.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA",
+      "tamano_bytes": 5330780,
+      "tamano_legible": "5.1 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Informe autoev. con fines de renovación de AAC - MCIC PROFUNDIZACIÓN2.docx",
+      "nombre": "Informe autoev. con fines de renovación de AAC - MCIC PROFUNDIZACIÓN2.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA",
+      "tamano_bytes": 4863665,
+      "tamano_legible": "4.6 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Ponderación/Comparacion.xlsx",
+      "nombre": "Comparacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Ponderación",
+      "tamano_bytes": 156316,
+      "tamano_legible": "152.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Ponderación/Copia de dashboard-export-02-51-pm-2025-04-22(1).xlsx",
+      "nombre": "Copia de dashboard-export-02-51-pm-2025-04-22(1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/Ponderación",
+      "tamano_bytes": 105253,
+      "tamano_legible": "102.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/12464IE-2025 AAC_Mtr_Maestría en Ciencias_Información_Comunicaciones _30-09-2025.pdf",
+      "nombre": "12464IE-2025 AAC_Mtr_Maestría en Ciencias_Información_Comunicaciones _30-09-2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA",
+      "tamano_bytes": 322916,
+      "tamano_legible": "315.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/2025-EE-284293-Comunicacion Acreditaacion alta calidad de las 2.pdf",
+      "nombre": "2025-EE-284293-Comunicacion Acreditaacion alta calidad de las 2.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA",
+      "tamano_bytes": 268682,
+      "tamano_legible": "262.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC 11-9-2025.docx",
+      "nombre": "CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC 11-9-2025.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 3479013,
+      "tamano_legible": "3.3 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC 14-8-25.docx",
+      "nombre": "CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC 14-8-25.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 1964710,
+      "tamano_legible": "1.9 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC 2-9-25.docx",
+      "nombre": "CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC 2-9-25.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 2130568,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC.docx",
+      "nombre": "CC-PR-004 Documento guía Informe  Acreditación - Renovación  AAC.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 2123958,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/Proceso de Autoevaluación 2025 - Directivos(1-6).xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Directivos(1-6).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 16008,
+      "tamano_legible": "15.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/Proceso de Autoevaluación 2025 - Docentes.xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Docentes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 566316,
+      "tamano_legible": "553.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/Proceso de Autoevaluación 2025 - Egresados(1-36).xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Egresados(1-36).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 393003,
+      "tamano_legible": "383.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores/Proceso de autoevaluación 2025 - Estudiantes(1-53).xlsx",
+      "nombre": "Proceso de autoevaluación 2025 - Estudiantes(1-53).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Documentos preborradores",
+      "tamano_bytes": 720632,
+      "tamano_legible": "703.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Base para encuestas.xlsx",
+      "nombre": "Base para encuestas.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 371457,
+      "tamano_legible": "362.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/APRECIADO.docx",
+      "nombre": "APRECIADO.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
+      "tamano_bytes": 619796,
+      "tamano_legible": "605.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/Base para encuestasÑ.xlsx",
+      "nombre": "Base para encuestasÑ.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
+      "tamano_bytes": 374990,
+      "tamano_legible": "366.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/Captura de pantalla 2025-03-25 105708.jpg",
+      "nombre": "Captura de pantalla 2025-03-25 105708.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
+      "tamano_bytes": 68698,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/Correspondencia.docx",
+      "nombre": "Correspondencia.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
+      "tamano_bytes": 113403,
+      "tamano_legible": "110.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/EGRESADO.pdf",
+      "nombre": "EGRESADO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
+      "tamano_bytes": 557494,
+      "tamano_legible": "544.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/~$Base para encuestasÑ.xlsx",
+      "nombre": "~$Base para encuestasÑ.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
+      "tamano_bytes": 165,
+      "tamano_legible": "165 B",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/~$RECIADO.docx",
+      "nombre": "~$RECIADO.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
+      "tamano_bytes": 162,
+      "tamano_legible": "162 B",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/10.sistemas de evaluacion.png",
+      "nombre": "10.sistemas de evaluacion.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 44425,
+      "tamano_legible": "43.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/11 proceso de evaluacion y autorregulacion.png",
+      "nombre": "11 proceso de evaluacion y autorregulacion.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 91077,
+      "tamano_legible": "88.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/12. intervenciones.png",
+      "nombre": "12. intervenciones.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 85919,
+      "tamano_legible": "83.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/13 politicas,programas y servicion.png",
+      "nombre": "13 politicas,programas y servicion.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 87621,
+      "tamano_legible": "85.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/14. acompañamiento proporcionado.png",
+      "nombre": "14. acompañamiento proporcionado.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 83058,
+      "tamano_legible": "81.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/15. procesos administrativos.png",
+      "nombre": "15. procesos administrativos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 79777,
+      "tamano_legible": "77.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/16 Recursos Humanos.png",
+      "nombre": "16 Recursos Humanos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 89894,
+      "tamano_legible": "87.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/17. Recursos informaticos.png",
+      "nombre": "17. Recursos informaticos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 87153,
+      "tamano_legible": "85.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/19. Imparte asignaturas.png",
+      "nombre": "19. Imparte asignaturas.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 21367,
+      "tamano_legible": "20.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/2. Reglamento.png",
+      "nombre": "2. Reglamento.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 67340,
+      "tamano_legible": "65.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/21. Nivel de ingles.png",
+      "nombre": "21. Nivel de ingles.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 21630,
+      "tamano_legible": "21.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/8. estrategias de flexibilidad.png",
+      "nombre": "8. estrategias de flexibilidad.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 80289,
+      "tamano_legible": "78.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/9. estrategias pedagogicas.png",
+      "nombre": "9. estrategias pedagogicas.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes",
+      "tamano_bytes": 49395,
+      "tamano_legible": "48.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/1. Años de experiencia.png",
+      "nombre": "1. Años de experiencia.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 22159,
+      "tamano_legible": "21.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/18. Asignaturas en inglés.png",
+      "nombre": "18. Asignaturas en inglés.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 31545,
+      "tamano_legible": "30.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/20. Está dispuesto.png",
+      "nombre": "20. Está dispuesto.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 23861,
+      "tamano_legible": "23.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/3.  Criterios.png",
+      "nombre": "3.  Criterios.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 39914,
+      "tamano_legible": "39.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/4.  Politicas.png",
+      "nombre": "4.  Politicas.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 74083,
+      "tamano_legible": "72.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/5. Participacion en actividades.png",
+      "nombre": "5. Participacion en actividades.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 52657,
+      "tamano_legible": "51.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/6. Remuneracion.png",
+      "nombre": "6. Remuneracion.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 79687,
+      "tamano_legible": "77.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/7 Criterios evaluacion profesores.png",
+      "nombre": "7 Criterios evaluacion profesores.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta",
+      "tamano_bytes": 68717,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes.zip",
+      "nombre": "Docentes.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes",
+      "tamano_bytes": 1100194,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes.rar",
+      "nombre": "Docentes.rar",
+      "extension": "rar",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 1093704,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/1. Edad.png",
+      "nombre": "1. Edad.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 20098,
+      "tamano_legible": "19.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/10. Relacion Trabajo.png",
+      "nombre": "10. Relacion Trabajo.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 39829,
+      "tamano_legible": "38.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/2. Enfasis.png",
+      "nombre": "2. Enfasis.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 53757,
+      "tamano_legible": "52.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/3. Modalidad.png",
+      "nombre": "3. Modalidad.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 24316,
+      "tamano_legible": "23.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/5. Influencia Positiva.png",
+      "nombre": "5. Influencia Positiva.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 73523,
+      "tamano_legible": "71.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/6. Estrategias de flexibilidad.png",
+      "nombre": "6. Estrategias de flexibilidad.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 76192,
+      "tamano_legible": "74.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/7. Homologos.png",
+      "nombre": "7. Homologos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 83674,
+      "tamano_legible": "81.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/8. Representante Estudiantil.png",
+      "nombre": "8. Representante Estudiantil.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 90606,
+      "tamano_legible": "88.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/9. Trabajo Actual.png",
+      "nombre": "9. Trabajo Actual.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados",
+      "tamano_bytes": 52663,
+      "tamano_legible": "51.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/Nueva carpeta/11. Oportunidades Laborales.png",
+      "nombre": "11. Oportunidades Laborales.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/Nueva carpeta",
+      "tamano_bytes": 71278,
+      "tamano_legible": "69.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/Nueva carpeta/4. Competencias Adquiridas.png",
+      "nombre": "4. Competencias Adquiridas.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/Nueva carpeta",
+      "tamano_bytes": 41822,
+      "tamano_legible": "40.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados.zip",
+      "nombre": "Egresados.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 545188,
+      "tamano_legible": "532.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/1. Rango de Edad.png",
+      "nombre": "1. Rango de Edad.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 18965,
+      "tamano_legible": "18.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/10. CriteriosMecanismos.png",
+      "nombre": "10. CriteriosMecanismos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 80453,
+      "tamano_legible": "78.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/16. Homologos.png",
+      "nombre": "16. Homologos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 86963,
+      "tamano_legible": "84.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/17. Proporciona formacion adecuada.png",
+      "nombre": "17. Proporciona formacion adecuada.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 90416,
+      "tamano_legible": "88.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/18. Bienestar.png",
+      "nombre": "18. Bienestar.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 95502,
+      "tamano_legible": "93.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/2. AñoIngreso.png",
+      "nombre": "2. AñoIngreso.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 20983,
+      "tamano_legible": "20.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/20. Espacios Recursos.png",
+      "nombre": "20. Espacios Recursos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 86806,
+      "tamano_legible": "84.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/21. Mejoras en las estrategias.png",
+      "nombre": "21. Mejoras en las estrategias.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 39090,
+      "tamano_legible": "38.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/22. Material Bibliografico.png",
+      "nombre": "22. Material Bibliografico.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 96906,
+      "tamano_legible": "94.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/23. Representante Estudiantil.png",
+      "nombre": "23. Representante Estudiantil.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 101006,
+      "tamano_legible": "98.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/24. Procesos Administrativos orientados.png",
+      "nombre": "24. Procesos Administrativos orientados.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 96654,
+      "tamano_legible": "94.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/25. PEP.png",
+      "nombre": "25. PEP.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 95371,
+      "tamano_legible": "93.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/26. Recursos Informaticos.png",
+      "nombre": "26. Recursos Informaticos.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 98680,
+      "tamano_legible": "96.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/27. Trabajo Actual.png",
+      "nombre": "27. Trabajo Actual.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 57759,
+      "tamano_legible": "56.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/28. Relacion Trabajo.png",
+      "nombre": "28. Relacion Trabajo.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 80702,
+      "tamano_legible": "78.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/29. Nuevas Oportunidades Laborales.png",
+      "nombre": "29. Nuevas Oportunidades Laborales.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 70529,
+      "tamano_legible": "68.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/3. EnfasisInscrito.png",
+      "nombre": "3. EnfasisInscrito.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 58997,
+      "tamano_legible": "57.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/4. Modalidad.png",
+      "nombre": "4. Modalidad.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 25247,
+      "tamano_legible": "24.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/5. Asignatura en Ingles.png",
+      "nombre": "5. Asignatura en Ingles.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 32664,
+      "tamano_legible": "31.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/8. Criterios de concesion.png",
+      "nombre": "8. Criterios de concesion.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes",
+      "tamano_bytes": 75955,
+      "tamano_legible": "74.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/11. Estrategias Flexibilidad.png",
+      "nombre": "11. Estrategias Flexibilidad.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 92019,
+      "tamano_legible": "89.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/12. Estrategias Pedagogicas.png",
+      "nombre": "12. Estrategias Pedagogicas.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 90737,
+      "tamano_legible": "88.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/13.Sistemas de evaluacion.png",
+      "nombre": "13.Sistemas de evaluacion.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 82439,
+      "tamano_legible": "80.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/14. Proceso de evaluacion.png",
+      "nombre": "14. Proceso de evaluacion.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 96798,
+      "tamano_legible": "94.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/15. Intervenciones.png",
+      "nombre": "15. Intervenciones.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 86605,
+      "tamano_legible": "84.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/19. acompañamiento.png",
+      "nombre": "19. acompañamiento.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 91251,
+      "tamano_legible": "89.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/6. ParticipacionActiva.png",
+      "nombre": "6. ParticipacionActiva.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 40011,
+      "tamano_legible": "39.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/7. Reglamento Estudiantil.png",
+      "nombre": "7. Reglamento Estudiantil.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 87300,
+      "tamano_legible": "85.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/9. Material Academico.png",
+      "nombre": "9. Material Academico.png",
+      "extension": "png",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta",
+      "tamano_bytes": 85449,
+      "tamano_legible": "83.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes.zip",
+      "nombre": "Estudiantes.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 1880227,
+      "tamano_legible": "1.8 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Información empleadores.xlsx",
+      "nombre": "Información empleadores.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 24559,
+      "tamano_legible": "24.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Proceso de Autoevaluación 2025 - Docentes  - wil.xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Docentes  - wil.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 74671,
+      "tamano_legible": "72.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Proceso de Autoevaluación 2025 - Docentes.xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Docentes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 35713,
+      "tamano_legible": "34.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Proceso de Autoevaluación 2025 - Egresados(1-36).xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Egresados(1-36).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 45591,
+      "tamano_legible": "44.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Proceso de Autoevaluación 2025 - Egresados.xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Egresados.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 30824,
+      "tamano_legible": "30.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Proceso de autoevaluación 2025 - Estudiantes(1-53) (version 1).xlsb.xlsx",
+      "nombre": "Proceso de autoevaluación 2025 - Estudiantes(1-53) (version 1).xlsb.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 86937,
+      "tamano_legible": "84.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Proceso de autoevaluación 2025 - Estudiantes.xlsx",
+      "nombre": "Proceso de autoevaluación 2025 - Estudiantes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas",
+      "tamano_bytes": 63220,
+      "tamano_legible": "61.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/DIRECTIVO.pdf",
+      "nombre": "DIRECTIVO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 557387,
+      "tamano_legible": "544.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Docentes.pdf",
+      "nombre": "Docentes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 557359,
+      "tamano_legible": "544.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/EGRESADO.pdf",
+      "nombre": "EGRESADO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 557494,
+      "tamano_legible": "544.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/ESTUDIANTE.pdf",
+      "nombre": "ESTUDIANTE.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 557553,
+      "tamano_legible": "544.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Encuesta directivo.jpg",
+      "nombre": "Encuesta directivo.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 372871,
+      "tamano_legible": "364.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Encuesta docente.jpg",
+      "nombre": "Encuesta docente.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 367213,
+      "tamano_legible": "358.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Encuesta egresado.jpg",
+      "nombre": "Encuesta egresado.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 372626,
+      "tamano_legible": "363.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Encuesta estudiante.jpg",
+      "nombre": "Encuesta estudiante.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes",
+      "tamano_bytes": 369313,
+      "tamano_legible": "360.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Entregables Plan de Mejoramiento.xlsx",
+      "nombre": "Entregables Plan de Mejoramiento.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA",
+      "tamano_bytes": 12873,
+      "tamano_legible": "12.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Info ODI.pdf",
+      "nombre": "Info ODI.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA",
+      "tamano_bytes": 387476,
+      "tamano_legible": "378.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Investigacion/Factores Egresados- Investigacion.xlsx",
+      "nombre": "Factores Egresados- Investigacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Investigacion",
+      "tamano_bytes": 54006,
+      "tamano_legible": "52.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Investigacion/Factores Estudiantes- Investigacion.xlsx",
+      "nombre": "Factores Estudiantes- Investigacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Investigacion",
+      "tamano_bytes": 142487,
+      "tamano_legible": "139.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Listado Anexos/Listado Anexos.xlsx",
+      "nombre": "Listado Anexos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Listado Anexos",
+      "tamano_bytes": 11229,
+      "tamano_legible": "11.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Profundizacion/Factores Egresados - Profundizacion.xlsx",
+      "nombre": "Factores Egresados - Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Profundizacion",
+      "tamano_bytes": 57940,
+      "tamano_legible": "56.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Profundizacion/Factores Estudiantes- Profundizacion.xlsx",
+      "nombre": "Factores Estudiantes- Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Profundizacion",
+      "tamano_bytes": 138675,
+      "tamano_legible": "135.4 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Factores Egresados.xlsx",
+      "nombre": "Factores Egresados.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas",
+      "tamano_bytes": 105785,
+      "tamano_legible": "103.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Factores Estudiantes.xlsx",
+      "nombre": "Factores Estudiantes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas",
+      "tamano_bytes": 264243,
+      "tamano_legible": "258.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas/Proceso de Autoevaluación 2025 - Docentes.pptx",
+      "nombre": "Proceso de Autoevaluación 2025 - Docentes.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas",
+      "tamano_bytes": 163510,
+      "tamano_legible": "159.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas/Proceso de Autoevaluación 2025 - Docentes.xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Docentes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas",
+      "tamano_bytes": 126344,
+      "tamano_legible": "123.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas/Proceso de Autoevaluación 2025 - Egresados.pptx",
+      "nombre": "Proceso de Autoevaluación 2025 - Egresados.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas",
+      "tamano_bytes": 96972,
+      "tamano_legible": "94.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas/Proceso de Autoevaluación 2025 - Egresados.xlsx",
+      "nombre": "Proceso de Autoevaluación 2025 - Egresados.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas",
+      "tamano_bytes": 79304,
+      "tamano_legible": "77.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas/Proceso de autoevaluación 2025 - Estudiantes.pptx",
+      "nombre": "Proceso de autoevaluación 2025 - Estudiantes.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas",
+      "tamano_bytes": 206367,
+      "tamano_legible": "201.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas/Proceso de autoevaluación 2025 - Estudiantes.xlsx",
+      "nombre": "Proceso de autoevaluación 2025 - Estudiantes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Presentación Encuestas",
+      "tamano_bytes": 201544,
+      "tamano_legible": "196.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Proceso de Autoevaluación 2025 - Docentes.csv",
+      "nombre": "Proceso de Autoevaluación 2025 - Docentes.csv",
+      "extension": "csv",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas",
+      "tamano_bytes": 47804,
+      "tamano_legible": "46.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Proceso de Autoevaluación 2025 - Egresados.csv",
+      "nombre": "Proceso de Autoevaluación 2025 - Egresados.csv",
+      "extension": "csv",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas",
+      "tamano_bytes": 35567,
+      "tamano_legible": "34.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas/Proceso de autoevaluación 2025 - Estudiantes.csv",
+      "nombre": "Proceso de autoevaluación 2025 - Estudiantes.csv",
+      "extension": "csv",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resultados encuestas",
+      "tamano_bytes": 103673,
+      "tamano_legible": "101.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Resumen_Bienestar_Ingenieria_Docentes_Administrativos_por_anio_servicio.xlsx",
+      "nombre": "Resumen_Bienestar_Ingenieria_Docentes_Administrativos_por_anio_servicio.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA",
+      "tamano_bytes": 5778,
+      "tamano_legible": "5.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Reunion docentes 2025/MCIC_Presentación 2025 RAAC.pptx",
+      "nombre": "MCIC_Presentación 2025 RAAC.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Reunion docentes 2025",
+      "tamano_bytes": 258988,
+      "tamano_legible": "252.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Reunion docentes 2025/PLantilla 2 MCIC.pptx",
+      "nombre": "PLantilla 2 MCIC.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Reunion docentes 2025",
+      "tamano_bytes": 3616966,
+      "tamano_legible": "3.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soorte radicacion polan de mejoramiento.pdf",
+      "nombre": "Soorte radicacion polan de mejoramiento.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA",
+      "tamano_bytes": 67635,
+      "tamano_legible": "66.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/79950025_Elvis_Eduardo_Gaona_García.pdf",
+      "nombre": "79950025_Elvis_Eduardo_Gaona_García.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 2680057,
+      "tamano_legible": "2.6 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Alvaro Ortiz.pdf",
+      "nombre": "Alvaro Ortiz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 625554,
+      "tamano_legible": "610.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Hnas I Lopz.pdf",
+      "nombre": "Hnas I Lopz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 170318,
+      "tamano_legible": "166.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/José Antonio Valero.pdf",
+      "nombre": "José Antonio Valero.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 605148,
+      "tamano_legible": "591.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Leonardo Plazas. correo.pdf",
+      "nombre": "Leonardo Plazas. correo.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 792001,
+      "tamano_legible": "773.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Leonardo PlazasEvent-Hangzhou-Leonardo-Plazas.pdf",
+      "nombre": "Leonardo PlazasEvent-Hangzhou-Leonardo-Plazas.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 467933,
+      "tamano_legible": "457.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Lilia Edtn apariciio.pdf",
+      "nombre": "Lilia Edtn apariciio.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 297794,
+      "tamano_legible": "290.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Luis Castillo.pdf",
+      "nombre": "Luis Castillo.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 618393,
+      "tamano_legible": "603.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Roberto Cardenas Introduction_to_Cybersecurity_Badge20241101-26-ehmgtp.pdf",
+      "nombre": "Roberto Cardenas Introduction_to_Cybersecurity_Badge20241101-26-ehmgtp.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 565618,
+      "tamano_legible": "552.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente/Roberto Cárdenas Fundamentos de 5g.pdf",
+      "nombre": "Roberto Cárdenas Fundamentos de 5g.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Capacitación docente",
+      "tamano_bytes": 191721,
+      "tamano_legible": "187.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/DESERCION.xlsx",
+      "nombre": "DESERCION.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 248672,
+      "tamano_legible": "242.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Divulgación grupos de investigación 2025-1.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 199721,
+      "tamano_legible": "195.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Divulgación grupos de investigación 2025-3.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 160744,
+      "tamano_legible": "157.0 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Encuentro estudiantes evaluacion docente.jpg",
+      "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 189320,
+      "tamano_legible": "184.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Inducción 2025-1.jpg",
+      "nombre": "Inducción 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 218229,
+      "tamano_legible": "213.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Ponderacion Factores - caract - aspectos.xlsx",
+      "nombre": "Ponderacion Factores - caract - aspectos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 33742,
+      "tamano_legible": "33.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Ponderacion.xlsx",
+      "nombre": "Ponderacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 24509,
+      "tamano_legible": "23.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Proy de investigación ventana 2020-2025.xlsx",
+      "nombre": "Proy de investigación ventana 2020-2025.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes",
+      "tamano_bytes": 17523,
+      "tamano_legible": "17.1 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion/Anexo 4 Carta de servicios Biblioteca Universidad Distrital.pdf",
+      "nombre": "Anexo 4 Carta de servicios Biblioteca Universidad Distrital.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion",
+      "tamano_bytes": 3753113,
+      "tamano_legible": "3.6 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion/Información laboratorios Fac Ingenieria.xlsx",
+      "nombre": "Información laboratorios Fac Ingenieria.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion",
+      "tamano_bytes": 57243,
+      "tamano_legible": "55.9 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion/PEP.pdf",
+      "nombre": "PEP.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion",
+      "tamano_bytes": 723627,
+      "tamano_legible": "706.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion/biblioteca Anexo 1 Biblioteca Cuadro Maestro estadistico.xlsx",
+      "nombre": "biblioteca Anexo 1 Biblioteca Cuadro Maestro estadistico.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion",
+      "tamano_bytes": 263448,
+      "tamano_legible": "257.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion/biblioteca Anexo 2 Biblioteca InversiónAdquisiciónRec.xlsx",
+      "nombre": "biblioteca Anexo 2 Biblioteca InversiónAdquisiciónRec.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion",
+      "tamano_bytes": 198823,
+      "tamano_legible": "194.2 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion/biblioteca Anexo 3 Reporte_elogim 2025 Facultad Ingenieria.xlsx",
+      "nombre": "biblioteca Anexo 3 Reporte_elogim 2025 Facultad Ingenieria.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes Investigacion",
+      "tamano_bytes": 189085,
+      "tamano_legible": "184.7 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Syllabus por docente.xlsx",
+      "nombre": "Syllabus por docente.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA",
+      "tamano_bytes": 55408,
+      "tamano_legible": "54.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/DOC MAES REGCALI MCIC-INV.docx",
+      "nombre": "DOC MAES REGCALI MCIC-INV.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion",
+      "tamano_bytes": 7841668,
+      "tamano_legible": "7.5 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/DOC MAES REGCALI MCIC-PROF.docx",
+      "nombre": "DOC MAES REGCALI MCIC-PROF.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion",
+      "tamano_bytes": 8493885,
+      "tamano_legible": "8.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/3860-RC-FI-Ornt plan de estudios MCIC-06-3-24 (1).pdf",
+      "nombre": "3860-RC-FI-Ornt plan de estudios MCIC-06-3-24 (1).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 415222,
+      "tamano_legible": "405.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/AA-RC-Doc guía modificaciones al RC-16-04-22 Institucional (Plantilla).docx",
+      "nombre": "AA-RC-Doc guía modificaciones al RC-16-04-22 Institucional (Plantilla).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 1433890,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/CYC COOR-008-2024 Trazabilidad MCIC al 2024.pdf",
+      "nombre": "CYC COOR-008-2024 Trazabilidad MCIC al 2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 247269,
+      "tamano_legible": "241.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/AA-RC-Doc guía modificaciones al RC-16-04-22 Institucional (Plantilla) (4).pdf",
+      "nombre": "AA-RC-Doc guía modificaciones al RC-16-04-22 Institucional (Plantilla) (4).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo",
+      "tamano_bytes": 1627213,
+      "tamano_legible": "1.6 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/AA-RC-Doc guía modificaciones al RC-16-04-22 Institucional.docx",
+      "nombre": "AA-RC-Doc guía modificaciones al RC-16-04-22 Institucional.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo",
+      "tamano_bytes": 1450919,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Acta No. 32 Consejo de Facultad.pdf",
+      "nombre": "Acta No. 32 Consejo de Facultad.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo",
+      "tamano_bytes": 291020,
+      "tamano_legible": "284.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Aval facultad.pdf",
+      "nombre": "Aval facultad.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo",
+      "tamano_bytes": 111710,
+      "tamano_legible": "109.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/CYC POS 064  2024_MCIC_docMod.pdf",
+      "nombre": "CYC POS 064  2024_MCIC_docMod.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo",
+      "tamano_bytes": 538273,
+      "tamano_legible": "525.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/0-RC-Mod PE MCIC-29-01-25.pptx",
+      "nombre": "0-RC-Mod PE MCIC-29-01-25.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 3385580,
+      "tamano_legible": "3.2 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/2024IE17467-RC-FI-Concp Doc Mod PE MCIC-23-11-24.pdf",
+      "nombre": "2024IE17467-RC-FI-Concp Doc Mod PE MCIC-23-11-24.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 494239,
+      "tamano_legible": "482.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/4-RC-(PE) Ren Mod PE MCIC-29-01-25-Rvdo.docx",
+      "nombre": "4-RC-(PE) Ren Mod PE MCIC-29-01-25-Rvdo.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 375797,
+      "tamano_legible": "367.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 1. Resolución No. 032 de octubre 2002.pdf",
+      "nombre": "Anexo 1. Resolución No. 032 de octubre 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 105777,
+      "tamano_legible": "103.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 10. Acuerdo No. 005 de noviembre 2021 CSU.pdf",
+      "nombre": "Anexo 10. Acuerdo No. 005 de noviembre 2021 CSU.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 419999,
+      "tamano_legible": "410.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 11. Acreditación de Alta Calidad.pdf",
+      "nombre": "Anexo 11. Acreditación de Alta Calidad.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 176588,
+      "tamano_legible": "172.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 12. Resolución 310 de febrero 2003 del MEN.pdf",
+      "nombre": "Anexo 12. Resolución 310 de febrero 2003 del MEN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 129162,
+      "tamano_legible": "126.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 13. Resolución 10615 de noviembre 2011 MEN.pdf",
+      "nombre": "Anexo 13. Resolución 10615 de noviembre 2011 MEN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 209401,
+      "tamano_legible": "204.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 14. Resolución 155 de septiembre 2014.pdf",
+      "nombre": "Anexo 14. Resolución 155 de septiembre 2014.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 157900,
+      "tamano_legible": "154.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 15. Acuerdo 010 1987 y Resolución 44 de 1989.pdf",
+      "nombre": "Anexo 15. Acuerdo 010 1987 y Resolución 44 de 1989.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 117469,
+      "tamano_legible": "114.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 2. Registro calificado Resolución No. 05485 de abril 2015.pdf",
+      "nombre": "Anexo 2. Registro calificado Resolución No. 05485 de abril 2015.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 935499,
+      "tamano_legible": "913.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 3. Acuerdo 01 de marzo 2019.pdf",
+      "nombre": "Anexo 3. Acuerdo 01 de marzo 2019.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 2076720,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 4. Acuerdo 04 de abril 2022.pdf",
+      "nombre": "Anexo 4. Acuerdo 04 de abril 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 430841,
+      "tamano_legible": "420.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 5. Resolución No. 09925 de junio 2023.pdf",
+      "nombre": "Anexo 5. Resolución No. 09925 de junio 2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 172183,
+      "tamano_legible": "168.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 6. Resolución No. 016163 de septiembre 2023.pdf",
+      "nombre": "Anexo 6. Resolución No. 016163 de septiembre 2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 204276,
+      "tamano_legible": "199.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 7. Aval Consejo Curricular de marzo 2021.pdf",
+      "nombre": "Anexo 7. Aval Consejo Curricular de marzo 2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 211730,
+      "tamano_legible": "206.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 8. Aval Consejo de Facultad de septiembre 2021.pdf",
+      "nombre": "Anexo 8. Aval Consejo de Facultad de septiembre 2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 152578,
+      "tamano_legible": "149.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Anexo 9. Aval Consejo Académico acta No. 014 de junio 2021.pdf",
+      "nombre": "Anexo 9. Aval Consejo Académico acta No. 014 de junio 2021.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 162260,
+      "tamano_legible": "158.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Fundamentales/Syllabus HERRAMIENTAS MATEMÁTICAS PARA EL MANEJO DE LA INFORMACIÓN.xlsx",
+      "nombre": "Syllabus HERRAMIENTAS MATEMÁTICAS PARA EL MANEJO DE LA INFORMACIÓN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Fundamentales",
+      "tamano_bytes": 67342,
+      "tamano_legible": "65.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Fundamentales/SyllabusInformática-V0.1.xlsx",
+      "nombre": "SyllabusInformática-V0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Fundamentales",
+      "tamano_bytes": 67914,
+      "tamano_legible": "66.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica/Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+      "nombre": "Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica",
+      "tamano_bytes": 65779,
+      "tamano_legible": "64.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica/Syllabus ANÁLISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANÁLISIS ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica",
+      "tamano_bytes": 66715,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica/Syllabus BASES DE DATOS ESPACIALES.xlsx",
+      "nombre": "Syllabus BASES DE DATOS ESPACIALES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica",
+      "tamano_bytes": 66235,
+      "tamano_legible": "64.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica/Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica",
+      "tamano_bytes": 71751,
+      "tamano_legible": "70.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica/Syllabus MÉTODOS AVANZADOS EN ANÁLISIS DE IMÁGENES.xlsx",
+      "nombre": "Syllabus MÉTODOS AVANZADOS EN ANÁLISIS DE IMÁGENES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica",
+      "tamano_bytes": 66749,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica/Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica",
+      "tamano_bytes": 67270,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Geomatica",
+      "tamano_bytes": 67490,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware",
+      "tamano_bytes": 66096,
+      "tamano_legible": "64.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware/Syllabus CONSTRUCCIÓN Y PRUEBAS DE SOFTWARE.xlsx",
+      "nombre": "Syllabus CONSTRUCCIÓN Y PRUEBAS DE SOFTWARE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware",
+      "tamano_bytes": 66529,
+      "tamano_legible": "65.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware/Syllabus Ingeniería de Software II.xlsx",
+      "nombre": "Syllabus Ingeniería de Software II.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware",
+      "tamano_bytes": 67628,
+      "tamano_legible": "66.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware/Syllabus Patrones y Arquitectura de Software.xlsx",
+      "nombre": "Syllabus Patrones y Arquitectura de Software.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware",
+      "tamano_bytes": 68877,
+      "tamano_legible": "67.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware/SyllabusIngenieríadeSoftwareI-V0.1.xlsx",
+      "nombre": "SyllabusIngenieríadeSoftwareI-V0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware",
+      "tamano_bytes": 68242,
+      "tamano_legible": "66.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware/SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Ingeniería de Sotfware",
+      "tamano_bytes": 66816,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial/Syllabus Analítica de Datos.xlsx",
+      "nombre": "Syllabus Analítica de Datos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial",
+      "tamano_bytes": 66193,
+      "tamano_legible": "64.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial",
+      "tamano_bytes": 67967,
+      "tamano_legible": "66.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial/Syllabus COMPUTACIÓN PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIÓN PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial",
+      "tamano_bytes": 67010,
+      "tamano_legible": "65.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial",
+      "tamano_bytes": 69803,
+      "tamano_legible": "68.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial",
+      "tamano_bytes": 67058,
+      "tamano_legible": "65.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Inteligencia artificial",
+      "tamano_bytes": 69052,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Investigación/Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Investigación",
+      "tamano_bytes": 68145,
+      "tamano_legible": "66.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica",
+      "tamano_bytes": 68444,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica/Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica",
+      "tamano_bytes": 66444,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica/Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica",
+      "tamano_bytes": 70657,
+      "tamano_legible": "69.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica/Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+      "nombre": "Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica",
+      "tamano_bytes": 66336,
+      "tamano_legible": "64.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica/Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica",
+      "tamano_bytes": 70092,
+      "tamano_legible": "68.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 1. Syllabus/Syllabus Actualizados/Teleinformatica",
+      "tamano_bytes": 63551,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 2. COMPONENTE DE INVESTIGACIÓN.pdf",
+      "nombre": "Evidencia 2. COMPONENTE DE INVESTIGACIÓN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 899559,
+      "tamano_legible": "878.5 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES/Evidencia 3. COMPONENTE DE PROFUNDIZACIÓN.pdf",
+      "nombre": "Evidencia 3. COMPONENTE DE PROFUNDIZACIÓN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/ANEXOS DOCUMENTO MODIFICACIONES",
+      "tamano_bytes": 823409,
+      "tamano_legible": "804.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/CYC 088 DE 2024.pdf",
+      "nombre": "CYC 088 DE 2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 533183,
+      "tamano_legible": "520.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/CYC 089 DE 2024 (2).pdf",
+      "nombre": "CYC 089 DE 2024 (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 624335,
+      "tamano_legible": "609.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/CYC 097 DE 2024.pdf",
+      "nombre": "CYC 097 DE 2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 163513,
+      "tamano_legible": "159.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/Correo notificación correciones.pdf",
+      "nombre": "Correo notificación correciones.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 168809,
+      "tamano_legible": "164.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/Correo recibido documento modifi V&.pdf",
+      "nombre": "Correo recibido documento modifi V&.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 284331,
+      "tamano_legible": "277.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/Documento con observaciones RC-FI-Doc Mod RC MCIC.pdf",
+      "nombre": "Documento con observaciones RC-FI-Doc Mod RC MCIC.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 1474364,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/Documento modificaciones V3-9-2024.docx",
+      "nombre": "Documento modificaciones V3-9-2024.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 1439128,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/Documento modificaciones V5 4-12-2024.docx",
+      "nombre": "Documento modificaciones V5 4-12-2024.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 1459448,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/Documento modificaciones V6 4-12-2024.docx",
+      "nombre": "Documento modificaciones V6 4-12-2024.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 1455081,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/PLAN TRANCISION INVESTIGACION.pdf",
+      "nombre": "PLAN TRANCISION INVESTIGACION.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 655716,
+      "tamano_legible": "640.3 KB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/PLAN TRANCISION PROFUNDIZACION.pdf",
+      "nombre": "PLAN TRANCISION PROFUNDIZACION.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 722943,
+      "tamano_legible": "706.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/RC-(PE) Ren Mod PE MCIC-17-02-25.docx",
+      "nombre": "RC-(PE) Ren Mod PE MCIC-17-02-25.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 370945,
+      "tamano_legible": "362.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones/Versión Final Documento modificaciones V4 10-9-2024.pdf",
+      "nombre": "Versión Final Documento modificaciones V4 10-9-2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento final de modificaciones",
+      "tamano_bytes": 1509804,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Documento modificaciones V2-8-2024.docx",
+      "nombre": "Documento modificaciones V2-8-2024.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo",
+      "tamano_bytes": 1436686,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo/Remision a Vicerectoria.pdf",
+      "nombre": "Remision a Vicerectoria.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024/Concepto de Comite Curriculo",
+      "tamano_bytes": 180109,
+      "tamano_legible": "175.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Copia de RC-Validación PE MCIC(1).xlsx",
+      "nombre": "Copia de RC-Validación PE MCIC(1).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 19740,
+      "tamano_legible": "19.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/DOC MAES REGCALI MCIC-INV.docx",
+      "nombre": "DOC MAES REGCALI MCIC-INV.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 7843880,
+      "tamano_legible": "7.5 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/DOC MAES REGCALI MCIC-PROF.docx",
+      "nombre": "DOC MAES REGCALI MCIC-PROF.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 7868347,
+      "tamano_legible": "7.5 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Documento Modificación Curriculo Maestria CIC-2024- REVI curriculo.docx",
+      "nombre": "Documento Modificación Curriculo Maestria CIC-2024- REVI curriculo.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 697142,
+      "tamano_legible": "680.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Documento Modificación Curriculo Maestria CIC-2024-Ajustado Version 1.docx",
+      "nombre": "Documento Modificación Curriculo Maestria CIC-2024-Ajustado Version 1.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 700024,
+      "tamano_legible": "683.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Guia de modificaciones.pdf",
+      "nombre": "Guia de modificaciones.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 2054413,
+      "tamano_legible": "2.0 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/MCIC_PresentaciónGeneral.pptx",
+      "nombre": "MCIC_PresentaciónGeneral.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 248715,
+      "tamano_legible": "242.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/PLAN DE TRANSCICION.xlsx",
+      "nombre": "PLAN DE TRANSCICION.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 254957,
+      "tamano_legible": "249.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Plan-Mejoramiento MCIC-2024-2026.xlsx",
+      "nombre": "Plan-Mejoramiento MCIC-2024-2026.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 18064,
+      "tamano_legible": "17.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/RTA vicerectoria doc modificaciones.pdf",
+      "nombre": "RTA vicerectoria doc modificaciones.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 486252,
+      "tamano_legible": "474.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Trancision.xlsx",
+      "nombre": "Trancision.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 113509,
+      "tamano_legible": "110.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/Trazabilidad MCIC 2020-2024.xlsx",
+      "nombre": "Trazabilidad MCIC 2020-2024.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 42256,
+      "tamano_legible": "41.3 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Doc modificaicones 2024/comi2_2021-008 CSU.pdf",
+      "nombre": "comi2_2021-008 CSU.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/Doc modificaicones 2024",
+      "tamano_bytes": 245818,
+      "tamano_legible": "240.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/2024-EE-240612-Comunicacion Enviada-MCI.pdf",
+      "nombre": "2024-EE-240612-Comunicacion Enviada-MCI.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 262246,
+      "tamano_legible": "256.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Acta No. 20.pdf",
+      "nombre": "Acta No. 20.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 426204,
+      "tamano_legible": "416.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Aval comite de curriculo FACING.pdf",
+      "nombre": "Aval comite de curriculo FACING.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 167616,
+      "tamano_legible": "163.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/CYC POS 041 2024.pdf",
+      "nombre": "CYC POS 041 2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 555168,
+      "tamano_legible": "542.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Comunicación IE12138 del Comité Institucional de Currículo y Calidad. .zip",
+      "nombre": "Comunicación IE12138 del Comité Institucional de Currículo y Calidad. .zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 522675,
+      "tamano_legible": "510.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/EE1345_AAC_PM_MCIC_FI_2024.pdf",
+      "nombre": "EE1345_AAC_PM_MCIC_FI_2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 67635,
+      "tamano_legible": "66.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/EE1345_Acta No 020 del Consejo de Facultad de Ingeniería.pdf",
+      "nombre": "EE1345_Acta No 020 del Consejo de Facultad de Ingeniería.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 426204,
+      "tamano_legible": "416.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/EE1345_Comunicación CYC POS-041-2024.pdf",
+      "nombre": "EE1345_Comunicación CYC POS-041-2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 167616,
+      "tamano_legible": "163.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/EE1345_Comunicación MCIC-042-2024.pdf",
+      "nombre": "EE1345_Comunicación MCIC-042-2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 186416,
+      "tamano_legible": "182.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/EE1345_Formato AA-FR-001-Plan de Mejoramiento.xlsx",
+      "nombre": "EE1345_Formato AA-FR-001-Plan de Mejoramiento.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 113408,
+      "tamano_legible": "110.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/EE1345_Soporte de radicación PM_MCI.pdf",
+      "nombre": "EE1345_Soporte de radicación PM_MCI.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 261684,
+      "tamano_legible": "255.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/FORMATO RESOLUCIÓN PLAN DE MEJORAMIENTO - PROYECTOS CURRICULARES-MCIC.doc",
+      "nombre": "FORMATO RESOLUCIÓN PLAN DE MEJORAMIENTO - PROYECTOS CURRICULARES-MCIC.doc",
+      "extension": "doc",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 425984,
+      "tamano_legible": "416.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Formato AA-FR-001-Plan de Mejoramiento-MCIC FINAL.xlsm",
+      "nombre": "Formato AA-FR-001-Plan de Mejoramiento-MCIC FINAL.xlsm",
+      "extension": "xlsm",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 120172,
+      "tamano_legible": "117.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Formato AA-FR-001-Plan de Mejoramiento-MCIC.xlsm",
+      "nombre": "Formato AA-FR-001-Plan de Mejoramiento-MCIC.xlsm",
+      "extension": "xlsm",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 120899,
+      "tamano_legible": "118.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/IE12138_AAC_PM_MCIC_FI_2024.pdf",
+      "nombre": "IE12138_AAC_PM_MCIC_FI_2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 260107,
+      "tamano_legible": "254.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/RV_ Comunicación a Vicerrectoría.zip",
+      "nombre": "RV_ Comunicación a Vicerrectoría.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 1296030,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/EE1345_AAC_PM_MCIC_FI_2024.pdf",
+      "nombre": "EE1345_AAC_PM_MCIC_FI_2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
+      "tamano_bytes": 67635,
+      "tamano_legible": "66.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/EE1345_Acta No 020 del Consejo de Facultad de Ingeniería.pdf",
+      "nombre": "EE1345_Acta No 020 del Consejo de Facultad de Ingeniería.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
+      "tamano_bytes": 426204,
+      "tamano_legible": "416.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/EE1345_Comunicación CYC POS-041-2024.pdf",
+      "nombre": "EE1345_Comunicación CYC POS-041-2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
+      "tamano_bytes": 167616,
+      "tamano_legible": "163.7 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/EE1345_Comunicación MCIC-042-2024.pdf",
+      "nombre": "EE1345_Comunicación MCIC-042-2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
+      "tamano_bytes": 186416,
+      "tamano_legible": "182.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/EE1345_Formato AA-FR-001-Plan de Mejoramiento-MCIC.xlsx",
+      "nombre": "EE1345_Formato AA-FR-001-Plan de Mejoramiento-MCIC.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
+      "tamano_bytes": 113030,
+      "tamano_legible": "110.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/EE1345_Soporte de radicación PM_MCI.pdf",
+      "nombre": "EE1345_Soporte de radicación PM_MCI.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
+      "tamano_bytes": 261684,
+      "tamano_legible": "255.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/Resolución No. 33 plan de mejoramiento MCIC (1).pdf",
+      "nombre": "Resolución No. 33 plan de mejoramiento MCIC (1).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
+      "tamano_bytes": 397543,
+      "tamano_legible": "388.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN.zip",
+      "nombre": "Radicación a MEN.zip",
+      "extension": "zip",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 1622509,
+      "tamano_legible": "1.5 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Resolución No. 33 plan de mejoramiento MCIC (1).pdf",
+      "nombre": "Resolución No. 33 plan de mejoramiento MCIC (1).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 397543,
+      "tamano_legible": "388.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Resolución No. 33 plan de mejoramiento MCIC. (1).doc",
+      "nombre": "Resolución No. 33 plan de mejoramiento MCIC. (1).doc",
+      "extension": "doc",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 679936,
+      "tamano_legible": "664.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/aval curricular.pdf",
+      "nombre": "aval curricular.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024",
+      "tamano_bytes": 186416,
+      "tamano_legible": "182.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.docx",
+      "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 28753,
+      "tamano_legible": "28.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/CC-FR-001 Plan de mejoramiento programas (V4).xlsx",
+      "nombre": "CC-FR-001 Plan de mejoramiento programas (V4).xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 125039,
+      "tamano_legible": "122.1 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day/OPEN DAY.pdf",
+      "nombre": "OPEN DAY.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day",
+      "tamano_bytes": 637120,
+      "tamano_legible": "622.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day/Registro Fotografico.jpeg",
+      "nombre": "Registro Fotografico.jpeg",
+      "extension": "jpeg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day",
+      "tamano_bytes": 273162,
+      "tamano_legible": "266.8 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day/Registro Fotografico2.jpeg",
+      "nombre": "Registro Fotografico2.jpeg",
+      "extension": "jpeg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day",
+      "tamano_bytes": 255018,
+      "tamano_legible": "249.0 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day/Registro Fotografico3.jpeg",
+      "nombre": "Registro Fotografico3.jpeg",
+      "extension": "jpeg",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day",
+      "tamano_bytes": 246393,
+      "tamano_legible": "240.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/MCIC AutoevaluacionPermanenteInstitucional.docx",
+      "nombre": "MCIC AutoevaluacionPermanenteInstitucional.docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 740252,
+      "tamano_legible": "722.9 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/MCIC.xlsx",
+      "nombre": "MCIC.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 15587,
+      "tamano_legible": "15.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026",
+      "tamano_bytes": 124265,
+      "tamano_legible": "121.4 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/Propuesta Agenda - Sept-2026 (2) (1).docx",
+      "nombre": "Propuesta Agenda - Sept-2026 (2) (1).docx",
+      "extension": "docx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion",
+      "tamano_bytes": 50381,
+      "tamano_legible": "49.2 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/SOPORTES DE ACREDITACION ALTA CALIDAD/IE11234-2025 AAC_Mtr_Maestría en Ciencias_Información_Comunicaciones _08-09-2025 (1).pdf",
+      "nombre": "IE11234-2025 AAC_Mtr_Maestría en Ciencias_Información_Comunicaciones _08-09-2025 (1).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/SOPORTES DE ACREDITACION ALTA CALIDAD",
+      "tamano_bytes": 379510,
+      "tamano_legible": "370.6 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/SOPORTES DE ACREDITACION ALTA CALIDAD/Registro de PQRSDF - Mtr CIC.pdf",
+      "nombre": "Registro de PQRSDF - Mtr CIC.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/SOPORTES DE ACREDITACION ALTA CALIDAD",
+      "tamano_bytes": 270895,
+      "tamano_legible": "264.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/SOPORTES DE ACREDITACION ALTA CALIDAD/oficio 2025EE1274.pdf",
+      "nombre": "oficio 2025EE1274.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion/SOPORTES DE ACREDITACION ALTA CALIDAD",
+      "tamano_bytes": 343558,
+      "tamano_legible": "335.5 KB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/Acreditacion/res_2025-016.pdf",
+      "nombre": "res_2025-016.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/Acreditacion",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "general"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de investigación/AA-Componente investigación.rar",
+      "nombre": "AA-Componente investigación.rar",
+      "extension": "rar",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de investigación",
+      "tamano_bytes": 14135944,
+      "tamano_legible": "13.5 MB",
+      "modalidad": "investigacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1-Prof (Sínt)-Denominación del programa-22-03-22.docx",
+      "nombre": "1-Prof (Sínt)-Denominación del programa-22-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 14400,
+      "tamano_legible": "14.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1-Prof-Denominación del programa-18-03-22.docx",
+      "nombre": "1-Prof-Denominación del programa-18-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 189432,
+      "tamano_legible": "185.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1.1-Acuerdo N°005 25 nov 2021-Aprb Prof.pdf",
+      "nombre": "1.1-Acuerdo N°005 25 nov 2021-Aprb Prof.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 419999,
+      "tamano_legible": "410.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1.2-Acuerdo N°010 de abril de 1987.pdf",
+      "nombre": "1.2-Acuerdo N°010 de abril de 1987.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 117469,
+      "tamano_legible": "114.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1.3-Resolución N°032 21 octubre 2002.pdf",
+      "nombre": "1.3-Resolución N°032 21 octubre 2002.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 507477,
+      "tamano_legible": "495.6 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1.4-Rta informe Comentarios al rector.pdf",
+      "nombre": "1.4-Rta informe Comentarios al rector.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 646350,
+      "tamano_legible": "631.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1.5-Confirmación recibido Inf pares.pdf",
+      "nombre": "1.5-Confirmación recibido Inf pares.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 257712,
+      "tamano_legible": "251.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/1.6-Consulta febrero de 2022.pdf",
+      "nombre": "1.6-Consulta febrero de 2022.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 732090,
+      "tamano_legible": "714.9 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/2-Prof (Sínt)-Justificación del programa-28-03-22.docx",
+      "nombre": "2-Prof (Sínt)-Justificación del programa-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 24667,
+      "tamano_legible": "24.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/2-Prof-Justificación del programa-28-03-22.docx",
+      "nombre": "2-Prof-Justificación del programa-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 376674,
+      "tamano_legible": "367.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/3-Prof-(Sínt)-Aspectos curriculares-28-03-22.docx",
+      "nombre": "3-Prof-(Sínt)-Aspectos curriculares-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 24665,
+      "tamano_legible": "24.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/3-Prof-Aspectos Curriculares-28-03-22.docx",
+      "nombre": "3-Prof-Aspectos Curriculares-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 956167,
+      "tamano_legible": "933.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/4-Prof-(Sínt)-Organización actividades académicas-28-03-22.docx",
+      "nombre": "4-Prof-(Sínt)-Organización actividades académicas-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 21298,
+      "tamano_legible": "20.8 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/4-Prof-Organización actividades académicas-28-03-22.docx",
+      "nombre": "4-Prof-Organización actividades académicas-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 382649,
+      "tamano_legible": "373.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/5-Prof-(Sínt)-Investigación, innovación, creación-28-03-22.docx",
+      "nombre": "5-Prof-(Sínt)-Investigación, innovación, creación-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 18167,
+      "tamano_legible": "17.7 KB",
+      "modalidad": "ambas"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/5-Prof-Investigación, innovación, creación-28-03-22.docx",
+      "nombre": "5-Prof-Investigación, innovación, creación-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 296110,
+      "tamano_legible": "289.2 KB",
+      "modalidad": "ambas"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/6-Prof-(Sínt)-Relación con el sector externo-28-03-22.docx",
+      "nombre": "6-Prof-(Sínt)-Relación con el sector externo-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 19191,
+      "tamano_legible": "18.7 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/6-Prof-Relación con el sector externo-28-03-22.docx",
+      "nombre": "6-Prof-Relación con el sector externo-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 65495,
+      "tamano_legible": "64.0 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/7-Prof-Profesores-28-03-22.docx",
+      "nombre": "7-Prof-Profesores-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 396399,
+      "tamano_legible": "387.1 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/8-Prof-(Sínt)-Medios educativos-28-03-22.docx",
+      "nombre": "8-Prof-(Sínt)-Medios educativos-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 17698,
+      "tamano_legible": "17.3 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/8-Prof-Medios educativos-28-03-22.docx",
+      "nombre": "8-Prof-Medios educativos-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 1476974,
+      "tamano_legible": "1.4 MB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/9-Prof-(Sínt)-Infraestructura física y tecnológica-28-03-22.docx",
+      "nombre": "9-Prof-(Sínt)-Infraestructura física y tecnológica-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 15541,
+      "tamano_legible": "15.2 KB",
+      "modalidad": "profundizacion"
+    },
+    {
+      "archivo": "Data/Bronze/REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización/9-Prof-Infraestructura Física y Tecnológica-28-03-22.docx",
+      "nombre": "9-Prof-Infraestructura Física y Tecnológica-28-03-22.docx",
+      "extension": "docx",
+      "carpeta_raiz": "REGISTRO CALIFICADO MCIC",
+      "carpeta_contenedora": "REGISTRO CALIFICADO MCIC/Componente de profundización/AA-Componente profundización/AA-Componente profundización",
+      "tamano_bytes": 5424636,
+      "tamano_legible": "5.2 MB",
+      "modalidad": "profundizacion"
+    }
+  ],
+  "documentosBronzeStats": {
+    "total": 925,
+    "por_modalidad": {
+      "profundizacion": 218,
+      "general": 529,
+      "investigacion": 173,
+      "ambas": 5
+    },
+    "por_extension": {
+      "pdf": 351,
+      "docx": 94,
+      "xlsx": 316,
+      "xls": 49,
+      "zip": 13,
+      "doc": 5,
+      "png": 64,
+      "jpg": 13,
+      "xlsm": 3,
+      "pptx": 9,
+      "rar": 2,
+      "csv": 3,
+      "jpeg": 3
+    },
+    "por_carpeta_raiz": {
+      "ACREDITACI├УN DE ALTA CALIDAD": 144,
+      "MCIC-PROFUNDIZACION": 25,
+      "MCIC.INVESTIGACION": 41,
+      "Maestria CIC": 691,
+      "REGISTRO CALIFICADO MCIC": 24
+    }
+  }
+};
