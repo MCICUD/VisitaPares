@@ -1440,6 +1440,606 @@
     "modalidad": "general"
   },
   {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/CARTEGENA/Convenio Especifico maestria cartagena.doc",
+    "nombre": "Convenio Especifico maestria cartagena.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/CARTEGENA",
+    "tamano_bytes": 51200,
+    "tamano_legible": "50.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/CARTEGENA/Convenio_Especifico_maestria_cartagena CORREGIDO.doc",
+    "nombre": "Convenio_Especifico_maestria_cartagena CORREGIDO.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/CARTEGENA",
+    "tamano_bytes": 59904,
+    "tamano_legible": "58.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/CARTEGENA/convenioMarco UCARTAGENA-DISTRITAL.doc",
+    "nombre": "convenioMarco UCARTAGENA-DISTRITAL.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/CARTEGENA",
+    "tamano_bytes": 32768,
+    "tamano_legible": "32.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/CONVENIO_ESPECIFICO_UPTC_ESPECIALIZACION_EN_TELECOMUNICACIONES_MOVILES[1].docx",
+    "nombre": "CONVENIO_ESPECIFICO_UPTC_ESPECIALIZACION_EN_TELECOMUNICACIONES_MOVILES[1].docx",
+    "extension": "docx",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP",
+    "tamano_bytes": 46258,
+    "tamano_legible": "45.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD/CONVENIO_DISTRITAL__UNAD.doc",
+    "nombre": "CONVENIO_DISTRITAL__UNAD.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD",
+    "tamano_bytes": 37888,
+    "tamano_legible": "37.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD/CONVENIO_DISTRITAL__UNAD2.doc",
+    "nombre": "CONVENIO_DISTRITAL__UNAD2.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD",
+    "tamano_bytes": 35840,
+    "tamano_legible": "35.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD/Convenio_UNAD.zip",
+    "nombre": "Convenio_UNAD.zip",
+    "extension": "zip",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD",
+    "tamano_bytes": 18494,
+    "tamano_legible": "18.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD/convenioMarco UNAD-DISTRITAL_Agosto.doc",
+    "nombre": "convenioMarco UNAD-DISTRITAL_Agosto.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/Convenio_UNAD",
+    "tamano_bytes": 33792,
+    "tamano_legible": "33.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/TOLIMA/Maestria-Utolima_v24-11-2009[1].doc",
+    "nombre": "Maestria-Utolima_v24-11-2009[1].doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/TOLIMA",
+    "tamano_bytes": 59904,
+    "tamano_legible": "58.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/UNILLANOS/Convenio Especifico UNILLANOS.doc",
+    "nombre": "Convenio Especifico UNILLANOS.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/UNILLANOS",
+    "tamano_bytes": 52224,
+    "tamano_legible": "51.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/UNILLANOS/Especilización_unillanos_2010.doc",
+    "nombre": "Especilización_unillanos_2010.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/UNILLANOS",
+    "tamano_bytes": 53248,
+    "tamano_legible": "52.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/UPTC/convenioMarco UPTC-DISTRITAL.doc",
+    "nombre": "convenioMarco UPTC-DISTRITAL.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/UPTC",
+    "tamano_bytes": 34304,
+    "tamano_legible": "33.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/USCO/ACTA 001.doc",
+    "nombre": "ACTA 001.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/USCO",
+    "tamano_bytes": 25600,
+    "tamano_legible": "25.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/USCO/Cronograma_Actividades2009.xls",
+    "nombre": "Cronograma_Actividades2009.xls",
+    "extension": "xls",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/USCO",
+    "tamano_bytes": 35840,
+    "tamano_legible": "35.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-CONVENIOS-ESP/USCO/PRESUPUESTO_Def_2009c.xls",
+    "nombre": "PRESUPUESTO_Def_2009c.xls",
+    "extension": "xls",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-CONVENIOS-ESP/USCO",
+    "tamano_bytes": 74240,
+    "tamano_legible": "72.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-TELEINFO-Convenios/ACTA 001[1].doc",
+    "nombre": "ACTA 001[1].doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-TELEINFO-Convenios",
+    "tamano_bytes": 21504,
+    "tamano_legible": "21.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-TELEINFO-Convenios/Constancia.Edif.Ràmirez.doc2.doc",
+    "nombre": "Constancia.Edif.Ràmirez.doc2.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-TELEINFO-Convenios",
+    "tamano_bytes": 20480,
+    "tamano_legible": "20.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-TELEINFO-Convenios/Convenio_Especifico_Distrital.doc",
+    "nombre": "Convenio_Especifico_Distrital.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-TELEINFO-Convenios",
+    "tamano_bytes": 52224,
+    "tamano_legible": "51.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Convenios/ESP-TELEINFO-Convenios/ConveniomarcoEJC.doc",
+    "nombre": "ConveniomarcoEJC.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Convenios",
+    "carpeta_contenedora": "Convenios/ESP-TELEINFO-Convenios",
+    "tamano_bytes": 31744,
+    "tamano_legible": "31.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/Aprobacion - facultad - descarga.pdf",
+    "nombre": "Aprobacion - facultad - descarga.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 123840,
+    "tamano_legible": "120.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/GD-PR-008-FR-004 Plan de trabajo Roberto Cardenas.xlsx",
+    "nombre": "GD-PR-008-FR-004 Plan de trabajo Roberto Cardenas.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 919391,
+    "tamano_legible": "897.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/GD-PR-008-FR-004-MarcoAlzate.xlsx",
+    "nombre": "GD-PR-008-FR-004-MarcoAlzate.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 919409,
+    "tamano_legible": "897.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/GD-PR-008-FR-004_2025I_JoseValero.xlsx",
+    "nombre": "GD-PR-008-FR-004_2025I_JoseValero.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 922166,
+    "tamano_legible": "900.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/GD-PR-008-FR-004_ENVIADO_2.xlsx",
+    "nombre": "GD-PR-008-FR-004_ENVIADO_2.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 919368,
+    "tamano_legible": "897.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/Plan de trabajo Jose Valero 2025-1.pdf",
+    "nombre": "Plan de trabajo Jose Valero 2025-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 825705,
+    "tamano_legible": "806.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/Plan de trabajo Marco Alzate.pdf",
+    "nombre": "Plan de trabajo Marco Alzate.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 382924,
+    "tamano_legible": "373.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/Plan de trabajo Octavio Salcedo.pdf",
+    "nombre": "Plan de trabajo Octavio Salcedo.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 225741,
+    "tamano_legible": "220.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/Plan de trabajo Roberto Cardenas 2025 1.pdf",
+    "nombre": "Plan de trabajo Roberto Cardenas 2025 1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 333368,
+    "tamano_legible": "325.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-1/PlandeTrabajoAlvaro EspinelOrtega-2025-1-FirmadoAEO.pdf",
+    "nombre": "PlandeTrabajoAlvaro EspinelOrtega-2025-1-FirmadoAEO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-1",
+    "tamano_bytes": 797859,
+    "tamano_legible": "779.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/2025-III - Plan de trabajo AEOD.pdf",
+    "nombre": "2025-III - Plan de trabajo AEOD.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 647037,
+    "tamano_legible": "631.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/2025-III - Plan deTrabajo Jose Antonio Valero Medina.pdf",
+    "nombre": "2025-III - Plan deTrabajo Jose Antonio Valero Medina.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 427392,
+    "tamano_legible": "417.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/GD-PR-008-FR-004_JoseValero.xlsx",
+    "nombre": "GD-PR-008-FR-004_JoseValero.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 1709850,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/GD-PR-008-FR-004_JoseValero_V3.xlsx",
+    "nombre": "GD-PR-008-FR-004_JoseValero_V3.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 1804226,
+    "tamano_legible": "1.7 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/Octavio Salcedo_Plan de Trabajo_2025_3_OJSP_ENVIADO_2.pdf",
+    "nombre": "Octavio Salcedo_Plan de Trabajo_2025_3_OJSP_ENVIADO_2.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 190944,
+    "tamano_legible": "186.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/PlanDeTrabajo_Jose_Antonio_Valero_Medina-2025-III_20250822F.pdf",
+    "nombre": "PlanDeTrabajo_Jose_Antonio_Valero_Medina-2025-III_20250822F.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 399739,
+    "tamano_legible": "390.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/PlanDeTrabajo_Jose_Antonio_Valero_Medina-2025-III_20250910F_VoBo.pdf",
+    "nombre": "PlanDeTrabajo_Jose_Antonio_Valero_Medina-2025-III_20250910F_VoBo.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 427392,
+    "tamano_legible": "417.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/Sistema de Gestión Académica_Plan de trabajoMarco Alzate.pdf",
+    "nombre": "Sistema de Gestión Académica_Plan de trabajoMarco Alzate.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 257837,
+    "tamano_legible": "251.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2025-Docente/2025-3/octavio salcedoGD-PR-008-FR-004_ENVIADO_2025_3.xlsx",
+    "nombre": "octavio salcedoGD-PR-008-FR-004_ENVIADO_2025_3.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2025-Docente/2025-3",
+    "tamano_bytes": 920376,
+    "tamano_legible": "898.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/MARZO/Asistencia Herramientas Matemáticas - 2026-1.pdf",
+    "nombre": "Asistencia Herramientas Matemáticas - 2026-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/MARZO",
+    "tamano_bytes": 2199759,
+    "tamano_legible": "2.1 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/MARZO/AsistenciaMarzoIS2.pdf",
+    "nombre": "AsistenciaMarzoIS2.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/MARZO",
+    "tamano_bytes": 3566532,
+    "tamano_legible": "3.4 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/MARZO/ListAsistPatronesYArqSoftware_HenryDiosa.pdf",
+    "nombre": "ListAsistPatronesYArqSoftware_HenryDiosa.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/MARZO",
+    "tamano_bytes": 3859080,
+    "tamano_legible": "3.7 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/MARZO/listas marzo robotica mcic andres jutinico.pdf",
+    "nombre": "listas marzo robotica mcic andres jutinico.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/MARZO",
+    "tamano_bytes": 282331,
+    "tamano_legible": "275.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/MARZO/marzoasitenciaJM.pdf",
+    "nombre": "marzoasitenciaJM.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/MARZO",
+    "tamano_bytes": 292240,
+    "tamano_legible": "285.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/Notas 2026-1/Bases de Datos especiales.pdf",
+    "nombre": "Bases de Datos especiales.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/Notas 2026-1",
+    "tamano_bytes": 625073,
+    "tamano_legible": "610.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/Notas 2026-1/Computación Paralela.pdf",
+    "nombre": "Computación Paralela.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/Notas 2026-1",
+    "tamano_bytes": 179271,
+    "tamano_legible": "175.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/Notas 2026-1/Herramientas Matemáticas para el manejo de la procesamiento de la información.pdf",
+    "nombre": "Herramientas Matemáticas para el manejo de la procesamiento de la información.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/Notas 2026-1",
+    "tamano_bytes": 80768,
+    "tamano_legible": "78.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/Notas 2026-1/Ingeniería de Software II- Daniel Leal.pdf",
+    "nombre": "Ingeniería de Software II- Daniel Leal.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/Notas 2026-1",
+    "tamano_bytes": 134777,
+    "tamano_legible": "131.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/Notas 2026-1/Métodos avanzados en análisis de imágenes.pdf",
+    "nombre": "Métodos avanzados en análisis de imágenes.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/Notas 2026-1",
+    "tamano_bytes": 144230,
+    "tamano_legible": "140.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/Notas 2026-1/Patrones de Arquitectura de software.pdf",
+    "nombre": "Patrones de Arquitectura de software.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/Notas 2026-1",
+    "tamano_bytes": 149033,
+    "tamano_legible": "145.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-DOCENTES/Notas 2026-1/Servicios Geográficos Web.pdf",
+    "nombre": "Servicios Geográficos Web.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-DOCENTES/Notas 2026-1",
+    "tamano_bytes": 85696,
+    "tamano_legible": "83.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/GD-PR-008-FR-004 - AEOD-2026-1.xlsx",
+    "nombre": "GD-PR-008-FR-004 - AEOD-2026-1.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1",
+    "tamano_bytes": 919893,
+    "tamano_legible": "898.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/JOSE ANTONIO VALERO MEDINA/GD-PR-008-FR-004_JoseValero_20260127.xlsx",
+    "nombre": "GD-PR-008-FR-004_JoseValero_20260127.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/JOSE ANTONIO VALERO MEDINA",
+    "tamano_bytes": 946873,
+    "tamano_legible": "924.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/JOSE ANTONIO VALERO MEDINA/JOSE ANTONIO VALERO MEDINA.pdf",
+    "nombre": "JOSE ANTONIO VALERO MEDINA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/JOSE ANTONIO VALERO MEDINA",
+    "tamano_bytes": 1075662,
+    "tamano_legible": "1.0 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/NELSON ENRIQUE VERA PARRA/NELSON ENRIQUE VERA PARRA.pdf",
+    "nombre": "NELSON ENRIQUE VERA PARRA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/NELSON ENRIQUE VERA PARRA",
+    "tamano_bytes": 291777,
+    "tamano_legible": "284.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/ÁLVARO ENRIQUE ORTIZ DÁVILA/GD-PR-008-FR-004 - AEOD-2026-1.xlsx",
+    "nombre": "GD-PR-008-FR-004 - AEOD-2026-1.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/ÁLVARO ENRIQUE ORTIZ DÁVILA",
+    "tamano_bytes": 919607,
+    "tamano_legible": "898.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/ÁLVARO ENRIQUE ORTIZ DÁVILA/ÁLVARO ENRIQUE ORTIZ DÁVILA.pdf",
+    "nombre": "ÁLVARO ENRIQUE ORTIZ DÁVILA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-1/ÁLVARO ENRIQUE ORTIZ DÁVILA",
+    "tamano_bytes": 292118,
+    "tamano_legible": "285.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-3/ALVARO ORTIZ DÁVILA-2026-III - Plan de trabajo.pdf",
+    "nombre": "ALVARO ORTIZ DÁVILA-2026-III - Plan de trabajo.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-3",
+    "tamano_bytes": 148843,
+    "tamano_legible": "145.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-3/GD-PR-008-FR-004 ÁLVARO.xlsx",
+    "nombre": "GD-PR-008-FR-004 ÁLVARO.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-3",
+    "tamano_bytes": 920010,
+    "tamano_legible": "898.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-3/NELSON ENRIQUE VERA-PlanTrabajo20263.pdf",
+    "nombre": "NELSON ENRIQUE VERA-PlanTrabajo20263.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/2026-3",
+    "tamano_bytes": 212023,
+    "tamano_legible": "207.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Docentes/2026-PLAN-DE-TRABAJO-DOCENTES/Retiro carga.pdf",
+    "nombre": "Retiro carga.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Docentes",
+    "carpeta_contenedora": "Docentes/2026-PLAN-DE-TRABAJO-DOCENTES",
+    "tamano_bytes": 240972,
+    "tamano_legible": "235.3 KB",
+    "modalidad": "general"
+  },
+  {
     "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Información normativa de acreditacion/Acta de reunion con OATI.doc",
     "nombre": "Acta de reunion con OATI.doc",
     "extension": "doc",
@@ -2100,6 +2700,16 @@
     "modalidad": "investigacion"
   },
   {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/.~lock.CC-FR-001 Plan de mejoramiento INV.xlsx#",
+    "nombre": ".~lock.CC-FR-001 Plan de mejoramiento INV.xlsx#",
+    "extension": "xlsx#",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN",
+    "tamano_bytes": 75,
+    "tamano_legible": "75 B",
+    "modalidad": "investigacion"
+  },
+  {
     "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/CC-FR-001 Plan de mejoramiento INV.xlsx",
     "nombre": "CC-FR-001 Plan de mejoramiento INV.xlsx",
     "extension": "xlsx",
@@ -2107,6 +2717,396 @@
     "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN",
     "tamano_bytes": 124911,
     "tamano_legible": "122.0 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC/CYC POS 022 2024  02.04.24.pdf",
+    "nombre": "CYC POS 022 2024  02.04.24.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 574182,
+    "tamano_legible": "560.7 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC/Creacion de asignaturas registro calificado A - copia.xlsx",
+    "nombre": "Creacion de asignaturas registro calificado A - copia.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 22140,
+    "tamano_legible": "21.6 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC/Creacion de asignaturas registro calificado A.xlsx",
+    "nombre": "Creacion de asignaturas registro calificado A.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 24373,
+    "tamano_legible": "23.8 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC/Formato AA-FR-001-Plan de Mejoramiento 12 factores AC.xlsm",
+    "nombre": "Formato AA-FR-001-Plan de Mejoramiento 12 factores AC.xlsm",
+    "extension": "xlsm",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 112786,
+    "tamano_legible": "110.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC/Plan-Mejoramiento MCIC-2024-2026 Borrados 1.xlsx",
+    "nombre": "Plan-Mejoramiento MCIC-2024-2026 Borrados 1.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 18059,
+    "tamano_legible": "17.6 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC/Plan-Mejoramiento MCIC-2024-2026 V.2.xlsx",
+    "nombre": "Plan-Mejoramiento MCIC-2024-2026 V.2.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 22745,
+    "tamano_legible": "22.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/Entregables Plan de Mejoramiento.xlsx",
+    "nombre": "Entregables Plan de Mejoramiento.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento",
+    "tamano_bytes": 14315,
+    "tamano_legible": "14.0 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-INV.docx",
+    "nombre": "DOC MAES REGCALI MCIC-INV.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 7810154,
+    "tamano_legible": "7.4 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V0.docx",
+    "nombre": "PEP-MCIC-INV-V0.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 612742,
+    "tamano_legible": "598.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V1.docx",
+    "nombre": "PEP-MCIC-INV-V1.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 1122722,
+    "tamano_legible": "1.1 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.docx",
+    "nombre": "PEP-MCIC-INV-V2.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 1256525,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Proyecto Educativo del Programa-2017.pdf",
+    "nombre": "Proyecto Educativo del Programa-2017.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 1278216,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Respuesta PEP.pdf",
+    "nombre": "Respuesta PEP.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 723198,
+    "tamano_legible": "706.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+    "nombre": "Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 884314,
+    "tamano_legible": "863.6 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/Listado Linea de geomatica 26-5-25.pdf",
+    "nombre": "Listado Linea de geomatica 26-5-25.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+    "tamano_bytes": 5713271,
+    "tamano_legible": "5.4 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_IngSoftware.pdf",
+    "nombre": "MCIC_Anexo_reunion_IngSoftware.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+    "tamano_bytes": 25767,
+    "tamano_legible": "25.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_geomatica.pdf",
+    "nombre": "MCIC_Anexo_reunion_geomatica.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+    "tamano_bytes": 42444,
+    "tamano_legible": "41.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  investigacion.png",
+    "nombre": "Actualizacion pagiona web mcic -  investigacion.png",
+    "extension": "png",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1357261,
+    "tamano_legible": "1.3 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  profundizacion.png",
+    "nombre": "Actualizacion pagiona web mcic -  profundizacion.png",
+    "extension": "png",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1143435,
+    "tamano_legible": "1.1 MB",
+    "modalidad": "ambas"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic.png",
+    "nombre": "Actualizacion pagiona web mcic.png",
+    "extension": "png",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 745240,
+    "tamano_legible": "727.8 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Colnvocatoria investigacion.pdf",
+    "nombre": "Colnvocatoria investigacion.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 395156,
+    "tamano_legible": "385.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgacio grupos 2025-3.pdf",
+    "nombre": "Divulgacio grupos 2025-3.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 370889,
+    "tamano_legible": "362.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-1.jpg",
+    "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 199721,
+    "tamano_legible": "195.0 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-3.jpg",
+    "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 160744,
+    "tamano_legible": "157.0 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulghacion grupos 2024-1.pdf",
+    "nombre": "Divulghacion grupos 2024-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 283951,
+    "tamano_legible": "277.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Encuentro estudiantes evaluacion docente.jpg",
+    "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 189320,
+    "tamano_legible": "184.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
+    "nombre": "INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 0,
+    "tamano_legible": "0 B",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Induccion 2025-1.pdf",
+    "nombre": "Induccion 2025-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 388758,
+    "tamano_legible": "379.6 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2025-1.jpg",
+    "nombre": "Inducción 2025-1.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 218229,
+    "tamano_legible": "213.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Informacion de contacto.pdf",
+    "nombre": "Informacion de contacto.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 524100,
+    "tamano_legible": "511.8 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitacion brics.pdf",
+    "nombre": "Invitacion brics.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 358672,
+    "tamano_legible": "350.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitación Evento académico Horizonte.pdf",
+    "nombre": "Invitación Evento académico Horizonte.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 555550,
+    "tamano_legible": "542.5 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
+    "nombre": "RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 0,
+    "tamano_legible": "0 B",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Participcion docente.xlsx",
+    "nombre": "Participcion docente.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
+    "tamano_bytes": 31098,
+    "tamano_legible": "30.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus AnaliticaDeDatos.xlsx",
+    "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+    "tamano_bytes": 373197,
+    "tamano_legible": "364.5 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Construccion y pruebas.XLS",
+    "nombre": "Syllabus Construccion y pruebas.XLS",
+    "extension": "xls",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+    "tamano_bytes": 68973,
+    "tamano_legible": "67.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Herramientas matematicas.XLS",
+    "nombre": "Syllabus Herramientas matematicas.XLS",
+    "extension": "xls",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+    "tamano_bytes": 68826,
+    "tamano_legible": "67.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Metodos avanzados en analisi.xlsx",
+    "nombre": "Syllabus Metodos avanzados en analisi.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+    "tamano_bytes": 68549,
+    "tamano_legible": "66.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos/Matematicas avanzadas.XLS",
+    "nombre": "Matematicas avanzadas.XLS",
+    "extension": "xls",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos",
+    "tamano_bytes": 68548,
+    "tamano_legible": "66.9 KB",
     "modalidad": "investigacion"
   },
   {
@@ -2127,6 +3127,116 @@
     "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN",
     "tamano_bytes": 124883,
     "tamano_legible": "122.0 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/2454-AAC-CNA-Aspectos Plan de mejoramiento MCIC-14-02-24.pdf",
+    "nombre": "2454-AAC-CNA-Aspectos Plan de mejoramiento MCIC-14-02-24.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 208624,
+    "tamano_legible": "203.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/2454-Registro Asistencia.jpeg",
+    "nombre": "2454-Registro Asistencia.jpeg",
+    "extension": "jpeg",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 134058,
+    "tamano_legible": "130.9 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/Aval de facultad proceso de renovacion acredi.pdf",
+    "nombre": "Aval de facultad proceso de renovacion acredi.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 425509,
+    "tamano_legible": "415.5 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/Plan-Mejoramiento MCIC-2024-2026.xlsx",
+    "nombre": "Plan-Mejoramiento MCIC-2024-2026.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 18059,
+    "tamano_legible": "17.6 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/RTA - 3860-RC-FI-Ornt plan de estudios MCIC-06-3-24.pdf",
+    "nombre": "RTA - 3860-RC-FI-Ornt plan de estudios MCIC-06-3-24.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC",
+    "tamano_bytes": 415222,
+    "tamano_legible": "405.5 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/Entregables Plan de Mejoramiento.xlsx",
+    "nombre": "Entregables Plan de Mejoramiento.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento",
+    "tamano_bytes": 12254,
+    "tamano_legible": "12.0 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-PROF.docx",
+    "nombre": "DOC MAES REGCALI MCIC-PROF.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 8493885,
+    "tamano_legible": "8.1 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-PROF-V0.docx",
+    "nombre": "PEP-MCIC-PROF-V0.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 1314286,
+    "tamano_legible": "1.3 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Proyecto Educativo del Programa-2017.pdf",
+    "nombre": "Proyecto Educativo del Programa-2017.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 1278216,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+    "nombre": "Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+    "tamano_bytes": 884314,
+    "tamano_legible": "863.6 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/Información bases de datos.pdf",
+    "nombre": "Información bases de datos.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento",
+    "tamano_bytes": 698963,
+    "tamano_legible": "682.6 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -6450,26 +7560,6 @@
     "modalidad": "general"
   },
   {
-    "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/~$Base para encuestasÑ.xlsx",
-    "nombre": "~$Base para encuestasÑ.xlsx",
-    "extension": "xlsx",
-    "carpeta_raiz": "Maestria CIC",
-    "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
-    "tamano_bytes": 165,
-    "tamano_legible": "165 B",
-    "modalidad": "general"
-  },
-  {
-    "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/~$RECIADO.docx",
-    "nombre": "~$RECIADO.docx",
-    "extension": "docx",
-    "carpeta_raiz": "Maestria CIC",
-    "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes",
-    "tamano_bytes": 162,
-    "tamano_legible": "162 B",
-    "modalidad": "general"
-  },
-  {
     "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/10.sistemas de evaluacion.png",
     "nombre": "10.sistemas de evaluacion.png",
     "extension": "png",
@@ -9007,6 +10097,1066 @@
     "carpeta_contenedora": "Maestria CIC/Acreditacion",
     "tamano_bytes": 9581349,
     "tamano_legible": "9.1 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+    "nombre": "Directorio Grupos de Inv MCIC.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC",
+    "tamano_bytes": 55494,
+    "tamano_legible": "54.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
+    "nombre": "Énfasis estudiantes - Consolidado.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC",
+    "tamano_bytes": 7837,
+    "tamano_legible": "7.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/FORMATOS/ACTA DE COMPROMISO ASISTENCIA A CLASE.docx",
+    "nombre": "ACTA DE COMPROMISO ASISTENCIA A CLASE.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/FORMATOS",
+    "tamano_bytes": 21656,
+    "tamano_legible": "21.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/FORMATOS/ACTA DE COMPROMISO ASISTENCIA A CLASE.pdf",
+    "nombre": "ACTA DE COMPROMISO ASISTENCIA A CLASE.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/FORMATOS",
+    "tamano_bytes": 85076,
+    "tamano_legible": "83.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/FORMATOS/ACTA DE COMPROMISO.docx",
+    "nombre": "ACTA DE COMPROMISO.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/FORMATOS",
+    "tamano_bytes": 18235,
+    "tamano_legible": "17.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/FORMATOS/FORMATO PAZ Y SALVO.docx",
+    "nombre": "FORMATO PAZ Y SALVO.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/FORMATOS",
+    "tamano_bytes": 226817,
+    "tamano_legible": "221.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/FORMATOS/Lista de asistencia.xlsx",
+    "nombre": "Lista de asistencia.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/FORMATOS",
+    "tamano_bytes": 74658,
+    "tamano_legible": "72.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/FORMATOS/TRASLADO INVENTARIO.docx",
+    "nombre": "TRASLADO INVENTARIO.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/FORMATOS",
+    "tamano_bytes": 212942,
+    "tamano_legible": "208.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Certificado_propuesta_suministrada.docx",
+    "nombre": "Certificado_propuesta_suministrada.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 50644,
+    "tamano_legible": "49.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Convenio de pasantia.docx",
+    "nombre": "Convenio de pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 88946,
+    "tamano_legible": "86.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO  RADICACION articulo.doc",
+    "nombre": "FORMATO  RADICACION articulo.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 97280,
+    "tamano_legible": "95.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO DE EVALUACION PROYECTO DE INVESTIGACION (Acuerdo 01 2019).docx",
+    "nombre": "FORMATO DE EVALUACION PROYECTO DE INVESTIGACION (Acuerdo 01 2019).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 38789,
+    "tamano_legible": "37.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO DE EVALUACION PROYECTO DE PROFUNDIZACION (Acuerdo 01 de 2019).docx",
+    "nombre": "FORMATO DE EVALUACION PROYECTO DE PROFUNDIZACION (Acuerdo 01 de 2019).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 38569,
+    "tamano_legible": "37.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO ENTREVISTAS/Formato entrevistas - Geomatica.docx",
+    "nombre": "Formato entrevistas - Geomatica.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/FORMATO ENTREVISTAS",
+    "tamano_bytes": 76445,
+    "tamano_legible": "74.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO ENTREVISTAS/Formato entrevistas - Ing. Software.docx",
+    "nombre": "Formato entrevistas - Ing. Software.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/FORMATO ENTREVISTAS",
+    "tamano_bytes": 76173,
+    "tamano_legible": "74.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO ENTREVISTAS/Formato entrevistas - Teleinformatica.docx",
+    "nombre": "Formato entrevistas - Teleinformatica.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/FORMATO ENTREVISTAS",
+    "tamano_bytes": 76386,
+    "tamano_legible": "74.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO TESIS edward.doc",
+    "nombre": "FORMATO TESIS edward.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 2045952,
+    "tamano_legible": "2.0 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO TESIS.doc",
+    "nombre": "FORMATO TESIS.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 2045440,
+    "tamano_legible": "2.0 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FORMATO TESIS.doc.docx",
+    "nombre": "FORMATO TESIS.doc.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 1979016,
+    "tamano_legible": "1.9 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Formato Ampliacion de viabilidad.docx",
+    "nombre": "Formato Ampliacion de viabilidad.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 66901,
+    "tamano_legible": "65.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Formato revision anteproyecto ( PROFUNDIZACIÓN).doc",
+    "nombre": "Formato revision anteproyecto ( PROFUNDIZACIÓN).doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 1660928,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Formato revision anteproyecto (investigacion).doc",
+    "nombre": "Formato revision anteproyecto (investigacion).doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 1668608,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FormatoSyllabusMCIC (1).docx",
+    "nombre": "FormatoSyllabusMCIC (1).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 335862,
+    "tamano_legible": "328.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/FormatoSyllabusMCIC ingles.docx",
+    "nombre": "FormatoSyllabusMCIC ingles.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 357775,
+    "tamano_legible": "349.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Formato_Trabajo_Grado_MCIC.docx",
+    "nombre": "Formato_Trabajo_Grado_MCIC.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 70792,
+    "tamano_legible": "69.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Información Convenio de pasantia.docx",
+    "nombre": "Información Convenio de pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 82203,
+    "tamano_legible": "80.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Plantilla_Anteproyectos (Version 2020).docx",
+    "nombre": "Plantilla_Anteproyectos (Version 2020).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 113495,
+    "tamano_legible": "110.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Plantilla_Anteproyectos completa.docx",
+    "nombre": "Plantilla_Anteproyectos completa.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 95799,
+    "tamano_legible": "93.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Plantilla_Anteproyectos..docx",
+    "nombre": "Plantilla_Anteproyectos..docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 95508,
+    "tamano_legible": "93.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Preinscripciones Materias.xlsx",
+    "nombre": "Preinscripciones Materias.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 122703,
+    "tamano_legible": "119.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Acta de seguimiento.docx",
+    "nombre": "Acta de seguimiento.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 47908,
+    "tamano_legible": "46.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Acta_de_seguimiento_Tesis_I.docx",
+    "nombre": "Acta_de_seguimiento_Tesis_I.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 47908,
+    "tamano_legible": "46.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Carta aval grupo de investigacion.docx",
+    "nombre": "Carta aval grupo de investigacion.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 92614,
+    "tamano_legible": "90.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Certificado propuesta suministrada.doc",
+    "nombre": "Certificado propuesta suministrada.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 96768,
+    "tamano_legible": "94.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Certificado_propuesta_suministrada.docx",
+    "nombre": "Certificado_propuesta_suministrada.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 50644,
+    "tamano_legible": "49.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Contenido Minería de Datos (Electiva).pdf",
+    "nombre": "Contenido Minería de Datos (Electiva).pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 53290,
+    "tamano_legible": "52.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Convenio de pasantia.docx",
+    "nombre": "Convenio de pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 89540,
+    "tamano_legible": "87.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Documentos - Acceso directo.lnk",
+    "nombre": "Documentos - Acceso directo.lnk",
+    "extension": "lnk",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 976,
+    "tamano_legible": "976 B",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FORMATO  RADICACION articulo.doc",
+    "nombre": "FORMATO  RADICACION articulo.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 97280,
+    "tamano_legible": "95.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FORMATO DE EVALUACION PROYECTO DE INVESTIGACION (Acuerdo 01 2019).docx",
+    "nombre": "FORMATO DE EVALUACION PROYECTO DE INVESTIGACION (Acuerdo 01 2019).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 38789,
+    "tamano_legible": "37.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FORMATO DE EVALUACION PROYECTO DE PROFUNDIZACION (Acuerdo 01 de 2019).docx",
+    "nombre": "FORMATO DE EVALUACION PROYECTO DE PROFUNDIZACION (Acuerdo 01 de 2019).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 38569,
+    "tamano_legible": "37.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FORMATO TESIS edward.doc",
+    "nombre": "FORMATO TESIS edward.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 2045952,
+    "tamano_legible": "2.0 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FORMATO TESIS.doc",
+    "nombre": "FORMATO TESIS.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 2045440,
+    "tamano_legible": "2.0 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FORMATO TESIS.doc.docx",
+    "nombre": "FORMATO TESIS.doc.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 1979016,
+    "tamano_legible": "1.9 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FORMULARIO DE INSCRIPCION (2) (2).doc",
+    "nombre": "FORMULARIO DE INSCRIPCION (2) (2).doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 106496,
+    "tamano_legible": "104.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Formato de solicitud.doc",
+    "nombre": "Formato de solicitud.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 96768,
+    "tamano_legible": "94.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Formato revision anteproyecto ( PROFUNDIZACIÓN).doc",
+    "nombre": "Formato revision anteproyecto ( PROFUNDIZACIÓN).doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 1660928,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Formato revision anteproyecto (investigacion).doc",
+    "nombre": "Formato revision anteproyecto (investigacion).doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 1668608,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FormatoSyllabusMCIC (1).docx",
+    "nombre": "FormatoSyllabusMCIC (1).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 335862,
+    "tamano_legible": "328.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/FormatoSyllabusMCIC ingles.docx",
+    "nombre": "FormatoSyllabusMCIC ingles.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 357775,
+    "tamano_legible": "349.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Información Convenio de pasantia.docx",
+    "nombre": "Información Convenio de pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 82203,
+    "tamano_legible": "80.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Plantilla_Anteproyectos (Version 2020).docx",
+    "nombre": "Plantilla_Anteproyectos (Version 2020).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 113495,
+    "tamano_legible": "110.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Plantilla_Anteproyectos completa.docx",
+    "nombre": "Plantilla_Anteproyectos completa.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 95799,
+    "tamano_legible": "93.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Plantilla_Anteproyectos..docx",
+    "nombre": "Plantilla_Anteproyectos..docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 95508,
+    "tamano_legible": "93.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Plantilla_Anteproyectos_MCIC_2017 (1).docx",
+    "nombre": "Plantilla_Anteproyectos_MCIC_2017 (1).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 101321,
+    "tamano_legible": "98.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Plantilla_Anteproyectos_MCIC_2018.docx",
+    "nombre": "Plantilla_Anteproyectos_MCIC_2018.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 101853,
+    "tamano_legible": "99.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Preinscripciones Materias.xlsx",
+    "nombre": "Preinscripciones Materias.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 122703,
+    "tamano_legible": "119.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Radicacion pasantia.doc",
+    "nombre": "Radicacion pasantia.doc",
+    "extension": "doc",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 96768,
+    "tamano_legible": "94.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Radicacion_pasantia.docx",
+    "nombre": "Radicacion_pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 88860,
+    "tamano_legible": "86.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Reporte nota final Tesis I.docx",
+    "nombre": "Reporte nota final Tesis I.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 93414,
+    "tamano_legible": "91.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Reporte_nota_final_Tesis_I.docx",
+    "nombre": "Reporte_nota_final_Tesis_I.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 93414,
+    "tamano_legible": "91.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Reporte_nota_final_pasantia.docx",
+    "nombre": "Reporte_nota_final_pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 95238,
+    "tamano_legible": "93.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/SOLICITUD JURADOS (Acuerdo 01 de 2019).docx",
+    "nombre": "SOLICITUD JURADOS (Acuerdo 01 de 2019).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 97752,
+    "tamano_legible": "95.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Solicitud de jurados.docx",
+    "nombre": "Solicitud de jurados.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 89698,
+    "tamano_legible": "87.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion/Syllabus Modelación y Simulación de Redes.pdf",
+    "nombre": "Syllabus Modelación y Simulación de Redes.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC/Radicacion",
+    "tamano_bytes": 44880,
+    "tamano_legible": "43.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicacion_pasantia.docx",
+    "nombre": "Radicacion_pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 88860,
+    "tamano_legible": "86.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Radicación de pasantía.pdf",
+    "nombre": "Radicación de pasantía.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 329301,
+    "tamano_legible": "321.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/Reporte_nota_final_pasantia.docx",
+    "nombre": "Reporte_nota_final_pasantia.docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 95238,
+    "tamano_legible": "93.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Formatos Maestria CIC/SOLICITUD JURADOS (Acuerdo 01 de 2019).docx",
+    "nombre": "SOLICITUD JURADOS (Acuerdo 01 de 2019).docx",
+    "extension": "docx",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Formatos Maestria CIC",
+    "tamano_bytes": 97752,
+    "tamano_legible": "95.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/ACUERDO 004 DEL 2006 DESCUENTOS.pdf",
+    "nombre": "ACUERDO 004 DEL 2006 DESCUENTOS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 2122542,
+    "tamano_legible": "2.0 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/ACUERDO 007 DE 2026 ACTUALIZACIÓN DEL VALOR DEL CRÉDITO.pdf",
+    "nombre": "ACUERDO 007 DE 2026 ACTUALIZACIÓN DEL VALOR DEL CRÉDITO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 665337,
+    "tamano_legible": "649.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/ACUERDO 014 DE 2016.pdf",
+    "nombre": "ACUERDO 014 DE 2016.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 0,
+    "tamano_legible": "0 B",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/ACUERDO N° 039 EXONERACIÓN DE DERECHOS DE MATRÍCULA.pdf",
+    "nombre": "ACUERDO N° 039 EXONERACIÓN DE DERECHOS DE MATRÍCULA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 329744,
+    "tamano_legible": "322.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/ACUERDO TRABAJOS DE GRADO MAESTRÍAS.pdf",
+    "nombre": "ACUERDO TRABAJOS DE GRADO MAESTRÍAS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 14660654,
+    "tamano_legible": "14.0 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/Acuerdo 001 de 2009 REGLAMENTO POSGRADOS ANTERIOR.pdf",
+    "nombre": "Acuerdo 001 de 2009 REGLAMENTO POSGRADOS ANTERIOR.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 969716,
+    "tamano_legible": "947.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/Acuerdo N 01 de 2025- REGLAMENTO DE POSGRADO NUEVO.pdf",
+    "nombre": "Acuerdo N 01 de 2025- REGLAMENTO DE POSGRADO NUEVO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 526623,
+    "tamano_legible": "514.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/CALENDARIO ACADÉMICO 2026.pdf",
+    "nombre": "CALENDARIO ACADÉMICO 2026.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 255343,
+    "tamano_legible": "249.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/CALENDARIO ACADÉMICO PREGRADO 2026.pdf",
+    "nombre": "CALENDARIO ACADÉMICO PREGRADO 2026.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 399595,
+    "tamano_legible": "390.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/DERECHOS PECUNIARIOS 2026.pdf",
+    "nombre": "DERECHOS PECUNIARIOS 2026.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 87530,
+    "tamano_legible": "85.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/ESTATUTO ESTUDIANTIL.pdf",
+    "nombre": "ESTATUTO ESTUDIANTIL.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 241648,
+    "tamano_legible": "236.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/MODIFICACIÓN CALENDARIO ACADÉMICO Resolucion 028 - 2026.pdf",
+    "nombre": "MODIFICACIÓN CALENDARIO ACADÉMICO Resolucion 028 - 2026.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 413255,
+    "tamano_legible": "403.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/NORMA DIFERIDOS res_2025-620.pdf",
+    "nombre": "NORMA DIFERIDOS res_2025-620.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 185516,
+    "tamano_legible": "181.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/Resolución 132 - Devolucion de saldos.pdf",
+    "nombre": "Resolución 132 - Devolucion de saldos.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 1686660,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/NORMATIVA/res_2026-048 pagot 2026.pdf",
+    "nombre": "res_2026-048 pagot 2026.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/NORMATIVA",
+    "tamano_bytes": 1259270,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Acuerdo 001 de 2009.pdf",
+    "nombre": "Acuerdo 001 de 2009.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 969716,
+    "tamano_legible": "947.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Acuerdo No. 01 de 2025, reglamento de posgrados.pdf",
+    "nombre": "Acuerdo No. 01 de 2025, reglamento de posgrados.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 526623,
+    "tamano_legible": "514.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Acuerdo reglamento trabajos de grado de maestría.pdf",
+    "nombre": "Acuerdo reglamento trabajos de grado de maestría.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 2501331,
+    "tamano_legible": "2.4 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Descuentos en el valor de la matrícula por incentivos y estímulos.pdf",
+    "nombre": "Descuentos en el valor de la matrícula por incentivos y estímulos.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 158632,
+    "tamano_legible": "154.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Especialización en Ingeniería de Software - Maestría MCIC.pdf",
+    "nombre": "Especialización en Ingeniería de Software - Maestría MCIC.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 35277,
+    "tamano_legible": "34.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Especialización en SIG - Maestría MCIC.pdf",
+    "nombre": "Especialización en SIG - Maestría MCIC.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 36696,
+    "tamano_legible": "35.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Especialización en Teleinformática - Maestría MCIC.pdf",
+    "nombre": "Especialización en Teleinformática - Maestría MCIC.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 29414,
+    "tamano_legible": "28.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Liquidacion de matricula.pdf",
+    "nombre": "Liquidacion de matricula.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 1689473,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Maestría MCIC -  Doctorado.pdf",
+    "nombre": "Maestría MCIC -  Doctorado.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 56656,
+    "tamano_legible": "55.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Modificacion BECA ECAES.pdf",
+    "nombre": "Modificacion BECA ECAES.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 86420,
+    "tamano_legible": "84.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/RESOLUCIÓN No. 43 de 2025.pdf",
+    "nombre": "RESOLUCIÓN No. 43 de 2025.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 401261,
+    "tamano_legible": "391.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Registro calificado MCIC.pdf",
+    "nombre": "Registro calificado MCIC.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 714286,
+    "tamano_legible": "697.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Reglamentos.zip",
+    "nombre": "Reglamentos.zip",
+    "extension": "zip",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 10941632,
+    "tamano_legible": "10.4 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Resolución calendario académico 2021, para los programas académicos de postgrado.pdf",
+    "nombre": "Resolución calendario académico 2021, para los programas académicos de postgrado.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 1711375,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Resolución cambio de nominación de la Maestría en Teleinformática.pdf",
+    "nombre": "Resolución cambio de nominación de la Maestría en Teleinformática.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 105764,
+    "tamano_legible": "103.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Resolución devolución de saldos.pdf",
+    "nombre": "Resolución devolución de saldos.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 1686660,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Resolución homologación de créditos académicos.pdf",
+    "nombre": "Resolución homologación de créditos académicos.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 785663,
+    "tamano_legible": "767.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/Resolución programa académico de retorno.pdf",
+    "nombre": "Resolución programa académico de retorno.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 180949,
+    "tamano_legible": "176.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/acu_2006-010-acuer.-normativo.pdf",
+    "nombre": "acu_2006-010-acuer.-normativo.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 114125,
+    "tamano_legible": "111.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/acu_2025-004.pdf",
+    "nombre": "acu_2025-004.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 188933,
+    "tamano_legible": "184.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/acuerdo_02_2019_beca_ecaes.pdf",
+    "nombre": "acuerdo_02_2019_beca_ecaes.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 75629,
+    "tamano_legible": "73.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Normativa y Formatos/Reglamentos/res_2025-143 para becas de la ODI.pdf",
+    "nombre": "res_2025-143 para becas de la ODI.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "Normativa y Formatos",
+    "carpeta_contenedora": "Normativa y Formatos/Reglamentos",
+    "tamano_bytes": 569502,
+    "tamano_legible": "556.2 KB",
     "modalidad": "general"
   },
   {

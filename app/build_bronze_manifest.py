@@ -56,6 +56,14 @@ def tamano_legible(num_bytes: int) -> str:
     return f"{tamano:.1f} GB"
 
 
+# Carpetas que SÍ viven bajo Data/Bronze (para que la pipeline pueda leerlas)
+# pero que no se listan en el catálogo público de "Documentos": contienen
+# nombre, documento de identidad y correo personal de cada estudiante por
+# fila (roster oficial Cóndor). app/extract_estado_academico.py sí las lee,
+# solo para calcular conteos agregados.
+EXCLUIR_DEL_CATALOGO = ("Estados", "PII_Interno")
+
+
 def main() -> None:
     if not BRONZE_DIR.exists():
         raise FileNotFoundError(f"No existe {BRONZE_DIR}")
@@ -64,9 +72,13 @@ def main() -> None:
     for path in sorted(BRONZE_DIR.rglob("*")):
         if not path.is_file():
             continue
-        ruta_rel = rel(path)
+        if path.name.startswith("~$"):
+            continue  # archivo de bloqueo temporal de Office, no es un documento real
         ruta_bajo_bronze = str(path.relative_to(BRONZE_DIR)).replace("\\", "/")
         carpeta_raiz = ruta_bajo_bronze.split("/")[0]
+        if carpeta_raiz in EXCLUIR_DEL_CATALOGO:
+            continue
+        ruta_rel = rel(path)
         size_bytes = path.stat().st_size
         registros.append({
             "archivo": ruta_rel,

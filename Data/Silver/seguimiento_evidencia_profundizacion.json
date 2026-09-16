@@ -1,0 +1,261 @@
+{
+  "modalidad": "profundizacion",
+  "documentos_generales": [
+    {
+      "nombre": "Entregables Plan de Mejoramiento.xlsx",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/Entregables Plan de Mejoramiento.xlsx",
+      "tamano_legible": "12.0 KB"
+    },
+    {
+      "nombre": "Información bases de datos.pdf",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/Información bases de datos.pdf",
+      "tamano_legible": "682.6 KB"
+    }
+  ],
+  "procesos_rc_aac": [
+    {
+      "nombre": "2454-AAC-CNA-Aspectos Plan de mejoramiento MCIC-14-02-24.pdf",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/2454-AAC-CNA-Aspectos Plan de mejoramiento MCIC-14-02-24.pdf",
+      "tamano_legible": "203.7 KB"
+    },
+    {
+      "nombre": "2454-Registro Asistencia.jpeg",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/2454-Registro Asistencia.jpeg",
+      "tamano_legible": "130.9 KB"
+    },
+    {
+      "nombre": "Aval de facultad proceso de renovacion acredi.pdf",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/Aval de facultad proceso de renovacion acredi.pdf",
+      "tamano_legible": "415.5 KB"
+    },
+    {
+      "nombre": "Plan-Mejoramiento MCIC-2024-2026.xlsx",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/Plan-Mejoramiento MCIC-2024-2026.xlsx",
+      "tamano_legible": "17.6 KB"
+    },
+    {
+      "nombre": "RTA - 3860-RC-FI-Ornt plan de estudios MCIC-06-3-24.pdf",
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/RTA - 3860-RC-FI-Ornt plan de estudios MCIC-06-3-24.pdf",
+      "tamano_legible": "405.5 KB"
+    }
+  ],
+  "factores": {
+    "1": {
+      "factor_nombre": "FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL",
+      "actividades": [
+        {
+          "nombre": "a. PEP",
+          "archivos": [
+            {
+              "nombre": "DOC MAES REGCALI MCIC-PROF.docx",
+              "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-PROF.docx",
+              "tamano_legible": "8.1 MB"
+            },
+            {
+              "nombre": "PEP-MCIC-PROF-V0.docx",
+              "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-PROF-V0.docx",
+              "tamano_legible": "1.3 MB"
+            },
+            {
+              "nombre": "Proyecto Educativo del Programa-2017.pdf",
+              "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Proyecto Educativo del Programa-2017.pdf",
+              "tamano_legible": "1.2 MB"
+            },
+            {
+              "nombre": "Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+              "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
+              "tamano_legible": "863.6 KB"
+            }
+          ]
+        },
+        {
+          "nombre": "b. Jornadas de trabajo con docentes",
+          "archivos": []
+        },
+        {
+          "nombre": "c. Socialización del PEP con Consejo",
+          "archivos": []
+        },
+        {
+          "nombre": "d. Socialización con la comunidad académica",
+          "archivos": []
+        }
+      ]
+    },
+    "2": {
+      "factor_nombre": "FACTOR 2. ESTUDIANTES",
+      "actividades": [
+        {
+          "nombre": "a. Divulgación de propuestas académicas",
+          "archivos": []
+        }
+      ]
+    },
+    "3": {
+      "factor_nombre": "FACTOR 3. PROFESORES",
+      "actividades": [
+        {
+          "nombre": "a. Informes de participación de los docentes",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Análisis de incidencia de las actividades",
+          "archivos": []
+        }
+      ]
+    },
+    "4": {
+      "factor_nombre": "FACTOR 4. EGRESADOS",
+      "actividades": [
+        {
+          "nombre": "a. Análisis bases de datos de egresados",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Articulación de las bases de datos",
+          "archivos": []
+        },
+        {
+          "nombre": "c. Consolidación de producciones académicas",
+          "archivos": []
+        },
+        {
+          "nombre": "d. Instrumentos de apreciación a los egresados",
+          "archivos": []
+        },
+        {
+          "nombre": "e. Caracterización de los egresados",
+          "archivos": []
+        }
+      ]
+    },
+    "5": {
+      "factor_nombre": "FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+      "actividades": [
+        {
+          "nombre": "a. Definición y socialización de ejes de formación",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Definición de Resultados de Aprendizaje",
+          "archivos": []
+        }
+      ]
+    },
+    "6": {
+      "factor_nombre": "FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+      "actividades": [
+        {
+          "nombre": "a. Análisis y verificación de estados académicos",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Reglamentación institucional aplicada",
+          "archivos": []
+        },
+        {
+          "nombre": "c. Divulgación de estados academicos",
+          "archivos": []
+        }
+      ]
+    },
+    "7": {
+      "factor_nombre": "FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "actividades": [
+        {
+          "nombre": "a. Diagnostico de convenios vigentes",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Diagnostico de las organizaciones para estableces cooperación",
+          "archivos": []
+        },
+        {
+          "nombre": "c. Establecimiento de contacto con instituciones de orden nacional e internacional",
+          "archivos": []
+        },
+        {
+          "nombre": "d. Definición de acción para la formalización de convenios",
+          "archivos": []
+        },
+        {
+          "nombre": "e. Promoción de participación de la comunidad",
+          "archivos": []
+        }
+      ]
+    },
+    "8": {
+      "factor_nombre": "FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "actividades": [
+        {
+          "nombre": "a. Presentación a nuevos estudiantes de procesos de investigación",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Socialización y vinculación de actividades de investigación",
+          "archivos": []
+        }
+      ]
+    },
+    "9": {
+      "factor_nombre": "FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "actividades": [
+        {
+          "nombre": "a. Solicitud a Bienestar de las actividades ofrecidas",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Divulgación de los servicios ofrecidos por Bienestar",
+          "archivos": []
+        }
+      ]
+    },
+    "10": {
+      "factor_nombre": "FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+      "actividades": [
+        {
+          "nombre": "a. Diagnóstico sobre ambientes de aprendizaje",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Consolidación de propuesta de medios educativos",
+          "archivos": []
+        }
+      ]
+    },
+    "11": {
+      "factor_nombre": "FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "actividades": [
+        {
+          "nombre": "a. Articulación de los procesos con el SIAC",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Participación en la conformación del SIAC",
+          "archivos": []
+        },
+        {
+          "nombre": "c. Implementación de los lineamientos del SIAC",
+          "archivos": []
+        },
+        {
+          "nombre": "d. Construcción de reportes",
+          "archivos": []
+        }
+      ]
+    },
+    "12": {
+      "factor_nombre": "FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS",
+      "actividades": [
+        {
+          "nombre": "a. Solicitud de informe de avance de la obra",
+          "archivos": []
+        },
+        {
+          "nombre": "b. Solicitud informes periódicos de avance de la obra a Facultad",
+          "archivos": []
+        }
+      ]
+    }
+  }
+}

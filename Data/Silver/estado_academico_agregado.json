@@ -1,0 +1,116 @@
+{
+  "proyectos": [
+    {
+      "cod_proyecto": "195",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+      "total_estudiantes": 466,
+      "conteo_por_estado": {
+        "Matriculado": 14,
+        "Graduado": 167,
+        "INACTIVO": 30,
+        "Pérdida de calidad de estudiante - Suspendido": 248,
+        "Pérdida de calidad de estudiante - Expulsado": 7
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_195.csv",
+        "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+      }
+    },
+    {
+      "cod_proyecto": "295",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+      "total_estudiantes": 338,
+      "conteo_por_estado": {
+        "Graduado": 109,
+        "INACTIVO": 11,
+        "Pérdida de calidad de estudiante - Suspendido": 217,
+        "Pérdida de calidad de estudiante - Expulsado": 1
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_295.csv",
+        "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+      }
+    },
+    {
+      "cod_proyecto": "395",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+      "total_estudiantes": 193,
+      "conteo_por_estado": {
+        "Matriculado": 9,
+        "Graduado": 88,
+        "INACTIVO": 24,
+        "En renovación de matrícula - Vacaciones": 2,
+        "Pérdida de calidad de estudiante - Suspendido": 70
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_395.csv",
+        "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+      }
+    },
+    {
+      "cod_proyecto": "495",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+      "total_estudiantes": 229,
+      "conteo_por_estado": {
+        "Matriculado": 26,
+        "Graduado": 78,
+        "INACTIVO": 23,
+        "En renovación de matrícula - Vacaciones": 5,
+        "Pérdida de calidad de estudiante - Suspendido": 97
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_495.csv",
+        "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+      }
+    },
+    {
+      "cod_proyecto": "595",
+      "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "total_estudiantes": 74,
+      "conteo_por_estado": {
+        "Matriculado": 49,
+        "Graduado": 4,
+        "INACTIVO": 4,
+        "En renovación de matrícula - Vacaciones": 7,
+        "Pérdida de calidad de estudiante - Suspendido": 10
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_595.csv",
+        "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+      }
+    },
+    {
+      "cod_proyecto": "695",
+      "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "total_estudiantes": 100,
+      "conteo_por_estado": {
+        "Matriculado": 58,
+        "Graduado": 10,
+        "INACTIVO": 6,
+        "En renovación de matrícula - Vacaciones": 12,
+        "Abandono": 1,
+        "Pérdida de calidad de estudiante - Suspendido": 13
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_695.csv",
+        "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+      }
+    },
+    {
+      "cod_proyecto": "95",
+      "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+      "total_estudiantes": 536,
+      "conteo_por_estado": {
+        "Graduado": 121,
+        "INACTIVO": 247,
+        "Abandono": 1,
+        "Pérdida de calidad de estudiante - Suspendido": 159,
+        "Pérdida de calidad de estudiante - Expulsado": 8
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_95.csv",
+        "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+      }
+    }
+  ]
+}

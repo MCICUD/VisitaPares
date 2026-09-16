@@ -43,6 +43,11 @@
           </button>
         </li>
         <li>
+          <button class="nav-tab-btn" data-tab="comunidad">
+            <span>🎓</span> Comunidad Estudiantil
+          </button>
+        </li>
+        <li>
           <button class="nav-tab-btn" data-tab="documentos">
             <span>📁</span> Documentos Fuente
           </button>
@@ -138,7 +143,47 @@
     </section>
 
     <!-- ======================================================================
-         TAB 2: REPOSITORIO DOCUMENTAL
+         TAB 2: COMUNIDAD ESTUDIANTIL (matrícula por énfasis y estado)
+         ====================================================================== -->
+    <section id="section-comunidad" class="tab-section">
+      <div class="section-header">
+        <div>
+          <h2><span>🎓</span> Comunidad Estudiantil</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;" id="comunidad-subtitle">
+            <!-- dinámico -->
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">📊 Estudiantes activos por énfasis</h3>
+        <div id="enfasis-table-container"><!-- dinámico --></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">🗂️ Estado académico histórico por proyecto curricular</h3>
+        <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px;">
+          Conteo de registros del roster oficial del sistema Cóndor.
+        </p>
+        <div id="estado-academico-table-container"><!-- dinámico --></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">🎓 Egresados (graduados)</h3>
+        <div id="egresados-container"><!-- dinámico --></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">🔬 Grupos de investigación con docentes disponibles para dirección de tesis MCIC</h3>
+        <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px;" id="grupos-subtitle">
+          <!-- dinámico -->
+        </p>
+        <div id="grupos-investigacion-container"><!-- dinámico --></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 3: REPOSITORIO DOCUMENTAL
          ====================================================================== -->
     <section id="section-documentos" class="tab-section">
       <div class="section-header">
@@ -187,6 +232,15 @@
         <!-- Renderizado dinámico desde app.js -->
       </div>
 
+      <h3 class="card-title" style="margin-bottom: 4px;">📎 Evidencia del proceso de Renovación (RC / AAC)</h3>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px;">
+        Documentos generales del proceso de renovación de registro calificado y acreditación de alta calidad
+        que no están ligados a un factor específico del plan de mejoramiento.
+      </p>
+      <div id="evidencia-rc-aac-grid" class="doc-grid" style="margin-bottom: 32px;">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+
       <h3 class="card-title" style="margin-bottom: 4px;">🗂️ Catálogo completo de <code>Data/Bronze</code> (data RAW)</h3>
       <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px;" id="bronze-count-label">
         <!-- conteo dinámico -->
@@ -211,7 +265,7 @@
 
         <div class="search-box">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <input type="text" id="bronze-search" placeholder="Buscar por nombre o ruta de archivo...">
+          <input type="text" id="bronze-search" placeholder="Buscar por nombre, ruta o contenido del archivo...">
         </div>
       </div>
 

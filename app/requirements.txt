@@ -1,2 +1,6 @@
 openpyxl
 pandas
+python-docx
+pymupdf
+python-pptx
+xlrd

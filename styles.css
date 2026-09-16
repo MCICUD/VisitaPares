@@ -73,8 +73,8 @@ body {
 
 .header-top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  padding: 8px 24px;
-  font-size: 13px;
+  padding: 5px 24px;
+  font-size: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,7 +108,7 @@ body {
 }
 
 .header-main {
-  padding: 16px 24px;
+  padding: 8px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,16 +117,16 @@ body {
 }
 
 .brand-block h1 {
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 800;
   letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
 .brand-block p {
-  font-size: 13px;
+  font-size: 11.5px;
   color: #CBD5E1;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .snies-pills {
@@ -170,9 +170,9 @@ body {
   border: none;
   color: rgba(255, 255, 255, 0.85);
   font-family: inherit;
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 600;
-  padding: 12px 16px;
+  padding: 8px 16px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -199,7 +199,7 @@ body {
 .main-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 16px 20px;
 }
 
 /* ==========================================================================
@@ -209,12 +209,12 @@ body {
   background: linear-gradient(135deg, #FFFFFF 0%, #F1F5F9 100%);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
-  padding: 24px;
-  margin-bottom: 24px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
   box-shadow: var(--shadow-sm);
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 24px;
+  gap: 18px;
   align-items: center;
 }
 
@@ -225,44 +225,45 @@ body {
 }
 
 .hero-text h2 {
-  font-size: 20px;
+  font-size: 16px;
   color: var(--ud-blue);
   font-weight: 800;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .hero-text p {
   color: var(--text-muted);
-  font-size: 14px;
+  font-size: 12.5px;
   max-width: 760px;
+  line-height: 1.4;
 }
 
 .hero-stats-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 16px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .stat-box {
   background: #FFFFFF;
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 12px 14px;
+  padding: 8px 10px;
   text-align: center;
 }
 
 .stat-val {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 800;
   color: var(--ud-blue);
   line-height: 1.1;
 }
 
 .stat-lbl {
-  font-size: 11.5px;
+  font-size: 10.5px;
   color: var(--text-soft);
-  margin-top: 4px;
+  margin-top: 2px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.3px;
@@ -272,15 +273,17 @@ body {
   background: var(--ud-blue-soft);
   border: 1px solid #BFDBFE;
   border-radius: var(--radius-md);
-  padding: 16px;
+  padding: 10px 14px;
+  max-height: 150px;
+  overflow-y: auto;
 }
 
 .hero-peer-card h3 {
-  font-size: 13px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--ud-blue-dark);
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -290,7 +293,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  padding: 8px 0;
+  padding: 5px 0;
   border-bottom: 1px dashed #BFDBFE;
 }
 .peer-item:last-child {
@@ -338,11 +341,11 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .section-header h2 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 800;
   color: var(--ud-blue-dark);
   display: flex;
@@ -365,8 +368,8 @@ body {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
   transition: box-shadow 0.2s ease;
 }
 .card:hover {
@@ -374,10 +377,10 @@ body {
 }
 
 .card-title {
-  font-size: 16px;
+  font-size: 14.5px;
   font-weight: 700;
   color: var(--ud-blue);
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -469,7 +472,7 @@ body {
    PLAN DE MEJORAMIENTO: MODALIDADES Y MATRIX
    ========================================================================== */
 .modality-tabs-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .modality-tabs {
@@ -555,8 +558,8 @@ body {
   border: 1px solid #BFDBFE;
   border-left: 5px solid var(--ud-blue);
   border-radius: var(--radius-md);
-  padding: 18px 22px;
-  margin-bottom: 24px;
+  padding: 12px 16px;
+  margin-bottom: 14px;
   box-shadow: var(--shadow-sm);
   transition: background 0.2s ease, border-color 0.2s ease;
 }
@@ -572,10 +575,10 @@ body {
   border: 1px solid #BAE6FD;
   border-left: 4px solid var(--info);
   border-radius: var(--radius-md);
-  padding: 12px 16px;
-  font-size: 12.5px;
+  padding: 8px 14px;
+  font-size: 11.5px;
   color: var(--text-muted);
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   line-height: 1.5;
 }
 
@@ -625,8 +628,8 @@ body {
 
 .plan-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 14px;
 }
 
 .plan-card {
@@ -973,6 +976,17 @@ body {
 .footer-inner a {
   color: var(--ud-gold-light);
   text-decoration: none;
+}
+
+/* ==========================================================================
+   TABLAS LARGAS DENTRO DE TARJETAS (Comunidad Estudiantil)
+   ========================================================================== */
+#estado-academico-table-container,
+#enfasis-table-container,
+#egresados-container,
+#grupos-investigacion-container {
+  max-height: 320px;
+  overflow-y: auto;
 }
 
 @media print {

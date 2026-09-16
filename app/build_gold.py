@@ -8,6 +8,7 @@ modalidad (conteos, promedios, distribución) — nunca datos escritos a mano.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -62,7 +63,10 @@ def compute_comparacion_modalidades(silver_inv: dict, silver_prof: dict) -> dict
     for f_inv, f_prof in zip(silver_inv["factores"], silver_prof["factores"]):
         campos_distintos = [
             campo for campo in f_inv
-            if campo not in ("fuente",) and f_inv[campo] != f_prof[campo]
+            # "evidencia_seguimiento" se excluye a propósito: es normal que una
+            # modalidad tenga más archivos de evidencia cargados que la otra;
+            # esta comparación es solo sobre el TEXTO oficial del CC-FR-001.
+            if campo not in ("fuente", "evidencia_seguimiento") and f_inv[campo] != f_prof[campo]
         ]
         if campos_distintos:
             factores_con_diferencias.append({"factor": f_inv["factor"], "campos_distintos": campos_distintos})
@@ -99,19 +103,46 @@ def build_documentos_principales(manifest: list[dict]) -> list[dict]:
     return resultado
 
 
+EXTRACTO_CHARS = 320
+
+
+def merge_texto_extraido(manifest: list[dict]) -> None:
+    """Añade a cada registro del catálogo si se pudo leer su texto y un
+    extracto corto (para buscar por contenido en el sitio). El texto
+    completo se queda en Data/Silver/texto_bronze.json — no se manda al
+    navegador para no inflar gold_data.js con documentos completos."""
+    texto_path = SILVER_DIR / "texto_bronze.json"
+    if not texto_path.exists():
+        raise FileNotFoundError(f"No existe {texto_path}. Corre primero app/extract_texto_bronze.py")
+    textos = json.loads(texto_path.read_text(encoding="utf-8"))
+    for r in manifest:
+        info = textos.get(r["archivo"])
+        if info is None:
+            r["texto_extraido"] = False
+            r["extracto"] = None
+            continue
+        r["texto_extraido"] = bool(info["extraido"])
+        texto = info["texto"] or ""
+        r["extracto"] = (texto[:EXTRACTO_CHARS] + "…") if len(texto) > EXTRACTO_CHARS else (texto or None)
+
+
 def manifest_stats(manifest: list[dict]) -> dict:
     por_modalidad: dict[str, int] = {}
     por_extension: dict[str, int] = {}
     por_carpeta: dict[str, int] = {}
+    con_texto = 0
     for r in manifest:
         por_modalidad[r["modalidad"]] = por_modalidad.get(r["modalidad"], 0) + 1
         por_extension[r["extension"]] = por_extension.get(r["extension"], 0) + 1
         por_carpeta[r["carpeta_raiz"]] = por_carpeta.get(r["carpeta_raiz"], 0) + 1
+        if r.get("texto_extraido"):
+            con_texto += 1
     return {
         "total": len(manifest),
         "por_modalidad": por_modalidad,
         "por_extension": por_extension,
         "por_carpeta_raiz": por_carpeta,
+        "con_texto_extraido": con_texto,
     }
 
 
@@ -148,12 +179,53 @@ def load_silver(modalidad: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+FACTOR_RE = re.compile(r"^FACTOR\s*0*(\d{1,2})\b", re.IGNORECASE)
+
+
+def load_json(name: str) -> dict:
+    path = SILVER_DIR / name
+    if not path.exists():
+        raise FileNotFoundError(f"No existe {path}. Corre primero el script que lo genera en app/.")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def merge_evidencia_seguimiento(factores: list[dict], evidencia: dict) -> None:
+    """Añade a cada factor su evidencia real de seguimiento (Data/Bronze),
+    indexada por app/extract_seguimiento_evidencia.py. Modifica in-place."""
+    por_numero = evidencia["factores"]
+    for f in factores:
+        m = FACTOR_RE.match(f["factor"] or "")
+        numero = m.group(1) if m else None
+        entrada = por_numero.get(numero) if numero else None
+        actividades = entrada["actividades"] if entrada else []
+        total_archivos = sum(len(a["archivos"]) for a in actividades)
+        f["evidencia_seguimiento"] = {
+            "actividades": actividades,
+            "total_archivos": total_archivos,
+        }
+
+
+def build_comunidad_estudiantil() -> dict:
+    enfasis = load_json("enfasis_estudiantes.json")
+    estado = load_json("estado_academico_agregado.json")
+    egresados = load_json("egresados_agregado.json")
+    return {"enfasis": enfasis, "estadoAcademico": estado, "egresados": egresados}
+
+
 def main() -> None:
     GOLD_DIR.mkdir(parents=True, exist_ok=True)
 
     silver_inv = load_silver("investigacion")
     silver_prof = load_silver("profundizacion")
     manifest = load_bronze_manifest()
+    merge_texto_extraido(manifest)
+
+    grupos_investigacion = load_json("grupos_investigacion.json")
+
+    evidencia_inv = load_json("seguimiento_evidencia_investigacion.json")
+    evidencia_prof = load_json("seguimiento_evidencia_profundizacion.json")
+    merge_evidencia_seguimiento(silver_inv["factores"], evidencia_inv)
+    merge_evidencia_seguimiento(silver_prof["factores"], evidencia_prof)
 
     gold = {
         "meta": {
@@ -179,6 +251,16 @@ def main() -> None:
         "documentosPrincipales": build_documentos_principales(manifest),
         "documentosBronze": manifest,
         "documentosBronzeStats": manifest_stats(manifest),
+        "evidenciaProcesosRcAac": {
+            "investigacion": evidencia_inv["procesos_rc_aac"],
+            "profundizacion": evidencia_prof["procesos_rc_aac"],
+        },
+        "evidenciaDocumentosGenerales": {
+            "investigacion": evidencia_inv["documentos_generales"],
+            "profundizacion": evidencia_prof["documentos_generales"],
+        },
+        "comunidadEstudiantil": build_comunidad_estudiantil(),
+        "gruposInvestigacion": grupos_investigacion,
     }
 
     json_path = GOLD_DIR / "gold_data.json"

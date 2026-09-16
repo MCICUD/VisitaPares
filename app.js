@@ -47,6 +47,7 @@ function initApp() {
   renderHeaderMeta();
   renderHeroStats();
   initPlanMejoramiento();
+  initComunidad();
   initDocumentos();
   initBronzeCatalog();
   initModal();
@@ -335,6 +336,156 @@ function renderPlanCard(f, indexEnModalidad) {
   `;
 }
 
+function renderEvidenciaSeguimientoHtml(evidencia) {
+  if (!evidencia || evidencia.total_archivos === 0) {
+    return `<p style="font-size:13px; color: var(--text-soft);"><em>Sin evidencia cargada aún en Data/Bronze para este factor. El plan 2026-2027 recién inicia ejecución en agosto de 2026.</em></p>`;
+  }
+  return evidencia.actividades
+    .filter((a) => a.archivos.length > 0)
+    .map((a) => `
+      <div style="margin-bottom:10px;">
+        <div style="font-size:12.5px; font-weight:700; color: var(--text-main); margin-bottom:4px;">${escapeHtml(a.nombre)}</div>
+        <div style="display:flex; flex-wrap:wrap; gap:6px;">
+          ${a.archivos.map((arch) => `
+            <a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(arch.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(arch.archivo)}">📄 ${escapeHtml(arch.nombre)} (${escapeHtml(arch.tamano_legible)})</a>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+}
+
+// ==========================================================================
+// COMUNIDAD ESTUDIANTIL (énfasis y estado académico)
+// ==========================================================================
+function initComunidad() {
+  const enfasis = GOLD_DATA.comunidadEstudiantil.enfasis;
+  const estado = GOLD_DATA.comunidadEstudiantil.estadoAcademico;
+
+  document.getElementById('comunidad-subtitle').innerHTML =
+    `${escapeHtml(enfasis.titulo_archivo)} ${fuenteHtml(enfasis.fuente, 'Ver fuente')}`;
+
+  const enfasisNombres = enfasis.enfasis;
+  const enfasisTable = `
+    <table style="width:100%; border-collapse: collapse; font-size: 13px;">
+      <thead>
+        <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+          <th style="padding:8px 12px;">Categoría</th>
+          ${enfasisNombres.map((n) => `<th style="padding:8px 12px; text-align:right;">${escapeHtml(n)}</th>`).join('')}
+        </tr>
+      </thead>
+      <tbody>
+        ${enfasis.filas.map((fila) => `
+          <tr style="border-bottom:1px solid var(--border-color); ${fila.etiqueta === 'Total' ? 'font-weight:700;' : ''}">
+            <td style="padding:7px 12px;">${escapeHtml(fila.etiqueta)}</td>
+            ${enfasisNombres.map((n) => `<td style="padding:7px 12px; text-align:right;">${escapeHtml(fila.valores[n])}</td>`).join('')}
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+  document.getElementById('enfasis-table-container').innerHTML = enfasisTable;
+
+  const todosEstados = Array.from(new Set(estado.proyectos.flatMap((p) => Object.keys(p.conteo_por_estado)))).sort();
+  const estadoTable = `
+    <div style="overflow-x:auto;">
+    <table style="width:100%; border-collapse: collapse; font-size: 12.5px; min-width: 720px;">
+      <thead>
+        <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+          <th style="padding:8px 10px;">Proyecto Curricular (Cód.)</th>
+          <th style="padding:8px 10px; text-align:right;">Total</th>
+          ${todosEstados.map((e) => `<th style="padding:8px 10px; text-align:right;">${escapeHtml(e)}</th>`).join('')}
+        </tr>
+      </thead>
+      <tbody>
+        ${estado.proyectos.map((p) => `
+          <tr style="border-bottom:1px solid var(--border-color);">
+            <td style="padding:7px 10px;">${escapeHtml(p.proyecto_curricular)} <span class="bronze-ext-badge">Cód. ${escapeHtml(p.cod_proyecto)}</span></td>
+            <td style="padding:7px 10px; text-align:right; font-weight:700;">${p.total_estudiantes}</td>
+            ${todosEstados.map((e) => `<td style="padding:7px 10px; text-align:right;">${p.conteo_por_estado[e] ?? '—'}</td>`).join('')}
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+    </div>
+    <p style="font-size:11px; color: var(--text-soft); margin-top:10px;">
+      Fuente: ${estado.proyectos.map((p) => escapeHtml(fileLabel(p.fuente.archivo))).join(', ')} (roster Cóndor, Data/Bronze/Estados — no publicado por contener datos personales).
+    </p>
+  `;
+  document.getElementById('estado-academico-table-container').innerHTML = estadoTable;
+
+  renderEgresados(GOLD_DATA.comunidadEstudiantil.egresados);
+  renderGruposInvestigacion(GOLD_DATA.gruposInvestigacion);
+}
+
+function renderEgresados(egresados) {
+  const anios = Object.keys(egresados.por_anio).sort();
+  const filaAnios = `
+    <table style="width:100%; border-collapse: collapse; font-size: 13px; margin-bottom:16px;">
+      <thead>
+        <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+          <th style="padding:8px 12px;">Año de grado</th>
+          ${anios.map((a) => `<th style="padding:8px 12px; text-align:right;">${escapeHtml(a)}</th>`).join('')}
+          <th style="padding:8px 12px; text-align:right; font-weight:800;">Total (${escapeHtml(egresados.rango_presentado)})</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:7px 12px;">Graduados</td>
+          ${anios.map((a) => `<td style="padding:7px 12px; text-align:right;">${egresados.por_anio[a]}</td>`).join('')}
+          <td style="padding:7px 12px; text-align:right; font-weight:700;">${egresados.total_graduados}</td>
+        </tr>
+      </tbody>
+    </table>
+  `;
+
+  const porEnfasis = `
+    <table style="width:100%; border-collapse: collapse; font-size: 12.5px;">
+      <thead>
+        <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+          <th style="padding:8px 10px;">Cód. Proyecto (énfasis)</th>
+          <th style="padding:8px 10px; text-align:right;">Graduados</th>
+          <th style="padding:8px 10px; text-align:right;">Promedio académico</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${egresados.por_enfasis.map((p) => `
+          <tr style="border-bottom:1px solid var(--border-color);">
+            <td style="padding:7px 10px;">Cód. ${escapeHtml(p.cod_proyecto)}</td>
+            <td style="padding:7px 10px; text-align:right;">${p.total_graduados}</td>
+            <td style="padding:7px 10px; text-align:right;">${p.promedio_academico ?? '—'}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+    <p style="font-size:11px; color: var(--text-soft); margin-top:10px;">
+      Fuente: ${escapeHtml(fileLabel(egresados.fuente.archivo))} (no publicado por contener datos personales del egresado; solo llega hasta ${anios[anios.length - 1]}).
+    </p>
+  `;
+
+  document.getElementById('egresados-container').innerHTML = filaAnios + porEnfasis;
+}
+
+function renderGruposInvestigacion(gruposData) {
+  const grupos = gruposData.grupos.filter((g) => g.integrantes.length > 0 || g.nombre);
+  document.getElementById('grupos-subtitle').innerHTML =
+    `${grupos.length} grupos registrados, ${grupos.reduce((acc, g) => acc + g.integrantes.length, 0)} docentes con disponibilidad de dirección ` +
+    fuenteHtml(grupos[0]?.fuente, 'Ver archivo fuente');
+
+  document.getElementById('grupos-investigacion-container').innerHTML = `
+    <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap:14px;">
+      ${grupos.map((g) => `
+        <div class="plan-meta-box" style="margin-bottom:0;">
+          <div style="font-weight:700; color: var(--ud-blue); margin-bottom:6px;">${escapeHtml(g.nombre || g.sigla)} <span class="bronze-ext-badge">${escapeHtml(g.sigla)}</span></div>
+          ${g.clasificacion ? `<div class="plan-meta-row"><span>Clasificación MinCiencias</span><span>${escapeHtml(g.clasificacion)}</span></div>` : ''}
+          ${g.lider ? `<div class="plan-meta-row"><span>Líder</span><span>${escapeHtml(g.lider)}</span></div>` : ''}
+          <div class="plan-meta-row"><span>Docentes disponibles</span><span>${g.integrantes.length}</span></div>
+          ${g.integrantes.length ? `<div style="margin-top:8px; font-size:11.5px; color: var(--text-muted);">${g.integrantes.map((i) => escapeHtml(i.nombre)).join(', ')}</div>` : ''}
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
 // ==========================================================================
 // MODAL DE DETALLE DE FACTOR
 // ==========================================================================
@@ -391,6 +542,16 @@ function openFactorModal(modalidad, index) {
     <p style="margin-bottom:8px;"><strong>Actividades requeridas para lograr la meta:</strong></p>
     <p style="margin-bottom:14px; white-space: pre-line; font-size: 13px; color: var(--text-muted);">${escapeHtml(f.actividades)}</p>
 
+    <div style="margin-bottom:16px;">
+      <p style="margin-bottom:8px;"><strong>📎 Evidencia de seguimiento cargada en Data/Bronze:</strong></p>
+      ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
+    </div>
+
+    <p style="font-size: 11.5px; color: var(--text-soft); margin-bottom: 14px; border-top: 1px dashed var(--border-color); padding-top: 10px;">
+      Lo de abajo son las columnas oficiales de seguimiento/evaluación del formato CC-FR-001 (las que diligencia
+      la coordinación en el propio Excel). No deben confundirse con la evidencia de arriba: si aparecen vacías es
+      porque el Excel fuente todavía no las tiene diligenciadas, no porque falte información en este sitio.
+    </p>
     <p style="margin-bottom:8px;"><strong>Seguimiento (Corte 1):</strong></p>
     <p style="margin-bottom:12px; font-size: 13px;">${seguimientoTexto('corte_1')}</p>
     <p style="margin-bottom:8px;"><strong>Seguimiento (Corte 2):</strong></p>
@@ -421,6 +582,38 @@ function initDocumentos() {
           <div>
             <div class="doc-name">${escapeHtml(doc.titulo)}</div>
             ${modalidadTagHtml(doc.modalidad)}
+          </div>
+        </div>
+        <span class="doc-path-code">${escapeHtml(doc.archivo)}</span>
+      </div>
+      <div class="doc-footer">
+        <span>${escapeHtml(doc.tamano_legible)}</span>
+        <a class="btn btn-outline" style="font-size:12px; padding:6px 12px;" href="${fileHref(doc.archivo)}" target="_blank" rel="noopener noreferrer">Abrir archivo ↗</a>
+      </div>
+    </div>
+  `;
+  }).join('');
+
+  const rcAacGrid = document.getElementById('evidencia-rc-aac-grid');
+  const combinados = [];
+  for (const modalidad of ['investigacion', 'profundizacion']) {
+    for (const doc of GOLD_DATA.evidenciaDocumentosGenerales[modalidad]) {
+      combinados.push({ ...doc, modalidad, categoria: 'Plan de Mejoramiento' });
+    }
+    for (const doc of GOLD_DATA.evidenciaProcesosRcAac[modalidad]) {
+      combinados.push({ ...doc, modalidad, categoria: 'Procesos RC / AAC' });
+    }
+  }
+  rcAacGrid.innerHTML = combinados.map((doc) => {
+    const ext = (doc.nombre.split('.').pop() || '').toLowerCase();
+    return `
+    <div class="doc-card">
+      <div>
+        <div class="doc-card-top">
+          <div class="doc-icon ${ext === 'docx' || ext === 'doc' ? 'docx' : (ext === 'xlsx' || ext === 'xls' ? 'xlsx' : '')}">${ext.toUpperCase()}</div>
+          <div>
+            <div class="doc-name">${escapeHtml(doc.nombre)}</div>
+            <div style="display:flex; gap:6px; margin-top:4px;">${modalidadTagHtml(doc.modalidad)}<span class="bronze-ext-badge">${escapeHtml(doc.categoria)}</span></div>
           </div>
         </div>
         <span class="doc-path-code">${escapeHtml(doc.archivo)}</span>
@@ -479,12 +672,16 @@ function renderBronzeTable() {
     if (bronzeState.modalidad !== 'all' && doc.modalidad !== bronzeState.modalidad) return false;
     if (bronzeState.carpeta !== 'all' && doc.carpeta_raiz !== bronzeState.carpeta) return false;
     if (bronzeState.extension !== 'all' && doc.extension !== bronzeState.extension) return false;
-    if (bronzeState.busqueda && !doc.archivo.toLowerCase().includes(bronzeState.busqueda)) return false;
+    if (bronzeState.busqueda) {
+      const haystack = (doc.archivo + ' ' + (doc.extracto || '')).toLowerCase();
+      if (!haystack.includes(bronzeState.busqueda)) return false;
+    }
     return true;
   });
 
   document.getElementById('bronze-count-label').textContent =
-    `Mostrando ${filtrados.length} de ${stats.total} archivos reales en Data/Bronze/ (recorrido automático por app/build_bronze_manifest.py).`;
+    `Mostrando ${filtrados.length} de ${stats.total} archivos reales en Data/Bronze/ (recorrido automático por app/build_bronze_manifest.py) — ` +
+    `${stats.con_texto_extraido} con texto extraído y buscable por contenido (app/extract_texto_bronze.py).`;
 
   const tbody = document.getElementById('bronze-table-body');
   if (filtrados.length === 0) {
@@ -497,6 +694,7 @@ function renderBronzeTable() {
       <td>
         <span class="bronze-file-name">${escapeHtml(doc.nombre)}</span>
         <span class="bronze-path">${escapeHtml(doc.carpeta_contenedora)}</span>
+        ${doc.extracto ? `<span class="bronze-path" style="color: var(--text-muted);" title="Extracto de texto leído del archivo">📝 ${escapeHtml(doc.extracto)}</span>` : ''}
       </td>
       <td>${escapeHtml(doc.carpeta_raiz)}</td>
       <td>${modalidadTagHtml(doc.modalidad)}</td>

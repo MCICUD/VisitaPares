@@ -1,0 +1,788 @@
+{
+  "grupos": [
+    {
+      "nombre": "Arqusoft - Arquitecturas de Software",
+      "lineas_investigacion": "1.-Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
+      "clasificacion": "C",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000003244",
+      "pagina_web": "http://arquisoft.udistrital.edu.co/",
+      "email": "hdiosa@udistrital.edu.co",
+      "lider": "Henry Alberto Diosa",
+      "integrantes": [
+        {
+          "nombre": "Henry Alberto Diosa",
+          "correo": "hdiosa@udistrital.edu.co",
+          "tematicas": "Métodos Formales en Ingeniería de Software\nIngeniería de Software\nArquitecturas de software",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000249033"
+        }
+      ],
+      "sigla": "Arquisoft",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "Arquisoft"
+      }
+    },
+    {
+      "nombre": "GCEM - Grupo de Compatibilidad e Interferencia Electromagnética",
+      "lineas_investigacion": "1.- Alta tensión\n2.- Calidad de potencia\n3.- Compatibilidad Electromagnetica\n4.- Energías no convencionales",
+      "clasificacion": "A1",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000883",
+      "pagina_web": null,
+      "email": "gcem.ud@gmail.com",
+      "lider": "Edwin Rivas Trujillo",
+      "integrantes": [
+        {
+          "nombre": "Edwin Rivas Trujillo",
+          "correo": "erivas@udistrital.edu.co",
+          "tematicas": "Compatibilidad e Interferencia Electromagnética",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000158763"
+        },
+        {
+          "nombre": "Francisco Santamaría Piedrahita",
+          "correo": "fsantamariap@udistrital.edu.co",
+          "tematicas": "Calidad de Potencia\nAnálisis de sobretensiones\nGestión de la energía\nVehículos eléctricos",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000350044"
+        },
+        {
+          "nombre": "Adriana Marcela Vega Escobar",
+          "correo": "avegae@udistrital.edu.co",
+          "tematicas": "Eficiencia energética\nPlaneación Estratégica de Sistemas de Información\nInformatica\nGestión energética",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000426377"
+        },
+        {
+          "nombre": "Herbert Enrique Rojas Cubides",
+          "correo": "herojasc@udistrital.edu.co",
+          "tematicas": "Descargas Eléctricas Atmosféricas\nCalidad de Energía Eléctrica\nTécnicas de Alta Tensión\nSistemas de Puesta a Tierra\nInstrumentación Eléctrica y Electrónica\nTratamiento y Procesamiento de Señales\nMedición de Campos Electromagnéticos \nCompatibilidad Electromagnética\nFuentes Alternativas de Energía",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000213420"
+        }
+      ],
+      "sigla": "GCEM",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GCEM"
+      }
+    },
+    {
+      "nombre": "GEFEM - Grupo de Estudio en temas de la Física, de la Estadística y de la Matemática",
+      "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES",
+      "clasificacion": "C",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013666",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Luis Eduardo Castillo Méndez",
+      "integrantes": [
+        {
+          "nombre": "Luis Eduardo Castillo Méndez",
+          "correo": "lecastillom@udistrital.edu.co",
+          "tematicas": "Probabilidad\nAlgebra\nEstadística Matemática\nTeoría de la Medida",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001183940"
+        },
+        {
+          "nombre": "Alvaro Enrique Ortiz Dávila",
+          "correo": "aeortizd@udistrital.edu.co",
+          "tematicas": "Sistemas Inteligentes y Geomática\nBases de Datos Espacio-Temporales",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000811718"
+        },
+        {
+          "nombre": "Erika Sofia Upegui Cardona",
+          "correo": "esupeguic@udistrital.edu.co",
+          "tematicas": "Investigación -acción educativa\nTeledetección y epidemiología\nProcesamiento Digital de Imágenes\nFotogrametría digital y análoga",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001520054"
+        },
+        {
+          "nombre": "Ruben Javier Medina Daza",
+          "correo": "rmedina@udistrital.edu.co",
+          "tematicas": "Procesamiento digital de imágenes",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000269387"
+        }
+      ],
+      "sigla": "GEFEM",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GEFEM"
+      }
+    },
+    {
+      "nombre": "GESDATOS - Gestión de datos",
+      "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
+      "clasificacion": "C",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001332",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Sonia Ordoñez Salinas",
+      "integrantes": [
+        {
+          "nombre": "Sonia Ordoñez Salinas",
+          "correo": "sordonez@udistrital.edu.co",
+          "tematicas": "Bases de Datos\nInteligencia de Negocios\nBigData\nCiencia de los Datos\nProcesamiento Lenguaje Natural y Linguistica Computacional",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000420050"
+        }
+      ],
+      "sigla": "GESDATOS",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GESDATOS"
+      }
+    },
+    {
+      "nombre": "GESETIC - Grupo de Investigación en Gestión de Sistemas Energéticos con Base en Tecnologías de Información y Comunicación",
+      "lineas_investigacion": "1.- ENERGIA\n2.- GESTION DEL CONOCIMIENTO Y VIGILANCIA TECNOLOGICA\n3.- INFORMATICA\n4.- MEDIO AMBIENTE Y RECURSOS NATURALES\n5.- TELECOMUNICACIONES",
+      "clasificacion": "C",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000005998",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Alvaro Espinel Ortega",
+      "integrantes": [
+        {
+          "nombre": "Alvaro Espinel Ortega",
+          "correo": "aespinel@udistrital.edu.co",
+          "tematicas": "Ingeniería Eléctrica\nInformática\nTeleinformática\nEnergía",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000226602"
+        },
+        {
+          "nombre": "Adriana Marcela Vega Escobar",
+          "correo": "avegae@udistrital.edu.co",
+          "tematicas": "Eficiencia energética\nPlaneación Estratégica de Sistemas de Información\nInformatica\nGestión energética",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000426377"
+        },
+        {
+          "nombre": "Diana Stella Garcia Miranda",
+          "correo": null,
+          "tematicas": "Ingeniería Eléctrica",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000037699"
+        },
+        {
+          "nombre": "Wilson Díaz Gamba",
+          "correo": "wdiazg@udistrital.edu.co",
+          "tematicas": "Caracterización académica, currículo permanencia y deserción\nPsicología política\nEmociones, desarrollo humano, creatividad y pedagogía\nReconciliación y cultura de paz",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000410349"
+        }
+      ],
+      "sigla": "GESETIC",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GESETIC"
+      }
+    },
+    {
+      "nombre": "GICOECOL - Comercio Electronico en Colombia",
+      "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
+      "clasificacion": "A1",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013887",
+      "pagina_web": null,
+      "email": null,
+      "lider": "José Ignacio Rodríguez Molano",
+      "integrantes": [
+        {
+          "nombre": "José Ignacio Rodríguez Molano",
+          "correo": "jirodriguezm@udistrital.edu.co",
+          "tematicas": "Internet de las cosas",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000593869"
+        },
+        {
+          "nombre": "Giovanny Mauricio Tarazona Bermudez",
+          "correo": "gtarazona@udistrital.edu.co",
+          "tematicas": "INNOVACIÓN ESTRATEGICA\nCOMERCIO ELECTRONICO",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001120719"
+        }
+      ],
+      "sigla": "GICOECOL",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GICOECOL"
+      }
+    },
+    {
+      "nombre": "GICOGE - Grupo Informática Comunicaciones y Gestión del conocimiento",
+      "lineas_investigacion": "1.- Calidad e Innovación en Informática, Comunicaciones y Gestión del Conocimiento para el Desarrollo Organizacional",
+      "clasificacion": "A1",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000983",
+      "pagina_web": null,
+      "email": null,
+      "lider": "José Nelson Pérez Castillo",
+      "integrantes": [
+        {
+          "nombre": "José Nelson Pérez Castillo",
+          "correo": "jnperezc@correo.udistrital.edu.co",
+          "tematicas": "Calidad e Innovación en Informática, Comunicaciones y Gestión del Conocimiento para el Desarrollo Organizacional",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000171220"
+        },
+        {
+          "nombre": "Victor Hugo Medina García",
+          "correo": "vmedina@udistrital.edu.co",
+          "tematicas": "Ingeniería de Software\nInvestigación en ingeniería soportada por la internet social y la gestión del conocimiento\nCiencia y Tecnología de la Información y del Conocimiento",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000243302"
+        },
+        {
+          "nombre": "Nelson Enrique Vera Parra",
+          "correo": "neverap@udistrital.edu.co",
+          "tematicas": "Ciencia de datos\nInteligencia artificial\nComputación de alto desempeño\nProgramción Paralela\nBioinformática",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001174088"
+        },
+        {
+          "nombre": "Jorge Enrique Rodríguez Rodríguez",
+          "correo": "jerodriguezr@udistrital.edu.co",
+          "tematicas": "Minería de Datos y Aprendizaje Computacional",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000809225"
+        },
+        {
+          "nombre": "Sandro Javier Bolaños Castro",
+          "correo": "sbolanos@udistrital.edu.co",
+          "tematicas": "Ingeniería de software",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000193674"
+        },
+        {
+          "nombre": "Roberto Albeiro Pava Diaz",
+          "correo": "rapavad@udistrital.edu.co",
+          "tematicas": "Blockchain",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000840319"
+        },
+        {
+          "nombre": "Abel Antonio Navarrete Lopez",
+          "correo": null,
+          "tematicas": "ELEMENTOS DIDACTICOS EN TEMAS DE INVESTIGACION DE OPERACIONES\nPolítica y Estrategia Empresarial\nEmprendimiento y Gerencia de Proyectos",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000376639"
+        },
+        {
+          "nombre": "Alexis Adamy Ortiz Morales",
+          "correo": null,
+          "tematicas": "INTERNACIONALIZACIÓN DE LA EDUCACIÓN SUPERIOR",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000277380"
+        }
+      ],
+      "sigla": "GICOGE",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GICOGE"
+      }
+    },
+    {
+      "nombre": "GIIRA - Grupo de Investigación en Interconexión de Redes Académicas",
+      "lineas_investigacion": "1.- Analítica Visual\n2.- Ciencias de los Datos\n3.- E-learning\n4.- Inteligencia Computacional\n5.- Redes y Seguridad Informática\n6.- Visualización de información",
+      "clasificacion": "A1",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001394",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Carlos Enrique Montenegro Marín",
+      "integrantes": [
+        {
+          "nombre": "Carlos Enrique Montenegro Marín",
+          "correo": "cemontenegrom@udistrital.edu.co",
+          "tematicas": "Computación en la Nube\nIngeniería Dirigida por Modelos\nDesarollo de Software",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000292915"
+        },
+        {
+          "nombre": "Paulo Alonso Gaona García",
+          "correo": "pagaonag@udistrital.edu.co",
+          "tematicas": "Ciencias de los datos\nVisual analytics\nSeguridad información\nWeb semántica\nInteracción Persona Computador\nE-learning, Activa:Si",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000292974"
+        },
+        {
+          "nombre": "Elvis Eduardo Gaona Garcia",
+          "correo": "egaona@udistrital.edu.co",
+          "tematicas": "Redes de Sensores Inalámbricos\nDispositivos de Microondas\nDesarrollo de picosatélites\nMicroondas, Antenas y Propagación\nConvergencia y redes de nueva generacion",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000217344"
+        },
+        {
+          "nombre": "Javier Felipe Monaca Sanchez",
+          "correo": "jfmoncada@udistrital.edu.co",
+          "tematicas": "Desarollo de Software\nDesarrollo de aplicaciones SIG\nDesarrollo de Servicios WFS, WFS-T, WCS, WMS y WMTS\nCalidad de Informacion Geografica\nGeomática\nAplicaciones FOSS4G",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001381429"
+        },
+        {
+          "nombre": "Nancy Yaneth Gelvez Garcia",
+          "correo": "nygelvezg@correo.udistrital.edu.co",
+          "tematicas": "Entornos de navegación inmersivos",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001353689"
+        },
+        {
+          "nombre": "Alejandro Paolo Daza Corredor",
+          "correo": "apdazac@udistrital.edu.co",
+          "tematicas": "Pruebas de software \nDesarollo de Software",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000292893"
+        }
+      ],
+      "sigla": "GIIRA",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GIIRA"
+      }
+    },
+    {
+      "nombre": "GITUD - Grupo de investigación en Telecomunicaciones de la Universidad Distrital",
+      "lineas_investigacion": "1.- Gestión de Espectro\n2.- Microondas, Antenas y Propagación\n3.- Optimización de Redes\n4.- Wireless Sensor Networks, IoT",
+      "clasificacion": "B",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000877",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Elvis Eduardo Gaona García",
+      "integrantes": [
+        {
+          "nombre": "Elvis Eduardo Gaona Garcia",
+          "correo": "egaona@udistrital.edu.co",
+          "tematicas": "Redes de Sensores Inalámbricos\nDispositivos de Microondas\nDesarrollo de picosatélites\nMicroondas, Antenas y Propagación\nConvergencia y redes de nueva generacion",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000217344"
+        },
+        {
+          "nombre": "Juan Carlos Gómez Paredes",
+          "correo": "jgomez@udistrital.edu.co",
+          "tematicas": "Antenas y Propagación\nSistemas de Telecomunicaciones",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000301159"
+        },
+        {
+          "nombre": "José Ignacio Castañeda Fandiño",
+          "correo": "icastaneda@udistrital.edu.co",
+          "tematicas": "Antenas y Propagación\nEmisora HJUD\nMicrosatélite",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000213160"
+        },
+        {
+          "nombre": "José Noé Poveda Zafra",
+          "correo": "jpoveda@udistrital.edu.co",
+          "tematicas": "Redes de objetos de rango amplio",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000875813"
+        },
+        {
+          "nombre": "Julian Rolando Camargo Lopez",
+          "correo": "jcamargo@udistrital.edu.co",
+          "tematicas": "Sistemas Embebidos",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001340867"
+        },
+        {
+          "nombre": "Marco Aurelio Alzate Monroy",
+          "correo": "malzate@udistrital.edu.co",
+          "tematicas": "Estimación del Ancho de Banda Disponible en Redes Móviles Ad Hoc con Base en Técnicas de Inteligencia Computacional",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000301167"
+        }
+      ],
+      "sigla": "GITUD",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GITUD"
+      }
+    },
+    {
+      "nombre": "GITEM++ - Grupo de Investigación de Telemedicina",
+      "lineas_investigacion": "1.- DESARROLLO DE SATELITES\n2.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n3.- LINEA DE INVESTIGACION EN TELESALUD Y TELEMEDICINA\n4.- LÍNEA DE INVESTIGACIÓN EN TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n5.- REALISMO VIRTUAL\n6.- REDES DE NUEVA GENERACIÓN",
+      "clasificacion": "C",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000902",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Lilia Edith Aparicio Pico",
+      "integrantes": [
+        {
+          "nombre": "Lilia Edith Aparicio Pico",
+          "correo": "medicina@udistrital.edu.co",
+          "tematicas": "GESTION DE SALUD\nTELEMEDICINA\nTeleinformática\nLINEA DE INVESTIGACION EN SEGURIDAD INFORMATICA\nIngenierìa Aeroespacial\nTelecomunicaciones",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000218405"
+        },
+        {
+          "nombre": "Leonardo Plazas Nossa",
+          "correo": "lplazasn@udistrital.edu.co",
+          "tematicas": "Espectrometría UV-Visible\nCiencia y Tecnologìa Aeroespacial",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000996890"
+        },
+        {
+          "nombre": "Jorge Enrique Salamanca Céspedes",
+          "correo": "jesalamancac@gmail.com>",
+          "tematicas": "Desarrollo de tecnología aeroespacial\nEducación energética",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000177407"
+        },
+        {
+          "nombre": "Miguel Antonio Avila Angulo",
+          "correo": "migueavila@gmail.com",
+          "tematicas": "Cubesat-UD: Control de actitud\nGEODESIA SATELITAL",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000665983"
+        },
+        {
+          "nombre": "Roberto Ferro Escobar",
+          "correo": "rferro@udistrital.edu.co",
+          "tematicas": "Informática\nDesarrollo de aplicaciones de Hw y Sw para personas en estado de discapacidad\nInternet de la cosas\nCiudades inteligentes\nRedes\nElectrónica\nTIC\nTelecomunicaciones\nSoftware\nTecnología Aero espacial",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000764680"
+        }
+      ],
+      "sigla": "GITEM++",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GITEM++"
+      }
+    },
+    {
+      "nombre": "GRECO - Grupo de Radiación Electromagnética y Comunicaciones Ópticas",
+      "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
+      "clasificacion": "B",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000006176",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Carlos Arturo Suárez Fajardo",
+      "integrantes": [
+        {
+          "nombre": "Carlos Arturo Suárez Fajardo",
+          "correo": "csuarezf@udistrital.edu.co",
+          "tematicas": "Desarrollo de antenas y circuitos pasivos de microondas usando tecnología de meta materiales\nDesarrollo de Elementos Radiantes\nTelecomunicaciones ópticas\nDesarrollo de subsistemas para aplicaciones en ingeniería aeroespacial\nDesarrollo de dispositivos pasivos de Microondas y Circuitos activos de microondas Desarrollo de códigos numéricos para el análisis y optimización de antenas\nAntenas activas y/o configurables",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000873438"
+        },
+        {
+          "nombre": "Gustavo Adolfo Puerto Leguizamón",
+          "correo": "gapuerto@udistrital.edu.co",
+          "tematicas": "Software Defined Networking\nRedes Ópticas\nRedes de acceso\nInternet Óptico\nDispositivos Optoelectrónicos\nRedes de sensores",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000795429"
+        },
+        {
+          "nombre": "César Alberto Castellanos García",
+          "correo": "divertech07@gmail.com",
+          "tematicas": "Sistemas de Determinación y Control de Actitud Satelital",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001390573"
+        }
+      ],
+      "sigla": "GRECO",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "GRECO"
+      }
+    },
+    {
+      "nombre": "Internet Inteligente",
+      "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva",
+      "clasificacion": "B",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000003328",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Octavio Salcedo Parra",
+      "integrantes": [
+        {
+          "nombre": "Octavio Salcedo Parra",
+          "correo": "osalcedo@udistrital.edu.co",
+          "tematicas": "Software\nRedes de Comunicacion\nInternet\nREDES\nTELEMATICA\nRadio Cognitiva",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000296902"
+        },
+        {
+          "nombre": "Cesar Augusto Hernández Suárez",
+          "correo": "cahernandezs@udistrital.edu.co",
+          "tematicas": "Radio Cognitiva\nProcesamiento Digital de Señales\nElectronica\nTeleinformatica\nTelecomunicaciones\nSistemas Digitales Avanzados",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000331430"
+        },
+        {
+          "nombre": "Danilo Alfonso López Sarmiento",
+          "correo": "dalopezs@udistrital.edu.co",
+          "tematicas": "Radio Cognitiva\nTeleinformatica\nTelecomunicaciones",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000430129"
+        },
+        {
+          "nombre": "Luis Fernando Pedraza Martinez",
+          "correo": "lfpedrazam@udistrital.edu.co",
+          "tematicas": "Radio Cognitiva\nTelecomunicaciones\nGestion Tecnologica",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000976741"
+        }
+      ],
+      "sigla": "Internet Inteligente",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "Internet Inteligente"
+      }
+    },
+    {
+      "nombre": "INTECSE - Interoperabilidad Tecnología y Semántica",
+      "lineas_investigacion": "1.- Desarrollo de software\n2.- Desarrollo de software dirigido por modelos\n3.- Modelamiento ontológico\n4.- Objetos de aprendizaje",
+      "clasificacion": "B",
+      "gruplac": null,
+      "pagina_web": null,
+      "email": null,
+      "lider": "Julio Barón Velandia",
+      "integrantes": [
+        {
+          "nombre": "Julio Barón Velandia",
+          "correo": "jbaron@udistrital.edu.co",
+          "tematicas": "Gestión del conocimiento\n INGENIERA WEB",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000292931"
+        },
+        {
+          "nombre": "Alejandro Paolo Daza Corredor",
+          "correo": "apdazac@udistrital.edu.co",
+          "tematicas": "Pruebas de software",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000292893"
+        }
+      ],
+      "sigla": "INTECSE",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "INTECSE"
+      }
+    },
+    {
+      "nombre": "ITI: Innovación en Tecnologías de Información",
+      "lineas_investigacion": "1.- Aplicaciones móviles\n2.- Bioinformática\n3.- Ingenieria Dirigida por Modelos\n4.- Inteligencia de Negocios",
+      "clasificacion": "A",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000016507",
+      "pagina_web": "https://www.itiud.org/",
+      "email": "iti@udistrital.edu.co",
+      "lider": "Hector Florez",
+      "integrantes": [
+        {
+          "nombre": "Hector Florez",
+          "correo": "haflorezf@udistrital.edu.co",
+          "tematicas": "Ingeniería Dirigida por Modelos\nBioinformática\nAplicaciones Móviles",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000649902"
+        }
+      ],
+      "sigla": "ITI",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "ITI"
+      }
+    },
+    {
+      "nombre": "LAMIC - Laboratorio de Automática e Inteligencia Computacional",
+      "lineas_investigacion": "1.- Automática\n2.- Inteligencia Computacional\n3.- Microelectrónica",
+      "clasificacion": "A",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000879",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Andrés Eduardo Gaona Barrera",
+      "integrantes": [
+        {
+          "nombre": "Andrés Eduardo Gaona Barrera",
+          "correo": "angaona@hotmail.com",
+          "tematicas": "Lógica Programable\nLógica Difusa",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000150258"
+        },
+        {
+          "nombre": "Juan Carlos Figueroa Garcia",
+          "correo": "jcfigueroag@udistrital.edu.co",
+          "tematicas": "Ingeniería del Conocimiento\n Productividad en la Industria Colombiana",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000423106"
+        },
+        {
+          "nombre": "Diana Marcela Ovalle Martínez",
+          "correo": "dmovallem@udistrital.edu.co",
+          "tematicas": "Control Optimo / Optimización\nControl No Lineal\nAyudas para la Docencia",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001466796"
+        },
+        {
+          "nombre": "Helbert Eduardo Espitia Cuchango",
+          "correo": "heespitiac@udistrital.edu.co",
+          "tematicas": null,
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000763942"
+        }
+      ],
+      "sigla": "LAMIC",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "LAMIC"
+      }
+    },
+    {
+      "nombre": "LASER - Laboratorio de Automatización, Sistemas Embebidos y Robótica",
+      "lineas_investigacion": "1.- Automatización\n2.- Biomedica\n3.- Robótica\n4.- Sistemas Embebidos\n5.- Sistemas Inteligentes",
+      "clasificacion": "B",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000015041",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Ernesto Gómez Vargas",
+      "integrantes": [
+        {
+          "nombre": "Ernesto Gómez Vargas",
+          "correo": "egomezv@correo.udistrital.edu.co",
+          "tematicas": "Corrección de Datos\nEstimación cuantitativa de la precipitación\nClasificación de hidrometeoros\nVariabilidad espacio temporal de la precipitación\nDesarrollo de visores georreferenciados de datos de radar",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000472069"
+        },
+        {
+          "nombre": "Cesar Andrey Perdomo Charry",
+          "correo": "cperdomo@udistrital.edu.co",
+          "tematicas": "Inteligencia computacional, radares meteorologicos, automatización",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000480762"
+        },
+        {
+          "nombre": "Julian Rolando Camargo Lopez",
+          "correo": "jcamargo@udistrital.edu.co",
+          "tematicas": "Sistemas embebidos, IoT,    radares metereologicos, automatización, dsp, imagenes",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001340867"
+        },
+        {
+          "nombre": "Andrés Leonardo Jutinico Alarcón",
+          "correo": "aljutinicoa@udistrital.edu.co",
+          "tematicas": "Tele rehabilitación, rehabilitación robótica, filtrado robusto, inteligencia computacional, imágenes, dsp, control",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001059416"
+        },
+        {
+          "nombre": "Oscar David Florez Cediel",
+          "correo": "odflorez@udistrital.edu.co",
+          "tematicas": "Enertrónica, confiabilidad, Máquinas Eléctricas, Sistemas Eólicos",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001400043"
+        },
+        {
+          "nombre": "Martha Patricia Calvo Correa",
+          "correo": "mpcalvoc@udistrital.edu.co",
+          "tematicas": "Análisis de superficies \nCaracterización de materiales\nBiomateriales",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001392032"
+        }
+      ],
+      "sigla": "LASER",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "LASER"
+      }
+    },
+    {
+      "nombre": "LIDER - Laboratorio de Investigación y Desarrollo en Electrónica y Redes",
+      "lineas_investigacion": "1.- Aplicaciones en Domótica, Inmótica y Telemedicina.\n2.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n3.- Electrónica aplicada a la Industria\n4.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n5.- Estudio y diseño de protocolos de red y de enrutamiento para redes de alta velocidad.\n6.- Gestión del conocimiento\n7.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n8.- Ingeniería Aeronautica\n9.- Internet de las cosas\n10.- Investigación y desarrollo de satelites\n11.- Nanotecnología\n12.- Realidad Aumentada y Realidad Virtual\n13.- Redes de Nueva Generación (IPv6) y Redes IPv4.\n14.- Redes de Telefonía Celular\n15.- Redes inalámbricas de banda ancha\n16.- TIC y Paz\n17.- TIC y contenidos pedagógicos para la educación\n18.- Web GIS y tecnologías geoespaciales",
+      "clasificacion": "A",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000005315",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Roberto Ferro Escobar",
+      "integrantes": [
+        {
+          "nombre": "Roberto Ferro Escobar",
+          "correo": "rferro@udistrital.edu.co",
+          "tematicas": "Informática\nDesarrollo de aplicaciones de Hw y Sw para personas en estado de discapacidad\nInternet de la cosas\nCiudades inteligentes\nRedes\nElectrónica\nTIC\nTelecomunicaciones\nSoftware\nTecnología Aero espacial",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000764680"
+        },
+        {
+          "nombre": "Francisco Javier Zamora Navarro",
+          "correo": "fzamora@udistrital.edu.co",
+          "tematicas": "Ambientes Virtuales de Aprendizaje\nSistemas didácticos para enseñanza de la ingeniería electrónica\nMicrocontroladores y Sistemas Embebidos",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001341258"
+        },
+        {
+          "nombre": "Jorge Enrique Salamanca Céspedes",
+          "correo": "jesalamancac@gmail.com",
+          "tematicas": "Desarrollo de tecnología aeroespacial\nEducación energética",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000177407"
+        }
+      ],
+      "sigla": "LIDER",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "LIDER"
+      }
+    },
+    {
+      "nombre": "LIFAE - Laboratorio de Investigación en Fuentes Alternativas de Energía",
+      "lineas_investigacion": "1.- Línea de Investigación en Electrónica de Potencia y Fuentes Alternativas de Energía",
+      "clasificacion": "A1",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000871",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Nelson Díaz Aldana",
+      "integrantes": [
+        {
+          "nombre": "Nelson Díaz Aldana",
+          "correo": "nldiaza@udistrital.edu.co",
+          "tematicas": "Micro-redes\nAplicación de controladores linealis y no lineales a convertidores de potencia\nElectrónica de Potencia\nLABORATORIO DE INVESTIGACION EN FUENTES ALTERNATIVAS DE ENERGIA",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000908428"
+        },
+        {
+          "nombre": "Cesar Leonardo Trujillo Rodríguez",
+          "correo": "cltrujillo@udistrital.edu.co",
+          "tematicas": "Fuentes Alternativas de Energía\nCalidad de Potencia Eléctrica\nElectrónica de Potencia",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000223611"
+        },
+        {
+          "nombre": "Adolfo Andrés Jaramillo Matta",
+          "correo": "ajaramillom@udistrital.edu.co",
+          "tematicas": "Modelado Matemático\nOptimización de Sistemas\nAnálisis y diseño de sistemas de control industrial\nMáquinas Eléctricas\nSistemas renovables y alternativos de energía\nModelado de máquinas de inducción\nEducación en Ingeniería\nProcesamiento digital de señales\nCalidad de la energía eléctrica\nSistemas de control lineal y no-lineal\nControl de procesos",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000282901"
+        }
+      ],
+      "sigla": "LIFAE",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "LIFAE"
+      }
+    },
+    {
+      "nombre": "NIDE - Núcleo de Investigación en Datos Espaciales",
+      "lineas_investigacion": "1.- Análisis de imágenes orientado a la caracterización y detección de cambios en objetos y fenómenos geográficos \n2.- Dinámica de la Tierra y de los objetos, paisajes y territorios geográficos \n3.- Modelos 3D del territorio\n4.- Información geográfica y sociedad\n5.- Geodesia Satelital y los Métodos de Prospección Geofísica \n6.- Pensamiento espacial y análisis territorial\n7.- Estadística Espacial",
+      "clasificacion": "A",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000858",
+      "pagina_web": null,
+      "email": null,
+      "lider": "Luz Ángela Rocha Salamanca",
+      "integrantes": [
+        {
+          "nombre": "Luz Ángela Rocha Salamanca",
+          "correo": "lrocha@udistrital.edu.co",
+          "tematicas": "GEOMÁTICA (Sistemas de Información Geográfica y Cartografía) \nInfraestructura de Datos Espaciales \nPlanificación urbana\nAdministración de tierras",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000482803"
+        },
+        {
+          "nombre": "Héctor Javier Fuentes Lopez",
+          "correo": "hjfuentesl@udistrital.edu.co",
+          "tematicas": null,
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000906018"
+        },
+        {
+          "nombre": "Alvaro Enrique Ortíz Dávila",
+          "correo": "aeortizd@udistrital.edu.co",
+          "tematicas": "Bases de datos (relacionales, distribuidas, NO-SQL, espaciales y espacio-temporales) \nAnalítica de datos espaciales\nDesarrollo de software con información espacial",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000811718"
+        },
+        {
+          "nombre": "Andres Cardenas Contreras",
+          "correo": "acardenas@udistrital.edu.co",
+          "tematicas": null,
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000482820"
+        },
+        {
+          "nombre": "Ruben Javier Medina Daza",
+          "correo": "rmedina@udistrital.edu.co",
+          "tematicas": "Procesamiento digital de imágenes\nFusión de imágenes",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000269387"
+        },
+        {
+          "nombre": "José Antonio Valero Medina",
+          "correo": "jvalero@udistrital.edu.co",
+          "tematicas": "Procesamiento de imágenes con base en modelos de representación del espacio alternativos.\nComputación paralela altamente masiva (CUDA/OpenCL).\nInteroperabilidad de servicios web geográficos.",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000145572"
+        },
+        {
+          "nombre": "José Luis Herrera Escorcia",
+          "correo": "jherrera@udistrital.edu.co",
+          "tematicas": null,
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000001504"
+        },
+        {
+          "nombre": "Carlos Eduardo Melo Martínez",
+          "correo": "cmelo@udistrital.edu.co",
+          "tematicas": "Estadística Espacio Tiempo                                          Geoestadística                                                                    Econometría Espacial                                                                        Procesos Puntuales",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001311905"
+        },
+        {
+          "nombre": "Edilberto Suárez Torres",
+          "correo": "esuarez@udistrital.edu.co",
+          "tematicas": "Enseñanza de la Ciencia,\nSistemas de Referencia en Astronomía y Geodesia,\nPercepción Remota.",
+          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000524336"
+        },
+        {
+          "nombre": "Carlos Hernán Castro",
+          "correo": null,
+          "tematicas": null,
+          "cvlac": null
+        },
+        {
+          "nombre": "Janneth Pardo",
+          "correo": null,
+          "tematicas": null,
+          "cvlac": null
+        },
+        {
+          "nombre": "Johan Andrés Avendaño",
+          "correo": "jaavendanoa@correo.udistrital.edu.co",
+          "tematicas": "Planificación, Políticas públicas, Catastro, Geografía Urbana, Fenómenos espaciales sociales (delincuencia, pobreza, informalidad)",
+          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001357693"
+        },
+        {
+          "nombre": "César Rojas",
+          "correo": null,
+          "tematicas": null,
+          "cvlac": null
+        }
+      ],
+      "sigla": "NIDE",
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
+        "hoja": "NIDE"
+      }
+    }
+  ]
+}
