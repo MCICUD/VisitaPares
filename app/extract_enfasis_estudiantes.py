@@ -4,16 +4,13 @@ Lee el consolidado de estudiantes por énfasis (Geomática, Ingeniería de
 Software, Teleinformática, Inteligencia Artificial) que la coordinación ya
 mantiene actualizado.
 
-El archivo trae 4 filas de categoría: "Grande - Investigación",
-"Grande - Profundización", "Investigación" y "Profundización". "Grande" no
-es una tercera modalidad: es la misma cohorte de Investigación/Profundización
-vista con un grupo de tamaño distinto (asignatura "Seminario de Investigación
-Grande" vs. grupo normal). Por eso aquí se suman fila a fila
-("Grande - Investigación" + "Investigación", "Grande - Profundización" +
-"Profundización") en vez de mostrarlas como categorías aparte — no se pierde
-ningún estudiante, solo se deja de fragmentar la misma modalidad en dos
-filas. La fila "Total" del archivo se conserva tal cual y sirve para
-verificar la suma (Investigación + Profundización = Total en cada énfasis).
+El archivo trae 5 filas de datos (más "Total"), cada una con sus valores
+originales del archivo (nunca sumadas ni reinterpretadas): "Grande -
+Investigación" / "Grande - Profundización" se muestran como "MCIC. Énfasis
+en Investigación" / "MCIC. Énfasis en Profundización", y "Investigación" /
+"Profundización" se muestran como "MCIC. Investigación" / "MCIC.
+Profundización" — en ambos casos es el nombre institucional completo del
+mismo dato del archivo, la fila no cambia.
 """
 from __future__ import annotations
 
@@ -38,19 +35,18 @@ FILA_PROFUNDIZACION = 8
 FILA_TOTAL = 9
 COLUMNS = ("C", "D", "E", "F")
 
-# Cada fila fusionada suma su categoría "Grande" homónima con la normal.
-FILAS_A_FUSIONAR = (
-    ("MCIC. Énfasis en Investigación", FILA_INVESTIGACION, FILA_GRANDE_INVESTIGACION),
-    ("MCIC. Énfasis en Profundización", FILA_PROFUNDIZACION, FILA_GRANDE_PROFUNDIZACION),
-)
+# Etiqueta a mostrar por fila: None = usar la etiqueta literal del archivo (columna B).
+ETIQUETA_OVERRIDE = {
+    FILA_GRANDE_INVESTIGACION: "MCIC. Énfasis en Investigación",
+    FILA_GRANDE_PROFUNDIZACION: "MCIC. Énfasis en Profundización",
+    FILA_INVESTIGACION: "MCIC. Investigación",
+    FILA_PROFUNDIZACION: "MCIC. Profundización",
+}
+FILAS_DATA = (FILA_GRANDE_INVESTIGACION, FILA_GRANDE_PROFUNDIZACION, FILA_INVESTIGACION, FILA_PROFUNDIZACION, FILA_TOTAL)
 
 
 def rel(path: Path) -> str:
     return str(path.relative_to(ROOT)).replace("\\", "/")
-
-
-def _leer_fila(ws, row: int, columns: tuple[str, ...]) -> dict:
-    return {col: ws[f"{col}{row}"].value for col in columns}
 
 
 def main() -> None:
@@ -64,37 +60,20 @@ def main() -> None:
     titulo = ws["B2"].value
 
     filas = []
-    for etiqueta, fila_normal, fila_grande in FILAS_A_FUSIONAR:
-        normal = _leer_fila(ws, fila_normal, COLUMNS)
-        grande = _leer_fila(ws, fila_grande, COLUMNS)
-        valores = {
-            enfasis[i]: (normal[col] or 0) + (grande[col] or 0)
-            for i, col in enumerate(COLUMNS)
-        }
+    for row in FILAS_DATA:
+        etiqueta = ETIQUETA_OVERRIDE.get(row) or ws[f"B{row}"].value
+        valores = {enfasis[i]: ws[f"{COLUMNS[i]}{row}"].value for i in range(len(COLUMNS))}
         filas.append({
             "etiqueta": etiqueta,
             "valores": valores,
-            "fuente": fuente(archivo_rel, SHEET_NAME, f"{fila_normal}+{fila_grande} (fusionadas)"),
+            "fuente": fuente(archivo_rel, SHEET_NAME, row),
         })
-
-    etiqueta_total = ws[f"B{FILA_TOTAL}"].value
-    valores_total = {enfasis[i]: ws[f"{COLUMNS[i]}{FILA_TOTAL}"].value for i in range(len(COLUMNS))}
-    filas.append({
-        "etiqueta": etiqueta_total,
-        "valores": valores_total,
-        "fuente": fuente(archivo_rel, SHEET_NAME, FILA_TOTAL),
-    })
 
     data = {
         "titulo_archivo": titulo,
         "enfasis": enfasis,
         "filas": filas,
-        "fuente": fuente(archivo_rel, SHEET_NAME, f"{ENFASIS_ROW},{FILA_GRANDE_INVESTIGACION}-{FILA_TOTAL}"),
-        "nota_fusion": (
-            "Las categorías 'Grande - Investigación' y 'Grande - Profundización' del archivo fuente "
-            "se sumaron a 'Investigación' y 'Profundización' respectivamente (misma modalidad, grupo de "
-            "tamaño distinto) — sin pérdida de estudiantes."
-        ),
+        "fuente": fuente(archivo_rel, SHEET_NAME, f"{ENFASIS_ROW},{FILAS_DATA[0]}-{FILAS_DATA[-1]}"),
     }
 
     SILVER_DIR.mkdir(parents=True, exist_ok=True)

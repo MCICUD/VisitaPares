@@ -205,6 +205,38 @@ def merge_evidencia_seguimiento(factores: list[dict], evidencia: dict) -> None:
         }
 
 
+ENLACE_MODULO_EGRESADOS = {
+    "tipo": "enlace_externo",
+    "titulo": "Módulo institucional de Hoja de Vida de Egresados (UD)",
+    "url": "https://egresados.udistrital.edu.co/hoja-de-vida-impulsa-tu-perfil-profesional",
+}
+
+
+def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_factor8: dict) -> None:
+    """Añade a los Factores 4 (Egresados), 8 (Aportes de la investigación) y
+    9 (Bienestar) los datos reales del Cuadro Maestro CNA (Data/Silver/
+    cuadros_maestros.json) — evidencia oficial que hoy no se mostraba en
+    absoluto. Modifica in-place, igual que merge_evidencia_seguimiento."""
+    for f in factores:
+        m = FACTOR_RE.match(f["factor"] or "")
+        numero = m.group(1) if m else None
+        if numero == "4":
+            f["datos_cuadro_maestro_cna"] = {
+                "graduacion": cuadros["graduacion"],
+                "graduados_cuadro_estudiantes": cuadros["graduados_cuadro_estudiantes"],
+                "enlace_modulo_egresados": ENLACE_MODULO_EGRESADOS,
+            }
+        elif numero == "8":
+            f["datos_cuadro_maestro_cna"] = {
+                "grupos_produccion": cuadros["grupos_produccion"],
+                "resumen_grupos_investigacion": resumen_grupos_factor8,
+            }
+        elif numero == "9":
+            f["datos_cuadro_maestro_cna"] = {
+                "bienestar": cuadros["bienestar"],
+            }
+
+
 def build_comunidad_estudiantil() -> dict:
     enfasis = load_json("enfasis_estudiantes.json")
     estado = load_json("estado_academico_agregado.json")
@@ -301,6 +333,16 @@ def main() -> None:
     merge_evidencia_seguimiento(silver_inv["factores"], evidencia_inv)
     merge_evidencia_seguimiento(silver_prof["factores"], evidencia_prof)
 
+    cuadros_maestros = load_json("cuadros_maestros.json")
+    resumen_grupos_factor8 = {
+        "total_grupos": len(grupos_investigacion["grupos"]),
+        "total_docentes_disponibles": sum(len(g["integrantes"]) for g in grupos_investigacion["grupos"]),
+        "total_proyectos_grado_detectados": resumen_seguimiento_tesis["total_procesos"],
+        "proyectos_grado_por_etapa": resumen_seguimiento_tesis["por_etapa"],
+    }
+    merge_cuadros_maestros(silver_inv["factores"], cuadros_maestros, resumen_grupos_factor8)
+    merge_cuadros_maestros(silver_prof["factores"], cuadros_maestros, resumen_grupos_factor8)
+
     gold = {
         "meta": {
             "institucion": "Universidad Distrital Francisco José de Caldas",
@@ -337,6 +379,7 @@ def main() -> None:
         "gruposInvestigacion": grupos_investigacion,
         "proyectosGradoSinGrupo": proyectos_grado_sin_grupo,
         "resumenSeguimientoTesis": resumen_seguimiento_tesis,
+        "cuadrosMaestrosCNA": cuadros_maestros,
     }
 
     json_path = GOLD_DIR / "gold_data.json"

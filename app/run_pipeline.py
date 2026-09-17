@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import build_bronze_manifest
 import build_gold
+import extract_cuadros_maestros
 import extract_egresados_agregado
 import extract_enfasis_estudiantes
 import extract_estado_academico
@@ -14,34 +15,37 @@ import extract_texto_bronze
 
 
 def main() -> None:
-    print("== 1/10 Bronze -> Silver: catálogo completo ==")
+    print("== 1/11 Bronze -> Silver: catálogo completo ==")
     build_bronze_manifest.main()
     print()
-    print("== 2/10 Bronze -> Silver: texto de todos los documentos ==")
+    print("== 2/11 Bronze -> Silver: texto de todos los documentos ==")
     extract_texto_bronze.main()
     print()
-    print("== 3/10 Bronze -> Silver: plan de mejoramiento ==")
+    print("== 3/11 Bronze -> Silver: plan de mejoramiento ==")
     extract_plan_mejoramiento.main()
     print()
-    print("== 4/10 Bronze -> Silver: evidencia de seguimiento ==")
+    print("== 4/11 Bronze -> Silver: evidencia de seguimiento ==")
     extract_seguimiento_evidencia.main()
     print()
-    print("== 5/10 Bronze -> Silver: consolidado de énfasis ==")
+    print("== 5/11 Bronze -> Silver: consolidado de énfasis ==")
     extract_enfasis_estudiantes.main()
     print()
-    print("== 6/10 Bronze -> Silver: estado académico agregado ==")
+    print("== 6/11 Bronze -> Silver: estado académico agregado ==")
     extract_estado_academico.main()
     print()
-    print("== 7/10 Bronze -> Silver: egresados agregado ==")
+    print("== 7/11 Bronze -> Silver: egresados agregado ==")
     extract_egresados_agregado.main()
     print()
-    print("== 8/10 Bronze -> Silver: grupos de investigación ==")
+    print("== 8/11 Bronze -> Silver: grupos de investigación ==")
     extract_grupos_investigacion.main()
     print()
-    print("== 9/10 Bronze -> Silver: seguimiento de trabajo de grado (595/695) ==")
+    print("== 9/11 Bronze -> Silver: seguimiento de trabajo de grado (595/695) ==")
     extract_seguimiento_tesis.main()
     print()
-    print("== 10/10 Silver -> Gold ==")
+    print("== 10/11 Bronze -> Silver: cuadros maestros CNA (graduación/bienestar/grupos) ==")
+    extract_cuadros_maestros.main()
+    print()
+    print("== 11/11 Silver -> Gold ==")
     build_gold.main()
 
 

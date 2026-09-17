@@ -16,8 +16,6 @@
     <div class="header-top">
       <div class="header-top-left">
         <span>🏛️ Universidad Distrital Francisco José de Caldas</span>
-        <span>•</span>
-        <span>Facultad de Ingeniería / Posgrados</span>
       </div>
       <div class="header-top-right">
         <span class="badge-cna">Renovación Acreditación de Alta Calidad — CNA</span>
@@ -64,15 +62,6 @@
     <!-- HERO / MÉTODO DE VERIFICACIÓN -->
     <section class="hero-banner">
       <div class="hero-text">
-        <h2>Todo dato mostrado es verificable en su archivo fuente</h2>
-        <p>
-          Este micrositio se genera con una pipeline reproducible
-          (<code>app/run_pipeline.py</code>) que lee directamente los archivos oficiales en
-          <code>Data/Bronze/</code>, los normaliza en <code>Data/Silver/</code> y produce los datos
-          finales en <code>Data/Gold/</code>. Cada factor y cada estadística indica el archivo,
-          la hoja y la fila exactos de los que proviene — sin datos escritos a mano.
-        </p>
-
         <div class="hero-stats-row" id="hero-stats-row">
           <!-- Renderizado dinámico desde GOLD_DATA (app.js) -->
         </div>
@@ -133,10 +122,6 @@
         <!-- Renderizado dinámico desde app.js -->
       </div>
 
-      <div id="plan-transparency-note" class="plan-transparency-note">
-        <!-- Renderizado dinámico desde app.js -->
-      </div>
-
       <div id="plan-grid" class="plan-grid">
         <!-- Renderizado dinámico desde app.js -->
       </div>
@@ -156,7 +141,7 @@
       </div>
 
       <div class="card">
-        <h3 class="card-title">🗂️ Estado académico histórico por proyecto curricular</h3>
+        <h3 class="card-title">🗂️ Estado académico histórico por énfasis</h3>
         <div id="estado-academico-table-container"><!-- dinámico --></div>
       </div>
 
@@ -191,9 +176,6 @@
       <div class="section-header">
         <div>
           <h2><span>📁</span> Documentos Fuente</h2>
-          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
-            Todo lo que este sitio muestra viene de estos archivos — ninguno se lista si no existe en <code>Data/Bronze/</code>
-          </p>
         </div>
 
         <div class="section-actions">
@@ -215,8 +197,7 @@
             <span>☁️</span> Repositorio Oficial en la Nube (SharePoint Institucional Universidad Distrital)
           </strong>
           <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px; line-height: 1.5;">
-            Accede a la carpeta institucional oficial compartida por la Coordinación de la Maestría, donde se
-            sincronizan los archivos que alimentan <code>Data/Bronze/</code> y este micrositio.
+            Accede a la carpeta institucional oficial compartida por la Coordinación de la Maestría.
           </p>
         </div>
         <a id="sharepoint-link-banner"
@@ -317,8 +298,7 @@
         Universidad Distrital Francisco José de Caldas • Facultad de Ingeniería • Comité Curricular
       </div>
       <div style="text-align: right;">
-        <span>Proceso de Renovación de Acreditación de Alta Calidad CNA</span><br>
-        <span>Generado por la pipeline Bronze → Silver → Gold (<code>app/run_pipeline.py</code>)</span>
+        <span>Proceso de Renovación de Acreditación de Alta Calidad CNA</span>
       </div>
     </div>
   </footer>

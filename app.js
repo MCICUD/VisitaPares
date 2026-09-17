@@ -211,27 +211,6 @@ function initPlanMejoramiento() {
   populateFactorFilter();
   renderPlanBanner();
   renderPlanGrid();
-  renderTransparencyNote();
-}
-
-function renderTransparencyNote() {
-  const cmp = GOLD_DATA.comparacionModalidades;
-  const note = document.getElementById('plan-transparency-note');
-  if (cmp.factores_con_diferencias.length === 0) {
-    note.innerHTML = `
-      ℹ️ <strong>Nota de transparencia:</strong> el texto de los 12 factores del plan de mejoramiento es
-      <strong>idéntico</strong> en el archivo de Investigación y en el de Profundización — así están redactados
-      en ambos <code>.xlsx</code> fuente. Lo único que cambia entre modalidades es el encabezado institucional
-      (<em>${escapeHtml(cmp.campos_cabecera_distintos.join(', ') || 'ninguno')}</em>), visible arriba en el
-      banner de cada modalidad. El botón "Ver fuente" de cada tarjeta te lleva siempre al archivo real de la
-      modalidad activa (INV o PROF), aunque el contenido textual coincida.
-    `;
-  } else {
-    note.innerHTML = `
-      ℹ️ <strong>Nota de transparencia:</strong> ${cmp.factores_con_diferencias.length} factor(es) tienen
-      contenido distinto entre Investigación y Profundización (calculado campo a campo contra ambos <code>.xlsx</code>).
-    `;
-  }
 }
 
 function populateFactorFilter() {
@@ -407,7 +386,7 @@ function initComunidad() {
     <table style="width:100%; border-collapse: collapse; font-size: 12.5px; min-width: 720px;">
       <thead>
         <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
-          <th style="padding:8px 10px;">Proyecto Curricular (Cód.)</th>
+          <th style="padding:8px 10px;">Énfasis (Cód.)</th>
           <th style="padding:8px 10px; text-align:right;">Total histórico<br><span style="font-weight:400; font-size:10.5px;">(todos los estados)</span></th>
           ${todosEstados.map((e) => `<th style="padding:8px 10px; text-align:right;">${escapeHtml(e)}</th>`).join('')}
         </tr>
@@ -438,7 +417,7 @@ function renderEgresados(egresados) {
     <table style="width:100%; border-collapse: collapse; font-size: 12.5px; margin-bottom:10px;">
       <thead>
         <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
-          <th style="padding:8px 10px;">Proyecto Curricular (Cód.)</th>
+          <th style="padding:8px 10px;">Programa Académico (Cód.)</th>
           <th style="padding:8px 10px; text-align:right;">Graduados históricos<br><span style="font-weight:400; font-size:10.5px;">(todos los años, roster Cóndor)</span></th>
         </tr>
       </thead>
@@ -478,7 +457,7 @@ function renderEgresados(egresados) {
   `;
 
   document.getElementById('egresados-container').innerHTML = `
-    <h4 style="font-size:13.5px; margin:0 0 8px;">Total histórico por proyecto curricular</h4>
+    <h4 style="font-size:13.5px; margin:0 0 8px;">Total histórico por programa académico</h4>
     ${totalHistoricoTable}
     <h4 style="font-size:13.5px; margin:0 0 8px;">Estimado por año (2022-2026)</h4>
     ${estimadoTable}
@@ -606,9 +585,106 @@ function openFactorModal(modalidad, index) {
     <p style="margin-bottom:14px; white-space: pre-line; font-size: 13px; color: var(--text-muted);">${escapeHtml(f.actividades)}</p>
 
     ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
+    ${renderCuadroMaestroHtml(f.datos_cuadro_maestro_cna)}
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
+}
+
+function renderCuadroMaestroHtml(datos) {
+  if (!datos) return '';
+  let bloques = '';
+
+  if (datos.graduacion) {
+    const periodos = datos.graduacion.por_periodo;
+    bloques += `
+      <div style="margin-bottom:14px;">
+        <div style="font-size:12.5px; font-weight:700; margin-bottom:6px;">Graduación por periodo (Cuadro CNA No. 04)</div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse: collapse; font-size: 11.5px; min-width:640px;">
+            <thead>
+              <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+                <th style="padding:6px 8px;">Periodo</th>
+                ${periodos.map((p) => `<th style="padding:6px 8px; text-align:right;">${escapeHtml(p.periodo)}</th>`).join('')}
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:5px 8px;">Matriculados</td>${periodos.map((p) => `<td style="padding:5px 8px; text-align:right;">${p.matriculados ?? '—'}</td>`).join('')}</tr>
+              <tr><td style="padding:5px 8px;">Graduados</td>${periodos.map((p) => `<td style="padding:5px 8px; text-align:right; font-weight:700;">${p.graduados ?? '—'}</td>`).join('')}</tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:10.5px; color: var(--text-soft); margin-top:6px;">${fuenteHtml(datos.graduacion.fuente, `Descargar Cuadro Maestro (hoja "${datos.graduacion.fuente.hoja}")`)}</p>
+      </div>
+    `;
+  }
+
+  if (datos.enlace_modulo_egresados) {
+    const link = datos.enlace_modulo_egresados;
+    bloques += `
+      <p style="margin-bottom:14px;">
+        <a class="btn btn-outline" style="font-size:12px; padding:6px 12px;" href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">🔗 ${escapeHtml(link.titulo)}</a>
+      </p>
+    `;
+  }
+
+  if (datos.grupos_produccion) {
+    const gp = datos.grupos_produccion;
+    bloques += `
+      <div style="margin-bottom:14px;">
+        <div style="font-size:12.5px; font-weight:700; margin-bottom:6px;">Producción investigativa por grupo (Cuadro CNA No. 08)</div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse: collapse; font-size: 11px; min-width:780px;">
+            <thead>
+              <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+                <th style="padding:6px 8px;">Grupo</th>
+                <th style="padding:6px 8px; text-align:right;">Clasif.</th>
+                <th style="padding:6px 8px; text-align:right;">Proy. internos</th>
+                <th style="padding:6px 8px; text-align:right;">Proy. externos</th>
+                <th style="padding:6px 8px; text-align:right;">Art. nacional</th>
+                <th style="padding:6px 8px; text-align:right;">Art. internacional</th>
+                <th style="padding:6px 8px; text-align:right;">Productos totales</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${gp.grupos.map((gr) => `
+                <tr style="border-bottom:1px solid var(--border-color);">
+                  <td style="padding:5px 8px;">${escapeHtml(gr.nombre_grupo)}</td>
+                  <td style="padding:5px 8px; text-align:right;">${escapeHtml(gr.clasificacion_minciencias ?? '—')}</td>
+                  <td style="padding:5px 8px; text-align:right;">${gr.proyectos_recursos_internos ?? '—'}</td>
+                  <td style="padding:5px 8px; text-align:right;">${gr.proyectos_recursos_externos ?? '—'}</td>
+                  <td style="padding:5px 8px; text-align:right;">${gr.articulos_indexados_nacional ?? '—'}</td>
+                  <td style="padding:5px 8px; text-align:right;">${gr.articulos_indexados_internacional ?? '—'}</td>
+                  <td style="padding:5px 8px; text-align:right; font-weight:700;">${gr.productos_totales ?? '—'}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:10.5px; color: var(--text-soft); margin-top:6px;">${fuenteHtml(gp.fuente, `Descargar Cuadro Maestro (hoja "${gp.fuente.hoja}")`)}</p>
+      </div>
+    `;
+  }
+
+  if (datos.resumen_grupos_investigacion) {
+    const r = datos.resumen_grupos_investigacion;
+    bloques += `
+      <div class="plan-meta-box" style="margin-bottom:14px;">
+        <div class="plan-meta-row"><span>Grupos de investigación registrados</span><span>${r.total_grupos}</span></div>
+        <div class="plan-meta-row"><span>Docentes disponibles para dirección</span><span>${r.total_docentes_disponibles}</span></div>
+        <div class="plan-meta-row"><span>Proyectos de grado (595/695) detectados</span><span>${r.total_proyectos_grado_detectados}</span></div>
+        ${Object.entries(r.proyectos_grado_por_etapa).map(([etapa, n]) => `<div class="plan-meta-row"><span>${escapeHtml(etapa)}</span><span>${n}</span></div>`).join('')}
+      </div>
+    `;
+  }
+
+  if (!bloques) return '';
+  return `
+    <div style="margin-bottom:16px;">
+      <p style="margin-bottom:8px;"><strong>📊 Datos oficiales del Cuadro Maestro (CNA):</strong></p>
+      ${bloques}
+    </div>
+  `;
 }
 
 // ==========================================================================
@@ -728,8 +804,7 @@ function renderBronzeTable() {
   });
 
   document.getElementById('bronze-count-label').textContent =
-    `Mostrando ${filtrados.length} de ${stats.total} archivos reales en Data/Bronze/ (recorrido automático por app/build_bronze_manifest.py) — ` +
-    `${stats.con_texto_extraido} con texto extraído y buscable por contenido (app/extract_texto_bronze.py).`;
+    `Mostrando ${filtrados.length} de ${stats.total} archivos — ${stats.con_texto_extraido} con texto buscable por contenido.`;
 
   const tbody = document.getElementById('bronze-table-body');
   if (filtrados.length === 0) {

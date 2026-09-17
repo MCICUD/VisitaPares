@@ -4900,6 +4900,306 @@
     "modalidad": "investigacion"
   },
   {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+    "nombre": "Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 66016,
+    "tamano_legible": "64.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus ANÁLISIS ESPACIAL.xlsx",
+    "nombre": "Syllabus ANÁLISIS ESPACIAL.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 67231,
+    "tamano_legible": "65.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.xlsx",
+    "nombre": "Syllabus Bases de Datos Espaciales.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 68537,
+    "tamano_legible": "66.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+    "nombre": "Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 71914,
+    "tamano_legible": "70.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus MATEMÁTICA AVANZADA Y GEOPROCESAMIENTO.xlsx",
+    "nombre": "Syllabus MATEMÁTICA AVANZADA Y GEOPROCESAMIENTO.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 26165,
+    "tamano_legible": "25.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+    "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 67446,
+    "tamano_legible": "65.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+    "nombre": "Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 67896,
+    "tamano_legible": "66.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+    "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+    "tamano_bytes": 68372,
+    "tamano_legible": "66.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+    "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+    "tamano_bytes": 68809,
+    "tamano_legible": "67.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+    "nombre": "Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+    "tamano_bytes": 66831,
+    "tamano_legible": "65.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+    "nombre": "Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+    "tamano_bytes": 70947,
+    "tamano_legible": "69.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+    "nombre": "Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+    "tamano_bytes": 66421,
+    "tamano_legible": "64.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+    "nombre": "Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+    "tamano_bytes": 70400,
+    "tamano_legible": "68.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+    "nombre": "Syllbus - REDES.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+    "tamano_bytes": 63612,
+    "tamano_legible": "62.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.xlsx",
+    "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Fundamentales",
+    "tamano_bytes": 68824,
+    "tamano_legible": "67.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Fundamentales/Syllabus Informatica.xlsx",
+    "nombre": "Syllabus Informatica.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Fundamentales",
+    "tamano_bytes": 69366,
+    "tamano_legible": "67.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Información Espacios Académicos.xlsx",
+    "nombre": "Información Espacios Académicos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026",
+    "tamano_bytes": 19274,
+    "tamano_legible": "18.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Investigación/Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+    "nombre": "Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Investigación",
+    "tamano_bytes": 68973,
+    "tamano_legible": "67.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+    "nombre": "Syllabus BASES DE DATOS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+    "tamano_bytes": 66503,
+    "tamano_legible": "64.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Construccion y Pruebas de Software.xlsx",
+    "nombre": "Syllabus Construccion y Pruebas de Software.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+    "tamano_bytes": 68842,
+    "tamano_legible": "67.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Ingenieria Software I.xlsx",
+    "nombre": "Syllabus Ingenieria Software I.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+    "tamano_bytes": 70279,
+    "tamano_legible": "68.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Ingenieria Software II.xlsx",
+    "nombre": "Syllabus Ingenieria Software II.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+    "tamano_bytes": 69782,
+    "tamano_legible": "68.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Patrones.xlsx",
+    "nombre": "Syllabus Patrones.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+    "tamano_bytes": 70965,
+    "tamano_legible": "69.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+    "nombre": "SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+    "tamano_bytes": 68534,
+    "tamano_legible": "66.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+    "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+    "tamano_bytes": 371939,
+    "tamano_legible": "363.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+    "nombre": "Syllabus Big Data.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+    "tamano_bytes": 68632,
+    "tamano_legible": "67.0 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus COMPUTACIÓN PARALELA.xlsx",
+    "nombre": "Syllabus COMPUTACIÓN PARALELA.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+    "tamano_bytes": 67889,
+    "tamano_legible": "66.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+    "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+    "tamano_bytes": 71130,
+    "tamano_legible": "69.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+    "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+    "tamano_bytes": 68789,
+    "tamano_legible": "67.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+    "nombre": "Syllabus_roboticaV2.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+    "tamano_bytes": 69127,
+    "tamano_legible": "67.5 KB",
+    "modalidad": "general"
+  },
+  {
     "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Aprobación Consejo de Facultad..pdf",
     "nombre": "Aprobación Consejo de Facultad..pdf",
     "extension": "pdf",

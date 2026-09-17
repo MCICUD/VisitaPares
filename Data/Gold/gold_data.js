@@ -471,6 +471,104 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 0
+        },
+        "datos_cuadro_maestro_cna": {
+          "graduacion": {
+            "por_periodo": [
+              {
+                "periodo": "2019-I",
+                "matriculados": 266,
+                "graduados": 7
+              },
+              {
+                "periodo": "2019-II",
+                "matriculados": 275,
+                "graduados": 5
+              },
+              {
+                "periodo": "2020-I",
+                "matriculados": 285,
+                "graduados": 5
+              },
+              {
+                "periodo": "2020-II",
+                "matriculados": 334,
+                "graduados": 16
+              },
+              {
+                "periodo": "2021-I",
+                "matriculados": 328,
+                "graduados": 14
+              },
+              {
+                "periodo": "2021-II",
+                "matriculados": 308,
+                "graduados": 23
+              },
+              {
+                "periodo": "2022-I",
+                "matriculados": 283,
+                "graduados": 19
+              },
+              {
+                "periodo": "2022-II",
+                "matriculados": 250,
+                "graduados": 16
+              },
+              {
+                "periodo": "2023-I",
+                "matriculados": 216,
+                "graduados": 24
+              },
+              {
+                "periodo": "2023-II",
+                "matriculados": 164,
+                "graduados": 15
+              },
+              {
+                "periodo": "2024-I",
+                "matriculados": 155,
+                "graduados": 13
+              },
+              {
+                "periodo": "2024-II",
+                "matriculados": 132,
+                "graduados": 15
+              }
+            ],
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Graduación",
+              "fila": "6-17"
+            }
+          },
+          "graduados_cuadro_estudiantes": {
+            "por_periodo": {
+              "2019-I": 7,
+              "2019-II": 5,
+              "2020-I": 5,
+              "2020-II": 16,
+              "2021-I": 14,
+              "2021-II": 23,
+              "2022-I": 19,
+              "2022-II": 16,
+              "2023-I": 24,
+              "2023-II": 15,
+              "2024-I": 13,
+              "2024-II": 15
+            },
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Estudiantes",
+              "fila": "8-19"
+            },
+            "discrepancias_vs_cuadro_04": []
+          },
+          "enlace_modulo_egresados": {
+            "tipo": "enlace_externo",
+            "titulo": "Módulo institucional de Hoja de Vida de Egresados (UD)",
+            "url": "https://egresados.udistrital.edu.co/hoja-de-vida-impulsa-tu-perfil-profesional"
+          }
         }
       },
       {
@@ -781,6 +879,266 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 0
+        },
+        "datos_cuadro_maestro_cna": {
+          "grupos_produccion": {
+            "grupos": [
+              {
+                "nombre_grupo": "Grupo De Investigación En Telemedicina GITEM++",
+                "lineas_investigacion": "1.- CIENCIAS DE LA TIERRA\n2.- DESARROLLO DE SATELITES\n3.- Desarrollo de industria 4.0\n4.- ESTRATEGIAS EN CANNABIS MEDICINAL\n5.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n6.- REALISMO VIRTUAL\n7.- REDES DE NUEVA GENERACIÓN\n8.- TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n9.- TELESALUD Y MEDIO AMBIENTE\n10.- TELESALUD Y TELEMEDICINA",
+                "codigo_minciencias": "COL0005655",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 6,
+                "proyectos_recursos_externos": 2,
+                "articulos_indexados_nacional": 66,
+                "articulos_indexados_internacional": 9,
+                "libros": 7,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 82
+              },
+              {
+                "nombre_grupo": "Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento",
+                "lineas_investigacion": null,
+                "codigo_minciencias": "COL0009189",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 9,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 10,
+                "articulos_indexados_internacional": 87,
+                "libros": 13,
+                "patentes": 15,
+                "productos_creacion": 0,
+                "productos_totales": 125
+              },
+              {
+                "nombre_grupo": "Internet Inteligente",
+                "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva\n3.- Seguridad informática",
+                "codigo_minciencias": "COL0050374",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 4,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 44,
+                "articulos_indexados_internacional": 111,
+                "libros": 3,
+                "patentes": 10,
+                "productos_creacion": 0,
+                "productos_totales": 168
+              },
+              {
+                "nombre_grupo": "GITUD",
+                "lineas_investigacion": "1.- Gestión de Espectro\n2.- Microondas, Antenas y Propagación\n3.- Optimización de Redes\n4.- Wireless Sensor Networks, IoT",
+                "codigo_minciencias": "COL0005664",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 5,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 6,
+                "articulos_indexados_internacional": 11,
+                "libros": 2,
+                "patentes": 3,
+                "productos_creacion": 0,
+                "productos_totales": 22
+              },
+              {
+                "nombre_grupo": "Radiacion Electromagnetica Y Comunicaciones Opticas: Greco",
+                "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
+                "codigo_minciencias": "COL0059244",
+                "clasificacion_minciencias": "A",
+                "proyectos_recursos_internos": 3,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 17,
+                "articulos_indexados_internacional": 12,
+                "libros": 3,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 32
+              },
+              {
+                "nombre_grupo": "Nucleo Investigacion En Datos Espaciales",
+                "lineas_investigacion": "1.- Análisis de imágenes orientado a la caracterización y detección de cambios en objetos y fenómenos geográficos\n2.- Dinámica de la Tierra y de los objetos, paisajes y territorios geográficos\n3.- Geodesia Satelital y los Métodos de Prospección Geofísica\n4.- Geomática\n5.- Información geográfica y sociedad\n6.- Modelamiento Matemático\n7.- Modelos 3D del territorio\n8.- Pensamiento espacial y análisis territorial\n9.- Percepción Remota\n10.- Planificación Territorial\n11.- Sistemas de Información Geográfica",
+                "codigo_minciencias": "COL0013969",
+                "clasificacion_minciencias": "A",
+                "proyectos_recursos_internos": 7,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 51,
+                "articulos_indexados_internacional": 49,
+                "libros": 10,
+                "patentes": 1,
+                "productos_creacion": 0,
+                "productos_totales": 111
+              },
+              {
+                "nombre_grupo": "Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes",
+                "lineas_investigacion": "1.- Administración de Redes de Nueva Generación (IPv6), Redes IPv4 y Redes de Telefonía Móvil Celular\n2.- Agro Inteligente (Smart Agro)3.- Biofisica\n4.- Ciberseguridad en arquitecturas tecnológicas\n5.- Circuitos eléctricos y electrónica aplicada a la Industria\n6.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n7.- Desarrollo y programación de hardware, firmware y software para las comunicaciones\n8.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n9.- Gestión del conocimiento\n10.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n11.- Internet de las cosas\n12.- Investigación y desarrollo de satelites\n13.- Realidad Aumentada y Realidad Virtual\n14.- STEAM en la educación\n15.- TIC para la paz y contenidos pedagógicos para la educación\n16.- Web GIS y tecnologías geoespaciales",
+                "codigo_minciencias": "COL0038019",
+                "clasificacion_minciencias": "B",
+                "proyectos_recursos_internos": 4,
+                "proyectos_recursos_externos": 8,
+                "articulos_indexados_nacional": 30,
+                "articulos_indexados_internacional": 25,
+                "libros": 11,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 66
+              },
+              {
+                "nombre_grupo": "Laboratorio De Investigación En Fuentes Alternativas De Energía",
+                "lineas_investigacion": "1.- Electrónica de Potencia.\n2.- Fuentes Alternativas de Energía\n3.- Microrredes Electricas",
+                "codigo_minciencias": "COL0012963",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 20,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 25,
+                "articulos_indexados_internacional": 23,
+                "libros": 3,
+                "patentes": 1,
+                "productos_creacion": 0,
+                "productos_totales": 52
+              },
+              {
+                "nombre_grupo": "Laboratorio De Automatizacion Sistemas Embebidos Y Robotica: Laser",
+                "lineas_investigacion": "1.- Automatización\n2.- Biomedica\n3.- Data Science\n4.- Metereología\n5.- Robótica\n6.- Sistemas Embebidos\n7.- Sistemas Inteligentes",
+                "codigo_minciencias": "COL0148353",
+                "clasificacion_minciencias": "B",
+                "proyectos_recursos_internos": 5,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 55,
+                "articulos_indexados_internacional": 46,
+                "libros": 0,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 101
+              },
+              {
+                "nombre_grupo": "Laboratorio De Automatica, Microeletronica E Inteligencia Computacional",
+                "lineas_investigacion": "1.- Automática\n2.- Inteligencia Computacional\n3.- Microelectrónica",
+                "codigo_minciencias": "COL0012883",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 3,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 8,
+                "articulos_indexados_internacional": 23,
+                "libros": 9,
+                "patentes": 3,
+                "productos_creacion": 0,
+                "productos_totales": 43
+              },
+              {
+                "nombre_grupo": "Interoperabilidad Tecnologica Y Semantíca",
+                "lineas_investigacion": "1.- Cibernética y automatización\n2.- Ciencias de los datos y Web semántica\n3.- E-learning, ambientes y herramientas virtuales de aprendizaje\n4.- Factores humanos y rehabilitación en salud\n5.- Gamificación y videojuegos\n6.- Gestión del conocimiento, gestión empresarial y tecnológica\n7.- Ingeniería de software y arquitecturas de Internet\n8.- Inteligencia artificial y analítica de datos\n9.- Inteligencia de negocios y comercio electrónico\n10.- Inteligencia y lingüística computacional\n11.- Internet de las cosas y aplicaciones móviles\n12.- Modelos de diseño y desarrollo de software\n13.- Multimedia interactiva y realidad aumentada\n14.- Simulación en la Web, visualización y análisis 3D\n15.- Simulación y metaheurística\n16.- Tecnologías Web, clusters y virtualización en la nube\n17.- Tráfico inteligente y seguridad ciudadana",
+                "codigo_minciencias": "COL0078025",
+                "clasificacion_minciencias": "A",
+                "proyectos_recursos_internos": 6,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 16,
+                "articulos_indexados_internacional": 73,
+                "libros": 6,
+                "patentes": 9,
+                "productos_creacion": 0,
+                "productos_totales": 104
+              },
+              {
+                "nombre_grupo": "Grupo De Compatibilidad E Interferencia Electromagnetica",
+                "lineas_investigacion": "1.- Calidad de potencia y Energía\n2.- Compatibilidad Electromagnetica\n3.- Energías no convencionales\n4.- Sistemas modernos de potencia y Gestión de energía",
+                "codigo_minciencias": "COL0011142",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 12,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 92,
+                "articulos_indexados_internacional": 82,
+                "libros": 12,
+                "patentes": 15,
+                "productos_creacion": 0,
+                "productos_totales": 201
+              },
+              {
+                "nombre_grupo": "Giira",
+                "lineas_investigacion": "1.- Analítica Visual\n2.- Ciencias de los Datos\n3.- High performance computing\n4.- Inteligencia Computacional\n5.- Meteorología y cambio climatico\n6.- Redes y Seguridad Informática\n7.- Tecnologías Información y de las Comunicaciones",
+                "codigo_minciencias": "COL0032222",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 17,
+                "proyectos_recursos_externos": 5,
+                "articulos_indexados_nacional": 46,
+                "articulos_indexados_internacional": 152,
+                "libros": 22,
+                "patentes": 14,
+                "productos_creacion": 0,
+                "productos_totales": 234
+              },
+              {
+                "nombre_grupo": "Gesdatos",
+                "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
+                "codigo_minciencias": "COL0031619",
+                "clasificacion_minciencias": "Reconocido",
+                "proyectos_recursos_internos": 2,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 1,
+                "articulos_indexados_internacional": 1,
+                "libros": 0,
+                "patentes": 7,
+                "productos_creacion": 0,
+                "productos_totales": 9
+              },
+              {
+                "nombre_grupo": "Estudio De Temas De La Física, De La Estadística Y De La Matemática",
+                "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES, PERCEPCIÓN REMOTA Y FOTOGRAMETRIA",
+                "codigo_minciencias": "COL0134625",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 3,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 16,
+                "articulos_indexados_internacional": 61,
+                "libros": 12,
+                "patentes": 7,
+                "productos_creacion": 0,
+                "productos_totales": 96
+              },
+              {
+                "nombre_grupo": "Comercio Electronico En Colombia - GICOECOL",
+                "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
+                "codigo_minciencias": "COL0136844",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 13,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 53,
+                "articulos_indexados_internacional": 109,
+                "libros": 8,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 170
+              },
+              {
+                "nombre_grupo": "Arquitectura De Software",
+                "lineas_investigacion": "1.- Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
+                "codigo_minciencias": "COL0049569",
+                "clasificacion_minciencias": "Reconocido",
+                "proyectos_recursos_internos": 0,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 0,
+                "articulos_indexados_internacional": 0,
+                "libros": 2,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 2
+              }
+            ],
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Investigacion - grupos y profe",
+              "fila": "6-22"
+            }
+          },
+          "resumen_grupos_investigacion": {
+            "total_grupos": 19,
+            "total_docentes_disponibles": 80,
+            "total_proyectos_grado_detectados": 111,
+            "proyectos_grado_por_etapa": {
+              "Sustentado (sin carácter registrado)": 7,
+              "Anteproyecto radicado, pendiente asignación de jurados": 89,
+              "Jurados solicitados, pendiente sustentación": 10,
+              "Sustentado (APROBADO)": 5
+            }
+          }
         }
       },
       {
@@ -848,6 +1206,794 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 0
+        },
+        "datos_cuadro_maestro_cna": {
+          "bienestar": {
+            "semestres": [
+              "2020-1",
+              "2020-3",
+              "2021-1",
+              "2021-3",
+              "2022-1",
+              "2022-3",
+              "2023-1",
+              "2023-3",
+              "2024-1",
+              "2024-3"
+            ],
+            "servicios": [
+              {
+                "servicio": "SERVICIOS MEDICINA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 51,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 51,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2023-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS ODONTOLOGIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 93,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS ENFERMERIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": 21,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 127,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 6,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2023-1": {
+                    "actividades": 3,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2023-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 1
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS FISIOTERAPIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 11,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS PSICOLOGIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 13,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "APOYO ALIMENTARIO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "RELIQUIDACIÓN DE MATRÍCULAS",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "ATENCIÓN A DESERCIÓN",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": 8,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": 13,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "PARTICIPACIÓN EN EL PROGRAMA DE PERMANENCIA Y DESERCIÓN",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "NÚMERO DE ASISTENTES A TALLERES OFRECIDOS POR BIENESTAR",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "ACOMPAÑAMIENTOS ICETEX",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  }
+                }
+              },
+              {
+                "servicio": "DEPORTE COMPETITIVO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "DEPORTE FORMATIVO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "DEPORTE RECREATIVO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "PARTICIPANTES DE LA COMUNIDAD ACADÉMICA EN ACTIVIDADES CULTURALES",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "NÚMERO DE PARTICIPANTES EN JORNADAS SOCIOAMBIENTALES",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "TRABAJO SOCIAL",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 8,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              }
+            ],
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Estadisticas Bienestar",
+              "fila": "11-27"
+            }
+          }
         }
       },
       {
@@ -1364,6 +2510,104 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 0
+        },
+        "datos_cuadro_maestro_cna": {
+          "graduacion": {
+            "por_periodo": [
+              {
+                "periodo": "2019-I",
+                "matriculados": 266,
+                "graduados": 7
+              },
+              {
+                "periodo": "2019-II",
+                "matriculados": 275,
+                "graduados": 5
+              },
+              {
+                "periodo": "2020-I",
+                "matriculados": 285,
+                "graduados": 5
+              },
+              {
+                "periodo": "2020-II",
+                "matriculados": 334,
+                "graduados": 16
+              },
+              {
+                "periodo": "2021-I",
+                "matriculados": 328,
+                "graduados": 14
+              },
+              {
+                "periodo": "2021-II",
+                "matriculados": 308,
+                "graduados": 23
+              },
+              {
+                "periodo": "2022-I",
+                "matriculados": 283,
+                "graduados": 19
+              },
+              {
+                "periodo": "2022-II",
+                "matriculados": 250,
+                "graduados": 16
+              },
+              {
+                "periodo": "2023-I",
+                "matriculados": 216,
+                "graduados": 24
+              },
+              {
+                "periodo": "2023-II",
+                "matriculados": 164,
+                "graduados": 15
+              },
+              {
+                "periodo": "2024-I",
+                "matriculados": 155,
+                "graduados": 13
+              },
+              {
+                "periodo": "2024-II",
+                "matriculados": 132,
+                "graduados": 15
+              }
+            ],
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Graduación",
+              "fila": "6-17"
+            }
+          },
+          "graduados_cuadro_estudiantes": {
+            "por_periodo": {
+              "2019-I": 7,
+              "2019-II": 5,
+              "2020-I": 5,
+              "2020-II": 16,
+              "2021-I": 14,
+              "2021-II": 23,
+              "2022-I": 19,
+              "2022-II": 16,
+              "2023-I": 24,
+              "2023-II": 15,
+              "2024-I": 13,
+              "2024-II": 15
+            },
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Estudiantes",
+              "fila": "8-19"
+            },
+            "discrepancias_vs_cuadro_04": []
+          },
+          "enlace_modulo_egresados": {
+            "tipo": "enlace_externo",
+            "titulo": "Módulo institucional de Hoja de Vida de Egresados (UD)",
+            "url": "https://egresados.udistrital.edu.co/hoja-de-vida-impulsa-tu-perfil-profesional"
+          }
         }
       },
       {
@@ -1648,6 +2892,266 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 0
+        },
+        "datos_cuadro_maestro_cna": {
+          "grupos_produccion": {
+            "grupos": [
+              {
+                "nombre_grupo": "Grupo De Investigación En Telemedicina GITEM++",
+                "lineas_investigacion": "1.- CIENCIAS DE LA TIERRA\n2.- DESARROLLO DE SATELITES\n3.- Desarrollo de industria 4.0\n4.- ESTRATEGIAS EN CANNABIS MEDICINAL\n5.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n6.- REALISMO VIRTUAL\n7.- REDES DE NUEVA GENERACIÓN\n8.- TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n9.- TELESALUD Y MEDIO AMBIENTE\n10.- TELESALUD Y TELEMEDICINA",
+                "codigo_minciencias": "COL0005655",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 6,
+                "proyectos_recursos_externos": 2,
+                "articulos_indexados_nacional": 66,
+                "articulos_indexados_internacional": 9,
+                "libros": 7,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 82
+              },
+              {
+                "nombre_grupo": "Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento",
+                "lineas_investigacion": null,
+                "codigo_minciencias": "COL0009189",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 9,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 10,
+                "articulos_indexados_internacional": 87,
+                "libros": 13,
+                "patentes": 15,
+                "productos_creacion": 0,
+                "productos_totales": 125
+              },
+              {
+                "nombre_grupo": "Internet Inteligente",
+                "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva\n3.- Seguridad informática",
+                "codigo_minciencias": "COL0050374",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 4,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 44,
+                "articulos_indexados_internacional": 111,
+                "libros": 3,
+                "patentes": 10,
+                "productos_creacion": 0,
+                "productos_totales": 168
+              },
+              {
+                "nombre_grupo": "GITUD",
+                "lineas_investigacion": "1.- Gestión de Espectro\n2.- Microondas, Antenas y Propagación\n3.- Optimización de Redes\n4.- Wireless Sensor Networks, IoT",
+                "codigo_minciencias": "COL0005664",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 5,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 6,
+                "articulos_indexados_internacional": 11,
+                "libros": 2,
+                "patentes": 3,
+                "productos_creacion": 0,
+                "productos_totales": 22
+              },
+              {
+                "nombre_grupo": "Radiacion Electromagnetica Y Comunicaciones Opticas: Greco",
+                "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
+                "codigo_minciencias": "COL0059244",
+                "clasificacion_minciencias": "A",
+                "proyectos_recursos_internos": 3,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 17,
+                "articulos_indexados_internacional": 12,
+                "libros": 3,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 32
+              },
+              {
+                "nombre_grupo": "Nucleo Investigacion En Datos Espaciales",
+                "lineas_investigacion": "1.- Análisis de imágenes orientado a la caracterización y detección de cambios en objetos y fenómenos geográficos\n2.- Dinámica de la Tierra y de los objetos, paisajes y territorios geográficos\n3.- Geodesia Satelital y los Métodos de Prospección Geofísica\n4.- Geomática\n5.- Información geográfica y sociedad\n6.- Modelamiento Matemático\n7.- Modelos 3D del territorio\n8.- Pensamiento espacial y análisis territorial\n9.- Percepción Remota\n10.- Planificación Territorial\n11.- Sistemas de Información Geográfica",
+                "codigo_minciencias": "COL0013969",
+                "clasificacion_minciencias": "A",
+                "proyectos_recursos_internos": 7,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 51,
+                "articulos_indexados_internacional": 49,
+                "libros": 10,
+                "patentes": 1,
+                "productos_creacion": 0,
+                "productos_totales": 111
+              },
+              {
+                "nombre_grupo": "Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes",
+                "lineas_investigacion": "1.- Administración de Redes de Nueva Generación (IPv6), Redes IPv4 y Redes de Telefonía Móvil Celular\n2.- Agro Inteligente (Smart Agro)3.- Biofisica\n4.- Ciberseguridad en arquitecturas tecnológicas\n5.- Circuitos eléctricos y electrónica aplicada a la Industria\n6.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n7.- Desarrollo y programación de hardware, firmware y software para las comunicaciones\n8.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n9.- Gestión del conocimiento\n10.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n11.- Internet de las cosas\n12.- Investigación y desarrollo de satelites\n13.- Realidad Aumentada y Realidad Virtual\n14.- STEAM en la educación\n15.- TIC para la paz y contenidos pedagógicos para la educación\n16.- Web GIS y tecnologías geoespaciales",
+                "codigo_minciencias": "COL0038019",
+                "clasificacion_minciencias": "B",
+                "proyectos_recursos_internos": 4,
+                "proyectos_recursos_externos": 8,
+                "articulos_indexados_nacional": 30,
+                "articulos_indexados_internacional": 25,
+                "libros": 11,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 66
+              },
+              {
+                "nombre_grupo": "Laboratorio De Investigación En Fuentes Alternativas De Energía",
+                "lineas_investigacion": "1.- Electrónica de Potencia.\n2.- Fuentes Alternativas de Energía\n3.- Microrredes Electricas",
+                "codigo_minciencias": "COL0012963",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 20,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 25,
+                "articulos_indexados_internacional": 23,
+                "libros": 3,
+                "patentes": 1,
+                "productos_creacion": 0,
+                "productos_totales": 52
+              },
+              {
+                "nombre_grupo": "Laboratorio De Automatizacion Sistemas Embebidos Y Robotica: Laser",
+                "lineas_investigacion": "1.- Automatización\n2.- Biomedica\n3.- Data Science\n4.- Metereología\n5.- Robótica\n6.- Sistemas Embebidos\n7.- Sistemas Inteligentes",
+                "codigo_minciencias": "COL0148353",
+                "clasificacion_minciencias": "B",
+                "proyectos_recursos_internos": 5,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 55,
+                "articulos_indexados_internacional": 46,
+                "libros": 0,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 101
+              },
+              {
+                "nombre_grupo": "Laboratorio De Automatica, Microeletronica E Inteligencia Computacional",
+                "lineas_investigacion": "1.- Automática\n2.- Inteligencia Computacional\n3.- Microelectrónica",
+                "codigo_minciencias": "COL0012883",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 3,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 8,
+                "articulos_indexados_internacional": 23,
+                "libros": 9,
+                "patentes": 3,
+                "productos_creacion": 0,
+                "productos_totales": 43
+              },
+              {
+                "nombre_grupo": "Interoperabilidad Tecnologica Y Semantíca",
+                "lineas_investigacion": "1.- Cibernética y automatización\n2.- Ciencias de los datos y Web semántica\n3.- E-learning, ambientes y herramientas virtuales de aprendizaje\n4.- Factores humanos y rehabilitación en salud\n5.- Gamificación y videojuegos\n6.- Gestión del conocimiento, gestión empresarial y tecnológica\n7.- Ingeniería de software y arquitecturas de Internet\n8.- Inteligencia artificial y analítica de datos\n9.- Inteligencia de negocios y comercio electrónico\n10.- Inteligencia y lingüística computacional\n11.- Internet de las cosas y aplicaciones móviles\n12.- Modelos de diseño y desarrollo de software\n13.- Multimedia interactiva y realidad aumentada\n14.- Simulación en la Web, visualización y análisis 3D\n15.- Simulación y metaheurística\n16.- Tecnologías Web, clusters y virtualización en la nube\n17.- Tráfico inteligente y seguridad ciudadana",
+                "codigo_minciencias": "COL0078025",
+                "clasificacion_minciencias": "A",
+                "proyectos_recursos_internos": 6,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 16,
+                "articulos_indexados_internacional": 73,
+                "libros": 6,
+                "patentes": 9,
+                "productos_creacion": 0,
+                "productos_totales": 104
+              },
+              {
+                "nombre_grupo": "Grupo De Compatibilidad E Interferencia Electromagnetica",
+                "lineas_investigacion": "1.- Calidad de potencia y Energía\n2.- Compatibilidad Electromagnetica\n3.- Energías no convencionales\n4.- Sistemas modernos de potencia y Gestión de energía",
+                "codigo_minciencias": "COL0011142",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 12,
+                "proyectos_recursos_externos": 1,
+                "articulos_indexados_nacional": 92,
+                "articulos_indexados_internacional": 82,
+                "libros": 12,
+                "patentes": 15,
+                "productos_creacion": 0,
+                "productos_totales": 201
+              },
+              {
+                "nombre_grupo": "Giira",
+                "lineas_investigacion": "1.- Analítica Visual\n2.- Ciencias de los Datos\n3.- High performance computing\n4.- Inteligencia Computacional\n5.- Meteorología y cambio climatico\n6.- Redes y Seguridad Informática\n7.- Tecnologías Información y de las Comunicaciones",
+                "codigo_minciencias": "COL0032222",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 17,
+                "proyectos_recursos_externos": 5,
+                "articulos_indexados_nacional": 46,
+                "articulos_indexados_internacional": 152,
+                "libros": 22,
+                "patentes": 14,
+                "productos_creacion": 0,
+                "productos_totales": 234
+              },
+              {
+                "nombre_grupo": "Gesdatos",
+                "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
+                "codigo_minciencias": "COL0031619",
+                "clasificacion_minciencias": "Reconocido",
+                "proyectos_recursos_internos": 2,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 1,
+                "articulos_indexados_internacional": 1,
+                "libros": 0,
+                "patentes": 7,
+                "productos_creacion": 0,
+                "productos_totales": 9
+              },
+              {
+                "nombre_grupo": "Estudio De Temas De La Física, De La Estadística Y De La Matemática",
+                "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES, PERCEPCIÓN REMOTA Y FOTOGRAMETRIA",
+                "codigo_minciencias": "COL0134625",
+                "clasificacion_minciencias": "C",
+                "proyectos_recursos_internos": 3,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 16,
+                "articulos_indexados_internacional": 61,
+                "libros": 12,
+                "patentes": 7,
+                "productos_creacion": 0,
+                "productos_totales": 96
+              },
+              {
+                "nombre_grupo": "Comercio Electronico En Colombia - GICOECOL",
+                "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
+                "codigo_minciencias": "COL0136844",
+                "clasificacion_minciencias": "A1",
+                "proyectos_recursos_internos": 13,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 53,
+                "articulos_indexados_internacional": 109,
+                "libros": 8,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 170
+              },
+              {
+                "nombre_grupo": "Arquitectura De Software",
+                "lineas_investigacion": "1.- Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
+                "codigo_minciencias": "COL0049569",
+                "clasificacion_minciencias": "Reconocido",
+                "proyectos_recursos_internos": 0,
+                "proyectos_recursos_externos": 0,
+                "articulos_indexados_nacional": 0,
+                "articulos_indexados_internacional": 0,
+                "libros": 2,
+                "patentes": 0,
+                "productos_creacion": 0,
+                "productos_totales": 2
+              }
+            ],
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Investigacion - grupos y profe",
+              "fila": "6-22"
+            }
+          },
+          "resumen_grupos_investigacion": {
+            "total_grupos": 19,
+            "total_docentes_disponibles": 80,
+            "total_proyectos_grado_detectados": 111,
+            "proyectos_grado_por_etapa": {
+              "Sustentado (sin carácter registrado)": 7,
+              "Anteproyecto radicado, pendiente asignación de jurados": 89,
+              "Jurados solicitados, pendiente sustentación": 10,
+              "Sustentado (APROBADO)": 5
+            }
+          }
         }
       },
       {
@@ -1715,6 +3219,794 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 0
+        },
+        "datos_cuadro_maestro_cna": {
+          "bienestar": {
+            "semestres": [
+              "2020-1",
+              "2020-3",
+              "2021-1",
+              "2021-3",
+              "2022-1",
+              "2022-3",
+              "2023-1",
+              "2023-3",
+              "2024-1",
+              "2024-3"
+            ],
+            "servicios": [
+              {
+                "servicio": "SERVICIOS MEDICINA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 51,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 51,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2023-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS ODONTOLOGIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 93,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS ENFERMERIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": 21,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 127,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 6,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2023-1": {
+                    "actividades": 3,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2023-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 1
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS FISIOTERAPIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 11,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": 1
+                  }
+                }
+              },
+              {
+                "servicio": "SERVICIOS PSICOLOGIA",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": 13,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "APOYO ALIMENTARIO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "RELIQUIDACIÓN DE MATRÍCULAS",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "ATENCIÓN A DESERCIÓN",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": 8,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": 13,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "PARTICIPACIÓN EN EL PROGRAMA DE PERMANENCIA Y DESERCIÓN",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "NÚMERO DE ASISTENTES A TALLERES OFRECIDOS POR BIENESTAR",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "ACOMPAÑAMIENTOS ICETEX",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 1,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": 2
+                  }
+                }
+              },
+              {
+                "servicio": "DEPORTE COMPETITIVO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "DEPORTE FORMATIVO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "DEPORTE RECREATIVO",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "PARTICIPANTES DE LA COMUNIDAD ACADÉMICA EN ACTIVIDADES CULTURALES",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "NÚMERO DE PARTICIPANTES EN JORNADAS SOCIOAMBIENTALES",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              },
+              {
+                "servicio": "TRABAJO SOCIAL",
+                "por_semestre": {
+                  "2020-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2020-3": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-1": {
+                    "actividades": null,
+                    "estudiantes_atendidos": null
+                  },
+                  "2021-3": {
+                    "actividades": 8,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-1": {
+                    "actividades": 2,
+                    "estudiantes_atendidos": null
+                  },
+                  "2022-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2023-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-1": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  },
+                  "2024-3": {
+                    "actividades": 0,
+                    "estudiantes_atendidos": 0
+                  }
+                }
+              }
+            ],
+            "fuente": {
+              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+              "hoja": "Estadisticas Bienestar",
+              "fila": "11-27"
+            }
+          }
         }
       },
       {
@@ -7889,6 +10181,366 @@ const GOLD_DATA = {
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+      "nombre": "Syllabus  PROCESAMIENTO DE IMÁGENES Y ELABORACIÓN DE PRODUCTOS CARTOGRÁFICOS O FOTOGRAMÉTRICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 66016,
+      "tamano_legible": "64.5 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus ANÁLISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANÁLISIS ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 67231,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.xlsx",
+      "nombre": "Syllabus Bases de Datos Espaciales.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 68537,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADÍSTICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 71914,
+      "tamano_legible": "70.2 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus MATEMÁTICA AVANZADA Y GEOPROCESAMIENTO.xlsx",
+      "nombre": "Syllabus MATEMÁTICA AVANZADA Y GEOPROCESAMIENTO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 26165,
+      "tamano_legible": "25.6 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación:\n27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 67446,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRÁFICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 67896,
+      "tamano_legible": "66.3 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODÉSICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Geomatica",
+      "tamano_bytes": 68372,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Informacióny las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+      "tamano_bytes": 68809,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFOMACIÓN Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALÁMBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+      "tamano_bytes": 66831,
+      "tamano_legible": "65.3 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIÓN DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+      "tamano_bytes": 70947,
+      "tamano_legible": "69.3 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+      "nombre": "Syllabus POLÍTICA SECTORIAL Y REGULACIÓN EN TELECOMUNICACIONES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+      "tamano_bytes": 66421,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRIA EN CIENCIAS DE LA INFORMACION  Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\n919\nI. IDENTIFIC…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCÁSTICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+      "tamano_bytes": 70400,
+      "tamano_legible": "68.8 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Enfasis Teleinformatica",
+      "tamano_bytes": 63612,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRIA EN CIENCIAS DE LA INFORMACION  Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\n919\nI. IDENTIFIC…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.xlsx",
+      "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Fundamentales",
+      "tamano_bytes": 68824,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Fundamentales/Syllabus Informatica.xlsx",
+      "nombre": "Syllabus Informatica.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Fundamentales",
+      "tamano_bytes": 69366,
+      "tamano_legible": "67.7 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Información Espacios Académicos.xlsx",
+      "nombre": "Información Espacios Académicos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026",
+      "tamano_bytes": 19274,
+      "tamano_legible": "18.8 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "INFORMACIÓN DE ESPACIOS ACADÉMICOS POSTGRADOS\nNOMBRE DEL PROYECTO CURRICULAR: MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nPROYECTO\nPLAN DE ESTUDIOS\nCÓDIGO\nNOMBRE\nNIVEL\nCLASIFICACIÓN\nCRÉDITOS\nHTD\nHTC\nHTA\nSYLLABUS\nFUNDAMENTALES\n595\n1\n79501001\nHERRAMIENTAS MATEMÁTICAS PARA EL MANEJO DE LA INFORMACIÓN\n1\nOBL…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Investigación/Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIÓN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Investigación",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFOMACIÓN Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+      "tamano_bytes": 66503,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Construccion y Pruebas de Software.xlsx",
+      "nombre": "Syllabus Construccion y Pruebas de Software.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+      "tamano_bytes": 68842,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Ingenieria Software I.xlsx",
+      "nombre": "Syllabus Ingenieria Software I.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+      "tamano_bytes": 70279,
+      "tamano_legible": "68.6 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Ingenieria Software II.xlsx",
+      "nombre": "Syllabus Ingenieria Software II.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+      "tamano_bytes": 69782,
+      "tamano_legible": "68.1 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/Syllabus Patrones.xlsx",
+      "nombre": "Syllabus Patrones.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+      "tamano_bytes": 70965,
+      "tamano_legible": "69.3 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software/SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieríadeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Ing Software",
+      "tamano_bytes": 68534,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 371939,
+      "tamano_legible": "363.2 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\nFACULTAD DE INGENIERÍA\n\nSYLLABUS\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nI. IDENTIFICACION DEL ESPACIO ACADÉMICO\nNOMBRE DEL ESPACIO ACADÉMICO:\nANALÍTICA DE DATOS\nCódigo del espacio académico:\nNúmero de créditos:\n4\nDistribución horas…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 68632,
+      "tamano_legible": "67.0 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus COMPUTACIÓN PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIÓN PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 67889,
+      "tamano_legible": "66.3 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 71130,
+      "tamano_legible": "69.5 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 68789,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "Maestria CIC",
+      "carpeta_contenedora": "Maestria CIC/2026/Syllabus - 2026/Énfasis Inteligencia Artificial",
+      "tamano_bytes": 69127,
+      "tamano_legible": "67.5 KB",
+      "modalidad": "general",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestria en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Aprobación Consejo de Facultad..pdf",
@@ -15680,17 +18332,17 @@ const GOLD_DATA = {
     }
   ],
   "documentosBronzeStats": {
-    "total": 1139,
+    "total": 1169,
     "por_modalidad": {
       "profundizacion": 231,
       "ambas": 8,
-      "investigacion": 285,
-      "general": 615
+      "investigacion": 286,
+      "general": 644
     },
     "por_extension": {
       "pdf": 443,
       "docx": 145,
-      "xlsx": 341,
+      "xlsx": 371,
       "xls": 54,
       "zip": 15,
       "doc": 34,
@@ -15709,11 +18361,11 @@ const GOLD_DATA = {
       "Docentes": 41,
       "MCIC-PROFUNDIZACION": 25,
       "MCIC.INVESTIGACION": 41,
-      "Maestria CIC": 741,
+      "Maestria CIC": 771,
       "Normativa y Formatos": 104,
       "REGISTRO CALIFICADO MCIC": 24
     },
-    "con_texto_extraido": 837
+    "con_texto_extraido": 867
   },
   "evidenciaProcesosRcAac": {
     "investigacion": [
@@ -15810,29 +18462,57 @@ const GOLD_DATA = {
         {
           "etiqueta": "MCIC. Énfasis en Investigación",
           "valores": {
-            "GEOMÁTICA": 16,
-            "INGENIERÍA DE SOFTWARE": 26,
-            "TELEINFORMÁTICA": 22,
-            "INTELIGENCIA ARTIFICIAL": 15
+            "GEOMÁTICA": 7,
+            "INGENIERÍA DE SOFTWARE": 8,
+            "TELEINFORMÁTICA": 10,
+            "INTELIGENCIA ARTIFICIAL": 0
           },
           "fuente": {
             "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
             "hoja": "Hoja1",
-            "fila": "7+5 (fusionadas)"
+            "fila": 5
           }
         },
         {
           "etiqueta": "MCIC. Énfasis en Profundización",
           "valores": {
-            "GEOMÁTICA": 30,
-            "INGENIERÍA DE SOFTWARE": 24,
+            "GEOMÁTICA": 3,
+            "INGENIERÍA DE SOFTWARE": 12,
+            "TELEINFORMÁTICA": 6,
+            "INTELIGENCIA ARTIFICIAL": 0
+          },
+          "fuente": {
+            "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
+            "hoja": "Hoja1",
+            "fila": 6
+          }
+        },
+        {
+          "etiqueta": "MCIC. Investigación",
+          "valores": {
+            "GEOMÁTICA": 9,
+            "INGENIERÍA DE SOFTWARE": 18,
             "TELEINFORMÁTICA": 12,
+            "INTELIGENCIA ARTIFICIAL": 15
+          },
+          "fuente": {
+            "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
+            "hoja": "Hoja1",
+            "fila": 7
+          }
+        },
+        {
+          "etiqueta": "MCIC. Profundización",
+          "valores": {
+            "GEOMÁTICA": 27,
+            "INGENIERÍA DE SOFTWARE": 12,
+            "TELEINFORMÁTICA": 6,
             "INTELIGENCIA ARTIFICIAL": 11
           },
           "fuente": {
             "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
             "hoja": "Hoja1",
-            "fila": "8+6 (fusionadas)"
+            "fila": 8
           }
         },
         {
@@ -15854,8 +18534,7 @@ const GOLD_DATA = {
         "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
         "hoja": "Hoja1",
         "fila": "4,5-9"
-      },
-      "nota_fusion": "Las categorías 'Grande - Investigación' y 'Grande - Profundización' del archivo fuente se sumaron a 'Investigación' y 'Profundización' respectivamente (misma modalidad, grupo de tamaño distinto) — sin pérdida de estudiantes."
+      }
     },
     "estadoAcademico": {
       "proyectos": [
@@ -17824,5 +20503,1132 @@ const GOLD_DATA = {
     "grupos_con_proyectos_asociados": 13,
     "proyectos_sin_grupo_identificado": 50,
     "metodologia": "Cada entrada corresponde a un estudiante de Investigación (595) o Profundización (695) con última matrícula entre 2022 y 2026 que tiene al menos un documento de su proceso de trabajo de grado localizado en Data/Bronze/Seguimiento_Tesis/. Los campos se extraen leyendo el CONTENIDO real de la carta de radicación, la solicitud de jurados, la carta de aval y viabilidad del grupo, y el acta de sustentación (regex sobre texto, sin IA) — ver app/lib/tesis_extractores.py. Un campo vacío significa que el documento no se pudo leer (escaneado sin texto) o que su formato no calzó con el patrón esperado; nunca se completa con un valor inventado. No se publica el código ni el nombre del estudiante en este archivo — solo el proceso de tesis en sí."
+  },
+  "cuadrosMaestrosCNA": {
+    "nota_alcance": "Estas 4 hojas del Cuadro Maestro CNA reportan cifras del programa MCIC completo (ambas modalidades juntas), no desagregadas por Investigación/Profundización — se verificó que el archivo de cada modalidad trae la misma tabla; aquí se cita solo la copia de Investigación.",
+    "graduacion": {
+      "por_periodo": [
+        {
+          "periodo": "2019-I",
+          "matriculados": 266,
+          "graduados": 7
+        },
+        {
+          "periodo": "2019-II",
+          "matriculados": 275,
+          "graduados": 5
+        },
+        {
+          "periodo": "2020-I",
+          "matriculados": 285,
+          "graduados": 5
+        },
+        {
+          "periodo": "2020-II",
+          "matriculados": 334,
+          "graduados": 16
+        },
+        {
+          "periodo": "2021-I",
+          "matriculados": 328,
+          "graduados": 14
+        },
+        {
+          "periodo": "2021-II",
+          "matriculados": 308,
+          "graduados": 23
+        },
+        {
+          "periodo": "2022-I",
+          "matriculados": 283,
+          "graduados": 19
+        },
+        {
+          "periodo": "2022-II",
+          "matriculados": 250,
+          "graduados": 16
+        },
+        {
+          "periodo": "2023-I",
+          "matriculados": 216,
+          "graduados": 24
+        },
+        {
+          "periodo": "2023-II",
+          "matriculados": 164,
+          "graduados": 15
+        },
+        {
+          "periodo": "2024-I",
+          "matriculados": 155,
+          "graduados": 13
+        },
+        {
+          "periodo": "2024-II",
+          "matriculados": 132,
+          "graduados": 15
+        }
+      ],
+      "fuente": {
+        "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+        "hoja": "Graduación",
+        "fila": "6-17"
+      }
+    },
+    "graduados_cuadro_estudiantes": {
+      "por_periodo": {
+        "2019-I": 7,
+        "2019-II": 5,
+        "2020-I": 5,
+        "2020-II": 16,
+        "2021-I": 14,
+        "2021-II": 23,
+        "2022-I": 19,
+        "2022-II": 16,
+        "2023-I": 24,
+        "2023-II": 15,
+        "2024-I": 13,
+        "2024-II": 15
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+        "hoja": "Estudiantes",
+        "fila": "8-19"
+      },
+      "discrepancias_vs_cuadro_04": []
+    },
+    "bienestar": {
+      "semestres": [
+        "2020-1",
+        "2020-3",
+        "2021-1",
+        "2021-3",
+        "2022-1",
+        "2022-3",
+        "2023-1",
+        "2023-3",
+        "2024-1",
+        "2024-3"
+      ],
+      "servicios": [
+        {
+          "servicio": "SERVICIOS MEDICINA",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": 51,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": 51,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 1,
+              "estudiantes_atendidos": 1
+            },
+            "2023-3": {
+              "actividades": 1,
+              "estudiantes_atendidos": 1
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 1,
+              "estudiantes_atendidos": 1
+            }
+          }
+        },
+        {
+          "servicio": "SERVICIOS ODONTOLOGIA",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": 93,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": 2,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "SERVICIOS ENFERMERIA",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": 21,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": 127,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": 6,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 2,
+              "estudiantes_atendidos": 2
+            },
+            "2023-1": {
+              "actividades": 3,
+              "estudiantes_atendidos": 2
+            },
+            "2023-3": {
+              "actividades": 2,
+              "estudiantes_atendidos": 1
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 2,
+              "estudiantes_atendidos": 1
+            }
+          }
+        },
+        {
+          "servicio": "SERVICIOS FISIOTERAPIA",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": 11,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 1,
+              "estudiantes_atendidos": 1
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 1,
+              "estudiantes_atendidos": 1
+            }
+          }
+        },
+        {
+          "servicio": "SERVICIOS PSICOLOGIA",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": 13,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 2,
+              "estudiantes_atendidos": 2
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "APOYO ALIMENTARIO",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "RELIQUIDACIÓN DE MATRÍCULAS",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "ATENCIÓN A DESERCIÓN",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": 8,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": 13,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": 2,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "PARTICIPACIÓN EN EL PROGRAMA DE PERMANENCIA Y DESERCIÓN",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "NÚMERO DE ASISTENTES A TALLERES OFRECIDOS POR BIENESTAR",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "ACOMPAÑAMIENTOS ICETEX",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": 1,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 2,
+              "estudiantes_atendidos": 2
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 2,
+              "estudiantes_atendidos": 2
+            }
+          }
+        },
+        {
+          "servicio": "DEPORTE COMPETITIVO",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "DEPORTE FORMATIVO",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "DEPORTE RECREATIVO",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "PARTICIPANTES DE LA COMUNIDAD ACADÉMICA EN ACTIVIDADES CULTURALES",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "NÚMERO DE PARTICIPANTES EN JORNADAS SOCIOAMBIENTALES",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        },
+        {
+          "servicio": "TRABAJO SOCIAL",
+          "por_semestre": {
+            "2020-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2020-3": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-1": {
+              "actividades": null,
+              "estudiantes_atendidos": null
+            },
+            "2021-3": {
+              "actividades": 8,
+              "estudiantes_atendidos": null
+            },
+            "2022-1": {
+              "actividades": 2,
+              "estudiantes_atendidos": null
+            },
+            "2022-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2023-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-1": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            },
+            "2024-3": {
+              "actividades": 0,
+              "estudiantes_atendidos": 0
+            }
+          }
+        }
+      ],
+      "fuente": {
+        "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+        "hoja": "Estadisticas Bienestar",
+        "fila": "11-27"
+      }
+    },
+    "grupos_produccion": {
+      "grupos": [
+        {
+          "nombre_grupo": "Grupo De Investigación En Telemedicina GITEM++",
+          "lineas_investigacion": "1.- CIENCIAS DE LA TIERRA\n2.- DESARROLLO DE SATELITES\n3.- Desarrollo de industria 4.0\n4.- ESTRATEGIAS EN CANNABIS MEDICINAL\n5.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n6.- REALISMO VIRTUAL\n7.- REDES DE NUEVA GENERACIÓN\n8.- TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n9.- TELESALUD Y MEDIO AMBIENTE\n10.- TELESALUD Y TELEMEDICINA",
+          "codigo_minciencias": "COL0005655",
+          "clasificacion_minciencias": "C",
+          "proyectos_recursos_internos": 6,
+          "proyectos_recursos_externos": 2,
+          "articulos_indexados_nacional": 66,
+          "articulos_indexados_internacional": 9,
+          "libros": 7,
+          "patentes": 0,
+          "productos_creacion": 0,
+          "productos_totales": 82
+        },
+        {
+          "nombre_grupo": "Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento",
+          "lineas_investigacion": null,
+          "codigo_minciencias": "COL0009189",
+          "clasificacion_minciencias": "A1",
+          "proyectos_recursos_internos": 9,
+          "proyectos_recursos_externos": 1,
+          "articulos_indexados_nacional": 10,
+          "articulos_indexados_internacional": 87,
+          "libros": 13,
+          "patentes": 15,
+          "productos_creacion": 0,
+          "productos_totales": 125
+        },
+        {
+          "nombre_grupo": "Internet Inteligente",
+          "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva\n3.- Seguridad informática",
+          "codigo_minciencias": "COL0050374",
+          "clasificacion_minciencias": "A1",
+          "proyectos_recursos_internos": 4,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 44,
+          "articulos_indexados_internacional": 111,
+          "libros": 3,
+          "patentes": 10,
+          "productos_creacion": 0,
+          "productos_totales": 168
+        },
+        {
+          "nombre_grupo": "GITUD",
+          "lineas_investigacion": "1.- Gestión de Espectro\n2.- Microondas, Antenas y Propagación\n3.- Optimización de Redes\n4.- Wireless Sensor Networks, IoT",
+          "codigo_minciencias": "COL0005664",
+          "clasificacion_minciencias": "C",
+          "proyectos_recursos_internos": 5,
+          "proyectos_recursos_externos": 1,
+          "articulos_indexados_nacional": 6,
+          "articulos_indexados_internacional": 11,
+          "libros": 2,
+          "patentes": 3,
+          "productos_creacion": 0,
+          "productos_totales": 22
+        },
+        {
+          "nombre_grupo": "Radiacion Electromagnetica Y Comunicaciones Opticas: Greco",
+          "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
+          "codigo_minciencias": "COL0059244",
+          "clasificacion_minciencias": "A",
+          "proyectos_recursos_internos": 3,
+          "proyectos_recursos_externos": 1,
+          "articulos_indexados_nacional": 17,
+          "articulos_indexados_internacional": 12,
+          "libros": 3,
+          "patentes": 0,
+          "productos_creacion": 0,
+          "productos_totales": 32
+        },
+        {
+          "nombre_grupo": "Nucleo Investigacion En Datos Espaciales",
+          "lineas_investigacion": "1.- Análisis de imágenes orientado a la caracterización y detección de cambios en objetos y fenómenos geográficos\n2.- Dinámica de la Tierra y de los objetos, paisajes y territorios geográficos\n3.- Geodesia Satelital y los Métodos de Prospección Geofísica\n4.- Geomática\n5.- Información geográfica y sociedad\n6.- Modelamiento Matemático\n7.- Modelos 3D del territorio\n8.- Pensamiento espacial y análisis territorial\n9.- Percepción Remota\n10.- Planificación Territorial\n11.- Sistemas de Información Geográfica",
+          "codigo_minciencias": "COL0013969",
+          "clasificacion_minciencias": "A",
+          "proyectos_recursos_internos": 7,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 51,
+          "articulos_indexados_internacional": 49,
+          "libros": 10,
+          "patentes": 1,
+          "productos_creacion": 0,
+          "productos_totales": 111
+        },
+        {
+          "nombre_grupo": "Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes",
+          "lineas_investigacion": "1.- Administración de Redes de Nueva Generación (IPv6), Redes IPv4 y Redes de Telefonía Móvil Celular\n2.- Agro Inteligente (Smart Agro)3.- Biofisica\n4.- Ciberseguridad en arquitecturas tecnológicas\n5.- Circuitos eléctricos y electrónica aplicada a la Industria\n6.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n7.- Desarrollo y programación de hardware, firmware y software para las comunicaciones\n8.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n9.- Gestión del conocimiento\n10.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n11.- Internet de las cosas\n12.- Investigación y desarrollo de satelites\n13.- Realidad Aumentada y Realidad Virtual\n14.- STEAM en la educación\n15.- TIC para la paz y contenidos pedagógicos para la educación\n16.- Web GIS y tecnologías geoespaciales",
+          "codigo_minciencias": "COL0038019",
+          "clasificacion_minciencias": "B",
+          "proyectos_recursos_internos": 4,
+          "proyectos_recursos_externos": 8,
+          "articulos_indexados_nacional": 30,
+          "articulos_indexados_internacional": 25,
+          "libros": 11,
+          "patentes": 0,
+          "productos_creacion": 0,
+          "productos_totales": 66
+        },
+        {
+          "nombre_grupo": "Laboratorio De Investigación En Fuentes Alternativas De Energía",
+          "lineas_investigacion": "1.- Electrónica de Potencia.\n2.- Fuentes Alternativas de Energía\n3.- Microrredes Electricas",
+          "codigo_minciencias": "COL0012963",
+          "clasificacion_minciencias": "A1",
+          "proyectos_recursos_internos": 20,
+          "proyectos_recursos_externos": 1,
+          "articulos_indexados_nacional": 25,
+          "articulos_indexados_internacional": 23,
+          "libros": 3,
+          "patentes": 1,
+          "productos_creacion": 0,
+          "productos_totales": 52
+        },
+        {
+          "nombre_grupo": "Laboratorio De Automatizacion Sistemas Embebidos Y Robotica: Laser",
+          "lineas_investigacion": "1.- Automatización\n2.- Biomedica\n3.- Data Science\n4.- Metereología\n5.- Robótica\n6.- Sistemas Embebidos\n7.- Sistemas Inteligentes",
+          "codigo_minciencias": "COL0148353",
+          "clasificacion_minciencias": "B",
+          "proyectos_recursos_internos": 5,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 55,
+          "articulos_indexados_internacional": 46,
+          "libros": 0,
+          "patentes": 0,
+          "productos_creacion": 0,
+          "productos_totales": 101
+        },
+        {
+          "nombre_grupo": "Laboratorio De Automatica, Microeletronica E Inteligencia Computacional",
+          "lineas_investigacion": "1.- Automática\n2.- Inteligencia Computacional\n3.- Microelectrónica",
+          "codigo_minciencias": "COL0012883",
+          "clasificacion_minciencias": "C",
+          "proyectos_recursos_internos": 3,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 8,
+          "articulos_indexados_internacional": 23,
+          "libros": 9,
+          "patentes": 3,
+          "productos_creacion": 0,
+          "productos_totales": 43
+        },
+        {
+          "nombre_grupo": "Interoperabilidad Tecnologica Y Semantíca",
+          "lineas_investigacion": "1.- Cibernética y automatización\n2.- Ciencias de los datos y Web semántica\n3.- E-learning, ambientes y herramientas virtuales de aprendizaje\n4.- Factores humanos y rehabilitación en salud\n5.- Gamificación y videojuegos\n6.- Gestión del conocimiento, gestión empresarial y tecnológica\n7.- Ingeniería de software y arquitecturas de Internet\n8.- Inteligencia artificial y analítica de datos\n9.- Inteligencia de negocios y comercio electrónico\n10.- Inteligencia y lingüística computacional\n11.- Internet de las cosas y aplicaciones móviles\n12.- Modelos de diseño y desarrollo de software\n13.- Multimedia interactiva y realidad aumentada\n14.- Simulación en la Web, visualización y análisis 3D\n15.- Simulación y metaheurística\n16.- Tecnologías Web, clusters y virtualización en la nube\n17.- Tráfico inteligente y seguridad ciudadana",
+          "codigo_minciencias": "COL0078025",
+          "clasificacion_minciencias": "A",
+          "proyectos_recursos_internos": 6,
+          "proyectos_recursos_externos": 1,
+          "articulos_indexados_nacional": 16,
+          "articulos_indexados_internacional": 73,
+          "libros": 6,
+          "patentes": 9,
+          "productos_creacion": 0,
+          "productos_totales": 104
+        },
+        {
+          "nombre_grupo": "Grupo De Compatibilidad E Interferencia Electromagnetica",
+          "lineas_investigacion": "1.- Calidad de potencia y Energía\n2.- Compatibilidad Electromagnetica\n3.- Energías no convencionales\n4.- Sistemas modernos de potencia y Gestión de energía",
+          "codigo_minciencias": "COL0011142",
+          "clasificacion_minciencias": "A1",
+          "proyectos_recursos_internos": 12,
+          "proyectos_recursos_externos": 1,
+          "articulos_indexados_nacional": 92,
+          "articulos_indexados_internacional": 82,
+          "libros": 12,
+          "patentes": 15,
+          "productos_creacion": 0,
+          "productos_totales": 201
+        },
+        {
+          "nombre_grupo": "Giira",
+          "lineas_investigacion": "1.- Analítica Visual\n2.- Ciencias de los Datos\n3.- High performance computing\n4.- Inteligencia Computacional\n5.- Meteorología y cambio climatico\n6.- Redes y Seguridad Informática\n7.- Tecnologías Información y de las Comunicaciones",
+          "codigo_minciencias": "COL0032222",
+          "clasificacion_minciencias": "A1",
+          "proyectos_recursos_internos": 17,
+          "proyectos_recursos_externos": 5,
+          "articulos_indexados_nacional": 46,
+          "articulos_indexados_internacional": 152,
+          "libros": 22,
+          "patentes": 14,
+          "productos_creacion": 0,
+          "productos_totales": 234
+        },
+        {
+          "nombre_grupo": "Gesdatos",
+          "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
+          "codigo_minciencias": "COL0031619",
+          "clasificacion_minciencias": "Reconocido",
+          "proyectos_recursos_internos": 2,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 1,
+          "articulos_indexados_internacional": 1,
+          "libros": 0,
+          "patentes": 7,
+          "productos_creacion": 0,
+          "productos_totales": 9
+        },
+        {
+          "nombre_grupo": "Estudio De Temas De La Física, De La Estadística Y De La Matemática",
+          "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES, PERCEPCIÓN REMOTA Y FOTOGRAMETRIA",
+          "codigo_minciencias": "COL0134625",
+          "clasificacion_minciencias": "C",
+          "proyectos_recursos_internos": 3,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 16,
+          "articulos_indexados_internacional": 61,
+          "libros": 12,
+          "patentes": 7,
+          "productos_creacion": 0,
+          "productos_totales": 96
+        },
+        {
+          "nombre_grupo": "Comercio Electronico En Colombia - GICOECOL",
+          "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
+          "codigo_minciencias": "COL0136844",
+          "clasificacion_minciencias": "A1",
+          "proyectos_recursos_internos": 13,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 53,
+          "articulos_indexados_internacional": 109,
+          "libros": 8,
+          "patentes": 0,
+          "productos_creacion": 0,
+          "productos_totales": 170
+        },
+        {
+          "nombre_grupo": "Arquitectura De Software",
+          "lineas_investigacion": "1.- Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
+          "codigo_minciencias": "COL0049569",
+          "clasificacion_minciencias": "Reconocido",
+          "proyectos_recursos_internos": 0,
+          "proyectos_recursos_externos": 0,
+          "articulos_indexados_nacional": 0,
+          "articulos_indexados_internacional": 0,
+          "libros": 2,
+          "patentes": 0,
+          "productos_creacion": 0,
+          "productos_totales": 2
+        }
+      ],
+      "fuente": {
+        "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
+        "hoja": "Investigacion - grupos y profe",
+        "fila": "6-22"
+      }
+    }
   }
 };
