@@ -351,6 +351,13 @@ function initComunidad() {
   document.getElementById('comunidad-subtitle').innerHTML =
     `${escapeHtml(enfasis.titulo_archivo)} ${fuenteHtml(enfasis.fuente, 'Ver fuente')}`;
 
+  const descarga = GOLD_DATA.comunidadEstudiantil.descarga;
+  document.getElementById('comunidad-descarga-container').innerHTML = descarga ? `
+    <a href="${fileHref(descarga.archivo)}" download class="btn btn-gold" style="text-decoration:none; font-size:13px;">
+      <span>📥</span> ${escapeHtml(descarga.titulo)}
+    </a>
+  ` : '';
+
   const enfasisNombres = enfasis.enfasis;
   const enfasisTable = `
     <table style="width:100%; border-collapse: collapse; font-size: 13px;">
@@ -413,24 +420,30 @@ function initComunidad() {
 }
 
 function renderEgresados(egresados) {
+  const porProyecto2022a2026 = egresados.por_proyecto_por_anio_estimado.map((p) => ({
+    ...p,
+    total: Object.values(p.por_anio_estimado).reduce((acc, n) => acc + n, 0),
+  }));
+  const totalGeneral2022a2026 = porProyecto2022a2026.reduce((acc, p) => acc + p.total, 0);
+
   const totalHistoricoTable = `
     <table style="width:100%; border-collapse: collapse; font-size: 12.5px; margin-bottom:10px;">
       <thead>
         <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
-          <th style="padding:8px 10px;">Programa Académico (Cód.)</th>
-          <th style="padding:8px 10px; text-align:right;">Graduados históricos<br><span style="font-weight:400; font-size:10.5px;">(todos los años, roster Cóndor)</span></th>
+          <th style="padding:8px 10px;">Énfasis (Cód.)</th>
+          <th style="padding:8px 10px; text-align:right;">Graduados</th>
         </tr>
       </thead>
       <tbody>
-        ${egresados.por_proyecto_historico.map((p) => `
+        ${porProyecto2022a2026.map((p) => `
           <tr style="border-bottom:1px solid var(--border-color);">
             <td style="padding:7px 10px;">${escapeHtml(p.proyecto_curricular)} <span class="bronze-ext-badge">Cód. ${escapeHtml(p.cod_proyecto)}</span></td>
-            <td style="padding:7px 10px; text-align:right; font-weight:700;">${p.total_graduados_historico}</td>
+            <td style="padding:7px 10px; text-align:right; font-weight:700;">${p.total}</td>
           </tr>
         `).join('')}
         <tr style="font-weight:800; border-top:2px solid var(--border-color);">
-          <td style="padding:7px 10px;">Total histórico MCIC</td>
-          <td style="padding:7px 10px; text-align:right;">${egresados.total_historico_graduados}</td>
+          <td style="padding:7px 10px;">Total MCIC (${escapeHtml(egresados.rango_presentado)})</td>
+          <td style="padding:7px 10px; text-align:right;">${totalGeneral2022a2026}</td>
         </tr>
       </tbody>
     </table>
@@ -448,7 +461,7 @@ function renderEgresados(egresados) {
       </thead>
       <tbody>
         <tr>
-          <td style="padding:7px 12px;">Estimado (año de última matrícula)</td>
+          <td style="padding:7px 12px;">Total</td>
           ${anios.map((a) => `<td style="padding:7px 12px; text-align:right;">${egresados.por_anio_estimado[a]}</td>`).join('')}
           <td style="padding:7px 12px; text-align:right; font-weight:700;">${anios.reduce((acc, a) => acc + egresados.por_anio_estimado[a], 0)}</td>
         </tr>
@@ -457,9 +470,9 @@ function renderEgresados(egresados) {
   `;
 
   document.getElementById('egresados-container').innerHTML = `
-    <h4 style="font-size:13.5px; margin:0 0 8px;">Total histórico por programa académico</h4>
+    <h4 style="font-size:13.5px; margin:0 0 8px;">Graduados por énfasis (${escapeHtml(egresados.rango_presentado)})</h4>
     ${totalHistoricoTable}
-    <h4 style="font-size:13.5px; margin:0 0 8px;">Estimado por año (2022-2026)</h4>
+    <h4 style="font-size:13.5px; margin:0 0 8px;">Por año (${escapeHtml(egresados.rango_presentado)})</h4>
     ${estimadoTable}
   `;
 }

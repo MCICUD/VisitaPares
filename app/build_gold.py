@@ -241,7 +241,14 @@ def build_comunidad_estudiantil() -> dict:
     enfasis = load_json("enfasis_estudiantes.json")
     estado = load_json("estado_academico_agregado.json")
     egresados = load_json("egresados_agregado.json")
-    return {"enfasis": enfasis, "estadoAcademico": estado, "egresados": egresados}
+    descarga = {
+        # Generado por app/build_comunidad_xlsx.py (paso final de run_pipeline.py) a partir de
+        # estos mismos 3 JSON de Data/Silver/ — no se valida su existencia aquí porque ese paso
+        # corre después de este (Silver -> Gold: xlsx), no antes.
+        "archivo": "Data/Gold/comunidad_estudiantil.xlsx",
+        "titulo": "Consolidado Comunidad Estudiantil (.xlsx)",
+    }
+    return {"enfasis": enfasis, "estadoAcademico": estado, "egresados": egresados, "descarga": descarga}
 
 
 def normalizar_sigla(texto: str) -> str:

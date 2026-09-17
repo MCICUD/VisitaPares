@@ -18838,6 +18838,10 @@ const GOLD_DATA = {
           "nota": "Roster de egresados actualizado a 2025, usado solo para verificar el total por proyecto contra Estados/; no se publica en el catálogo de Data/Bronze."
         }
       }
+    },
+    "descarga": {
+      "archivo": "Data/Gold/comunidad_estudiantil.xlsx",
+      "titulo": "Consolidado Comunidad Estudiantil (.xlsx)"
     }
   },
   "gruposInvestigacion": {
