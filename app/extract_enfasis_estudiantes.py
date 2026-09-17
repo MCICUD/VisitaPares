@@ -40,8 +40,8 @@ COLUMNS = ("C", "D", "E", "F")
 
 # Cada fila fusionada suma su categoría "Grande" homónima con la normal.
 FILAS_A_FUSIONAR = (
-    ("Investigación", FILA_INVESTIGACION, FILA_GRANDE_INVESTIGACION),
-    ("Profundización", FILA_PROFUNDIZACION, FILA_GRANDE_PROFUNDIZACION),
+    ("MCIC. Énfasis en Investigación", FILA_INVESTIGACION, FILA_GRANDE_INVESTIGACION),
+    ("MCIC. Énfasis en Profundización", FILA_PROFUNDIZACION, FILA_GRANDE_PROFUNDIZACION),
 )
 
 

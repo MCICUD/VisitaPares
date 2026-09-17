@@ -15808,7 +15808,7 @@ const GOLD_DATA = {
       ],
       "filas": [
         {
-          "etiqueta": "Investigación",
+          "etiqueta": "MCIC. Énfasis en Investigación",
           "valores": {
             "GEOMÁTICA": 16,
             "INGENIERÍA DE SOFTWARE": 26,
@@ -15822,7 +15822,7 @@ const GOLD_DATA = {
           }
         },
         {
-          "etiqueta": "Profundización",
+          "etiqueta": "MCIC. Énfasis en Profundización",
           "valores": {
             "GEOMÁTICA": 30,
             "INGENIERÍA DE SOFTWARE": 24,

@@ -8,7 +8,7 @@
   ],
   "filas": [
     {
-      "etiqueta": "Investigación",
+      "etiqueta": "MCIC. Énfasis en Investigación",
       "valores": {
         "GEOMÁTICA": 16,
         "INGENIERÍA DE SOFTWARE": 26,
@@ -22,7 +22,7 @@
       }
     },
     {
-      "etiqueta": "Profundización",
+      "etiqueta": "MCIC. Énfasis en Profundización",
       "valores": {
         "GEOMÁTICA": 30,
         "INGENIERÍA DE SOFTWARE": 24,
