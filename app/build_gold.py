@@ -212,6 +212,79 @@ def build_comunidad_estudiantil() -> dict:
     return {"enfasis": enfasis, "estadoAcademico": estado, "egresados": egresados}
 
 
+def normalizar_sigla(texto: str) -> str:
+    """Sin tildes, mayúsculas, solo alfanuméricos — para comparar la sigla
+    de un grupo (Data/Silver/grupos_investigacion.json) contra el texto
+    libre de 'grupo_investigacion' que extrajo app/extract_seguimiento_tesis.py
+    de las cartas reales (que a veces trae el nombre completo del grupo con
+    la sigla entre paréntesis, o solo un fragmento del nombre)."""
+    import unicodedata
+
+    sin_tildes = "".join(
+        c for c in unicodedata.normalize("NFKD", texto) if not unicodedata.combining(c)
+    )
+    return re.sub(r"[^A-Z0-9]", "", sin_tildes.upper())
+
+
+def merge_proyectos_grado(grupos_investigacion: dict) -> dict:
+    """Añade a cada grupo de investigación (por sigla) los proyectos de
+    grado (595/695) cuya carta de radicación/viabilidad menciona ese grupo.
+    Un proceso cuyo 'grupo_investigacion' no calza con ninguna sigla
+    conocida se reporta aparte (proyectosGradoSinGrupo) en vez de perderse
+    en silencio — puede ser un grupo nuevo no listado en el directorio, o
+    una sigla mal escrita en la carta original."""
+    seguimiento = load_json("seguimiento_tesis.json")
+    procesos = seguimiento["procesos"]
+
+    siglas_normalizadas = {
+        normalizar_sigla(g["sigla"]): g["sigla"] for g in grupos_investigacion["grupos"]
+    }
+    for g in grupos_investigacion["grupos"]:
+        g["proyectos_grado"] = []
+
+    por_sigla = {g["sigla"]: g for g in grupos_investigacion["grupos"]}
+    sin_grupo = []
+
+    for proceso in procesos:
+        grupo_texto = proceso.get("grupo_investigacion")
+        proyecto_publico = {
+            "titulo_proyecto": proceso["titulo_proyecto"],
+            "director": proceso["director"],
+            "codirector": proceso["codirector"],
+            "etapa_actual": proceso["etapa_actual"],
+            "cod_proyecto": proceso["cod_proyecto"],
+        }
+        if not grupo_texto:
+            sin_grupo.append({**proyecto_publico, "grupo_investigacion_texto": None})
+            continue
+
+        grupo_norm = normalizar_sigla(grupo_texto)
+        sigla_encontrada = None
+        for sigla_norm, sigla_original in siglas_normalizadas.items():
+            if sigla_norm and (sigla_norm == grupo_norm or sigla_norm in grupo_norm or grupo_norm in sigla_norm):
+                sigla_encontrada = sigla_original
+                break
+
+        if sigla_encontrada:
+            por_sigla[sigla_encontrada]["proyectos_grado"].append(proyecto_publico)
+        else:
+            sin_grupo.append({**proyecto_publico, "grupo_investigacion_texto": grupo_texto})
+
+    resumen_etapas: dict[str, int] = {}
+    for p in procesos:
+        resumen_etapas[p["etapa_actual"]] = resumen_etapas.get(p["etapa_actual"], 0) + 1
+
+    resumen_seguimiento_tesis = {
+        **seguimiento["resumen"],
+        "por_etapa": resumen_etapas,
+        "grupos_con_proyectos_asociados": sum(1 for g in grupos_investigacion["grupos"] if g["proyectos_grado"]),
+        "proyectos_sin_grupo_identificado": len(sin_grupo),
+        "metodologia": seguimiento["metodologia"],
+    }
+
+    return sin_grupo, resumen_seguimiento_tesis
+
+
 def main() -> None:
     GOLD_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -221,6 +294,7 @@ def main() -> None:
     merge_texto_extraido(manifest)
 
     grupos_investigacion = load_json("grupos_investigacion.json")
+    proyectos_grado_sin_grupo, resumen_seguimiento_tesis = merge_proyectos_grado(grupos_investigacion)
 
     evidencia_inv = load_json("seguimiento_evidencia_investigacion.json")
     evidencia_prof = load_json("seguimiento_evidencia_profundizacion.json")
@@ -261,6 +335,8 @@ def main() -> None:
         },
         "comunidadEstudiantil": build_comunidad_estudiantil(),
         "gruposInvestigacion": grupos_investigacion,
+        "proyectosGradoSinGrupo": proyectos_grado_sin_grupo,
+        "resumenSeguimientoTesis": resumen_seguimiento_tesis,
     }
 
     json_path = GOLD_DIR / "gold_data.json"

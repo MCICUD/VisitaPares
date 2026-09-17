@@ -390,17 +390,26 @@ function initComunidad() {
         `).join('')}
       </tbody>
     </table>
+    ${enfasis.nota_fusion ? `<p style="font-size:11px; color: var(--text-soft); margin-top:10px;">ℹ️ ${escapeHtml(enfasis.nota_fusion)}</p>` : ''}
   `;
   document.getElementById('enfasis-table-container').innerHTML = enfasisTable;
 
-  const todosEstados = Array.from(new Set(estado.proyectos.flatMap((p) => Object.keys(p.conteo_por_estado)))).sort();
+  const ESTADOS_OCULTOS = new Set([
+    'INACTIVO',
+    'Abandono',
+    'Pérdida de calidad de estudiante - Suspendido',
+    'Pérdida de calidad de estudiante - Expulsado',
+  ]);
+  const todosEstados = Array.from(new Set(estado.proyectos.flatMap((p) => Object.keys(p.conteo_por_estado))))
+    .filter((e) => !ESTADOS_OCULTOS.has(e))
+    .sort();
   const estadoTable = `
     <div style="overflow-x:auto;">
     <table style="width:100%; border-collapse: collapse; font-size: 12.5px; min-width: 720px;">
       <thead>
         <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
           <th style="padding:8px 10px;">Proyecto Curricular (Cód.)</th>
-          <th style="padding:8px 10px; text-align:right;">Total</th>
+          <th style="padding:8px 10px; text-align:right;">Total histórico<br><span style="font-weight:400; font-size:10.5px;">(todos los estados)</span></th>
           ${todosEstados.map((e) => `<th style="padding:8px 10px; text-align:right;">${escapeHtml(e)}</th>`).join('')}
         </tr>
       </thead>
@@ -426,58 +435,148 @@ function initComunidad() {
 }
 
 function renderEgresados(egresados) {
-  const anios = Object.keys(egresados.por_anio).sort();
-  const filaAnios = `
-    <table style="width:100%; border-collapse: collapse; font-size: 13px; margin-bottom:16px;">
+  const totalHistoricoTable = `
+    <table style="width:100%; border-collapse: collapse; font-size: 12.5px; margin-bottom:10px;">
       <thead>
         <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
-          <th style="padding:8px 12px;">Año de grado</th>
+          <th style="padding:8px 10px;">Proyecto Curricular (Cód.)</th>
+          <th style="padding:8px 10px; text-align:right;">Graduados históricos<br><span style="font-weight:400; font-size:10.5px;">(todos los años, roster Cóndor)</span></th>
+          <th style="padding:8px 10px; text-align:right;">Roster egresados 2025<br><span style="font-weight:400; font-size:10.5px;">(verificación cruzada)</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        ${egresados.por_proyecto_historico.map((p) => `
+          <tr style="border-bottom:1px solid var(--border-color);">
+            <td style="padding:7px 10px;">${escapeHtml(p.proyecto_curricular)} <span class="bronze-ext-badge">Cód. ${escapeHtml(p.cod_proyecto)}</span></td>
+            <td style="padding:7px 10px; text-align:right; font-weight:700;">${p.total_graduados_historico}</td>
+            <td style="padding:7px 10px; text-align:right;">${p.total_graduados_roster_2025 ?? '—'}</td>
+          </tr>
+        `).join('')}
+        <tr style="font-weight:800; border-top:2px solid var(--border-color);">
+          <td style="padding:7px 10px;">Total histórico MCIC</td>
+          <td style="padding:7px 10px; text-align:right;">${egresados.total_historico_graduados}</td>
+          <td style="padding:7px 10px; text-align:right;"></td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size:11px; color: var(--text-soft); margin-bottom:18px;">
+      Fuente: Data/Bronze/Estados/ (roster Cóndor, no publicado por contener datos personales) — un estudiante
+      cuenta como graduado si su estado actual es "E - Graduado". La columna del roster 2025 es un archivo
+      de verificación independiente (${escapeHtml(fileLabel(egresados.fuente.roster_2025.archivo))}); las
+      diferencias entre ambas columnas son reales y se muestran sin ajustar.
+    </p>
+  `;
+
+  const anios = Object.keys(egresados.por_anio_estimado).sort();
+  const estimadoTable = `
+    <table style="width:100%; border-collapse: collapse; font-size: 13px; margin-bottom:8px;">
+      <thead>
+        <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+          <th style="padding:8px 12px;">Graduados por año</th>
           ${anios.map((a) => `<th style="padding:8px 12px; text-align:right;">${escapeHtml(a)}</th>`).join('')}
           <th style="padding:8px 12px; text-align:right; font-weight:800;">Total (${escapeHtml(egresados.rango_presentado)})</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td style="padding:7px 12px;">Graduados</td>
-          ${anios.map((a) => `<td style="padding:7px 12px; text-align:right;">${egresados.por_anio[a]}</td>`).join('')}
-          <td style="padding:7px 12px; text-align:right; font-weight:700;">${egresados.total_graduados}</td>
+          <td style="padding:7px 12px;">Estimado (año de última matrícula)</td>
+          ${anios.map((a) => `<td style="padding:7px 12px; text-align:right;">${egresados.por_anio_estimado[a]}</td>`).join('')}
+          <td style="padding:7px 12px; text-align:right; font-weight:700;">${anios.reduce((acc, a) => acc + egresados.por_anio_estimado[a], 0)}</td>
         </tr>
       </tbody>
     </table>
+    <p style="font-size:11.5px; color: var(--text-muted); margin-bottom:6px;">
+      ⚠️ Cóndor no registra la fecha de grado, solo el estado actual — este desglose ${escapeHtml(egresados.rango_presentado)}
+      usa el año de la <strong>última matrícula</strong> de cada graduado como estimación del año de grado. No es un
+      dato de acta, es una estimación explícita.
+    </p>
+    <p style="font-size:11.5px; color: var(--text-muted); margin-bottom:18px;">
+      ✅ Validación de esa estimación: de ${egresados.validacion_estimacion.estudiantes_comparables} graduados con
+      fecha de grado <em>real</em> conocida (acta 2022-2023), el año estimado coincidió exactamente en
+      ${egresados.validacion_estimacion.coinciden_anio_exacto} de ${egresados.validacion_estimacion.estudiantes_comparables} casos.
+    </p>
   `;
 
-  const porEnfasis = `
+  const fechaReal = egresados.con_fecha_real;
+  const aniosReales = Object.keys(fechaReal.por_anio).sort();
+  const fechaRealTable = fechaReal.total_graduados ? `
     <table style="width:100%; border-collapse: collapse; font-size: 12.5px;">
       <thead>
         <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
           <th style="padding:8px 10px;">Cód. Proyecto (énfasis)</th>
-          <th style="padding:8px 10px; text-align:right;">Graduados</th>
+          ${aniosReales.map((a) => `<th style="padding:8px 10px; text-align:right;">${escapeHtml(a)}</th>`).join('')}
+          <th style="padding:8px 10px; text-align:right;">Total</th>
           <th style="padding:8px 10px; text-align:right;">Promedio académico</th>
         </tr>
       </thead>
       <tbody>
-        ${egresados.por_enfasis.map((p) => `
+        ${fechaReal.por_enfasis.map((p) => `
           <tr style="border-bottom:1px solid var(--border-color);">
             <td style="padding:7px 10px;">Cód. ${escapeHtml(p.cod_proyecto)}</td>
-            <td style="padding:7px 10px; text-align:right;">${p.total_graduados}</td>
+            ${aniosReales.map((a) => `<td style="padding:7px 10px; text-align:right;">${p.por_anio[a] ?? '—'}</td>`).join('')}
+            <td style="padding:7px 10px; text-align:right; font-weight:700;">${p.total_graduados}</td>
             <td style="padding:7px 10px; text-align:right;">${p.promedio_academico ?? '—'}</td>
           </tr>
         `).join('')}
       </tbody>
     </table>
     <p style="font-size:11px; color: var(--text-soft); margin-top:10px;">
-      Fuente: ${escapeHtml(fileLabel(egresados.fuente.archivo))} (no publicado por contener datos personales del egresado; solo llega hasta ${anios[anios.length - 1]}).
+      Fuente: ${escapeHtml(fileLabel(egresados.fuente.acta_fecha_real.archivo))} (acta de grado real, no publicado
+      por contener datos personales; único archivo con fecha exacta, no existe versión posterior a ${fechaReal.rango.split('-')[1]}).
     </p>
-  `;
+  ` : '';
 
-  document.getElementById('egresados-container').innerHTML = filaAnios + porEnfasis;
+  document.getElementById('egresados-container').innerHTML = `
+    <h4 style="font-size:13.5px; margin:0 0 8px;">Total histórico por proyecto curricular</h4>
+    ${totalHistoricoTable}
+    <h4 style="font-size:13.5px; margin:0 0 8px;">Estimado por año (2022-2026)</h4>
+    ${estimadoTable}
+    <h4 style="font-size:13.5px; margin:0 0 8px;">Con fecha de grado real (2022-2023, único tramo con acta)</h4>
+    ${fechaRealTable}
+  `;
+}
+
+let gruposInvestigacionState = { clasificacion: 'all' };
+
+const ETAPA_TESIS_BADGE = {
+  'Sustentado': '✅',
+  'Jurados solicitados, pendiente sustentación': '⏳',
+  'Anteproyecto radicado, pendiente asignación de jurados': '📝',
+  'Sin anteproyecto radicado': '⚪',
+};
+
+function etapaBadge(etapa) {
+  const clave = Object.keys(ETAPA_TESIS_BADGE).find((k) => etapa.startsWith(k));
+  return ETAPA_TESIS_BADGE[clave] || '•';
 }
 
 function renderGruposInvestigacion(gruposData) {
-  const grupos = gruposData.grupos.filter((g) => g.integrantes.length > 0 || g.nombre);
+  const todosLosGrupos = gruposData.grupos.filter((g) => g.integrantes.length > 0 || g.nombre);
+
+  const clasificaciones = Array.from(new Set(todosLosGrupos.map((g) => g.clasificacion || 'Sin clasificar'))).sort();
+  const filterEl = document.getElementById('grupos-clasificacion-filter');
+  filterEl.innerHTML = `<option value="all">Todas las clasificaciones MinCiencias</option>` +
+    clasificaciones.map((c) => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+  filterEl.value = gruposInvestigacionState.clasificacion;
+  filterEl.onchange = () => {
+    gruposInvestigacionState.clasificacion = filterEl.value;
+    pintarGruposInvestigacion(gruposData, todosLosGrupos);
+  };
+
+  pintarGruposInvestigacion(gruposData, todosLosGrupos);
+}
+
+function pintarGruposInvestigacion(gruposData, todosLosGrupos) {
+  const filtro = gruposInvestigacionState.clasificacion;
+  const grupos = filtro === 'all'
+    ? todosLosGrupos
+    : todosLosGrupos.filter((g) => (g.clasificacion || 'Sin clasificar') === filtro);
+
+  const totalProyectos = todosLosGrupos.reduce((acc, g) => acc + (g.proyectos_grado?.length || 0), 0);
   document.getElementById('grupos-subtitle').innerHTML =
-    `${grupos.length} grupos registrados, ${grupos.reduce((acc, g) => acc + g.integrantes.length, 0)} docentes con disponibilidad de dirección ` +
-    fuenteHtml(grupos[0]?.fuente, 'Ver archivo fuente');
+    `${todosLosGrupos.length} grupos registrados, ${todosLosGrupos.reduce((acc, g) => acc + g.integrantes.length, 0)} docentes con disponibilidad de dirección, ` +
+    `${totalProyectos} proyectos de grado (595/695) asociados por carta de radicación/viabilidad ` +
+    fuenteHtml(todosLosGrupos[0]?.fuente, 'Ver archivo fuente');
 
   document.getElementById('grupos-investigacion-container').innerHTML = `
     <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap:14px;">
@@ -488,9 +587,51 @@ function renderGruposInvestigacion(gruposData) {
           ${g.lider ? `<div class="plan-meta-row"><span>Líder</span><span>${escapeHtml(g.lider)}</span></div>` : ''}
           <div class="plan-meta-row"><span>Docentes disponibles</span><span>${g.integrantes.length}</span></div>
           ${g.integrantes.length ? `<div style="margin-top:8px; font-size:11.5px; color: var(--text-muted);">${g.integrantes.map((i) => escapeHtml(i.nombre)).join(', ')}</div>` : ''}
+          ${(g.proyectos_grado && g.proyectos_grado.length) ? `
+            <div style="margin-top:10px; padding-top:8px; border-top:1px dashed var(--border-color);">
+              <div style="font-size:11.5px; font-weight:700; margin-bottom:6px;">🎓 Proyectos de grado asociados (${g.proyectos_grado.length})</div>
+              <ul style="margin:0; padding-left:16px; font-size:11px; color: var(--text-muted);">
+                ${g.proyectos_grado.map((p) => `
+                  <li style="margin-bottom:5px;">
+                    ${etapaBadge(p.etapa_actual)} ${escapeHtml(p.titulo_proyecto || 'Título no extraído del documento')}
+                    ${p.director ? `<br><span style="opacity:0.85;">Director: ${escapeHtml(p.director)}${p.codirector ? ` · Codirector: ${escapeHtml(p.codirector)}` : ''}</span>` : ''}
+                    <br><span style="opacity:0.7;">${escapeHtml(p.etapa_actual)}</span>
+                  </li>
+                `).join('')}
+              </ul>
+            </div>
+          ` : ''}
         </div>
       `).join('')}
     </div>
+    ${grupos.length === 0 ? '<p style="font-size:12.5px; color: var(--text-muted);">Ningún grupo tiene esa clasificación.</p>' : ''}
+  `;
+
+  renderProyectosGradoSinGrupo();
+}
+
+function renderProyectosGradoSinGrupo() {
+  const sinGrupo = GOLD_DATA.proyectosGradoSinGrupo || [];
+  const cont = document.getElementById('proyectos-grado-sin-grupo-container');
+  if (!cont) return;
+  if (!sinGrupo.length) {
+    cont.innerHTML = '';
+    return;
+  }
+  cont.innerHTML = `
+    <details style="margin-top:14px; font-size:12px; color: var(--text-muted);">
+      <summary style="cursor:pointer; font-weight:600;">
+        ⚠️ ${sinGrupo.length} proyectos de grado (595/695) detectados cuya carta menciona un grupo de investigación que no calzó con ningún grupo del directorio — no se descartan, se listan aquí para revisión
+      </summary>
+      <ul style="margin:8px 0 0; padding-left:16px;">
+        ${sinGrupo.map((p) => `
+          <li style="margin-bottom:5px;">
+            ${etapaBadge(p.etapa_actual)} ${escapeHtml(p.titulo_proyecto || 'Título no extraído del documento')}
+            ${p.grupo_investigacion_texto ? ` — grupo mencionado en el documento: "${escapeHtml(p.grupo_investigacion_texto)}"` : ' — el documento no menciona un grupo de investigación'}
+          </li>
+        `).join('')}
+      </ul>
+    </details>
   `;
 }
 

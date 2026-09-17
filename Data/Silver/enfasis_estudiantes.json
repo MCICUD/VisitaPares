@@ -8,59 +8,31 @@
   ],
   "filas": [
     {
-      "etiqueta": "Grande - Investigación",
-      "valores": {
-        "GEOMÁTICA": 7,
-        "INGENIERÍA DE SOFTWARE": 8,
-        "TELEINFORMÁTICA": 10,
-        "INTELIGENCIA ARTIFICIAL": 0
-      },
-      "fuente": {
-        "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
-        "hoja": "Hoja1",
-        "fila": 5
-      }
-    },
-    {
-      "etiqueta": "Grande - Profundización",
-      "valores": {
-        "GEOMÁTICA": 3,
-        "INGENIERÍA DE SOFTWARE": 12,
-        "TELEINFORMÁTICA": 6,
-        "INTELIGENCIA ARTIFICIAL": 0
-      },
-      "fuente": {
-        "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
-        "hoja": "Hoja1",
-        "fila": 6
-      }
-    },
-    {
       "etiqueta": "Investigación",
       "valores": {
-        "GEOMÁTICA": 9,
-        "INGENIERÍA DE SOFTWARE": 18,
-        "TELEINFORMÁTICA": 12,
+        "GEOMÁTICA": 16,
+        "INGENIERÍA DE SOFTWARE": 26,
+        "TELEINFORMÁTICA": 22,
         "INTELIGENCIA ARTIFICIAL": 15
       },
       "fuente": {
         "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
         "hoja": "Hoja1",
-        "fila": 7
+        "fila": "7+5 (fusionadas)"
       }
     },
     {
       "etiqueta": "Profundización",
       "valores": {
-        "GEOMÁTICA": 27,
-        "INGENIERÍA DE SOFTWARE": 12,
-        "TELEINFORMÁTICA": 6,
+        "GEOMÁTICA": 30,
+        "INGENIERÍA DE SOFTWARE": 24,
+        "TELEINFORMÁTICA": 12,
         "INTELIGENCIA ARTIFICIAL": 11
       },
       "fuente": {
         "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
         "hoja": "Hoja1",
-        "fila": 8
+        "fila": "8+6 (fusionadas)"
       }
     },
     {
@@ -82,5 +54,6 @@
     "archivo": "Data/Bronze/Maestria CIC/Énfasis estudiantes - Consolidado.xlsx",
     "hoja": "Hoja1",
     "fila": "4,5-9"
-  }
+  },
+  "nota_fusion": "Las categorías 'Grande - Investigación' y 'Grande - Profundización' del archivo fuente se sumaron a 'Investigación' y 'Profundización' respectivamente (misma modalidad, grupo de tamaño distinto) — sin pérdida de estudiantes."
 }

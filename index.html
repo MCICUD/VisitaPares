@@ -156,16 +156,18 @@
       </div>
 
       <div class="card">
-        <h3 class="card-title">📊 Estudiantes activos por énfasis</h3>
-        <div id="enfasis-table-container"><!-- dinámico --></div>
+        <h3 class="card-title">🗂️ Estado académico histórico por proyecto curricular</h3>
+        <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px;">
+          Conteo de registros del roster oficial del sistema Cóndor. Se muestran los estados Matriculado,
+          Graduado y En renovación de matrícula; se omiten Abandono, Inactivo y Pérdida de calidad de
+          estudiante (Suspendido/Expulsado) para enfocar la tabla en la trayectoria activa/graduada.
+        </p>
+        <div id="estado-academico-table-container"><!-- dinámico --></div>
       </div>
 
       <div class="card">
-        <h3 class="card-title">🗂️ Estado académico histórico por proyecto curricular</h3>
-        <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px;">
-          Conteo de registros del roster oficial del sistema Cóndor.
-        </p>
-        <div id="estado-academico-table-container"><!-- dinámico --></div>
+        <h3 class="card-title">📊 Estudiantes activos por énfasis</h3>
+        <div id="enfasis-table-container"><!-- dinámico --></div>
       </div>
 
       <div class="card">
@@ -178,7 +180,13 @@
         <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px;" id="grupos-subtitle">
           <!-- dinámico -->
         </p>
+        <div style="margin-bottom:14px;">
+          <select id="grupos-clasificacion-filter" class="filter-select">
+            <option value="all">Todas las clasificaciones MinCiencias</option>
+          </select>
+        </div>
         <div id="grupos-investigacion-container"><!-- dinámico --></div>
+        <div id="proyectos-grado-sin-grupo-container"><!-- dinámico --></div>
       </div>
     </section>
 

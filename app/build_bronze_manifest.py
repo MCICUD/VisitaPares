@@ -61,7 +61,11 @@ def tamano_legible(num_bytes: int) -> str:
 # nombre, documento de identidad y correo personal de cada estudiante por
 # fila (roster oficial Cóndor). app/extract_estado_academico.py sí las lee,
 # solo para calcular conteos agregados.
-EXCLUIR_DEL_CATALOGO = ("Estados", "PII_Interno")
+# "Seguimiento_Tesis" tiene el mismo problema pero por RUTA (carpetas
+# "<código>/<categoría>/<archivo original>", cuyo nombre de archivo original
+# suele incluir el nombre completo del estudiante) — app/extract_seguimiento_tesis.py
+# sí la lee, solo para extraer título/director/etapa por proceso de tesis.
+EXCLUIR_DEL_CATALOGO = ("Estados", "PII_Interno", "Seguimiento_Tesis")
 
 
 def main() -> None:
