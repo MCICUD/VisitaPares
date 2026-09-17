@@ -337,21 +337,29 @@ function renderPlanCard(f, indexEnModalidad) {
 }
 
 function renderEvidenciaSeguimientoHtml(evidencia) {
-  if (!evidencia || evidencia.total_archivos === 0) {
-    return `<p style="font-size:13px; color: var(--text-soft);"><em>Sin evidencia cargada aún en Data/Bronze para este factor. El plan 2026-2027 recién inicia ejecución en agosto de 2026.</em></p>`;
+  if (!evidencia || !evidencia.total_archivos) {
+    return '';
   }
-  return evidencia.actividades
-    .filter((a) => a.archivos.length > 0)
-    .map((a) => `
-      <div style="margin-bottom:10px;">
-        <div style="font-size:12.5px; font-weight:700; color: var(--text-main); margin-bottom:4px;">${escapeHtml(a.nombre)}</div>
-        <div style="display:flex; flex-wrap:wrap; gap:6px;">
-          ${a.archivos.map((arch) => `
-            <a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(arch.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(arch.archivo)}">📄 ${escapeHtml(arch.nombre)} (${escapeHtml(arch.tamano_legible)})</a>
-          `).join('')}
-        </div>
-      </div>
-    `).join('');
+  const actividadesConArchivos = (evidencia.actividades || []).filter((a) => a.archivos && a.archivos.length > 0);
+  if (actividadesConArchivos.length === 0) {
+    return '';
+  }
+  return `
+    <div style="margin-bottom:16px;">
+      <p style="margin-bottom:8px;"><strong>📎 Evidencia de seguimiento cargada en Data/Bronze:</strong></p>
+      ${actividadesConArchivos
+        .map((a) => `
+          <div style="margin-bottom:10px;">
+            <div style="font-size:12.5px; font-weight:700; color: var(--text-main); margin-bottom:4px;">${escapeHtml(a.nombre)}</div>
+            <div style="display:flex; flex-wrap:wrap; gap:6px;">
+              ${a.archivos.map((arch) => `
+                <a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(arch.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(arch.archivo)}">📄 ${escapeHtml(arch.nombre)} (${escapeHtml(arch.tamano_legible)})</a>
+              `).join('')}
+            </div>
+          </div>
+        `).join('')}
+    </div>
+  `;
 }
 
 // ==========================================================================
@@ -505,14 +513,6 @@ function openFactorModal(modalidad, index) {
   const { numero, nombre } = factorNumeroYNombre(f.factor);
   document.getElementById('modal-title').textContent = `${numero} — ${nombre}`;
 
-  const seguimientoTexto = (corte) => {
-    const c = f.seguimiento[corte];
-    const hayDatos = c.fecha_seguimiento || c.descripcion_avance_cualitativo || c.balance_cualitativo;
-    return hayDatos
-      ? `${escapeHtml(c.fecha_seguimiento || '')} — ${escapeHtml(c.descripcion_avance_cualitativo || c.balance_cualitativo || '')}`
-      : '<em style="color: var(--text-soft);">Sin reportes registrados a la fecha en el archivo fuente.</em>';
-  };
-
   document.getElementById('modal-body').innerHTML = `
     <div style="display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap;">
       ${modalidadTagHtml(modalidad)}
@@ -542,22 +542,7 @@ function openFactorModal(modalidad, index) {
     <p style="margin-bottom:8px;"><strong>Actividades requeridas para lograr la meta:</strong></p>
     <p style="margin-bottom:14px; white-space: pre-line; font-size: 13px; color: var(--text-muted);">${escapeHtml(f.actividades)}</p>
 
-    <div style="margin-bottom:16px;">
-      <p style="margin-bottom:8px;"><strong>📎 Evidencia de seguimiento cargada en Data/Bronze:</strong></p>
-      ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
-    </div>
-
-    <p style="font-size: 11.5px; color: var(--text-soft); margin-bottom: 14px; border-top: 1px dashed var(--border-color); padding-top: 10px;">
-      Lo de abajo son las columnas oficiales de seguimiento/evaluación del formato CC-FR-001 (las que diligencia
-      la coordinación en el propio Excel). No deben confundirse con la evidencia de arriba: si aparecen vacías es
-      porque el Excel fuente todavía no las tiene diligenciadas, no porque falte información en este sitio.
-    </p>
-    <p style="margin-bottom:8px;"><strong>Seguimiento (Corte 1):</strong></p>
-    <p style="margin-bottom:12px; font-size: 13px;">${seguimientoTexto('corte_1')}</p>
-    <p style="margin-bottom:8px;"><strong>Seguimiento (Corte 2):</strong></p>
-    <p style="margin-bottom:12px; font-size: 13px;">${seguimientoTexto('corte_2')}</p>
-    <p style="margin-bottom:8px;"><strong>Balance acumulado / evaluación:</strong></p>
-    <p style="font-size: 13px;">${seguimientoTexto('acumulado')}</p>
+    ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
