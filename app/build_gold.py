@@ -36,7 +36,7 @@ DOCUMENTOS_PRINCIPALES_DEF = [
     {
         "titulo": "Autoevaluación Permanente Institucional — Investigación",
         "modalidad": "investigacion",
-        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/MCIC AutoevaluacionPermanenteInstitucional INV.docx",
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
     },
     {
         "titulo": "Plan de Mejoramiento CC-FR-001 — Profundización",
@@ -46,7 +46,7 @@ DOCUMENTOS_PRINCIPALES_DEF = [
     {
         "titulo": "Autoevaluación Permanente Institucional — Profundización",
         "modalidad": "profundizacion",
-        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/MCIC AutoevaluacionPermanenteInstitucional PROF.docx",
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
     },
 ]
 
@@ -240,6 +240,20 @@ def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_f
             }
 
 
+def merge_convenios(factores: list[dict], convenios: dict) -> None:
+    """Añade al Factor 7 (Interacción con el entorno nacional e internacional)
+    los convenios institucionales vigentes (Data/Silver/convenios.json,
+    descargado de URELINTER: ver app/extract_convenios.py) — evidencia real
+    que hoy no se mostraba en absoluto. Es un listado institucional, igual
+    para las dos modalidades (no diferenciado por Investigación/
+    Profundización). Modifica in-place, igual que merge_cuadros_maestros."""
+    for f in factores:
+        m = FACTOR_RE.match(f["factor"] or "")
+        numero = m.group(1) if m else None
+        if numero == "7":
+            f["datos_convenios"] = convenios
+
+
 def build_comunidad_estudiantil() -> dict:
     enfasis = load_json("enfasis_estudiantes.json")
     estado = load_json("estado_academico_agregado.json")
@@ -352,6 +366,10 @@ def main() -> None:
     }
     merge_cuadros_maestros(silver_inv["factores"], cuadros_maestros, resumen_grupos_factor8)
     merge_cuadros_maestros(silver_prof["factores"], cuadros_maestros, resumen_grupos_factor8)
+
+    convenios = load_json("convenios.json")
+    merge_convenios(silver_inv["factores"], convenios)
+    merge_convenios(silver_prof["factores"], convenios)
 
     gold = {
         "meta": {

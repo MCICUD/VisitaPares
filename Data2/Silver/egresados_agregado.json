@@ -1,0 +1,187 @@
+{
+  "rango_presentado": "2022-2026",
+  "total_historico_graduados": 577,
+  "por_proyecto_historico": [
+    {
+      "cod_proyecto": "95",
+      "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+      "total_graduados_historico": 121,
+      "total_graduados_roster_2025": null
+    },
+    {
+      "cod_proyecto": "195",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+      "total_graduados_historico": 167,
+      "total_graduados_roster_2025": 139
+    },
+    {
+      "cod_proyecto": "295",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+      "total_graduados_historico": 109,
+      "total_graduados_roster_2025": 107
+    },
+    {
+      "cod_proyecto": "395",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+      "total_graduados_historico": 88,
+      "total_graduados_roster_2025": 39
+    },
+    {
+      "cod_proyecto": "495",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+      "total_graduados_historico": 78,
+      "total_graduados_roster_2025": 18
+    },
+    {
+      "cod_proyecto": "595",
+      "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "total_graduados_historico": 4,
+      "total_graduados_roster_2025": null
+    },
+    {
+      "cod_proyecto": "695",
+      "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "total_graduados_historico": 10,
+      "total_graduados_roster_2025": null
+    }
+  ],
+  "por_anio_estimado": {
+    "2022": 35,
+    "2023": 39,
+    "2024": 28,
+    "2025": 36,
+    "2026": 15
+  },
+  "por_proyecto_por_anio_estimado": [
+    {
+      "cod_proyecto": "95",
+      "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+      "por_anio_estimado": {}
+    },
+    {
+      "cod_proyecto": "195",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+      "por_anio_estimado": {
+        "2022": 9,
+        "2023": 7,
+        "2024": 9,
+        "2025": 2,
+        "2026": 1
+      }
+    },
+    {
+      "cod_proyecto": "295",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+      "por_anio_estimado": {
+        "2022": 1,
+        "2024": 1
+      }
+    },
+    {
+      "cod_proyecto": "395",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+      "por_anio_estimado": {
+        "2022": 15,
+        "2023": 9,
+        "2024": 11,
+        "2025": 11,
+        "2026": 3
+      }
+    },
+    {
+      "cod_proyecto": "495",
+      "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+      "por_anio_estimado": {
+        "2022": 10,
+        "2023": 23,
+        "2024": 7,
+        "2025": 16,
+        "2026": 4
+      }
+    },
+    {
+      "cod_proyecto": "595",
+      "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "por_anio_estimado": {
+        "2025": 4
+      }
+    },
+    {
+      "cod_proyecto": "695",
+      "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "por_anio_estimado": {
+        "2025": 3,
+        "2026": 7
+      }
+    }
+  ],
+  "con_fecha_real": {
+    "rango": "2022-2023",
+    "total_graduados": 59,
+    "por_anio": {
+      "2022": 35,
+      "2023": 24
+    },
+    "por_enfasis": [
+      {
+        "cod_proyecto": "195",
+        "total_graduados": 14,
+        "por_anio": {
+          "2022": 9,
+          "2023": 5
+        },
+        "promedio_academico": 4.34
+      },
+      {
+        "cod_proyecto": "295",
+        "total_graduados": 1,
+        "por_anio": {
+          "2022": 1
+        },
+        "promedio_academico": 4.4
+      },
+      {
+        "cod_proyecto": "395",
+        "total_graduados": 21,
+        "por_anio": {
+          "2022": 15,
+          "2023": 6
+        },
+        "promedio_academico": 4.47
+      },
+      {
+        "cod_proyecto": "495",
+        "total_graduados": 23,
+        "por_anio": {
+          "2022": 10,
+          "2023": 13
+        },
+        "promedio_academico": 4.52
+      }
+    ]
+  },
+  "validacion_estimacion": {
+    "descripcion": "Para los graduados de 2022-2023 (única ventana con fecha de grado real, del acta), se compara esa fecha contra el año estimado a partir de 'Ultima Matricula' en Estados/ — la misma técnica que se usa para estimar el año de grado en 2024-2026, donde no existe fecha real con qué comparar.",
+    "estudiantes_comparables": 59,
+    "coinciden_anio_exacto": 59,
+    "coinciden_anio_mas_menos_1": 0,
+    "sin_anio_estimable": 0,
+    "graduados_en_acta_sin_registro_graduado_en_estados": 0
+  },
+  "metodologia": "Cóndor (Data/Bronze/Estados/) no guarda la fecha de grado, solo el estado actual del estudiante. 'total_historico_graduados' y 'por_proyecto_historico' cuentan TODOS los estudiantes marcados 'E - Graduado' en el roster, de cualquier año. 'por_anio_estimado' aproxima el año de grado con el año de la última matrícula registrada (columna 'Ultima Matricula') de cada graduado — no es la fecha real de grado, es la mejor aproximación disponible; ver 'validacion_estimacion' para su margen de error real, medido contra los únicos casos con fecha exacta conocida (2022-2023). 'con_fecha_real' es la única sección con fecha de grado exacta (acta oficial), pero el archivo fuente no tiene versión posterior a 2023.",
+  "limitacion": "No existe, en ningún sistema disponible (Cóndor ni los archivos sueltos de Secretaría), un registro de fecha de grado exacta para 2024-2026. El desglose de esos años es una estimación explícita, no un dato de acta; no se presenta como si lo fuera.",
+  "fuente": {
+    "estados": {
+      "carpeta": "Data/Bronze/Estados/",
+      "nota": "7 CSV por proyecto curricular; solo se usan las columnas Cod. Estudiante (para cruzar), Estado y Ultima Matricula."
+    },
+    "acta_fecha_real": {
+      "archivo": "Data/Bronze/PII_Interno/Informacion egresados 2023.xlsx",
+      "nota": "Archivo con nombre/documento/correo por egresado; no se publica en el catálogo de Data/Bronze."
+    },
+    "roster_2025": {
+      "archivo": "Data/Bronze/PII_Interno/Información Egresados Maestria y Doctorados 2025.xlsx",
+      "nota": "Roster de egresados actualizado a 2025, usado solo para verificar el total por proyecto contra Estados/; no se publica en el catálogo de Data/Bronze."
+    }
+  }
+}

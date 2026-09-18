@@ -1,0 +1,159 @@
+{
+  "convenios_totales": 388,
+  "por_nivel": {
+    "Nacional": 167,
+    "Internacional": 221
+  },
+  "por_tipo": {
+    "Convenio Marco": 229,
+    "Convenio Específico": 131,
+    "MOU": 23,
+    "Convenio específico": 4,
+    "Adhesión": 1
+  },
+  "convenios_relacionados_facultad_ingenieria": [
+    {
+      "codigo": "C-2012-12",
+      "nivel": "Internacional",
+      "pais_categoria": "Estados Unidos",
+      "institucion": "Comisión Interamericana de Telecomunicaciones de la OEA- CITEL",
+      "fecha_inicio": "2012-04-29",
+      "fecha_fin": "N/A",
+      "vigencia_anios": "N/A",
+      "estado": "Vigencia indefinida",
+      "tipo": "Convenio Marco",
+      "denominacion": "Cooperación",
+      "objeto": "Organización de seminarios, reuniones y mesas redondas sobre materias de interés común; colaboración en proyectos conjuntos, capacitación y publicaciones conjuntas entre otras.",
+      "_fila": 28,
+      "frases_encontradas": [
+        "TELECOMUNICACIONES"
+      ],
+      "aplica_a_posgrado_mcic": true,
+      "justificacion_aplicabilidad": "Convenio Marco de cooperación general (seminarios, proyectos conjuntos, capacitación); el objeto no restringe nivel de formación ni proyecto curricular."
+    },
+    {
+      "codigo": "C-2012-36",
+      "nivel": "Nacional",
+      "pais_categoria": "Colombia IES",
+      "institucion": "Universidad de Caldas",
+      "fecha_inicio": "2012-12-20",
+      "fecha_fin": "2027-02-24",
+      "vigencia_anios": 14,
+      "estado": "Renovación Automática",
+      "tipo": "Convenio Específico",
+      "denominacion": "Movilidad de estudiantes",
+      "objeto": "Establecer las bases para la movilidad académica de estudiantes de pregrado  de Ingeniería de Sistemas de la UDFJC y de la Universidad de Caldas.",
+      "_fila": 51,
+      "frases_encontradas": [
+        "INGENIERIA DE SISTEMAS"
+      ],
+      "aplica_a_posgrado_mcic": false,
+      "justificacion_aplicabilidad": "El objeto dice explícitamente 'movilidad académica de estudiantes de pregrado de Ingeniería de Sistemas'; no incluye posgrado ni a la MCIC."
+    },
+    {
+      "codigo": "C-2016-10",
+      "nivel": "Nacional",
+      "pais_categoria": "Colombia Otros Organismos",
+      "institucion": "New Net S.A.",
+      "fecha_inicio": "2016-07-18",
+      "fecha_fin": "2028-07-18",
+      "vigencia_anios": 3,
+      "estado": "Renovación Automática",
+      "tipo": "Convenio Específico",
+      "denominacion": "Prácticas/Pasantías",
+      "objeto": "Establecer términos de cooperación interinstitucional con el fin de optimizar la utilización de los recursos humanos tecnológicos y materiales de ambas entidades, por medio de Pasantías de los estudiantes de la UNIVERSIDAD (UDFJC)  del Proyecto Curricular de Ingeniería de Sistemas en NEWNET S.A. ",
+      "_fila": 112,
+      "frases_encontradas": [
+        "INGENIERIA DE SISTEMAS"
+      ],
+      "aplica_a_posgrado_mcic": false,
+      "justificacion_aplicabilidad": "El objeto restringe a estudiantes 'del Proyecto Curricular de Ingeniería de Sistemas' (el programa de pregrado); no menciona posgrado ni a la MCIC."
+    },
+    {
+      "codigo": "C-2019-28",
+      "nivel": "Internacional",
+      "pais_categoria": "Chile",
+      "institucion": "Universidad de Valparaiso",
+      "fecha_inicio": "2019-06-27",
+      "fecha_fin": "2027-06-26",
+      "vigencia_anios": 4,
+      "estado": "Renovación Automática",
+      "tipo": "Convenio Específico",
+      "denominacion": "Movilidad de estudiantes",
+      "objeto": "Convenio de Intercambio y/o movilidad estudiantil Objeto: Establecer un programa de intercambio estudiantil, en el podrán participar todos los estudiantes de la UDFJC y los estudiantes de la Escuela de Ingeniería Civil Industrial de la Facultad de Ingeniería de la Universidad de Valparaíso, el cual será regulado en el presente convenio.",
+      "_fila": 146,
+      "frases_encontradas": [
+        "FACULTAD DE INGENIERIA"
+      ],
+      "aplica_a_posgrado_mcic": true,
+      "justificacion_aplicabilidad": "El objeto dice 'podrán participar todos los estudiantes de la UDFJC'; no restringe por nivel de formación ni por proyecto curricular del lado UDFJC."
+    },
+    {
+      "codigo": "C-2022-29",
+      "nivel": "Internacional",
+      "pais_categoria": "México",
+      "institucion": "Universidad Popular Autónoma del Estado de Puebla UPAEP",
+      "fecha_inicio": "2022-08-17",
+      "fecha_fin": "2027-08-17",
+      "vigencia_anios": 5,
+      "estado": "Vigente",
+      "tipo": "Convenio Específico",
+      "denominacion": "Movilidad estudianestes Facultad de Ingeniería",
+      "objeto": " Convenio Específico de Movilidad Académica de Estudiantes y Docentes Objeto: El presente convenio tiene por objeto establecer las bases para la movilidad académica de estudiantes (pregrado y postgrado) de la facultad de ingeniería y de personal docente de la facultad de ingeniería de la “UDFJC” y de “UPAEP, A.C.”, en desarrollo del Convenio Marco de Cooperación celebrado entre “UPAEP, A.C.” y la “UDFJC”.",
+      "_fila": 233,
+      "frases_encontradas": [
+        "FACULTAD DE INGENIERIA"
+      ],
+      "aplica_a_posgrado_mcic": true,
+      "justificacion_aplicabilidad": "El objeto dice explícitamente 'movilidad académica de estudiantes (pregrado y postgrado) de la facultad de ingeniería'; incluye posgrado, y por tanto a la MCIC."
+    },
+    {
+      "codigo": "C-2023-19",
+      "nivel": "Nacional",
+      "pais_categoria": "Colombia IES",
+      "institucion": "Fundación UNIR",
+      "fecha_inicio": "2023-06-28",
+      "fecha_fin": "2030-06-28",
+      "vigencia_anios": 7,
+      "estado": "Vigente",
+      "tipo": "Convenio Específico",
+      "denominacion": "Cotitulación",
+      "objeto": "El objeto de este convenio consiste en regular la cooperación entre la UDFJC y la FUNDACIÓN para permitir el desarrollo del programa académico conjunto “Pregrado en Ingeniería de Software”, que se impartirá en modalidad virtual, previa obtención por la UDFJC del registro calificado adscrito a la Facultad de Ingeniería otorgado por el Ministerio de Educación Nacional (MEN), bajo los mecanismos y estrategias para el desarrollo conjunto de los procesos de diseño y gestión de las actividades académicas del programa que se desarrollan en el presente instrumento.",
+      "_fila": 259,
+      "frases_encontradas": [
+        "FACULTAD DE INGENIERIA"
+      ],
+      "aplica_a_posgrado_mcic": false,
+      "justificacion_aplicabilidad": "El objeto es sobre crear un programa académico conjunto de 'Pregrado en Ingeniería de Software'; no es un programa de posgrado, no aplica a la MCIC."
+    },
+    {
+      "codigo": "C-2025-46",
+      "nivel": "Internacional",
+      "pais_categoria": "Francia",
+      "institucion": "IMT Ataltique",
+      "fecha_inicio": "2025-11-21",
+      "fecha_fin": "2030-11-21",
+      "vigencia_anios": 5,
+      "estado": "Vigente",
+      "tipo": "Convenio Específico",
+      "denominacion": "Cadena de Formación",
+      "objeto": "El objeto de este acuerdo es establecer los términos y condiciones bajo los cuales los estudiantes de pregrado de la Facultad de Ingeniería de la UDFJC tendrán acceso a los programas de estudios de posgrado del IMT Atlantique en el marco de la estrategia de cadena de formación para el doble diploma.",
+      "_fila": 380,
+      "frases_encontradas": [
+        "FACULTAD DE INGENIERIA"
+      ],
+      "aplica_a_posgrado_mcic": false,
+      "justificacion_aplicabilidad": "El objeto da acceso a 'estudiantes de pregrado de la Facultad de Ingeniería' de la UDFJC a programas de posgrado del IMT Atlantique; el lado UDFJC del convenio es solo de pregrado, no da ningún beneficio a estudiantes de la MCIC."
+    }
+  ],
+  "total_convenios_relacionados": 7,
+  "total_convenios_aplicables_mcic": 3,
+  "criterio_filtro": "Se buscó, sobre institución + denominación + objeto de cada convenio (sin tildes ni mayúsculas), alguna de estas frases: FACULTAD DE INGENIERIA, INGENIERIA DE SISTEMAS, TELEMATICA, TELEINFORMATICA, GEOMATICA, TELECOMUNICACIONES, CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES, MAESTRIA EN CIENCIAS DE LA INFORMACION, MCIC. Cada convenio relevante trae 'frases_encontradas' con las que hizo calzar, para poder verificar el filtro contra el Excel fuente. Además, cada uno trae 'aplica_a_posgrado_mcic' (true/false) y 'justificacion_aplicabilidad': una lectura manual del objeto de ESE convenio (citada literalmente) que dice si su alcance incluye posgrado (y por tanto a la MCIC) o si el propio texto lo restringe a un programa de pregrado distinto — ver APLICA_A_POSGRADO_MCIC en este script.",
+  "limitacion": "Este es el listado INSTITUCIONAL de convenios vigentes de toda la Universidad Distrital (no uno filtrado por programa: URELINTER no ofrece un recorte por programa/facultad). Ningún convenio de los 388 menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones (MCIC). Se encontraron por texto 7 que mencionan a la Facultad de Ingeniería (la facultad a la que pertenece la MCIC) o a alguna de sus áreas afines; de esos, solo 3 aplican realmente a un programa de posgrado como la MCIC según su propio objeto (los otros 4 quedaron descartados de la lista que se muestra porque su objeto restringe explícitamente el convenio a un programa de PREGRADO — Ingeniería de Sistemas o Ingeniería de Software — y no benefician a estudiantes de la maestría). El detalle de los 7 encontrados y por qué se descartaron los 4 queda en 'convenios_relacionados_facultad_ingenieria' (campo 'aplica_a_posgrado_mcic') de este mismo archivo, para que se pueda auditar.",
+  "fuente": {
+    "url": "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones",
+    "archivo_descargado": "Data/Bronze/Convenios/Convenios vigentes URELINTER.xlsx",
+    "fecha_descarga": "2026-09-18",
+    "nota": "Descrito por URELINTER como 'el listado de los convenios vigentes al último trimestre 2025'. Para copia de un convenio o información adicional: convenios-ceri@udistrital.edu.co."
+  }
+}

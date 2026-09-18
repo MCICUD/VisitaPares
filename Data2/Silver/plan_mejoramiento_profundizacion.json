@@ -1,0 +1,675 @@
+{
+  "modalidad": "profundizacion",
+  "archivo_fuente": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+  "cabecera": {
+    "codigo_formato": "Código: \n CC-FR-001",
+    "version_formato": "Versión:  04",
+    "fecha_aprobacion_formato": "Fecha de Aprobación:  \n2025/09/29",
+    "macroproceso": "Macroproceso: Direccionamiento Estratégico",
+    "proceso": "Proceso: Curriculo y Calidad",
+    "facultad": "INGENIERÍA ",
+    "programa_academico": "MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES",
+    "registro_calificado": "Resolución 9925 21 JUN 2023",
+    "registro_calificado_nota": null,
+    "registro_calificado_vigencia": "7 AÑOS",
+    "acreditacion_alta_calidad": "24858 30 DIC 2022",
+    "acreditacion_alta_calidad_vigencia": "4 AÑOS",
+    "nivel_formacion": "POSTGRADO",
+    "fecha_proyeccion_plan": "2026-2027",
+    "fuente": {
+      "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+      "hoja": "Plan de mejoramiento",
+      "fila": "2-9 (cabecera)"
+    }
+  },
+  "factores": [
+    {
+      "factor": "FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL.",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "De acuerdo con los lineamientos institucionales vigentes y los procesos de Autoevaluación permanente desarrollados por la Maestría, es pertinente fortalecer la socialización del Proyecto Educativo del Programa, los mecanismos de seguimiento institucional y la participación de la comunidad académica en los procesos de autoevaluación y autorregulación.",
+      "proyecto": "Estrategia de socialización y apropiación del PEP y del sistema de autoevaluación",
+      "objetivo": "Fortalecer la socialización del PEP, los indicadores de gestión y las acciones de mejoramiento continuo por parte de estudiantes y docentes.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 10,
+      "indicador_cumplimiento": "Número de jornadas de socialización ejecutadas y documentadas",
+      "tipo_indicador": "Resultado",
+      "linea_base": "jornadas de socialización registradas en 2026-1",
+      "meta": "3 jornadas de socialización ejecutadas y documentadas",
+      "actividades": "a. Diseñar cronograma; \nb. Convocar estudiantes y docentes; \nc. Socializar con la comunidad académica el documento del Proyecto Educativo de Programa actualizado.\nd. Divulgar indicadores y resultados. ",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Mejora",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": false,
+        "institucion": false
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 15
+      }
+    },
+    {
+      "factor": "FACTOR 2. ESTUDIANTES",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer las estrategias de divulgación y posicionamiento de la Maestría en sus dos componentes (Investigación y Profundización) para favorecer el ingreso de nuevos estudiantes, así como promover el conocimiento de los estatutos, los estímulos académicos, los mecanismos de seguimiento estudiantil y el desarrollo de competencias transversales asociadas al liderazgo, la toma de decisiones y el trabajo colaborativo, contribuyendo al fortalecimiento del proceso formativo y la permanencia estudiantil.",
+      "proyecto": "Estrategia de divulgación, acompañamiento y fortalecimiento de competencias estudiantiles",
+      "objetivo": "Fortalecer la divulgación y posicionamiento de las Maestrías en Investigación y Profundización, así como promover el conocimiento de los mecanismos institucionales de apoyo y el desarrollo de competencias transversales que contribuyan al ingreso, permanencia y fortalecimiento del proceso formativo de los estudiantes.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad. y Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 10,
+      "indicador_cumplimiento": "Número de actualizaciones realizadas en las páginas web; porcentaje de información académica actualizada y publicada; número de piezas promocionales producidas y divulgadas.",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Información de la oferta académica publicada en las páginas web de la Maestría correspondiente al semestre anterior, con necesidad de actualización y fortalecimiento de los procesos de divulgación institucional.",
+      "meta": "Realizar al menos dos (2) actualizaciones anuales de las páginas web de las Maestrías en Investigación y en Profundización, garantizando la publicación oportuna del 100 % de la información relacionada con oferta académica, requisitos, calendarios y procesos de inscripción y admisión, así como producir y divulgar mínimo dos (2) piezas de material promocional. ",
+      "actividades": "a) Actualización web, \nb) Verificación de calendario académico,\nc) Actualización de formatos, elaboración de materiales promocionales, divulgación digital\nd) Seguimiento a la información publicada. \ne) Realizar jornadas de inducción y reinducción; divulgar estatutos y estímulos  ",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Mejora",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 16
+      }
+    },
+    {
+      "factor": "FACTOR 3. PROFESORES",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer la formación y actualización del cuerpo docente en aspectos didácticos, pedagógicos, epistemológicos y de enseñanza en segunda lengua, con el propósito de garantizar la coherencia del proceso formativo con la propuesta curricular, promover la innovación en las prácticas de enseñanza y fortalecer la internacionalización del currículo. Esta oportunidad de mejora contribuye al Factor 3. Profesores y se articula con el Factor 10. Medios educativos y ambientes de aprendizaje mediante el fortalecimiento del uso pedagógico de recursos y tecnologías educativas.",
+      "proyecto": "Procesos Institucionales Capacitación permanente del equipo docente",
+      "objetivo": "Fortalecer las competencias pedagógicas, didácticas, tecnológicas y de internacionalización del cuerpo docente, mediante procesos de formación y actualización permanente que contribuyan a la calidad del proceso formativo, la innovación en los ambientes de aprendizaje y la coherencia con la propuesta curricular y los resultados de aprendizaje del programa.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental. y Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 6,
+      "indicador_cumplimiento": "Porcentaje de profesores de las Maestrías que participan como asistentes en actividades de capacitación académica y/o administrativa.",
+      "tipo_indicador": "Resultado",
+      "linea_base": "Número de docentes de la Maestría capacitados en el año anterior.",
+      "meta": "Lograr que mínimo el 15 % de los profesores de las Maestrías participen como asistentes en actividades de capacitación académica y/o administrativa durante el periodo de seguimiento.",
+      "actividades": "a) Consolidar periódicamente informes sobre la participación de los docentes de las Maestrías en actividades de formación y capacitación.                                                                                                                                                     b) Analizar  la incidencia de las actividades de formación y capacitación en el proceso formativo de las Maestrías. ",
+      "periodicidad": "ANUAL",
+      "tipo_actividad": "Mejora",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 17
+      }
+    },
+    {
+      "factor": "FACTOR 4. EGRESADOS",
+      "tipo": "Fortaleza",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer el relacionamiento con los egresados mediante mecanismos de seguimiento, comunicación y participación académica que permitan conocer el impacto de las Maestrías en Investigación y en Profundización en el ámbito profesional, académico e investigativo, así como consolidar canales institucionales (página web, redes sociales y eventos académicos) y desarrollar un estudio de impacto que contribuya al mejoramiento continuo y a la evidencia de la pertinencia del programa.",
+      "proyecto": "Estrategia de seguimiento, comunicación y evaluación del impacto de egresados",
+      "objetivo": "Fortalecer el vínculo con los egresados de la Maestría mediante mecanismos de seguimiento, comunicación y participación académica que permitan identificar su impacto profesional, académico e investigativo y utilizar esta información para retroalimentar los procesos de mejoramiento continuo y evidenciar la pertinencia y relevancia de la formación ofrecida por el programa.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 7,
+      "indicador_cumplimiento": "Porcentaje de egresados con información actualizada en el módulo institucional de Hoja de Vida de Egresados.",
+      "tipo_indicador": "Gestión",
+      "linea_base": "Base de datos de egresados",
+      "meta": "Lograr que al menos el 50 % de los egresados de las Maestrías cuenten con información actualizada en el módulo institucional de Hoja de Vida de Egresados desarrollado por la OATI, fortaleciendo la disponibilidad y sistematización de información para el seguimiento, caracterización y análisis de su trayectoria e impacto durante el periodo 2026-2027.",
+      "actividades": "a) Revisar y depurar la información disponible de los egresados de las Maestrías.\nb) Socializar con los egresados el nuevo módulo institucional y orientar el proceso para el registro y actualización de su información.\nc) Desarrollar estrategias de comunicación y contacto con los egresados para promover la actualización de sus datos y hoja de vida en el sistema institucional.\nd) Realizar seguimiento periódico al porcentaje de egresados que han actualizado su información en el módulo.\ne) Utilizar la información consolidada en el sistema institucional como insumo para la caracterización, seguimiento y análisis del impacto de los egresados de las Maestrías.",
+      "periodicidad": "ANUAL",
+      "tipo_actividad": "Mejora",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 18
+      }
+    },
+    {
+      "factor": "FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer la integración de los Resultados de Aprendizaje en la propuesta formativa de las Maestrías en sus dos componentes (investigación y profundización), en coherencia con el Decreto 1330 de 2019 y el Acuerdo 002 de 2020, mediante la consolidación de un sistema de evaluación y seguimiento que permita valorar el avance del proceso formativo, garantizar la retroalimentación permanente de los procesos de enseñanza y aprendizaje y orientar la actualización curricular de acuerdo con las demandas sociales, tecnológicas y profesionales del campo de las ciencias de la información y las comunicaciones. Esta oportunidad de mejora tiene carácter transversal y contribuye al fortalecimiento de los Factores 2 y 6 ",
+      "proyecto": "Actualización curricular y fortalecimiento de la retroalimentación de resultados de aprendizaje",
+      "objetivo": "Fortalecer la integración de los Resultados de Aprendizaje en la propuesta curricular de las Maestrías en Investigación y en Profundización mediante la consolidación de un sistema de evaluación, seguimiento y retroalimentación que permita valorar el avance del proceso formativo, orientar la actualización curricular y favorecer el logro de los resultados de aprendizaje",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 8,
+      "indicador_cumplimiento": "Porcentaje de Resultados de Aprendizaje definidos y asociados a su correspondiente sistema de evaluación.",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Ejes de formación y competencias definidos por los programas de Maestría en Investigación y en Profundización.",
+      "meta": "Resultados de Aprendizaje 100% paras las Maestrías en Investigación y en Profundización y el correspondiente sistema de evaluación.",
+      "actividades": "a) Definición y socialización de ejes de fornacióny competencias de los proyectos curriculares  con el equipo docente. b) definición de los Resultados de Aprendizaje a nivel microcurricular de las Maestrías en Investigación y en Profundización                                                                                                                                                                                                                                                                                               ",
+      "periodicidad": "ANUAL",
+      "tipo_actividad": "Sostenibilidad",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 19
+      }
+    },
+    {
+      "factor": "FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer la estrategia de flexibilización curricular y acompañamiento académico dirigida a estudiantes que han culminado todos los espacios académicos del programa y tienen pendiente únicamente el trabajo de grado, mediante el cambio de modalidad (profundización/investigación), la homologación de los espacios académicos cursados y el seguimiento académico-administrativo, con el fin de favorecer la permanencia, evitar la pérdida de la calidad de estudiante y promover la graduación oportuna.",
+      "proyecto": "Estrategia de flexibilización curricular y acompañamiento para la graduación oportuna",
+      "objetivo": "Fortalecer la permanencia y promover la graduación oportuna de los estudiantes de la Maestría en Ciencias de la Información y las Comunicaciones mediante una estrategia de flexibilización curricular, homologación de espacios académicos y acompañamiento académico-administrativo para estudiantes que únicamente tienen pendiente el trabajo de grado y presentan riesgo de pérdida de la calidad de estudiante.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad. y Lineamiento Estratégico 2. Establecer un diseño curricular dinámico y flexible que promueva el pluralismo y consolide una comunidad universitaria crítica-transformadora y en armonía ambiental.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 6,
+      "indicador_cumplimiento": "Porcentaje de estudiantes identificados con pendiente exclusivo de trabajo de grado y riesgo de pérdida de calidad que culminan satisfactoriamente el trabajo de grado y obtienen su grado académico.",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Casos de flexibilización curricular y homologación para estudiantes con pendiente exclusivo de trabajo de grado. ",
+      "meta": "Implementar y consolidar la estrategia para que al menos el 50% de los estudiantes identificados con pendiente exclusivo de trabajo de grado y riesgo de pérdida de calidad de estudiante culminen su trabajo de grado y obtengan su grado académico durante el periodo 2026-2027",
+      "actividades": "a) Identificar semestralmente estudiantes con pendiente exclusivo de trabajo de grado.\nb) Realizar análisis académico y normativo de viabilidad para cambio de modalidad (profundización / investigación).\nc) Gestionar los procesos de homologación de espacios académicos cursados y aprobados.\nd) Realizar seguimiento periódico al avance de los trabajos de grado y a los tiempos de permanencia.\ne) Consolidar reportes semestrales de estudiantes beneficiados, trabajos sustentados y graduados efectivos derivados de la estrategia.",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Mejora",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 20
+      }
+    },
+    {
+      "factor": "FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer y consolidar las alianzas, convenios y mecanismos de cooperación con instituciones nacionales e internacionales, promoviendo la movilidad académica y la participación de docentes y estudiantes en redes de intercambio científico e investigación, con el fin de ampliar la proyección y los contextos de incidencia académica e investigativa de las Maestrías en Investigación y en Profundización.",
+      "proyecto": "Cooperación interinstitucional de orden Nacional e internacional de la MCIC",
+      "objetivo": "Incrementar la interacción del programa con instituciones nacionales e internacionales y ampliar las oportunidades de movilidad y cooperación académica.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 3. Integrar las funciones universitarias por medio de la investigación, creación, innovación para la ampliación del conocimiento como bien público y para la solución de problemas de la ciudad-región y de la sociedad en general.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 10,
+      "indicador_cumplimiento": "Porcentaje de incremento en el número de convenios activos, actividades de cooperación y participaciones en redes académicas respecto al periodo base.",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Número de convenios vigentes para la Maestría en el año anterior",
+      "meta": "Incrementar en al menos un 30 % el número de convenios activos y actividades de  cooperación o participación en redes académicas para las Maestrías en Investigación y en Profundización con el fin que se realice la participación de la comunidad académica ",
+      "actividades": "a)Diagnóstico de los convenios vigentes aplicables a las Maestrías. b) elaborar un diagnostico del las organizaciones o entidades Nacionales e Internacionales con las que es pertinente que las Maestrías establezcan acciones de cooperación.   \nb) Establecer contacto con entidades o instituciones del orden Nacional e Internacional para construir un diálogo investigativo y académico que aporte a los procesos académicos de los que son parte los estudiantes de las Maestrías.  \nc) Definir las acciones para formalización de convenios en articulación con la Unidad de Relaciones Internacionales e Interinstitucionales de la Universidad.\nd) Promover la participación de la comunidad académica en los convenios formalizados.",
+      "periodicidad": "ANUAL",
+      "tipo_actividad": "Sostenibilidad",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 21
+      }
+    },
+    {
+      "factor": "FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN, ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tipo": "Fortaleza",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer la vinculación de los estudiantes a los procesos y proyectos de investigación desarrollados en las Maestrías, con el fin de consolidar competencias investigativas y de profundización coherentes con el perfil de formación de cada programa. Esta acción contribuye al fortalecimiento del proceso formativo estudiantil y se articula con el Factor 2. Estudiantes al fortalecer uno de los componentes fundamentales de su formación y su rol dentro de las Maestrías en coherencia con los perfiles académicos propuestos.",
+      "proyecto": "Fortalecimiento de la producción académica y la articulación institucional de la investigación en las Maestría",
+      "objetivo": "Promover la participación de los estudiantes en los procesos y proyectos de investigación de las Maestrías en Investigación y en Profundización, mediante estrategias de vinculación y acompañamiento que consoliden competencias investigativas y de profundización coherentes con los perfiles de formación y contribuyan al fortalecimiento de su proceso formativo y su rol académico dentro del programa",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 3. Integrar las funciones universitarias por medio de la investigación, creación, innovación para la ampliación del conocimiento como bien público y para la solución de problemas de la ciudad-región y de la sociedad en general.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 10,
+      "indicador_cumplimiento": "Número de productos académicos o investigativos derivados de los procesos de investigación de las Maestría",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Número de estudiantes que participan en los grupos de investigación que desarrollan proyectos en las Maestrías en Investigación y en Profundización en el año anterior. ",
+      "meta": "incrementar el número de productos académicos o investigativos derivados de los procesos de investigación y profundización de las Maestrías. ",
+      "actividades": "a) Presentar a los nuevos estudiantes en cada cohorte las rutas y procesos de Invetigación en cada una de las Maestrías (Investigación y Profundización).                                                                                                                                                                                                                                                         b) Socializar y vincular de manera permanente las actividades de Investigación y de Profundización en la que pueden participar los estudiantes y su contribución al proceso formativo.    ",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Sostenibilidad",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 22
+      }
+    },
+    {
+      "factor": "FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer la divulgación y apropiación de los servicios de Bienestar Institucional, promoviendo una mayor participación de estudiantes y docentes en las estrategias de desarrollo humano, apoyo socioeconómico, cultura, deporte y salud integral.",
+      "proyecto": "Estrategia de articulación y divulgación de Bienestar Institucional para posgrados",
+      "objetivo": "Promover el acceso y la participación de la comunidad académica del programa en los servicios y actividades de Bienestar Institucional.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 1. Formar ciudadanos, profesionales, investigadores, creadores e innovadores, íntegros con pensamiento crítico y cultura democrática, en contextos diferenciados inter y multiculturales para la transformación de la sociedad.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 5,
+      "indicador_cumplimiento": "Porcentaje de estudiantes activos informados sobre la oferta de actividades y servicios de Bienestar Institucional",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Oferta de actividades y serivcios  de Bienestar Universitario para estudiantes de las Maestrías y del número de estudiantes que acceden.",
+      "meta": "Informar al 100 % de los estudiantes activos de las Maestrías sobre la oferta de actividades y servicios de Bienestar Institucional.",
+      "actividades": "a) Solicitar periodicamente a la Oficina de Bienestar Institucional las activiades y servicios que ofrecen a los estudiantes de las Maestrías.                                                                                                                                              b) Realizar semestralmente la divulgación de las actividades y los servicios que ofrece Bienestar Universitario con el fin que los estudiantes puedan utilizarlos.  ",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Sostenibilidad",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 23
+      }
+    },
+    {
+      "factor": "FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Respecto a medios educativos y de aprendizaje necesarios en el desarrollo de los procesos de formación se destaca el papel de las tecnologías como escenario para diversificar los modos como se accede al conocimiento y se participa de su generación. Por tal motivo, en este factor se subraya la articulación con instancias de la Universidad para identificar qué recursos aportan en la construcción de ambientes de aprendizaje y de recursos que fortalezcan todos los ámbitos académicos que conforman las Maestrías en Investigación y en Profundización.",
+      "proyecto": "Medios educativos y ambientes de aprendizaje en las Maestrías en Investigación y en Profundizacióon.",
+      "objetivo": "Fortalecer la articulación con las instancias institucionales responsables de los recursos educativos y tecnológicos para identificar, gestionar y consolidar ambientes de aprendizaje y recursos académicos que favorezcan el acceso al conocimiento, la participación en su generación y el desarrollo de los procesos de formación e investigación de las Maestrías en Investigación y en Profundización.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 5,
+      "indicador_cumplimiento": "Número de ambientes de aprendizaje diseñados e implementados",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Diagnóstico de los ambientes de aprendizaje y los recursos disponibles para las Maestrías en Investigación y en Profundización.",
+      "meta": "Consolidación de los ambientes de aprendizaje y medios educativos que apoyen los procesos académicos de las Maestrías en Investigación y en Profundización.  ",
+      "actividades": "a) Elaborar un diagnóstico sobre ambientes de aprendizaje y medios educativos disponibles para las Maestrías.                                                                                                                                                                                                              b) Consolidar una propuesta de medios educativos coherentes para los procesos de las Maestrías en articulación con la Unidad Biblioteca, el Comité de Planes TIC y demás instancias que aporten al ejercicio.    ",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Sostenibilidad",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 24
+      }
+    },
+    {
+      "factor": "FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Con el objetivo de garantizar el desarrollo de los procesos de autoevaluación y la toma de decisiones de manera oportuna, se requiere contar con el Sistema (Metodología) interno de aseguramiento de calidad, desde el cual identificar logros, resultados e impacto de los procesos académicos y administrativos. Así las cosas se considera que este elemento requiere un lugar en el plan de mejoramiento al constituir el soporte de la Acreditación en Alta Calidad en cuanto reconocimiento de procesos desarrollados con altos criterios de gestión curricular y administrativa. ",
+      "proyecto": "Sistema Interno de Aseguramiento de la Calidad",
+      "objetivo": "Consolidar mecanismos de seguimiento, comunicación y articulación institucional que fortalezcan el sistema interno de aseguramiento de la calidad, apoyen los procesos de autoevaluación y mejoren la eficiencia de la gestión académica y administrativa del programa para contribuir al sostenimiento de las condiciones de Acreditación en Alta Calidad.",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 5. Consolidar y fortalecer la democracia participativa, la gobernanza y la gobernabilidad para la cohesión de la comunidad universitaria.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 5,
+      "indicador_cumplimiento": "Sistema Interno de Aseguramiento de la Calidad estructurado por la Universidad e implementado por las Maestrías en Investigación y en Profundización.",
+      "tipo_indicador": "Gestión",
+      "linea_base": "Lineamientos internos para el desarrollo de procesos de autoevaluación que sustenten el mejoramiento continuo y la calidad",
+      "meta": "Participar del establecimiento del Sistema interno de aseguramiento de calidad en la Universidad.",
+      "actividades": "a) Articular los proceso de las Maestrías en relación con el Sistema Interno de Aseguramiento de la Calidad con las perspectivas y los lineamientos institucionales.                                                    b) Participar en el ejercicio institucional de conformación del Sistema Interno de Aseguramiento de la Calidad propuesto desde los órganos de consulta y decisión de la Universidad.                                                                                                                                            c)  Implementar los lineamientos del Sistema Interno de Aseguramiento de la Calidad en los procesos de Autoevaluación del programa.                                                                                     d) Construir reportes que evidencien apropiación del Sistema Interno de Aseguramiento Calidad en el programa.",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Mejora",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular \nComité Currículo y Calidad de Posgrados\nFacultad de Ingeniería  y Comité Currículo y Calidad Institucional",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 25
+      }
+    },
+    {
+      "factor": "FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS",
+      "tipo": "Oportunidad de mejora",
+      "origen": "Acciones propias de la autoevaluación permanente",
+      "descripcion": "Fortalecer la articulación institucional y el seguimiento a las acciones de mejoramiento de la infraestructura física y tecnológica de la Facultad de Ingeniería, con el fin de garantizar condiciones adecuadas para el desarrollo de los procesos académicos, investigativos y administrativos de las Maestrías en Investigación y Profundización.",
+      "proyecto": "Estrategia de articulación institucional y seguimiento al fortalecimiento de la infraestructura física y tecnológica",
+      "objetivo": "Fortalecer la articulación entre las dependencias institucionales y el seguimiento a las acciones de mejoramiento de la infraestructura física y tecnológica de la Facultad de Ingeniería, con el propósito de garantizar condiciones adecuadas para el desarrollo de los procesos académicos, investigativos y administrativos de la Maestría",
+      "articulacion_plan_institucional": "Lineamiento Estratégico 4. Garantizar, gestionar y proveer las condiciones institucionales para el cumplimiento de las funciones universitarias y el bienestar de su comunidad.",
+      "periodo_inicio": "2026-08-01",
+      "periodo_fin": "2027-12-01",
+      "peso_prioridad": 5,
+      "indicador_cumplimiento": "Porcentaje proyectado de aprovechamiento de los espacios académicos y tecnológicos asignados a las Maestrías en Investigación y en Profundización en el nuevo edificio de la Facultad de Ingeniería.",
+      "tipo_indicador": "Resultados",
+      "linea_base": "Informe del avance de la obra de nueva infraestructura de la Facultad de Ingeniería en el momento de obtención de la Acreditación en Alta Calidad",
+      "meta": "Proyectar un aprovechamiento de al menos el 80 % de los espacios académicos y tecnológicos asignados a las Maestría en el nuevo edificio de la Facultad de Ingeniería, para el desarrollo de sus actividades académicas.",
+      "actividades": "a) Solicitar el informe de avance de la obra al momento de optención de la Acreditación de Alta Calidad. b)Solicitar informes periódicos sobre el avance de la obra de nueva infraestructura de la Facultad de Ingeniería a las instancias lideres del proceso. \nc) Socializar con la comunidad académica las acciones y avances que impacten el funcionamiento de los programas de posgrado.",
+      "periodicidad": "SEMESTRAL",
+      "tipo_actividad": "Sostenibilidad",
+      "apoyo_requerido": {
+        "programa_academico": true,
+        "facultad": true,
+        "institucion": true
+      },
+      "responsable": "Coordinación Proyecto Curricular",
+      "recursos": "Físicos, Tecnológicos y Humanos",
+      "seguimiento": {
+        "corte_1": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "corte_2": {
+          "fecha_seguimiento": null,
+          "descripcion_avance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "otras_observaciones": null
+        },
+        "acumulado": {
+          "balance_cualitativo": null,
+          "pct_avance_cuantitativo": null,
+          "unidad_medida_evidencia": null,
+          "enlace_evidencia": null,
+          "otras_observaciones": null
+        }
+      },
+      "fuente": {
+        "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+        "hoja": "Plan de mejoramiento",
+        "fila": 26
+      }
+    }
+  ]
+}

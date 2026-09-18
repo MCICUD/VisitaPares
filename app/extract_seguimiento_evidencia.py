@@ -27,8 +27,8 @@ from build_bronze_manifest import tamano_legible  # noqa: E402
 SILVER_DIR = ROOT / "Data/Silver"
 
 MODALIDADES = {
-    "investigacion": ROOT / "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN",
-    "profundizacion": ROOT / "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN",
+    "investigacion": ROOT / "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación",
+    "profundizacion": ROOT / "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación",
 }
 
 FACTOR_RE = re.compile(r"^FACTOR\s*0*(\d{1,2})\b", re.IGNORECASE)
@@ -53,8 +53,8 @@ def listar_archivos(carpeta: Path) -> list[dict]:
 
 
 def procesar_modalidad(modalidad: str, base: Path) -> dict:
-    seguimiento_dir = base / "Evidencias Seguimiento Plan de Mejoramiento"
-    rc_aac_dir = base / "Evidencias Procesos RC y AAC"
+    seguimiento_dir = base / "Plan de Mejoramiento"
+    rc_aac_dir = base / "Procesos de RC y AAC"
 
     documentos_generales = []
     factores: dict[str, dict] = {str(n): {"factor_nombre": None, "actividades": []} for n in range(1, 13)}

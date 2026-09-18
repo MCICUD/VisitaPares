@@ -605,6 +605,7 @@ function openFactorModal(modalidad, index) {
     ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
     ${renderCuadroMaestroHtml(f.datos_cuadro_maestro_cna)}
     ${renderComunidadFactor4Html(f.datos_comunidad_factor4)}
+    ${renderConveniosHtml(f.datos_convenios)}
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
@@ -762,6 +763,59 @@ function renderCuadroMaestroHtml(datos) {
     <div style="margin-bottom:16px;">
       <p style="margin-bottom:8px;"><strong>📊 Datos oficiales del Cuadro Maestro (CNA):</strong></p>
       ${bloques}
+    </div>
+  `;
+}
+
+function renderConveniosHtml(datos) {
+  if (!datos) return '';
+  const relacionados = datos.convenios_relacionados_facultad_ingenieria || [];
+  const aplicables = relacionados.filter((c) => c.aplica_a_posgrado_mcic === true);
+
+  const totalesHtml = `
+    <div class="plan-meta-box" style="margin-bottom:12px;">
+      <div class="plan-meta-row"><span>Convenios institucionales vigentes (toda la UD)</span><span>${datos.convenios_totales}</span></div>
+      ${Object.entries(datos.por_nivel || {}).map(([nivel, n]) => `<div class="plan-meta-row"><span>· ${escapeHtml(nivel)}</span><span>${n}</span></div>`).join('')}
+      <div class="plan-meta-row"><span>Relacionados con la Facultad de Ingeniería / áreas afines de la MCIC</span><span>${relacionados.length}</span></div>
+      <div class="plan-meta-row"><span>Aplican realmente a un posgrado como la MCIC (los que se listan abajo)</span><span>${aplicables.length}</span></div>
+    </div>
+  `;
+
+  const tablaHtml = aplicables.length ? `
+    <div style="overflow-x:auto; margin-bottom:10px;">
+      <table style="width:100%; border-collapse: collapse; font-size: 11.5px; min-width:640px;">
+        <thead>
+          <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+            <th style="padding:6px 8px;">Institución</th>
+            <th style="padding:6px 8px;">País / Categoría</th>
+            <th style="padding:6px 8px;">Tipo</th>
+            <th style="padding:6px 8px;">Denominación</th>
+            <th style="padding:6px 8px;">Vigencia hasta</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${aplicables.map((c) => `
+            <tr style="border-bottom:1px solid var(--border-color);" title="${escapeHtml(c.objeto || '')}">
+              <td style="padding:5px 8px;">${escapeHtml(c.institucion)}</td>
+              <td style="padding:5px 8px;">${escapeHtml(c.pais_categoria)}</td>
+              <td style="padding:5px 8px;">${escapeHtml(c.tipo)}</td>
+              <td style="padding:5px 8px;">${escapeHtml(c.denominacion)}</td>
+              <td style="padding:5px 8px;">${escapeHtml(c.fecha_fin)} (${escapeHtml(c.estado)})</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+  ` : '';
+
+  const fuente = datos.fuente || {};
+  return `
+    <div style="margin-bottom:16px;">
+      <p style="margin-bottom:8px;"><strong>🤝 Convenios institucionales (URELINTER):</strong></p>
+      ${totalesHtml}
+      ${tablaHtml}
+      <p style="font-size:11.5px; color: var(--text-soft); margin-bottom:6px;">${escapeHtml(datos.limitacion)}</p>
+      <a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(fuente.archivo_descargado)}" target="_blank" rel="noopener noreferrer">📥 Ver listado completo (${escapeHtml(datos.convenios_totales)} convenios, descargado de URELINTER el ${escapeHtml(fuente.fecha_descarga)})</a>
     </div>
   `;
 }
