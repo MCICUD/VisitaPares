@@ -12,6 +12,7 @@ como null.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -36,7 +37,51 @@ def rel(path: Path) -> str:
     return str(path.relative_to(ROOT)).replace("\\", "/")
 
 
-def extract_header(ws, archivo_rel: str) -> dict:
+# La celda D8 del archivo de Investigación trae, pegado en un solo texto, el
+# número de registro calificado de LAS DOS modalidades ("Prof. 9925 21 JUN
+# 2023/       Inv. 16163 05 SEP 2023") — así quedó diligenciada esa celda en
+# el CC-FR-001 real; el archivo de Profundización, en cambio, sí trae solo su
+# propio número ("Resolución 9925 21 JUN 2023"). Se verificó contra los
+# Cuadros Maestro CNA de cada modalidad (Data/Bronze/ACREDITACIÓN DE ALTA
+# CALIDAD/SNIES17528-.../"Resolución Registro Calificado: 16163 de septiembre
+# de 2023" para Investigación; SNIES116070-.../"9925 de 21 junio de 2023"
+# para Profundización) que 16163 es el número propio de Investigación y 9925
+# el de Profundización — no es una cifra inventada, es la misma cifra que ya
+# trae la celda, solo separada por modalidad para no mostrar en la página de
+# Investigación un número que es de Profundización (y viceversa).
+REGISTRO_COMBINADO_RE = re.compile(
+    r"Prof\.\s*(?P<prof>.+?)\s*/\s*Inv\.\s*(?P<inv>.+)", re.IGNORECASE
+)
+
+
+def separar_registro_calificado(valor: object, modalidad: str) -> tuple[object, str | None]:
+    """Si `valor` trae el patrón combinado "Prof. .../ Inv. ...", devuelve solo
+    la parte de `modalidad` más una nota explicando el recorte (para no perder
+    trazabilidad); si no calza el patrón (caso normal, incluido el archivo de
+    Profundización), devuelve `valor` tal cual y sin nota."""
+    if not isinstance(valor, str):
+        return valor, None
+    m = REGISTRO_COMBINADO_RE.search(valor)
+    if not m:
+        return valor, None
+    numero_fecha = m.group("inv" if modalidad == "investigacion" else "prof").strip()
+    # El fragmento "Inv. ..." de la celda combinada no repite la palabra
+    # "Resolución" (a diferencia del archivo de Profundización, que sí la
+    # trae completa); se antepone aquí solo para que las dos modalidades se
+    # vean en el mismo formato — el número y la fecha son los de la celda.
+    propio = numero_fecha if numero_fecha.lower().startswith("resoluci") else f"Resolución {numero_fecha}"
+    nota = (
+        f"La celda fuente trae el registro calificado de ambas modalidades en un solo texto "
+        f"({valor!r}); aquí se muestra solo el de esta modalidad ('{propio}'), verificado contra "
+        f"el Cuadro Maestro CNA correspondiente."
+    )
+    return propio, nota
+
+
+def extract_header(ws, archivo_rel: str, modalidad: str) -> dict:
+    registro_calificado, registro_calificado_nota = separar_registro_calificado(
+        ws["D8"].value, modalidad
+    )
     return {
         "codigo_formato": ws["F2"].value,
         "version_formato": ws["F3"].value,
@@ -45,7 +90,8 @@ def extract_header(ws, archivo_rel: str) -> dict:
         "proceso": ws["C4"].value,
         "facultad": ws["D6"].value,
         "programa_academico": ws["D7"].value,
-        "registro_calificado": ws["D8"].value,
+        "registro_calificado": registro_calificado,
+        "registro_calificado_nota": registro_calificado_nota,
         "registro_calificado_vigencia": ws["K8"].value,
         "acreditacion_alta_calidad": ws["S8"].value,
         "acreditacion_alta_calidad_vigencia": ws["Z8"].value,
@@ -126,7 +172,7 @@ def main() -> None:
         data = {
             "modalidad": modalidad,
             "archivo_fuente": archivo_rel,
-            "cabecera": extract_header(ws, archivo_rel),
+            "cabecera": extract_header(ws, archivo_rel, modalidad),
             "factores": extract_factores(ws, archivo_rel),
         }
         out_path = SILVER_DIR / f"plan_mejoramiento_{modalidad}.json"

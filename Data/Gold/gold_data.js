@@ -13,7 +13,8 @@ const GOLD_DATA = {
         "proceso": "Proceso: Curriculo y Calidad",
         "facultad": "INGENIERÍA ",
         "programa_academico": "MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES",
-        "registro_calificado": "Prof. 9925 21 JUN 2023/       Inv. 16163 05 SEP 2023",
+        "registro_calificado": "Resolución 16163 05 SEP 2023",
+        "registro_calificado_nota": "La celda fuente trae el registro calificado de ambas modalidades en un solo texto ('Prof. 9925 21 JUN 2023/       Inv. 16163 05 SEP 2023'); aquí se muestra solo el de esta modalidad ('Resolución 16163 05 SEP 2023'), verificado contra el Cuadro Maestro CNA correspondiente.",
         "registro_calificado_vigencia": "7 AÑOS",
         "acreditacion_alta_calidad": "24858 30 DIC 2022",
         "acreditacion_alta_calidad_vigencia": "4 AÑOS",
@@ -34,6 +35,7 @@ const GOLD_DATA = {
         "facultad": "INGENIERÍA ",
         "programa_academico": "MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES",
         "registro_calificado": "Resolución 9925 21 JUN 2023",
+        "registro_calificado_nota": null,
         "registro_calificado_vigencia": "7 AÑOS",
         "acreditacion_alta_calidad": "24858 30 DIC 2022",
         "acreditacion_alta_calidad_vigencia": "4 AÑOS",
@@ -4638,7 +4640,8 @@ const GOLD_DATA = {
   },
   "comparacionModalidades": {
     "campos_cabecera_distintos": [
-      "registro_calificado"
+      "registro_calificado",
+      "registro_calificado_nota"
     ],
     "factores_con_diferencias": [],
     "nota": "Comparación calculada campo a campo entre los dos archivos .xlsx. Si 'factores_con_diferencias' está vacío, significa que el texto de los 12 factores es idéntico en ambos archivos fuente (solo cambia el encabezado institucional); no es un error de esta pipeline."
@@ -7272,11 +7275,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento",
-      "tamano_bytes": 12254,
-      "tamano_legible": "12.0 KB",
+      "tamano_bytes": 14315,
+      "tamano_legible": "14.0 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
-      "extracto": "PLAN DE MEJORAMIENTO\nFACTOR\nENTREGABLE / EVIDENCIA\nESTADO\nOBSERVACIONES\nFACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL\nPrimer documento PEP borrador con los insumos del PEP-2017\nJornadas de trabajo con docentes para actualización del PEP\nSocialización el Proyecto Educativo con el Consejo Curricular…"
+      "extracto": "PLAN DE MEJORAMIENTO\nFACTOR\nENTREGABLE / EVIDENCIA\nESTADO\nOBSERVACIONES\nFACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL\nPrimer documento PEP borrador con los insumos del PEP-2017\nIncompleta\nREITERE DE RADIACIÓN PEP / 2024\nJornadas de trabajo con docentes para actualización del PEP\nSin iniciar\nSocial…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-PROF.docx",
@@ -7325,6 +7328,630 @@ const GOLD_DATA = {
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Facultad de Ingeniería \nUniversidad Distrital Francisco José de Caldas \nGUÍA PARA LA \nCONSTRUCCIÓN DEL \nDOCUMENTO PEP \nProyecto Educativo del Programa \n \n \n \n \n \n \n \n \n \n \n \nActualización: agosto 2024 \n\n1 \nUniversidad Distrital Francisco José De Caldas \n \nGiovanny Mauricio Tarazona Bermúdez  \nRector \n \nMirna Jirón Popo…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_IngSoftware.pdf",
+      "nombre": "MCIC_Anexo_reunion_IngSoftware.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+      "tamano_bytes": 25767,
+      "tamano_legible": "25.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_geomatica.pdf",
+      "nombre": "MCIC_Anexo_reunion_geomatica.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+      "tamano_bytes": 42444,
+      "tamano_legible": "41.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/Ambientes de Aprendizaje Facultad Ing.png",
+      "nombre": "Ambientes de Aprendizaje Facultad Ing.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+      "tamano_bytes": 74121,
+      "tamano_legible": "72.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Salas de sistemas | 12 salas con 40 equipos | Clases de software, | Incremento del 30% en el\ncada una simulaciones, análisis de datos y | uso por estudiantes MCIC\nproyectos interdisciplinarios\nLaboratorios 34 laboratorios con más | Prácticas académicas, | Fortalecimiento del trabajo\nespecializados — | de 800 equipos in…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  investigacion.png",
+      "nombre": "Actualizacion pagiona web mcic -  investigacion.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 1357261,
+      "tamano_legible": "1.3 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pisrritaL Facultad de Ingeniería\n\nEn DAS | Maestría en Ciencias de la Información y las Comunicaciones en modalidad de Investigación\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO /PROGRAMA ~ / ADMISIONES ~ /INVESTIGACIÓN ~ / ACADEMIA wv /SIGUD w\n\nUN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  profundizacion.png",
+      "nombre": "Actualizacion pagiona web mcic -  profundizacion.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 1143435,
+      "tamano_legible": "1.1 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pistritaL — Facultad de Ingeniería\n\nFRANCISCO JOSÉ DE CALDAS | Maestría en Ciencias de la Información y las Comunicaciones en modalidad de profundización\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO / PROGRAMA ~ / ADMISIONES ~ /INVESTIGACIÓN ~ / AC…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic.png",
+      "nombre": "Actualizacion pagiona web mcic.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 745240,
+      "tamano_legible": "727.8 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pisrrrran Facultad de Ingeniería\nFRANCISCO JOSÉ DE CALDAS Maestría en Ciencias de la Información y las Comunicaciones\n\nAcreditación Institucional de Alta Calidad\n\na\n\nSS\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO / PROGRAMA ~ /ESTUDIANTES ~ /INVES…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Asistencia 22-08-22 2026-3.pdf",
+      "nombre": "Asistencia 22-08-22 2026-3.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 2401275,
+      "tamano_legible": "2.3 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgacio grupos 2025-3.pdf",
+      "nombre": "Divulgacio grupos 2025-3.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 370889,
+      "tamano_legible": "362.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-1.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 199721,
+      "tamano_legible": "195.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "£\n£\n(0)\n$*\n2\ng\nO\n£\na"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-3.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 160744,
+      "tamano_legible": "157.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Encuentro estudiantes evaluacion docente.jpg",
+      "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 189320,
+      "tamano_legible": "184.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Induccion 2025-1.pdf",
+      "nombre": "Induccion 2025-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 388758,
+      "tamano_legible": "379.6 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2025-1.jpg",
+      "nombre": "Inducción 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 218229,
+      "tamano_legible": "213.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2026-3.jpeg",
+      "nombre": "Inducción 2026-3.jpeg",
+      "extension": "jpeg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 186679,
+      "tamano_legible": "182.3 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
+      "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 572085,
+      "tamano_legible": "558.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD\nDiSTRITAL.\nFRANCISCO JOSE DE CALDAS\nCONTROL DE ASISTENCIA\nA CLASES\nMacroproceso: Gestión\nAcadémica\nProceso:Gestión de Docencia\nCódigo: GD-PR-008-FR-026\nVersión:\n01\nFecha de Aprobación:\n05/03/2018\nSIGUD\nFacultad\nEspacio\nDocente\nMes\nCONTROL DE ASISTENCIA\nINGENIERIA\nProyecto\nCurricular\nINDUCCIÓN 2026-1\nGrupo\nN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 572085,
+      "tamano_legible": "558.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD\nDiSTRITAL.\nFRANCISCO JOSE DE CALDAS\nCONTROL DE ASISTENCIA\nA CLASES\nMacroproceso: Gestión\nAcadémica\nProceso:Gestión de Docencia\nCódigo: GD-PR-008-FR-026\nVersión:\n01\nFecha de Aprobación:\n05/03/2018\nSIGUD\nFacultad\nEspacio\nDocente\nMes\nCONTROL DE ASISTENCIA\nINGENIERIA\nProyecto\nCurricular\nINDUCCIÓN 2026-1\nGrupo\nN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Open Day.pdf",
+      "nombre": "Open Day.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 636028,
+      "tamano_legible": "621.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nDifusión de material publicitario \"Open Day 3.0\"\nDesde EVENTOS FACULTAD INGENIERIA <eventosfacing@udistrital.edu.co>\nFecha Jue 30/04/2026 9:49\nPara\nDECANATURA FACULTAD TECNOLÓGICA <dectecnologica@udistrital.edu.co>; FACULTAD DE CIENCIAS MATEMÁTICAS Y\nNATURALES DECANATURA <deccienciasmatynat@udistrital.edu.co>; …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+      "nombre": "Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 1219215,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 1219215,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Realización del OPEN DAY 3.0.jpeg",
+      "nombre": "Realización del OPEN DAY 3.0.jpeg",
+      "extension": "jpeg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 232687,
+      "tamano_legible": "227.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Participcion docente.xlsx",
+      "nombre": "Participcion docente.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
+      "tamano_bytes": 30878,
+      "tamano_legible": "30.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "DECANATURA\nOFICINA DE INVESTIGACIONES\nOFICINA DE INVESTIGACIONES\nN°\nCedula / identificación\nNombres y Apellidos del Profesor\nCategoría en el Escalafón de la institución (vigente)\nCapacitaciones docentes\nCapacitaciones docentes\nGrupo de investigación  principal al que pertenece (incluir enlace)\nCategoría de investigador…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Experiencias UD.pdf",
+      "nombre": "Experiencias UD.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 623035,
+      "tamano_legible": "608.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "54%\n11%\n4%\n31%\n35%\nAvance reuniones\nReuniones realizadas: 23\nReuniones programadas: 5\nDificultad en el acercamiento: 2\nProyectos Curriculares faltantes: 14\nAcercamiento con Proyectos Curriculares\nMatemáticas\nRealizada\nLicenciatura en física\nRealizada\nTecnología en Construcciones Civiles\nRealizada\nIngeniería Civil\nReali…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Infografía Equema Normativo.pdf",
+      "nombre": "Infografía Equema Normativo.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 1855067,
+      "tamano_legible": "1.8 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Decreto 1330 del 2019\nArtículo . Justificación del Programa.\nArtículo  9. Evidencias e indicadores de la  justificación del\nPrograma. \n“La institución deberá presentar la justificación del programa académico, en coherencia con el nivel de\nformación, la modalidad o modalidades y el lugar o lugares de desarrollo, en la q…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+      "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 293770,
+      "tamano_legible": "286.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO No. 004 \n(8 de julio de 2024) \n \n“Por medio del cual se adopta la Política de Egresados de la Universidad Distrital \nFrancisco José de Caldas” \n \nPágina 1 de 8 \nEl Consejo Superior de la Universidad Distrital Francisco José de Caldas, en uso de sus facultades legales y \nestatutar…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
+      "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 15316937,
+      "tamano_legible": "14.6 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Índice\nPÁGINA WEB\nResolución N° 689\n“Por medio de la cual se establece el Portafolio de\n Servicios para las personas Egresadas de la Uni\nUniversidad Distrital Francisco José de Caldas”\nPORTAFOLIO\nPORTAFOLIO\nDE SERVICIOS\nDE SERVICIOS\n\nÍNDICE\nÍNDICE\n¿Quiénes Somos?\nObjetivos\n¿Quiénes Son los Egresados?\nMisión y Visión\nCo…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
+      "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
+      "nombre": "Reunión de acompañamiento.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+      "tamano_bytes": 155971,
+      "tamano_legible": "152.3 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nReunión de acompañamiento académico – Estudiantes con vencimiento de permanencia\nDesde MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nFecha Lun 6/04/2026 11:12\nCCO\nHURTADO VASQUEZ CRISTIAN CAMILO <cchurtadov@udistrital.edu.co>; DIEGO FERNANDO ESPINEL GOMEZ\n<dfespinelg@udist…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUILAR RUIZ JOSE MANUEL.pdf",
+      "nombre": "AGUILAR RUIZ JOSE MANUEL.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 133176,
+      "tamano_legible": "130.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de semestre adicional – Maestría\nDesde JOSE MANUEL AGUILAR RUIZ <jmaguilarr@udistrital.edu.co>\nFecha Vie 22/05/2026 18:13\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>; MIGUEL ANTONIO AVILA ANGULO\n<maavila@udistrital.edu.co>; Miguel Avila <migueavila@gmail.c…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUIRRE CARPETA WILLIAM YESID.pdf",
+      "nombre": "AGUIRRE CARPETA WILLIAM YESID.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 119182,
+      "tamano_legible": "116.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga de un semestre adicional – William Yesid Aguirre Carpeta – Código\n20201495002\nDesde WILLIAM YESID AGUIRRE CARPETA <wyaguirrec@udistrital.edu.co>\nFecha Vie 22/05/2026 10:25\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n5 archivos adjuntos (6 MB)\nT…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ALAYON MORA RICARDO ARTURO.pdf",
+      "nombre": "ALAYON MORA RICARDO ARTURO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 113720,
+      "tamano_legible": "111.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de ampliación de plazo para cumplimiento de requisitos académicos 20162195001\nDesde Ricardo Alayon <ricardiyon@gmail.com>\nFecha Vie 22/05/2026 11:46\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nANDRES LEONARDO JUTINICO ALARCON <aljutinicoa@udistrital.edu…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CAPERA QUINTANA JONATHAN STEVEN.pdf",
+      "nombre": "CAPERA QUINTANA JONATHAN STEVEN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 114879,
+      "tamano_legible": "112.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\n20202495005 - Solicitud de prórroga de semestre\nDesde CAPERA QUINTANA JONATHAN STEVEN <jscaperaq@udistrital.edu.co>\nFecha Vie 22/05/2026 22:40\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n5 archivos adjuntos (2 MB)\nRADICACION COMPONENTE 1-20202495005-Jonathan Steven …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CUCHIA RUIZ JAIME ANDRÉS.pdf",
+      "nombre": "CUCHIA RUIZ JAIME ANDRÉS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 119195,
+      "tamano_legible": "116.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSOLICITUD PRORROGA 2026-3 ESTUDIANTE PAGOT COD 20172495004\nDesde JAIME ANDRES CUCHIA RUIZ <jacuchiar@udistrital.edu.co>\nFecha Vie 22/05/2026 17:35\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n6 archivos adjuntos (6 MB)\ncarta_prorroga_2026_3.pdf; Articulo Aceptado Con…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/DAVID MONROY MACHADO.pdf",
+      "nombre": "DAVID MONROY MACHADO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 170393,
+      "tamano_legible": "166.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nComponente uno y tomo\nDesde DAVID MONROY MACHADO <dmonroym@udistrital.edu.co>\nFecha Sáb 23/05/2026 11:03\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES - INVESTIGACION <mcic.investigacion@udistrital.edu.co>…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+      "nombre": "ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 107837,
+      "tamano_legible": "105.3 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud Tiempo Adicional Componente I\nDesde HERNAN ALVEIRO ERAZO GUERRERO <haerazog@udistrital.edu.co>\nFecha Vie 22/05/2026 16:19\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>; MAESTRIA EN CIENCIAS DE LA INFORMACION Y\nLAS COMUNICACIONES - INVESTIGACION <mcic.investi…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ESPITIA PARDO DANIEL ENRIQUE.pdf",
+      "nombre": "ESPITIA PARDO DANIEL ENRIQUE.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 143589,
+      "tamano_legible": "140.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRE: Radicación de solicitud prórroga curricular Cod 20191495031\nDesde ESPITIA PARDO DANIEL ENRIQUE <deespitiap@udistrital.edu.co>\nFecha Mar 26/05/2026 16:52\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nELVIS EDUARDO GAONA GARCIA <egaona@udistrital.edu.co>; daniele…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+      "nombre": "GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 122986,
+      "tamano_legible": "120.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga de tesis, asignación de jurados y reporte de ponencia - Harvey Garzón\nDesde HARVEY ALEXANDER GARZON BAUTISTA <haagarzonb@udistrital.edu.co>\nFecha Vie 22/05/2026 14:09\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n3 archivos adjuntos (529 KB)\nRegi…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN CORREA MAGDA LORENA.pdf",
+      "nombre": "GARZÓN CORREA MAGDA LORENA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 129150,
+      "tamano_legible": "126.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSOLICITUD DE PRORROGA 1 SEMESTRE\nDesde MAGDA LORENA GARZON CORREA <mlgarzonc@udistrital.edu.co>\nFecha Vie 22/05/2026 22:40\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nERNESTO GOMEZ VARGAS <egomez@udistrital.edu.co>; CESAR ANDREY PERDOMO CHARRY\n<cperdomo@udistrita…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GERSON DAVID CRUZ CAPADOR.pdf",
+      "nombre": "GERSON DAVID CRUZ CAPADOR.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 130272,
+      "tamano_legible": "127.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga para el próximo semestre - Programa PAGOT\nDesde GERSON DAVID CRUZ CAPADOR <gdcruzc@udistrital.edu.co>\nFecha Vie 22/05/2026 10:51\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES - INVESTIGACION\n<mcic.investigacion@udistrital.edu.co>; MAESTRIA EN CIENCIAS DE LA INFORMACION Y…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+      "nombre": "GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 110939,
+      "tamano_legible": "108.3 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud Consejo Curricular componente 1 y 2\nDesde FRANCISCO JAVIER GONZALEZ AGUIRRE <fjgonzaleza@udistrital.edu.co>\nFecha Lun 25/05/2026 16:13\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\ningeniero.javier.gonzalez@gmail.com <ingeniero.javier.gonzalez@gmail.com>\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/HENRY ARIAS BERNAL.pdf",
+      "nombre": "HENRY ARIAS BERNAL.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 158817,
+      "tamano_legible": "155.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRV: Solicitud Prórroga permanencia Henry Arias 20171495002 PAGOT\nDesde HENRY ARIAS BERNAL <hariasb@udistrital.edu.co>\nFecha Mar 26/05/2026 20:07\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n8 archivos adjuntos (10 MB)\nTesis Henry Arias 20171945002 MCIC 2026.pdf; 5. S…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOHAN CAMILO PINZON BALLESTEROS.pdf",
+      "nombre": "JOHAN CAMILO PINZON BALLESTEROS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 127079,
+      "tamano_legible": "124.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRadicacion Proyecto de Grado Estudiante PAGOT COD 20172495013\nDesde JOHAN CAMILO PINZON BALLESTEROS <jcpinzonb@udistrital.edu.co>\nFecha Vie 22/05/2026 21:45\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n6 archivos adjuntos (2 MB)\n5. SOLICITUD JURADOS (Acuerdo 01 de 20…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANDRES GARCIA FLOREZ.pdf",
+      "nombre": "JOSE ANDRES GARCIA FLOREZ.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 142387,
+      "tamano_legible": "139.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRadicación de solicitud de prórroga para trabajo de grado – José Andrés García Flórez – Código\n20172495007\nDesde JOSE ANDRES GARCIA FLOREZ <josagarciaf@udistrital.edu.co>\nFecha Lun 25/05/2026 20:04\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nALVARO ESPINEL ORTEGA…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANTONIO SILVA ROJAS.pdf",
+      "nombre": "JOSE ANTONIO SILVA ROJAS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 141521,
+      "tamano_legible": "138.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRE: Solicitud prórroga para la permanencia PAGOT - José Silva - 20171495020\nDesde JOSE ANTONIO SILVA ROJAS <jasilvar@udistrital.edu.co>\nFecha Mar 26/05/2026 22:27\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nNELSON ENRIQUE VERA PARRA <neverap@udistrital.edu.co>\n1 …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MARTINEZ MORALES BRENDA MELISSA.pdf",
+      "nombre": "MARTINEZ MORALES BRENDA MELISSA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 149244,
+      "tamano_legible": "145.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga académica - 20202195004\nDesde BRENDA MELISSA MARTINEZ MORALES <bmmartinezm@udistrital.edu.co>\nFecha Mar 26/05/2026 21:12\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n3 archivos adjuntos (4 MB)\n5. Trabajo_Final_Grado_MCIC.pdf; 5. SOLICITUD JURADO…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+      "nombre": "MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 170252,
+      "tamano_legible": "166.3 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRV: Solicitud Prorroga de Permanencia\nDesde MONTENEGRO ALVARADO ANDRES DAVID <admontenegroa@udistrital.edu.co>\nFecha Mar 26/05/2026 20:39\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n7 archivos adjuntos (10 MB)\n MCIC-41-2026 Viabilidad de Anteproyecto ; DECISIÓN CONS…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MORA PEÑA DANNY FABIAN.pdf",
+      "nombre": "MORA PEÑA DANNY FABIAN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 110457,
+      "tamano_legible": "107.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga académica\nDesde DANNY FABIAN MORA PEÑA <dfmorap@udistrital.edu.co>\nFecha Mar 26/05/2026 19:14\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n2 archivos adjuntos (2 MB)\nProrroga academica.pdf; ID06_LETTER_OF_ACCEPTANCE.pdf;\nCordial saludo\nBuenos di…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/OVIEDO PERDOMO JUAN PABLO.pdf",
+      "nombre": "OVIEDO PERDOMO JUAN PABLO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 125628,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\n20201195011 Juan Pablo Oviedo Solicitud colaboración con Semestre adicional\nDesde JUAN PABLO OVIEDO PERDOMO <jpoviedop@udistrital.edu.co>\nFecha Jue 21/05/2026 10:25\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nELVIS EDUARDO GAONA GARCIA <egaona@udistrital.edu.co>\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/PATIÑO LOPEZ LUIS FELIPE.pdf",
+      "nombre": "PATIÑO LOPEZ LUIS FELIPE.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 383212,
+      "tamano_legible": "374.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prorroga de permanencia\nDesde LUIS FELIPE PATIÑO LOPEZ <lfpatinol@udistrital.edu.co>\nFecha Lun 25/05/2026 18:00\nPara\nSECRETARIA ACADEMICA FACULTAD INGENIERIA <secing@udistrital.edu.co>\nCC\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>; CESAR ANDREY PERDOMO CHAR…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/QUINTERO GARZON CESAR IVAN.pdf",
+      "nombre": "QUINTERO GARZON CESAR IVAN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 124028,
+      "tamano_legible": "121.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de trámite ante Consejo de Facultad para prórroga de período de estudio\nDesde CESAR IVAN QUINTERO GARZON <ciquinterog@udistrital.edu.co>\nFecha Vie 22/05/2026 21:45\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nEstimada coordinación de la maestría,\nMe dirijo …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/REY VANEGAS DIEGO ARMANDO.pdf",
+      "nombre": "REY VANEGAS DIEGO ARMANDO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 135553,
+      "tamano_legible": "132.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRe: Solicitud prorroga - estudiante PAGOT Diego Armando Rey - 20162495013\nDesde DIEGO ARMANDO REY VANEGAS <dareyv@udistrital.edu.co>\nFecha Mar 26/05/2026 19:38\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nRODRIGUEZ RODRIGUEZ JORGE ENRIQUE <jerodriguezr@udistrital.…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+      "nombre": "SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 128694,
+      "tamano_legible": "125.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRadicación Tesis (Componente 2) / Solicitud Semestre Adicional y Aclaración Matrícula - MCIC - Cristian Julian Solarte Rosas\nDesde CRISTIAN JULIAN SOLARTE ROSAS <cjsolarter@udistrital.edu.co>\nFecha Mar 19/05/2026 11:14\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+      "nombre": "TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 119506,
+      "tamano_legible": "116.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de ampliación de permanencia académica para finalización de requisitos de grado\nDesde JENIFER ANDREA TORRES RODRIGUEZ <jeatorresr@udistrital.edu.co>\nFecha Mar 26/05/2026 19:36\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nCESAR ANDREY PERDOMO CHARRY <cper…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/Información bases de datos.pdf",
@@ -7447,100 +8074,16 @@ const GOLD_DATA = {
       "extracto": "PLAN DE MEJORAMIENTO\nFACTOR\nENTREGABLE / EVIDENCIA\nESTADO\nOBSERVACIONES\nFACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL\nPrimer documento PEP borrador con los insumos del PEP-2017\nIncompleta\nREITERE DE RADIACIÓN PEP / 2024\nJornadas de trabajo con docentes para actualización del PEP\nSin iniciar\nSocial…"
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-INV.docx",
-      "nombre": "DOC MAES REGCALI MCIC-INV.docx",
-      "extension": "docx",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.pdf",
+      "nombre": "PEP-MCIC-INV-V2.pdf",
+      "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 7810154,
-      "tamano_legible": "7.4 MB",
-      "modalidad": "investigacion",
-      "texto_extraido": true,
-      "extracto": "Documento Maestro \nRenovación Registro Calificado\nMaestría de Investigación\nMaestría en Ciencias de la Información y las Comunicaciones \nFacultad de Ingeniería\nBogotá, marzo, 2022\nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\nDOCUMENTO MAESTRO DE RENOVACIÓN DE REGISTRO CALIFICADO\nPROYECTO CURRICULAR \nMAESTRÍA EN CIENC…"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V0.docx",
-      "nombre": "PEP-MCIC-INV-V0.docx",
-      "extension": "docx",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 612742,
-      "tamano_legible": "598.4 KB",
-      "modalidad": "investigacion",
-      "texto_extraido": true,
-      "extracto": "PROYECTO EDUCATIVO DEL PROGRAMA -PEP-\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nCOMPONENTE INVESTIGACIÓN\nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\nFacultad de Ingeniería\n2024\nINTRODUCCIÓN\n1. IDENTIDAD DEL PROYECTO CURRICULAR\nLa Maestría en Ciencias de la Información y las Comunicaciones, es un Pr…"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V1.docx",
-      "nombre": "PEP-MCIC-INV-V1.docx",
-      "extension": "docx",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 1122722,
+      "tamano_bytes": 1108021,
       "tamano_legible": "1.1 MB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "PROYECTO EDUCATIVO DEL PROGRAMA -PEP-\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nCOMPONENTE INVESTIGACIÓN\nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\nFacultad de Ingeniería\n2024\nINTRODUCCIÓN\nEste documento toma como referente el concepto adoptado por el CNA, con el fin de presentar el Proyecto Educa…"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.docx",
-      "nombre": "PEP-MCIC-INV-V2.docx",
-      "extension": "docx",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 1256525,
-      "tamano_legible": "1.2 MB",
-      "modalidad": "investigacion",
-      "texto_extraido": true,
-      "extracto": "PROYECTO EDUCATIVO DEL PROGRAMA -PEP-\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nCOMPONENTE INVESTIGACIÓN\nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\nFacultad de Ingeniería\n2024\nINTRODUCCIÓN\nEste documento toma como referente el concepto adoptado por el CNA, con el fin de presentar el Proyecto Educa…"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Proyecto Educativo del Programa-2017.pdf",
-      "nombre": "Proyecto Educativo del Programa-2017.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 1278216,
-      "tamano_legible": "1.2 MB",
-      "modalidad": "investigacion",
-      "texto_extraido": true,
-      "extracto": "PROYECTO EDUCATIVO DEL \nPROGRAMA -PEP- \n \nMAESTRÍA EN  CIENCIAS DE LA \nINFORMACIÓN  Y LAS COMUNICACIONES \n \n \n \nUNIVERSIDAD DISTRITAL FRANCISCO \nJOSÉ DE CALDAS \nFacultad de Ingeniería \n2017 \n\nProyecto Educativo del Programa –PEP \n                                                                  Maestría en Ciencias de …"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Respuesta PEP.pdf",
-      "nombre": "Respuesta PEP.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 723198,
-      "tamano_legible": "706.2 KB",
-      "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
-      "nombre": "Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 884314,
-      "tamano_legible": "863.6 KB",
-      "modalidad": "investigacion",
-      "texto_extraido": true,
-      "extracto": "Facultad de Ingeniería \nUniversidad Distrital Francisco José de Caldas \nGUÍA PARA LA \nCONSTRUCCIÓN DEL \nDOCUMENTO PEP \nProyecto Educativo del Programa \n \n \n \n \n \n \n \n \n \n \n \nActualización: agosto 2024 \n\n1 \nUniversidad Distrital Francisco José De Caldas \n \nGiovanny Mauricio Tarazona Bermúdez  \nRector \n \nMirna Jirón Popo…"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/Listado Linea de geomatica 26-5-25.pdf",
-      "nombre": "Listado Linea de geomatica 26-5-25.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
-      "tamano_bytes": 5713271,
-      "tamano_legible": "5.4 MB",
-      "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "extracto": "1 \n \nPROYECTO EDUCATIVO \nDEL PROGRAMA -PEP- \n \n \n \nMAESTRÍA EN CIENCIAS DE LA \nINFORMACIÓN Y LAS \nCOMUNICACIONES \nCOMPONENTE INVESTIGACIÓN \n \n \n \nUNIVERSIDAD DISTRITAL \nFRANCISCO JOSÉ DE CALDAS \nFacultad de Ingeniería \n2024 \n \n \n \n \n \n \n \n \n \n \n \n \n\n2 \n \nINTRODUCCIÓN \nEste documento toma como referente el concepto adop…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_IngSoftware.pdf",
@@ -7567,6 +8110,18 @@ const GOLD_DATA = {
       "extracto": null
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/Ambientes de Aprendizaje Facultad Ing.png",
+      "nombre": "Ambientes de Aprendizaje Facultad Ing.png",
+      "extension": "png",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+      "tamano_bytes": 74121,
+      "tamano_legible": "72.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Salas de sistemas | 12 salas con 40 equipos | Clases de software, | Incremento del 30% en el\ncada una simulaciones, análisis de datos y | uso por estudiantes MCIC\nproyectos interdisciplinarios\nLaboratorios 34 laboratorios con más | Prácticas académicas, | Fortalecimiento del trabajo\nespecializados — | de 800 equipos in…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  investigacion.png",
       "nombre": "Actualizacion pagiona web mcic -  investigacion.png",
       "extension": "png",
@@ -7575,8 +8130,8 @@ const GOLD_DATA = {
       "tamano_bytes": 1357261,
       "tamano_legible": "1.3 MB",
       "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pisrritaL Facultad de Ingeniería\n\nEn DAS | Maestría en Ciencias de la Información y las Comunicaciones en modalidad de Investigación\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO /PROGRAMA ~ / ADMISIONES ~ /INVESTIGACIÓN ~ / ACADEMIA wv /SIGUD w\n\nUN…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  profundizacion.png",
@@ -7587,8 +8142,8 @@ const GOLD_DATA = {
       "tamano_bytes": 1143435,
       "tamano_legible": "1.1 MB",
       "modalidad": "ambas",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pistritaL — Facultad de Ingeniería\n\nFRANCISCO JOSÉ DE CALDAS | Maestría en Ciencias de la Información y las Comunicaciones en modalidad de profundización\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO / PROGRAMA ~ / ADMISIONES ~ /INVESTIGACIÓN ~ / AC…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic.png",
@@ -7599,17 +8154,17 @@ const GOLD_DATA = {
       "tamano_bytes": 745240,
       "tamano_legible": "727.8 KB",
       "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pisrrrran Facultad de Ingeniería\nFRANCISCO JOSÉ DE CALDAS Maestría en Ciencias de la Información y las Comunicaciones\n\nAcreditación Institucional de Alta Calidad\n\na\n\nSS\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO / PROGRAMA ~ /ESTUDIANTES ~ /INVES…"
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Colnvocatoria investigacion.pdf",
-      "nombre": "Colnvocatoria investigacion.pdf",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Asistencia 22-08-22 2026-3.pdf",
+      "nombre": "Asistencia 22-08-22 2026-3.pdf",
       "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 395156,
-      "tamano_legible": "385.9 KB",
+      "tamano_bytes": 2401275,
+      "tamano_legible": "2.3 MB",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
@@ -7635,8 +8190,8 @@ const GOLD_DATA = {
       "tamano_bytes": 199721,
       "tamano_legible": "195.0 KB",
       "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "£\n£\n(0)\n$*\n2\ng\nO\n£\na"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-3.jpg",
@@ -7651,18 +8206,6 @@ const GOLD_DATA = {
       "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulghacion grupos 2024-1.pdf",
-      "nombre": "Divulghacion grupos 2024-1.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 283951,
-      "tamano_legible": "277.3 KB",
-      "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
-    },
-    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Encuentro estudiantes evaluacion docente.jpg",
       "nombre": "Encuentro estudiantes evaluacion docente.jpg",
       "extension": "jpg",
@@ -7670,18 +8213,6 @@ const GOLD_DATA = {
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
       "tamano_bytes": 189320,
       "tamano_legible": "184.9 KB",
-      "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
-      "nombre": "INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 0,
-      "tamano_legible": "0 B",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
@@ -7711,49 +8242,85 @@ const GOLD_DATA = {
       "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Informacion de contacto.pdf",
-      "nombre": "Informacion de contacto.pdf",
-      "extension": "pdf",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2026-3.jpeg",
+      "nombre": "Inducción 2026-3.jpeg",
+      "extension": "jpeg",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 524100,
-      "tamano_legible": "511.8 KB",
+      "tamano_bytes": 186679,
+      "tamano_legible": "182.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitacion brics.pdf",
-      "nombre": "Invitacion brics.pdf",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
+      "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
       "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 358672,
-      "tamano_legible": "350.3 KB",
+      "tamano_bytes": 572085,
+      "tamano_legible": "558.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD\nDiSTRITAL.\nFRANCISCO JOSE DE CALDAS\nCONTROL DE ASISTENCIA\nA CLASES\nMacroproceso: Gestión\nAcadémica\nProceso:Gestión de Docencia\nCódigo: GD-PR-008-FR-026\nVersión:\n01\nFecha de Aprobación:\n05/03/2018\nSIGUD\nFacultad\nEspacio\nDocente\nMes\nCONTROL DE ASISTENCIA\nINGENIERIA\nProyecto\nCurricular\nINDUCCIÓN 2026-1\nGrupo\nN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 572085,
+      "tamano_legible": "558.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD\nDiSTRITAL.\nFRANCISCO JOSE DE CALDAS\nCONTROL DE ASISTENCIA\nA CLASES\nMacroproceso: Gestión\nAcadémica\nProceso:Gestión de Docencia\nCódigo: GD-PR-008-FR-026\nVersión:\n01\nFecha de Aprobación:\n05/03/2018\nSIGUD\nFacultad\nEspacio\nDocente\nMes\nCONTROL DE ASISTENCIA\nINGENIERIA\nProyecto\nCurricular\nINDUCCIÓN 2026-1\nGrupo\nN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Open Day.pdf",
+      "nombre": "Open Day.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 636028,
+      "tamano_legible": "621.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nDifusión de material publicitario \"Open Day 3.0\"\nDesde EVENTOS FACULTAD INGENIERIA <eventosfacing@udistrital.edu.co>\nFecha Jue 30/04/2026 9:49\nPara\nDECANATURA FACULTAD TECNOLÓGICA <dectecnologica@udistrital.edu.co>; FACULTAD DE CIENCIAS MATEMÁTICAS Y\nNATURALES DECANATURA <deccienciasmatynat@udistrital.edu.co>; …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+      "nombre": "Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 1219215,
+      "tamano_legible": "1.2 MB",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitación Evento académico Horizonte.pdf",
-      "nombre": "Invitación Evento académico Horizonte.pdf",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
       "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 555550,
-      "tamano_legible": "542.5 KB",
+      "tamano_bytes": 1219215,
+      "tamano_legible": "1.2 MB",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
-      "nombre": "RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
-      "extension": "pdf",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Realización del OPEN DAY 3.0.jpeg",
+      "nombre": "Realización del OPEN DAY 3.0.jpeg",
+      "extension": "jpeg",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 0,
-      "tamano_legible": "0 B",
+      "tamano_bytes": 232687,
+      "tamano_legible": "227.2 KB",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
@@ -7764,54 +8331,114 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 31098,
-      "tamano_legible": "30.4 KB",
+      "tamano_bytes": 30878,
+      "tamano_legible": "30.2 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "DECANATURA\nOFICINA DE INVESTIGACIONES\nOFICINA DE INVESTIGACIONES\nN°\nCedula / identificación\nNombres y Apellidos del Profesor\nCategoría en el Escalafón de la institución (vigente)\nCapacitaciones docentes\nCapacitaciones docentes\nGrupo de investigación  principal al que pertenece (incluir enlace)\nCategoría de investigador…"
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus AnaliticaDeDatos.xlsx",
-      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
-      "extension": "xlsx",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Experiencias UD.pdf",
+      "nombre": "Experiencias UD.pdf",
+      "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
-      "tamano_bytes": 373197,
-      "tamano_legible": "364.5 KB",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 623035,
+      "tamano_legible": "608.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\nFACULTAD DE INGENIERÍA\n\nSYLLABUS\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nI. IDENTIFICACION DEL ESPACIO ACADÉMICO\nNOMBRE DEL ESPACIO ACADÉMICO:\nANALÍTICA DE DATOS\nCódigo del espacio académico:\nNúmero de créditos:\n4\nDistribución horas…"
+      "extracto": "54%\n11%\n4%\n31%\n35%\nAvance reuniones\nReuniones realizadas: 23\nReuniones programadas: 5\nDificultad en el acercamiento: 2\nProyectos Curriculares faltantes: 14\nAcercamiento con Proyectos Curriculares\nMatemáticas\nRealizada\nLicenciatura en física\nRealizada\nTecnología en Construcciones Civiles\nRealizada\nIngeniería Civil\nReali…"
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Construccion y pruebas.XLS",
-      "nombre": "Syllabus Construccion y pruebas.XLS",
-      "extension": "xls",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Infografía Equema Normativo.pdf",
+      "nombre": "Infografía Equema Normativo.pdf",
+      "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
-      "tamano_bytes": 68973,
-      "tamano_legible": "67.4 KB",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 1855067,
+      "tamano_legible": "1.8 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Decreto 1330 del 2019\nArtículo . Justificación del Programa.\nArtículo  9. Evidencias e indicadores de la  justificación del\nPrograma. \n“La institución deberá presentar la justificación del programa académico, en coherencia con el nivel de\nformación, la modalidad o modalidades y el lugar o lugares de desarrollo, en la q…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+      "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 293770,
+      "tamano_legible": "286.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO No. 004 \n(8 de julio de 2024) \n \n“Por medio del cual se adopta la Política de Egresados de la Universidad Distrital \nFrancisco José de Caldas” \n \nPágina 1 de 8 \nEl Consejo Superior de la Universidad Distrital Francisco José de Caldas, en uso de sus facultades legales y \nestatutar…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
+      "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 15316937,
+      "tamano_legible": "14.6 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Índice\nPÁGINA WEB\nResolución N° 689\n“Por medio de la cual se establece el Portafolio de\n Servicios para las personas Egresadas de la Uni\nUniversidad Distrital Francisco José de Caldas”\nPORTAFOLIO\nPORTAFOLIO\nDE SERVICIOS\nDE SERVICIOS\n\nÍNDICE\nÍNDICE\n¿Quiénes Somos?\nObjetivos\n¿Quiénes Son los Egresados?\nMisión y Visión\nCo…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
+      "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+      "tamano_bytes": 9581349,
+      "tamano_legible": "9.1 MB",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Herramientas matematicas.XLS",
-      "nombre": "Syllabus Herramientas matematicas.XLS",
-      "extension": "xls",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
-      "tamano_bytes": 68826,
-      "tamano_legible": "67.2 KB",
-      "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Metodos avanzados en analisi.xlsx",
-      "nombre": "Syllabus Metodos avanzados en analisi.xlsx",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ANA╠üLISIS ESPACIAL.xlsx",
+      "nombre": "Syllabus ANA╠üLISIS ESPACIAL.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 66715,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.XLS",
+      "nombre": "Syllabus Bases de Datos Espaciales.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 68544,
+      "tamano_legible": "66.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
+      "nombre": "Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 71751,
+      "tamano_legible": "70.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
       "tamano_bytes": 68549,
       "tamano_legible": "66.9 KB",
       "modalidad": "investigacion",
@@ -7819,16 +8446,580 @@ const GOLD_DATA = {
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos/Matematicas avanzadas.XLS",
-      "nombre": "Matematicas avanzadas.XLS",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+      "nombre": "Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67270,
+      "tamano_legible": "65.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+      "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+      "tamano_bytes": 67490,
+      "tamano_legible": "65.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Informacióny las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 68444,
+      "tamano_legible": "66.8 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFOMACIÓN Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+      "nombre": "Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 66444,
+      "tamano_legible": "64.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+      "nombre": "Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70657,
+      "tamano_legible": "69.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+      "nombre": "Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 70092,
+      "tamano_legible": "68.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+      "nombre": "Syllbus - REDES.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+      "tamano_bytes": 63551,
+      "tamano_legible": "62.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRIA EN CIENCIAS DE LA INFORMACION  Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\n919\nI. IDENTIFIC…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+      "nombre": "Syllabus BASES DE DATOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 66096,
+      "tamano_legible": "64.5 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Construccion y Pruebas de Software.XLS",
+      "nombre": "Syllabus Construccion y Pruebas de Software.XLS",
       "extension": "xls",
       "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos",
-      "tamano_bytes": 68548,
-      "tamano_legible": "66.9 KB",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 68973,
+      "tamano_legible": "67.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": false,
       "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software I.XLS",
+      "nombre": "Syllabus Ingenieria Software I.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 64111,
+      "tamano_legible": "62.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software II.XLS",
+      "nombre": "Syllabus Ingenieria Software II.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 63791,
+      "tamano_legible": "62.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Patrones.XLS",
+      "nombre": "Syllabus Patrones.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 64769,
+      "tamano_legible": "63.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+      "nombre": "SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+      "tamano_bytes": 66816,
+      "tamano_legible": "65.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+      "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 373197,
+      "tamano_legible": "364.5 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\nFACULTAD DE INGENIERÍA\n\nSYLLABUS\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nI. IDENTIFICACION DEL ESPACIO ACADÉMICO\nNOMBRE DEL ESPACIO ACADÉMICO:\nANALÍTICA DE DATOS\nCódigo del espacio académico:\nNúmero de créditos:\n4\nDistribución horas…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+      "nombre": "Syllabus Big Data.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67967,
+      "tamano_legible": "66.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+      "nombre": "Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67010,
+      "tamano_legible": "65.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 69803,
+      "tamano_legible": "68.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 67058,
+      "tamano_legible": "65.5 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+      "nombre": "Syllabus_roboticaV2.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+      "tamano_bytes": 69052,
+      "tamano_legible": "67.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestria en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+      "extension": "xls",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales",
+      "tamano_bytes": 68826,
+      "tamano_legible": "67.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales/Syllabus Informatica.xlsx",
+      "nombre": "Syllabus Informatica.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales",
+      "tamano_bytes": 68689,
+      "tamano_legible": "67.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Investigacio╠ün/Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+      "nombre": "Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Investigacio╠ün",
+      "tamano_bytes": 68145,
+      "tamano_legible": "66.5 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFOMACIÓN Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
+      "nombre": "Reunión de acompañamiento.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+      "tamano_bytes": 155971,
+      "tamano_legible": "152.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nReunión de acompañamiento académico – Estudiantes con vencimiento de permanencia\nDesde MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nFecha Lun 6/04/2026 11:12\nCCO\nHURTADO VASQUEZ CRISTIAN CAMILO <cchurtadov@udistrital.edu.co>; DIEGO FERNANDO ESPINEL GOMEZ\n<dfespinelg@udist…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUILAR RUIZ JOSE MANUEL.pdf",
+      "nombre": "AGUILAR RUIZ JOSE MANUEL.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 133176,
+      "tamano_legible": "130.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de semestre adicional – Maestría\nDesde JOSE MANUEL AGUILAR RUIZ <jmaguilarr@udistrital.edu.co>\nFecha Vie 22/05/2026 18:13\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>; MIGUEL ANTONIO AVILA ANGULO\n<maavila@udistrital.edu.co>; Miguel Avila <migueavila@gmail.c…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUIRRE CARPETA WILLIAM YESID.pdf",
+      "nombre": "AGUIRRE CARPETA WILLIAM YESID.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 119182,
+      "tamano_legible": "116.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga de un semestre adicional – William Yesid Aguirre Carpeta – Código\n20201495002\nDesde WILLIAM YESID AGUIRRE CARPETA <wyaguirrec@udistrital.edu.co>\nFecha Vie 22/05/2026 10:25\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n5 archivos adjuntos (6 MB)\nT…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ALAYON MORA RICARDO ARTURO.pdf",
+      "nombre": "ALAYON MORA RICARDO ARTURO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 113720,
+      "tamano_legible": "111.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de ampliación de plazo para cumplimiento de requisitos académicos 20162195001\nDesde Ricardo Alayon <ricardiyon@gmail.com>\nFecha Vie 22/05/2026 11:46\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nANDRES LEONARDO JUTINICO ALARCON <aljutinicoa@udistrital.edu…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CAPERA QUINTANA JONATHAN STEVEN.pdf",
+      "nombre": "CAPERA QUINTANA JONATHAN STEVEN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 114879,
+      "tamano_legible": "112.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\n20202495005 - Solicitud de prórroga de semestre\nDesde CAPERA QUINTANA JONATHAN STEVEN <jscaperaq@udistrital.edu.co>\nFecha Vie 22/05/2026 22:40\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n5 archivos adjuntos (2 MB)\nRADICACION COMPONENTE 1-20202495005-Jonathan Steven …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CUCHIA RUIZ JAIME ANDRÉS.pdf",
+      "nombre": "CUCHIA RUIZ JAIME ANDRÉS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 119195,
+      "tamano_legible": "116.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSOLICITUD PRORROGA 2026-3 ESTUDIANTE PAGOT COD 20172495004\nDesde JAIME ANDRES CUCHIA RUIZ <jacuchiar@udistrital.edu.co>\nFecha Vie 22/05/2026 17:35\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n6 archivos adjuntos (6 MB)\ncarta_prorroga_2026_3.pdf; Articulo Aceptado Con…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/DAVID MONROY MACHADO.pdf",
+      "nombre": "DAVID MONROY MACHADO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 170393,
+      "tamano_legible": "166.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nComponente uno y tomo\nDesde DAVID MONROY MACHADO <dmonroym@udistrital.edu.co>\nFecha Sáb 23/05/2026 11:03\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES - INVESTIGACION <mcic.investigacion@udistrital.edu.co>…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+      "nombre": "ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 107837,
+      "tamano_legible": "105.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud Tiempo Adicional Componente I\nDesde HERNAN ALVEIRO ERAZO GUERRERO <haerazog@udistrital.edu.co>\nFecha Vie 22/05/2026 16:19\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>; MAESTRIA EN CIENCIAS DE LA INFORMACION Y\nLAS COMUNICACIONES - INVESTIGACION <mcic.investi…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ESPITIA PARDO DANIEL ENRIQUE.pdf",
+      "nombre": "ESPITIA PARDO DANIEL ENRIQUE.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 143589,
+      "tamano_legible": "140.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRE: Radicación de solicitud prórroga curricular Cod 20191495031\nDesde ESPITIA PARDO DANIEL ENRIQUE <deespitiap@udistrital.edu.co>\nFecha Mar 26/05/2026 16:52\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nELVIS EDUARDO GAONA GARCIA <egaona@udistrital.edu.co>; daniele…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+      "nombre": "GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 122986,
+      "tamano_legible": "120.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga de tesis, asignación de jurados y reporte de ponencia - Harvey Garzón\nDesde HARVEY ALEXANDER GARZON BAUTISTA <haagarzonb@udistrital.edu.co>\nFecha Vie 22/05/2026 14:09\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n3 archivos adjuntos (529 KB)\nRegi…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN CORREA MAGDA LORENA.pdf",
+      "nombre": "GARZÓN CORREA MAGDA LORENA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 129150,
+      "tamano_legible": "126.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSOLICITUD DE PRORROGA 1 SEMESTRE\nDesde MAGDA LORENA GARZON CORREA <mlgarzonc@udistrital.edu.co>\nFecha Vie 22/05/2026 22:40\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nERNESTO GOMEZ VARGAS <egomez@udistrital.edu.co>; CESAR ANDREY PERDOMO CHARRY\n<cperdomo@udistrita…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GERSON DAVID CRUZ CAPADOR.pdf",
+      "nombre": "GERSON DAVID CRUZ CAPADOR.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 130272,
+      "tamano_legible": "127.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga para el próximo semestre - Programa PAGOT\nDesde GERSON DAVID CRUZ CAPADOR <gdcruzc@udistrital.edu.co>\nFecha Vie 22/05/2026 10:51\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES - INVESTIGACION\n<mcic.investigacion@udistrital.edu.co>; MAESTRIA EN CIENCIAS DE LA INFORMACION Y…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+      "nombre": "GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 110939,
+      "tamano_legible": "108.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud Consejo Curricular componente 1 y 2\nDesde FRANCISCO JAVIER GONZALEZ AGUIRRE <fjgonzaleza@udistrital.edu.co>\nFecha Lun 25/05/2026 16:13\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\ningeniero.javier.gonzalez@gmail.com <ingeniero.javier.gonzalez@gmail.com>\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/HENRY ARIAS BERNAL.pdf",
+      "nombre": "HENRY ARIAS BERNAL.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 158817,
+      "tamano_legible": "155.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRV: Solicitud Prórroga permanencia Henry Arias 20171495002 PAGOT\nDesde HENRY ARIAS BERNAL <hariasb@udistrital.edu.co>\nFecha Mar 26/05/2026 20:07\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n8 archivos adjuntos (10 MB)\nTesis Henry Arias 20171945002 MCIC 2026.pdf; 5. S…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOHAN CAMILO PINZON BALLESTEROS.pdf",
+      "nombre": "JOHAN CAMILO PINZON BALLESTEROS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 127079,
+      "tamano_legible": "124.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRadicacion Proyecto de Grado Estudiante PAGOT COD 20172495013\nDesde JOHAN CAMILO PINZON BALLESTEROS <jcpinzonb@udistrital.edu.co>\nFecha Vie 22/05/2026 21:45\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n6 archivos adjuntos (2 MB)\n5. SOLICITUD JURADOS (Acuerdo 01 de 20…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANDRES GARCIA FLOREZ.pdf",
+      "nombre": "JOSE ANDRES GARCIA FLOREZ.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 142387,
+      "tamano_legible": "139.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRadicación de solicitud de prórroga para trabajo de grado – José Andrés García Flórez – Código\n20172495007\nDesde JOSE ANDRES GARCIA FLOREZ <josagarciaf@udistrital.edu.co>\nFecha Lun 25/05/2026 20:04\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nALVARO ESPINEL ORTEGA…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANTONIO SILVA ROJAS.pdf",
+      "nombre": "JOSE ANTONIO SILVA ROJAS.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 141521,
+      "tamano_legible": "138.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRE: Solicitud prórroga para la permanencia PAGOT - José Silva - 20171495020\nDesde JOSE ANTONIO SILVA ROJAS <jasilvar@udistrital.edu.co>\nFecha Mar 26/05/2026 22:27\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nNELSON ENRIQUE VERA PARRA <neverap@udistrital.edu.co>\n1 …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MARTINEZ MORALES BRENDA MELISSA.pdf",
+      "nombre": "MARTINEZ MORALES BRENDA MELISSA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 149244,
+      "tamano_legible": "145.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga académica - 20202195004\nDesde BRENDA MELISSA MARTINEZ MORALES <bmmartinezm@udistrital.edu.co>\nFecha Mar 26/05/2026 21:12\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n3 archivos adjuntos (4 MB)\n5. Trabajo_Final_Grado_MCIC.pdf; 5. SOLICITUD JURADO…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+      "nombre": "MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 170252,
+      "tamano_legible": "166.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRV: Solicitud Prorroga de Permanencia\nDesde MONTENEGRO ALVARADO ANDRES DAVID <admontenegroa@udistrital.edu.co>\nFecha Mar 26/05/2026 20:39\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n7 archivos adjuntos (10 MB)\n MCIC-41-2026 Viabilidad de Anteproyecto ; DECISIÓN CONS…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MORA PEÑA DANNY FABIAN.pdf",
+      "nombre": "MORA PEÑA DANNY FABIAN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 110457,
+      "tamano_legible": "107.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prórroga académica\nDesde DANNY FABIAN MORA PEÑA <dfmorap@udistrital.edu.co>\nFecha Mar 26/05/2026 19:14\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\n2 archivos adjuntos (2 MB)\nProrroga academica.pdf; ID06_LETTER_OF_ACCEPTANCE.pdf;\nCordial saludo\nBuenos di…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/OVIEDO PERDOMO JUAN PABLO.pdf",
+      "nombre": "OVIEDO PERDOMO JUAN PABLO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 125628,
+      "tamano_legible": "122.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\n20201195011 Juan Pablo Oviedo Solicitud colaboración con Semestre adicional\nDesde JUAN PABLO OVIEDO PERDOMO <jpoviedop@udistrital.edu.co>\nFecha Jue 21/05/2026 10:25\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nELVIS EDUARDO GAONA GARCIA <egaona@udistrital.edu.co>\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/PATIÑO LOPEZ LUIS FELIPE.pdf",
+      "nombre": "PATIÑO LOPEZ LUIS FELIPE.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 383212,
+      "tamano_legible": "374.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de prorroga de permanencia\nDesde LUIS FELIPE PATIÑO LOPEZ <lfpatinol@udistrital.edu.co>\nFecha Lun 25/05/2026 18:00\nPara\nSECRETARIA ACADEMICA FACULTAD INGENIERIA <secing@udistrital.edu.co>\nCC\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>; CESAR ANDREY PERDOMO CHAR…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/QUINTERO GARZON CESAR IVAN.pdf",
+      "nombre": "QUINTERO GARZON CESAR IVAN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 124028,
+      "tamano_legible": "121.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de trámite ante Consejo de Facultad para prórroga de período de estudio\nDesde CESAR IVAN QUINTERO GARZON <ciquinterog@udistrital.edu.co>\nFecha Vie 22/05/2026 21:45\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nEstimada coordinación de la maestría,\nMe dirijo …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/REY VANEGAS DIEGO ARMANDO.pdf",
+      "nombre": "REY VANEGAS DIEGO ARMANDO.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 135553,
+      "tamano_legible": "132.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRe: Solicitud prorroga - estudiante PAGOT Diego Armando Rey - 20162495013\nDesde DIEGO ARMANDO REY VANEGAS <dareyv@udistrital.edu.co>\nFecha Mar 26/05/2026 19:38\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nRODRIGUEZ RODRIGUEZ JORGE ENRIQUE <jerodriguezr@udistrital.…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+      "nombre": "SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 128694,
+      "tamano_legible": "125.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nRadicación Tesis (Componente 2) / Solicitud Semestre Adicional y Aclaración Matrícula - MCIC - Cristian Julian Solarte Rosas\nDesde CRISTIAN JULIAN SOLARTE ROSAS <cjsolarter@udistrital.edu.co>\nFecha Mar 19/05/2026 11:14\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+      "nombre": "TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+      "tamano_bytes": 119506,
+      "tamano_legible": "116.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Outlook\nSolicitud de ampliación de permanencia académica para finalización de requisitos de grado\nDesde JENIFER ANDREA TORRES RODRIGUEZ <jeatorresr@udistrital.edu.co>\nFecha Mar 26/05/2026 19:36\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nCESAR ANDREY PERDOMO CHARRY <cper…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/CYC POS 022 2024  02.04.24.pdf",
@@ -8139,8 +9330,8 @@ const GOLD_DATA = {
       "tamano_bytes": 1357261,
       "tamano_legible": "1.3 MB",
       "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pisrritaL Facultad de Ingeniería\n\nEn DAS | Maestría en Ciencias de la Información y las Comunicaciones en modalidad de Investigación\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO /PROGRAMA ~ / ADMISIONES ~ /INVESTIGACIÓN ~ / ACADEMIA wv /SIGUD w\n\nUN…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  profundizacion.png",
@@ -8151,8 +9342,8 @@ const GOLD_DATA = {
       "tamano_bytes": 1143435,
       "tamano_legible": "1.1 MB",
       "modalidad": "ambas",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pistritaL — Facultad de Ingeniería\n\nFRANCISCO JOSÉ DE CALDAS | Maestría en Ciencias de la Información y las Comunicaciones en modalidad de profundización\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO / PROGRAMA ~ / ADMISIONES ~ /INVESTIGACIÓN ~ / AC…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic.png",
@@ -8163,8 +9354,8 @@ const GOLD_DATA = {
       "tamano_bytes": 745240,
       "tamano_legible": "727.8 KB",
       "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD pisrrrran Facultad de Ingeniería\nFRANCISCO JOSÉ DE CALDAS Maestría en Ciencias de la Información y las Comunicaciones\n\nAcreditación Institucional de Alta Calidad\n\na\n\nSS\n\nAseguramiento de la calidad Instituto de Extensión  Internacionalización Instituto de Idiomas\n\n/ INICIO / PROGRAMA ~ /ESTUDIANTES ~ /INVES…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Colnvocatoria investigacion.pdf",
@@ -8199,8 +9390,8 @@ const GOLD_DATA = {
       "tamano_bytes": 199721,
       "tamano_legible": "195.0 KB",
       "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "£\n£\n(0)\n$*\n2\ng\nO\n£\na"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCIC- INVESTIGACIÓN/Evidencias Seguimiento Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-3.jpg",
@@ -8439,8 +9630,8 @@ const GOLD_DATA = {
       "tamano_bytes": 134058,
       "tamano_legible": "130.9 KB",
       "modalidad": "profundizacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "== ——] scup=\n\nGMO) > ANUN\n\nMRS Ruy\n] q [rem] CIE.\n23 sem [| FOO am Tres] 11:00 qm\n\n[ers T Comi de Utimdo Y “Tolva\n\n=|\n\nie 114 5% lacicaadi dad FcR) Y,\ncodoc | i nes Hessel lee oS\nOd ex\n\nSDFG meal (Ud\n\n153 Croata el Qe\n|\n\nE Ordo O VRSNL\nMoria Ruta Ayla € [oworjz\n\nArqélica J. Torres C- 10758 HS 4"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/2026/AUTOEVALUACION/MCICI- PRODUNDIZACIÓN/Evidencias Procesos RC y AAC/Aval de facultad proceso de renovacion acredi.pdf",
@@ -14067,8 +15258,8 @@ const GOLD_DATA = {
       "tamano_bytes": 68698,
       "tamano_legible": "67.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "30 AÑOS\n\na yd NUESTRO we ESO y\n\nMaestría en Ciencias de la A nromación ,\nlas Comunicaciones"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/DB mensajes/Correspondencia.docx",
@@ -14103,8 +15294,8 @@ const GOLD_DATA = {
       "tamano_bytes": 44425,
       "tamano_legible": "43.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los sistemas de evaluación de los resultados de\naprendizaje permiten una realimentación efectiva que\ncontribuye a la mejora continua de la formación en los\n\nestudiantes.\n\nE De acuerdo.\n@ Ni en acuerdo, ni en desacuerdo.\n\nE Totalmente de acuerdo.\n\n41%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/11 proceso de evaluacion y autorregulacion.png",
@@ -14115,8 +15306,8 @@ const GOLD_DATA = {
       "tamano_bytes": 91077,
       "tamano_legible": "88.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el proceso de evaluación y autorregulación de la\nMaestría en Ciencias de la Información y las Comunicaciones\ntiene en cuenta de manera efectiva las necesidades y\nexpectativas de los estudiantes y profesores para realizar\nmejoras continuas\n\n35% El De acuerdo.\n\n@ En desacuerdo.\n47%\nEH Ni en acuerdo, ni en d…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/12. intervenciones.png",
@@ -14127,8 +15318,8 @@ const GOLD_DATA = {
       "tamano_bytes": 85919,
       "tamano_legible": "83.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las intervenciones y el apoyo proporcionados\npara alertar de forma temprana a los estudiantes, han sido\nútiles para mejorar tu rendimiento académico y facilitar tu\n\nprogreso hacia la graduación\n\n12%\n\nEl De acuerdo.\n47% @ En desacuerdo.\n@ Nien acuerdo, ni en desacuerdo.\n\n35%\nTotalmente de acuerdo.\n\n6%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/13 politicas,programas y servicion.png",
@@ -14139,8 +15330,8 @@ const GOLD_DATA = {
       "tamano_bytes": 87621,
       "tamano_legible": "85.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las políticas, programas y servicios de bienestar\nimplementados en la Maestría en Ciencias de la Información y\nlas Comunicaciones son coherentes con las condiciones y\nnecesidades específicas de la comunidad y en mi rol como\nprofesor\n\n35% El De acuerdo.\n@ En desacuerdo.\nEH Ni en acuerdo, ni en desacuerdo.\n…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/14. acompañamiento proporcionado.png",
@@ -14151,8 +15342,8 @@ const GOLD_DATA = {
       "tamano_bytes": 83058,
       "tamano_legible": "81.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el acompañamiento proporcionado en la\nMaestría en Ciencias de la Información y las Comunicaciones\nfacilita una comunicación efectiva y una interacción\nconstructiva entre profesores y esttudiantes.\n\n12%\n\nEl De acuerdo.\n\n23% @ En desacuerdo.\n\nEH Ni en acuerdo, ni en desacuerdo.\n59%\nTotalmente de acuerdo."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/15. procesos administrativos.png",
@@ -14163,8 +15354,8 @@ const GOLD_DATA = {
       "tamano_bytes": 79777,
       "tamano_legible": "77.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Creo que los procesos administrativos están orientados\n\nadecuadamente y son eficaces para apoyar el desarrollo\n\nintegral de las labores formativas, académicas, docentes,\ncientíficas, culturales y de extensión de la Maestría\n\nEl De acuerdo.\n@ En desacuerdo.\nEH Ni en acuerdo, ni en desacuerdo.\n\nTotalmente de acuerdo."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/16 Recursos Humanos.png",
@@ -14175,8 +15366,8 @@ const GOLD_DATA = {
       "tamano_bytes": 89894,
       "tamano_legible": "87.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los recursos humanos (profesores, personal\nadministrativo, etc.) disponibles en la Maestría en Ciencias de\nla Información y las Comunicaciones son suficientes y\nadecuados para atender el número de estudiantes\nmatriculados y cumplir con los o\n\nE De acuerdo.\n\n@ En desacuerdo.\n47%\nE Nien acuerdo, ni en desac…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/17. Recursos informaticos.png",
@@ -14187,8 +15378,8 @@ const GOLD_DATA = {
       "tamano_bytes": 87153,
       "tamano_legible": "85.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los recursos informáticos disponibles,\ncorresponden adecuadamente con las necesidades\ntecnológicas de la Maestría en Ciencias de la Información y las\nComunicaciones y de sus miembros\n\nEl De acuerdo.\n@ En desacuerdo.\nH Nien acuerdo, ni en desacuerdo.\n\nTotalmente de acuerdo.\n\n23%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/19. Imparte asignaturas.png",
@@ -14199,8 +15390,8 @@ const GOLD_DATA = {
       "tamano_bytes": 21367,
       "tamano_legible": "20.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿Usted imparte asignaturas en la Maestría?\n\na No\n\na SI"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/2. Reglamento.png",
@@ -14211,8 +15402,8 @@ const GOLD_DATA = {
       "tamano_bytes": 67340,
       "tamano_legible": "65.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el reglamento estudiantil y las políticas\nacadémicas del programa son pertinentes y están\nactualizadas.\n\nnm .\n29% De acuerdo\nmM En desacuerdo.\n\n@ Ni en acuerdo, ni en desacuerdo.\n\n53% Totalmente de acuerdo.\n\n6%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/21. Nivel de ingles.png",
@@ -14223,8 +15414,8 @@ const GOLD_DATA = {
       "tamano_bytes": 21630,
       "tamano_legible": "21.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿Con qué nivel de ingles cuenta usted?"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/8. estrategias de flexibilidad.png",
@@ -14235,8 +15426,8 @@ const GOLD_DATA = {
       "tamano_bytes": 80289,
       "tamano_legible": "78.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las estrategias de flexibilidad curricular permiten\na los estudiantes personalizar su formación de acuerdo con sus\nobjetivos profesionales y académicos.\n\nEl De acuerdo.\n12%\n\n@ En desacuerdo.\n@ Ni en acuerdo, ni en desacuerdo.\n\n6% Totalmente de acuerdo."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/9. estrategias pedagogicas.png",
@@ -14247,8 +15438,8 @@ const GOLD_DATA = {
       "tamano_bytes": 49395,
       "tamano_legible": "48.2 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las estrategias pedagógicas y escenarios de\npráctica utilizadas en la Maestría en Ciencias de la Información\ny las Comunicaciones son coherentes y efectivas para facilitar\n\nlos resultados de aorendizaje esperados.\n\nEl De acuerdo.\n@ Ni en acuerdo, ni en desacuerdo.\n\nE Totalmente de acuerdo.\n\n30%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/1. Años de experiencia.png",
@@ -14259,8 +15450,8 @@ const GOLD_DATA = {
       "tamano_bytes": 22159,
       "tamano_legible": "21.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Años de Experiencia en la Institución"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/18. Asignaturas en inglés.png",
@@ -14271,8 +15462,8 @@ const GOLD_DATA = {
       "tamano_bytes": 31545,
       "tamano_legible": "30.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿Considera adecuado que la Maestría tuviera\nasignaturas cuyo contenido se impartiera un\nporcentaje en inglés?\n\n6%\n\nMm No\n\n|\n\n94%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/20. Está dispuesto.png",
@@ -14283,8 +15474,8 @@ const GOLD_DATA = {
       "tamano_bytes": 23861,
       "tamano_legible": "23.3 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿Está dispuesto a impartir un porcentaje del\ncontenido en ingles?\n\na No\n\n= Sl"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/3.  Criterios.png",
@@ -14295,8 +15486,8 @@ const GOLD_DATA = {
       "tamano_bytes": 39914,
       "tamano_legible": "39.0 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los criterios académicos establecidos\npara la selección y vinculación de profesores son\nadecuados y pertinentes para garantizar la calidad\n\nE De acuerdo.\n35% @ Ni en acuerdo, ni en desacuerdo.\nE Totalmente de acuerdo.\n\n53%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/4.  Politicas.png",
@@ -14307,8 +15498,8 @@ const GOLD_DATA = {
       "tamano_bytes": 74083,
       "tamano_legible": "72.3 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las políticas que establecen distinciones\ny estímulos son pertinentes y efectivas para promover\nel desarrollo y la trayectoria profesoral.\n\nEl De acuerdo.\n17% 53% @ En desacuerdo.\nEH Ni en acuerdo, ni en desacuerdo.\n\nTotalmente de acuerdo."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/5. Participacion en actividades.png",
@@ -14319,8 +15510,8 @@ const GOLD_DATA = {
       "tamano_bytes": 52657,
       "tamano_legible": "51.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que mi participación en actividades como\nprogramas de formación y capacitación, mentorías y\ntutorías, participación en conferencias y seminarios, ha\ncontribuido a mi desarrollo integral mejorando mis\ncompetencias pedagogicas, científicas y socia\n\n5; 29%\nEl De acuerdo.\n\n@ Ni en acuerdo, ni en desacuerdo.\nE Tot…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/6. Remuneracion.png",
@@ -14331,8 +15522,8 @@ const GOLD_DATA = {
       "tamano_bytes": 79687,
       "tamano_legible": "77.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que la remuneración que recibo\ncorresponde adecuadamente a mis méritos\nacadémicos y profesionales derivados de mi actividad\ndocente, así como de las contribuciones realizadas en\ninvestigación\n\n23%\nEl De acuerdo.\nm En desacuerdo.\n53% EH Ni en acuerdo, ni en desacuerdo.\n\nTotalmente de acuerdo.\n18%\n\n6%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes/Nueva carpeta/7 Criterios evaluacion profesores.png",
@@ -14343,8 +15534,8 @@ const GOLD_DATA = {
       "tamano_bytes": 68717,
       "tamano_legible": "67.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los criterios y mecanismos utilizados\npara la evaluación de los profesores son transparentes,\naccesibles y eficaces.\n\n35%\n\nEl De acuerdo.\n@ En desacuerdo.\nH Ni en acuerdo, ni en desacuerdo.\n\nTotalmente de acuerdo.\n\n24%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Docentes/Docentes.zip",
@@ -14379,8 +15570,8 @@ const GOLD_DATA = {
       "tamano_bytes": 20098,
       "tamano_legible": "19.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Rango de Edad\n\n510 más"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/10. Relacion Trabajo.png",
@@ -14391,8 +15582,8 @@ const GOLD_DATA = {
       "tamano_bytes": 39829,
       "tamano_legible": "38.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿El trabajo que realiza actualmente se relaciona\ndirectamente con los conocimientos adquiridos en\nla maestría?\n\n= De acuerdo.\n39%\n\n44%\n= Nien acuerdo, ni en\n\ndesacuerdo.\n\n= Totalmente de acuerdo.\n\n17%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/2. Enfasis.png",
@@ -14403,8 +15594,8 @@ const GOLD_DATA = {
       "tamano_bytes": 53757,
       "tamano_legible": "52.5 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Énfasis en el que se encuentra inscrito\n\n31%\n\n= Geomtatica\n= Ingeniería de Software\n= Sistemas de información\n\nTeleinformatica"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/3. Modalidad.png",
@@ -14415,8 +15606,8 @@ const GOLD_DATA = {
       "tamano_bytes": 24316,
       "tamano_legible": "23.7 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Modalidad en la que se encuentra inscrito\n\n= Investigacion\n\n= Profundización"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/5. Influencia Positiva.png",
@@ -14427,8 +15618,8 @@ const GOLD_DATA = {
       "tamano_bytes": 73523,
       "tamano_legible": "71.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que mi formación en la maestría ha\ninfluido positivamente en mi desarrollo\nprofesional, así como en la mejora de\noportunidades en mi campo laboral.\n\n= De acuerdo.\n31%\n\n= En desacuerdo.\n\n= Ni en acuerdo, ni en\ndesacuerdo.\n\n5% Totalmente de acuerdo."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/6. Estrategias de flexibilidad.png",
@@ -14439,8 +15630,8 @@ const GOLD_DATA = {
       "tamano_bytes": 76192,
       "tamano_legible": "74.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las estrategias de flexibilidad\ncurricular me permitieron personalizar mi\nformación de acuerdo con mis objetivos\nprofesionales y académicos.\n\n= De acuerdo.\n\n= En desacuerdo.\n47%\n\n= Nien acuerdo, ni en\ndesacuerdo.\n\nTotalmente de acuerdo.\n\n11%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/7. Homologos.png",
@@ -14451,8 +15642,8 @@ const GOLD_DATA = {
       "tamano_bytes": 83674,
       "tamano_legible": "81.7 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que la interacción con homólogos\nnacionales e internacionales me permitió mejorar\nmis competencias académicas y científicas, así\ncomo las oportunidades de desarrollo profesional.\n\n3%\n\n= De acuerdo.\n0,\n33% 36% = En desacuerdo.\n= Nien acuerdo, ni en\nN desacuerdo.\n\n= Totalmente de acuerdo.\n3%\n\n25%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/8. Representante Estudiantil.png",
@@ -14463,8 +15654,8 @@ const GOLD_DATA = {
       "tamano_bytes": 90606,
       "tamano_legible": "88.5 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el representante estudiantil y de\negresados en los diferentes escenarios\ninstitucionales, ha sido valorada y ha influido en las\ndecisiones orientadas al mejoramiento de la\nMaestría en Ciencias de la Información y las\nComunicaciones y la inst\n\nO,\n8% 14% = De acuerdo.\n\nO 14% = En desacuerdo.\n(o}\n\n= Nien acu…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/9. Trabajo Actual.png",
@@ -14475,8 +15666,8 @@ const GOLD_DATA = {
       "tamano_bytes": 52663,
       "tamano_legible": "51.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Sector en el que se desempeña su trabajo actual\n\n‘Ghersegurded telecomunicacione] Ia 17\n\nciberseguridad, telecomunicaciones)\n\nSector terciario (comercio, servicios: Ll 5\n\neducacion, salud, finanzas, etc.)\n\nSector secundario (industria manufacturera, O 1\nconstrucción, energía)\n\nSector público (administración pública, A …"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/Nueva carpeta/11. Oportunidades Laborales.png",
@@ -14487,8 +15678,8 @@ const GOLD_DATA = {
       "tamano_bytes": 71278,
       "tamano_legible": "69.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿Siente que la maestría te ha abierto nuevas\noportunidades laborales?\n\n33% = De acuerdo.\n\n39%\n= En desacuerdo.\n\n= Ni en acuerdo, ni en\ndesacuerdo.\n\nTotalmente de acuerdo.\n\n6%\n\n22%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados/Egresados/Nueva carpeta/4. Competencias Adquiridas.png",
@@ -14499,8 +15690,8 @@ const GOLD_DATA = {
       "tamano_bytes": 41822,
       "tamano_legible": "40.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Las competencias adquiridas durante mi\nformación en la maestría (técnicas, investigativas,\npedagógicas, etc.) han sido suficientes y\nrelevantes para mi desarrollo profesional.\n\n= De acuerdo.\n44%\n\n50% = En desacuerdo.\n\n= Totalmente de acuerdo.\n\n6%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Egresados.zip",
@@ -14523,8 +15714,8 @@ const GOLD_DATA = {
       "tamano_bytes": 18965,
       "tamano_legible": "18.5 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Rango de edad\n\n510 más"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/10. CriteriosMecanismos.png",
@@ -14535,8 +15726,8 @@ const GOLD_DATA = {
       "tamano_bytes": 80453,
       "tamano_legible": "78.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los criterios y mecanismos utilizados para\nla evaluación de los profesores son transparentes,\naccesibles y eficaces\n\nDe acuerdo.\n\n= En desacuerdo.\n\n47% . .\n= Nien acuerdo, ni en\n\ndesacuerdo.\n\n6%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/16. Homologos.png",
@@ -14547,8 +15738,8 @@ const GOLD_DATA = {
       "tamano_bytes": 86963,
       "tamano_legible": "84.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que la interacción con homólogos nacionales\ne internacionales ha mejorado mis competencias\nacadémicas y científicas, así como las oportunidades de\ndesarrollo profesional.\n\n2%\n\n= De acuerdo.\n\n= Nien acuerdo, ni en\ndesacuerdo.\n= Totalmente de acuerdo.\n\n66%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/17. Proporciona formacion adecuada.png",
@@ -14559,8 +15750,8 @@ const GOLD_DATA = {
       "tamano_bytes": 90416,
       "tamano_legible": "88.3 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que la Maestría en Ciencias de la Información\ny las Comunicaciones me proporciona una formación\nadecuada para la investigación, fomentando el desarrollo\nde un pensamiento crítico, creativo e innovador.\n\nDe acuerdo.\n= En desacuerdo.\n= Nien acuerdo, ni en\n\ndesacuerdo.\n55%\n\n6%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/18. Bienestar.png",
@@ -14571,8 +15762,8 @@ const GOLD_DATA = {
       "tamano_bytes": 95502,
       "tamano_legible": "93.3 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las políticas, programas y servicios de\nbienestar implementados en Maestría en Ciencias de la\nInformación y las Comunicaciones son coherentes con\nlas condiciones y necesidades específicas de la\ncomunidad y en mi rol como estudiante.\n\n11%\n\nDe acuerdo.\n\n= En desacuerdo.\n\n= Nien acuerdo, ni en\n\n45% desacuerd…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/2. AñoIngreso.png",
@@ -14583,8 +15774,8 @@ const GOLD_DATA = {
       "tamano_bytes": 20983,
       "tamano_legible": "20.5 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Año de Ingreso\n\n2016 2017 2018 2020 2021 2022 2024 2025"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/20. Espacios Recursos.png",
@@ -14595,8 +15786,8 @@ const GOLD_DATA = {
       "tamano_bytes": 86806,
       "tamano_legible": "84.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los espacios, recurso, herramientas y\nequipos de apoyo ofrecidos son pertinentes y se ajustan\nadecuadamente a mis necesidades formativas en los\ndiferentes contextos que requiero.\n\nDe acuerdo.\n= En desacuerdo.\n\n= Nien acuerdo, ni en\n\n49% desacuerdo.\n\n1%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/21. Mejoras en las estrategias.png",
@@ -14607,8 +15798,8 @@ const GOLD_DATA = {
       "tamano_bytes": 39090,
       "tamano_legible": "38.2 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿Has notado alguna mejora en las estrategias y recursos\nde apoyo como resultado de retroalimentaciones\nprevias?\n\n= No sabe/ No responde.\n= No.\na Sí.\n\n53%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/22. Material Bibliografico.png",
@@ -14619,8 +15810,8 @@ const GOLD_DATA = {
       "tamano_bytes": 96906,
       "tamano_legible": "94.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el material bibliográfico y de información\ndisponible en la Maestría en Ciencias de la Información y\nlas Comunicaciones es pertinente y adecuado para apoyar\nel desarrollo de las distintas actividades académicas de\nacuerdo con mis intereses a\n\nDe acuerdo.\n\n= En desacuerdo.\n53%\n= Nien acuerdo, ni en\ndesacue…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/23. Representante Estudiantil.png",
@@ -14631,8 +15822,8 @@ const GOLD_DATA = {
       "tamano_bytes": 101006,
       "tamano_legible": "98.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el representante estudiantil en los\ndiferentes escenarios institucionales ha sido valorada y ha\ninfluido en las decisiones orientadas al mejoramiento de\nla Maestría en Ciencias de la Información y las\nComunicaciones y la institución.\n\n4% 2%\n\n17%\n\n— *% De acuerdo.\n‘0\n\n= En desacuerdo.\n= Nien acuerdo, ni en…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/24. Procesos Administrativos orientados.png",
@@ -14643,8 +15834,8 @@ const GOLD_DATA = {
       "tamano_bytes": 96654,
       "tamano_legible": "94.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Creo que los procesos administrativos están orientados\nadecuadamente y son eficaces para apoyar el desarrollo\nintegral de las labores formativas, académicas, docentes,\ncientíficas, culturales y de extensión de la Maestría en\nCiencias de la Información y |\n\n11%\n\n= De acuerdo.\n\n23%\n= En desacuerdo.\n\n60% = Nien acuerdo, n…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/25. PEP.png",
@@ -14655,8 +15846,8 @@ const GOLD_DATA = {
       "tamano_bytes": 95371,
       "tamano_legible": "93.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los recursos humanos (profesores, personal\nadministrativo, etc.) disponibles en la Maestría en Ciencias\nde la Información y las Comunicaciones son suficientes y\nadecuados para atender el número de\nestudiantes matriculados y cumplir con los o\n\nDe acuerdo.\n\n= En desacuerdo.\n\n53%\n9\n11% = Nien acuerdo, ni en\n…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/26. Recursos Informaticos.png",
@@ -14667,8 +15858,8 @@ const GOLD_DATA = {
       "tamano_bytes": 98680,
       "tamano_legible": "96.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los recursos informáticos disponibles,\ncorresponden adecuadamente con las\nnecesidades tecnológicas de la Maestría en Ciencias de la\nInformación y las Comunicaciones y de sus miembros\n(profesores y estudiantes).\n\n2%\n\nA\n\n17%\n\nDe acuerdo.\n\n51% = En desacuerdo.\n(0)\n= Nien acuerdo, ni en\ndesacuerdo.\n= Totalmen…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/27. Trabajo Actual.png",
@@ -14679,8 +15870,8 @@ const GOLD_DATA = {
       "tamano_bytes": 57759,
       "tamano_legible": "56.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Sector en el que se desempeña su trabajo actual\n\nTecnología (desarrollo de software, IA,\nciberseguridad, telecomunicaciones)\n\nSector terciario (comercio, servicios: educación,\nsalud, finanzas, etc.)\n\nSector secundario (industria manufacturera,\nconstrucción, energía)\n\nSector público (administración pública, gobierno)\n\nS…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/28. Relacion Trabajo.png",
@@ -14691,8 +15882,8 @@ const GOLD_DATA = {
       "tamano_bytes": 80702,
       "tamano_legible": "78.8 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿El trabajo que realiza actualmente se relaciona\ndirectamente con los conocimientos adquiridos en la\nmaestría?\n\n41% 40% De acuerdo.\n= En desacuerdo.\n= Nien acuerdo, ni en desacuerdo.\n\n= Totalmente de acuerdo.\n\n13%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/29. Nuevas Oportunidades Laborales.png",
@@ -14703,8 +15894,8 @@ const GOLD_DATA = {
       "tamano_bytes": 70529,
       "tamano_legible": "68.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "¿Siente que la maestría te ha abierto nuevas\noportunidades laborales?\n\nDe acuerdo.\n= En desacuerdo.\n= Nien acuerdo, ni en desacuerdo.\n\n= Totalmente de acuerdo."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/3. EnfasisInscrito.png",
@@ -14715,8 +15906,8 @@ const GOLD_DATA = {
       "tamano_bytes": 58997,
       "tamano_legible": "57.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Énfasis en el que se encuentra inscrito\n\n11%\n\n40% = Geomtatica\n= Ingeniería de Software\n\n= Inteligencia Artificial\n\n= Teleinformatica"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/4. Modalidad.png",
@@ -14727,8 +15918,8 @@ const GOLD_DATA = {
       "tamano_bytes": 25247,
       "tamano_legible": "24.7 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Modalidad en la que se encuentra inscrito\n\n45% a Investigación\n\n55% = Profundización"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/5. Asignatura en Ingles.png",
@@ -14739,8 +15930,8 @@ const GOLD_DATA = {
       "tamano_bytes": 32664,
       "tamano_legible": "31.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Si se ofreciera una asignatura impartida en un 50% en\ninglés el próximo semestre, ¿se inscribiría?\n\n17%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/8. Criterios de concesion.png",
@@ -14751,8 +15942,8 @@ const GOLD_DATA = {
       "tamano_bytes": 75955,
       "tamano_legible": "74.2 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los criterios para la concesión de\nestímulos académicos y apoyos socioeconómicos, son\nclaros y justos.\n\nDe acuerdo.\n\n0,\n40% = En desacuerdo.\n\n= Nien acuerdo, ni en\ndesacuerdo.\n\n9%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/11. Estrategias Flexibilidad.png",
@@ -14763,8 +15954,8 @@ const GOLD_DATA = {
       "tamano_bytes": 92019,
       "tamano_legible": "89.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las estrategias de flexibilidad curricular\nme han permitido personalizar mi formación de acuerdo\ncon mis objetivos profesionales y académicos.\n\n2%\n\n34% De acuerdo.\n= En desacuerdo.\n= Nien acuerdo, ni en\n\ndesacuerdo.\n= Totalmente de acuerdo.\n\n2%\n\n38%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/12. Estrategias Pedagogicas.png",
@@ -14775,8 +15966,8 @@ const GOLD_DATA = {
       "tamano_bytes": 90737,
       "tamano_legible": "88.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las estrategias pedagógicas y escenarios\nde práctica utilizadas en la Maestría en Ciencias de la\nInformación y las Comunicaciones son coherentes y\nefectivas para facilitar los resultados de aprendizaje\nesperados.\n\n15%\n\n= De acuerdo.\n\n= En desacuerdo.\n\n= Nien acuerdo, ni en\ndesacuerdo.\n\n13%\n\no Y\n\n66%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/13.Sistemas de evaluacion.png",
@@ -14787,8 +15978,8 @@ const GOLD_DATA = {
       "tamano_bytes": 82439,
       "tamano_legible": "80.5 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que los sistemas de evaluación de los\nresultados de aprendizaje permiten una realimentación\nefectiva que contribuye a la mejora continua de la\nformación en los estudiantes.\n\nDe acuerdo.\n= En desacuerdo.\n\n= Nien acuerdo, ni en\ndesacuerdo.\n\nO,\n17% 60%\n\n2%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/14. Proceso de evaluacion.png",
@@ -14799,8 +15990,8 @@ const GOLD_DATA = {
       "tamano_bytes": 96798,
       "tamano_legible": "94.5 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el proceso de evaluación y\nautorregulación de la Maestría en Ciencias de la\nInformación y las Comunicaciones tiene en cuenta de\nmanera efectiva las necesidades y expectativas de los\nestudiantes y profesores para realizar mejoras continuas.\n\n11%\n\nDe acuerdo.\n\n= En desacuerdo.\n\n= Nien acuerdo, ni en\ndesacue…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/15. Intervenciones.png",
@@ -14811,8 +16002,8 @@ const GOLD_DATA = {
       "tamano_bytes": 86605,
       "tamano_legible": "84.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que las intervenciones y el apoyo\nproporcionados para alertarme de forma temprana, han\nsido útiles para mejorar mi rendimiento académico y\nfacilitar mi progreso hacia la graduación.\n\nDe acuerdo.\n= En desacuerdo.\n\n47% = Nien acuerdo, ni en\ndesacuerdo.\n\n4%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/19. acompañamiento.png",
@@ -14823,8 +16014,8 @@ const GOLD_DATA = {
       "tamano_bytes": 91251,
       "tamano_legible": "89.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el acompañamiento proporcionado en la\nMaestría en Ciencias de la Información y las\nComunicaciones facilita una comunicación efectiva y una\ninteracción constructiva entre profesores y estudiantes.\n\n15%\n\n= De acuerdo.\n\n= En desacuerdo.\n= Nien acuerdo, ni en\nO,\n19% desacuerdo.\n60%\n\n6%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/6. ParticipacionActiva.png",
@@ -14835,8 +16026,8 @@ const GOLD_DATA = {
       "tamano_bytes": 40011,
       "tamano_legible": "39.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que mi participación en actividades de investigación, desarrollo\ntecnológico, creación artística, culturales, deportivas y de extensión ha\ncontribuido a mi desarrollo integral como persona, científico, investigador\ny/o docente con una visión interdisciplinaria, universal y contextualizada.\n\n= Deacuerdo.\n47%\n2…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/7. Reglamento Estudiantil.png",
@@ -14847,8 +16038,8 @@ const GOLD_DATA = {
       "tamano_bytes": 87300,
       "tamano_legible": "85.3 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el reglamento estudiantil y las políticas\nacadémicas del programa son pertinentes y están\nactualizadas.\n\n2%\n\nDe acuerdo.\n= En desacuerdo.\n= Nien acuerdo, ni en\n\n53% desacuerdo.\n= Totalmente de acuerdo."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes/Estudiantes/Nueva carpeta/9. Material Academico.png",
@@ -14859,8 +16050,8 @@ const GOLD_DATA = {
       "tamano_bytes": 85449,
       "tamano_legible": "83.4 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Considero que el material académico producido por los\ndocentes es pertinente y adecuado con las necesidades y\nobjetivos de la Maestría en Ciencias de la Información y\nlas Comunicaciones.\n\n26% De acuerdo.\n= En desacuerdo.\n\n= Nien acuerdo, ni en\ndesacuerdo.\n\n10% 60%\n\n4%"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Estudiantes.zip",
@@ -15015,8 +16206,8 @@ const GOLD_DATA = {
       "tamano_bytes": 372871,
       "tamano_legible": "364.1 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "MGIS\n\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\n30 AÑOS\n\nWL en Ciencias de la Informacion y\nlas Comunicaciones\n\nApreciado directivo\n\nLa Maestría en Ciencias de la Información y las Comunicaciones de la Universidad Distrital\nFIC lo invita a participar activamente en el proceso de autoevaluación del pro…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Encuesta docente.jpg",
@@ -15027,8 +16218,8 @@ const GOLD_DATA = {
       "tamano_bytes": 367213,
       "tamano_legible": "358.6 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "MGIS\n\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\n30 AÑOS\n\nWL en Ciencias de la Informacion y\nlas Comunicaciones\n\nApreciado docente\n\nLa Maestría en Ciencias de la Información y las Comunicaciones de la Universidad Distrital\nFIC lo invita a participar activamente en el proceso de autoevaluación del progr…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Encuesta egresado.jpg",
@@ -15039,8 +16230,8 @@ const GOLD_DATA = {
       "tamano_bytes": 372626,
       "tamano_legible": "363.9 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "MGIS\n\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\n30 AÑOS\n\nWL en Ciencias de la Informacion y\nlas Comunicaciones\n\nApreciado egresado\n\nLa Maestría en Ciencias de la Información y las Comunicaciones de la Universidad Distrital\nFIC lo invita a participar activamente en el proceso de autoevaluación del prog…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Encuestas/Soportes/Encuesta estudiante.jpg",
@@ -15051,8 +16242,8 @@ const GOLD_DATA = {
       "tamano_bytes": 369313,
       "tamano_legible": "360.7 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "AA N GA\n\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES\n30 ANOS\n\nWL en Ciencias de la Informacion y\nlas Comunicaciones\n\nApreciado estudiante\n\nLa Maestría en Ciencias de la Información y las Comunicaciones de la Universidad Distrital\nFIC lo invita a participar activamente en el proceso de autoevaluación del…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Entregables Plan de Mejoramiento.xlsx",
@@ -15459,8 +16650,8 @@ const GOLD_DATA = {
       "tamano_bytes": 199721,
       "tamano_legible": "195.0 KB",
       "modalidad": "investigacion",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "£\n£\n(0)\n$*\n2\ng\nO\n£\na"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Información soportes de RAA/Soportes/Divulgación grupos de investigación 2025-3.jpg",
@@ -17031,8 +18222,8 @@ const GOLD_DATA = {
       "tamano_bytes": 255018,
       "tamano_legible": "249.0 KB",
       "modalidad": "general",
-      "texto_extraido": false,
-      "extracto": null
+      "texto_extraido": true,
+      "extracto": "Doctorado."
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2026/Evidencias Open Day/Registro Fotografico3.jpeg",
@@ -18704,24 +19895,24 @@ const GOLD_DATA = {
     }
   ],
   "documentosBronzeStats": {
-    "total": 1169,
+    "total": 1268,
     "por_modalidad": {
-      "profundizacion": 231,
-      "ambas": 8,
-      "investigacion": 286,
+      "profundizacion": 278,
+      "ambas": 13,
+      "investigacion": 333,
       "general": 644
     },
     "por_extension": {
-      "pdf": 443,
-      "docx": 145,
-      "xlsx": 371,
-      "xls": 54,
+      "pdf": 511,
+      "docx": 141,
+      "xlsx": 390,
+      "xls": 57,
       "zip": 15,
       "doc": 34,
-      "png": 67,
-      "jpg": 17,
+      "png": 72,
+      "jpg": 21,
+      "jpeg": 8,
       "xlsm": 4,
-      "jpeg": 4,
       "pptx": 9,
       "rar": 2,
       "csv": 3,
@@ -18731,13 +19922,13 @@ const GOLD_DATA = {
       "ACREDITACIÓN DE ALTA CALIDAD": 144,
       "Convenios": 19,
       "Docentes": 41,
-      "MCIC-PROFUNDIZACION": 25,
-      "MCIC.INVESTIGACION": 41,
+      "MCIC-PROFUNDIZACION": 77,
+      "MCIC.INVESTIGACION": 88,
       "Maestria CIC": 771,
       "Normativa y Formatos": 104,
       "REGISTRO CALIFICADO MCIC": 24
     },
-    "con_texto_extraido": 867
+    "con_texto_extraido": 1030
   },
   "evidenciaProcesosRcAac": {
     "investigacion": [

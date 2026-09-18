@@ -2165,8 +2165,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento",
-    "tamano_bytes": 12254,
-    "tamano_legible": "12.0 KB",
+    "tamano_bytes": 14315,
+    "tamano_legible": "14.0 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2207,6 +2207,526 @@
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
     "tamano_bytes": 884314,
     "tamano_legible": "863.6 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_IngSoftware.pdf",
+    "nombre": "MCIC_Anexo_reunion_IngSoftware.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+    "tamano_bytes": 25767,
+    "tamano_legible": "25.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_geomatica.pdf",
+    "nombre": "MCIC_Anexo_reunion_geomatica.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
+    "tamano_bytes": 42444,
+    "tamano_legible": "41.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/Ambientes de Aprendizaje Facultad Ing.png",
+    "nombre": "Ambientes de Aprendizaje Facultad Ing.png",
+    "extension": "png",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+    "tamano_bytes": 74121,
+    "tamano_legible": "72.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  investigacion.png",
+    "nombre": "Actualizacion pagiona web mcic -  investigacion.png",
+    "extension": "png",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1357261,
+    "tamano_legible": "1.3 MB",
+    "modalidad": "ambas"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic -  profundizacion.png",
+    "nombre": "Actualizacion pagiona web mcic -  profundizacion.png",
+    "extension": "png",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1143435,
+    "tamano_legible": "1.1 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Actualizacion pagiona web mcic.png",
+    "nombre": "Actualizacion pagiona web mcic.png",
+    "extension": "png",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 745240,
+    "tamano_legible": "727.8 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Asistencia 22-08-22 2026-3.pdf",
+    "nombre": "Asistencia 22-08-22 2026-3.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 2401275,
+    "tamano_legible": "2.3 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgacio grupos 2025-3.pdf",
+    "nombre": "Divulgacio grupos 2025-3.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 370889,
+    "tamano_legible": "362.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-1.jpg",
+    "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 199721,
+    "tamano_legible": "195.0 KB",
+    "modalidad": "ambas"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgación grupos de investigación 2025-3.jpg",
+    "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 160744,
+    "tamano_legible": "157.0 KB",
+    "modalidad": "ambas"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Encuentro estudiantes evaluacion docente.jpg",
+    "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 189320,
+    "tamano_legible": "184.9 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Induccion 2025-1.pdf",
+    "nombre": "Induccion 2025-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 388758,
+    "tamano_legible": "379.6 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2025-1.jpg",
+    "nombre": "Inducción 2025-1.jpg",
+    "extension": "jpg",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 218229,
+    "tamano_legible": "213.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2026-3.jpeg",
+    "nombre": "Inducción 2026-3.jpeg",
+    "extension": "jpeg",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 186679,
+    "tamano_legible": "182.3 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
+    "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 572085,
+    "tamano_legible": "558.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+    "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 572085,
+    "tamano_legible": "558.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Open Day.pdf",
+    "nombre": "Open Day.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 636028,
+    "tamano_legible": "621.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+    "nombre": "Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1219215,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "ambas"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+    "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1219215,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "ambas"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Realización del OPEN DAY 3.0.jpeg",
+    "nombre": "Realización del OPEN DAY 3.0.jpeg",
+    "extension": "jpeg",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 232687,
+    "tamano_legible": "227.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Participcion docente.xlsx",
+    "nombre": "Participcion docente.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
+    "tamano_bytes": 30878,
+    "tamano_legible": "30.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Experiencias UD.pdf",
+    "nombre": "Experiencias UD.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 623035,
+    "tamano_legible": "608.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Infografía Equema Normativo.pdf",
+    "nombre": "Infografía Equema Normativo.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 1855067,
+    "tamano_legible": "1.8 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+    "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 293770,
+    "tamano_legible": "286.9 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
+    "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 15316937,
+    "tamano_legible": "14.6 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
+    "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+    "tamano_bytes": 9581349,
+    "tamano_legible": "9.1 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
+    "nombre": "Reunión de acompañamiento.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+    "tamano_bytes": 155971,
+    "tamano_legible": "152.3 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUILAR RUIZ JOSE MANUEL.pdf",
+    "nombre": "AGUILAR RUIZ JOSE MANUEL.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 133176,
+    "tamano_legible": "130.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUIRRE CARPETA WILLIAM YESID.pdf",
+    "nombre": "AGUIRRE CARPETA WILLIAM YESID.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 119182,
+    "tamano_legible": "116.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ALAYON MORA RICARDO ARTURO.pdf",
+    "nombre": "ALAYON MORA RICARDO ARTURO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 113720,
+    "tamano_legible": "111.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CAPERA QUINTANA JONATHAN STEVEN.pdf",
+    "nombre": "CAPERA QUINTANA JONATHAN STEVEN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 114879,
+    "tamano_legible": "112.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CUCHIA RUIZ JAIME ANDRÉS.pdf",
+    "nombre": "CUCHIA RUIZ JAIME ANDRÉS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 119195,
+    "tamano_legible": "116.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/DAVID MONROY MACHADO.pdf",
+    "nombre": "DAVID MONROY MACHADO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 170393,
+    "tamano_legible": "166.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+    "nombre": "ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 107837,
+    "tamano_legible": "105.3 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ESPITIA PARDO DANIEL ENRIQUE.pdf",
+    "nombre": "ESPITIA PARDO DANIEL ENRIQUE.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 143589,
+    "tamano_legible": "140.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+    "nombre": "GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 122986,
+    "tamano_legible": "120.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN CORREA MAGDA LORENA.pdf",
+    "nombre": "GARZÓN CORREA MAGDA LORENA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 129150,
+    "tamano_legible": "126.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GERSON DAVID CRUZ CAPADOR.pdf",
+    "nombre": "GERSON DAVID CRUZ CAPADOR.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 130272,
+    "tamano_legible": "127.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+    "nombre": "GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 110939,
+    "tamano_legible": "108.3 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/HENRY ARIAS BERNAL.pdf",
+    "nombre": "HENRY ARIAS BERNAL.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 158817,
+    "tamano_legible": "155.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOHAN CAMILO PINZON BALLESTEROS.pdf",
+    "nombre": "JOHAN CAMILO PINZON BALLESTEROS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 127079,
+    "tamano_legible": "124.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANDRES GARCIA FLOREZ.pdf",
+    "nombre": "JOSE ANDRES GARCIA FLOREZ.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 142387,
+    "tamano_legible": "139.0 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANTONIO SILVA ROJAS.pdf",
+    "nombre": "JOSE ANTONIO SILVA ROJAS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 141521,
+    "tamano_legible": "138.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MARTINEZ MORALES BRENDA MELISSA.pdf",
+    "nombre": "MARTINEZ MORALES BRENDA MELISSA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 149244,
+    "tamano_legible": "145.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+    "nombre": "MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 170252,
+    "tamano_legible": "166.3 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MORA PEÑA DANNY FABIAN.pdf",
+    "nombre": "MORA PEÑA DANNY FABIAN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 110457,
+    "tamano_legible": "107.9 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/OVIEDO PERDOMO JUAN PABLO.pdf",
+    "nombre": "OVIEDO PERDOMO JUAN PABLO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 125628,
+    "tamano_legible": "122.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/PATIÑO LOPEZ LUIS FELIPE.pdf",
+    "nombre": "PATIÑO LOPEZ LUIS FELIPE.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 383212,
+    "tamano_legible": "374.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/QUINTERO GARZON CESAR IVAN.pdf",
+    "nombre": "QUINTERO GARZON CESAR IVAN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 124028,
+    "tamano_legible": "121.1 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/REY VANEGAS DIEGO ARMANDO.pdf",
+    "nombre": "REY VANEGAS DIEGO ARMANDO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 135553,
+    "tamano_legible": "132.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+    "nombre": "SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 128694,
+    "tamano_legible": "125.7 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+    "nombre": "TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Plan de mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 119506,
+    "tamano_legible": "116.7 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2310,83 +2830,13 @@
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/DOC MAES REGCALI MCIC-INV.docx",
-    "nombre": "DOC MAES REGCALI MCIC-INV.docx",
-    "extension": "docx",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.pdf",
+    "nombre": "PEP-MCIC-INV-V2.pdf",
+    "extension": "pdf",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 7810154,
-    "tamano_legible": "7.4 MB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V0.docx",
-    "nombre": "PEP-MCIC-INV-V0.docx",
-    "extension": "docx",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 612742,
-    "tamano_legible": "598.4 KB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V1.docx",
-    "nombre": "PEP-MCIC-INV-V1.docx",
-    "extension": "docx",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 1122722,
+    "tamano_bytes": 1108021,
     "tamano_legible": "1.1 MB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.docx",
-    "nombre": "PEP-MCIC-INV-V2.docx",
-    "extension": "docx",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 1256525,
-    "tamano_legible": "1.2 MB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Proyecto Educativo del Programa-2017.pdf",
-    "nombre": "Proyecto Educativo del Programa-2017.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 1278216,
-    "tamano_legible": "1.2 MB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Respuesta PEP.pdf",
-    "nombre": "Respuesta PEP.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 723198,
-    "tamano_legible": "706.2 KB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
-    "nombre": "Última versión Guía para la Construcción del Documento PEP_Agosto01_24.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 884314,
-    "tamano_legible": "863.6 KB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/Listado Linea de geomatica 26-5-25.pdf",
-    "nombre": "Listado Linea de geomatica 26-5-25.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
-    "tamano_bytes": 5713271,
-    "tamano_legible": "5.4 MB",
     "modalidad": "investigacion"
   },
   {
@@ -2407,6 +2857,16 @@
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes",
     "tamano_bytes": 42444,
     "tamano_legible": "41.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/Ambientes de Aprendizaje Facultad Ing.png",
+    "nombre": "Ambientes de Aprendizaje Facultad Ing.png",
+    "extension": "png",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE",
+    "tamano_bytes": 74121,
+    "tamano_legible": "72.4 KB",
     "modalidad": "investigacion"
   },
   {
@@ -2440,13 +2900,13 @@
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Colnvocatoria investigacion.pdf",
-    "nombre": "Colnvocatoria investigacion.pdf",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Asistencia 22-08-22 2026-3.pdf",
+    "nombre": "Asistencia 22-08-22 2026-3.pdf",
     "extension": "pdf",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 395156,
-    "tamano_legible": "385.9 KB",
+    "tamano_bytes": 2401275,
+    "tamano_legible": "2.3 MB",
     "modalidad": "investigacion"
   },
   {
@@ -2480,16 +2940,6 @@
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulghacion grupos 2024-1.pdf",
-    "nombre": "Divulghacion grupos 2024-1.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 283951,
-    "tamano_legible": "277.3 KB",
-    "modalidad": "investigacion"
-  },
-  {
     "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Encuentro estudiantes evaluacion docente.jpg",
     "nombre": "Encuentro estudiantes evaluacion docente.jpg",
     "extension": "jpg",
@@ -2497,16 +2947,6 @@
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
     "tamano_bytes": 189320,
     "tamano_legible": "184.9 KB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
-    "nombre": "INFORMACION INDUCCIÓN Y INICIO DE CLASES 2024-1.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 0,
-    "tamano_legible": "0 B",
     "modalidad": "investigacion"
   },
   {
@@ -2530,43 +2970,73 @@
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Informacion de contacto.pdf",
-    "nombre": "Informacion de contacto.pdf",
-    "extension": "pdf",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Inducción 2026-3.jpeg",
+    "nombre": "Inducción 2026-3.jpeg",
+    "extension": "jpeg",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 524100,
-    "tamano_legible": "511.8 KB",
+    "tamano_bytes": 186679,
+    "tamano_legible": "182.3 KB",
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitacion brics.pdf",
-    "nombre": "Invitacion brics.pdf",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
+    "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1 (1).pdf",
     "extension": "pdf",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 358672,
-    "tamano_legible": "350.3 KB",
+    "tamano_bytes": 572085,
+    "tamano_legible": "558.7 KB",
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Invitación Evento académico Horizonte.pdf",
-    "nombre": "Invitación Evento académico Horizonte.pdf",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+    "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
     "extension": "pdf",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 555550,
-    "tamano_legible": "542.5 KB",
+    "tamano_bytes": 572085,
+    "tamano_legible": "558.7 KB",
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
-    "nombre": "RV INSCRIPCIONES INTERSEMESTRAL Y CURSO HPC.pdf",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Open Day.pdf",
+    "nombre": "Open Day.pdf",
     "extension": "pdf",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 0,
-    "tamano_legible": "0 B",
+    "tamano_bytes": 636028,
+    "tamano_legible": "621.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+    "nombre": "Presentación de Grupos de Investigación MCIC2026-1 (1).pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1219215,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+    "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 1219215,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Realización del OPEN DAY 3.0.jpeg",
+    "nombre": "Realización del OPEN DAY 3.0.jpeg",
+    "extension": "jpeg",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+    "tamano_bytes": 232687,
+    "tamano_legible": "227.2 KB",
     "modalidad": "investigacion"
   },
   {
@@ -2575,58 +3045,578 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-    "tamano_bytes": 31098,
-    "tamano_legible": "30.4 KB",
+    "tamano_bytes": 30878,
+    "tamano_legible": "30.2 KB",
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus AnaliticaDeDatos.xlsx",
-    "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Experiencias UD.pdf",
+    "nombre": "Experiencias UD.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 623035,
+    "tamano_legible": "608.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Infografía Equema Normativo.pdf",
+    "nombre": "Infografía Equema Normativo.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 1855067,
+    "tamano_legible": "1.8 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+    "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 293770,
+    "tamano_legible": "286.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
+    "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 15316937,
+    "tamano_legible": "14.6 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
+    "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE",
+    "tamano_bytes": 9581349,
+    "tamano_legible": "9.1 MB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ANA╠üLISIS ESPACIAL.xlsx",
+    "nombre": "Syllabus ANA╠üLISIS ESPACIAL.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
-    "tamano_bytes": 373197,
-    "tamano_legible": "364.5 KB",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+    "tamano_bytes": 66715,
+    "tamano_legible": "65.2 KB",
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Construccion y pruebas.XLS",
-    "nombre": "Syllabus Construccion y pruebas.XLS",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Bases de Datos Espaciales.XLS",
+    "nombre": "Syllabus Bases de Datos Espaciales.XLS",
     "extension": "xls",
     "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
-    "tamano_bytes": 68973,
-    "tamano_legible": "67.4 KB",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+    "tamano_bytes": 68544,
+    "tamano_legible": "66.9 KB",
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Herramientas matematicas.XLS",
-    "nombre": "Syllabus Herramientas matematicas.XLS",
-    "extension": "xls",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
-    "tamano_bytes": 68826,
-    "tamano_legible": "67.2 KB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/Syllabus Metodos avanzados en analisi.xlsx",
-    "nombre": "Syllabus Metodos avanzados en analisi.xlsx",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
+    "nombre": "Syllabus ESTADI╠üSTICA ESPACIAL.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+    "tamano_bytes": 71751,
+    "tamano_legible": "70.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+    "nombre": "Syllabus Metodos Avanzados en Analisis de Imagenes.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
     "tamano_bytes": 68549,
     "tamano_legible": "66.9 KB",
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos/Matematicas avanzadas.XLS",
-    "nombre": "Matematicas avanzadas.XLS",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+    "nombre": "Syllabus SERVICIOS GEOGRA╠üFICOS WEB.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+    "tamano_bytes": 67270,
+    "tamano_legible": "65.7 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica/Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+    "nombre": "Syllabus SISTEMAS DE POSICIONAMIENTO GEODE╠üSICO.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Geomatica",
+    "tamano_bytes": 67490,
+    "tamano_legible": "65.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+    "nombre": "Syllabus -  APLICACIONES SOBRE INTERNET- LA NUBE.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+    "tamano_bytes": 68444,
+    "tamano_legible": "66.8 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+    "nombre": "Syllabus AVANCES EN REDES INALA╠üMBRICAS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+    "tamano_bytes": 66444,
+    "tamano_legible": "64.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+    "nombre": "Syllabus MODELADO Y SIMULACIO╠üN DE REDES.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+    "tamano_bytes": 70657,
+    "tamano_legible": "69.0 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+    "nombre": "Syllabus PROCESOS ESTOCA╠üSTICOS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+    "tamano_bytes": 70092,
+    "tamano_legible": "68.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica/Syllbus - REDES.xlsx",
+    "nombre": "Syllbus - REDES.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Enfasis Teleinformatica",
+    "tamano_bytes": 63551,
+    "tamano_legible": "62.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus BASES DE DATOS.xlsx",
+    "nombre": "Syllabus BASES DE DATOS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+    "tamano_bytes": 66096,
+    "tamano_legible": "64.5 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Construccion y Pruebas de Software.XLS",
+    "nombre": "Syllabus Construccion y Pruebas de Software.XLS",
     "extension": "xls",
     "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Definición de Resultados de Aprendizaje/espacios nuevos",
-    "tamano_bytes": 68548,
-    "tamano_legible": "66.9 KB",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+    "tamano_bytes": 68973,
+    "tamano_legible": "67.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software I.XLS",
+    "nombre": "Syllabus Ingenieria Software I.XLS",
+    "extension": "xls",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+    "tamano_bytes": 64111,
+    "tamano_legible": "62.6 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Ingenieria Software II.XLS",
+    "nombre": "Syllabus Ingenieria Software II.XLS",
+    "extension": "xls",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+    "tamano_bytes": 63791,
+    "tamano_legible": "62.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/Syllabus Patrones.XLS",
+    "nombre": "Syllabus Patrones.XLS",
+    "extension": "xls",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+    "tamano_bytes": 64769,
+    "tamano_legible": "63.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software/SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+    "nombre": "SyllabusTendenciasenIngenieri╠üadeSoftwareV0.1.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Ing Software",
+    "tamano_bytes": 66816,
+    "tamano_legible": "65.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus AnaliticaDeDatos.xlsx",
+    "nombre": "Syllabus AnaliticaDeDatos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+    "tamano_bytes": 373197,
+    "tamano_legible": "364.5 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus Big Data.xlsx",
+    "nombre": "Syllabus Big Data.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+    "tamano_bytes": 67967,
+    "tamano_legible": "66.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+    "nombre": "Syllabus COMPUTACIO╠üN PARALELA.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+    "tamano_bytes": 67010,
+    "tamano_legible": "65.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+    "nombre": "Syllabus INTELIGENCIA COMPUTACIONAL.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+    "tamano_bytes": 69803,
+    "tamano_legible": "68.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+    "nombre": "Syllabus INTELIGENCIA DE NEGOCIOS.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+    "tamano_bytes": 67058,
+    "tamano_legible": "65.5 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial/Syllabus_roboticaV2.xlsx",
+    "nombre": "Syllabus_roboticaV2.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/E╠ünfasis Inteligencia Artificial",
+    "tamano_bytes": 69052,
+    "tamano_legible": "67.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales/Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+    "nombre": "Syllabus Herramientas Matematicas para el Manejo de la Informacion.XLS",
+    "extension": "xls",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales",
+    "tamano_bytes": 68826,
+    "tamano_legible": "67.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales/Syllabus Informatica.xlsx",
+    "nombre": "Syllabus Informatica.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Fundamentales",
+    "tamano_bytes": 68689,
+    "tamano_legible": "67.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Investigacio╠ün/Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+    "nombre": "Syllabus - SEMINARIO DE INVESTIGACIO╠üN.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Syllabus/Investigacio╠ün",
+    "tamano_bytes": 68145,
+    "tamano_legible": "66.5 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
+    "nombre": "Reunión de acompañamiento.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN",
+    "tamano_bytes": 155971,
+    "tamano_legible": "152.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUILAR RUIZ JOSE MANUEL.pdf",
+    "nombre": "AGUILAR RUIZ JOSE MANUEL.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 133176,
+    "tamano_legible": "130.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/AGUIRRE CARPETA WILLIAM YESID.pdf",
+    "nombre": "AGUIRRE CARPETA WILLIAM YESID.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 119182,
+    "tamano_legible": "116.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ALAYON MORA RICARDO ARTURO.pdf",
+    "nombre": "ALAYON MORA RICARDO ARTURO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 113720,
+    "tamano_legible": "111.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CAPERA QUINTANA JONATHAN STEVEN.pdf",
+    "nombre": "CAPERA QUINTANA JONATHAN STEVEN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 114879,
+    "tamano_legible": "112.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/CUCHIA RUIZ JAIME ANDRÉS.pdf",
+    "nombre": "CUCHIA RUIZ JAIME ANDRÉS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 119195,
+    "tamano_legible": "116.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/DAVID MONROY MACHADO.pdf",
+    "nombre": "DAVID MONROY MACHADO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 170393,
+    "tamano_legible": "166.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+    "nombre": "ERAZO GUERRERO HERNAN ALVEIRO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 107837,
+    "tamano_legible": "105.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/ESPITIA PARDO DANIEL ENRIQUE.pdf",
+    "nombre": "ESPITIA PARDO DANIEL ENRIQUE.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 143589,
+    "tamano_legible": "140.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+    "nombre": "GARZÓN BAUTISTA HARVEY ALEXANDER.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 122986,
+    "tamano_legible": "120.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GARZÓN CORREA MAGDA LORENA.pdf",
+    "nombre": "GARZÓN CORREA MAGDA LORENA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 129150,
+    "tamano_legible": "126.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GERSON DAVID CRUZ CAPADOR.pdf",
+    "nombre": "GERSON DAVID CRUZ CAPADOR.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 130272,
+    "tamano_legible": "127.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+    "nombre": "GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 110939,
+    "tamano_legible": "108.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/HENRY ARIAS BERNAL.pdf",
+    "nombre": "HENRY ARIAS BERNAL.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 158817,
+    "tamano_legible": "155.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOHAN CAMILO PINZON BALLESTEROS.pdf",
+    "nombre": "JOHAN CAMILO PINZON BALLESTEROS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 127079,
+    "tamano_legible": "124.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANDRES GARCIA FLOREZ.pdf",
+    "nombre": "JOSE ANDRES GARCIA FLOREZ.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 142387,
+    "tamano_legible": "139.0 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/JOSE ANTONIO SILVA ROJAS.pdf",
+    "nombre": "JOSE ANTONIO SILVA ROJAS.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 141521,
+    "tamano_legible": "138.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MARTINEZ MORALES BRENDA MELISSA.pdf",
+    "nombre": "MARTINEZ MORALES BRENDA MELISSA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 149244,
+    "tamano_legible": "145.7 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+    "nombre": "MONTENEGRO ALVARADO ANDRES DAVID.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 170252,
+    "tamano_legible": "166.3 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/MORA PEÑA DANNY FABIAN.pdf",
+    "nombre": "MORA PEÑA DANNY FABIAN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 110457,
+    "tamano_legible": "107.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/OVIEDO PERDOMO JUAN PABLO.pdf",
+    "nombre": "OVIEDO PERDOMO JUAN PABLO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 125628,
+    "tamano_legible": "122.7 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/PATIÑO LOPEZ LUIS FELIPE.pdf",
+    "nombre": "PATIÑO LOPEZ LUIS FELIPE.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 383212,
+    "tamano_legible": "374.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/QUINTERO GARZON CESAR IVAN.pdf",
+    "nombre": "QUINTERO GARZON CESAR IVAN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 124028,
+    "tamano_legible": "121.1 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/REY VANEGAS DIEGO ARMANDO.pdf",
+    "nombre": "REY VANEGAS DIEGO ARMANDO.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 135553,
+    "tamano_legible": "132.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+    "nombre": "SOLARTE ROSAS CRISTIAN JULIAN.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 128694,
+    "tamano_legible": "125.7 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia/TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+    "nombre": "TORRES RODRIGUEZ JENIFER ANDREA.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Solicitudes de Prorroga de Permanencia",
+    "tamano_bytes": 119506,
+    "tamano_legible": "116.7 KB",
     "modalidad": "investigacion"
   },
   {

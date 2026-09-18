@@ -78,6 +78,11 @@ function fileLabel(relativePath) {
   return relativePath.split('/').pop();
 }
 
+function notaHtml(nota) {
+  if (!nota) return '';
+  return ` <span title="${escapeHtml(nota)}" style="cursor:help; opacity:0.75; font-size:11px;">ⓘ</span>`;
+}
+
 function fuenteHtml(fuente, label) {
   if (!fuente) return '';
   const texto = label || `Ver archivo fuente (hoja "${escapeHtml(fuente.hoja)}", fila ${escapeHtml(fuente.fila)})`;
@@ -135,7 +140,7 @@ function renderHeaderMeta() {
   const mods = GOLD_DATA.meta.modalidades;
   container.innerHTML = Object.entries(mods).map(([key, cab]) => `
     <div class="snies-pill">
-      <strong>${MODALIDAD_LABEL[key]}:</strong> ${escapeHtml(cab.registro_calificado)}<br>
+      <strong>${MODALIDAD_LABEL[key]}:</strong> ${escapeHtml(cab.registro_calificado)}${notaHtml(cab.registro_calificado_nota)}<br>
       <span style="font-size: 10.5px; opacity: 0.85;">
         Acreditación AAC: ${escapeHtml(cab.acreditacion_alta_calidad)} · Vigencia ${escapeHtml(cab.acreditacion_alta_calidad_vigencia)}
       </span>
@@ -240,7 +245,7 @@ function renderPlanBanner() {
     </div>
     <div class="modality-banner-grid">
       <div class="modality-banner-item"><span>Archivo Fuente</span><strong>${escapeHtml(fileLabel(cab.fuente.archivo))}</strong></div>
-      <div class="modality-banner-item"><span>Registro Calificado</span><strong>${escapeHtml(cab.registro_calificado)}</strong></div>
+      <div class="modality-banner-item"><span>Registro Calificado</span><strong>${escapeHtml(cab.registro_calificado)}${notaHtml(cab.registro_calificado_nota)}</strong></div>
       <div class="modality-banner-item"><span>Vigencia Registro</span><strong>${escapeHtml(cab.registro_calificado_vigencia)}</strong></div>
       <div class="modality-banner-item"><span>Acreditación Alta Calidad</span><strong>${escapeHtml(cab.acreditacion_alta_calidad)}</strong></div>
       <div class="modality-banner-item"><span>Vigencia Acreditación</span><strong>${escapeHtml(cab.acreditacion_alta_calidad_vigencia)}</strong></div>

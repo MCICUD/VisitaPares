@@ -94,6 +94,17 @@ def _leer_csv_txt(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="replace")
 
 
+def _leer_imagen(path: Path) -> str:
+    import pytesseract
+    from PIL import Image
+
+    # Limitar el tamaño de la imagen por rendimiento si es necesario, 
+    # pero pytesseract suele procesar imágenes razonables sin problema.
+    img = Image.open(str(path))
+    texto = pytesseract.image_to_string(img, lang='spa+eng')
+    return texto.strip()
+
+
 LECTORES = {
     "docx": _leer_docx,
     "pdf": _leer_pdf,
@@ -103,9 +114,12 @@ LECTORES = {
     "xls": _leer_xls,
     "csv": _leer_csv_txt,
     "txt": _leer_csv_txt,
+    "png": _leer_imagen,
+    "jpg": _leer_imagen,
+    "jpeg": _leer_imagen,
 }
 
-NO_SOPORTADOS = {"doc", "zip", "rar", "png", "jpg", "jpeg", "lnk"}
+NO_SOPORTADOS = {"doc", "zip", "rar", "lnk"}
 
 
 def extraer_texto(path: Path) -> dict[str, Any]:
