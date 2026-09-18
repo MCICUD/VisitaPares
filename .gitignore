@@ -1,4 +1,10 @@
 .venv/
 **/__pycache__/
 *.pyc
+Presentacion/*.aux
+Presentacion/*.log
+Presentacion/*.nav
+Presentacion/*.out
+Presentacion/*.snm
+Presentacion/*.toc
 

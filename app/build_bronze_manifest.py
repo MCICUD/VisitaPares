@@ -65,7 +65,14 @@ def tamano_legible(num_bytes: int) -> str:
 # "<código>/<categoría>/<archivo original>", cuyo nombre de archivo original
 # suele incluir el nombre completo del estudiante) — app/extract_seguimiento_tesis.py
 # sí la lee, solo para extraer título/director/etapa por proceso de tesis.
-EXCLUIR_DEL_CATALOGO = ("Estados", "PII_Interno", "Seguimiento_Tesis")
+EXCLUIR_DEL_CATALOGO = (
+    "Estados",
+    "PII_Interno",
+    "Seguimiento_Tesis",
+    "MCIC - Base de datos INVESTIGACION.xlsx",
+    "MCIC - Base de datos Profundizacion.xlsx",
+    "MCIC - Base de datos V2.xlsx",
+)
 
 
 def main() -> None:

@@ -3908,5 +3908,15 @@
     "tamano_bytes": 569502,
     "tamano_legible": "556.2 KB",
     "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/PresLabIng-20261-esuarez-01-p36-48.pdf",
+    "nombre": "PresLabIng-20261-esuarez-01-p36-48.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "PresLabIng-20261-esuarez-01-p36-48.pdf",
+    "carpeta_contenedora": ".",
+    "tamano_bytes": 1703926,
+    "tamano_legible": "1.6 MB",
+    "modalidad": "general"
   }
 ]

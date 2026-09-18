@@ -1,0 +1,364 @@
+% !TeX program = lualatex
+\documentclass[aspectratio=169, 11pt]{beamer}
+
+\usetheme{metropolis}
+\usepackage{fontspec}
+\setmainfont{Fira Sans}
+\setsansfont{Fira Sans}
+\newfontfamily\firamono{Fira Mono}
+
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+\metroset{block=fill, progressbar=frametitle, numbering=fraction, sectionpage=progressbar}
+
+\input{data.tex}
+
+\definecolor{udBlue}{HTML}{0D366B}
+\setbeamercolor{palette primary}{bg=udBlue, fg=white}
+\setbeamercolor{frametitle}{bg=udBlue, fg=white}
+\setbeamercolor{progress bar}{fg=clrorange, bg=clrgridgray}
+\setbeamercolor{title separator}{fg=clrorange}
+\setbeamercolor{alerted text}{fg=clrorange}
+
+\title{Autoevaluación y Plan de Mejoramiento}
+\subtitle{Maestría en Ciencias de la Información y las Comunicaciones (MCIC) --- Modalidades Investigación y Profundización}
+\author{Facultad de Ingeniería}
+\institute{\Institucion}
+\date{Visita de Pares Académicos \\ \today}
+
+\begin{document}
+\pgfplotsset{compat=1.18}
+
+\maketitle
+
+\begin{frame}{Contenido}
+  \tableofcontents
+\end{frame}
+
+% ===========================================================================
+\section{Contexto institucional}
+% ===========================================================================
+
+\begin{frame}{Identificación del programa}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+      \begin{block}{Institución}
+        \Institucion
+      \end{block}
+      \begin{block}{Facultad}
+        \Facultad
+      \end{block}
+      \begin{block}{Programa académico}
+        Maestría en Ciencias de la Información y las Comunicaciones
+      \end{block}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{alertblock}{Dos modalidades de formación}
+        \begin{itemize}
+          \item \textbf{Investigación} (código 595)
+          \item \textbf{Profundización} (código 695)
+        \end{itemize}
+        Nivel de formación: \textbf{Postgrado}. \\
+        Periodo de proyección del plan de mejoramiento: \textbf{\FechaPlan}.
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Registro calificado y acreditación de alta calidad}
+  \vfill
+  \begin{center}
+    \footnotesize
+    \begin{tabular}{@{}p{3.5cm} p{4.0cm} p{4.0cm}@{}}
+      \toprule
+      & \textbf{Investigación} & \textbf{Profundización} \\
+      \midrule
+      Registro calificado & \RCInv & \RCProf \\
+      Vigencia registro & \RCVigInv & \RCVigProf \\
+      Acreditación Alta Calidad (Res.) & \AACInv & \AACProf \\
+      Vigencia acreditación & \AACVigInv & \AACVigProf \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \vfill
+\end{frame}
+
+% ===========================================================================
+\section{Plan de mejoramiento 2026--2027}
+% ===========================================================================
+
+\begin{frame}{Panorama general del plan de mejoramiento}
+  \begin{columns}[T]
+    \begin{column}{0.33\textwidth}
+      \centering
+      {\Huge \textbf{\color{udBlue}\NumFactoresTotal}}\\
+      \small Factores documentados\\ (Investigación + Profundización)
+    \end{column}
+    \begin{column}{0.33\textwidth}
+      \centering
+      {\Huge \textbf{\color{clrorange}\NumOportunidades}}\\
+      \small Oportunidades de mejora
+    \end{column}
+    \begin{column}{0.33\textwidth}
+      \centering
+      {\Huge \textbf{\color{clraqua}\NumFortalezas}}\\
+      \small Fortalezas identificadas
+    \end{column}
+  \end{columns}
+  \vspace{0.8cm}
+  \begin{block}{Alcance}
+    El plan cubre los \textbf{12 factores} del modelo de autoevaluación institucional, replicados en ambas modalidades, con un peso-prioridad promedio de \textbf{\PesoPromInv / 10} y un horizonte de ejecución 2026-08 a 2027-12.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Factores por tipo y por tipo de actividad}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \centering \footnotesize Fortaleza vs. Oportunidad de mejora
+      \resizebox{\linewidth}{!}{\ChartFactoresTipo}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \centering \footnotesize Mejora vs. Sostenibilidad
+      \resizebox{\linewidth}{!}{\ChartFactoresActividad}
+    \end{column}
+  \end{columns}
+  \vspace{0.3cm}
+  \small La distribución es idéntica en Investigación y Profundización: 10 oportunidades de mejora y 2 fortalezas por modalidad, con 6 actividades de mejora y 6 de sostenibilidad.
+\end{frame}
+
+\begin{frame}{Priorización de los factores (peso-prioridad)}
+  \centering
+  \resizebox{0.85\linewidth}{!}{\ChartPesoFactores}
+  \par
+  \vspace{0.2cm}
+  \small Los factores 1, 2, 7 y 8 concentran la mayor prioridad (peso 10/10): identidad institucional, estudiantes, interacción con el entorno, y aportes de investigación e innovación.
+\end{frame}
+
+\begin{frame}{Detalle de los 12 factores del plan}
+  \tiny
+  \TablaFactores
+\end{frame}
+
+% ===========================================================================
+\section{Comunidad estudiantil}
+% ===========================================================================
+
+\begin{frame}{Estudiantes por énfasis (2026-1)}
+  \centering
+  \resizebox{0.92\linewidth}{!}{\ChartEnfasis}
+  \par
+  \vspace{0.2cm}
+  \small Total de estudiantes activos reportados por énfasis: \textbf{\EnfasisTotalGeneral}. Teleinformática e Ingeniería de Software concentran la mayor matrícula activa en investigación; Geomática lidera en profundización.
+\end{frame}
+
+\begin{frame}{Estado académico histórico por proyecto curricular}
+  \centering
+  \resizebox{0.92\linewidth}{!}{\ChartEstadoAcademico}
+  \par
+  \vspace{0.2cm}
+  \small Histórico acumulado de \textbf{\TotalEstudiantesHistorico} registros de estudiantes en los 7 proyectos curriculares que ha tenido el programa a lo largo de su historia (incluye antecesores curriculares).
+\end{frame}
+
+\begin{frame}{Énfasis del programa}
+  \begin{columns}[T]
+    \begin{column}{0.4\textwidth}
+      \begin{block}{\NumEnfasis\ énfasis disponibles}
+        Cada énfasis se ofrece tanto en la modalidad de Investigación como en la de Profundización.
+      \end{block}
+    \end{column}
+    \begin{column}{0.6\textwidth}
+      \centering \footnotesize
+      \TablaEnfasisTotales
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Egresados: panorama general (\RangoEgresados)}
+  \begin{columns}[T]
+    \begin{column}{0.35\textwidth}
+      \centering
+      {\Huge \textbf{\color{udBlue}\TotalEgresadosHistorico}}\\
+      \small Graduados históricos totales (todos los proyectos curriculares)
+    \end{column}
+    \begin{column}{0.65\textwidth}
+      \resizebox{\linewidth}{!}{\ChartEgresadosAnio}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Egresados por proyecto curricular}
+  \centering
+  \resizebox{0.85\linewidth}{!}{\ChartEgresadosProyecto}
+\end{frame}
+
+% ===========================================================================
+\section{Investigación y grupos}
+% ===========================================================================
+
+\begin{frame}{Panorama de los grupos de investigación}
+  \begin{columns}[T]
+    \begin{column}{0.35\textwidth}
+      \centering
+      {\Huge \textbf{\color{udBlue}\NumGrupos}}\\ \small grupos de investigación\\[0.4cm]
+      {\Huge \textbf{\color{clrorange}\NumDocentesGrupos}}\\ \small docentes vinculados\\[0.4cm]
+      {\Huge \textbf{\color{clraqua}\NumProyectosConGrupo}}\\ \small proyectos de grado asociados
+    \end{column}
+    \begin{column}{0.65\textwidth}
+      \centering \footnotesize Clasificación MinCiencias
+      \resizebox{\linewidth}{!}{\ChartGruposClasificacion}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Directorio de grupos de investigación (1/2)}
+  \centering \tiny
+  \TablaGruposUno
+\end{frame}
+
+\begin{frame}{Directorio de grupos de investigación (2/2)}
+  \centering \tiny
+  \TablaGruposDos
+\end{frame}
+
+\begin{frame}{Producción científica de los grupos}
+  \centering
+  \resizebox{0.85\linewidth}{!}{\ChartProduccionGrupos}
+  \par
+  \vspace{0.2cm}
+  \small \NumGruposProduccion\ grupos con reporte de producción en el Cuadro Maestro CNA suman \textbf{\TotalProductosGrupos} productos académicos (artículos indexados, libros, patentes y proyectos).
+\end{frame}
+
+% ===========================================================================
+\section{Seguimiento a trabajos de grado}
+% ===========================================================================
+
+\begin{frame}{Panorama general del seguimiento a tesis}
+  \begin{columns}[T]
+    \begin{column}{0.3\textwidth}
+      \centering
+      {\Huge \textbf{\color{udBlue}\TotalProcesosTesis}}\\
+      \small procesos de trabajo de grado consolidados
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \resizebox{\linewidth}{!}{\ChartTesisEtapa}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Seguimiento a tesis por modalidad}
+  \centering
+  \resizebox{0.92\linewidth}{!}{\ChartTesisModalidad}
+  \par
+  \vspace{0.2cm}
+  \small Investigación: \textbf{\TotalTesisInv} procesos. Profundización: \textbf{\TotalTesisProf} procesos.
+\end{frame}
+
+% ===========================================================================
+\section{Indicadores institucionales (Cuadro Maestro CNA)}
+% ===========================================================================
+
+\begin{frame}{Evolución de matriculados (2019-I a 2024-II)}
+  \centering
+  \resizebox{0.92\linewidth}{!}{\ChartCNAMatriculados}
+\end{frame}
+
+\begin{frame}{Evolución de graduados (2019-I a 2024-II)}
+  \centering
+  \resizebox{0.92\linewidth}{!}{\ChartCNAGraduados}
+  \par
+  \vspace{0.2cm}
+  \small La tendencia de graduados se mantiene estable entre 13 y 24 por periodo, con picos en 2021-II y 2023-I, mientras la matrícula total desciende de forma sostenida desde 2020-II.
+\end{frame}
+
+\begin{frame}{Bienestar universitario: actividades por servicio}
+  \centering
+  \resizebox{0.85\linewidth}{!}{\ChartBienestar}
+  \par
+  \vspace{0.2cm}
+  \small Suma de actividades registradas 2020-2024 por tipo de servicio de Bienestar Institucional.
+\end{frame}
+
+% ===========================================================================
+\section{Síntesis y cierre}
+% ===========================================================================
+
+\begin{frame}{Síntesis general}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Plan de mejoramiento}
+        \begin{itemize}
+          \small
+          \item \NumFactoresTotal\ factores documentados (INV + PROF)
+          \item \NumOportunidades\ oportunidades de mejora, \NumFortalezas\ fortalezas
+          \item Peso-prioridad promedio \PesoPromInv/10
+        \end{itemize}
+      \end{block}
+      \begin{block}{Comunidad estudiantil}
+        \begin{itemize}
+          \small
+          \item \TotalEgresadosHistorico\ egresados históricos
+          \item \TotalEstudiantesHistorico\ registros históricos en 7 proyectos curriculares
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Investigación}
+        \begin{itemize}
+          \small
+          \item \NumGrupos\ grupos de investigación, \NumDocentesGrupos\ docentes
+          \item \TotalProductosGrupos\ productos académicos reportados
+        \end{itemize}
+      \end{block}
+      \begin{block}{Trabajos de grado}
+        \begin{itemize}
+          \small
+          \item \TotalProcesosTesis\ procesos consolidados
+          \item \NumProyectosConGrupo\ asociados a grupos de investigación
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Fortalezas y oportunidades de mejora}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \begin{alertblock}{Fortalezas}
+        \small
+        \begin{itemize}
+          \item Factor 4 --- Egresados: estrategia de seguimiento y evaluación de impacto
+          \item Factor 8 --- Aportes de investigación, innovación y desarrollo tecnológico
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Principales oportunidades de mejora}
+        \small
+        \begin{itemize}
+          \item Factor 1: socialización del PEP y autoevaluación
+          \item Factor 2: divulgación y fortalecimiento de competencias estudiantiles
+          \item Factor 7: cooperación nacional e internacional
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[standout]
+  Gracias
+
+  \vspace{0.5cm}
+  {\normalsize Maestría en Ciencias de la Información y las Comunicaciones (MCIC)\\
+  \Facultad\ --- \Institucion}
+\end{frame}
+
+\end{document}

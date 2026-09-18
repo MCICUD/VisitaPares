@@ -295,6 +295,9 @@ def merge_proyectos_grado(grupos_investigacion: dict) -> dict:
     siglas_normalizadas = {
         normalizar_sigla(g["sigla"]): g["sigla"] for g in grupos_investigacion["grupos"]
     }
+    nombres_normalizados = {
+        normalizar_sigla(g["nombre"]): g["sigla"] for g in grupos_investigacion["grupos"] if g.get("nombre")
+    }
     for g in grupos_investigacion["grupos"]:
         g["proyectos_grado"] = []
 
@@ -316,10 +319,15 @@ def merge_proyectos_grado(grupos_investigacion: dict) -> dict:
 
         grupo_norm = normalizar_sigla(grupo_texto)
         sigla_encontrada = None
-        for sigla_norm, sigla_original in siglas_normalizadas.items():
-            if sigla_norm and (sigla_norm == grupo_norm or sigla_norm in grupo_norm or grupo_norm in sigla_norm):
-                sigla_encontrada = sigla_original
-                break
+        if grupo_norm in siglas_normalizadas:
+            sigla_encontrada = siglas_normalizadas[grupo_norm]
+        elif grupo_norm in nombres_normalizados:
+            sigla_encontrada = nombres_normalizados[grupo_norm]
+        else:
+            for sigla_norm, sigla_original in siglas_normalizadas.items():
+                if sigla_norm and (sigla_norm == grupo_norm or sigla_norm in grupo_norm or grupo_norm in sigla_norm):
+                    sigla_encontrada = sigla_original
+                    break
 
         if sigla_encontrada:
             por_sigla[sigla_encontrada]["proyectos_grado"].append(proyecto_publico)
@@ -358,14 +366,27 @@ def main() -> None:
     merge_evidencia_seguimiento(silver_prof["factores"], evidencia_prof)
 
     cuadros_maestros = load_json("cuadros_maestros.json")
-    resumen_grupos_factor8 = {
+    por_mod = resumen_seguimiento_tesis.get("por_modalidad", {})
+    resumen_factor8_inv = {
         "total_grupos": len(grupos_investigacion["grupos"]),
         "total_docentes_disponibles": sum(len(g["integrantes"]) for g in grupos_investigacion["grupos"]),
-        "total_proyectos_grado_detectados": resumen_seguimiento_tesis["total_procesos"],
-        "proyectos_grado_por_etapa": resumen_seguimiento_tesis["por_etapa"],
+        "total_proyectos_grado_detectados": por_mod.get("investigacion", {}).get("total", resumen_seguimiento_tesis["total_procesos"]),
+        "proyectos_grado_por_etapa": por_mod.get("investigacion", {}).get("por_etapa", resumen_seguimiento_tesis["por_etapa"]),
+        "total_programa_consolidado": resumen_seguimiento_tesis["total_procesos"],
+        "programa_consolidado_por_etapa": resumen_seguimiento_tesis["por_etapa"],
+        "fuentes_consultadas": resumen_seguimiento_tesis.get("fuentes_consultadas", []),
     }
-    merge_cuadros_maestros(silver_inv["factores"], cuadros_maestros, resumen_grupos_factor8)
-    merge_cuadros_maestros(silver_prof["factores"], cuadros_maestros, resumen_grupos_factor8)
+    resumen_factor8_prof = {
+        "total_grupos": len(grupos_investigacion["grupos"]),
+        "total_docentes_disponibles": sum(len(g["integrantes"]) for g in grupos_investigacion["grupos"]),
+        "total_proyectos_grado_detectados": por_mod.get("profundizacion", {}).get("total", resumen_seguimiento_tesis["total_procesos"]),
+        "proyectos_grado_por_etapa": por_mod.get("profundizacion", {}).get("por_etapa", resumen_seguimiento_tesis["por_etapa"]),
+        "total_programa_consolidado": resumen_seguimiento_tesis["total_procesos"],
+        "programa_consolidado_por_etapa": resumen_seguimiento_tesis["por_etapa"],
+        "fuentes_consultadas": resumen_seguimiento_tesis.get("fuentes_consultadas", []),
+    }
+    merge_cuadros_maestros(silver_inv["factores"], cuadros_maestros, resumen_factor8_inv)
+    merge_cuadros_maestros(silver_prof["factores"], cuadros_maestros, resumen_factor8_prof)
 
     convenios = load_json("convenios.json")
     merge_convenios(silver_inv["factores"], convenios)

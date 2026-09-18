@@ -486,9 +486,10 @@ let gruposInvestigacionState = { clasificacion: 'all' };
 
 const ETAPA_TESIS_BADGE = {
   'Sustentado': '✅',
-  'Jurados solicitados, pendiente sustentación': '⏳',
-  'Anteproyecto radicado, pendiente asignación de jurados': '📝',
-  'Sin anteproyecto radicado': '⚪',
+  'Jurado': '⏳',
+  'Jurados': '⏳',
+  'Anteproyecto': '📝',
+  'Sin anteproyecto': '⚪',
 };
 
 function etapaBadge(etapa) {
@@ -748,12 +749,34 @@ function renderCuadroMaestroHtml(datos) {
 
   if (datos.resumen_grupos_investigacion) {
     const r = datos.resumen_grupos_investigacion;
+    const fuentesHtmlText = r.fuentes_consultadas && r.fuentes_consultadas.length
+      ? `<div style="font-size:10.5px; color: var(--text-soft); margin-top:8px; padding-top:6px; border-top:1px dashed var(--border-color);">
+           📂 <strong>Bases de datos oficiales de trabajo de grado:</strong><br>
+           ${r.fuentes_consultadas.map((f) => `• ${escapeHtml(f)}`).join('<br>')}
+         </div>`
+      : '';
+
+    const consolidadoPrograma = r.total_programa_consolidado && r.total_programa_consolidado !== r.total_proyectos_grado_detectados
+      ? `<div class="plan-meta-row" style="margin-top:8px; padding-top:6px; border-top:1px dashed var(--border-color); font-weight:600;">
+           <span>Consolidado total programa MCIC (595 + 695)</span><span>${r.total_programa_consolidado}</span>
+         </div>`
+      : '';
+
     bloques += `
       <div class="plan-meta-box" style="margin-bottom:14px;">
         <div class="plan-meta-row"><span>Grupos de investigación registrados</span><span>${r.total_grupos}</span></div>
         <div class="plan-meta-row"><span>Docentes disponibles para dirección</span><span>${r.total_docentes_disponibles}</span></div>
-        <div class="plan-meta-row"><span>Proyectos de grado (595/695) detectados</span><span>${r.total_proyectos_grado_detectados}</span></div>
-        ${Object.entries(r.proyectos_grado_por_etapa).map(([etapa, n]) => `<div class="plan-meta-row"><span>${escapeHtml(etapa)}</span><span>${n}</span></div>`).join('')}
+        <div class="plan-meta-row" style="font-weight:600; color:var(--ud-blue);">
+          <span>Proyectos de grado en esta modalidad</span><span>${r.total_proyectos_grado_detectados}</span>
+        </div>
+        ${Object.entries(r.proyectos_grado_por_etapa).map(([etapa, n]) => `
+          <div class="plan-meta-row" style="padding-left:8px;">
+            <span>${etapaBadge(etapa)} ${escapeHtml(etapa)}</span>
+            <span style="font-weight:600;">${n}</span>
+          </div>
+        `).join('')}
+        ${consolidadoPrograma}
+        ${fuentesHtmlText}
       </div>
     `;
   }
