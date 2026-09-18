@@ -599,9 +599,70 @@ function openFactorModal(modalidad, index) {
 
     ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
     ${renderCuadroMaestroHtml(f.datos_cuadro_maestro_cna)}
+    ${renderComunidadFactor4Html(f.datos_comunidad_factor4)}
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
+}
+
+function renderComunidadFactor4Html(datos) {
+  if (!datos) return '';
+  const egresados = datos.egresados;
+  const estados = datos.estados;
+  
+  const anios = Object.keys(egresados.por_anio_estimado).sort();
+  
+  let matriculadosTotal = 0;
+  estados.proyectos.forEach(p => {
+    matriculadosTotal += (p.conteo_por_estado['Matriculado'] || 0);
+  });
+  
+  const descarga = GOLD_DATA.comunidadEstudiantil.descarga;
+  const fuenteHtml = descarga ? `
+    <div style="margin-top:10px;">
+      <a href="${fileHref(descarga.archivo)}" download class="btn btn-outline" style="text-decoration:none; font-size:11px; padding:4px 8px;">
+        📥 Descargar fuente: ${escapeHtml(descarga.titulo)}
+      </a>
+    </div>
+  ` : '';
+
+  return `
+    <div style="margin-bottom:16px;">
+      <p style="margin-bottom:8px;"><strong>📊 Datos de Estudiantes y Graduados (2022-2026):</strong></p>
+      
+      <div style="margin-bottom:14px;">
+        <div style="font-size:12.5px; font-weight:700; margin-bottom:6px;">Matriculados (Estado Actual)</div>
+        <div class="plan-meta-box">
+          <div class="plan-meta-row"><span>Total Estudiantes Matriculados Activos</span><span>${matriculadosTotal}</span></div>
+        </div>
+        <p style="font-size:10.5px; color: var(--text-soft); margin-top:6px;">Fuente: Consolidado Comunidad Estudiantil</p>
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <div style="font-size:12.5px; font-weight:700; margin-bottom:6px;">Graduados por año (Estimación 2022-2026)</div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse: collapse; font-size: 11.5px;">
+            <thead>
+              <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+                <th style="padding:6px 8px;">Métrica</th>
+                ${anios.map(a => `<th style="padding:6px 8px; text-align:right;">${escapeHtml(a)}</th>`).join('')}
+                <th style="padding:6px 8px; text-align:right;">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding:5px 8px;">Graduados</td>
+                ${anios.map(a => `<td style="padding:5px 8px; text-align:right;">${egresados.por_anio_estimado[a]}</td>`).join('')}
+                <td style="padding:5px 8px; text-align:right; font-weight:700;">${anios.reduce((acc, a) => acc + egresados.por_anio_estimado[a], 0)}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:10.5px; color: var(--text-soft); margin-top:6px;">Fuente: Consolidado Comunidad Estudiantil</p>
+      </div>
+      ${fuenteHtml}
+    </div>
+  `;
 }
 
 function renderCuadroMaestroHtml(datos) {

@@ -137,6 +137,49 @@ def leer_bienestar(ws) -> dict:
 
 def leer_grupos(ws) -> dict:
     """Cuadro CNA No. 08: producción investigativa por grupo."""
+    
+    CLASIFICACIONES_OFICIALES = {
+        "GIIRA": "A1",
+        "INTECSE": "A",
+        "INTERNET INTELIGENTE": "A",
+        "LIDER": "A",
+        "LIFAE": "A",
+        "NIDE": "A",
+        "GICOECOL": "B",
+        "GITEM++": "B",
+        "GRECO": "B",
+        "LASER": "B",
+        "GCEM": "C",
+        "GEFEM": "C",
+        "GESETIC": "C",
+        "GICOGE": "C",
+        "GITUD": "C",
+        "LAMIC": "C",
+        "ITI": "Facultad Tecnológica",
+        "ARMOS": "Facultad Tecnológica",
+        "GIDENUTAS": "Facultad Tecnológica"
+    }
+
+    MAPEO_CNA_A_SIGLA = {
+        'Grupo De Investigación En Telemedicina GITEM++': 'GITEM++',
+        'Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento': 'GICOGE',
+        'Internet Inteligente': 'INTERNET INTELIGENTE',
+        'GITUD': 'GITUD',
+        'Radiacion Electromagnetica Y Comunicaciones Opticas: Greco': 'GRECO',
+        'Nucleo Investigacion En Datos Espaciales': 'NIDE',
+        'Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes': 'LIDER',
+        'Laboratorio De Investigación En Fuentes Alternativas De Energía': 'LIFAE',
+        'Laboratorio De Automatizacion Sistemas Embebidos Y Robotica: Laser': 'LASER',
+        'Laboratorio De Automatica, Microeletronica E Inteligencia Computacional': 'LAMIC',
+        'Interoperabilidad Tecnologica Y Semantíca': 'INTECSE',
+        'Grupo De Compatibilidad E Interferencia Electromagnetica': 'GCEM',
+        'Giira': 'GIIRA',
+        'Gesdatos': 'GESDATOS',
+        'Estudio De Temas De La Física, De La Estadística Y De La Matemática': 'GEFEM',
+        'Comercio Electronico En Colombia - GICOECOL': 'GICOECOL',
+        'Arquitectura De Software': 'Arqusoft'
+    }
+
     filas = list(ws.iter_rows(values_only=True))
     grupos = []
     fila_inicio = None
@@ -145,6 +188,13 @@ def leer_grupos(ws) -> dict:
         nombre = fila[2]
         if nombre is None:
             break
+        
+        # Mapear nombre del CNA a la sigla oficial
+        sigla_cna = MAPEO_CNA_A_SIGLA.get(nombre)
+        
+        if sigla_cna not in CLASIFICACIONES_OFICIALES:
+            continue  # Excluir grupos que no están en la nueva lista oficial (ej. GESDATOS, Arqusoft)
+            
         if fila_inicio is None:
             fila_inicio = i
         fila_fin = i
@@ -152,7 +202,7 @@ def leer_grupos(ws) -> dict:
             "nombre_grupo": nombre,
             "lineas_investigacion": fila[1],
             "codigo_minciencias": fila[3],
-            "clasificacion_minciencias": fila[4],
+            "clasificacion_minciencias": CLASIFICACIONES_OFICIALES[sigla_cna],  # Override classification
             "proyectos_recursos_internos": fila[5],
             "proyectos_recursos_externos": fila[6],
             "articulos_indexados_nacional": fila[7],

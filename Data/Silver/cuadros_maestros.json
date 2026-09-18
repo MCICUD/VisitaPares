@@ -883,7 +883,7 @@
         "nombre_grupo": "Grupo De Investigación En Telemedicina GITEM++",
         "lineas_investigacion": "1.- CIENCIAS DE LA TIERRA\n2.- DESARROLLO DE SATELITES\n3.- Desarrollo de industria 4.0\n4.- ESTRATEGIAS EN CANNABIS MEDICINAL\n5.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n6.- REALISMO VIRTUAL\n7.- REDES DE NUEVA GENERACIÓN\n8.- TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n9.- TELESALUD Y MEDIO AMBIENTE\n10.- TELESALUD Y TELEMEDICINA",
         "codigo_minciencias": "COL0005655",
-        "clasificacion_minciencias": "C",
+        "clasificacion_minciencias": "B",
         "proyectos_recursos_internos": 6,
         "proyectos_recursos_externos": 2,
         "articulos_indexados_nacional": 66,
@@ -897,7 +897,7 @@
         "nombre_grupo": "Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento",
         "lineas_investigacion": null,
         "codigo_minciencias": "COL0009189",
-        "clasificacion_minciencias": "A1",
+        "clasificacion_minciencias": "C",
         "proyectos_recursos_internos": 9,
         "proyectos_recursos_externos": 1,
         "articulos_indexados_nacional": 10,
@@ -911,7 +911,7 @@
         "nombre_grupo": "Internet Inteligente",
         "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva\n3.- Seguridad informática",
         "codigo_minciencias": "COL0050374",
-        "clasificacion_minciencias": "A1",
+        "clasificacion_minciencias": "A",
         "proyectos_recursos_internos": 4,
         "proyectos_recursos_externos": 0,
         "articulos_indexados_nacional": 44,
@@ -939,7 +939,7 @@
         "nombre_grupo": "Radiacion Electromagnetica Y Comunicaciones Opticas: Greco",
         "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
         "codigo_minciencias": "COL0059244",
-        "clasificacion_minciencias": "A",
+        "clasificacion_minciencias": "B",
         "proyectos_recursos_internos": 3,
         "proyectos_recursos_externos": 1,
         "articulos_indexados_nacional": 17,
@@ -967,7 +967,7 @@
         "nombre_grupo": "Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes",
         "lineas_investigacion": "1.- Administración de Redes de Nueva Generación (IPv6), Redes IPv4 y Redes de Telefonía Móvil Celular\n2.- Agro Inteligente (Smart Agro)3.- Biofisica\n4.- Ciberseguridad en arquitecturas tecnológicas\n5.- Circuitos eléctricos y electrónica aplicada a la Industria\n6.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n7.- Desarrollo y programación de hardware, firmware y software para las comunicaciones\n8.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n9.- Gestión del conocimiento\n10.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n11.- Internet de las cosas\n12.- Investigación y desarrollo de satelites\n13.- Realidad Aumentada y Realidad Virtual\n14.- STEAM en la educación\n15.- TIC para la paz y contenidos pedagógicos para la educación\n16.- Web GIS y tecnologías geoespaciales",
         "codigo_minciencias": "COL0038019",
-        "clasificacion_minciencias": "B",
+        "clasificacion_minciencias": "A",
         "proyectos_recursos_internos": 4,
         "proyectos_recursos_externos": 8,
         "articulos_indexados_nacional": 30,
@@ -981,7 +981,7 @@
         "nombre_grupo": "Laboratorio De Investigación En Fuentes Alternativas De Energía",
         "lineas_investigacion": "1.- Electrónica de Potencia.\n2.- Fuentes Alternativas de Energía\n3.- Microrredes Electricas",
         "codigo_minciencias": "COL0012963",
-        "clasificacion_minciencias": "A1",
+        "clasificacion_minciencias": "A",
         "proyectos_recursos_internos": 20,
         "proyectos_recursos_externos": 1,
         "articulos_indexados_nacional": 25,
@@ -1037,7 +1037,7 @@
         "nombre_grupo": "Grupo De Compatibilidad E Interferencia Electromagnetica",
         "lineas_investigacion": "1.- Calidad de potencia y Energía\n2.- Compatibilidad Electromagnetica\n3.- Energías no convencionales\n4.- Sistemas modernos de potencia y Gestión de energía",
         "codigo_minciencias": "COL0011142",
-        "clasificacion_minciencias": "A1",
+        "clasificacion_minciencias": "C",
         "proyectos_recursos_internos": 12,
         "proyectos_recursos_externos": 1,
         "articulos_indexados_nacional": 92,
@@ -1062,20 +1062,6 @@
         "productos_totales": 234
       },
       {
-        "nombre_grupo": "Gesdatos",
-        "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
-        "codigo_minciencias": "COL0031619",
-        "clasificacion_minciencias": "Reconocido",
-        "proyectos_recursos_internos": 2,
-        "proyectos_recursos_externos": 0,
-        "articulos_indexados_nacional": 1,
-        "articulos_indexados_internacional": 1,
-        "libros": 0,
-        "patentes": 7,
-        "productos_creacion": 0,
-        "productos_totales": 9
-      },
-      {
         "nombre_grupo": "Estudio De Temas De La Física, De La Estadística Y De La Matemática",
         "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES, PERCEPCIÓN REMOTA Y FOTOGRAMETRIA",
         "codigo_minciencias": "COL0134625",
@@ -1093,7 +1079,7 @@
         "nombre_grupo": "Comercio Electronico En Colombia - GICOECOL",
         "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
         "codigo_minciencias": "COL0136844",
-        "clasificacion_minciencias": "A1",
+        "clasificacion_minciencias": "B",
         "proyectos_recursos_internos": 13,
         "proyectos_recursos_externos": 0,
         "articulos_indexados_nacional": 53,
@@ -1102,26 +1088,12 @@
         "patentes": 0,
         "productos_creacion": 0,
         "productos_totales": 170
-      },
-      {
-        "nombre_grupo": "Arquitectura De Software",
-        "lineas_investigacion": "1.- Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
-        "codigo_minciencias": "COL0049569",
-        "clasificacion_minciencias": "Reconocido",
-        "proyectos_recursos_internos": 0,
-        "proyectos_recursos_externos": 0,
-        "articulos_indexados_nacional": 0,
-        "articulos_indexados_internacional": 0,
-        "libros": 2,
-        "patentes": 0,
-        "productos_creacion": 0,
-        "productos_totales": 2
       }
     ],
     "fuente": {
       "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
       "hoja": "Investigacion - grupos y profe",
-      "fila": "6-22"
+      "fila": "6-21"
     }
   }
 }

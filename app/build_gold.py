@@ -222,9 +222,12 @@ def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_f
         numero = m.group(1) if m else None
         if numero == "4":
             f["datos_cuadro_maestro_cna"] = {
-                "graduacion": cuadros["graduacion"],
-                "graduados_cuadro_estudiantes": cuadros["graduados_cuadro_estudiantes"],
                 "enlace_modulo_egresados": ENLACE_MODULO_EGRESADOS,
+            }
+            # Add data from community for Factor 4
+            f["datos_comunidad_factor4"] = {
+                "egresados": load_json("egresados_agregado.json"),
+                "estados": load_json("estado_academico_agregado.json"),
             }
         elif numero == "8":
             f["datos_cuadro_maestro_cna"] = {

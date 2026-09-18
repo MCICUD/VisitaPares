@@ -1,31 +1,9 @@
 {
   "grupos": [
     {
-      "nombre": "Arqusoft - Arquitecturas de Software",
-      "lineas_investigacion": "1.-Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
-      "clasificacion": "C",
-      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000003244",
-      "pagina_web": "http://arquisoft.udistrital.edu.co/",
-      "email": "hdiosa@udistrital.edu.co",
-      "lider": "Henry Alberto Diosa",
-      "integrantes": [
-        {
-          "nombre": "Henry Alberto Diosa",
-          "correo": "hdiosa@udistrital.edu.co",
-          "tematicas": "Métodos Formales en Ingeniería de Software\nIngeniería de Software\nArquitecturas de software",
-          "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000249033"
-        }
-      ],
-      "sigla": "Arquisoft",
-      "fuente": {
-        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
-        "hoja": "Arquisoft"
-      }
-    },
-    {
       "nombre": "GCEM - Grupo de Compatibilidad e Interferencia Electromagnética",
       "lineas_investigacion": "1.- Alta tensión\n2.- Calidad de potencia\n3.- Compatibilidad Electromagnetica\n4.- Energías no convencionales",
-      "clasificacion": "A1",
+      "clasificacion": "C",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000883",
       "pagina_web": null,
       "email": "gcem.ud@gmail.com",
@@ -103,28 +81,6 @@
       }
     },
     {
-      "nombre": "GESDATOS - Gestión de datos",
-      "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
-      "clasificacion": "C",
-      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001332",
-      "pagina_web": null,
-      "email": null,
-      "lider": "Sonia Ordoñez Salinas",
-      "integrantes": [
-        {
-          "nombre": "Sonia Ordoñez Salinas",
-          "correo": "sordonez@udistrital.edu.co",
-          "tematicas": "Bases de Datos\nInteligencia de Negocios\nBigData\nCiencia de los Datos\nProcesamiento Lenguaje Natural y Linguistica Computacional",
-          "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000420050"
-        }
-      ],
-      "sigla": "GESDATOS",
-      "fuente": {
-        "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
-        "hoja": "GESDATOS"
-      }
-    },
-    {
       "nombre": "GESETIC - Grupo de Investigación en Gestión de Sistemas Energéticos con Base en Tecnologías de Información y Comunicación",
       "lineas_investigacion": "1.- ENERGIA\n2.- GESTION DEL CONOCIMIENTO Y VIGILANCIA TECNOLOGICA\n3.- INFORMATICA\n4.- MEDIO AMBIENTE Y RECURSOS NATURALES\n5.- TELECOMUNICACIONES",
       "clasificacion": "C",
@@ -167,7 +123,7 @@
     {
       "nombre": "GICOECOL - Comercio Electronico en Colombia",
       "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
-      "clasificacion": "A1",
+      "clasificacion": "B",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013887",
       "pagina_web": null,
       "email": null,
@@ -195,7 +151,7 @@
     {
       "nombre": "GICOGE - Grupo Informática Comunicaciones y Gestión del conocimiento",
       "lineas_investigacion": "1.- Calidad e Innovación en Informática, Comunicaciones y Gestión del Conocimiento para el Desarrollo Organizacional",
-      "clasificacion": "A1",
+      "clasificacion": "C",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000983",
       "pagina_web": null,
       "email": null,
@@ -311,7 +267,7 @@
     {
       "nombre": "GITUD - Grupo de investigación en Telecomunicaciones de la Universidad Distrital",
       "lineas_investigacion": "1.- Gestión de Espectro\n2.- Microondas, Antenas y Propagación\n3.- Optimización de Redes\n4.- Wireless Sensor Networks, IoT",
-      "clasificacion": "B",
+      "clasificacion": "C",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000877",
       "pagina_web": null,
       "email": null,
@@ -363,7 +319,7 @@
     {
       "nombre": "GITEM++ - Grupo de Investigación de Telemedicina",
       "lineas_investigacion": "1.- DESARROLLO DE SATELITES\n2.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n3.- LINEA DE INVESTIGACION EN TELESALUD Y TELEMEDICINA\n4.- LÍNEA DE INVESTIGACIÓN EN TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n5.- REALISMO VIRTUAL\n6.- REDES DE NUEVA GENERACIÓN",
-      "clasificacion": "C",
+      "clasificacion": "B",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000902",
       "pagina_web": null,
       "email": null,
@@ -443,7 +399,7 @@
     {
       "nombre": "Internet Inteligente",
       "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva",
-      "clasificacion": "B",
+      "clasificacion": "A",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000003328",
       "pagina_web": null,
       "email": null,
@@ -483,7 +439,7 @@
     {
       "nombre": "INTECSE - Interoperabilidad Tecnología y Semántica",
       "lineas_investigacion": "1.- Desarrollo de software\n2.- Desarrollo de software dirigido por modelos\n3.- Modelamiento ontológico\n4.- Objetos de aprendizaje",
-      "clasificacion": "B",
+      "clasificacion": "A",
       "gruplac": null,
       "pagina_web": null,
       "email": null,
@@ -511,7 +467,7 @@
     {
       "nombre": "ITI: Innovación en Tecnologías de Información",
       "lineas_investigacion": "1.- Aplicaciones móviles\n2.- Bioinformática\n3.- Ingenieria Dirigida por Modelos\n4.- Inteligencia de Negocios",
-      "clasificacion": "A",
+      "clasificacion": "Facultad Tecnológica",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000016507",
       "pagina_web": "https://www.itiud.org/",
       "email": "iti@udistrital.edu.co",
@@ -533,7 +489,7 @@
     {
       "nombre": "LAMIC - Laboratorio de Automática e Inteligencia Computacional",
       "lineas_investigacion": "1.- Automática\n2.- Inteligencia Computacional\n3.- Microelectrónica",
-      "clasificacion": "A",
+      "clasificacion": "C",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000879",
       "pagina_web": null,
       "email": null,
@@ -659,7 +615,7 @@
     {
       "nombre": "LIFAE - Laboratorio de Investigación en Fuentes Alternativas de Energía",
       "lineas_investigacion": "1.- Línea de Investigación en Electrónica de Potencia y Fuentes Alternativas de Energía",
-      "clasificacion": "A1",
+      "clasificacion": "A",
       "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000871",
       "pagina_web": null,
       "email": null,
@@ -782,6 +738,28 @@
       "fuente": {
         "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
         "hoja": "NIDE"
+      }
+    },
+    {
+      "nombre": "ARMOS",
+      "sigla": "ARMOS",
+      "clasificacion": "Facultad Tecnológica",
+      "integrantes": [],
+      "proyectos_grado": [],
+      "fuente": {
+        "archivo": "Lista oficial manual",
+        "hoja": "ARMOS"
+      }
+    },
+    {
+      "nombre": "GIDENUTAS",
+      "sigla": "GIDENUTAS",
+      "clasificacion": "Facultad Tecnológica",
+      "integrantes": [],
+      "proyectos_grado": [],
+      "fuente": {
+        "archivo": "Lista oficial manual",
+        "hoja": "GIDENUTAS"
       }
     }
   ]

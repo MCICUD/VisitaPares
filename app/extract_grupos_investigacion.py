@@ -76,12 +76,55 @@ def main() -> None:
         warnings.simplefilter("ignore", UserWarning)
         wb = __import__("openpyxl").load_workbook(ARCHIVO, data_only=True, read_only=True)
 
+    # Mapeo oficial de grupos y clasificaciones
+    CLASIFICACIONES_OFICIALES = {
+        "GIIRA": "A1",
+        "INTECSE": "A",
+        "INTERNET INTELIGENTE": "A",
+        "LIDER": "A",
+        "LIFAE": "A",
+        "NIDE": "A",
+        "GICOECOL": "B",
+        "GITEM++": "B",
+        "GRECO": "B",
+        "LASER": "B",
+        "GCEM": "C",
+        "GEFEM": "C",
+        "GESETIC": "C",
+        "GICOGE": "C",
+        "GITUD": "C",
+        "LAMIC": "C",
+        "ITI": "Facultad Tecnológica",
+        "ARMOS": "Facultad Tecnológica",
+        "GIDENUTAS": "Facultad Tecnológica"
+    }
+
     grupos = []
+    grupos_encontrados = set()
+
     for nombre_hoja in wb.sheetnames:
+        llave = nombre_hoja.upper()
+        if llave not in CLASIFICACIONES_OFICIALES:
+            continue  # Excluir grupos que no están en la lista oficial
+            
         grupo = procesar_hoja(wb[nombre_hoja])
         grupo["sigla"] = nombre_hoja
         grupo["fuente"] = {"archivo": rel(ARCHIVO), "hoja": nombre_hoja}
+        grupo["clasificacion"] = CLASIFICACIONES_OFICIALES[llave]  # Forzar la clasificación
         grupos.append(grupo)
+        grupos_encontrados.add(llave)
+
+    # Añadir grupos que no estaban en el Excel (ej. ARMOS, GIDENUTAS)
+    for sigla, clasificacion in CLASIFICACIONES_OFICIALES.items():
+        if sigla not in grupos_encontrados:
+            grupos.append({
+                "nombre": sigla,
+                "sigla": sigla,
+                "clasificacion": clasificacion,
+                "integrantes": [],
+                "proyectos_grado": [],
+                "fuente": {"archivo": "Lista oficial manual", "hoja": sigla}
+            })
 
     data = {"grupos": grupos}
     SILVER_DIR.mkdir(parents=True, exist_ok=True)

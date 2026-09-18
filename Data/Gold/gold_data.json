@@ -473,101 +473,315 @@
           "total_archivos": 0
         },
         "datos_cuadro_maestro_cna": {
-          "graduacion": {
-            "por_periodo": [
-              {
-                "periodo": "2019-I",
-                "matriculados": 266,
-                "graduados": 7
-              },
-              {
-                "periodo": "2019-II",
-                "matriculados": 275,
-                "graduados": 5
-              },
-              {
-                "periodo": "2020-I",
-                "matriculados": 285,
-                "graduados": 5
-              },
-              {
-                "periodo": "2020-II",
-                "matriculados": 334,
-                "graduados": 16
-              },
-              {
-                "periodo": "2021-I",
-                "matriculados": 328,
-                "graduados": 14
-              },
-              {
-                "periodo": "2021-II",
-                "matriculados": 308,
-                "graduados": 23
-              },
-              {
-                "periodo": "2022-I",
-                "matriculados": 283,
-                "graduados": 19
-              },
-              {
-                "periodo": "2022-II",
-                "matriculados": 250,
-                "graduados": 16
-              },
-              {
-                "periodo": "2023-I",
-                "matriculados": 216,
-                "graduados": 24
-              },
-              {
-                "periodo": "2023-II",
-                "matriculados": 164,
-                "graduados": 15
-              },
-              {
-                "periodo": "2024-I",
-                "matriculados": 155,
-                "graduados": 13
-              },
-              {
-                "periodo": "2024-II",
-                "matriculados": 132,
-                "graduados": 15
-              }
-            ],
-            "fuente": {
-              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
-              "hoja": "Graduación",
-              "fila": "6-17"
-            }
-          },
-          "graduados_cuadro_estudiantes": {
-            "por_periodo": {
-              "2019-I": 7,
-              "2019-II": 5,
-              "2020-I": 5,
-              "2020-II": 16,
-              "2021-I": 14,
-              "2021-II": 23,
-              "2022-I": 19,
-              "2022-II": 16,
-              "2023-I": 24,
-              "2023-II": 15,
-              "2024-I": 13,
-              "2024-II": 15
-            },
-            "fuente": {
-              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
-              "hoja": "Estudiantes",
-              "fila": "8-19"
-            },
-            "discrepancias_vs_cuadro_04": []
-          },
           "enlace_modulo_egresados": {
             "tipo": "enlace_externo",
             "titulo": "Módulo institucional de Hoja de Vida de Egresados (UD)",
             "url": "https://egresados.udistrital.edu.co/hoja-de-vida-impulsa-tu-perfil-profesional"
+          }
+        },
+        "datos_comunidad_factor4": {
+          "egresados": {
+            "rango_presentado": "2022-2026",
+            "total_historico_graduados": 577,
+            "por_proyecto_historico": [
+              {
+                "cod_proyecto": "95",
+                "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+                "total_graduados_historico": 121,
+                "total_graduados_roster_2025": null
+              },
+              {
+                "cod_proyecto": "195",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+                "total_graduados_historico": 167,
+                "total_graduados_roster_2025": 139
+              },
+              {
+                "cod_proyecto": "295",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+                "total_graduados_historico": 109,
+                "total_graduados_roster_2025": 107
+              },
+              {
+                "cod_proyecto": "395",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+                "total_graduados_historico": 88,
+                "total_graduados_roster_2025": 39
+              },
+              {
+                "cod_proyecto": "495",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+                "total_graduados_historico": 78,
+                "total_graduados_roster_2025": 18
+              },
+              {
+                "cod_proyecto": "595",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_graduados_historico": 4,
+                "total_graduados_roster_2025": null
+              },
+              {
+                "cod_proyecto": "695",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_graduados_historico": 10,
+                "total_graduados_roster_2025": null
+              }
+            ],
+            "por_anio_estimado": {
+              "2022": 35,
+              "2023": 39,
+              "2024": 28,
+              "2025": 36,
+              "2026": 15
+            },
+            "por_proyecto_por_anio_estimado": [
+              {
+                "cod_proyecto": "95",
+                "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+                "por_anio_estimado": {}
+              },
+              {
+                "cod_proyecto": "195",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+                "por_anio_estimado": {
+                  "2022": 9,
+                  "2023": 7,
+                  "2024": 9,
+                  "2025": 2,
+                  "2026": 1
+                }
+              },
+              {
+                "cod_proyecto": "295",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+                "por_anio_estimado": {
+                  "2022": 1,
+                  "2024": 1
+                }
+              },
+              {
+                "cod_proyecto": "395",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+                "por_anio_estimado": {
+                  "2022": 15,
+                  "2023": 9,
+                  "2024": 11,
+                  "2025": 11,
+                  "2026": 3
+                }
+              },
+              {
+                "cod_proyecto": "495",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+                "por_anio_estimado": {
+                  "2022": 10,
+                  "2023": 23,
+                  "2024": 7,
+                  "2025": 16,
+                  "2026": 4
+                }
+              },
+              {
+                "cod_proyecto": "595",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "por_anio_estimado": {
+                  "2025": 4
+                }
+              },
+              {
+                "cod_proyecto": "695",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "por_anio_estimado": {
+                  "2025": 3,
+                  "2026": 7
+                }
+              }
+            ],
+            "con_fecha_real": {
+              "rango": "2022-2023",
+              "total_graduados": 59,
+              "por_anio": {
+                "2022": 35,
+                "2023": 24
+              },
+              "por_enfasis": [
+                {
+                  "cod_proyecto": "195",
+                  "total_graduados": 14,
+                  "por_anio": {
+                    "2022": 9,
+                    "2023": 5
+                  },
+                  "promedio_academico": 4.34
+                },
+                {
+                  "cod_proyecto": "295",
+                  "total_graduados": 1,
+                  "por_anio": {
+                    "2022": 1
+                  },
+                  "promedio_academico": 4.4
+                },
+                {
+                  "cod_proyecto": "395",
+                  "total_graduados": 21,
+                  "por_anio": {
+                    "2022": 15,
+                    "2023": 6
+                  },
+                  "promedio_academico": 4.47
+                },
+                {
+                  "cod_proyecto": "495",
+                  "total_graduados": 23,
+                  "por_anio": {
+                    "2022": 10,
+                    "2023": 13
+                  },
+                  "promedio_academico": 4.52
+                }
+              ]
+            },
+            "validacion_estimacion": {
+              "descripcion": "Para los graduados de 2022-2023 (única ventana con fecha de grado real, del acta), se compara esa fecha contra el año estimado a partir de 'Ultima Matricula' en Estados/ — la misma técnica que se usa para estimar el año de grado en 2024-2026, donde no existe fecha real con qué comparar.",
+              "estudiantes_comparables": 59,
+              "coinciden_anio_exacto": 59,
+              "coinciden_anio_mas_menos_1": 0,
+              "sin_anio_estimable": 0,
+              "graduados_en_acta_sin_registro_graduado_en_estados": 0
+            },
+            "metodologia": "Cóndor (Data/Bronze/Estados/) no guarda la fecha de grado, solo el estado actual del estudiante. 'total_historico_graduados' y 'por_proyecto_historico' cuentan TODOS los estudiantes marcados 'E - Graduado' en el roster, de cualquier año. 'por_anio_estimado' aproxima el año de grado con el año de la última matrícula registrada (columna 'Ultima Matricula') de cada graduado — no es la fecha real de grado, es la mejor aproximación disponible; ver 'validacion_estimacion' para su margen de error real, medido contra los únicos casos con fecha exacta conocida (2022-2023). 'con_fecha_real' es la única sección con fecha de grado exacta (acta oficial), pero el archivo fuente no tiene versión posterior a 2023.",
+            "limitacion": "No existe, en ningún sistema disponible (Cóndor ni los archivos sueltos de Secretaría), un registro de fecha de grado exacta para 2024-2026. El desglose de esos años es una estimación explícita, no un dato de acta; no se presenta como si lo fuera.",
+            "fuente": {
+              "estados": {
+                "carpeta": "Data/Bronze/Estados/",
+                "nota": "7 CSV por proyecto curricular; solo se usan las columnas Cod. Estudiante (para cruzar), Estado y Ultima Matricula."
+              },
+              "acta_fecha_real": {
+                "archivo": "Data/Bronze/PII_Interno/Informacion egresados 2023.xlsx",
+                "nota": "Archivo con nombre/documento/correo por egresado; no se publica en el catálogo de Data/Bronze."
+              },
+              "roster_2025": {
+                "archivo": "Data/Bronze/PII_Interno/Información Egresados Maestria y Doctorados 2025.xlsx",
+                "nota": "Roster de egresados actualizado a 2025, usado solo para verificar el total por proyecto contra Estados/; no se publica en el catálogo de Data/Bronze."
+              }
+            }
+          },
+          "estados": {
+            "proyectos": [
+              {
+                "cod_proyecto": "195",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+                "total_estudiantes": 466,
+                "conteo_por_estado": {
+                  "Matriculado": 14,
+                  "Graduado": 167,
+                  "INACTIVO": 30,
+                  "Pérdida de calidad de estudiante - Suspendido": 248,
+                  "Pérdida de calidad de estudiante - Expulsado": 7
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_195.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "295",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+                "total_estudiantes": 338,
+                "conteo_por_estado": {
+                  "Graduado": 109,
+                  "INACTIVO": 11,
+                  "Pérdida de calidad de estudiante - Suspendido": 217,
+                  "Pérdida de calidad de estudiante - Expulsado": 1
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_295.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "395",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+                "total_estudiantes": 193,
+                "conteo_por_estado": {
+                  "Matriculado": 9,
+                  "Graduado": 88,
+                  "INACTIVO": 24,
+                  "En renovación de matrícula - Vacaciones": 2,
+                  "Pérdida de calidad de estudiante - Suspendido": 70
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_395.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "495",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+                "total_estudiantes": 229,
+                "conteo_por_estado": {
+                  "Matriculado": 26,
+                  "Graduado": 78,
+                  "INACTIVO": 23,
+                  "En renovación de matrícula - Vacaciones": 5,
+                  "Pérdida de calidad de estudiante - Suspendido": 97
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_495.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "595",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_estudiantes": 74,
+                "conteo_por_estado": {
+                  "Matriculado": 49,
+                  "Graduado": 4,
+                  "INACTIVO": 4,
+                  "En renovación de matrícula - Vacaciones": 7,
+                  "Pérdida de calidad de estudiante - Suspendido": 10
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_595.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "695",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_estudiantes": 100,
+                "conteo_por_estado": {
+                  "Matriculado": 58,
+                  "Graduado": 10,
+                  "INACTIVO": 6,
+                  "En renovación de matrícula - Vacaciones": 12,
+                  "Abandono": 1,
+                  "Pérdida de calidad de estudiante - Suspendido": 13
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_695.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "95",
+                "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+                "total_estudiantes": 536,
+                "conteo_por_estado": {
+                  "Graduado": 121,
+                  "INACTIVO": 247,
+                  "Abandono": 1,
+                  "Pérdida de calidad de estudiante - Suspendido": 159,
+                  "Pérdida de calidad de estudiante - Expulsado": 8
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_95.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              }
+            ]
           }
         }
       },
@@ -887,7 +1101,7 @@
                 "nombre_grupo": "Grupo De Investigación En Telemedicina GITEM++",
                 "lineas_investigacion": "1.- CIENCIAS DE LA TIERRA\n2.- DESARROLLO DE SATELITES\n3.- Desarrollo de industria 4.0\n4.- ESTRATEGIAS EN CANNABIS MEDICINAL\n5.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n6.- REALISMO VIRTUAL\n7.- REDES DE NUEVA GENERACIÓN\n8.- TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n9.- TELESALUD Y MEDIO AMBIENTE\n10.- TELESALUD Y TELEMEDICINA",
                 "codigo_minciencias": "COL0005655",
-                "clasificacion_minciencias": "C",
+                "clasificacion_minciencias": "B",
                 "proyectos_recursos_internos": 6,
                 "proyectos_recursos_externos": 2,
                 "articulos_indexados_nacional": 66,
@@ -901,7 +1115,7 @@
                 "nombre_grupo": "Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento",
                 "lineas_investigacion": null,
                 "codigo_minciencias": "COL0009189",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "C",
                 "proyectos_recursos_internos": 9,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 10,
@@ -915,7 +1129,7 @@
                 "nombre_grupo": "Internet Inteligente",
                 "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva\n3.- Seguridad informática",
                 "codigo_minciencias": "COL0050374",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "A",
                 "proyectos_recursos_internos": 4,
                 "proyectos_recursos_externos": 0,
                 "articulos_indexados_nacional": 44,
@@ -943,7 +1157,7 @@
                 "nombre_grupo": "Radiacion Electromagnetica Y Comunicaciones Opticas: Greco",
                 "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
                 "codigo_minciencias": "COL0059244",
-                "clasificacion_minciencias": "A",
+                "clasificacion_minciencias": "B",
                 "proyectos_recursos_internos": 3,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 17,
@@ -971,7 +1185,7 @@
                 "nombre_grupo": "Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes",
                 "lineas_investigacion": "1.- Administración de Redes de Nueva Generación (IPv6), Redes IPv4 y Redes de Telefonía Móvil Celular\n2.- Agro Inteligente (Smart Agro)3.- Biofisica\n4.- Ciberseguridad en arquitecturas tecnológicas\n5.- Circuitos eléctricos y electrónica aplicada a la Industria\n6.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n7.- Desarrollo y programación de hardware, firmware y software para las comunicaciones\n8.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n9.- Gestión del conocimiento\n10.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n11.- Internet de las cosas\n12.- Investigación y desarrollo de satelites\n13.- Realidad Aumentada y Realidad Virtual\n14.- STEAM en la educación\n15.- TIC para la paz y contenidos pedagógicos para la educación\n16.- Web GIS y tecnologías geoespaciales",
                 "codigo_minciencias": "COL0038019",
-                "clasificacion_minciencias": "B",
+                "clasificacion_minciencias": "A",
                 "proyectos_recursos_internos": 4,
                 "proyectos_recursos_externos": 8,
                 "articulos_indexados_nacional": 30,
@@ -985,7 +1199,7 @@
                 "nombre_grupo": "Laboratorio De Investigación En Fuentes Alternativas De Energía",
                 "lineas_investigacion": "1.- Electrónica de Potencia.\n2.- Fuentes Alternativas de Energía\n3.- Microrredes Electricas",
                 "codigo_minciencias": "COL0012963",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "A",
                 "proyectos_recursos_internos": 20,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 25,
@@ -1041,7 +1255,7 @@
                 "nombre_grupo": "Grupo De Compatibilidad E Interferencia Electromagnetica",
                 "lineas_investigacion": "1.- Calidad de potencia y Energía\n2.- Compatibilidad Electromagnetica\n3.- Energías no convencionales\n4.- Sistemas modernos de potencia y Gestión de energía",
                 "codigo_minciencias": "COL0011142",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "C",
                 "proyectos_recursos_internos": 12,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 92,
@@ -1066,20 +1280,6 @@
                 "productos_totales": 234
               },
               {
-                "nombre_grupo": "Gesdatos",
-                "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
-                "codigo_minciencias": "COL0031619",
-                "clasificacion_minciencias": "Reconocido",
-                "proyectos_recursos_internos": 2,
-                "proyectos_recursos_externos": 0,
-                "articulos_indexados_nacional": 1,
-                "articulos_indexados_internacional": 1,
-                "libros": 0,
-                "patentes": 7,
-                "productos_creacion": 0,
-                "productos_totales": 9
-              },
-              {
                 "nombre_grupo": "Estudio De Temas De La Física, De La Estadística Y De La Matemática",
                 "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES, PERCEPCIÓN REMOTA Y FOTOGRAMETRIA",
                 "codigo_minciencias": "COL0134625",
@@ -1097,7 +1297,7 @@
                 "nombre_grupo": "Comercio Electronico En Colombia - GICOECOL",
                 "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
                 "codigo_minciencias": "COL0136844",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "B",
                 "proyectos_recursos_internos": 13,
                 "proyectos_recursos_externos": 0,
                 "articulos_indexados_nacional": 53,
@@ -1106,31 +1306,17 @@
                 "patentes": 0,
                 "productos_creacion": 0,
                 "productos_totales": 170
-              },
-              {
-                "nombre_grupo": "Arquitectura De Software",
-                "lineas_investigacion": "1.- Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
-                "codigo_minciencias": "COL0049569",
-                "clasificacion_minciencias": "Reconocido",
-                "proyectos_recursos_internos": 0,
-                "proyectos_recursos_externos": 0,
-                "articulos_indexados_nacional": 0,
-                "articulos_indexados_internacional": 0,
-                "libros": 2,
-                "patentes": 0,
-                "productos_creacion": 0,
-                "productos_totales": 2
               }
             ],
             "fuente": {
               "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
               "hoja": "Investigacion - grupos y profe",
-              "fila": "6-22"
+              "fila": "6-21"
             }
           },
           "resumen_grupos_investigacion": {
             "total_grupos": 19,
-            "total_docentes_disponibles": 80,
+            "total_docentes_disponibles": 78,
             "total_proyectos_grado_detectados": 111,
             "proyectos_grado_por_etapa": {
               "Sustentado (sin carácter registrado)": 7,
@@ -2512,101 +2698,315 @@
           "total_archivos": 0
         },
         "datos_cuadro_maestro_cna": {
-          "graduacion": {
-            "por_periodo": [
-              {
-                "periodo": "2019-I",
-                "matriculados": 266,
-                "graduados": 7
-              },
-              {
-                "periodo": "2019-II",
-                "matriculados": 275,
-                "graduados": 5
-              },
-              {
-                "periodo": "2020-I",
-                "matriculados": 285,
-                "graduados": 5
-              },
-              {
-                "periodo": "2020-II",
-                "matriculados": 334,
-                "graduados": 16
-              },
-              {
-                "periodo": "2021-I",
-                "matriculados": 328,
-                "graduados": 14
-              },
-              {
-                "periodo": "2021-II",
-                "matriculados": 308,
-                "graduados": 23
-              },
-              {
-                "periodo": "2022-I",
-                "matriculados": 283,
-                "graduados": 19
-              },
-              {
-                "periodo": "2022-II",
-                "matriculados": 250,
-                "graduados": 16
-              },
-              {
-                "periodo": "2023-I",
-                "matriculados": 216,
-                "graduados": 24
-              },
-              {
-                "periodo": "2023-II",
-                "matriculados": 164,
-                "graduados": 15
-              },
-              {
-                "periodo": "2024-I",
-                "matriculados": 155,
-                "graduados": 13
-              },
-              {
-                "periodo": "2024-II",
-                "matriculados": 132,
-                "graduados": 15
-              }
-            ],
-            "fuente": {
-              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
-              "hoja": "Graduación",
-              "fila": "6-17"
-            }
-          },
-          "graduados_cuadro_estudiantes": {
-            "por_periodo": {
-              "2019-I": 7,
-              "2019-II": 5,
-              "2020-I": 5,
-              "2020-II": 16,
-              "2021-I": 14,
-              "2021-II": 23,
-              "2022-I": 19,
-              "2022-II": 16,
-              "2023-I": 24,
-              "2023-II": 15,
-              "2024-I": 13,
-              "2024-II": 15
-            },
-            "fuente": {
-              "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
-              "hoja": "Estudiantes",
-              "fila": "8-19"
-            },
-            "discrepancias_vs_cuadro_04": []
-          },
           "enlace_modulo_egresados": {
             "tipo": "enlace_externo",
             "titulo": "Módulo institucional de Hoja de Vida de Egresados (UD)",
             "url": "https://egresados.udistrital.edu.co/hoja-de-vida-impulsa-tu-perfil-profesional"
+          }
+        },
+        "datos_comunidad_factor4": {
+          "egresados": {
+            "rango_presentado": "2022-2026",
+            "total_historico_graduados": 577,
+            "por_proyecto_historico": [
+              {
+                "cod_proyecto": "95",
+                "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+                "total_graduados_historico": 121,
+                "total_graduados_roster_2025": null
+              },
+              {
+                "cod_proyecto": "195",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+                "total_graduados_historico": 167,
+                "total_graduados_roster_2025": 139
+              },
+              {
+                "cod_proyecto": "295",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+                "total_graduados_historico": 109,
+                "total_graduados_roster_2025": 107
+              },
+              {
+                "cod_proyecto": "395",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+                "total_graduados_historico": 88,
+                "total_graduados_roster_2025": 39
+              },
+              {
+                "cod_proyecto": "495",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+                "total_graduados_historico": 78,
+                "total_graduados_roster_2025": 18
+              },
+              {
+                "cod_proyecto": "595",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_graduados_historico": 4,
+                "total_graduados_roster_2025": null
+              },
+              {
+                "cod_proyecto": "695",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_graduados_historico": 10,
+                "total_graduados_roster_2025": null
+              }
+            ],
+            "por_anio_estimado": {
+              "2022": 35,
+              "2023": 39,
+              "2024": 28,
+              "2025": 36,
+              "2026": 15
+            },
+            "por_proyecto_por_anio_estimado": [
+              {
+                "cod_proyecto": "95",
+                "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+                "por_anio_estimado": {}
+              },
+              {
+                "cod_proyecto": "195",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+                "por_anio_estimado": {
+                  "2022": 9,
+                  "2023": 7,
+                  "2024": 9,
+                  "2025": 2,
+                  "2026": 1
+                }
+              },
+              {
+                "cod_proyecto": "295",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+                "por_anio_estimado": {
+                  "2022": 1,
+                  "2024": 1
+                }
+              },
+              {
+                "cod_proyecto": "395",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+                "por_anio_estimado": {
+                  "2022": 15,
+                  "2023": 9,
+                  "2024": 11,
+                  "2025": 11,
+                  "2026": 3
+                }
+              },
+              {
+                "cod_proyecto": "495",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+                "por_anio_estimado": {
+                  "2022": 10,
+                  "2023": 23,
+                  "2024": 7,
+                  "2025": 16,
+                  "2026": 4
+                }
+              },
+              {
+                "cod_proyecto": "595",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "por_anio_estimado": {
+                  "2025": 4
+                }
+              },
+              {
+                "cod_proyecto": "695",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "por_anio_estimado": {
+                  "2025": 3,
+                  "2026": 7
+                }
+              }
+            ],
+            "con_fecha_real": {
+              "rango": "2022-2023",
+              "total_graduados": 59,
+              "por_anio": {
+                "2022": 35,
+                "2023": 24
+              },
+              "por_enfasis": [
+                {
+                  "cod_proyecto": "195",
+                  "total_graduados": 14,
+                  "por_anio": {
+                    "2022": 9,
+                    "2023": 5
+                  },
+                  "promedio_academico": 4.34
+                },
+                {
+                  "cod_proyecto": "295",
+                  "total_graduados": 1,
+                  "por_anio": {
+                    "2022": 1
+                  },
+                  "promedio_academico": 4.4
+                },
+                {
+                  "cod_proyecto": "395",
+                  "total_graduados": 21,
+                  "por_anio": {
+                    "2022": 15,
+                    "2023": 6
+                  },
+                  "promedio_academico": 4.47
+                },
+                {
+                  "cod_proyecto": "495",
+                  "total_graduados": 23,
+                  "por_anio": {
+                    "2022": 10,
+                    "2023": 13
+                  },
+                  "promedio_academico": 4.52
+                }
+              ]
+            },
+            "validacion_estimacion": {
+              "descripcion": "Para los graduados de 2022-2023 (única ventana con fecha de grado real, del acta), se compara esa fecha contra el año estimado a partir de 'Ultima Matricula' en Estados/ — la misma técnica que se usa para estimar el año de grado en 2024-2026, donde no existe fecha real con qué comparar.",
+              "estudiantes_comparables": 59,
+              "coinciden_anio_exacto": 59,
+              "coinciden_anio_mas_menos_1": 0,
+              "sin_anio_estimable": 0,
+              "graduados_en_acta_sin_registro_graduado_en_estados": 0
+            },
+            "metodologia": "Cóndor (Data/Bronze/Estados/) no guarda la fecha de grado, solo el estado actual del estudiante. 'total_historico_graduados' y 'por_proyecto_historico' cuentan TODOS los estudiantes marcados 'E - Graduado' en el roster, de cualquier año. 'por_anio_estimado' aproxima el año de grado con el año de la última matrícula registrada (columna 'Ultima Matricula') de cada graduado — no es la fecha real de grado, es la mejor aproximación disponible; ver 'validacion_estimacion' para su margen de error real, medido contra los únicos casos con fecha exacta conocida (2022-2023). 'con_fecha_real' es la única sección con fecha de grado exacta (acta oficial), pero el archivo fuente no tiene versión posterior a 2023.",
+            "limitacion": "No existe, en ningún sistema disponible (Cóndor ni los archivos sueltos de Secretaría), un registro de fecha de grado exacta para 2024-2026. El desglose de esos años es una estimación explícita, no un dato de acta; no se presenta como si lo fuera.",
+            "fuente": {
+              "estados": {
+                "carpeta": "Data/Bronze/Estados/",
+                "nota": "7 CSV por proyecto curricular; solo se usan las columnas Cod. Estudiante (para cruzar), Estado y Ultima Matricula."
+              },
+              "acta_fecha_real": {
+                "archivo": "Data/Bronze/PII_Interno/Informacion egresados 2023.xlsx",
+                "nota": "Archivo con nombre/documento/correo por egresado; no se publica en el catálogo de Data/Bronze."
+              },
+              "roster_2025": {
+                "archivo": "Data/Bronze/PII_Interno/Información Egresados Maestria y Doctorados 2025.xlsx",
+                "nota": "Roster de egresados actualizado a 2025, usado solo para verificar el total por proyecto contra Estados/; no se publica en el catálogo de Data/Bronze."
+              }
+            }
+          },
+          "estados": {
+            "proyectos": [
+              {
+                "cod_proyecto": "195",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN TELEINF.",
+                "total_estudiantes": 466,
+                "conteo_por_estado": {
+                  "Matriculado": 14,
+                  "Graduado": 167,
+                  "INACTIVO": 30,
+                  "Pérdida de calidad de estudiante - Suspendido": 248,
+                  "Pérdida de calidad de estudiante - Expulsado": 7
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_195.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "295",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN SIS. INFOR",
+                "total_estudiantes": 338,
+                "conteo_por_estado": {
+                  "Graduado": 109,
+                  "INACTIVO": 11,
+                  "Pérdida de calidad de estudiante - Suspendido": 217,
+                  "Pérdida de calidad de estudiante - Expulsado": 1
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_295.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "395",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN GEOMATICA",
+                "total_estudiantes": 193,
+                "conteo_por_estado": {
+                  "Matriculado": 9,
+                  "Graduado": 88,
+                  "INACTIVO": 24,
+                  "En renovación de matrícula - Vacaciones": 2,
+                  "Pérdida de calidad de estudiante - Suspendido": 70
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_395.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "495",
+                "proyecto_curricular": "MAE. EN CIENCIAS DE LA INF. Y LAS COMUNICACIONES ENFASIS EN ING. SOFT",
+                "total_estudiantes": 229,
+                "conteo_por_estado": {
+                  "Matriculado": 26,
+                  "Graduado": 78,
+                  "INACTIVO": 23,
+                  "En renovación de matrícula - Vacaciones": 5,
+                  "Pérdida de calidad de estudiante - Suspendido": 97
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_495.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "595",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_estudiantes": 74,
+                "conteo_por_estado": {
+                  "Matriculado": 49,
+                  "Graduado": 4,
+                  "INACTIVO": 4,
+                  "En renovación de matrícula - Vacaciones": 7,
+                  "Pérdida de calidad de estudiante - Suspendido": 10
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_595.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "695",
+                "proyecto_curricular": "MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+                "total_estudiantes": 100,
+                "conteo_por_estado": {
+                  "Matriculado": 58,
+                  "Graduado": 10,
+                  "INACTIVO": 6,
+                  "En renovación de matrícula - Vacaciones": 12,
+                  "Abandono": 1,
+                  "Pérdida de calidad de estudiante - Suspendido": 13
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_695.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              },
+              {
+                "cod_proyecto": "95",
+                "proyecto_curricular": "MAESTRIA EN TELEINFORMATICA",
+                "total_estudiantes": 536,
+                "conteo_por_estado": {
+                  "Graduado": 121,
+                  "INACTIVO": 247,
+                  "Abandono": 1,
+                  "Pérdida de calidad de estudiante - Suspendido": 159,
+                  "Pérdida de calidad de estudiante - Expulsado": 8
+                },
+                "fuente": {
+                  "archivo": "Data/Bronze/Estados/Listado_de_estudiantes_por_estado_95.csv",
+                  "nota": "Archivo con nombre/documento/correo por estudiante; no se publica en el catálogo de Data/Bronze. Esta cifra es un conteo de filas."
+                }
+              }
+            ]
           }
         }
       },
@@ -2900,7 +3300,7 @@
                 "nombre_grupo": "Grupo De Investigación En Telemedicina GITEM++",
                 "lineas_investigacion": "1.- CIENCIAS DE LA TIERRA\n2.- DESARROLLO DE SATELITES\n3.- Desarrollo de industria 4.0\n4.- ESTRATEGIAS EN CANNABIS MEDICINAL\n5.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n6.- REALISMO VIRTUAL\n7.- REDES DE NUEVA GENERACIÓN\n8.- TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n9.- TELESALUD Y MEDIO AMBIENTE\n10.- TELESALUD Y TELEMEDICINA",
                 "codigo_minciencias": "COL0005655",
-                "clasificacion_minciencias": "C",
+                "clasificacion_minciencias": "B",
                 "proyectos_recursos_internos": 6,
                 "proyectos_recursos_externos": 2,
                 "articulos_indexados_nacional": 66,
@@ -2914,7 +3314,7 @@
                 "nombre_grupo": "Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento",
                 "lineas_investigacion": null,
                 "codigo_minciencias": "COL0009189",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "C",
                 "proyectos_recursos_internos": 9,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 10,
@@ -2928,7 +3328,7 @@
                 "nombre_grupo": "Internet Inteligente",
                 "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva\n3.- Seguridad informática",
                 "codigo_minciencias": "COL0050374",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "A",
                 "proyectos_recursos_internos": 4,
                 "proyectos_recursos_externos": 0,
                 "articulos_indexados_nacional": 44,
@@ -2956,7 +3356,7 @@
                 "nombre_grupo": "Radiacion Electromagnetica Y Comunicaciones Opticas: Greco",
                 "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
                 "codigo_minciencias": "COL0059244",
-                "clasificacion_minciencias": "A",
+                "clasificacion_minciencias": "B",
                 "proyectos_recursos_internos": 3,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 17,
@@ -2984,7 +3384,7 @@
                 "nombre_grupo": "Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes",
                 "lineas_investigacion": "1.- Administración de Redes de Nueva Generación (IPv6), Redes IPv4 y Redes de Telefonía Móvil Celular\n2.- Agro Inteligente (Smart Agro)3.- Biofisica\n4.- Ciberseguridad en arquitecturas tecnológicas\n5.- Circuitos eléctricos y electrónica aplicada a la Industria\n6.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n7.- Desarrollo y programación de hardware, firmware y software para las comunicaciones\n8.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n9.- Gestión del conocimiento\n10.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n11.- Internet de las cosas\n12.- Investigación y desarrollo de satelites\n13.- Realidad Aumentada y Realidad Virtual\n14.- STEAM en la educación\n15.- TIC para la paz y contenidos pedagógicos para la educación\n16.- Web GIS y tecnologías geoespaciales",
                 "codigo_minciencias": "COL0038019",
-                "clasificacion_minciencias": "B",
+                "clasificacion_minciencias": "A",
                 "proyectos_recursos_internos": 4,
                 "proyectos_recursos_externos": 8,
                 "articulos_indexados_nacional": 30,
@@ -2998,7 +3398,7 @@
                 "nombre_grupo": "Laboratorio De Investigación En Fuentes Alternativas De Energía",
                 "lineas_investigacion": "1.- Electrónica de Potencia.\n2.- Fuentes Alternativas de Energía\n3.- Microrredes Electricas",
                 "codigo_minciencias": "COL0012963",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "A",
                 "proyectos_recursos_internos": 20,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 25,
@@ -3054,7 +3454,7 @@
                 "nombre_grupo": "Grupo De Compatibilidad E Interferencia Electromagnetica",
                 "lineas_investigacion": "1.- Calidad de potencia y Energía\n2.- Compatibilidad Electromagnetica\n3.- Energías no convencionales\n4.- Sistemas modernos de potencia y Gestión de energía",
                 "codigo_minciencias": "COL0011142",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "C",
                 "proyectos_recursos_internos": 12,
                 "proyectos_recursos_externos": 1,
                 "articulos_indexados_nacional": 92,
@@ -3079,20 +3479,6 @@
                 "productos_totales": 234
               },
               {
-                "nombre_grupo": "Gesdatos",
-                "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
-                "codigo_minciencias": "COL0031619",
-                "clasificacion_minciencias": "Reconocido",
-                "proyectos_recursos_internos": 2,
-                "proyectos_recursos_externos": 0,
-                "articulos_indexados_nacional": 1,
-                "articulos_indexados_internacional": 1,
-                "libros": 0,
-                "patentes": 7,
-                "productos_creacion": 0,
-                "productos_totales": 9
-              },
-              {
                 "nombre_grupo": "Estudio De Temas De La Física, De La Estadística Y De La Matemática",
                 "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES, PERCEPCIÓN REMOTA Y FOTOGRAMETRIA",
                 "codigo_minciencias": "COL0134625",
@@ -3110,7 +3496,7 @@
                 "nombre_grupo": "Comercio Electronico En Colombia - GICOECOL",
                 "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
                 "codigo_minciencias": "COL0136844",
-                "clasificacion_minciencias": "A1",
+                "clasificacion_minciencias": "B",
                 "proyectos_recursos_internos": 13,
                 "proyectos_recursos_externos": 0,
                 "articulos_indexados_nacional": 53,
@@ -3119,31 +3505,17 @@
                 "patentes": 0,
                 "productos_creacion": 0,
                 "productos_totales": 170
-              },
-              {
-                "nombre_grupo": "Arquitectura De Software",
-                "lineas_investigacion": "1.- Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
-                "codigo_minciencias": "COL0049569",
-                "clasificacion_minciencias": "Reconocido",
-                "proyectos_recursos_internos": 0,
-                "proyectos_recursos_externos": 0,
-                "articulos_indexados_nacional": 0,
-                "articulos_indexados_internacional": 0,
-                "libros": 2,
-                "patentes": 0,
-                "productos_creacion": 0,
-                "productos_totales": 2
               }
             ],
             "fuente": {
               "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
               "hoja": "Investigacion - grupos y profe",
-              "fila": "6-22"
+              "fila": "6-21"
             }
           },
           "resumen_grupos_investigacion": {
             "total_grupos": 19,
-            "total_docentes_disponibles": 80,
+            "total_docentes_disponibles": 78,
             "total_proyectos_grado_detectados": 111,
             "proyectos_grado_por_etapa": {
               "Sustentado (sin carácter registrado)": 7,
@@ -18847,32 +19219,9 @@
   "gruposInvestigacion": {
     "grupos": [
       {
-        "nombre": "Arqusoft - Arquitecturas de Software",
-        "lineas_investigacion": "1.-Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
-        "clasificacion": "C",
-        "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000003244",
-        "pagina_web": "http://arquisoft.udistrital.edu.co/",
-        "email": "hdiosa@udistrital.edu.co",
-        "lider": "Henry Alberto Diosa",
-        "integrantes": [
-          {
-            "nombre": "Henry Alberto Diosa",
-            "correo": "hdiosa@udistrital.edu.co",
-            "tematicas": "Métodos Formales en Ingeniería de Software\nIngeniería de Software\nArquitecturas de software",
-            "cvlac": "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000249033"
-          }
-        ],
-        "sigla": "Arquisoft",
-        "fuente": {
-          "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
-          "hoja": "Arquisoft"
-        },
-        "proyectos_grado": []
-      },
-      {
         "nombre": "GCEM - Grupo de Compatibilidad e Interferencia Electromagnética",
         "lineas_investigacion": "1.- Alta tensión\n2.- Calidad de potencia\n3.- Compatibilidad Electromagnetica\n4.- Energías no convencionales",
-        "clasificacion": "A1",
+        "clasificacion": "C",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000883",
         "pagina_web": null,
         "email": "gcem.ud@gmail.com",
@@ -18995,29 +19344,6 @@
         ]
       },
       {
-        "nombre": "GESDATOS - Gestión de datos",
-        "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
-        "clasificacion": "C",
-        "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001332",
-        "pagina_web": null,
-        "email": null,
-        "lider": "Sonia Ordoñez Salinas",
-        "integrantes": [
-          {
-            "nombre": "Sonia Ordoñez Salinas",
-            "correo": "sordonez@udistrital.edu.co",
-            "tematicas": "Bases de Datos\nInteligencia de Negocios\nBigData\nCiencia de los Datos\nProcesamiento Lenguaje Natural y Linguistica Computacional",
-            "cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000420050"
-          }
-        ],
-        "sigla": "GESDATOS",
-        "fuente": {
-          "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
-          "hoja": "GESDATOS"
-        },
-        "proyectos_grado": []
-      },
-      {
         "nombre": "GESETIC - Grupo de Investigación en Gestión de Sistemas Energéticos con Base en Tecnologías de Información y Comunicación",
         "lineas_investigacion": "1.- ENERGIA\n2.- GESTION DEL CONOCIMIENTO Y VIGILANCIA TECNOLOGICA\n3.- INFORMATICA\n4.- MEDIO AMBIENTE Y RECURSOS NATURALES\n5.- TELECOMUNICACIONES",
         "clasificacion": "C",
@@ -19083,7 +19409,7 @@
       {
         "nombre": "GICOECOL - Comercio Electronico en Colombia",
         "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
-        "clasificacion": "A1",
+        "clasificacion": "B",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013887",
         "pagina_web": null,
         "email": null,
@@ -19112,7 +19438,7 @@
       {
         "nombre": "GICOGE - Grupo Informática Comunicaciones y Gestión del conocimiento",
         "lineas_investigacion": "1.- Calidad e Innovación en Informática, Comunicaciones y Gestión del Conocimiento para el Desarrollo Organizacional",
-        "clasificacion": "A1",
+        "clasificacion": "C",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000983",
         "pagina_web": null,
         "email": null,
@@ -19309,7 +19635,7 @@
       {
         "nombre": "GITUD - Grupo de investigación en Telecomunicaciones de la Universidad Distrital",
         "lineas_investigacion": "1.- Gestión de Espectro\n2.- Microondas, Antenas y Propagación\n3.- Optimización de Redes\n4.- Wireless Sensor Networks, IoT",
-        "clasificacion": "B",
+        "clasificacion": "C",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000877",
         "pagina_web": null,
         "email": null,
@@ -19384,7 +19710,7 @@
       {
         "nombre": "GITEM++ - Grupo de Investigación de Telemedicina",
         "lineas_investigacion": "1.- DESARROLLO DE SATELITES\n2.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n3.- LINEA DE INVESTIGACION EN TELESALUD Y TELEMEDICINA\n4.- LÍNEA DE INVESTIGACIÓN EN TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n5.- REALISMO VIRTUAL\n6.- REDES DE NUEVA GENERACIÓN",
-        "clasificacion": "C",
+        "clasificacion": "B",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000902",
         "pagina_web": null,
         "email": null,
@@ -19496,7 +19822,7 @@
       {
         "nombre": "Internet Inteligente",
         "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva",
-        "clasificacion": "B",
+        "clasificacion": "A",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000003328",
         "pagina_web": null,
         "email": null,
@@ -19552,7 +19878,7 @@
       {
         "nombre": "INTECSE - Interoperabilidad Tecnología y Semántica",
         "lineas_investigacion": "1.- Desarrollo de software\n2.- Desarrollo de software dirigido por modelos\n3.- Modelamiento ontológico\n4.- Objetos de aprendizaje",
-        "clasificacion": "B",
+        "clasificacion": "A",
         "gruplac": null,
         "pagina_web": null,
         "email": null,
@@ -19581,7 +19907,7 @@
       {
         "nombre": "ITI: Innovación en Tecnologías de Información",
         "lineas_investigacion": "1.- Aplicaciones móviles\n2.- Bioinformática\n3.- Ingenieria Dirigida por Modelos\n4.- Inteligencia de Negocios",
-        "clasificacion": "A",
+        "clasificacion": "Facultad Tecnológica",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000016507",
         "pagina_web": "https://www.itiud.org/",
         "email": "iti@udistrital.edu.co",
@@ -19612,7 +19938,7 @@
       {
         "nombre": "LAMIC - Laboratorio de Automática e Inteligencia Computacional",
         "lineas_investigacion": "1.- Automática\n2.- Inteligencia Computacional\n3.- Microelectrónica",
-        "clasificacion": "A",
+        "clasificacion": "C",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000879",
         "pagina_web": null,
         "email": null,
@@ -19849,7 +20175,7 @@
       {
         "nombre": "LIFAE - Laboratorio de Investigación en Fuentes Alternativas de Energía",
         "lineas_investigacion": "1.- Línea de Investigación en Electrónica de Potencia y Fuentes Alternativas de Energía",
-        "clasificacion": "A1",
+        "clasificacion": "A",
         "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000871",
         "pagina_web": null,
         "email": null,
@@ -20088,6 +20414,28 @@
             "cod_proyecto": "695"
           }
         ]
+      },
+      {
+        "nombre": "ARMOS",
+        "sigla": "ARMOS",
+        "clasificacion": "Facultad Tecnológica",
+        "integrantes": [],
+        "proyectos_grado": [],
+        "fuente": {
+          "archivo": "Lista oficial manual",
+          "hoja": "ARMOS"
+        }
+      },
+      {
+        "nombre": "GIDENUTAS",
+        "sigla": "GIDENUTAS",
+        "clasificacion": "Facultad Tecnológica",
+        "integrantes": [],
+        "proyectos_grado": [],
+        "fuente": {
+          "archivo": "Lista oficial manual",
+          "hoja": "GIDENUTAS"
+        }
       }
     ]
   },
@@ -21393,7 +21741,7 @@
           "nombre_grupo": "Grupo De Investigación En Telemedicina GITEM++",
           "lineas_investigacion": "1.- CIENCIAS DE LA TIERRA\n2.- DESARROLLO DE SATELITES\n3.- Desarrollo de industria 4.0\n4.- ESTRATEGIAS EN CANNABIS MEDICINAL\n5.- GESTIÓN Y SISTEMAS DE INFORMACIÓN EN SALUD\n6.- REALISMO VIRTUAL\n7.- REDES DE NUEVA GENERACIÓN\n8.- TELECOMUNICACIONES, TELEINFORMÁTICA Y CIENCIA DE DATOS\n9.- TELESALUD Y MEDIO AMBIENTE\n10.- TELESALUD Y TELEMEDICINA",
           "codigo_minciencias": "COL0005655",
-          "clasificacion_minciencias": "C",
+          "clasificacion_minciencias": "B",
           "proyectos_recursos_internos": 6,
           "proyectos_recursos_externos": 2,
           "articulos_indexados_nacional": 66,
@@ -21407,7 +21755,7 @@
           "nombre_grupo": "Grupo De Investigación Internacional De Informática, Comunicación Y Gestión Del Conocimiento",
           "lineas_investigacion": null,
           "codigo_minciencias": "COL0009189",
-          "clasificacion_minciencias": "A1",
+          "clasificacion_minciencias": "C",
           "proyectos_recursos_internos": 9,
           "proyectos_recursos_externos": 1,
           "articulos_indexados_nacional": 10,
@@ -21421,7 +21769,7 @@
           "nombre_grupo": "Internet Inteligente",
           "lineas_investigacion": "1.- Internet\n2.- Radio Cognitiva\n3.- Seguridad informática",
           "codigo_minciencias": "COL0050374",
-          "clasificacion_minciencias": "A1",
+          "clasificacion_minciencias": "A",
           "proyectos_recursos_internos": 4,
           "proyectos_recursos_externos": 0,
           "articulos_indexados_nacional": 44,
@@ -21449,7 +21797,7 @@
           "nombre_grupo": "Radiacion Electromagnetica Y Comunicaciones Opticas: Greco",
           "lineas_investigacion": "1.- Antenas activas y/o configurables\n2.- Desarrollo de Elementos Radiantes.\n3.- Desarrollo de circuitos y subsistemas para aplicaciones en ingeniería aero espacial\n4.- Desarrollo de códigos numéricos para el análisis y optimización de antenas\n5.- Desarrollo de dispositivos pasivos de microondas y circuitos activos de microondas\n6.- Desarrollo de dispositivos pasivos y circuitos activos de microondas para aplicaciones en radar y DOA\n7.- Desarrollo de sistemas de radio sobre fibra\n8.- Diseño de antenas y filtros con tecnologia de metamateriales\n9.- Diseño de redes de banda ancha\n10.- Dispositivos optoelectronicos\n11.- Internet óptico\n12.- Procesamiento Digital de Señales\n13.- Redes de acceso\n14.- Redes de sensores\n15.- Redes opticas\n16.- Sensores fotonicos\n17.- Telecomunicaciones ópticas",
           "codigo_minciencias": "COL0059244",
-          "clasificacion_minciencias": "A",
+          "clasificacion_minciencias": "B",
           "proyectos_recursos_internos": 3,
           "proyectos_recursos_externos": 1,
           "articulos_indexados_nacional": 17,
@@ -21477,7 +21825,7 @@
           "nombre_grupo": "Laboratorio De Investigacion Y Desarrollo En Electronica Y Redes",
           "lineas_investigacion": "1.- Administración de Redes de Nueva Generación (IPv6), Redes IPv4 y Redes de Telefonía Móvil Celular\n2.- Agro Inteligente (Smart Agro)3.- Biofisica\n4.- Ciberseguridad en arquitecturas tecnológicas\n5.- Circuitos eléctricos y electrónica aplicada a la Industria\n6.- Ciudades inteligentes y aplicaciones de la matemática en el mejoramiento en problemas de ingeniería\n7.- Desarrollo y programación de hardware, firmware y software para las comunicaciones\n8.- Electrónica embebida para el diseño de aplicaciones de micro redes de telecomunicaciones.\n9.- Gestión del conocimiento\n10.- Gestión y tratamiento de aguas residuales para ciudades inteligentes\n11.- Internet de las cosas\n12.- Investigación y desarrollo de satelites\n13.- Realidad Aumentada y Realidad Virtual\n14.- STEAM en la educación\n15.- TIC para la paz y contenidos pedagógicos para la educación\n16.- Web GIS y tecnologías geoespaciales",
           "codigo_minciencias": "COL0038019",
-          "clasificacion_minciencias": "B",
+          "clasificacion_minciencias": "A",
           "proyectos_recursos_internos": 4,
           "proyectos_recursos_externos": 8,
           "articulos_indexados_nacional": 30,
@@ -21491,7 +21839,7 @@
           "nombre_grupo": "Laboratorio De Investigación En Fuentes Alternativas De Energía",
           "lineas_investigacion": "1.- Electrónica de Potencia.\n2.- Fuentes Alternativas de Energía\n3.- Microrredes Electricas",
           "codigo_minciencias": "COL0012963",
-          "clasificacion_minciencias": "A1",
+          "clasificacion_minciencias": "A",
           "proyectos_recursos_internos": 20,
           "proyectos_recursos_externos": 1,
           "articulos_indexados_nacional": 25,
@@ -21547,7 +21895,7 @@
           "nombre_grupo": "Grupo De Compatibilidad E Interferencia Electromagnetica",
           "lineas_investigacion": "1.- Calidad de potencia y Energía\n2.- Compatibilidad Electromagnetica\n3.- Energías no convencionales\n4.- Sistemas modernos de potencia y Gestión de energía",
           "codigo_minciencias": "COL0011142",
-          "clasificacion_minciencias": "A1",
+          "clasificacion_minciencias": "C",
           "proyectos_recursos_internos": 12,
           "proyectos_recursos_externos": 1,
           "articulos_indexados_nacional": 92,
@@ -21572,20 +21920,6 @@
           "productos_totales": 234
         },
         {
-          "nombre_grupo": "Gesdatos",
-          "lineas_investigacion": "1.- Bases de Datos, Inteligencia de Negocios, BigData\n2.- Ciencia de los Datos (Data Sience)\n3.- Procesamiento Lenguaje Natural y Linguistica Computacional",
-          "codigo_minciencias": "COL0031619",
-          "clasificacion_minciencias": "Reconocido",
-          "proyectos_recursos_internos": 2,
-          "proyectos_recursos_externos": 0,
-          "articulos_indexados_nacional": 1,
-          "articulos_indexados_internacional": 1,
-          "libros": 0,
-          "patentes": 7,
-          "productos_creacion": 0,
-          "productos_totales": 9
-        },
-        {
           "nombre_grupo": "Estudio De Temas De La Física, De La Estadística Y De La Matemática",
           "lineas_investigacion": "1.- ALGEBRA, TEORÍA DE LA MEDIDA, PROBABILIDAD Y ESTADÍSTICA MATEMÁTICA\n2.- ENSEÑANZA Y DIDACTICA DE LAS CIENCIAS MATEMATICA y ESTADISTICA EN INGENIERIA\n3.- FISICA DE LA MATERIA CONDESADA\n4.- PROCESAMIENTO DIGITAL DE IMAGENES, PERCEPCIÓN REMOTA Y FOTOGRAMETRIA",
           "codigo_minciencias": "COL0134625",
@@ -21603,7 +21937,7 @@
           "nombre_grupo": "Comercio Electronico En Colombia - GICOECOL",
           "lineas_investigacion": "1.- Big data\n2.- Computación en la nube\n3.- Datos abiertos y datos vinculados\n4.- Empresas y E_Learning\n5.- Gestion de Conocimiento y Redes Interorganizacionales\n6.- Innovación Abierta\n7.- Inteligencia de negocios\n8.- Internet de las cosas\n9.- Modelos organizativos de la e-Administración\n10.- Negocios y Comercio Electronico",
           "codigo_minciencias": "COL0136844",
-          "clasificacion_minciencias": "A1",
+          "clasificacion_minciencias": "B",
           "proyectos_recursos_internos": 13,
           "proyectos_recursos_externos": 0,
           "articulos_indexados_nacional": 53,
@@ -21612,26 +21946,12 @@
           "patentes": 0,
           "productos_creacion": 0,
           "productos_totales": 170
-        },
-        {
-          "nombre_grupo": "Arquitectura De Software",
-          "lineas_investigacion": "1.- Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software",
-          "codigo_minciencias": "COL0049569",
-          "clasificacion_minciencias": "Reconocido",
-          "proyectos_recursos_internos": 0,
-          "proyectos_recursos_externos": 0,
-          "articulos_indexados_nacional": 0,
-          "articulos_indexados_internacional": 0,
-          "libros": 2,
-          "patentes": 0,
-          "productos_creacion": 0,
-          "productos_totales": 2
         }
       ],
       "fuente": {
         "archivo": "Data/Bronze/ACREDITACIÓN DE ALTA CALIDAD/SNIES17528-MCIC-Investigación/SNIES17528-Anexos espc investigación/CuadroMaestro_AcreditacionPrograma Investigaicion.xlsx",
         "hoja": "Investigacion - grupos y profe",
-        "fila": "6-22"
+        "fila": "6-21"
       }
     }
   }
