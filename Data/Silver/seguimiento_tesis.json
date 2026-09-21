@@ -2,18 +2,17 @@
   "procesos": [
     {
       "cod_proyecto": "595",
-      "etapa_actual": "Jurados solicitados, pendiente sustentación",
-      "titulo_proyecto": "MODELO DE ADMINISTRACIÓN PARA LA GESTIÓN DE \nINFORMACIÓN PERSONAL ORIENTADO AL PROPIETARIO DE \nLOS DATOS.",
-      "director": "Roberto Albeiro Pava Diaz",
+      "etapa_actual": "Anteproyecto radicado",
+      "titulo_proyecto": "Modelo de administración para la gestión de información personal orientado al propietario de los datos",
+      "director": "Roberto Albeiro Pava Díaz / Roberto Ferro Escobar",
       "codirector": null,
       "grupo_investigacion": "LIDER",
       "numero_acta_sustentacion": null,
       "nota_sustentacion": null,
       "caracter_sustentacion": null,
-      "jurados_sustentacion": null,
+      "jurados_sustentacion": [],
       "fuente_categorias": [
-        "MCIC - Base de datos INVESTIGACION.xlsx",
-        "N-A Investigación"
+        "Consolidado 2022-2026"
       ]
     },
     {
@@ -95,18 +94,17 @@
     },
     {
       "cod_proyecto": "595",
-      "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
-      "titulo_proyecto": "Diseño de un modelo para la identificación de URLs maliciosas o potencialmente fraudulentas.",
-      "director": "Roberto Ferro Escobar",
-      "codirector": "Carlos Andres Martinez Alayón",
+      "etapa_actual": "Anteproyecto radicado",
+      "titulo_proyecto": "Diseño de un modelo para la identificación de URLs maliciosas o potencialmente fraudulentas",
+      "director": "Roberto Ferro Escobar / Carlos Andrés Martínez Alayón",
+      "codirector": null,
       "grupo_investigacion": "LIDER",
       "numero_acta_sustentacion": null,
       "nota_sustentacion": null,
       "caracter_sustentacion": null,
-      "jurados_sustentacion": null,
+      "jurados_sustentacion": [],
       "fuente_categorias": [
-        "MCIC - Base de datos INVESTIGACION.xlsx",
-        "N-A Investigación"
+        "Consolidado 2022-2026"
       ]
     },
     {
@@ -988,18 +986,17 @@
     },
     {
       "cod_proyecto": "695",
-      "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
-      "titulo_proyecto": "Modelo de reputación basado en blockchain e identidad digital auto-soberana aplicado al proceso de evaluación docente.",
-      "director": "Roberto Albeiro Pava Diaz",
+      "etapa_actual": "Anteproyecto radicado",
+      "titulo_proyecto": "MODELO DE REPUTACIÓN BASADO EN BLOCKCHAIN E IDENTIDAD DIGITAL AUTO-SOBERANA APLICADO AL PROCESO DE EVALUACIÓN DOCENTE",
+      "director": "Roberto A. Pava Díaz Ph.D",
       "codirector": null,
       "grupo_investigacion": "LIDER",
       "numero_acta_sustentacion": null,
       "nota_sustentacion": null,
       "caracter_sustentacion": null,
-      "jurados_sustentacion": null,
+      "jurados_sustentacion": [],
       "fuente_categorias": [
-        "MCIC - Base de datos Profundizacion.xlsx",
-        "N-A Profundizacion"
+        "Consolidado 2022-2026"
       ]
     },
     {
@@ -1393,7 +1390,7 @@
       "titulo_proyecto": "EXPLORACIÓN METODOLÓGICA MULTIVARIADA APLICADA A SEIS REGISTROS POBLACIONALES DE CÁNCER EN COLOMBIA",
       "director": "Leonardo Plazas Nossa",
       "codirector": null,
-      "grupo_investigacion": "Multimedia Interactiva y Animación Digital",
+      "grupo_investigacion": "GITEM++",
       "numero_acta_sustentacion": null,
       "nota_sustentacion": null,
       "caracter_sustentacion": null,
@@ -1785,18 +1782,17 @@
     },
     {
       "cod_proyecto": "695",
-      "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
-      "titulo_proyecto": "Diseño de un Modelo participativo basado en Sistemas de Información Geográfica (SIG) para la toma de decisiones en la zonificación ambiental de la Zona de Reserva Campesina Santuario del Rabanal en el departamento de Boyacá.",
-      "director": "Roberto Ferro Escobar",
-      "codirector": "Edgar Aguirre",
+      "etapa_actual": "Anteproyecto radicado",
+      "titulo_proyecto": "Diseño de un Modelo participativo basado en Sistemas de Información Geográfica (SIG) para la toma de decisiones en la zonificación ambiental de la Zona de Reserva Campesina Santuario",
+      "director": "Roberto Ferro Escobar / Edgar Aguirre Buenaventura",
+      "codirector": null,
       "grupo_investigacion": "LIDER",
       "numero_acta_sustentacion": null,
       "nota_sustentacion": null,
       "caracter_sustentacion": null,
-      "jurados_sustentacion": null,
+      "jurados_sustentacion": [],
       "fuente_categorias": [
-        "MCIC - Base de datos Profundizacion.xlsx",
-        "N-A Profundizacion"
+        "Consolidado 2022-2026"
       ]
     },
     {
@@ -2350,17 +2346,21 @@
     },
     {
       "cod_proyecto": "595",
-      "etapa_actual": "Sustentado",
-      "titulo_proyecto": "MODELO DE SISTEMA DE INFROMACION PARA LA COORDINACION DE SERVICIOS DE CONSULTA EXTERNA BAADO EN UN MODELO DE WEB SOCIAL // ALGORITMO GENETICO PARALELO IMPLEMENTADO EN GPU PARA LA SOLUCION DEL PROBLEMA DE ASIGNACION CUADRATICA MULTIOBJETIVO.",
+      "etapa_actual": "Jurados solicitados, pendiente sustentación",
+      "titulo_proyecto": null,
       "director": "Roberto Manuel Poveda",
       "codirector": null,
       "grupo_investigacion": null,
       "numero_acta_sustentacion": null,
       "nota_sustentacion": null,
-      "caracter_sustentacion": "Aprobado",
-      "jurados_sustentacion": [],
+      "caracter_sustentacion": null,
+      "jurados_sustentacion": [
+        "Jorge Enrique Rodriguez Rodriguez",
+        "Cesar Andrey Perdomo Charry"
+      ],
       "fuente_categorias": [
-        "Consolidado 2022-2026"
+        "MCIC - Base de datos V2.xlsx",
+        "N-A Investigación"
       ]
     },
     {
@@ -2460,17 +2460,21 @@
     },
     {
       "cod_proyecto": "595",
-      "etapa_actual": "Sustentado",
+      "etapa_actual": "Sustentado (Meritorio)",
       "titulo_proyecto": "ACTUALIZACION DE TODOS LOS CAMINOS MAS CORTOS EN GRAFOS DINAMICOS CON INSERCION DE ARCOS",
       "director": "Sergio Rojas Galeano",
       "codirector": null,
       "grupo_investigacion": null,
       "numero_acta_sustentacion": null,
-      "nota_sustentacion": null,
-      "caracter_sustentacion": "Aprobado",
-      "jurados_sustentacion": [],
+      "nota_sustentacion": "50",
+      "caracter_sustentacion": null,
+      "jurados_sustentacion": [
+        "MARCO AURELIO ALZATE",
+        "LUIS CASTILLO"
+      ],
       "fuente_categorias": [
-        "Consolidado 2022-2026"
+        "MCIC - Base de datos V2.xlsx",
+        "N-A Investigación"
       ]
     },
     {
@@ -2609,8 +2613,8 @@
       "titulo_proyecto": "MODELADO PREDICTIVO DE LA INCIDENCIA DEL DETERIORO DEL ARBOLADO URBANO CON APRENDIZAJE AUTOMÁTICO Y GIS: IMPLEMENTACIÓN DE SERVICIOS GEOGRÁFICOS WEB PARA UNA ZONIFICACIÓN DE MANEJO PARA LA CIUDAD DE CALI -COLOMBIA",
       "director": "Max Alejandro Triana Gómez",
       "codirector": null,
-      "grupo_investigacion": null,
-      "numero_acta_sustentacion": "2026-05-08 | Acta 004 - 2026",
+      "grupo_investigacion": "PROPROBOS",
+      "numero_acta_sustentacion": "Acta 004-2026",
       "nota_sustentacion": null,
       "caracter_sustentacion": "Aprobado",
       "jurados_sustentacion": [],
@@ -3028,8 +3032,8 @@
       "titulo_proyecto": "Un modelo de clasificación del estado del pavimento a partir de imágenes, tomas video y señales de GNSS",
       "director": "Wilmar Darío Fernández Gómez",
       "codirector": null,
-      "grupo_investigacion": null,
-      "numero_acta_sustentacion": "2026-05-05 | Acta 002 - 2026",
+      "grupo_investigacion": "CEPMS",
+      "numero_acta_sustentacion": "Acta 002-2026",
       "nota_sustentacion": null,
       "caracter_sustentacion": "Aprobado",
       "jurados_sustentacion": [],
@@ -4804,7 +4808,7 @@
       "director": "Carlos Hernán Castro Ortega",
       "codirector": null,
       "grupo_investigacion": "NIDE",
-      "numero_acta_sustentacion": "2026-05-22 | Acta 011 - 2026",
+      "numero_acta_sustentacion": "Acta 011-2026",
       "nota_sustentacion": null,
       "caracter_sustentacion": "Aprobado",
       "jurados_sustentacion": [],
@@ -8448,7 +8452,7 @@
       "titulo_proyecto": "METODOLOGIA DE PRIORIZACION DE PROYECTOS DE MANTENIMIENTO DE LA INFRAESTRUCTURA VIAL EN COLOMBIA",
       "director": "Wilmar Dario Fernandez Gomez",
       "codirector": null,
-      "grupo_investigacion": null,
+      "grupo_investigacion": "CEPMS",
       "numero_acta_sustentacion": null,
       "nota_sustentacion": null,
       "caracter_sustentacion": null,
@@ -8546,21 +8550,17 @@
     },
     {
       "cod_proyecto": "595",
-      "etapa_actual": "Sustentado (Aprobado)",
-      "titulo_proyecto": "MODELO PARA LA DETENCION DE TIZON TARDIO EN CULTIVOS DE PAPA UTILIZANDO IMAGENES MULTIESPECTRALES Y TECNICAS DE I.A.",
+      "etapa_actual": "Sustentado",
+      "titulo_proyecto": "DISEÑO DE UN SISTEMA DE MONITOREO DE TEMPERATURA DE LACTANTES, UTILIZANDO METODOLOGÍA SCRUM Y TECNOLOGÍAS DEL INTERNET DE LAS COSAS (IOT)",
       "director": "Roberto Ferro Escobar",
       "codirector": null,
-      "grupo_investigacion": "GITEM",
-      "numero_acta_sustentacion": "011/2024",
-      "nota_sustentacion": "50",
+      "grupo_investigacion": "LIDER",
+      "numero_acta_sustentacion": "Acta 011-2024 (Nota: 5.0)",
+      "nota_sustentacion": null,
       "caracter_sustentacion": "Aprobado",
-      "jurados_sustentacion": [
-        "Leonardo Plazas Nossa",
-        "Jorge Enrique Salamanca"
-      ],
+      "jurados_sustentacion": [],
       "fuente_categorias": [
-        "MCIC - Base de datos V2.xlsx",
-        "Acuerdo Antiguo"
+        "Consolidado 2022-2026"
       ]
     },
     {
@@ -9763,113 +9763,39 @@
       "fuente_categorias": [
         "Consolidado 2022-2026"
       ]
-    },
-    {
-      "cod_proyecto": "595",
-      "etapa_actual": "Anteproyecto radicado",
-      "titulo_proyecto": "MODELO DE REPUTACIÓN BASADO EN BLOCKCHAIN E IDENTIDAD DIGITAL AUTO-SOBERANA APLICADO AL PROCESO DE EVALUACIÓN DOCENTE",
-      "director": "Roberto A. Pava Díaz Ph.D",
-      "codirector": null,
-      "grupo_investigacion": "LIDER",
-      "numero_acta_sustentacion": null,
-      "nota_sustentacion": null,
-      "caracter_sustentacion": null,
-      "jurados_sustentacion": [],
-      "fuente_categorias": [
-        "Consolidado 2022-2026"
-      ]
-    },
-    {
-      "cod_proyecto": "595",
-      "etapa_actual": "Anteproyecto radicado",
-      "titulo_proyecto": "Diseño de un Modelo participativo basado en Sistemas de Información Geográfica (SIG) para la toma de decisiones en la zonificación ambiental de la Zona de Reserva Campesina Santuario",
-      "director": "Roberto Ferro Escobar / Edgar Aguirre Buenaventura",
-      "codirector": null,
-      "grupo_investigacion": "LIDER",
-      "numero_acta_sustentacion": null,
-      "nota_sustentacion": null,
-      "caracter_sustentacion": null,
-      "jurados_sustentacion": [],
-      "fuente_categorias": [
-        "Consolidado 2022-2026"
-      ]
-    },
-    {
-      "cod_proyecto": "595",
-      "etapa_actual": "Anteproyecto radicado",
-      "titulo_proyecto": "Modelo de administración para la gestión de información personal orientado al propietario de los datos",
-      "director": "Roberto Albeiro Pava Díaz / Roberto Ferro Escobar",
-      "codirector": null,
-      "grupo_investigacion": "LIDER",
-      "numero_acta_sustentacion": null,
-      "nota_sustentacion": null,
-      "caracter_sustentacion": null,
-      "jurados_sustentacion": [],
-      "fuente_categorias": [
-        "Consolidado 2022-2026"
-      ]
-    },
-    {
-      "cod_proyecto": "595",
-      "etapa_actual": "Anteproyecto radicado",
-      "titulo_proyecto": "Diseño de un modelo para la identificación de URLs maliciosas o potencialmente fraudulentas",
-      "director": "Roberto Ferro Escobar / Carlos Andrés Martínez Alayón",
-      "codirector": null,
-      "grupo_investigacion": "LIDER",
-      "numero_acta_sustentacion": null,
-      "nota_sustentacion": null,
-      "caracter_sustentacion": null,
-      "jurados_sustentacion": [],
-      "fuente_categorias": [
-        "Consolidado 2022-2026"
-      ]
-    },
-    {
-      "cod_proyecto": "595",
-      "etapa_actual": "Anteproyecto radicado",
-      "titulo_proyecto": "DISEÑO DE UN SISTEMA DE MONITOREO DE TEMPERATURA DE LACTANTES, UTILIZANDO METODOLOGÍA SCRUM Y TECNOLOGÍAS DEL INTERNET DE LAS COSAS (IOT)",
-      "director": "Roberto Ferro Escobar",
-      "codirector": null,
-      "grupo_investigacion": "LIDER",
-      "numero_acta_sustentacion": null,
-      "nota_sustentacion": null,
-      "caracter_sustentacion": null,
-      "jurados_sustentacion": [],
-      "fuente_categorias": [
-        "Consolidado 2022-2026"
-      ]
     }
   ],
   "resumen": {
-    "total_procesos": 597,
+    "total_procesos": 592,
     "por_etapa": {
-      "Jurados solicitados, pendiente sustentación": 52,
-      "Anteproyecto radicado, pendiente asignación de jurados": 270,
-      "Sustentado": 134,
+      "Anteproyecto radicado": 4,
+      "Anteproyecto radicado, pendiente asignación de jurados": 267,
+      "Sustentado": 133,
       "Jurados solicitados": 11,
-      "Sustentado (Meritorio)": 25,
-      "Sustentado (Aprobado)": 98,
-      "Sustentado (Laureado)": 2,
-      "Anteproyecto radicado": 5
+      "Jurados solicitados, pendiente sustentación": 52,
+      "Sustentado (Meritorio)": 26,
+      "Sustentado (Aprobado)": 97,
+      "Sustentado (Laureado)": 2
     },
     "por_modalidad": {
       "investigacion": {
-        "total": 379,
+        "total": 374,
         "por_etapa": {
-          "Jurados solicitados, pendiente sustentación": 40,
-          "Anteproyecto radicado, pendiente asignación de jurados": 159,
-          "Sustentado": 93,
+          "Anteproyecto radicado": 2,
+          "Anteproyecto radicado, pendiente asignación de jurados": 158,
+          "Sustentado": 92,
           "Jurados solicitados": 5,
-          "Sustentado (Meritorio)": 19,
+          "Jurados solicitados, pendiente sustentación": 40,
+          "Sustentado (Meritorio)": 20,
           "Sustentado (Laureado)": 2,
-          "Sustentado (Aprobado)": 56,
-          "Anteproyecto radicado": 5
+          "Sustentado (Aprobado)": 55
         }
       },
       "profundizacion": {
         "total": 218,
         "por_etapa": {
-          "Anteproyecto radicado, pendiente asignación de jurados": 111,
+          "Anteproyecto radicado": 2,
+          "Anteproyecto radicado, pendiente asignación de jurados": 109,
           "Jurados solicitados, pendiente sustentación": 12,
           "Sustentado": 41,
           "Jurados solicitados": 6,

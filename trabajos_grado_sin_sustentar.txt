@@ -1,0 +1,233 @@
+================================================================================
+MCIC — TRABAJOS DE GRADO PENDIENTES DE SUSTENTACIÓN EFECTIVA (2022–2026)
+================================================================================
+Fecha de generación: 2026-09-21
+Total de registros: 15
+Descripción: Listado consolidado de trabajos de grado de la MCIC correspondientes a casos programados o en desarrollo avalados por grupos de investigación que a la fecha de corte no registran acta de sustentación efectiva verificada (15 casos).
+================================================================================
+
+REGISTRO #01 (ID: 14)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20192495003
+  • Estudiante(s)       : Andrés David Montenegro Alvarado
+  • Título del Trabajo  : DINÁMICA ENERGÉTICA DEL MALWARE: AUTOORGANIZACIÓN MORFOLÓGICA DE SU IDENTIDAD COMPORTAMENTAL
+  • Año                 : 2026
+  • Modalidad           : Investigación
+  • Grupo Investigación : GICOGE
+  • Director(es)        : Nelson Enrique Vera
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-07-21
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Proyectos de Grado vinculados a GICOGE - MCIC 2022-2026(1).xlsx | Programación sustentaciones.xlsx
+  • Observación Cruce   : Caso programado o radicado sin sustentación efectiva; el año 2026 corresponde a la programación.
+
+REGISTRO #02 (ID: 136)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20221395009
+  • Estudiante(s)       : Jason Mauricio Romero Ríos
+  • Título del Trabajo  : Modelado espacio-temporal de eventos sísmicos en Colombia entre 2005 – 2020 mediante procesos de Cox Log-Gaussian y aproximación Bayesiana INLA-SPDE
+  • Año                 : 2026
+  • Modalidad           : Investigación
+  • Grupo Investigación : NIDE
+  • Director(es)        : Carlos Eduardo Melo Martínez
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-09-17
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC GRANDE
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (NIDE); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #03 (ID: 137)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20211195006
+  • Estudiante(s)       : Cesar Ivan Quintero Garzón
+  • Título del Trabajo  : DISEÑO E IMPLEMENTACIÓN DE UN SISTEMA RAG (RETRIEVAL-AUGMENTED GENERATION) EN UN LLM PARA LA CONSTRUCCIÓN DE REGLAS YARA EN LA DETECCIÓN DE MALWARE
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : ARMOS
+  • Director(es)        : Edwar Jacinto Gómez
+Codirector: Eduwin Parra
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-06-05
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC GRANDE
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (ARMOS); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #04 (ID: 138)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20181495011
+  • Estudiante(s)       : Danny Fabián Mora Peña
+  • Título del Trabajo  : DESARROLLO DE UNA HERRAMIENTA DE VISUALIZACIÓN DE ALTO RENDIMIENTO PARA DATOS DE RADAR METEOROLÓGICO EN FORMATO ARCO/ZARR, EMPLEANDO MALLAS NO ESTRUCTURADAS
+  • Año                 : 2026
+  • Modalidad           : Investigación
+  • Grupo Investigación : LASER
+  • Director(es)        : Cesar Andrey Perdomo Charry
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-08-27
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC INV
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (LASER); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #05 (ID: 139)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20181195011
+  • Estudiante(s)       : Cristian Julián Solarte Rosas
+  • Título del Trabajo  : ARQUITECTURA FUNCIONAL PARA UN MALETÍN DE TELEDIAGNÓSTICO
+  • Año                 : 2026
+  • Modalidad           : Investigación
+  • Grupo Investigación : GITEM
+  • Director(es)        : Lilia Edith Aparicio
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-08-27
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC INV
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (GITEM); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #06 (ID: 140)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20241595012
+  • Estudiante(s)       : Cristian Andres Velandia Montaño
+  • Título del Trabajo  : DISEÑO DE UNA RED NEURONAL CONVOLUCIONAL PARA IDENTIFICAR EL TROMBOEMBOLISMO PULMONAR EN TOMOGRAFÍAS.
+  • Año                 : 2026
+  • Modalidad           : Investigación
+  • Grupo Investigación : ITI
+  • Director(es)        : Hector Arturo Florez Fernandez
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-08-27
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC INV
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (ITI); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #07 (ID: 141)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20241695009
+  • Estudiante(s)       : Jhonatan González Salguero
+  • Título del Trabajo  : EXPLORACIÓN METODOLÓGICA MULTIVARIADA APLICADA A SEIS REGISTROS POBLACIONALES DE CÁNCER EN COLOMBIA
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : GITEM++
+  • Director(es)        : Leonardo Plazas Nossa
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-08-28
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Bronze/Datos/MCIC-PROFUNDIZACION/2024/LINEA DE INVESTIGACION/2024-1/GITEM++/20241695009 Radicacion anteproyecto.pdf
+  • Observación Cruce   : Radicación de anteproyecto con solicitud expresa de remisión a GITEM++ verificada en Bronze.
+
+REGISTRO #08 (ID: 142)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20241695004
+  • Estudiante(s)       : Rusby Vanessa Castro Alfere
+  • Título del Trabajo  : ESTIMACIÓN DE LOS VALORES DEL SUELO CON RELACIÓN A FENÓMENOS SOCIALES ALREDEDOR DE CENTRALIDADES SOCIOECONÓMICAS ESTRUCTURANTES EN BOGOTÁ, ÁREAS DE ANÁLISIS: CORABASTOS, AEROPUERTO EL DORADO, 20 DE JULIO, SANTA BÁRBARA, LOS MÁRTIRES Y 7 DE AGOSTO (2021-2023
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : NIDE
+  • Director(es)        : Hector Javier Fuentes López
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-08-28
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC PROF
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (NIDE); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #09 (ID: 143)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20241695007
+  • Estudiante(s)       : Lina Paola García Malagón
+  • Título del Trabajo  : MODELO DE PREDICCIÓN DE DESLIZAMIENTOS DE TIERRA A PARTIR DE LA IMPLEMENTACIÓN DE MÉTODOS DE APRENDIZAJE DE MÁQUINA
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : NIDE
+  • Director(es)        : Álvaro Enrique Ortíz Dávila
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-08-28
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC PROF
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (NIDE); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #10 (ID: 144)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20241695002
+  • Estudiante(s)       : Mayer Santiago Beltrán Romero
+  • Título del Trabajo  : SELECCIÓN DE PROVEEDORES DE TRANSPORTE INTERNACIONAL CON ORIGEN O DESTINO COLOMBIA MEDIANTE ALGORITMOS DE INTELIGENCIA ARTIFICIA
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : NIDE
+  • Director(es)        : Álvaro Enrique Ortíz Dávila
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-08-28
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC PROF
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (NIDE); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #11 (ID: 145)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20241695006
+  • Estudiante(s)       : Christian Yesid Galindo Cano
+  • Título del Trabajo  : DETERMINACIÓN DE UBICACIONES DE CÁMARAS DE SEGURIDAD EN ZONAS URBANAS MEDIANTE GEMELOS DIGITALES
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : NIDE
+  • Director(es)        : Álvaro Enrique Ortíz Dávila
+  • Estado Sustentación : Programado o radicado, no sustentado
+  • Fecha / Soporte Fin : Programada: 2026-09-03
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Programación sustentaciones.xlsx — MCIC PROF
+  • Observación Cruce   : Grupo completado por coincidencia nominal consistente del director en otros registros del consolidado (NIDE); el portal institucional se usó como catálogo de contraste. Validar con certificación del grupo si se requiere soporte individual.
+
+REGISTRO #12 (ID: 146)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20181195014
+  • Estudiante(s)       : Diego Fernando Zapata Muñoz
+  • Título del Trabajo  : MODELO DE REPUTACIÓN BASADO EN BLOCKCHAIN E IDENTIDAD DIGITAL AUTO-SOBERANA APLICADO AL PROCESO DE EVALUACIÓN DOCENTE
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : LIDER
+  • Director(es)        : Roberto A. Pava Díaz Ph.D
+  • Estado Sustentación : Avalado por el grupo, no sustentado
+  • Fecha / Soporte Fin : Aval del grupo: 2026
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Solicitud MCIC - Trabajos de grado grupop LIDER.xlsx
+  • Observación Cruce   : Aval del grupo reportado en 2026; sustentación no verificada en las fuentes disponibles.
+
+REGISTRO #13 (ID: 147)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20252695002
+  • Estudiante(s)       : Cristian Daniel Camacho Hilarión
+  • Título del Trabajo  : Diseño de un Modelo participativo basado en Sistemas de Información Geográfica (SIG) para la toma de decisiones en la zonificación ambiental de la Zona de Reserva Campesina Santuario
+  • Año                 : 2026
+  • Modalidad           : Profundización
+  • Grupo Investigación : LIDER
+  • Director(es)        : Roberto Ferro Escobar / Edgar Aguirre Buenaventura
+  • Estado Sustentación : Avalado por el grupo, no sustentado
+  • Fecha / Soporte Fin : Aval del grupo: 2026
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Solicitud MCIC - Trabajos de grado grupop LIDER.xlsx
+  • Observación Cruce   : Aval del grupo reportado en 2026; sustentación no verificada en las fuentes disponibles.
+
+REGISTRO #14 (ID: 148)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20182495017
+  • Estudiante(s)       : Omar Ricardo Castellanos Hernández
+  • Título del Trabajo  : Modelo de administración para la gestión de información personal orientado al propietario de los datos
+  • Año                 : 2024
+  • Modalidad           : Investigación
+  • Grupo Investigación : LIDER
+  • Director(es)        : Roberto Albeiro Pava Díaz / Roberto Ferro Escobar
+  • Estado Sustentación : Avalado por el grupo, no sustentado
+  • Fecha / Soporte Fin : Aval del grupo: 2024
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Solicitud MCIC - Trabajos de grado grupop LIDER.xlsx
+  • Observación Cruce   : El mismo trabajo aparece con aval en 2024 y nuevamente en 2026; se conserva 2024 como primer año reportado. Sustentación no verificada.
+
+REGISTRO #15 (ID: 149)
+--------------------------------------------------------------------------------
+  • Código Estudiante   : 20171195003
+  • Estudiante(s)       : Francisco Javier González Aguirre
+  • Título del Trabajo  : Diseño de un modelo para la identificación de URLs maliciosas o potencialmente fraudulentas
+  • Año                 : 2025
+  • Modalidad           : Investigación
+  • Grupo Investigación : LIDER
+  • Director(es)        : Roberto Ferro Escobar / Carlos Andrés Martínez Alayón
+  • Estado Sustentación : Avalado por el grupo, no sustentado
+  • Fecha / Soporte Fin : Aval del grupo: 2025
+  • Enlace RIUD         : No disponible
+  • Archivo Fuente      : Solicitud MCIC - Trabajos de grado grupop LIDER.xlsx
+  • Observación Cruce   : Aval del grupo reportado en 2025; sustentación no verificada en las fuentes disponibles.

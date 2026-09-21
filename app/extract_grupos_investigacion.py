@@ -193,6 +193,31 @@ def main() -> None:
                 {"nombre": "Andrés Escobar Díaz", "correo": "aescobard@udistrital.edu.co", "tematicas": "Energía y Control", "cvlac": None},
             ],
             "fuente": {"archivo": "Data/Bronze/MCIC - Base de datos V2.xlsx", "hoja": "Pasantías"}
+        },
+        {
+            "sigla": "PROPROBOS",
+            "clasificacion": "Facultad de Medio Ambiente",
+            "hoja_dir": None,
+            "nombre": "PROPROBOS - Productos y Procesos del Bosque",
+            "lider": "Jaime Alberto Moreno Gutiérrez",
+            "lineas_investigacion": "Sistemas GIS, Percepción Remota, Silvicultura y Bosques Urbanos",
+            "integrantes": [
+                {"nombre": "Jaime Alberto Moreno Gutiérrez", "correo": None, "tematicas": "Procesos y Productos del Bosque", "cvlac": None},
+                {"nombre": "Max Alejandro Triana Gómez", "correo": "matrianag@udistrital.edu.co", "tematicas": "Geomática, SIG y Machine Learning", "cvlac": None},
+            ],
+            "fuente": {"archivo": "Data/Bronze/Maestria CIC/ESTUDIANTES/ESTUDIANTES/ARCHIVO ESTUDIANTES/20182395007 - CRISTIAN CAMILO HURTADO VÁSQUEZ/20182395007 Viabilidad.pdf", "hoja": "Carta de Aval"}
+        },
+        {
+            "sigla": "CEPMS",
+            "clasificacion": "Facultad de Ingeniería",
+            "hoja_dir": None,
+            "nombre": "CEPMS - Centro de Estudios en Pavimentos y Materiales Sostenibles",
+            "lider": "Wilmar Darío Fernández Gómez",
+            "lineas_investigacion": "Infraestructura Vial, Procesamiento de Imágenes, Visión y GNSS",
+            "integrantes": [
+                {"nombre": "Wilmar Darío Fernández Gómez", "correo": "wfernandez@udistrital.edu.co", "tematicas": "Pavimentos, Imágenes y Sensores", "cvlac": None},
+            ],
+            "fuente": {"archivo": "Data/Bronze/Maestria CIC/ESTUDIANTES/ESTUDIANTES/ARCHIVO ESTUDIANTES/20192195003 - DIEGO FERNANDO ESPINAL GÓMEZ/20192195003 Carta aval grupo de investigacion-signed ya.pdf", "hoja": "Carta de Aval"}
         }
     ]
 
