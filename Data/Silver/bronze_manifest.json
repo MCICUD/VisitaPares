@@ -3530,6 +3530,16 @@
     "modalidad": "general"
   },
   {
+    "archivo": "Data/Bronze/Maestria CIC/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+    "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC",
+    "tamano_bytes": 51059,
+    "tamano_legible": "49.9 KB",
+    "modalidad": "general"
+  },
+  {
     "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
     "nombre": "Directorio Grupos de Inv MCIC.xlsx",
     "extension": "xlsx",

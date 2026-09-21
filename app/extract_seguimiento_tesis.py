@@ -48,6 +48,7 @@ ESTADOS_DIR = BRONZE_DIR / "Estados"
 ARCHIVO_INV = BRONZE_DIR / "MCIC - Base de datos INVESTIGACION.xlsx"
 ARCHIVO_PROF = BRONZE_DIR / "MCIC - Base de datos Profundizacion.xlsx"
 ARCHIVO_V2 = BRONZE_DIR / "MCIC - Base de datos V2.xlsx"
+ARCHIVO_CONSOLIDADO = BRONZE_DIR / "Maestria CIC/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx"
 
 COL_COD_ESTUDIANTE = 3
 PROYECTOS = ("595", "695")
@@ -334,6 +335,62 @@ def extraer_desde_excel(
     return registros
 
 
+def extraer_desde_consolidado(docente_a_grupo: dict[str, str]) -> list[dict]:
+    archivo = ARCHIVO_CONSOLIDADO
+    if not archivo.exists():
+        archivo = ROOT / "Consolidado_trabajos_grado_MCIC_2022_2026 (7).xlsx"
+    if not archivo.exists():
+        return []
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", UserWarning)
+        wb = openpyxl.load_workbook(archivo, data_only=True)
+    if "Consolidado" not in wb.sheetnames:
+        wb.close()
+        return []
+    ws = wb["Consolidado"]
+    registros = []
+
+    for r in list(ws.iter_rows(values_only=True))[1:]:
+        cod = str(r[1]).split(".")[0].strip() if r[1] is not None else None
+        grp = str(r[2]).strip() if r[2] else None
+        if grp and "no especificado" in grp.lower():
+            grp = None
+        tit = limpiar_valor(r[3])
+        mod = str(r[5] or "").lower()
+        cod_proy = "695" if "profundiz" in mod else "595"
+        dir_t = limpiar_valor(r[6])
+        soporte = limpiar_valor(r[8])
+        est = str(r[11] or "").strip()
+
+        if "sustentado" in est.lower() and "no sustentado" not in est.lower():
+            etapa = "Sustentado"
+        elif "programado" in est.lower() or "jurado" in est.lower():
+            etapa = "Jurados solicitados"
+        elif "avalado" in est.lower():
+            etapa = "Anteproyecto radicado"
+        else:
+            etapa = est or "Sustentado"
+
+        registros.append({
+            "_codigo": cod,
+            "_source_priority": 4,  # Prioridad máxima sobre V2 (2) e INV/PROF (3)
+            "cod_proyecto": cod_proy,
+            "etapa_actual": etapa,
+            "titulo_proyecto": tit,
+            "director": dir_t,
+            "codirector": None,
+            "grupo_investigacion": grp or mapear_grupo_por_director(dir_t, docente_a_grupo),
+            "numero_acta_sustentacion": soporte if (soporte and "acta" in soporte.lower()) else None,
+            "nota_sustentacion": None,
+            "caracter_sustentacion": "Aprobado" if etapa == "Sustentado" else None,
+            "jurados_sustentacion": [],
+            "fuente_categorias": ["Consolidado 2022-2026"],
+        })
+    wb.close()
+    return registros
+
+
 def main() -> None:
     codigos_oficiales = cargar_cod_proyecto_por_estudiante()
     docente_a_grupo = cargar_directorio_docentes_grupos()
@@ -376,6 +433,11 @@ def main() -> None:
             codigos_oficiales,
             docente_a_grupo,
         )
+    )
+
+    # 4. Consolidado trabajos de grado 2022-2026 (máxima prioridad para el periodo evaluado)
+    todos_los_registros.extend(
+        extraer_desde_consolidado(docente_a_grupo)
     )
 
     # Desduplicación por código de estudiante

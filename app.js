@@ -488,6 +488,8 @@ const ETAPA_TESIS_BADGE = {
   'Sustentado': '✅',
   'Jurado': '⏳',
   'Jurados': '⏳',
+  'Programado': '⏳',
+  'Avalado': '📋',
   'Anteproyecto': '📝',
   'Sin anteproyecto': '⚪',
 };
