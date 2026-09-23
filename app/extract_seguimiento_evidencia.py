@@ -71,6 +71,7 @@ def procesar_modalidad(modalidad: str, base: Path) -> dict:
             elif m:
                 numero = m.group(1)
                 actividades = []
+                sueltos = []
                 for actividad_dir in sorted(item.iterdir()):
                     if actividad_dir.is_dir():
                         actividades.append({
@@ -79,14 +80,13 @@ def procesar_modalidad(modalidad: str, base: Path) -> dict:
                         })
                     elif actividad_dir.is_file():
                         # archivo suelto directamente bajo el FACTOR, sin actividad asignada
-                        actividades.append({
-                            "nombre": "(sin actividad específica)",
-                            "archivos": [{
-                                "nombre": actividad_dir.name,
-                                "archivo": rel(actividad_dir),
-                                "tamano_legible": tamano_legible(actividad_dir.stat().st_size),
-                            }],
+                        sueltos.append({
+                            "nombre": actividad_dir.name,
+                            "archivo": rel(actividad_dir),
+                            "tamano_legible": tamano_legible(actividad_dir.stat().st_size),
                         })
+                if sueltos:
+                    actividades.append({"nombre": "(sin actividad específica)", "archivos": sueltos})
                 factores[numero] = {"factor_nombre": item.name, "actividades": actividades}
 
     return {

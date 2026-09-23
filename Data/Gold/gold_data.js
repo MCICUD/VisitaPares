@@ -814,16 +814,6 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
-              "nombre": "(sin actividad específica)",
-              "archivos": [
-                {
-                  "nombre": "SNIES17528-Res 016 2025-CA.pdf",
-                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
-                  "tamano_legible": "9.1 MB"
-                }
-              ]
-            },
-            {
               "nombre": "SNIES17528-Syllabus",
               "archivos": [
                 {
@@ -957,6 +947,16 @@ const GOLD_DATA = {
                   "tamano_legible": "66.5 KB"
                 }
               ]
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
+                  "tamano_legible": "9.1 MB"
+                }
+              ]
             }
           ],
           "total_archivos": 27
@@ -1017,16 +1017,6 @@ const GOLD_DATA = {
         },
         "evidencia_seguimiento": {
           "actividades": [
-            {
-              "nombre": "(sin actividad específica)",
-              "archivos": [
-                {
-                  "nombre": "Reunión de acompañamiento.pdf",
-                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
-                  "tamano_legible": "152.3 KB"
-                }
-              ]
-            },
             {
               "nombre": "Solicitudes de Prorroga de Permanencia",
               "archivos": [
@@ -1156,6 +1146,16 @@ const GOLD_DATA = {
                   "tamano_legible": "116.7 KB"
                 }
               ]
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "Reunión de acompañamiento.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
+                  "tamano_legible": "152.3 KB"
+                }
+              ]
             }
           ],
           "total_archivos": 26
@@ -1235,9 +1235,54 @@ const GOLD_DATA = {
             {
               "nombre": "e. Promoción de participación de la comunidad",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+                  "tamano_legible": "3.0 MB"
+                },
+                {
+                  "nombre": "2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+                  "tamano_legible": "279.0 KB"
+                },
+                {
+                  "nombre": "3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+                  "tamano_legible": "270.3 KB"
+                },
+                {
+                  "nombre": "4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+                  "tamano_legible": "536.2 KB"
+                },
+                {
+                  "nombre": "5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+                  "tamano_legible": "639.8 KB"
+                },
+                {
+                  "nombre": "6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+                  "tamano_legible": "400.0 KB"
+                },
+                {
+                  "nombre": "7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+                  "tamano_legible": "589.0 KB"
+                },
+                {
+                  "nombre": "8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+                  "tamano_legible": "1.9 MB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 8
         },
         "datos_convenios": {
           "convenios_totales": 388,
@@ -1455,15 +1500,180 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
+              "nombre": "ANEXOS PONENCIAS",
+              "archivos": [
+                {
+                  "nombre": "Ponencia Andrés Felipe Sánchez Cruz.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Andrés Felipe Sánchez Cruz.pdf",
+                  "tamano_legible": "243.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+                  "tamano_legible": "187.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Daniel Alexander Hernández Montealegre.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniel Alexander Hernández Montealegre.pdf",
+                  "tamano_legible": "137.2 KB"
+                },
+                {
+                  "nombre": "Ponencia Daniela Martin Vega.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniela Martin Vega.pdf",
+                  "tamano_legible": "709.5 KB"
+                },
+                {
+                  "nombre": "Ponencia Héctor Ricardo Patiño Rivera.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Héctor Ricardo Patiño Rivera.pdf",
+                  "tamano_legible": "18.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Iván Darío Bello González.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Iván Darío Bello González.pdf",
+                  "tamano_legible": "138.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Jaime Antonio Ávila Sánchez.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jaime Antonio Ávila Sánchez.pdf",
+                  "tamano_legible": "938.3 KB"
+                },
+                {
+                  "nombre": "Ponencia Jawy Andrés Romero Pinto.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jawy Andrés Romero Pinto.pdf",
+                  "tamano_legible": "318.8 KB"
+                },
+                {
+                  "nombre": "Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+                  "tamano_legible": "744.6 KB"
+                },
+                {
+                  "nombre": "Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+                  "tamano_legible": "103.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+                  "tamano_legible": "14.0 MB"
+                },
+                {
+                  "nombre": "Ponencia Jorge Armando Millán Gómez.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Armando Millán Gómez.pdf",
+                  "tamano_legible": "1.2 MB"
+                },
+                {
+                  "nombre": "Ponencia Jorge Eliecer Beltrán García.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Eliecer Beltrán García.pdf",
+                  "tamano_legible": "1004.2 KB"
+                },
+                {
+                  "nombre": "Ponencia José Agustín Arévalo Silva.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia José Agustín Arévalo Silva.pdf",
+                  "tamano_legible": "291.6 KB"
+                },
+                {
+                  "nombre": "Ponencia Juan Guillermo Cotta García.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Juan Guillermo Cotta García.pdf",
+                  "tamano_legible": "137.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Kevin Camilo Díaz Monje.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Kevin Camilo Díaz Monje.pdf",
+                  "tamano_legible": "137.2 KB"
+                },
+                {
+                  "nombre": "Ponencia Lady Viviana Garay González.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Lady Viviana Garay González.pdf",
+                  "tamano_legible": "103.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Martha Patricia Valbuena Gaona.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Martha Patricia Valbuena Gaona.pdf",
+                  "tamano_legible": "171.8 KB"
+                },
+                {
+                  "nombre": "Ponencia Nancy Johana Matta Monroy.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Nancy Johana Matta Monroy.pdf",
+                  "tamano_legible": "78.7 KB"
+                },
+                {
+                  "nombre": "Ponencia Noé Arcos Muñóz.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Noé Arcos Muñóz.pdf",
+                  "tamano_legible": "1.0 MB"
+                },
+                {
+                  "nombre": "Ponencia Oscar Javier Idrobo López.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Oscar Javier Idrobo López.pdf",
+                  "tamano_legible": "379.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Paola Andrea Suarez Jaimes.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Paola Andrea Suarez Jaimes.pdf",
+                  "tamano_legible": "137.3 KB"
+                },
+                {
+                  "nombre": "Ponencia Santiago Andrés Peña Arismendi.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Santiago Andrés Peña Arismendi.pdf",
+                  "tamano_legible": "327.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Tania Lorena Ruíz Morales.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Tania Lorena Ruíz Morales.pdf",
+                  "tamano_legible": "137.1 KB"
+                },
+                {
+                  "nombre": "Ponencia William Steven Rodríguez Rodríguez.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia William Steven Rodríguez Rodríguez.pdf",
+                  "tamano_legible": "138.5 KB"
+                },
+                {
+                  "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+                  "tamano_legible": "138.3 KB"
+                }
+              ]
+            },
+            {
               "nombre": "a. Presentación a nuevos estudiantes de procesos de investigación",
               "archivos": []
             },
             {
               "nombre": "b. Socialización y vinculación de actividades de investigación",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "Directorio Grupos de Inv MCIC.xlsx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Directorio Grupos de Inv MCIC.xlsx",
+                  "tamano_legible": "54.2 KB"
+                },
+                {
+                  "nombre": "Divulgacio grupos 2025-3.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgacio grupos 2025-3.pdf",
+                  "tamano_legible": "362.2 KB"
+                },
+                {
+                  "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-1.jpg",
+                  "tamano_legible": "195.0 KB"
+                },
+                {
+                  "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-3.jpg",
+                  "tamano_legible": "157.0 KB"
+                },
+                {
+                  "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+                  "tamano_legible": "1.2 MB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 31
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -1780,9 +1990,39 @@ const GOLD_DATA = {
             {
               "nombre": "b. Divulgación de los servicios ofrecidos por Bienestar",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Encuentro estudiantes evaluacion docente.jpg",
+                  "tamano_legible": "184.9 KB"
+                },
+                {
+                  "nombre": "Induccion 2025-1.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Induccion 2025-1.pdf",
+                  "tamano_legible": "379.6 KB"
+                },
+                {
+                  "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+                  "tamano_legible": "558.7 KB"
+                },
+                {
+                  "nombre": "acuerdo_02_2019_beca_ecaes.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/acuerdo_02_2019_beca_ecaes.pdf",
+                  "tamano_legible": "73.9 KB"
+                },
+                {
+                  "nombre": "res_2025-143 para becas de la ODI.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/res_2025-143 para becas de la ODI.pdf",
+                  "tamano_legible": "556.2 KB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 5
         },
         "datos_cuadro_maestro_cna": {
           "bienestar": {
@@ -2629,6 +2869,14 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
+              "nombre": "a. Diagnóstico sobre ambientes de aprendizaje",
+              "archivos": []
+            },
+            {
+              "nombre": "b. Consolidación de propuesta de medios educativos",
+              "archivos": []
+            },
+            {
               "nombre": "(sin actividad específica)",
               "archivos": [
                 {
@@ -2637,14 +2885,6 @@ const GOLD_DATA = {
                   "tamano_legible": "72.4 KB"
                 }
               ]
-            },
-            {
-              "nombre": "a. Diagnóstico sobre ambientes de aprendizaje",
-              "archivos": []
-            },
-            {
-              "nombre": "b. Consolidación de propuesta de medios educativos",
-              "archivos": []
             }
           ],
           "total_archivos": 1
@@ -2720,9 +2960,34 @@ const GOLD_DATA = {
             {
               "nombre": "d. Construcción de reportes",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                  "tamano_legible": "325.1 KB"
+                },
+                {
+                  "nombre": "CC-FR-001 Plan de mejoramiento INV.xlsx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/CC-FR-001 Plan de mejoramiento INV.xlsx",
+                  "tamano_legible": "122.0 KB"
+                },
+                {
+                  "nombre": "MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+                  "tamano_legible": "591.9 KB"
+                },
+                {
+                  "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                  "tamano_legible": "121.4 KB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 4
         }
       },
       {
@@ -2781,6 +3046,14 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
+              "nombre": "a. Solicitud de informe de avance de la obra",
+              "archivos": []
+            },
+            {
+              "nombre": "b. Solicitud informes periódicos de avance de la obra a Facultad",
+              "archivos": []
+            },
+            {
               "nombre": "(sin actividad específica)",
               "archivos": [
                 {
@@ -2789,14 +3062,6 @@ const GOLD_DATA = {
                   "tamano_legible": "835.2 KB"
                 }
               ]
-            },
-            {
-              "nombre": "a. Solicitud de informe de avance de la obra",
-              "archivos": []
-            },
-            {
-              "nombre": "b. Solicitud informes periódicos de avance de la obra a Facultad",
-              "archivos": []
             }
           ],
           "total_archivos": 1
@@ -3566,16 +3831,6 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
-              "nombre": "(sin actividad específica)",
-              "archivos": [
-                {
-                  "nombre": "SNIES17528-Res 016 2025-CA.pdf",
-                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
-                  "tamano_legible": "9.1 MB"
-                }
-              ]
-            },
-            {
               "nombre": "SNIES17528-Syllabus",
               "archivos": [
                 {
@@ -3709,6 +3964,16 @@ const GOLD_DATA = {
                   "tamano_legible": "66.5 KB"
                 }
               ]
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "SNIES17528-Res 016 2025-CA.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/SNIES17528-Res 016 2025-CA.pdf",
+                  "tamano_legible": "9.1 MB"
+                }
+              ]
             }
           ],
           "total_archivos": 27
@@ -3769,16 +4034,6 @@ const GOLD_DATA = {
         },
         "evidencia_seguimiento": {
           "actividades": [
-            {
-              "nombre": "(sin actividad específica)",
-              "archivos": [
-                {
-                  "nombre": "Reunión de acompañamiento.pdf",
-                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
-                  "tamano_legible": "152.3 KB"
-                }
-              ]
-            },
             {
               "nombre": "Solicitudes de Prorroga de Permanencia",
               "archivos": [
@@ -3908,6 +4163,16 @@ const GOLD_DATA = {
                   "tamano_legible": "116.7 KB"
                 }
               ]
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "Reunión de acompañamiento.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
+                  "tamano_legible": "152.3 KB"
+                }
+              ]
             }
           ],
           "total_archivos": 26
@@ -3987,9 +4252,54 @@ const GOLD_DATA = {
             {
               "nombre": "e. Promoción de participación de la comunidad",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+                  "tamano_legible": "3.0 MB"
+                },
+                {
+                  "nombre": "2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+                  "tamano_legible": "279.0 KB"
+                },
+                {
+                  "nombre": "3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+                  "tamano_legible": "270.3 KB"
+                },
+                {
+                  "nombre": "4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+                  "tamano_legible": "536.2 KB"
+                },
+                {
+                  "nombre": "5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+                  "tamano_legible": "639.8 KB"
+                },
+                {
+                  "nombre": "6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+                  "tamano_legible": "400.0 KB"
+                },
+                {
+                  "nombre": "7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+                  "tamano_legible": "589.0 KB"
+                },
+                {
+                  "nombre": "8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+                  "tamano_legible": "1.9 MB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 8
         },
         "datos_convenios": {
           "convenios_totales": 388,
@@ -4207,15 +4517,180 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
+              "nombre": "ANEXOS PONENCIAS",
+              "archivos": [
+                {
+                  "nombre": "Ponencia Andrés Felipe Sánchez Cruz.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Andrés Felipe Sánchez Cruz.pdf",
+                  "tamano_legible": "243.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+                  "tamano_legible": "187.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Daniel Alexander Hernández Montealegre.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniel Alexander Hernández Montealegre.pdf",
+                  "tamano_legible": "137.2 KB"
+                },
+                {
+                  "nombre": "Ponencia Daniela Martin Vega.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniela Martin Vega.pdf",
+                  "tamano_legible": "709.5 KB"
+                },
+                {
+                  "nombre": "Ponencia Héctor Ricardo Patiño Rivera.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Héctor Ricardo Patiño Rivera.pdf",
+                  "tamano_legible": "18.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Iván Darío Bello González.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Iván Darío Bello González.pdf",
+                  "tamano_legible": "138.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Jaime Antonio Ávila Sánchez.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jaime Antonio Ávila Sánchez.pdf",
+                  "tamano_legible": "938.3 KB"
+                },
+                {
+                  "nombre": "Ponencia Jawy Andrés Romero Pinto.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jawy Andrés Romero Pinto.pdf",
+                  "tamano_legible": "318.8 KB"
+                },
+                {
+                  "nombre": "Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+                  "tamano_legible": "744.6 KB"
+                },
+                {
+                  "nombre": "Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+                  "tamano_legible": "103.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+                  "tamano_legible": "14.0 MB"
+                },
+                {
+                  "nombre": "Ponencia Jorge Armando Millán Gómez.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Armando Millán Gómez.pdf",
+                  "tamano_legible": "1.2 MB"
+                },
+                {
+                  "nombre": "Ponencia Jorge Eliecer Beltrán García.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Eliecer Beltrán García.pdf",
+                  "tamano_legible": "1004.2 KB"
+                },
+                {
+                  "nombre": "Ponencia José Agustín Arévalo Silva.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia José Agustín Arévalo Silva.pdf",
+                  "tamano_legible": "291.6 KB"
+                },
+                {
+                  "nombre": "Ponencia Juan Guillermo Cotta García.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Juan Guillermo Cotta García.pdf",
+                  "tamano_legible": "137.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Kevin Camilo Díaz Monje.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Kevin Camilo Díaz Monje.pdf",
+                  "tamano_legible": "137.2 KB"
+                },
+                {
+                  "nombre": "Ponencia Lady Viviana Garay González.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Lady Viviana Garay González.pdf",
+                  "tamano_legible": "103.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Martha Patricia Valbuena Gaona.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Martha Patricia Valbuena Gaona.pdf",
+                  "tamano_legible": "171.8 KB"
+                },
+                {
+                  "nombre": "Ponencia Nancy Johana Matta Monroy.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Nancy Johana Matta Monroy.pdf",
+                  "tamano_legible": "78.7 KB"
+                },
+                {
+                  "nombre": "Ponencia Noé Arcos Muñóz.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Noé Arcos Muñóz.pdf",
+                  "tamano_legible": "1.0 MB"
+                },
+                {
+                  "nombre": "Ponencia Oscar Javier Idrobo López.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Oscar Javier Idrobo López.pdf",
+                  "tamano_legible": "379.4 KB"
+                },
+                {
+                  "nombre": "Ponencia Paola Andrea Suarez Jaimes.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Paola Andrea Suarez Jaimes.pdf",
+                  "tamano_legible": "137.3 KB"
+                },
+                {
+                  "nombre": "Ponencia Santiago Andrés Peña Arismendi.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Santiago Andrés Peña Arismendi.pdf",
+                  "tamano_legible": "327.0 KB"
+                },
+                {
+                  "nombre": "Ponencia Tania Lorena Ruíz Morales.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Tania Lorena Ruíz Morales.pdf",
+                  "tamano_legible": "137.1 KB"
+                },
+                {
+                  "nombre": "Ponencia William Steven Rodríguez Rodríguez.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia William Steven Rodríguez Rodríguez.pdf",
+                  "tamano_legible": "138.5 KB"
+                },
+                {
+                  "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+                  "tamano_legible": "138.3 KB"
+                }
+              ]
+            },
+            {
               "nombre": "a. Presentación a nuevos estudiantes de procesos de investigación",
               "archivos": []
             },
             {
               "nombre": "b. Socialización y vinculación de actividades de investigación",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "Directorio Grupos de Inv MCIC.xlsx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Directorio Grupos de Inv MCIC.xlsx",
+                  "tamano_legible": "54.2 KB"
+                },
+                {
+                  "nombre": "Divulgacio grupos 2025-3.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgacio grupos 2025-3.pdf",
+                  "tamano_legible": "362.2 KB"
+                },
+                {
+                  "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-1.jpg",
+                  "tamano_legible": "195.0 KB"
+                },
+                {
+                  "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-3.jpg",
+                  "tamano_legible": "157.0 KB"
+                },
+                {
+                  "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+                  "tamano_legible": "1.2 MB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 31
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -4531,9 +5006,39 @@ const GOLD_DATA = {
             {
               "nombre": "b. Divulgación de los servicios ofrecidos por Bienestar",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Encuentro estudiantes evaluacion docente.jpg",
+                  "tamano_legible": "184.9 KB"
+                },
+                {
+                  "nombre": "Induccion 2025-1.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Induccion 2025-1.pdf",
+                  "tamano_legible": "379.6 KB"
+                },
+                {
+                  "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+                  "tamano_legible": "558.7 KB"
+                },
+                {
+                  "nombre": "acuerdo_02_2019_beca_ecaes.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/acuerdo_02_2019_beca_ecaes.pdf",
+                  "tamano_legible": "73.9 KB"
+                },
+                {
+                  "nombre": "res_2025-143 para becas de la ODI.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/res_2025-143 para becas de la ODI.pdf",
+                  "tamano_legible": "556.2 KB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 5
         },
         "datos_cuadro_maestro_cna": {
           "bienestar": {
@@ -5380,6 +5885,14 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
+              "nombre": "a. Diagnóstico sobre ambientes de aprendizaje",
+              "archivos": []
+            },
+            {
+              "nombre": "b. Consolidación de propuesta de medios educativos",
+              "archivos": []
+            },
+            {
               "nombre": "(sin actividad específica)",
               "archivos": [
                 {
@@ -5388,14 +5901,6 @@ const GOLD_DATA = {
                   "tamano_legible": "72.4 KB"
                 }
               ]
-            },
-            {
-              "nombre": "a. Diagnóstico sobre ambientes de aprendizaje",
-              "archivos": []
-            },
-            {
-              "nombre": "b. Consolidación de propuesta de medios educativos",
-              "archivos": []
             }
           ],
           "total_archivos": 1
@@ -5471,9 +5976,34 @@ const GOLD_DATA = {
             {
               "nombre": "d. Construcción de reportes",
               "archivos": []
+            },
+            {
+              "nombre": "(sin actividad específica)",
+              "archivos": [
+                {
+                  "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                  "tamano_legible": "325.1 KB"
+                },
+                {
+                  "nombre": "CC-FR-001 Plan de mejoramiento PROF.xlsx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+                  "tamano_legible": "122.0 KB"
+                },
+                {
+                  "nombre": "MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+                  "tamano_legible": "593.7 KB"
+                },
+                {
+                  "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                  "tamano_legible": "121.4 KB"
+                }
+              ]
             }
           ],
-          "total_archivos": 0
+          "total_archivos": 4
         }
       },
       {
@@ -5532,6 +6062,14 @@ const GOLD_DATA = {
         "evidencia_seguimiento": {
           "actividades": [
             {
+              "nombre": "a. Solicitud de informe de avance de la obra",
+              "archivos": []
+            },
+            {
+              "nombre": "b. Solicitud informes periódicos de avance de la obra a Facultad",
+              "archivos": []
+            },
+            {
               "nombre": "(sin actividad específica)",
               "archivos": [
                 {
@@ -5540,14 +6078,6 @@ const GOLD_DATA = {
                   "tamano_legible": "835.2 KB"
                 }
               ]
-            },
-            {
-              "nombre": "a. Solicitud de informe de avance de la obra",
-              "archivos": []
-            },
-            {
-              "nombre": "b. Solicitud informes periódicos de avance de la obra a Facultad",
-              "archivos": []
             }
           ],
           "total_archivos": 1
@@ -7710,6 +8240,54 @@ const GOLD_DATA = {
       "extracto": "Salas de sistemas | 12 salas con 40 equipos | Clases de software, | Incremento del 30% en el\ncada una simulaciones, análisis de datos y | uso por estudiantes MCIC\nproyectos interdisciplinarios\nLaboratorios 34 laboratorios con más | Prácticas académicas, | Fortalecimiento del trabajo\nespecializados — | de 800 equipos in…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+      "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 332944,
+      "tamano_legible": "325.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL FRNACISCO JOSÉ DE CALDAS \nANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS DE APRECIACIÓN \nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES \n \n2026-1 \n \n(Facultad de Ingeniería) \n \nNota: \nSe remite el presente documento como una apreciación global de los resultados \nobtenidos en l…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+      "nombre": "CC-FR-001 Plan de mejoramiento PROF.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 124883,
+      "tamano_legible": "122.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "PLAN DE MEJORAMIENTO - PROGRAMAS\nCódigo: \n CC-FR-001\nMacroproceso: Direccionamiento Estratégico\nVersión:  04\nProceso: Curriculo y Calidad\nFecha de Aprobación:  \n2025/09/29\nFACULTAD\nINGENIERÍA\nPROGRAMA ACADÉMICO\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES\nREGISTRO CALIFICADO\nResolución 9925 21 JUN 2023\nV…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+      "nombre": "MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 607992,
+      "tamano_legible": "593.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Proceso Autoevaluación Permanente  \n \nProyecto Curricular Maestria En Ciencias De La Información Y Las Comunicaciones \n \nFacultad Ingeniería \n \n \n \n \n \n \n \n \n \n \nBogotá, 2026. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n2 \n \nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS  \n \n \nJosé Andelfo Lizcano Caro  \nRector \n \nWilman Enrique Nav…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 124265,
+      "tamano_legible": "121.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\n\nProceso Autoevaluación 2026-1  Maestría en Ciencias de la Información y las Comunicaciones\nESTUDIANTES\nINFORME DE RESULTADOS\nInstrumentos de Apreciación Estudiantes (Modelo CNA 2020 - F.I.)\nFACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL (Estudiantes -…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/G312-3 Requerimientos equipos tecnológicos y de software.pdf",
       "nombre": "G312-3 Requerimientos equipos tecnológicos y de software.pdf",
       "extension": "pdf",
@@ -8622,6 +9200,534 @@ const GOLD_DATA = {
       "extracto": "Outlook\nSolicitud de ampliación de permanencia académica para finalización de requisitos de grado\nDesde JENIFER ANDREA TORRES RODRIGUEZ <jeatorresr@udistrital.edu.co>\nFecha Mar 26/05/2026 19:36\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nCESAR ANDREY PERDOMO CHARRY <cper…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+      "nombre": "1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 3110933,
+      "tamano_legible": "3.0 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO No. 009  \n(20 de abril de 2023) \n \n“Por el cual se adopta la Política de Interinstitucionalización e Internacionalización de \nla Universidad Distrital Francisco José de Caldas”  \n \nPágina 1 de 16 \n \nEl Consejo Superior Universitario de la Universidad Distrital Francisco José de C…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+      "nombre": "2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 285697,
+      "tamano_legible": "279.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO N° 011 \n(4 de mayo de 2023) \n“Por medio del cual se establece la múltiple titulación para los estudiantes de los Proyectos \nCurriculares de nivel académico de pregrado y posgrado de la Universidad Distrital \nFrancisco José de Caldas” \nPágina 1 de 5 \n \nEl Consejo Superior Universi…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+      "nombre": "3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 276826,
+      "tamano_legible": "270.3 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL \nFRANCISCO JOSÉ DE CALDAS \nArte-011a~ lastitudonal en Alta Calidad \nRECTORÍA \nRESOLUCIÓN N° 096 \n3 de MAR \t\nr de 2024) \n\"Por medio de la cual se adopta el Reglamento Interno 7lel Comité de Relaciones Interinstitucionales (CRI) \nde la Universidad Distrital Francisco José de Caldas y se toman otras …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+      "nombre": "4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 549082,
+      "tamano_legible": "536.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Página 1 de 13\nQue en desarrollo de la autonomía universitaria, el artículo 28 de la Ley 30 de 1992, \n.) reconoce a las\nuniversidades el derecho a darse y modificar sus estatutos, designar sus autoridades académicas y \nadministrativas, crear, organizar y desarrollar sus programas académicos, definir y organizar sus lab…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+      "nombre": "5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 655129,
+      "tamano_legible": "639.8 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL\nFRANCISCO JOSfi DE CALDAS\nC0NSE)0 ACADEMICO\nACUERDO No. 002 \n( 18 de febrero de 2025)\n“Por el cual se reglamenta la multiple titulacion para el nivel academico deposgrado de \nla Universidad Distrital Francisco Jose de Caldas”\nEl Consejo Academico de la Universidad Distrital Francisco Jose de Calda…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+      "nombre": "6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 409558,
+      "tamano_legible": "400.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UN1VERSIDAD DISTRITAL \nFRANCISCO 1056 DE CALDAS\nCONSEJO ACADEMICO\nACUERDO N ° 008 \nAGOSTO 05 DE 2025\n“Por el cual se reglamenta el Programa Institutional de Plunlingiiismo, eje estrategico de la \nPolitica de Interinstitucionalizacwn e Internationalization y se definen los criterios curriculares \nrelationados con los pr…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+      "nombre": "7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 603183,
+      "tamano_legible": "589.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNtVERSiOAD D1STRITAL \nFRANOSCO |OS£ DE CALDAS \nAnrfludta\nt ^\nIttiAluUUid\nl«tiiadaul<\nUCIOMA\n559\nresoluci6nn° *\n( '29 SEP m )\n“Por medio de ta cualse reglamenta et eje de direccionamiento estratigico de Gestidn de Cooperacidny \nrelacionamiento externo de la UiiiversidadDistrital Francisco Jose de Caldas”\nEL RECTOR DE L…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+      "nombre": "8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 1986935,
+      "tamano_legible": "1.9 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "=§s\nRESOLUCION No. 636\nm NOV 2025 >\n“Por medio de la cual se reglamenta el eje de direccionamienlo estrategico de movilidad academica \nestablecido en el numeral 6° del articulo 5° del Acuerdo 009 del 20 de abril de 2023 ”\nEL RECTOR DE LA UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS, en uso de sus \natribuciones legale…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Andrés Felipe Sánchez Cruz.pdf",
+      "nombre": "Ponencia Andrés Felipe Sánchez Cruz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 249219,
+      "tamano_legible": "243.4 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "ANDRÉS FELIPE SÁNCHEZ CRUZ"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+      "nombre": "Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 191485,
+      "tamano_legible": "187.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Cristhian Johnatan Izquierdo Ortiz \nParticipated as speaker of the entitled paper: \nAnalysis of economic indicators through news and Twitter using text mining, machine learning and \nmultiagent systems"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniel Alexander Hernández Montealegre.pdf",
+      "nombre": "Ponencia Daniel Alexander Hernández Montealegre.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140467,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Daniel Alexander Hernández Montealegre \nAgentes inteligentes para gestión de recursos en \ncampañas multicanal de marketing digital"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniela Martin Vega.pdf",
+      "nombre": "Ponencia Daniela Martin Vega.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 726538,
+      "tamano_legible": "709.5 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "CONGRESO COLOMBIANO DE \nASTRONOMÍA Y ASTROFÍSICA\nVII\nMario Armando Higuera Garzón\nAstroCO\nNelson Vera Villamizar\nUniversidad Pedagógica y Tecnológica de\nParticipó como PONENTE de este congreso los días 21, \n22  y 23 de septiembre del 2022. \nSe expide en Tunja el 23 de septiembre del 2022. \nColombia\nDaniela Martin Vega\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Héctor Ricardo Patiño Rivera.pdf",
+      "nombre": "Ponencia Héctor Ricardo Patiño Rivera.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 18806,
+      "tamano_legible": "18.4 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "ACCEPTANCE LETTER\nDear Hector Ricardo Patino Rivera\nUniversidad Distrital Francisco José de Caldas\nColombia\nOn behalf of the ICITS'24 - The 2024 International Conference on Information Technology & Systems, I am\npleased to inform you that your submission “Diseño de un prototipo para clasificación automática de \nimágene…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Iván Darío Bello González.pdf",
+      "nombre": "Ponencia Iván Darío Bello González.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 141713,
+      "tamano_legible": "138.4 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nOctober 25, 2024 \nTo whom it may concern.  \nThis certifies that Ivan Dario Bello Gonzalez, Universidad Distrital Francisco José de \nCaldas, Bogotá - Colombia has attended and presented the paper ID 93 entitled “An \nIterative Methodology for Evaluating Large Language Models in IoT Weather \nMonitoring Syst…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jaime Antonio Ávila Sánchez.pdf",
+      "nombre": "Ponencia Jaime Antonio Ávila Sánchez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 960847,
+      "tamano_legible": "938.3 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Participó como ponente “Optimización de la operación de una microrred rural aislada enfocada en costos” \nen el \nSegundo Congreso Internacional de Ingeniería \n“Ingeniería para todos”\nCertifica que:\nJaime Antonio Avila Sanchez\nRealizado del 10 al 14 de octubre de 2022 \nDaniel Ricardo Delgado \nPresidente del  Congreso (CI…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jawy Andrés Romero Pinto.pdf",
+      "nombre": "Ponencia Jawy Andrés Romero Pinto.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 326446,
+      "tamano_legible": "318.8 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nDecember 2, 2022  \nTo whom it may concern.  \nThis certifies that the work entitled “A Survey of Homomorphic cryptography, ZPK and \nzk-SNARK protocols for identity and privacy protection in Ethereum blockchain.” \npresented by Jawy Andres Romero Pinto, Universidad Distrital Francisco José de Caldas \nhas be…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+      "nombre": "Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 762454,
+      "tamano_legible": "744.6 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "___________________________________________________ \nSERGIO IVÁN QUINTERO AYALA \nVICERRECTOR ASISTENTE DE INVESTIGACIÓN Y EXTENSIÓN \nUNIVERSIDAD FRANCISCO DE PAULA SANTANDER \n_______________________________________________ \nNANCY RODRÍGUEZ COLORADO \nDIRECTORA DIVISIÓN DE INVESTIGACIÓN Y EXTENSIÓN \nUNIVERSIDAD FRANCISCO…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+      "nombre": "Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 105448,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Certificate\nof Participation\nThis is to certify that\nhas published the paper entitled\nat the workshop\nco-located with the conference\nJeyson Stith Arévalo Sandoval\nImplementation of a Domain Metamodel for the Generation of\n UML Documentation Through Model Transformation Chains\n1st International Workshop on\n Systems Mode…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+      "nombre": "Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 14700758,
+      "tamano_legible": "14.0 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Caicedo et al. \nProtection and Control of Modern Power Systems             (2023) 8:3  \nhttps://doi.org/10.1186/s41601-023-00277-y\nREVIEW\n© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which \npermits use, sharing, adaptation, distribution and r…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Armando Millán Gómez.pdf",
+      "nombre": "Ponencia Jorge Armando Millán Gómez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 1301571,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "This is to certify that \nparticipated at ICMECE and made a presentation (oral) entitled \nThe contribution is awarded with this certificate. \n \nLilia Edith Aparicio Pico \nID 227: Methodology for the application of data science in breast \ncancer diagnosis"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Eliecer Beltrán García.pdf",
+      "nombre": "Ponencia Jorge Eliecer Beltrán García.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 1028316,
+      "tamano_legible": "1004.2 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "organiza:\nRoger Loaiza Álvarez\nDirector General\nJuliana Escobar Gómez\nSecretaria Académica\nCertifica que:\nCongreso Internacional\nsobre Tecnología e Innovación\n Ciencia e Investigación \nCITICI\n+\n \nJorge Eliecer Beltrán García\nRealizado en Cartagena de Indias 24, \n25 y 26 de mayo de 2023\nCALIDAD CIMTED\nE\nL\n \nC\nO\nN\nO\nC\nI\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia José Agustín Arévalo Silva.pdf",
+      "nombre": "Ponencia José Agustín Arévalo Silva.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 298570,
+      "tamano_legible": "291.6 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "EL CENTRO DE INVESTIGACIONES DE LA FACULTAD DE ESTUDIOS A DISTANCIA\nOtorga el certificado de reconocimiento a:\nPor su participación como ponente en la ” 1era Conferencia Internacional de Innovación e \nInvestigación FAEDIS” realizada los días 02 y 03 de noviembre de 2023, en el Campus de la Universidad \nMilitar Nueva Gr…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Juan Guillermo Cotta García.pdf",
+      "nombre": "Ponencia Juan Guillermo Cotta García.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140673,
+      "tamano_legible": "137.4 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Juan Guillermo Cotta García \nEstrategia para mejorar la descripción a Recursos \nEducativos Abiertos a partir de la integración de \ntécnicas basadas en Inteligencia Artificial, Machine \nLearning y Minería de Datos"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Kevin Camilo Díaz Monje.pdf",
+      "nombre": "Ponencia Kevin Camilo Díaz Monje.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140444,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Kevin Camilo Díaz Monje \nModelo de Clasificación de imágenes basado en \nMultiview learning"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Lady Viviana Garay González.pdf",
+      "nombre": "Ponencia Lady Viviana Garay González.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 105446,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Certificate\nof Participation\nThis is to certify that\nhas published the paper entitled\nat the workshop\nco-located with the conference\nLady Viviana Garay González\nConstruction of a Domain Metamodel using EMF for\n Semiautomatic Generation Of Web Applications\n1st International Workshop on\n Systems Modeling WSM 2022\n5th Int…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "nombre": "Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 175878,
+      "tamano_legible": "171.8 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "26 al 28  \noctubre  \nde 2022 \n \nFolio: AC-SELPER-037 \nMonterrey, Nuevo León, 1 de julio de 2022 \nAsunto: Carta de aceptación \n \nMartha Patricia Valbuena Gaona y Jose Luis Herrera Escorcia \nPRESENTE.- \n \nEstimados \nautores \ndel \ntrabajo \ndenominado \n“METODOLOGÍA \nPARA \nLA \nPUBLICACIÓN ESTANDARIZADA DE FIRMAS ESPECTRALES…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Nancy Johana Matta Monroy.pdf",
+      "nombre": "Ponencia Nancy Johana Matta Monroy.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 80627,
+      "tamano_legible": "78.7 KB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Noé Arcos Muñóz.pdf",
+      "nombre": "Ponencia Noé Arcos Muñóz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 1081292,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "A:  NOÉ ARCOS MUÑOZ\nPor la presentación de su ponencia: \"LA ARQUITECTURA DE MICROSERVICIOS CON TECNOLOGÍA\nDE CONTENEDORES\", en el marco del 12º Congreso Internacional de Computación 2022\n\"Tendencias, Retos y Aportes Computacionales Hacia la Sostenibilidad\" y CIAMTE, realizado del 5 al 7\nde octubre de 2022.\nNo. Folio: C…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Oscar Javier Idrobo López.pdf",
+      "nombre": "Ponencia Oscar Javier Idrobo López.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 388484,
+      "tamano_legible": "379.4 KB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "nombre": "Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140573,
+      "tamano_legible": "137.3 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Paola Andrea Suarez Jaimes \nEstimación y análisis de la subsidencia del suelo en la \nciudad de Bogotá D.C. con técnicas de Interferometría \ny Persistent Scatterers"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Santiago Andrés Peña Arismendi.pdf",
+      "nombre": "Ponencia Santiago Andrés Peña Arismendi.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 334865,
+      "tamano_legible": "327.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "La Vicerrectoría de Investigación y Extensión\nCertifica que: \nParticipó con la ponencia titulada:\nEn el 2do congreso en Seguridad, Análisis, Futuro, Arquitectura TI, Redes, Ingeniería \nde Software, Tecnologías, Educación. Computación and Human Computer Interaction \nSAFARIS - TECH International 2024\nRealizado en San Jua…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Tania Lorena Ruíz Morales.pdf",
+      "nombre": "Ponencia Tania Lorena Ruíz Morales.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140416,
+      "tamano_legible": "137.1 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Tania Lorena Ruiz \nZonificación ambiental de distritos de manejo \nintegrado usando el método AHP"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia William Steven Rodríguez Rodríguez.pdf",
+      "nombre": "Ponencia William Steven Rodríguez Rodríguez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 141793,
+      "tamano_legible": "138.5 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nOctober 25, 2024 \nTo whom it may concern.  \nThis certifies that William Steven Rodriguez Rodriguez, Universidad Distrital Francisco \nJose de Caldas, Bogotá - Colombia has attended and presented the paper ID 38 entitled \n“Architectural prototype for credit evaluation of Colombian SMEs based on digital \nba…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 141649,
+      "tamano_legible": "138.3 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nOctober 25, 2024 \nTo whom it may concern.  \nThis certifies that Wilmar Neiser Rengifo Güiza, Universidad Distrital Francisco José de \nCaldas has attended and presented the paper ID 90 entitled “A Risk assessment approach \nmethodology to score vulnerabilities in airworthiness systems” in the 2024 Workshop…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Directorio Grupos de Inv MCIC.xlsx",
+      "nombre": "Directorio Grupos de Inv MCIC.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 55494,
+      "tamano_legible": "54.2 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Nombre:\nArqusoft - Arquitecturas de Software\nLíneas de investigación:\n1.-Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software\nClasificación - Colciencias:\nC\nGrupLAC:\nhttps://scienti.minciencias.gov.co/gruplac/jsp/visualiza…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgacio grupos 2025-3.pdf",
+      "nombre": "Divulgacio grupos 2025-3.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 370889,
+      "tamano_legible": "362.2 KB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-1.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 199721,
+      "tamano_legible": "195.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "£\n£\n(0)\n$*\n2\ng\nO\n£\na"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-3.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 160744,
+      "tamano_legible": "157.0 KB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 1219215,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "ambas",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Encuentro estudiantes evaluacion docente.jpg",
+      "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 189320,
+      "tamano_legible": "184.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Induccion 2025-1.pdf",
+      "nombre": "Induccion 2025-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 388758,
+      "tamano_legible": "379.6 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 572085,
+      "tamano_legible": "558.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD\nDiSTRITAL.\nFRANCISCO JOSE DE CALDAS\nCONTROL DE ASISTENCIA\nA CLASES\nMacroproceso: Gestión\nAcadémica\nProceso:Gestión de Docencia\nCódigo: GD-PR-008-FR-026\nVersión:\n01\nFecha de Aprobación:\n05/03/2018\nSIGUD\nFacultad\nEspacio\nDocente\nMes\nCONTROL DE ASISTENCIA\nINGENIERIA\nProyecto\nCurricular\nINDUCCIÓN 2026-1\nGrupo\nN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/acuerdo_02_2019_beca_ecaes.pdf",
+      "nombre": "acuerdo_02_2019_beca_ecaes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 75629,
+      "tamano_legible": "73.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL \nFRANCISCO IOSE DE CALDAS \nCONSEJO ACADÉMICO \nACUERDO N°02 \n(Mayo 14 de 2019) \n\"Por medio del cual se modifica el Acuerdo 10 de noviembre de 2006 y se deroga el Acuerdo \n028 de noviembre 26 de 2013\" \nEl Consejo Académico de la Universidad Distrital Francisco José de Caldas, en uso de sus facultade…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/res_2025-143 para becas de la ODI.pdf",
+      "nombre": "res_2025-143 para becas de la ODI.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 569502,
+      "tamano_legible": "556.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "RECTORÍA \n \n \n \n \n\"Por medio de la cual se establece el procedimiento administrativo para asignar estímulos económicos de \nsostenimiento mensual en el marco del Programa Excelencia Académica” \n \n \n \nPágina 1 de 3 \n \nEl Rector de la Universidad Distrital Francisco José de Caldas en uso de sus facultades legales y estatu…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/CYC POS 022 2024  02.04.24.pdf",
       "nombre": "CYC POS 022 2024  02.04.24.pdf",
       "extension": "pdf",
@@ -8776,6 +9882,54 @@ const GOLD_DATA = {
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Salas de sistemas | 12 salas con 40 equipos | Clases de software, | Incremento del 30% en el\ncada una simulaciones, análisis de datos y | uso por estudiantes MCIC\nproyectos interdisciplinarios\nLaboratorios 34 laboratorios con más | Prácticas académicas, | Fortalecimiento del trabajo\nespecializados — | de 800 equipos in…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+      "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 332944,
+      "tamano_legible": "325.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL FRNACISCO JOSÉ DE CALDAS \nANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS DE APRECIACIÓN \nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES \n \n2026-1 \n \n(Facultad de Ingeniería) \n \nNota: \nSe remite el presente documento como una apreciación global de los resultados \nobtenidos en l…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/CC-FR-001 Plan de mejoramiento INV.xlsx",
+      "nombre": "CC-FR-001 Plan de mejoramiento INV.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 124911,
+      "tamano_legible": "122.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "PLAN DE MEJORAMIENTO - PROGRAMAS\nCódigo: \n CC-FR-001\nMacroproceso: Direccionamiento Estratégico\nVersión:  04\nProceso: Curriculo y Calidad\nFecha de Aprobación:  \n2025/09/29\nFACULTAD\nINGENIERÍA\nPROGRAMA ACADÉMICO\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES\nREGISTRO CALIFICADO\nProf. 9925 21 JUN 2023/      …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+      "nombre": "MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 606125,
+      "tamano_legible": "591.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Proceso  \nAutoevaluación Permanente  \n \nProyecto Curricular Maestría En Ciencias De La Información Y Las Comunicaciones \n \nFacultad Ingeniería \n \n \n \n \n \n \n \n \n \n \nBogotá, 2026. \n \n \n \n \n \n \n \n \n\n2 \n \nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS  \n \n \nJosé Andelfo Lizcano Caro  \nRector \n \nWilman Enrique Navarro Mejía…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 124265,
+      "tamano_legible": "121.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS\n\nProceso Autoevaluación 2026-1  Maestría en Ciencias de la Información y las Comunicaciones\nESTUDIANTES\nINFORME DE RESULTADOS\nInstrumentos de Apreciación Estudiantes (Modelo CNA 2020 - F.I.)\nFACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL (Estudiantes -…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/G312-3 Requerimientos equipos tecnológicos y de software.pdf",
@@ -9690,6 +10844,534 @@ const GOLD_DATA = {
       "extracto": "Outlook\nSolicitud de ampliación de permanencia académica para finalización de requisitos de grado\nDesde JENIFER ANDREA TORRES RODRIGUEZ <jeatorresr@udistrital.edu.co>\nFecha Mar 26/05/2026 19:36\nPara\nMAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES <mcic@udistrital.edu.co>\nCC\nCESAR ANDREY PERDOMO CHARRY <cper…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+      "nombre": "1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 3110933,
+      "tamano_legible": "3.0 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO No. 009  \n(20 de abril de 2023) \n \n“Por el cual se adopta la Política de Interinstitucionalización e Internacionalización de \nla Universidad Distrital Francisco José de Caldas”  \n \nPágina 1 de 16 \n \nEl Consejo Superior Universitario de la Universidad Distrital Francisco José de C…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+      "nombre": "2. Acuerdo CSU UD 011-2023 Múltiples Titulaciones UD 04.05.2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 285697,
+      "tamano_legible": "279.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO N° 011 \n(4 de mayo de 2023) \n“Por medio del cual se establece la múltiple titulación para los estudiantes de los Proyectos \nCurriculares de nivel académico de pregrado y posgrado de la Universidad Distrital \nFrancisco José de Caldas” \nPágina 1 de 5 \n \nEl Consejo Superior Universi…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+      "nombre": "3. Resol Rectoría 096-2024 Reglamentación CRI 13.03.2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 276826,
+      "tamano_legible": "270.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL \nFRANCISCO JOSÉ DE CALDAS \nArte-011a~ lastitudonal en Alta Calidad \nRECTORÍA \nRESOLUCIÓN N° 096 \n3 de MAR \t\nr de 2024) \n\"Por medio de la cual se adopta el Reglamento Interno 7lel Comité de Relaciones Interinstitucionales (CRI) \nde la Universidad Distrital Francisco José de Caldas y se toman otras …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+      "nombre": "4. Acuerdo CA UDFJC 001-2024 Reglamentación MT pregrado 25.06.2024.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 549082,
+      "tamano_legible": "536.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Página 1 de 13\nQue en desarrollo de la autonomía universitaria, el artículo 28 de la Ley 30 de 1992, \n.) reconoce a las\nuniversidades el derecho a darse y modificar sus estatutos, designar sus autoridades académicas y \nadministrativas, crear, organizar y desarrollar sus programas académicos, definir y organizar sus lab…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+      "nombre": "5. Acuerdo CA UD 002-2025 Reglamentación MT Posgrados 18.02.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 655129,
+      "tamano_legible": "639.8 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL\nFRANCISCO JOSfi DE CALDAS\nC0NSE)0 ACADEMICO\nACUERDO No. 002 \n( 18 de febrero de 2025)\n“Por el cual se reglamenta la multiple titulacion para el nivel academico deposgrado de \nla Universidad Distrital Francisco Jose de Caldas”\nEl Consejo Academico de la Universidad Distrital Francisco Jose de Calda…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+      "nombre": "6. Acuerdo CA-UD 008-2025 Reglamentación Plurilingüismo 05.08.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 409558,
+      "tamano_legible": "400.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UN1VERSIDAD DISTRITAL \nFRANCISCO 1056 DE CALDAS\nCONSEJO ACADEMICO\nACUERDO N ° 008 \nAGOSTO 05 DE 2025\n“Por el cual se reglamenta el Programa Institutional de Plunlingiiismo, eje estrategico de la \nPolitica de Interinstitucionalizacwn e Internationalization y se definen los criterios curriculares \nrelationados con los pr…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+      "nombre": "7. Res Rectoría 559-2025 Regl Cooperación UD 29.09.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 603183,
+      "tamano_legible": "589.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNtVERSiOAD D1STRITAL \nFRANOSCO |OS£ DE CALDAS \nAnrfludta\nt ^\nIttiAluUUid\nl«tiiadaul<\nUCIOMA\n559\nresoluci6nn° *\n( '29 SEP m )\n“Por medio de ta cualse reglamenta et eje de direccionamiento estratigico de Gestidn de Cooperacidny \nrelacionamiento externo de la UiiiversidadDistrital Francisco Jose de Caldas”\nEL RECTOR DE L…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+      "nombre": "8. Res Rectoría UD 636-2025 Regl Movilidad Académica UD 04.11.2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL",
+      "tamano_bytes": 1986935,
+      "tamano_legible": "1.9 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "=§s\nRESOLUCION No. 636\nm NOV 2025 >\n“Por medio de la cual se reglamenta el eje de direccionamienlo estrategico de movilidad academica \nestablecido en el numeral 6° del articulo 5° del Acuerdo 009 del 20 de abril de 2023 ”\nEL RECTOR DE LA UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS, en uso de sus \natribuciones legale…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Andrés Felipe Sánchez Cruz.pdf",
+      "nombre": "Ponencia Andrés Felipe Sánchez Cruz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 249219,
+      "tamano_legible": "243.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "ANDRÉS FELIPE SÁNCHEZ CRUZ"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+      "nombre": "Ponencia Cristian Jhonatan Izquierdo Ortíz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 191485,
+      "tamano_legible": "187.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Cristhian Johnatan Izquierdo Ortiz \nParticipated as speaker of the entitled paper: \nAnalysis of economic indicators through news and Twitter using text mining, machine learning and \nmultiagent systems"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniel Alexander Hernández Montealegre.pdf",
+      "nombre": "Ponencia Daniel Alexander Hernández Montealegre.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140467,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Daniel Alexander Hernández Montealegre \nAgentes inteligentes para gestión de recursos en \ncampañas multicanal de marketing digital"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Daniela Martin Vega.pdf",
+      "nombre": "Ponencia Daniela Martin Vega.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 726538,
+      "tamano_legible": "709.5 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CONGRESO COLOMBIANO DE \nASTRONOMÍA Y ASTROFÍSICA\nVII\nMario Armando Higuera Garzón\nAstroCO\nNelson Vera Villamizar\nUniversidad Pedagógica y Tecnológica de\nParticipó como PONENTE de este congreso los días 21, \n22  y 23 de septiembre del 2022. \nSe expide en Tunja el 23 de septiembre del 2022. \nColombia\nDaniela Martin Vega\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Héctor Ricardo Patiño Rivera.pdf",
+      "nombre": "Ponencia Héctor Ricardo Patiño Rivera.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 18806,
+      "tamano_legible": "18.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "ACCEPTANCE LETTER\nDear Hector Ricardo Patino Rivera\nUniversidad Distrital Francisco José de Caldas\nColombia\nOn behalf of the ICITS'24 - The 2024 International Conference on Information Technology & Systems, I am\npleased to inform you that your submission “Diseño de un prototipo para clasificación automática de \nimágene…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Iván Darío Bello González.pdf",
+      "nombre": "Ponencia Iván Darío Bello González.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 141713,
+      "tamano_legible": "138.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nOctober 25, 2024 \nTo whom it may concern.  \nThis certifies that Ivan Dario Bello Gonzalez, Universidad Distrital Francisco José de \nCaldas, Bogotá - Colombia has attended and presented the paper ID 93 entitled “An \nIterative Methodology for Evaluating Large Language Models in IoT Weather \nMonitoring Syst…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jaime Antonio Ávila Sánchez.pdf",
+      "nombre": "Ponencia Jaime Antonio Ávila Sánchez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 960847,
+      "tamano_legible": "938.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Participó como ponente “Optimización de la operación de una microrred rural aislada enfocada en costos” \nen el \nSegundo Congreso Internacional de Ingeniería \n“Ingeniería para todos”\nCertifica que:\nJaime Antonio Avila Sanchez\nRealizado del 10 al 14 de octubre de 2022 \nDaniel Ricardo Delgado \nPresidente del  Congreso (CI…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jawy Andrés Romero Pinto.pdf",
+      "nombre": "Ponencia Jawy Andrés Romero Pinto.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 326446,
+      "tamano_legible": "318.8 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nDecember 2, 2022  \nTo whom it may concern.  \nThis certifies that the work entitled “A Survey of Homomorphic cryptography, ZPK and \nzk-SNARK protocols for identity and privacy protection in Ethereum blockchain.” \npresented by Jawy Andres Romero Pinto, Universidad Distrital Francisco José de Caldas \nhas be…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+      "nombre": "Ponencia Jeisson Rodrigo Piñeros Ramírez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 762454,
+      "tamano_legible": "744.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "___________________________________________________ \nSERGIO IVÁN QUINTERO AYALA \nVICERRECTOR ASISTENTE DE INVESTIGACIÓN Y EXTENSIÓN \nUNIVERSIDAD FRANCISCO DE PAULA SANTANDER \n_______________________________________________ \nNANCY RODRÍGUEZ COLORADO \nDIRECTORA DIVISIÓN DE INVESTIGACIÓN Y EXTENSIÓN \nUNIVERSIDAD FRANCISCO…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+      "nombre": "Ponencia Jeyson Stith Arévalo Sandoval.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 105448,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Certificate\nof Participation\nThis is to certify that\nhas published the paper entitled\nat the workshop\nco-located with the conference\nJeyson Stith Arévalo Sandoval\nImplementation of a Domain Metamodel for the Generation of\n UML Documentation Through Model Transformation Chains\n1st International Workshop on\n Systems Mode…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+      "nombre": "Ponencia Joaquín Eduardo Caicedo Navarro.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 14700758,
+      "tamano_legible": "14.0 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Caicedo et al. \nProtection and Control of Modern Power Systems             (2023) 8:3  \nhttps://doi.org/10.1186/s41601-023-00277-y\nREVIEW\n© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which \npermits use, sharing, adaptation, distribution and r…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Armando Millán Gómez.pdf",
+      "nombre": "Ponencia Jorge Armando Millán Gómez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 1301571,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "This is to certify that \nparticipated at ICMECE and made a presentation (oral) entitled \nThe contribution is awarded with this certificate. \n \nLilia Edith Aparicio Pico \nID 227: Methodology for the application of data science in breast \ncancer diagnosis"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Jorge Eliecer Beltrán García.pdf",
+      "nombre": "Ponencia Jorge Eliecer Beltrán García.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 1028316,
+      "tamano_legible": "1004.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "organiza:\nRoger Loaiza Álvarez\nDirector General\nJuliana Escobar Gómez\nSecretaria Académica\nCertifica que:\nCongreso Internacional\nsobre Tecnología e Innovación\n Ciencia e Investigación \nCITICI\n+\n \nJorge Eliecer Beltrán García\nRealizado en Cartagena de Indias 24, \n25 y 26 de mayo de 2023\nCALIDAD CIMTED\nE\nL\n \nC\nO\nN\nO\nC\nI\n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia José Agustín Arévalo Silva.pdf",
+      "nombre": "Ponencia José Agustín Arévalo Silva.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 298570,
+      "tamano_legible": "291.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "EL CENTRO DE INVESTIGACIONES DE LA FACULTAD DE ESTUDIOS A DISTANCIA\nOtorga el certificado de reconocimiento a:\nPor su participación como ponente en la ” 1era Conferencia Internacional de Innovación e \nInvestigación FAEDIS” realizada los días 02 y 03 de noviembre de 2023, en el Campus de la Universidad \nMilitar Nueva Gr…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Juan Guillermo Cotta García.pdf",
+      "nombre": "Ponencia Juan Guillermo Cotta García.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140673,
+      "tamano_legible": "137.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Juan Guillermo Cotta García \nEstrategia para mejorar la descripción a Recursos \nEducativos Abiertos a partir de la integración de \ntécnicas basadas en Inteligencia Artificial, Machine \nLearning y Minería de Datos"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Kevin Camilo Díaz Monje.pdf",
+      "nombre": "Ponencia Kevin Camilo Díaz Monje.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140444,
+      "tamano_legible": "137.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Kevin Camilo Díaz Monje \nModelo de Clasificación de imágenes basado en \nMultiview learning"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Lady Viviana Garay González.pdf",
+      "nombre": "Ponencia Lady Viviana Garay González.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 105446,
+      "tamano_legible": "103.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Certificate\nof Participation\nThis is to certify that\nhas published the paper entitled\nat the workshop\nco-located with the conference\nLady Viviana Garay González\nConstruction of a Domain Metamodel using EMF for\n Semiautomatic Generation Of Web Applications\n1st International Workshop on\n Systems Modeling WSM 2022\n5th Int…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "nombre": "Ponencia Martha Patricia Valbuena Gaona.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 175878,
+      "tamano_legible": "171.8 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "26 al 28  \noctubre  \nde 2022 \n \nFolio: AC-SELPER-037 \nMonterrey, Nuevo León, 1 de julio de 2022 \nAsunto: Carta de aceptación \n \nMartha Patricia Valbuena Gaona y Jose Luis Herrera Escorcia \nPRESENTE.- \n \nEstimados \nautores \ndel \ntrabajo \ndenominado \n“METODOLOGÍA \nPARA \nLA \nPUBLICACIÓN ESTANDARIZADA DE FIRMAS ESPECTRALES…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Nancy Johana Matta Monroy.pdf",
+      "nombre": "Ponencia Nancy Johana Matta Monroy.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 80627,
+      "tamano_legible": "78.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Noé Arcos Muñóz.pdf",
+      "nombre": "Ponencia Noé Arcos Muñóz.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 1081292,
+      "tamano_legible": "1.0 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "A:  NOÉ ARCOS MUÑOZ\nPor la presentación de su ponencia: \"LA ARQUITECTURA DE MICROSERVICIOS CON TECNOLOGÍA\nDE CONTENEDORES\", en el marco del 12º Congreso Internacional de Computación 2022\n\"Tendencias, Retos y Aportes Computacionales Hacia la Sostenibilidad\" y CIAMTE, realizado del 5 al 7\nde octubre de 2022.\nNo. Folio: C…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Oscar Javier Idrobo López.pdf",
+      "nombre": "Ponencia Oscar Javier Idrobo López.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 388484,
+      "tamano_legible": "379.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "nombre": "Ponencia Paola Andrea Suarez Jaimes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140573,
+      "tamano_legible": "137.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Paola Andrea Suarez Jaimes \nEstimación y análisis de la subsidencia del suelo en la \nciudad de Bogotá D.C. con técnicas de Interferometría \ny Persistent Scatterers"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Santiago Andrés Peña Arismendi.pdf",
+      "nombre": "Ponencia Santiago Andrés Peña Arismendi.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 334865,
+      "tamano_legible": "327.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "La Vicerrectoría de Investigación y Extensión\nCertifica que: \nParticipó con la ponencia titulada:\nEn el 2do congreso en Seguridad, Análisis, Futuro, Arquitectura TI, Redes, Ingeniería \nde Software, Tecnologías, Educación. Computación and Human Computer Interaction \nSAFARIS - TECH International 2024\nRealizado en San Jua…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Tania Lorena Ruíz Morales.pdf",
+      "nombre": "Ponencia Tania Lorena Ruíz Morales.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 140416,
+      "tamano_legible": "137.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Tania Lorena Ruiz \nZonificación ambiental de distritos de manejo \nintegrado usando el método AHP"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia William Steven Rodríguez Rodríguez.pdf",
+      "nombre": "Ponencia William Steven Rodríguez Rodríguez.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 141793,
+      "tamano_legible": "138.5 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nOctober 25, 2024 \nTo whom it may concern.  \nThis certifies that William Steven Rodriguez Rodriguez, Universidad Distrital Francisco \nJose de Caldas, Bogotá - Colombia has attended and presented the paper ID 38 entitled \n“Architectural prototype for credit evaluation of Colombian SMEs based on digital \nba…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/ANEXOS PONENCIAS",
+      "tamano_bytes": 141649,
+      "tamano_legible": "138.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "CERTIFICATE \n \nOctober 25, 2024 \nTo whom it may concern.  \nThis certifies that Wilmar Neiser Rengifo Güiza, Universidad Distrital Francisco José de \nCaldas has attended and presented the paper ID 90 entitled “A Risk assessment approach \nmethodology to score vulnerabilities in airworthiness systems” in the 2024 Workshop…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Directorio Grupos de Inv MCIC.xlsx",
+      "nombre": "Directorio Grupos de Inv MCIC.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 55494,
+      "tamano_legible": "54.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Nombre:\nArqusoft - Arquitecturas de Software\nLíneas de investigación:\n1.-Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software\nClasificación - Colciencias:\nC\nGrupLAC:\nhttps://scienti.minciencias.gov.co/gruplac/jsp/visualiza…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgacio grupos 2025-3.pdf",
+      "nombre": "Divulgacio grupos 2025-3.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 370889,
+      "tamano_legible": "362.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-1.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-1.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 199721,
+      "tamano_legible": "195.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "£\n£\n(0)\n$*\n2\ng\nO\n£\na"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Divulgación grupos de investigación 2025-3.jpg",
+      "nombre": "Divulgación grupos de investigación 2025-3.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 160744,
+      "tamano_legible": "157.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "nombre": "Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO",
+      "tamano_bytes": 1219215,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Encuentro estudiantes evaluacion docente.jpg",
+      "nombre": "Encuentro estudiantes evaluacion docente.jpg",
+      "extension": "jpg",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 189320,
+      "tamano_legible": "184.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/Induccion 2025-1.pdf",
+      "nombre": "Induccion 2025-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 388758,
+      "tamano_legible": "379.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "nombre": "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 572085,
+      "tamano_legible": "558.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD\nDiSTRITAL.\nFRANCISCO JOSE DE CALDAS\nCONTROL DE ASISTENCIA\nA CLASES\nMacroproceso: Gestión\nAcadémica\nProceso:Gestión de Docencia\nCódigo: GD-PR-008-FR-026\nVersión:\n01\nFecha de Aprobación:\n05/03/2018\nSIGUD\nFacultad\nEspacio\nDocente\nMes\nCONTROL DE ASISTENCIA\nINGENIERIA\nProyecto\nCurricular\nINDUCCIÓN 2026-1\nGrupo\nN…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/acuerdo_02_2019_beca_ecaes.pdf",
+      "nombre": "acuerdo_02_2019_beca_ecaes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 75629,
+      "tamano_legible": "73.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "UNIVERSIDAD DISTRITAL \nFRANCISCO IOSE DE CALDAS \nCONSEJO ACADÉMICO \nACUERDO N°02 \n(Mayo 14 de 2019) \n\"Por medio del cual se modifica el Acuerdo 10 de noviembre de 2006 y se deroga el Acuerdo \n028 de noviembre 26 de 2013\" \nEl Consejo Académico de la Universidad Distrital Francisco José de Caldas, en uso de sus facultade…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/res_2025-143 para becas de la ODI.pdf",
+      "nombre": "res_2025-143 para becas de la ODI.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA",
+      "tamano_bytes": 569502,
+      "tamano_legible": "556.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "RECTORÍA \n \n \n \n \n\"Por medio de la cual se establece el procedimiento administrativo para asignar estímulos económicos de \nsostenimiento mensual en el marco del Programa Excelencia Académica” \n \n \n \nPágina 1 de 3 \n \nEl Rector de la Universidad Distrital Francisco José de Caldas en uso de sus facultades legales y estatu…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Procesos de RC y AAC/CYC POS 022 2024  02.04.24.pdf",
       "nombre": "CYC POS 022 2024  02.04.24.pdf",
       "extension": "pdf",
@@ -9887,11 +11569,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "Maestria CIC",
       "carpeta_contenedora": "Maestria CIC",
-      "tamano_bytes": 51059,
-      "tamano_legible": "49.9 KB",
+      "tamano_bytes": 46959,
+      "tamano_legible": "45.9 KB",
       "modalidad": "general",
       "texto_extraido": true,
-      "extracto": "Trabajos de grado vinculados con grupos de investigación\nAño\nSustentados\nNo sustentados\nMaestría en Ciencias de la Información y las Comunicaciones | Consolidado 2022–2026\n2022\n33\n0\n2023\n28\n1\nCasos consolidados\nTrabajos sustentados\nPendientes / sin verificación\nGrupos identificados\n2024\n23\n1\n150\n134\n16\n23\n2025\n24\n1\n202…"
+      "extracto": "Trabajos de grado vinculados con grupos de investigación\nAño\nSustentados\nNo sustentados\nMaestría en Ciencias de la Información y las Comunicaciones | Consolidado 2022–2026\n2022\n32\n0\n2023\n27\n0\nCasos consolidados\nTrabajos sustentados\nPendientes / sin verificación\nGrupos identificados\n2024\n24\n1\n148\n133\n15\n25\n2025\n24\n1\n202…"
     },
     {
       "archivo": "Data/Bronze/Maestria CIC/Directorio Grupos de Inv MCIC.xlsx",
@@ -10363,19 +12045,19 @@ const GOLD_DATA = {
     }
   ],
   "documentosBronzeStats": {
-    "total": 393,
+    "total": 489,
     "por_modalidad": {
-      "profundizacion": 150,
-      "ambas": 7,
-      "investigacion": 151,
+      "profundizacion": 167,
+      "ambas": 38,
+      "investigacion": 199,
       "general": 85
     },
     "por_extension": {
-      "pdf": 224,
-      "xlsx": 123,
+      "pdf": 308,
+      "xlsx": 129,
       "xls": 24,
       "png": 8,
-      "jpg": 8,
+      "jpg": 14,
       "jpeg": 4,
       "xlsm": 2
     },
@@ -10383,13 +12065,13 @@ const GOLD_DATA = {
       "ACREDITACIÓN DE ALTA CALIDAD": 125,
       "Convenios": 1,
       "Docentes": 41,
-      "MCIC-PROFUNDIZACION": 88,
-      "MCIC.INVESTIGACION": 89,
+      "MCIC-PROFUNDIZACION": 136,
+      "MCIC.INVESTIGACION": 137,
       "Maestria CIC": 12,
       "Normativa": 36,
       "PresLabIng-20261-esuarez-01-p36-48.pdf": 1
     },
-    "con_texto_extraido": 310
+    "con_texto_extraido": 392
   },
   "evidenciaProcesosRcAac": {
     "investigacion": [
