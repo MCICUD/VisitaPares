@@ -429,6 +429,7 @@ def main() -> None:
         "proyectosGradoSinGrupo": proyectos_grado_sin_grupo,
         "resumenSeguimientoTesis": resumen_seguimiento_tesis,
         "cuadrosMaestrosCNA": cuadros_maestros,
+        "solicitudesPares": load_json("solicitudes_pares.json"),
     }
 
     json_path = GOLD_DIR / "gold_data.json"

@@ -18937,5 +18937,171 @@
         "fila": "6-21"
       }
     }
+  },
+  "solicitudesPares": {
+    "dias": [
+      {
+        "dia": "DIA 1",
+        "numero": 1,
+        "presentaciones": [
+          {
+            "archivo": "SolicitudesPares/DIA 1/APERTURA/PRES_INST_23_SEPTIEMBRE_2026 VF.pdf",
+            "nombre": "PRES_INST_23_SEPTIEMBRE_2026 VF.pdf",
+            "extension": "pdf",
+            "tamano_bytes": 9488506,
+            "tamano_legible": "9.0 MB"
+          }
+        ],
+        "solicitudes": [
+          {
+            "area": "Biblioteca",
+            "documentos": [
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Biblioteca/Biblioteca Estadísticas Generales 2026-1.xlsx",
+                "nombre": "Biblioteca Estadísticas Generales 2026-1.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 357419,
+                "tamano_legible": "349.0 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Biblioteca/Biblioteca Estadísticas x Proyecto Curricular 2026-1.xlsx",
+                "nombre": "Biblioteca Estadísticas x Proyecto Curricular 2026-1.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 708139,
+                "tamano_legible": "691.5 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Biblioteca/Biblioteca Infraestructura física 2026-1.xlsx",
+                "nombre": "Biblioteca Infraestructura física 2026-1.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 133723,
+                "tamano_legible": "130.6 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Biblioteca/Biblioteca Inversión_Adquisición Recusos Bibliograficos 2026-1.xlsx",
+                "nombre": "Biblioteca Inversión_Adquisición Recusos Bibliograficos 2026-1.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 240384,
+                "tamano_legible": "234.8 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Biblioteca/Biblioteca recursos bibliográficos 2026-1.xlsx",
+                "nombre": "Biblioteca recursos bibliográficos 2026-1.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 124559,
+                "tamano_legible": "121.6 KB"
+              }
+            ]
+          },
+          {
+            "area": "Bienestar",
+            "documentos": [
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Bienestar/solicitud pares Maestría Ciencias de la Informacion.pdf",
+                "nombre": "solicitud pares Maestría Ciencias de la Informacion.pdf",
+                "extension": "pdf",
+                "tamano_bytes": 693876,
+                "tamano_legible": "677.6 KB"
+              }
+            ]
+          },
+          {
+            "area": "Docentes",
+            "documentos": [
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Docentes/DOCENTES DE PLANTA GENERAL 2026-1.xlsx",
+                "nombre": "DOCENTES DE PLANTA GENERAL 2026-1.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 108077,
+                "tamano_legible": "105.5 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Docentes/DOCENTES DE VINCULACIÓN ESPECIAL GENERAL 2026-1.xlsx",
+                "nombre": "DOCENTES DE VINCULACIÓN ESPECIAL GENERAL 2026-1.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 187132,
+                "tamano_legible": "182.7 KB"
+              }
+            ]
+          },
+          {
+            "area": "Extensión",
+            "documentos": [
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Extensión/Herramienta liquidación apropiación del Beneficio_2026.xlsx",
+                "nombre": "Herramienta liquidación apropiación del Beneficio_2026.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 823219,
+                "tamano_legible": "803.9 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Extensión/PROYECTOS DE EXTENSIÓN INSTITUCIONAL (2026)).xlsx",
+                "nombre": "PROYECTOS DE EXTENSIÓN INSTITUCIONAL (2026)).xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 297324,
+                "tamano_legible": "290.4 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Extensión/Vinculacion Docentes extensión 2026-I.xlsx",
+                "nombre": "Vinculacion Docentes extensión 2026-I.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 19278,
+                "tamano_legible": "18.8 KB"
+              }
+            ]
+          },
+          {
+            "area": "Población estudiantil",
+            "documentos": [
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Población estudiantil/Población Estudiantil 2026-1 dashboard y links.pdf",
+                "nombre": "Población Estudiantil 2026-1 dashboard y links.pdf",
+                "extension": "pdf",
+                "tamano_bytes": 180359,
+                "tamano_legible": "176.1 KB"
+              }
+            ]
+          },
+          {
+            "area": "Programas registro calificado y acreditación",
+            "documentos": [
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Programas registro calificado y acreditación/OFERTA ACADÉMICA 14-08-2026.xlsx",
+                "nombre": "OFERTA ACADÉMICA 14-08-2026.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 317123,
+                "tamano_legible": "309.7 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Programas registro calificado y acreditación/Seguimiento AACPC_15_09_26.xlsx",
+                "nombre": "Seguimiento AACPC_15_09_26.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 25531,
+                "tamano_legible": "24.9 KB"
+              }
+            ]
+          },
+          {
+            "area": "Vicerrectoria administrativa y financiera",
+            "documentos": [
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Vicerrectoria administrativa y financiera/EJECUCION MENSUAL DE RENTAS E INGRESOS UD AGOSTO 2026.xlsx",
+                "nombre": "EJECUCION MENSUAL DE RENTAS E INGRESOS UD AGOSTO 2026.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 350622,
+                "tamano_legible": "342.4 KB"
+              },
+              {
+                "archivo": "SolicitudesPares/DIA 1/SOLICITUDES DE PARES/Vicerrectoria administrativa y financiera/EJECUCIÓN DE GASTOS E INVERSIONES AGOSTO UD.xlsx",
+                "nombre": "EJECUCIÓN DE GASTOS E INVERSIONES AGOSTO UD.xlsx",
+                "extension": "xlsx",
+                "tamano_bytes": 343329,
+                "tamano_legible": "335.3 KB"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

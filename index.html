@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MCIC — Plan de Mejoramiento para la Visita de Pares (Renovación AAC)</title>
   <meta name="description" content="Plan de mejoramiento (CC-FR-001) de la Maestría en Ciencias de la Información y las Comunicaciones (MCIC) — Universidad Distrital Francisco José de Caldas — para la visita de pares de renovación de la Acreditación de Alta Calidad. Cada dato mostrado enlaza a su archivo fuente en Data/Bronze.">
-  <link rel="stylesheet" href="styles.css?v=20260916-v5">
+  <link rel="stylesheet" href="styles.css?v=20260923-v1">
 </head>
 <body>
 
@@ -48,6 +48,11 @@
         <li>
           <button class="nav-tab-btn" data-tab="documentos">
             <span>📁</span> Documentos Fuente
+          </button>
+        </li>
+        <li>
+          <button class="nav-tab-btn" data-tab="solicitudes">
+            <span>📨</span> Solicitudes Pares
           </button>
         </li>
       </ul>
@@ -274,6 +279,24 @@
       </div>
     </section>
 
+    <!-- ======================================================================
+         TAB 4: SOLICITUDES DE LOS PARES (material entregado por día de visita)
+         ====================================================================== -->
+    <section id="section-solicitudes" class="tab-section">
+      <div class="section-header">
+        <div>
+          <h2><span>📨</span> Solicitudes Pares</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
+            Presentaciones y documentos entregados a los pares académicos durante la visita, organizados por día.
+          </p>
+        </div>
+      </div>
+
+      <div id="solicitudes-dias-container">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+    </section>
+
   </main>
 
   <!-- ========================================================================
@@ -307,7 +330,7 @@
   </footer>
 
   <!-- Scripts con control de caché -->
-  <script src="Data/Gold/gold_data.js?v=20260916-v5"></script>
-  <script src="app.js?v=20260917-v1"></script>
+  <script src="Data/Gold/gold_data.js?v=20260923-v1"></script>
+  <script src="app.js?v=20260923-v1"></script>
 </body>
 </html>

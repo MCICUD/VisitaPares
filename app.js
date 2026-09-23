@@ -50,6 +50,7 @@ function initApp() {
   initComunidad();
   initDocumentos();
   initBronzeCatalog();
+  initSolicitudesPares();
   initModal();
 }
 
@@ -984,4 +985,60 @@ function renderBronzeTable() {
       <td><a class="btn btn-outline" style="font-size:11.5px; padding:5px 10px;" href="${fileHref(doc.archivo)}" target="_blank" rel="noopener noreferrer">Abrir ↗</a></td>
     </tr>
   `).join('');
+}
+
+// ==========================================================================
+// SOLICITUDES DE LOS PARES (material entregado por día de visita)
+// ==========================================================================
+function solicitudDocCardHtml(doc) {
+  const ext = doc.extension;
+  return `
+    <div class="doc-card">
+      <div>
+        <div class="doc-card-top">
+          <div class="doc-icon ${escapeHtml(ext)}">${escapeHtml(ext.toUpperCase())}</div>
+          <div class="doc-name">${escapeHtml(doc.nombre)}</div>
+        </div>
+        <span class="doc-path-code">${escapeHtml(doc.archivo)}</span>
+      </div>
+      <div class="doc-footer">
+        <span>${escapeHtml(doc.tamano_legible)}</span>
+        <a class="btn btn-outline" style="font-size:12px; padding:6px 12px;" href="${fileHref(doc.archivo)}" target="_blank" rel="noopener noreferrer">Abrir archivo ↗</a>
+      </div>
+    </div>
+  `;
+}
+
+function initSolicitudesPares() {
+  const container = document.getElementById('solicitudes-dias-container');
+  const dias = (GOLD_DATA.solicitudesPares || {}).dias || [];
+  if (dias.length === 0) {
+    container.innerHTML = '<p style="color: var(--text-soft);">Aún no hay material registrado en SolicitudesPares/.</p>';
+    return;
+  }
+
+  container.innerHTML = dias.map((dia) => {
+    const totalSolicitudes = dia.solicitudes.reduce((acc, a) => acc + a.documentos.length, 0);
+    const presentacionesHtml = dia.presentaciones.length
+      ? `<div class="doc-grid">${dia.presentaciones.map(solicitudDocCardHtml).join('')}</div>`
+      : '<p style="color: var(--text-soft); font-size: 13px;">Sin presentaciones registradas.</p>';
+    const solicitudesHtml = dia.solicitudes.length
+      ? dia.solicitudes.map((area) => `
+          <h4 class="solicitud-area-title">${escapeHtml(area.area)} <span class="bronze-ext-badge">${area.documentos.length}</span></h4>
+          <div class="doc-grid" style="margin-bottom: 20px;">${area.documentos.map(solicitudDocCardHtml).join('')}</div>
+        `).join('')
+      : '<p style="color: var(--text-soft); font-size: 13px;">Sin solicitudes registradas.</p>';
+
+    return `
+      <div class="card">
+        <h3 class="card-title">📅 Día ${escapeHtml(dia.numero)}</h3>
+
+        <h4 class="solicitud-subtitle">1. Presentaciones <span class="bronze-ext-badge">${dia.presentaciones.length}</span></h4>
+        ${presentacionesHtml}
+
+        <h4 class="solicitud-subtitle" style="margin-top: 28px;">2. Solicitudes <span class="bronze-ext-badge">${totalSolicitudes}</span></h4>
+        ${solicitudesHtml}
+      </div>
+    `;
+  }).join('');
 }
