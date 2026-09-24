@@ -28,6 +28,11 @@ CARPETA_SOLICITUDES = "SOLICITUDES DE PARES"
 # nombres y firmas de los asistentes.
 EXCLUIR_PRESENTACIONES = ("lista de asistencia",)
 
+# Avisos informativos por día (ej. documentos preliminares / borrador)
+AVISOS_DIAS = {
+    2: "El archivo PDF cargado es un documento borrador.",
+}
+
 
 def rel(path: Path) -> str:
     return str(path.relative_to(ROOT)).replace("\\", "/")
@@ -40,15 +45,19 @@ def archivos(carpeta: Path) -> list[Path]:
     )
 
 
-def registro(path: Path) -> dict:
+def registro(path: Path, borrador: bool = False) -> dict:
     size_bytes = path.stat().st_size
-    return {
+    item = {
         "archivo": rel(path),
         "nombre": path.name,
         "extension": path.suffix.lower().lstrip("."),
         "tamano_bytes": size_bytes,
         "tamano_legible": tamano_legible(size_bytes),
     }
+    if borrador:
+        item["borrador"] = True
+        item["nota"] = "Documento borrador"
+    return item
 
 
 def numero_dia(carpeta: Path) -> int:
@@ -62,30 +71,50 @@ def main() -> None:
 
     dias = []
     for carpeta_dia in sorted((p for p in SOLICITUDES_DIR.iterdir() if p.is_dir()), key=numero_dia):
+        num_dia = numero_dia(carpeta_dia)
+        es_borrador = (num_dia == 2)
+
         presentaciones = []
         carpeta_pres = carpeta_dia / CARPETA_PRESENTACIONES
         if carpeta_pres.exists():
             presentaciones = [
-                registro(p) for p in archivos(carpeta_pres)
+                registro(p, borrador=es_borrador) for p in archivos(carpeta_pres)
                 if not any(ex in p.name.lower() for ex in EXCLUIR_PRESENTACIONES)
             ]
 
         areas = []
         carpeta_sol = carpeta_dia / CARPETA_SOLICITUDES
         if carpeta_sol.exists():
-            sueltos = [registro(p) for p in sorted(carpeta_sol.iterdir()) if p.is_file() and not p.name.startswith("~$")]
+            sueltos = [
+                registro(p, borrador=es_borrador)
+                for p in sorted(carpeta_sol.iterdir())
+                if p.is_file() and not p.name.startswith("~$")
+            ]
             if sueltos:
                 areas.append({"area": "General", "documentos": sueltos})
             for carpeta_area in sorted(p for p in carpeta_sol.iterdir() if p.is_dir()):
-                documentos = [registro(p) for p in archivos(carpeta_area)]
+                documentos = [registro(p, borrador=es_borrador) for p in archivos(carpeta_area)]
                 if documentos:
                     areas.append({"area": carpeta_area.name, "documentos": documentos})
 
+        # Archivos directos en la raíz de la carpeta del día (sin subdirectorios)
+        directos = [
+            registro(p, borrador=es_borrador)
+            for p in sorted(carpeta_dia.iterdir())
+            if p.is_file() and not p.name.startswith("~$")
+        ]
+
+        tiene_subsecciones = bool(presentaciones or areas)
+        sin_subsecciones = not tiene_subsecciones and bool(directos)
+
         dias.append({
             "dia": carpeta_dia.name,
-            "numero": numero_dia(carpeta_dia),
+            "numero": num_dia,
             "presentaciones": presentaciones,
             "solicitudes": areas,
+            "documentos": directos,
+            "sin_subsecciones": sin_subsecciones,
+            "aviso": AVISOS_DIAS.get(num_dia),
         })
 
     SILVER_DIR.mkdir(parents=True, exist_ok=True)
@@ -95,7 +124,7 @@ def main() -> None:
     print(f"Solicitudes de pares: {len(dias)} día(s) -> {rel(out_path)}")
     for d in dias:
         total_sol = sum(len(a["documentos"]) for a in d["solicitudes"])
-        print(f"  - {d['dia']}: {len(d['presentaciones'])} presentación(es), {total_sol} solicitud(es) en {len(d['solicitudes'])} área(s)")
+        print(f"  - {d['dia']}: {len(d['presentaciones'])} presentación(es), {total_sol} solicitud(es) en {len(d['solicitudes'])} área(s), {len(d['documentos'])} doc(s) directo(s)")
 
 
 if __name__ == "__main__":

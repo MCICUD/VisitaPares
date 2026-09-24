@@ -992,12 +992,22 @@ function renderBronzeTable() {
 // ==========================================================================
 function solicitudDocCardHtml(doc) {
   const ext = doc.extension;
+  const borradorBadge = doc.borrador
+    ? `<span class="badge-borrador">Borrador</span>`
+    : '';
+
   return `
     <div class="doc-card">
       <div>
         <div class="doc-card-top">
           <div class="doc-icon ${escapeHtml(ext)}">${escapeHtml(ext.toUpperCase())}</div>
-          <div class="doc-name">${escapeHtml(doc.nombre)}</div>
+          <div style="flex: 1; min-width: 0;">
+            <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 8px;">
+              <div class="doc-name" style="word-break: break-word;">${escapeHtml(doc.nombre)}</div>
+              ${borradorBadge}
+            </div>
+            ${doc.nota ? `<span style="display: inline-block; font-size: 11.5px; color: var(--warning); margin-top: 4px; font-weight: 500;">⚠️ ${escapeHtml(doc.nota)}</span>` : ''}
+          </div>
         </div>
         <span class="doc-path-code">${escapeHtml(doc.archivo)}</span>
       </div>
@@ -1018,10 +1028,46 @@ function initSolicitudesPares() {
   }
 
   container.innerHTML = dias.map((dia) => {
-    const totalSolicitudes = dia.solicitudes.reduce((acc, a) => acc + a.documentos.length, 0);
-    const presentacionesHtml = dia.presentaciones.length
-      ? `<div class="doc-grid">${dia.presentaciones.map(solicitudDocCardHtml).join('')}</div>`
+    const directos = dia.documentos || [];
+    const totalSolicitudes = (dia.solicitudes || []).reduce((acc, a) => acc + a.documentos.length, 0);
+    const presentaciones = dia.presentaciones || [];
+    const sinSubsecciones = dia.sin_subsecciones || (!presentaciones.length && !dia.solicitudes.length);
+
+    const avisoHtml = dia.aviso
+      ? `
+        <div class="solicitud-aviso-borrador">
+          <span class="solicitud-aviso-icon">ℹ️</span>
+          <div>
+            <strong>Aviso:</strong> ${escapeHtml(dia.aviso)}
+          </div>
+        </div>
+      `
+      : '';
+
+    // Si el día no tiene subsecciones (ej. Día 2: sección directa con documentos)
+    if (sinSubsecciones) {
+      const docs = directos.length > 0 ? directos : (dia.solicitudes && dia.solicitudes[0] ? dia.solicitudes[0].documentos : []);
+      const docsHtml = docs.length
+        ? `<div class="doc-grid">${docs.map(solicitudDocCardHtml).join('')}</div>`
+        : '<p style="color: var(--text-soft); font-size: 13px;">Sin documentos registrados.</p>';
+
+      return `
+        <div class="card">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; flex-wrap:wrap; gap:8px;">
+            <h3 class="card-title" style="margin-bottom:0;">📅 Día ${escapeHtml(dia.numero)}</h3>
+            <span class="bronze-ext-badge">${docs.length} documento${docs.length !== 1 ? 's' : ''}</span>
+          </div>
+          ${avisoHtml}
+          ${docsHtml}
+        </div>
+      `;
+    }
+
+    // Día con subsecciones (ej. Día 1: 1. Presentaciones, 2. Solicitudes por área)
+    const presentacionesHtml = presentaciones.length
+      ? `<div class="doc-grid">${presentaciones.map(solicitudDocCardHtml).join('')}</div>`
       : '<p style="color: var(--text-soft); font-size: 13px;">Sin presentaciones registradas.</p>';
+
     const solicitudesHtml = dia.solicitudes.length
       ? dia.solicitudes.map((area) => `
           <h4 class="solicitud-area-title">${escapeHtml(area.area)} <span class="bronze-ext-badge">${area.documentos.length}</span></h4>
@@ -1029,15 +1075,25 @@ function initSolicitudesPares() {
         `).join('')
       : '<p style="color: var(--text-soft); font-size: 13px;">Sin solicitudes registradas.</p>';
 
+    const directosHtml = directos.length
+      ? `
+        <h4 class="solicitud-subtitle" style="margin-top: 28px;">Otros documentos <span class="bronze-ext-badge">${directos.length}</span></h4>
+        <div class="doc-grid">${directos.map(solicitudDocCardHtml).join('')}</div>
+      `
+      : '';
+
     return `
       <div class="card">
         <h3 class="card-title">📅 Día ${escapeHtml(dia.numero)}</h3>
+        ${avisoHtml}
 
-        <h4 class="solicitud-subtitle">1. Presentaciones <span class="bronze-ext-badge">${dia.presentaciones.length}</span></h4>
+        <h4 class="solicitud-subtitle">1. Presentaciones <span class="bronze-ext-badge">${presentaciones.length}</span></h4>
         ${presentacionesHtml}
 
         <h4 class="solicitud-subtitle" style="margin-top: 28px;">2. Solicitudes <span class="bronze-ext-badge">${totalSolicitudes}</span></h4>
         ${solicitudesHtml}
+
+        ${directosHtml}
       </div>
     `;
   }).join('');

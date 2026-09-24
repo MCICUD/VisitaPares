@@ -817,6 +817,42 @@ body {
   gap: 8px;
 }
 
+.solicitud-aviso-borrador {
+  background: var(--warning-bg);
+  border: 1px solid #FDE68A;
+  border-left: 4px solid var(--warning);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: #92400E;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.45;
+}
+
+.solicitud-aviso-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.badge-borrador {
+  display: inline-flex;
+  align-items: center;
+  background: var(--warning-bg);
+  color: #B45309;
+  border: 1px solid #FCD34D;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 .doc-name {
   font-size: 14px;
   font-weight: 700;

@@ -19100,7 +19100,29 @@
               }
             ]
           }
-        ]
+        ],
+        "documentos": [],
+        "sin_subsecciones": false,
+        "aviso": null
+      },
+      {
+        "dia": "DIA 2",
+        "numero": 2,
+        "presentaciones": [],
+        "solicitudes": [],
+        "documentos": [
+          {
+            "archivo": "SolicitudesPares/DIA 2/2026IE4045-GC-RemisionEvaluacionPFA-ANEXO1.pdf",
+            "nombre": "2026IE4045-GC-RemisionEvaluacionPFA-ANEXO1.pdf",
+            "extension": "pdf",
+            "tamano_bytes": 1627906,
+            "tamano_legible": "1.6 MB",
+            "borrador": true,
+            "nota": "Documento borrador"
+          }
+        ],
+        "sin_subsecciones": true,
+        "aviso": "El archivo PDF cargado es un documento borrador."
       }
     ]
   }
