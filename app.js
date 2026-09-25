@@ -42,6 +42,8 @@ let bronzeState = {
   busqueda: '',
 };
 
+let gruposInvestigacionState = { clasificacion: 'all' };
+
 function initApp() {
   initNavigation();
   renderHeaderMeta();
@@ -52,12 +54,6 @@ function initApp() {
   initBronzeCatalog();
   initSolicitudesPares();
   initModal();
-}
-
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initApp);
-} else {
-  initApp();
 }
 
 // ==========================================================================
@@ -312,6 +308,19 @@ function renderPlanCard(f, indexEnModalidad) {
           <div class="plan-meta-row"><span>Periodo Ejecución</span><span>${formatFecha(f.periodo_inicio)} – ${formatFecha(f.periodo_fin)}</span></div>
           <div class="plan-meta-row"><span>Responsable</span><span>${escapeHtml(f.responsable)}</span></div>
         </div>
+        ${f.datos_syllabus ? `
+          <div style="margin-top: 10px; padding: 7px 10px; background: #EEF2FF; border: 1px solid #C7D2FE; border-left: 4px solid #4F46E5; border-radius: var(--radius-sm); font-size: 11.5px; color: #3730A3; line-height: 1.4;">
+            <strong>📘 Evidencia Curricular Oficial:</strong> ${f.datos_syllabus.resumen.total_espacios_academicos} Syllabi actualizados bajo formato <code>AA-FR-003</code> (Resultados de Aprendizaje y Sistema de Evaluación 100%)
+          </div>
+        ` : ''}
+        ${f.datos_cuadro_maestro_cna && f.datos_cuadro_maestro_cna.enlaces_oficiales ? `
+          <div style="margin-top: 10px; padding: 7px 10px; background: #F0FDF4; border: 1px solid #BBF7D0; border-left: 4px solid #16A34A; border-radius: var(--radius-sm); font-size: 11.5px; color: #166534; line-height: 1.4;">
+            <strong>🔬 Portales Oficiales de Investigación:</strong>
+            <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;">
+              ${f.datos_cuadro_maestro_cna.enlaces_oficiales.map(e => `<a href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer" style="color:#15803D; font-weight:600; text-decoration:underline;">${escapeHtml(e.titulo)} ↗</a>`).join(' • ')}
+            </div>
+          </div>
+        ` : ''}
       </div>
       <div class="plan-card-actions">
         <button class="btn btn-primary" style="font-size:12px; padding:6px 12px;" data-open-modal="${indexEnModalidad}">Ver detalle completo</button>
@@ -483,8 +492,6 @@ function renderEgresados(egresados) {
   `;
 }
 
-let gruposInvestigacionState = { clasificacion: 'all' };
-
 const ETAPA_TESIS_BADGE = {
   'Sustentado': '✅',
   'Jurado': '⏳',
@@ -610,9 +617,24 @@ function openFactorModal(modalidad, index) {
     ${renderCuadroMaestroHtml(f.datos_cuadro_maestro_cna)}
     ${renderComunidadFactor4Html(f.datos_comunidad_factor4)}
     ${renderConveniosHtml(f.datos_convenios)}
+    ${renderSyllabusFactor5Html(f.datos_syllabus)}
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
+
+  const areaFilter = document.getElementById('modal-syllabus-area-filter');
+  if (areaFilter) {
+    areaFilter.addEventListener('change', (e) => {
+      const selected = e.target.value;
+      document.querySelectorAll('.modal-syllabus-row').forEach((row) => {
+        if (selected === 'all' || row.dataset.area === selected) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    });
+  }
 }
 
 function renderComunidadFactor4Html(datos) {
@@ -784,6 +806,23 @@ function renderCuadroMaestroHtml(datos) {
     `;
   }
 
+  if (datos.enlaces_oficiales && datos.enlaces_oficiales.length) {
+    bloques += `
+      <div style="margin-top:14px; padding:12px 14px; background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm);">
+        <strong style="font-size:12.5px; color:var(--ud-blue); display:flex; align-items:center; gap:6px; margin-bottom:8px;">
+          <span>🌐</span> Enlaces Oficiales de Investigación y Grupos (Universidad Distrital):
+        </strong>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          ${datos.enlaces_oficiales.map((e) => `
+            <a href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="text-decoration:none; font-size:11.5px; padding:6px 12px; background:white;" title="${escapeHtml(e.descripcion)}">
+              🔗 <strong>${escapeHtml(e.titulo)}</strong> ↗
+            </a>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
   if (!bloques) return '';
   return `
     <div style="margin-bottom:16px;">
@@ -842,6 +881,134 @@ function renderConveniosHtml(datos) {
       ${tablaHtml}
       <p style="font-size:11.5px; color: var(--text-soft); margin-bottom:6px;">${escapeHtml(datos.limitacion)}</p>
       <a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(fuente.archivo_descargado)}" target="_blank" rel="noopener noreferrer">📥 Ver listado completo (${escapeHtml(datos.convenios_totales)} convenios, descargado de URELINTER el ${escapeHtml(fuente.fecha_descarga)})</a>
+    </div>
+  `;
+}
+
+function renderSyllabusFactor5Html(datos) {
+  if (!datos) return '';
+  const resumen = datos.resumen;
+  const docsMaestros = datos.documentos_maestros || [];
+  const espacios = datos.espacios_academicos || [];
+
+  return `
+    <div style="margin-top:24px; border-top: 2px solid var(--border-color); padding-top: 18px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
+        <h4 style="font-size:16px; color:var(--ud-blue); font-weight:800; display:flex; align-items:center; gap:8px;">
+          <span>📑</span> Microcurrículos Actualizados — Formato Oficial AA-FR-003 (${resumen.total_espacios_academicos} Espacios Académicos)
+        </h4>
+        <span class="badge-cna" style="background:#DCFCE7; color:#15803D; font-size:11.5px; border-color:#86EFAC; font-weight:700;">
+          ✓ Cumplimiento Meta 100%
+        </span>
+      </div>
+
+      <!-- Banner de cumplimiento y RAE -->
+      <div style="background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%); border: 1px solid #C7D2FE; border-left: 4px solid #4F46E5; border-radius: var(--radius-md); padding: 14px 18px; margin-bottom: 16px;">
+        <p style="font-size:12.5px; color:#312E81; line-height:1.5;">
+          <strong>🎯 Meta del Factor 5 alcanzada:</strong> "${escapeHtml(resumen.cumplimiento_meta_factor5)}"
+        </p>
+        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-top:10px; font-size:11.5px; color:#4338CA;">
+          <span><strong>📋 Formato institucional:</strong> ${escapeHtml(resumen.formato_institucional)}</span>
+          <span><strong>⚖️ Créditos por espacio:</strong> ${resumen.creditos_estandar} créditos académicos</span>
+          <span><strong>⏱️ Distribución:</strong> ${resumen.horas_estandar.htd} HTD / ${resumen.horas_estandar.htc} HTC / ${resumen.horas_estandar.hta} HTA (${resumen.horas_estandar.total_horas} hrs/sem)</span>
+        </div>
+      </div>
+
+      <!-- Documentos Maestros del Plan de Estudios -->
+      <div style="margin-bottom:16px;">
+        <p style="font-size:12.5px; font-weight:700; color:var(--text-main); margin-bottom:8px;">
+          📂 Documentos Maestros del Plan de Estudios (Data/Bronze/Syllabus):
+        </p>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          ${docsMaestros.map((dm) => `
+            <a href="${fileHref(dm.archivo)}" download class="btn btn-outline" style="text-decoration:none; font-size:11.5px; padding:6px 12px; background:white;" title="${escapeHtml(dm.descripcion)}">
+              📥 <strong>${escapeHtml(dm.titulo)}</strong> (.xlsx)
+            </a>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- Resumen por Áreas -->
+      <p style="font-size:12.5px; font-weight:700; color:var(--text-main); margin-bottom:6px;">
+        📊 Distribución de microcurrículos por componente y áreas de profundización:
+      </p>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap:8px; margin-bottom:16px;">
+        ${Object.entries(resumen.conteo_por_area).map(([area, cnt]) => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:8px 10px; text-align:center;">
+            <div style="font-size:11px; color:var(--text-muted);">${escapeHtml(area)}</div>
+            <div style="font-size:16px; font-weight:800; color:var(--ud-blue);">${cnt} syllabi</div>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Tabla interactiva con filtro de área -->
+      <div style="margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+          <p style="font-size:12.5px; font-weight:700; color:var(--text-main);">
+            🔍 Catálogo oficial de Microcurrículos (${espacios.length} asignaturas):
+          </p>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <label for="modal-syllabus-area-filter" style="font-size:11px; color:var(--text-muted);">Filtrar área:</label>
+            <select id="modal-syllabus-area-filter" class="filter-select" style="font-size:11.5px; padding:4px 8px;">
+              <option value="all">Todas las áreas (${espacios.length})</option>
+              ${Object.keys(resumen.conteo_por_area).map((a) => `<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`).join('')}
+            </select>
+          </div>
+        </div>
+
+        <div style="max-height: 400px; overflow-y: auto; border: 1px solid var(--border-color); border-radius: var(--radius-sm);">
+          <table style="width:100%; border-collapse: collapse; font-size: 11.5px;">
+            <thead>
+              <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); position:sticky; top:0; z-index:2; text-align:left;">
+                <th style="padding:8px 10px;">Cód.</th>
+                <th style="padding:8px 10px;">Asignatura</th>
+                <th style="padding:8px 10px;">Área / Énfasis</th>
+                <th style="padding:8px 10px; text-align:center;">Sem.</th>
+                <th style="padding:8px 10px; text-align:center;">Cr.</th>
+                <th style="padding:8px 10px; text-align:center;">Horas</th>
+                <th style="padding:8px 10px;">Evaluación</th>
+                <th style="padding:8px 10px; text-align:right;">Descarga</th>
+              </tr>
+            </thead>
+            <tbody id="modal-syllabus-tbody">
+              ${espacios.map((e) => `
+                <tr class="modal-syllabus-row" data-area="${escapeHtml(e.area)}" style="border-bottom: 1px solid var(--border-color);">
+                  <td style="padding:6px 10px; font-family:monospace; color:var(--ud-blue); font-weight:700;">${escapeHtml(e.codigo)}</td>
+                  <td style="padding:6px 10px; font-weight:600; color:var(--text-main);">
+                    ${escapeHtml(e.nombre)}
+                    ${e.caracter ? `<br><span style="font-size:10px; color:var(--text-soft);">${escapeHtml(e.caracter)} • ${escapeHtml(e.modalidad_oferta)}</span>` : ''}
+                  </td>
+                  <td style="padding:6px 10px; color:var(--text-muted); font-size:11px;">${escapeHtml(e.area)}</td>
+                  <td style="padding:6px 10px; text-align:center;">${e.nivel}</td>
+                  <td style="padding:6px 10px; text-align:center; font-weight:700;">${e.creditos}</td>
+                  <td style="padding:6px 10px; text-align:center; font-size:10.5px; color:var(--text-muted);">${e.htd}/${e.htc}/${e.hta}</td>
+                  <td style="padding:6px 10px; font-size:10px; color:var(--text-muted);">
+                    ${(e.evaluacion_tipos || []).slice(0, 2).map((t) => `<span class="bronze-ext-badge" style="font-size:9.5px; display:inline-block; margin:1px;">${escapeHtml(t)}</span>`).join('')}
+                  </td>
+                  <td style="padding:6px 10px; text-align:right; white-space:nowrap;">
+                    <a href="${fileHref(e.archivo)}" download class="btn btn-outline" style="text-decoration:none; font-size:11px; padding:3px 8px;" title="Descargar microcurrículo oficial">
+                      📥 .xlsx <span style="color:var(--text-soft); font-size:9.5px;">(${e.tamano_legible})</span>
+                    </a>
+                  </td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tipos de Evaluación Institucionales -->
+      <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:10px 14px; font-size:11px; color:var(--text-muted);">
+        <strong style="color:var(--text-main);">Tipología institucional de evaluación aplicada (Formato AA-FR-003):</strong>
+        <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:4px;">
+          <span><strong>EBP:</strong> Evaluación Basada en Proyectos</span> •
+          <span><strong>EHP:</strong> Habilidades Prácticas</span> •
+          <span><strong>EF:</strong> Evaluación Formativa Continua</span> •
+          <span><strong>EE:</strong> Evaluación Escrita</span> •
+          <span><strong>EOP:</strong> Oral / Presentaciones</span> •
+          <span><strong>ED:</strong> Desempeño</span>
+        </div>
+      </div>
     </div>
   `;
 }
@@ -991,11 +1158,49 @@ function renderBronzeTable() {
 // SOLICITUDES DE LOS PARES (material entregado por día de visita)
 // ==========================================================================
 function solicitudDocCardHtml(doc) {
-  const ext = doc.extension;
+  const ext = doc.extension || 'xlsx';
   const borradorBadge = doc.borrador
     ? `<span class="badge-borrador">Borrador</span>`
     : '';
 
+  // Documento emparejado con versión específica de MCIC
+  if (doc.archivo_original && doc.archivo_filtrado) {
+    const isSameFile = (doc.archivo_original === doc.archivo_filtrado);
+    return `
+    <div class="doc-card">
+      <div>
+        <div class="doc-card-top">
+          <div class="doc-icon ${escapeHtml(ext)}">${escapeHtml(ext.toUpperCase())}</div>
+          <div style="flex: 1; min-width: 0;">
+            <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 8px;">
+              <div class="doc-name" style="word-break: break-word; font-weight: 700;">${escapeHtml(doc.nombre)}</div>
+              ${borradorBadge}
+            </div>
+            ${doc.nota ? `<span style="display: inline-block; font-size: 11.5px; color: var(--warning); margin-top: 4px; font-weight: 500;">⚠️ ${escapeHtml(doc.nota)}</span>` : ''}
+          </div>
+        </div>
+      </div>
+      <div class="doc-paired-container">
+        <div class="doc-paired-row">
+          <div class="doc-paired-label">
+            <span class="doc-paired-title">📄 Documento original</span>
+            <span class="doc-paired-meta">${escapeHtml(doc.tamano_original || doc.tamano_legible)}</span>
+          </div>
+          <a class="btn btn-outline doc-paired-btn" href="${fileHref(doc.archivo_original)}" target="_blank" rel="noopener noreferrer">Abrir original ↗</a>
+        </div>
+        <div class="doc-paired-row highlight">
+          <div class="doc-paired-label">
+            <span class="doc-paired-title" style="color: var(--success, #16A34A);">🎯 Versión con data específica de la maestría</span>
+            <span class="doc-paired-meta">${escapeHtml(doc.tamano_filtrado || doc.tamano_legible)} ${isSameFile ? '(Exclusivo MCIC)' : '(Filtrado MCIC)'}</span>
+          </div>
+          <a class="btn btn-primary doc-paired-btn" style="background: var(--success, #16A34A); border-color: var(--success, #16A34A); color: #fff;" href="${fileHref(doc.archivo_filtrado)}" target="_blank" rel="noopener noreferrer">Abrir versión MCIC ↗</a>
+        </div>
+      </div>
+    </div>
+    `;
+  }
+
+  // Documento normal (ej. presentaciones institucionales o documentos directos)
   return `
     <div class="doc-card">
       <div>
@@ -1098,3 +1303,13 @@ function initSolicitudesPares() {
     `;
   }).join('');
 }
+
+// ==========================================================================
+// ARRANQUE DE LA APLICACIÓN
+// ==========================================================================
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}
+

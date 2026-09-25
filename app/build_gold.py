@@ -233,6 +233,18 @@ def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_f
             f["datos_cuadro_maestro_cna"] = {
                 "grupos_produccion": cuadros["grupos_produccion"],
                 "resumen_grupos_investigacion": resumen_grupos_factor8,
+                "enlaces_oficiales": [
+                    {
+                        "titulo": "Portal de Investigaciones (PI UD)",
+                        "url": "https://pi.udistrital.edu.co/",
+                        "descripcion": "Portal institucional del Sistema de Investigaciones de la Universidad Distrital Francisco José de Caldas.",
+                    },
+                    {
+                        "titulo": "Grupos de Investigación MCIC",
+                        "url": "https://facingenieria.udistrital.edu.co/mcic-investigacion/index.php/investigacion/grupos",
+                        "descripcion": "Directorio y portal oficial de grupos de investigación asociados al programa MCIC (Facultad de Ingeniería).",
+                    },
+                ],
             }
         elif numero == "9":
             f["datos_cuadro_maestro_cna"] = {
@@ -252,6 +264,19 @@ def merge_convenios(factores: list[dict], convenios: dict) -> None:
         numero = m.group(1) if m else None
         if numero == "7":
             f["datos_convenios"] = convenios
+
+
+def merge_syllabi(factores: list[dict], syllabi: dict) -> None:
+    """Añade al Factor 5 (Aspectos Académicos y Resultados de Aprendizaje)
+    los microcurrículos oficiales actualizados (Data/Silver/syllabi.json) bajo el
+    formato institucional AA-FR-003, demostrando el 100% de cumplimiento en
+    Resultados de Aprendizaje y sistema de evaluación. Modifica in-place."""
+    for f in factores:
+        m = FACTOR_RE.match(f["factor"] or "")
+        numero = m.group(1) if m else None
+        if numero == "5":
+            f["datos_syllabus"] = syllabi
+
 
 
 def build_comunidad_estudiantil() -> dict:
@@ -392,6 +417,10 @@ def main() -> None:
     merge_convenios(silver_inv["factores"], convenios)
     merge_convenios(silver_prof["factores"], convenios)
 
+    syllabi = load_json("syllabi.json")
+    merge_syllabi(silver_inv["factores"], syllabi)
+    merge_syllabi(silver_prof["factores"], syllabi)
+
     gold = {
         "meta": {
             "institucion": "Universidad Distrital Francisco José de Caldas",
@@ -430,6 +459,7 @@ def main() -> None:
         "resumenSeguimientoTesis": resumen_seguimiento_tesis,
         "cuadrosMaestrosCNA": cuadros_maestros,
         "solicitudesPares": load_json("solicitudes_pares.json"),
+        "syllabi": syllabi,
     }
 
     json_path = GOLD_DIR / "gold_data.json"
