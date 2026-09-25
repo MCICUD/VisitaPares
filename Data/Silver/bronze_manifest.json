@@ -4888,5 +4888,325 @@
     "tamano_bytes": 1703926,
     "tamano_legible": "1.6 MB",
     "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/CienciasDeLaInformacionYLasComunicaciones.xlsx",
+    "nombre": "CienciasDeLaInformacionYLasComunicaciones.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus",
+    "tamano_bytes": 22971,
+    "tamano_legible": "22.4 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/CircuitosIEjemplo.xlsx",
+    "nombre": "CircuitosIEjemplo.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus",
+    "tamano_bytes": 68197,
+    "tamano_legible": "66.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Análisis espacial.xlsx",
+    "nombre": "Análisis espacial.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 66715,
+    "tamano_legible": "65.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Bases de datos espaciales.xlsx",
+    "nombre": "Bases de datos espaciales.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 67462,
+    "tamano_legible": "65.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Estadística espacial.xlsx",
+    "nombre": "Estadística espacial.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 73226,
+    "tamano_legible": "71.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Matemática avanzada y geoprocesamiento.xlsx",
+    "nombre": "Matemática avanzada y geoprocesamiento.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 67146,
+    "tamano_legible": "65.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Métodos avanzados en análisis de imágenes.xlsx",
+    "nombre": "Métodos avanzados en análisis de imágenes.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 67483,
+    "tamano_legible": "65.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
+    "nombre": "Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 66296,
+    "tamano_legible": "64.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Servicios geográficos web.xlsx",
+    "nombre": "Servicios geográficos web.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 69143,
+    "tamano_legible": "67.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Sistemas de posicionamiento geodésico.xlsx",
+    "nombre": "Sistemas de posicionamiento geodésico.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfGeomatica",
+    "tamano_bytes": 67892,
+    "tamano_legible": "66.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfIngSoftware/Bases de datos.xlsx",
+    "nombre": "Bases de datos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfIngSoftware",
+    "tamano_bytes": 66765,
+    "tamano_legible": "65.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfIngSoftware/Construcción y pruebas de software.xlsx",
+    "nombre": "Construcción y pruebas de software.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfIngSoftware",
+    "tamano_bytes": 69126,
+    "tamano_legible": "67.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfIngSoftware/Ingeniería de software I.xlsx",
+    "nombre": "Ingeniería de software I.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfIngSoftware",
+    "tamano_bytes": 70127,
+    "tamano_legible": "68.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfIngSoftware/Ingeniería de software II.xlsx",
+    "nombre": "Ingeniería de software II.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfIngSoftware",
+    "tamano_bytes": 69522,
+    "tamano_legible": "67.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfIngSoftware/Patrones y arquitecturas de software.xlsx",
+    "nombre": "Patrones y arquitecturas de software.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfIngSoftware",
+    "tamano_bytes": 70876,
+    "tamano_legible": "69.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfIngSoftware/Tendencias en ingeniería de software.xlsx",
+    "nombre": "Tendencias en ingeniería de software.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfIngSoftware",
+    "tamano_bytes": 68870,
+    "tamano_legible": "67.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Analítica de datos.xlsx",
+    "nombre": "Analítica de datos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
+    "tamano_bytes": 66193,
+    "tamano_legible": "64.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Big data.xlsx",
+    "nombre": "Big data.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
+    "tamano_bytes": 69316,
+    "tamano_legible": "67.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Computación paralela.xlsx",
+    "nombre": "Computación paralela.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
+    "tamano_bytes": 68818,
+    "tamano_legible": "67.2 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Inteligencia computacional.xlsx",
+    "nombre": "Inteligencia computacional.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
+    "tamano_bytes": 71796,
+    "tamano_legible": "70.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Inteligencia de negocios.xlsx",
+    "nombre": "Inteligencia de negocios.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
+    "tamano_bytes": 67401,
+    "tamano_legible": "65.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Robótica.xlsx",
+    "nombre": "Robótica.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
+    "tamano_bytes": 71311,
+    "tamano_legible": "69.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Aplicaciones sobre internet la nube.xlsx",
+    "nombre": "Aplicaciones sobre internet la nube.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
+    "tamano_bytes": 69416,
+    "tamano_legible": "67.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Avances en Redes Inalámbricas.xlsx",
+    "nombre": "Avances en Redes Inalámbricas.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
+    "tamano_bytes": 68209,
+    "tamano_legible": "66.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Modelado y Simulación de Redes.xlsx",
+    "nombre": "Modelado y Simulación de Redes.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
+    "tamano_bytes": 72410,
+    "tamano_legible": "70.7 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Política Sectorial y Regulación en Telecomunicaciones.xlsx",
+    "nombre": "Política Sectorial y Regulación en Telecomunicaciones.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
+    "tamano_bytes": 70987,
+    "tamano_legible": "69.3 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Procesos estocásticos.xlsx",
+    "nombre": "Procesos estocásticos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
+    "tamano_bytes": 72540,
+    "tamano_legible": "70.8 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Redes.xlsx",
+    "nombre": "Redes.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
+    "tamano_bytes": 69162,
+    "tamano_legible": "67.5 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/Fundamentales/Herramientas Matemáticas para el Manejo de la Información.xlsx",
+    "nombre": "Herramientas Matemáticas para el Manejo de la Información.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/Fundamentales",
+    "tamano_bytes": 69528,
+    "tamano_legible": "67.9 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/Fundamentales/Informática.xlsx",
+    "nombre": "Informática.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/Fundamentales",
+    "tamano_bytes": 69745,
+    "tamano_legible": "68.1 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/Información Espacios Académicos.xlsx",
+    "nombre": "Información Espacios Académicos.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus",
+    "tamano_bytes": 18998,
+    "tamano_legible": "18.6 KB",
+    "modalidad": "general"
+  },
+  {
+    "archivo": "Data/Bronze/Syllabus/Investigacion/Seminario de Investigación.xlsx",
+    "nombre": "Seminario de Investigación.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Syllabus",
+    "carpeta_contenedora": "Syllabus/Investigacion",
+    "tamano_bytes": 70597,
+    "tamano_legible": "68.9 KB",
+    "modalidad": "investigacion"
   }
 ]
