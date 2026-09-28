@@ -4490,14 +4490,24 @@
     "modalidad": "general"
   },
   {
-    "archivo": "Data/Bronze/Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN/EE1345_Formato AA-FR-001-Plan de Mejoramiento-MCIC.xlsx",
-    "nombre": "EE1345_Formato AA-FR-001-Plan de Mejoramiento-MCIC.xlsx",
+    "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion/Plan de Mejoramiento MCIC Investigacion.xlsx",
+    "nombre": "Plan de Mejoramiento MCIC Investigacion.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "Maestria CIC",
-    "carpeta_contenedora": "Maestria CIC/Acreditacion/PLAN DE MEJORAMIENTO 2024/Radicación a MEN",
-    "tamano_bytes": 113030,
-    "tamano_legible": "110.4 KB",
-    "modalidad": "general"
+    "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Investigacion",
+    "tamano_bytes": 125686,
+    "tamano_legible": "122.7 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion/Plan de Mejoramiento MCIC Profundizacion.xlsx",
+    "nombre": "Plan de Mejoramiento MCIC Profundizacion.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "Maestria CIC",
+    "carpeta_contenedora": "Maestria CIC/Acreditacion/AUTOEVALUACION 2025/Docu Autoevaluacion RAA/ANEXOS/Anexos/Anexos especificos Profundizacion",
+    "tamano_bytes": 125682,
+    "tamano_legible": "122.7 KB",
+    "modalidad": "profundizacion"
   },
   {
     "archivo": "Data/Bronze/Maestria CIC/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",

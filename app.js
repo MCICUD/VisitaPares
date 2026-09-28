@@ -29,16 +29,11 @@ const MODALIDAD_ICON = {
 };
 
 let state = {
-  periodo: '2026-2027',
   modalidad: 'investigacion',
   factorFiltro: 'all',
   tipoFiltro: 'all',
   busqueda: '',
 };
-
-function planData() {
-  return GOLD_DATA.planPeriodos[state.periodo];
-}
 
 let bronzeState = {
   modalidad: 'all',
@@ -192,16 +187,6 @@ function renderHeroStats() {
 // PLAN DE MEJORAMIENTO
 // ==========================================================================
 function initPlanMejoramiento() {
-  document.querySelectorAll('.periodo-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      state.periodo = btn.dataset.periodo;
-      document.querySelectorAll('.periodo-btn').forEach((b) => b.classList.toggle('active', b === btn));
-      populateFactorFilter();
-      renderPlanBanner();
-      renderPlanGrid();
-    });
-  });
-
   document.querySelectorAll('.modality-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       state.modalidad = btn.dataset.modality;
@@ -232,7 +217,7 @@ function initPlanMejoramiento() {
 
 function populateFactorFilter() {
   const select = document.getElementById('plan-factor-filter');
-  const factores = planData().factores[state.modalidad];
+  const factores = GOLD_DATA.factores[state.modalidad];
   select.innerHTML = '<option value="all">Todos los Factores</option>' +
     factores.map((f) => {
       const { numero } = factorNumeroYNombre(f.factor);
@@ -242,9 +227,8 @@ function populateFactorFilter() {
 }
 
 function renderPlanBanner() {
-  const periodo = planData();
-  const cab = periodo.meta[state.modalidad];
-  const stats = periodo.stats[state.modalidad];
+  const cab = GOLD_DATA.meta.modalidades[state.modalidad];
+  const stats = GOLD_DATA.stats[state.modalidad];
   const banner = document.getElementById('plan-modality-banner');
   banner.classList.toggle('theme-profundizacion', state.modalidad === 'profundizacion');
   banner.classList.toggle('theme-investigacion', state.modalidad === 'investigacion');
@@ -269,13 +253,13 @@ function renderPlanBanner() {
 
   document.getElementById('plan-header-subtitle').innerHTML =
     `${escapeHtml(cab.macroproceso)} • ${escapeHtml(cab.proceso)} — ` +
-    `<strong>Plan ${escapeHtml(periodo.label)} · Modalidad activa: ${MODALIDAD_LABEL[state.modalidad]}</strong> ` +
+    `<strong>Modalidad activa: ${MODALIDAD_LABEL[state.modalidad]}</strong> ` +
     `(archivo <code>${escapeHtml(fileLabel(cab.fuente.archivo))}</code>)`;
 }
 
 function renderPlanGrid() {
   const grid = document.getElementById('plan-grid');
-  const factores = planData().factores[state.modalidad];
+  const factores = GOLD_DATA.factores[state.modalidad];
 
   const filtrados = factores.filter((f) => {
     if (state.factorFiltro !== 'all' && f.factor !== state.factorFiltro) return false;
@@ -302,6 +286,26 @@ function renderPlanGrid() {
   grid.querySelectorAll('[data-open-modal]').forEach((el) => {
     el.addEventListener('click', () => openFactorModal(state.modalidad, parseInt(el.dataset.openModal, 10)));
   });
+}
+
+function renderPlanAnteriorSeccionHtml(anterior) {
+  if (!anterior) return '';
+  return `
+    <div class="plan-vigente-divider plan-anterior-divider">
+      <span>🕓</span> Qué se hizo en 2025-2026 (plan anterior)${notaHtml(anterior.tipo_nota)}
+    </div>
+    <p style="margin-bottom:12px;"><strong>Proyecto / Acción global:</strong><br>${escapeHtml(anterior.proyecto)}</p>
+    <p style="margin-bottom:12px;"><strong>Origen:</strong> ${escapeHtml(anterior.origen)}</p>
+    <p style="margin-bottom:12px;"><strong>Descripción:</strong><br>${escapeHtml(anterior.descripcion)}</p>
+    <div class="plan-meta-box" style="margin-bottom:14px;">
+      <div class="plan-meta-row"><span>Periodo de Ejecución</span><span>${formatFecha(anterior.periodo_inicio)} – ${formatFecha(anterior.periodo_fin)}</span></div>
+      <div class="plan-meta-row"><span>Peso-Prioridad</span><span>${escapeHtml(anterior.peso_prioridad)} / 10</span></div>
+      <div class="plan-meta-row"><span>Indicador de Cumplimiento</span><span>${escapeHtml(anterior.indicador_cumplimiento)}</span></div>
+    </div>
+    <div style="margin-bottom:20px;">${fuenteHtml(anterior.fuente, 'Ver archivo fuente 2025-2026')}</div>
+
+    <div class="plan-vigente-divider"><span>🚀</span> Qué se plantea para 2026-2027 (plan vigente)</div>
+  `;
 }
 
 function renderPlanCard(f, indexEnModalidad) {
@@ -596,7 +600,7 @@ function initModal() {
 }
 
 function openFactorModal(modalidad, index) {
-  const f = planData().factores[modalidad][index];
+  const f = GOLD_DATA.factores[modalidad][index];
   const { numero, nombre } = factorNumeroYNombre(f.factor);
   document.getElementById('modal-title').textContent = `${numero} — ${nombre}`;
 
@@ -606,6 +610,9 @@ function openFactorModal(modalidad, index) {
       <span class="type-tag ${(f.tipo || '').toLowerCase().includes('fortaleza') ? 'fortaleza' : 'oportunidad'}">${escapeHtml(f.tipo)}${notaHtml(f.tipo_nota)}</span>
       ${fuenteHtml(f.fuente)}
     </div>
+
+    ${renderPlanAnteriorSeccionHtml(f.plan_anterior)}
+
     <p style="margin-bottom:12px;"><strong>Proyecto / Acción global:</strong><br>${escapeHtml(f.proyecto)}</p>
     <p style="margin-bottom:12px;"><strong>Origen:</strong> ${escapeHtml(f.origen)}</p>
     <p style="margin-bottom:12px;"><strong>Descripción:</strong><br>${escapeHtml(f.descripcion)}</p>
