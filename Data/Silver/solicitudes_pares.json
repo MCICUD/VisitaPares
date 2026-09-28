@@ -170,7 +170,57 @@
     {
       "dia": "DIA 2",
       "numero": 2,
-      "presentaciones": [],
+      "presentaciones": [
+        {
+          "archivo": "SolicitudesPares/DIA 2/PRESENTACIONES/02 Biblioteca - Versión acreditación 2026 - Posgrado (1).pptx",
+          "nombre": "02 Biblioteca - Versión acreditación 2026 - Posgrado (1).pptx",
+          "extension": "pptx",
+          "tamano_bytes": 11470423,
+          "tamano_legible": "10.9 MB"
+        },
+        {
+          "archivo": "SolicitudesPares/DIA 2/CIERRE/FOTOS/20260925_001521147_iOS.jpg",
+          "nombre": "20260925_001521147_iOS.jpg",
+          "extension": "jpg",
+          "tamano_bytes": 5308194,
+          "tamano_legible": "5.1 MB"
+        },
+        {
+          "archivo": "SolicitudesPares/DIA 2/CIERRE/FOTOS/20260925_001535642_iOS.jpg",
+          "nombre": "20260925_001535642_iOS.jpg",
+          "extension": "jpg",
+          "tamano_bytes": 5641847,
+          "tamano_legible": "5.4 MB"
+        },
+        {
+          "archivo": "SolicitudesPares/DIA 2/CIERRE/ACTA REUNION CIERRE VISITA PARES MCIC 24_09_2026.docx",
+          "nombre": "ACTA REUNION CIERRE VISITA PARES MCIC 24_09_2026.docx",
+          "extension": "docx",
+          "tamano_bytes": 185963,
+          "tamano_legible": "181.6 KB"
+        },
+        {
+          "archivo": "SolicitudesPares/DIA 2/PRESENTACIONES/Bienestar MCIC.pptx",
+          "nombre": "Bienestar MCIC.pptx",
+          "extension": "pptx",
+          "tamano_bytes": 4675136,
+          "tamano_legible": "4.5 MB"
+        },
+        {
+          "archivo": "SolicitudesPares/DIA 2/PRESENTACIONES/Presentación I3+_Visita de Pares Maestría en Ciencias de la Información y las Comunicaciones (2).pptx",
+          "nombre": "Presentación I3+_Visita de Pares Maestría en Ciencias de la Información y las Comunicaciones (2).pptx",
+          "extension": "pptx",
+          "tamano_bytes": 3925601,
+          "tamano_legible": "3.7 MB"
+        },
+        {
+          "archivo": "SolicitudesPares/DIA 2/PRESENTACIONES/Presentación PlanesTIC MCIC.pptx",
+          "nombre": "Presentación PlanesTIC MCIC.pptx",
+          "extension": "pptx",
+          "tamano_bytes": 7408748,
+          "tamano_legible": "7.1 MB"
+        }
+      ],
       "solicitudes": [],
       "documentos": [
         {
@@ -183,7 +233,7 @@
           "nota": "Documento borrador"
         }
       ],
-      "sin_subsecciones": true,
+      "sin_subsecciones": false,
       "aviso": "El archivo PDF cargado es un documento borrador."
     }
   ]

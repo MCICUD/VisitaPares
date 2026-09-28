@@ -4,7 +4,9 @@ Recorre SolicitudesPares/ (material entregado a los pares durante la visita)
 y produce Data/Silver/solicitudes_pares.json, fuente de la sección
 "Solicitudes Pares" del sitio. Estructura esperada, un directorio por día:
 
-    SolicitudesPares/<DIA N>/APERTURA/...               -> presentaciones
+    SolicitudesPares/<DIA N>/APERTURA/...               -> presentaciones (día de apertura)
+    SolicitudesPares/<DIA N>/CIERRE/...                  -> presentaciones (día de cierre)
+    SolicitudesPares/<DIA N>/PRESENTACIONES/...          -> presentaciones
     SolicitudesPares/<DIA N>/SOLICITUDES DE PARES/<área>/... -> solicitudes
 
 Si un día nuevo aparece con esta misma estructura, se lista automáticamente.
@@ -21,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOLICITUDES_DIR = ROOT / "SolicitudesPares"
 SILVER_DIR = ROOT / "Data/Silver"
 
-CARPETAS_PRESENTACIONES = ("APERTURA", "PRESENTACIONES")
+CARPETAS_PRESENTACIONES = ("APERTURA", "CIERRE", "PRESENTACIONES")
 CARPETA_SOLICITUDES = "SOLICITUDES DE PARES"
 
 # Archivos de presentaciones que no se publican: la lista de asistencia contiene
@@ -151,9 +153,14 @@ def main() -> None:
     dias = []
     for carpeta_dia in sorted((p for p in SOLICITUDES_DIR.iterdir() if p.is_dir()), key=numero_dia):
         num_dia = numero_dia(carpeta_dia)
-        es_borrador = (num_dia == 2)
+        # El aviso de "borrador" solo aplica a los archivos sueltos en la raíz
+        # del día (aún sin organizar en una carpeta propia, ej. APERTURA/
+        # CIERRE/PRESENTACIONES/SOLICITUDES DE PARES): esos sí son
+        # provisionales. Lo que ya está dentro de esas carpetas es material
+        # final entregado a los pares, no un borrador.
+        es_borrador_directos = (num_dia == 2)
 
-        # Presentaciones: buscar en APERTURA y PRESENTACIONES
+        # Presentaciones: buscar en APERTURA, CIERRE y PRESENTACIONES
         presentaciones = []
         for nom_pres in CARPETAS_PRESENTACIONES:
             carpeta_pres = carpeta_dia / nom_pres
@@ -161,27 +168,27 @@ def main() -> None:
                 for p in archivos(carpeta_pres):
                     if not any(ex in p.name.lower() for ex in EXCLUIR_PRESENTACIONES):
                         if not any(item["archivo"] == rel(p) for item in presentaciones):
-                            presentaciones.append(registro(p, borrador=es_borrador))
+                            presentaciones.append(registro(p))
         presentaciones.sort(key=lambda x: x["nombre"])
 
         areas = []
         carpeta_sol = carpeta_dia / CARPETA_SOLICITUDES
         if carpeta_sol.exists():
             sueltos = [
-                registro(p, borrador=es_borrador)
+                registro(p)
                 for p in sorted(carpeta_sol.iterdir())
                 if p.is_file() and not p.name.startswith("~$")
             ]
             if sueltos:
                 areas.append({"area": "General", "documentos": sueltos})
             for carpeta_area in sorted(p for p in carpeta_sol.iterdir() if p.is_dir()):
-                documentos = recolectar_documentos_area(carpeta_area, borrador=es_borrador)
+                documentos = recolectar_documentos_area(carpeta_area)
                 if documentos:
                     areas.append({"area": carpeta_area.name, "documentos": documentos})
 
         # Archivos directos en la raíz de la carpeta del día (sin subdirectorios)
         directos = [
-            registro(p, borrador=es_borrador)
+            registro(p, borrador=es_borrador_directos)
             for p in sorted(carpeta_dia.iterdir())
             if p.is_file() and not p.name.startswith("~$")
         ]

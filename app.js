@@ -29,11 +29,16 @@ const MODALIDAD_ICON = {
 };
 
 let state = {
+  periodo: '2026-2027',
   modalidad: 'investigacion',
   factorFiltro: 'all',
   tipoFiltro: 'all',
   busqueda: '',
 };
+
+function planData() {
+  return GOLD_DATA.planPeriodos[state.periodo];
+}
 
 let bronzeState = {
   modalidad: 'all',
@@ -187,6 +192,16 @@ function renderHeroStats() {
 // PLAN DE MEJORAMIENTO
 // ==========================================================================
 function initPlanMejoramiento() {
+  document.querySelectorAll('.periodo-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      state.periodo = btn.dataset.periodo;
+      document.querySelectorAll('.periodo-btn').forEach((b) => b.classList.toggle('active', b === btn));
+      populateFactorFilter();
+      renderPlanBanner();
+      renderPlanGrid();
+    });
+  });
+
   document.querySelectorAll('.modality-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       state.modalidad = btn.dataset.modality;
@@ -217,7 +232,7 @@ function initPlanMejoramiento() {
 
 function populateFactorFilter() {
   const select = document.getElementById('plan-factor-filter');
-  const factores = GOLD_DATA.factores[state.modalidad];
+  const factores = planData().factores[state.modalidad];
   select.innerHTML = '<option value="all">Todos los Factores</option>' +
     factores.map((f) => {
       const { numero } = factorNumeroYNombre(f.factor);
@@ -227,8 +242,9 @@ function populateFactorFilter() {
 }
 
 function renderPlanBanner() {
-  const cab = GOLD_DATA.meta.modalidades[state.modalidad];
-  const stats = GOLD_DATA.stats[state.modalidad];
+  const periodo = planData();
+  const cab = periodo.meta[state.modalidad];
+  const stats = periodo.stats[state.modalidad];
   const banner = document.getElementById('plan-modality-banner');
   banner.classList.toggle('theme-profundizacion', state.modalidad === 'profundizacion');
   banner.classList.toggle('theme-investigacion', state.modalidad === 'investigacion');
@@ -246,20 +262,20 @@ function renderPlanBanner() {
       <div class="modality-banner-item"><span>Vigencia Registro</span><strong>${escapeHtml(cab.registro_calificado_vigencia)}</strong></div>
       <div class="modality-banner-item"><span>Acreditación Alta Calidad</span><strong>${escapeHtml(cab.acreditacion_alta_calidad)}</strong></div>
       <div class="modality-banner-item"><span>Vigencia Acreditación</span><strong>${escapeHtml(cab.acreditacion_alta_calidad_vigencia)}</strong></div>
-      <div class="modality-banner-item"><span>Fecha Proyección del Plan</span><strong>${escapeHtml(cab.fecha_proyeccion_plan)}</strong></div>
+      <div class="modality-banner-item"><span>Fecha Proyección del Plan</span><strong>${escapeHtml(cab.fecha_proyeccion_plan)}${notaHtml(cab.fecha_proyeccion_plan_nota)}</strong></div>
       <div class="modality-banner-item"><span>Peso-Prioridad Promedio (12 factores)</span><strong>${stats.peso_prioridad_promedio}</strong></div>
     </div>
   `;
 
   document.getElementById('plan-header-subtitle').innerHTML =
     `${escapeHtml(cab.macroproceso)} • ${escapeHtml(cab.proceso)} — ` +
-    `<strong>Modalidad activa: ${MODALIDAD_LABEL[state.modalidad]}</strong> ` +
+    `<strong>Plan ${escapeHtml(periodo.label)} · Modalidad activa: ${MODALIDAD_LABEL[state.modalidad]}</strong> ` +
     `(archivo <code>${escapeHtml(fileLabel(cab.fuente.archivo))}</code>)`;
 }
 
 function renderPlanGrid() {
   const grid = document.getElementById('plan-grid');
-  const factores = GOLD_DATA.factores[state.modalidad];
+  const factores = planData().factores[state.modalidad];
 
   const filtrados = factores.filter((f) => {
     if (state.factorFiltro !== 'all' && f.factor !== state.factorFiltro) return false;
@@ -298,7 +314,7 @@ function renderPlanCard(f, indexEnModalidad) {
           <span class="factor-tag">${escapeHtml(numero)}</span>
           <div style="display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-end;">
             ${modalidadTagHtml(state.modalidad)}
-            <span class="type-tag ${esFortaleza ? 'fortaleza' : 'oportunidad'}">${escapeHtml(f.tipo || 'Sin especificar')}</span>
+            <span class="type-tag ${esFortaleza ? 'fortaleza' : 'oportunidad'}">${escapeHtml(f.tipo || 'Sin especificar')}${notaHtml(f.tipo_nota)}</span>
           </div>
         </div>
         <h3>${escapeHtml(f.proyecto || nombre)}</h3>
@@ -580,14 +596,14 @@ function initModal() {
 }
 
 function openFactorModal(modalidad, index) {
-  const f = GOLD_DATA.factores[modalidad][index];
+  const f = planData().factores[modalidad][index];
   const { numero, nombre } = factorNumeroYNombre(f.factor);
   document.getElementById('modal-title').textContent = `${numero} — ${nombre}`;
 
   document.getElementById('modal-body').innerHTML = `
     <div style="display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap;">
       ${modalidadTagHtml(modalidad)}
-      <span class="type-tag ${(f.tipo || '').toLowerCase().includes('fortaleza') ? 'fortaleza' : 'oportunidad'}">${escapeHtml(f.tipo)}</span>
+      <span class="type-tag ${(f.tipo || '').toLowerCase().includes('fortaleza') ? 'fortaleza' : 'oportunidad'}">${escapeHtml(f.tipo)}${notaHtml(f.tipo_nota)}</span>
       ${fuenteHtml(f.fuente)}
     </div>
     <p style="margin-bottom:12px;"><strong>Proyecto / Acción global:</strong><br>${escapeHtml(f.proyecto)}</p>

@@ -179,6 +179,41 @@ def load_silver(modalidad: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_silver_2025() -> dict:
+    path = SILVER_DIR / "plan_mejoramiento_2025_2026.json"
+    if not path.exists():
+        raise FileNotFoundError(
+            f"No existe {path}. Corre primero app/extract_plan_mejoramiento_2025.py"
+        )
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def build_plan_periodos(silver_inv: dict, silver_prof: dict, silver_2025: dict) -> dict:
+    """Empaqueta los dos periodos del Plan de Mejoramiento (el vigente
+    2026-2027 y el anterior, mostrado como 2025-2026) bajo una misma
+    estructura {meta, factores, stats} por periodo, para que el sitio pueda
+    alternar entre ambos con un solo botón sin duplicar lógica de render.
+    El periodo 2025-2026 viene de un único documento (ambas modalidades
+    juntas): se repite la misma lista de factores en 'investigacion' y
+    'profundizacion' porque así lo trae el archivo fuente."""
+    return {
+        "2026-2027": {
+            "label": "2026 - 2027",
+            "esActual": True,
+            "meta": {"investigacion": silver_inv["cabecera"], "profundizacion": silver_prof["cabecera"]},
+            "factores": {"investigacion": silver_inv["factores"], "profundizacion": silver_prof["factores"]},
+            "stats": {"investigacion": compute_stats(silver_inv), "profundizacion": compute_stats(silver_prof)},
+        },
+        "2025-2026": {
+            "label": "2025 - 2026",
+            "esActual": False,
+            "meta": {"investigacion": silver_2025["cabecera"], "profundizacion": silver_2025["cabecera"]},
+            "factores": {"investigacion": silver_2025["factores"], "profundizacion": silver_2025["factores"]},
+            "stats": {"investigacion": compute_stats(silver_2025), "profundizacion": compute_stats(silver_2025)},
+        },
+    }
+
+
 FACTOR_RE = re.compile(r"^FACTOR\s*0*(\d{1,2})\b", re.IGNORECASE)
 
 
@@ -379,6 +414,7 @@ def main() -> None:
 
     silver_inv = load_silver("investigacion")
     silver_prof = load_silver("profundizacion")
+    silver_2025 = load_silver_2025()
     manifest = load_bronze_manifest()
     merge_texto_extraido(manifest)
 
@@ -441,6 +477,7 @@ def main() -> None:
             "investigacion": compute_stats(silver_inv),
             "profundizacion": compute_stats(silver_prof),
         },
+        "planPeriodos": build_plan_periodos(silver_inv, silver_prof, silver_2025),
         "comparacionModalidades": compute_comparacion_modalidades(silver_inv, silver_prof),
         "documentosPrincipales": build_documentos_principales(manifest),
         "documentosBronze": manifest,

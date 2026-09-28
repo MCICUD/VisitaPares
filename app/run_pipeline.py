@@ -12,6 +12,7 @@ import extract_enfasis_estudiantes
 import extract_estado_academico
 import extract_grupos_investigacion
 import extract_plan_mejoramiento
+import extract_plan_mejoramiento_2025
 import extract_seguimiento_evidencia
 import extract_seguimiento_tesis
 import extract_syllabi
@@ -28,6 +29,9 @@ def main() -> None:
     print()
     print("== 3/15 Bronze -> Silver: plan de mejoramiento ==")
     extract_plan_mejoramiento.main()
+    print()
+    print("== 3b/15 Bronze -> Silver: plan de mejoramiento 2025-2026 (AA-FR-001) ==")
+    extract_plan_mejoramiento_2025.main()
     print()
     print("== 4/15 Bronze -> Silver: evidencia de seguimiento ==")
     extract_seguimiento_evidencia.main()

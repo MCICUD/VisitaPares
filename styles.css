@@ -511,6 +511,52 @@ body {
   box-shadow: var(--shadow-md);
 }
 
+.periodo-tabs-wrapper {
+  margin-bottom: 14px;
+}
+
+.periodo-tabs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.periodo-btn {
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  border: 2px dashed var(--border-color);
+  background: #FFFFFF;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+  font-family: inherit;
+}
+
+.periodo-btn:hover {
+  border-color: #0D9488;
+  color: #0D9488;
+  background: var(--bg-subtle);
+}
+
+.periodo-btn.active {
+  background: #0D9488;
+  color: #FFFFFF;
+  border-style: solid;
+  border-color: #0D9488;
+  box-shadow: var(--shadow-md);
+}
+
+.periodo-btn[data-periodo="2025-2026"].active {
+  background: #6D28D9;
+  border-color: #6D28D9;
+}
+
 .plan-modality-tag {
   font-size: 11px;
   font-weight: 700;
