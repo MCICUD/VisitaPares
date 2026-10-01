@@ -251,7 +251,7 @@ function renderPlanBanner() {
       <div class="modality-banner-item"><span>Vigencia Registro</span><strong>${escapeHtml(cab.registro_calificado_vigencia)}</strong></div>
       <div class="modality-banner-item"><span>Acreditación Alta Calidad</span><strong>${escapeHtml(cab.acreditacion_alta_calidad)}</strong></div>
       <div class="modality-banner-item"><span>Vigencia Acreditación</span><strong>${escapeHtml(cab.acreditacion_alta_calidad_vigencia)}</strong></div>
-      <div class="modality-banner-item"><span>Fecha Proyección del Plan</span><strong>${escapeHtml(cab.fecha_proyeccion_plan)}${notaHtml(cab.fecha_proyeccion_plan_nota)}</strong></div>
+      <div class="modality-banner-item"><span>Fecha Proyección del Plan</span><strong>2024-2027</strong></div>
       <div class="modality-banner-item"><span>Peso-Prioridad Promedio (12 factores)</span><strong>${stats.peso_prioridad_promedio}</strong></div>
     </div>
   `;
@@ -297,21 +297,21 @@ function renderPlanAnteriorSeccionHtml(anterior) {
   if (!anterior) return '';
   return `
     <div class="plan-vigente-divider plan-anterior-divider">
-      <span>🕓</span> Qué se planteó en 2024-2026 (plan anterior)${notaHtml(anterior.tipo_nota)}
+      <span>🕓</span> Qué se planteó en 2024-2027 (plan anterior)${notaHtml(anterior.tipo_nota)}
     </div>
     <p style="margin-bottom:12px;"><strong>Proyecto / Acción global:</strong><br>${escapeHtml(anterior.proyecto)}</p>
     <p style="margin-bottom:12px;"><strong>Origen:</strong> ${escapeHtml(anterior.origen)}</p>
     <p style="margin-bottom:12px;"><strong>Descripción:</strong><br>${escapeHtml(anterior.descripcion)}</p>
     <div class="plan-meta-box" style="margin-bottom:14px;">
-      <div class="plan-meta-row"><span>Periodo de Ejecución</span><span>${formatFecha(anterior.periodo_inicio)} – ${formatFecha(anterior.periodo_fin)}</span></div>
+      <div class="plan-meta-row"><span>Periodo de Ejecución</span><span>2024-2027</span></div>
       <div class="plan-meta-row"><span>Peso-Prioridad</span><span>${escapeHtml(anterior.peso_prioridad)} / 10</span></div>
       <div class="plan-meta-row"><span>Indicador de Cumplimiento</span><span>${escapeHtml(anterior.indicador_cumplimiento)}</span></div>
       <div class="plan-meta-row"><span>Línea Base</span><span>${escapeHtml(anterior.linea_base)}</span></div>
-      <div class="plan-meta-row"><span>Meta 2024-2026</span><span>${escapeHtml(anterior.meta)}${notaHtml(anterior.meta_nota)}</span></div>
+      <div class="plan-meta-row"><span>Meta 2024-2027</span><span>${escapeHtml(anterior.meta)}${notaHtml(anterior.meta_nota)}</span></div>
     </div>
-    <div style="margin-bottom:20px;">${fuenteHtml(anterior.fuente, 'Ver archivo fuente 2024-2026')}</div>
+    <div style="margin-bottom:20px;">${fuenteHtml(anterior.fuente, 'Ver archivo fuente 2024-2027')}</div>
 
-    <div class="plan-vigente-divider"><span>🚀</span> Qué se plantea para 2026-2027 (plan vigente)</div>
+    <div class="plan-vigente-divider"><span>🚀</span> Qué se plantea para 2024-2027 (plan vigente)</div>
   `;
 }
 
@@ -332,7 +332,7 @@ function renderPlanCard(f, indexEnModalidad) {
         <p class="plan-card-desc">${escapeHtml(f.descripcion)}</p>
         <div class="plan-meta-box">
           <div class="plan-meta-row"><span>Peso-Prioridad</span><span>${escapeHtml(f.peso_prioridad)} / 10</span></div>
-          <div class="plan-meta-row"><span>Periodo Ejecución</span><span>${formatFecha(f.periodo_inicio)} – ${formatFecha(f.periodo_fin)}</span></div>
+          <div class="plan-meta-row"><span>Periodo Ejecución</span><span>2024-2027</span></div>
           <div class="plan-meta-row"><span>Responsable</span><span>${escapeHtml(f.responsable)}</span></div>
         </div>
         ${f.datos_syllabus ? `
@@ -627,7 +627,7 @@ function openFactorModal(modalidad, index) {
     <p style="margin-bottom:12px;"><strong>Articulación con el Plan Institucional:</strong><br>${escapeHtml(f.articulacion_plan_institucional)}</p>
 
     <div class="plan-meta-box" style="margin-bottom:14px;">
-      <div class="plan-meta-row"><span>Periodo de Ejecución</span><span>${formatFecha(f.periodo_inicio)} – ${formatFecha(f.periodo_fin)}</span></div>
+      <div class="plan-meta-row"><span>Periodo de Ejecución</span><span>2024-2027</span></div>
       <div class="plan-meta-row"><span>Peso-Prioridad</span><span>${escapeHtml(f.peso_prioridad)} / 10</span></div>
       <div class="plan-meta-row"><span>Indicador de Cumplimiento</span><span>${escapeHtml(f.indicador_cumplimiento)}</span></div>
       <div class="plan-meta-row"><span>Tipo de Indicador</span><span>${escapeHtml(f.tipo_indicador)}</span></div>
