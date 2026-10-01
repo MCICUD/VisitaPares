@@ -1,30 +1,30 @@
 """Bronze -> Silver
 
-Lee el plan de mejoramiento anterior (ciclo de autoevaluación 2025, formato
-AA-FR-001, un archivo por modalidad) y produce un JSON normalizado por
+Lee el plan de mejoramiento anterior (2024-2026, ciclo de autoevaluación
+2025, formato AA-FR-001, un archivo por modalidad) y produce un JSON normalizado por
 modalidad en Data/Silver/, con la misma trazabilidad (archivo, hoja, fila)
 que el resto de la pipeline.
 
 Este formato es más simple que el CC-FR-001 vigente (Data/Bronze/Maestria
 CIC/2026/AUTOEVALUACION/...): no tiene columnas de "tipo" (Fortaleza/
-Oportunidad), objetivo, tipo de indicador, línea base, meta, actividades,
-periodicidad, apoyo requerido, responsable, recursos ni seguimiento por
-cortes — solo se extrae lo que la celda realmente trae.
+Oportunidad), objetivo, tipo de indicador, periodicidad ni seguimiento por
+cortes. Sí trae línea base (col. J), meta (col. K) y descripción de las
+actividades (col. L), que se extraen tal cual.
 
-El contenido de los 12 factores es, celda por celda, idéntico entre el
-archivo de Investigación y el de Profundización (se verificó directamente:
-0 diferencias) — este plan se redactó en conjunto para las dos modalidades
-y luego se guardó en dos archivos separados; no es un error de esta
-pipeline.
+En la fila del FACTOR 2 las columnas K y L vienen intercambiadas en el
+archivo fuente (K trae las actividades "a) ... b) ..." y L la meta); se
+detecta y se corrige dejando constancia en `meta_nota`.
 
-El sitio muestra este plan bajo la etiqueta "2025-2026" a pedido del equipo
-de coordinación, aunque la celda C9 de ambos archivos trae realmente
-"2024 - 2026" (se conserva ese dato original en
-`fecha_proyeccion_plan_original` para no perder trazabilidad).
+Las filas de los FACTORES 1, 7 y 8 difieren en J/K/L entre el archivo de
+Investigación y el de Profundización; el resto es idéntico.
+
+El periodo del plan es el que trae la celda C9 de ambos archivos
+("2024 - 2026"); junto con el plan vigente (2026-2027) cubre 2024-2027.
 """
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -58,11 +58,10 @@ TIPO_NOTA = (
     "debilidad, ninguna es una fortaleza declarada)."
 )
 
-PERIODO_NOTA = (
-    "La celda C9 del archivo fuente trae como fecha de proyección real "
-    "'2024 - 2026'; en el sitio se presenta como '2025 - 2026' a pedido del "
-    "equipo de coordinación de la Maestría, dejando aquí visible el dato "
-    "original para no perder trazabilidad."
+META_INTERCAMBIADA_NOTA = (
+    "En el archivo fuente las columnas META (K) y DESCRIPCIÓN DE LAS "
+    "ACTIVIDADES (L) de este factor vienen intercambiadas; aquí se muestran "
+    "en el campo que les corresponde."
 )
 
 
@@ -81,16 +80,33 @@ def extract_header(ws, archivo_rel: str, modalidad: str) -> dict:
         "registro_calificado_nota": registro_calificado_nota,
         "registro_calificado_vigencia": ws["E8"].value,
         "acreditacion_alta_calidad": ws["H8"].value,
-        "fecha_proyeccion_plan": "2025 - 2026",
-        "fecha_proyeccion_plan_original": ws["C9"].value,
-        "fecha_proyeccion_plan_nota": PERIODO_NOTA,
+        "fecha_proyeccion_plan": ws["C9"].value,
         "fuente": fuente(archivo_rel, SHEET_NAME, "2-9 (cabecera)"),
     }
+
+
+def _limpiar(value):
+    if not isinstance(value, str):
+        return value
+    # Las actividades vienen como "a) ...     b) ..." separadas por espacios.
+    value = re.sub(r"(?<=[.;\s])\s*(?=[b-h]\)\s?)", "\n", value)
+    lineas = [" ".join(linea.split()) for linea in value.splitlines()]
+    texto = "\n".join(linea for linea in lineas if linea)
+    return re.sub(r" {2,}", " ", texto).strip()
+
+
+def _parece_lista_actividades(value) -> bool:
+    return isinstance(value, str) and value.strip().lower().startswith("a)")
 
 
 def extract_factores(ws, archivo_rel: str) -> list[dict]:
     factores = []
     for row in range(FACTOR_START_ROW, FACTOR_END_ROW + 1):
+        meta, actividades = ws[f"K{row}"].value, ws[f"L{row}"].value
+        meta_nota = None
+        if _parece_lista_actividades(meta) and not _parece_lista_actividades(actividades):
+            meta, actividades = actividades, meta
+            meta_nota = META_INTERCAMBIADA_NOTA
         factores.append({
             "factor": ws[f"B{row}"].value,
             "tipo": "Oportunidad de mejora",
@@ -102,6 +118,10 @@ def extract_factores(ws, archivo_rel: str) -> list[dict]:
             "periodo_fin": as_iso_date(ws[f"G{row}"].value),
             "peso_prioridad": ws[f"H{row}"].value,
             "indicador_cumplimiento": ws[f"I{row}"].value,
+            "linea_base": _limpiar(ws[f"J{row}"].value),
+            "meta": _limpiar(meta),
+            "meta_nota": meta_nota,
+            "actividades": _limpiar(actividades),
             "fuente": fuente(archivo_rel, SHEET_NAME, row),
         })
     return factores
@@ -116,7 +136,7 @@ def main() -> None:
         archivo_rel = rel(path)
         ws = load_sheet(path, SHEET_NAME)
         data = {
-            "periodo_id": "2025-2026",
+            "periodo_id": "2024-2026",
             "modalidad": modalidad,
             "archivo_fuente": archivo_rel,
             "cabecera": extract_header(ws, archivo_rel, modalidad),
@@ -126,7 +146,7 @@ def main() -> None:
         out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         resumen.append((modalidad, len(data["factores"]), rel(out_path)))
 
-    print("Extracción Bronze -> Silver completada (plan anterior, 2025-2026):")
+    print("Extracción Bronze -> Silver completada (plan anterior, 2024-2026):")
     for modalidad, n_factores, out in resumen:
         print(f"  - {modalidad}: {n_factores} factores -> {out}")
 

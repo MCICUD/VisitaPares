@@ -14,6 +14,11 @@ const MODALIDAD_LABEL = {
   general: 'General / Institucional',
 };
 
+const MODALIDAD_PROGRAMA = {
+  investigacion: 'MCIC - INVESTIGACIÓN',
+  profundizacion: 'MCIC - PROFUNDIZACIÓN',
+};
+
 const MODALIDAD_TAG_CLASS = {
   investigacion: 'tag-inv',
   profundizacion: 'tag-prof',
@@ -236,7 +241,7 @@ function renderPlanBanner() {
   banner.innerHTML = `
     <div class="modality-banner-header">
       <div class="modality-banner-title">
-        ${MODALIDAD_ICON[state.modalidad]} Estás viendo: Modalidad ${MODALIDAD_LABEL[state.modalidad]}
+        ${MODALIDAD_ICON[state.modalidad]} Estás viendo: ${MODALIDAD_PROGRAMA[state.modalidad]}
       </div>
       ${fuenteHtml(cab.fuente, 'Ver cabecera en el archivo fuente')}
     </div>
@@ -253,7 +258,7 @@ function renderPlanBanner() {
 
   document.getElementById('plan-header-subtitle').innerHTML =
     `${escapeHtml(cab.macroproceso)} • ${escapeHtml(cab.proceso)} — ` +
-    `<strong>Modalidad activa: ${MODALIDAD_LABEL[state.modalidad]}</strong> ` +
+    `<strong>${MODALIDAD_PROGRAMA[state.modalidad]}</strong> ` +
     `(archivo <code>${escapeHtml(fileLabel(cab.fuente.archivo))}</code>)`;
 }
 
@@ -292,7 +297,7 @@ function renderPlanAnteriorSeccionHtml(anterior) {
   if (!anterior) return '';
   return `
     <div class="plan-vigente-divider plan-anterior-divider">
-      <span>🕓</span> Qué se hizo en 2025-2026 (plan anterior)${notaHtml(anterior.tipo_nota)}
+      <span>🕓</span> Qué se planteó en 2024-2026 (plan anterior)${notaHtml(anterior.tipo_nota)}
     </div>
     <p style="margin-bottom:12px;"><strong>Proyecto / Acción global:</strong><br>${escapeHtml(anterior.proyecto)}</p>
     <p style="margin-bottom:12px;"><strong>Origen:</strong> ${escapeHtml(anterior.origen)}</p>
@@ -301,8 +306,10 @@ function renderPlanAnteriorSeccionHtml(anterior) {
       <div class="plan-meta-row"><span>Periodo de Ejecución</span><span>${formatFecha(anterior.periodo_inicio)} – ${formatFecha(anterior.periodo_fin)}</span></div>
       <div class="plan-meta-row"><span>Peso-Prioridad</span><span>${escapeHtml(anterior.peso_prioridad)} / 10</span></div>
       <div class="plan-meta-row"><span>Indicador de Cumplimiento</span><span>${escapeHtml(anterior.indicador_cumplimiento)}</span></div>
+      <div class="plan-meta-row"><span>Línea Base</span><span>${escapeHtml(anterior.linea_base)}</span></div>
+      <div class="plan-meta-row"><span>Meta 2024-2026</span><span>${escapeHtml(anterior.meta)}${notaHtml(anterior.meta_nota)}</span></div>
     </div>
-    <div style="margin-bottom:20px;">${fuenteHtml(anterior.fuente, 'Ver archivo fuente 2025-2026')}</div>
+    <div style="margin-bottom:20px;">${fuenteHtml(anterior.fuente, 'Ver archivo fuente 2024-2026')}</div>
 
     <div class="plan-vigente-divider"><span>🚀</span> Qué se plantea para 2026-2027 (plan vigente)</div>
   `;

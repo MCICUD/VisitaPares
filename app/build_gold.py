@@ -193,7 +193,7 @@ FACTOR_RE = re.compile(r"^FACTOR\s*0*(\d{1,2})\b", re.IGNORECASE)
 
 def merge_plan_anterior(factores_vigente: list[dict], factores_2025: list[dict]) -> None:
     """Adjunta a cada factor del plan vigente (2026-2027) el registro
-    correspondiente del plan anterior (2025-2026), emparejado por número de
+    correspondiente del plan anterior (2024-2026), emparejado por número de
     FACTOR, bajo la clave 'plan_anterior' — así el sitio puede mostrar, para
     cada factor, qué se hizo antes y qué se plantea ahora en un solo lugar,
     sin un botón aparte que cambie toda la vista. Modifica in-place."""
