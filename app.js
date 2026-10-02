@@ -361,22 +361,27 @@ function renderEvidenciaSeguimientoHtml(evidencia) {
   if (!evidencia || !evidencia.total_archivos) {
     return '';
   }
-  const actividadesConArchivos = (evidencia.actividades || []).filter((a) => a.archivos && a.archivos.length > 0);
+  const actividadesConArchivos = (evidencia.actividades || []).filter(
+    (a) => (a.archivos && a.archivos.length > 0) || (a.anexos && a.anexos.length > 0)
+  );
   if (actividadesConArchivos.length === 0) {
     return '';
   }
+  const chip = (arch) => `
+    <a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(arch.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(arch.archivo)}">📄 ${escapeHtml(arch.nombre)} (${escapeHtml(arch.tamano_legible)})</a>`;
   return `
     <div style="margin-bottom:16px;">
-      <p style="margin-bottom:8px;"><strong>📎 Evidencia de seguimiento cargada en Data/Bronze:</strong></p>
+      <p style="margin-bottom:8px;"><strong>📎 Evidencia de seguimiento:</strong></p>
       ${actividadesConArchivos
         .map((a) => `
           <div style="margin-bottom:10px;">
             <div style="font-size:12.5px; font-weight:700; color: var(--text-main); margin-bottom:4px;">${escapeHtml(a.nombre)}</div>
-            <div style="display:flex; flex-wrap:wrap; gap:6px;">
-              ${a.archivos.map((arch) => `
-                <a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(arch.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(arch.archivo)}">📄 ${escapeHtml(arch.nombre)} (${escapeHtml(arch.tamano_legible)})</a>
-              `).join('')}
-            </div>
+            ${a.archivos && a.archivos.length ? `<div style="display:flex; flex-wrap:wrap; gap:6px;">${a.archivos.map(chip).join('')}</div>` : ''}
+            ${a.anexos && a.anexos.length ? `
+              <details style="margin-top:6px;">
+                <summary style="cursor:pointer; font-size:12px; color: var(--text-muted);">Anexos (${a.anexos.length})</summary>
+                <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:6px;">${a.anexos.map(chip).join('')}</div>
+              </details>` : ''}
           </div>
         `).join('')}
     </div>

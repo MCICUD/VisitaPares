@@ -6,8 +6,9 @@ Este documento deja todo el contexto para que, en otra sesión, se pueda pedir:
 - Primera versión: 30 de septiembre de 2026 (correcciones de los pares, `CorreccionEvidencias.ods`, raíz del repo).
 - **Segunda versión: 1 de octubre de 2026.** La coordinación aprobó NuevaData con 13 comentarios (§4) y cargó
   insumos nuevos directamente en `Original/`. Esta versión los incorpora.
-- **Estado: PENDIENTE DE REVISIÓN DEL USUARIO.** Nada de `NuevaData/` está en `Data/` todavía. El micrositio
-  sigue mostrando las evidencias anteriores, salvo los dos cambios de código descritos en §5.
+- **Estado: INTEGRADO (1-oct-2026).** `Presentacion/` reemplazó los FACTOR de `Data/Bronze/.../Plan de Mejoramiento` (pipeline completa corrida, Gold regenerado).
+  Las subcarpetas `Anexos/` se listan en el sitio como «Anexos» plegables (extractor + `app.js`). Los originales con datos personales
+  NO se publicaron: siguen solo en `NuevaData/Original/` (gitignored), no en `Data/Bronze/PII_Interno/` (que está versionado).
 - Los pares valoraron conservar la data original, pero no que estuviera «esparcida»: por eso se entrega la
   original (`Original/`) y la analizada (`Presentacion/`), siempre separadas por modalidad.
 

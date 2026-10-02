@@ -224,7 +224,7 @@ def merge_evidencia_seguimiento(factores: list[dict], evidencia: dict) -> None:
         numero = m.group(1) if m else None
         entrada = por_numero.get(numero) if numero else None
         actividades = entrada["actividades"] if entrada else []
-        total_archivos = sum(len(a["archivos"]) for a in actividades)
+        total_archivos = sum(len(a["archivos"]) + len(a.get("anexos", [])) for a in actividades)
         f["evidencia_seguimiento"] = {
             "actividades": actividades,
             "total_archivos": total_archivos,

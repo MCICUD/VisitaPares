@@ -52,6 +52,16 @@ def listar_archivos(carpeta: Path) -> list[dict]:
     return archivos
 
 
+def separar_anexos(carpeta: Path) -> tuple[list[dict], list[dict]]:
+    """Separa los archivos principales de la actividad de los que están dentro
+    de una subcarpeta "Anexos" (registro fotográfico, gráficos, documentos de apoyo)."""
+    principales, anexos = [], []
+    for a in listar_archivos(carpeta):
+        partes = Path(a["archivo"]).relative_to(rel(carpeta)).parts[:-1]
+        (anexos if any(x.lower() == "anexos" for x in partes) else principales).append(a)
+    return principales, anexos
+
+
 def procesar_modalidad(modalidad: str, base: Path) -> dict:
     seguimiento_dir = base / "Plan de Mejoramiento"
     rc_aac_dir = base / "Procesos de RC y AAC"
@@ -74,9 +84,11 @@ def procesar_modalidad(modalidad: str, base: Path) -> dict:
                 sueltos = []
                 for actividad_dir in sorted(item.iterdir()):
                     if actividad_dir.is_dir():
+                        principales, anexos = separar_anexos(actividad_dir)
                         actividades.append({
                             "nombre": actividad_dir.name,
-                            "archivos": listar_archivos(actividad_dir),
+                            "archivos": principales,
+                            "anexos": anexos,
                         })
                     elif actividad_dir.is_file():
                         # archivo suelto directamente bajo el FACTOR, sin actividad asignada
@@ -105,7 +117,7 @@ def main() -> None:
         out_path = SILVER_DIR / f"seguimiento_evidencia_{modalidad}.json"
         out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         n_archivos = sum(
-            len(a["archivos"]) for f in data["factores"].values() for a in f["actividades"]
+            len(a["archivos"]) + len(a.get("anexos", [])) for f in data["factores"].values() for a in f["actividades"]
         ) + len(data["documentos_generales"]) + len(data["procesos_rc_aac"])
         resumen.append((modalidad, n_archivos, out_path.relative_to(ROOT)))
 

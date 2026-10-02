@@ -73,9 +73,9 @@ ENFASIS_POR_PROYECTO = {"195": "Teleinformática", "295": "Sistemas de Informaci
 # Solicitudes de los pares (visita sep 2026) y responsables, tomados de CorreccionEvidencias.ods
 SOLICITUDES_PARES = {
     1: ("PEP listo. Documento según la conversación del lunes, con los ajustes y socializado en el Consejo de Carrera.", "Sebastián Vanegas"),
-    2: ("Asistencias a las inducciones: generar documento con los datos (quitar ruido); actualizaciones de la página web (dejar el enlace); publicidad de las maestrías por correo; Open Day con lista de asistencia; socialización de grupos de investigación. Se actualiza cada semestre por proceso de admisiones.", "Juan y Karol"),
+    2: ("Asistencias a las inducciones: documento con los datos de asistencia; actualizaciones de la página web (dejar el enlace); publicidad de las maestrías por correo; Open Day con lista de asistencia; socialización de grupos de investigación. Se actualiza cada semestre por proceso de admisiones.", "Juan y Karol"),
     3: ("Solicitar a los profesores evidencia de las capacitaciones del periodo 2025-2026 adicionales a la información del cuadro.", "Karol (correo de solicitud)"),
-    4: ("Retirar el documento de experiencias y la infografía; solicitar a los egresados 2022-2026 el sector en el que laboran actualmente (formulario: nombre y sector).", "Karol y Juan (tarea enviada a la OATI)"),
+    4: ("Solicitar a los egresados 2022-2026 el sector en el que laboran actualmente (formulario: nombre y sector).", "Karol y Juan (tarea enviada a la OATI)"),
     5: ("Syllabus actualizados.", "—"),
     6: ("Número de estudiantes informados (activos en la ventana de tiempo); tabla de estudiantes que solicitaron prórroga; datos de PAGOT y graduados.", "Karol y Juan"),
     7: ("Correo solicitando a los profesores información sobre su participación en convenios, con soporte.", "—"),
@@ -349,7 +349,7 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     otra = "Profundización" if etiqueta == "Investigación" else "Investigación"
     src = factor_dirs(mod["plan"])[2] / "a. Divulgación de propuestas académicas"
     act = dest / "a. Divulgación de propuestas académicas"
-    sop = act / "soportes"
+    sop = act / "Anexos"
     imagenes = [mod["captura_web"], "Actualizacion pagiona web mcic.png", "Inducción 2025-1.jpg",
                 "Divulgación grupos de investigación 2025-1.jpg", "Divulgación grupos de investigación 2025-3.jpg",
                 "Encuentro estudiantes evaluacion docente.jpg", "Realización del OPEN DAY 3.0.jpeg", "Inducción 2026-3.jpeg"]
@@ -370,18 +370,18 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 
     eventos = [
         # fecha, periodo, actividad, tipo, lugar, convoca, alcance, n_mod, n_otra, total, soporte_pres, soporte_orig, nota
-        ("2025-01-31", "2025-1", "Comunicación de inicio de clases y convocatoria a la inducción (7 de febrero de 2025, 6:15 p. m.) con el calendario del semestre", "Comunicación a estudiantes", "Correo institucional", "Coordinación MCIC (cuenta de Investigación)", "Investigación", ind25[0], ind25[1], ind25[2] + ev["induccion_2025_1_correo"]["destinatarios_externos"], None, f"{orig}/Induccion 2025-1.pdf", "Destinatarios en copia oculta."),
-        ("2025-02-07", "2025-1", "Inducción de estudiantes nuevos 2025-1 (registro fotográfico)", "Inducción", "Auditorio Sabio Caldas", "Coordinación MCIC", "Ambas", None, None, None, "soportes/Inducción 2025-1.jpg", None, "Sin planilla de asistencia en la evidencia."),
-        (None, "2025-1", "Divulgación de grupos de investigación 2025-1 (registro fotográfico)", "Divulgación de grupos de investigación", "Auditorio, Facultad de Ingeniería", "Facultad de Ingeniería", "Ambas", None, None, None, "soportes/Divulgación grupos de investigación 2025-1.jpg", None, "Sin planilla de asistencia en la evidencia."),
-        ("2025-08-22", "2025-3", "Invitación a la jornada de divulgación de grupos de investigación (asistencia obligatoria para quienes cursan Seminario de Investigación)", "Comunicación a estudiantes", "Correo institucional", "Coordinación MCIC (cuenta de Investigación)", "Investigación", div25[0], div25[1], div25[2] + ev["divulgacion_grupos_2025_3_correo"]["destinatarios_sin_nombre"], None, f"{orig}/Divulgacio grupos 2025-3.pdf", "Incluye el afiche del evento."),
-        ("2025-08-30", "2025-3", "Jornada de divulgación de grupos de investigación de la Facultad (8:00 a. m. a 12:00 m.). Invitan: Maestría en Ingeniería Industrial, MCIC Investigación y Profundización, Maestría en Gerencia Integral de Proyectos y Maestría en Telecomunicaciones Móviles", "Divulgación de grupos de investigación", "Auditorio Sabio Caldas", "Facultad de Ingeniería", "Ambas", None, None, None, "soportes/Divulgación grupos de investigación 2025-3.jpg", None, "Registro fotográfico."),
-        (None, "—", "Encuentro con estudiantes – evaluación docente (registro fotográfico)", "Encuentro con estudiantes", "Sala de cómputo, Facultad de Ingeniería", "Coordinación MCIC", "Ambas", None, None, None, "soportes/Encuentro estudiantes evaluacion docente.jpg", None, "El soporte no trae fecha."),
-        ("2026-02-02", "2026-1", "Inducción 2026-1 (control de asistencia GD-PR-008-FR-026)", "Inducción", "Facultad de Ingeniería", "Coordinación MCIC", "Ambas", ind26[0], ind26[1], ind26[2], None, f"{orig}/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf", "Planilla con firmas."),
-        ("2026-02-21", "2026-1", "Presentación de grupos de investigación – Facultad de Ingeniería 2026-1 (8:00 a. m. a 12:00 m.)", "Divulgación de grupos de investigación", "Auditorio Sabio Caldas", "Facultad de Ingeniería – Posgrados", "Ambas", gru26[0], gru26[1], gru26[2], None, f"{orig}/Presentación de Grupos de Investigación MCIC2026-1.pdf", f"Además firmaron {tr['eventos']['presentacion_grupos_2026_1_lista']['docentes_y_grupos']} docentes y representantes de grupos de investigación."),
-        ("2026-04-30", "2026-1", "Difusión del Open Day 3.0 de posgrados UD (evento del 15 de mayo de 2026, 5:00 p. m.)", "Divulgación de la oferta académica", "Correo institucional", "Decanatura Facultad de Ingeniería – Eventos", "Ambas", None, None, None, "soportes/Open Day.pdf", None, "Material publicitario para canales de cada programa de posgrado; incluye enlace de inscripción."),
-        ("2026-05-15", "2026-1", "Realización del Open Day 3.0 (registro fotográfico)", "Divulgación de la oferta académica", "Auditorio Sabio Caldas y Muro de Escalar", "Facultad de Ingeniería", "Ambas", None, None, None, "soportes/Realización del OPEN DAY 3.0.jpeg", None, "Sin planilla de asistencia en la evidencia."),
-        (None, "2026-3", "Inducción 2026-3 – presentación de grupos de investigación (registro fotográfico, grupo LIDER)", "Inducción", "Auditorio, Facultad de Ingeniería", "Coordinación MCIC", "Ambas", None, None, None, "soportes/Inducción 2026-3.jpeg", None, "Registro fotográfico."),
-        ("2026-08-22", "2026-3", "Socialización de grupos de investigación (8:00 a. m. a 12:00 m.)", "Divulgación de grupos de investigación", "Auditorio Sabio Caldas", "Facultad de Ingeniería", "Ambas", soc26[0], soc26[1], soc26[2], None, f"{orig}/Asistencia 22-08-22 2026-3.pdf", f"Planilla compartida con otros programas ({ev['socializacion_grupos_2026_3_lista']['total_registros_planilla']} registros en total)."),
+        ("2025-01-31", "2025-1", "Comunicación de inicio de clases y convocatoria a la inducción (7 de febrero de 2025, 6:15 p. m.) con el calendario del semestre", "Comunicación a estudiantes", "Correo institucional", "Coordinación MCIC (cuenta de Investigación)", "Investigación", ind25[0], ind25[1], ind25[2] + ev["induccion_2025_1_correo"]["destinatarios_externos"], None, "Induccion 2025-1.pdf (reservado)", "Destinatarios en copia oculta."),
+        ("2025-02-07", "2025-1", "Inducción de estudiantes nuevos 2025-1 (registro fotográfico)", "Inducción", "Auditorio Sabio Caldas", "Coordinación MCIC", "Ambas", None, None, None, "Anexos/Inducción 2025-1.jpg", None, "Sin planilla de asistencia en la evidencia."),
+        (None, "2025-1", "Divulgación de grupos de investigación 2025-1 (registro fotográfico)", "Divulgación de grupos de investigación", "Auditorio, Facultad de Ingeniería", "Facultad de Ingeniería", "Ambas", None, None, None, "Anexos/Divulgación grupos de investigación 2025-1.jpg", None, "Sin planilla de asistencia en la evidencia."),
+        ("2025-08-22", "2025-3", "Invitación a la jornada de divulgación de grupos de investigación (asistencia obligatoria para quienes cursan Seminario de Investigación)", "Comunicación a estudiantes", "Correo institucional", "Coordinación MCIC (cuenta de Investigación)", "Investigación", div25[0], div25[1], div25[2] + ev["divulgacion_grupos_2025_3_correo"]["destinatarios_sin_nombre"], None, "Divulgacio grupos 2025-3.pdf (reservado)", "Incluye el afiche del evento."),
+        ("2025-08-30", "2025-3", "Jornada de divulgación de grupos de investigación de la Facultad (8:00 a. m. a 12:00 m.). Invitan: Maestría en Ingeniería Industrial, MCIC Investigación y Profundización, Maestría en Gerencia Integral de Proyectos y Maestría en Telecomunicaciones Móviles", "Divulgación de grupos de investigación", "Auditorio Sabio Caldas", "Facultad de Ingeniería", "Ambas", None, None, None, "Anexos/Divulgación grupos de investigación 2025-3.jpg", None, "Registro fotográfico."),
+        (None, "—", "Encuentro con estudiantes – evaluación docente (registro fotográfico)", "Encuentro con estudiantes", "Sala de cómputo, Facultad de Ingeniería", "Coordinación MCIC", "Ambas", None, None, None, "Anexos/Encuentro estudiantes evaluacion docente.jpg", None, "El soporte no trae fecha."),
+        ("2026-02-02", "2026-1", "Inducción 2026-1 (control de asistencia GD-PR-008-FR-026)", "Inducción", "Facultad de Ingeniería", "Coordinación MCIC", "Ambas", ind26[0], ind26[1], ind26[2], None, "LISTA ASISTENCIA INDUCCIONES 2026-1.pdf (reservado)", "Planilla con firmas."),
+        ("2026-02-21", "2026-1", "Presentación de grupos de investigación – Facultad de Ingeniería 2026-1 (8:00 a. m. a 12:00 m.)", "Divulgación de grupos de investigación", "Auditorio Sabio Caldas", "Facultad de Ingeniería – Posgrados", "Ambas", gru26[0], gru26[1], gru26[2], None, "Presentación de Grupos de Investigación MCIC2026-1.pdf (reservado)", f"Además firmaron {tr['eventos']['presentacion_grupos_2026_1_lista']['docentes_y_grupos']} docentes y representantes de grupos de investigación."),
+        ("2026-04-30", "2026-1", "Difusión del Open Day 3.0 de posgrados UD (evento del 15 de mayo de 2026, 5:00 p. m.)", "Divulgación de la oferta académica", "Correo institucional", "Decanatura Facultad de Ingeniería – Eventos", "Ambas", None, None, None, "Anexos/Open Day.pdf", None, "Material publicitario para canales de cada programa de posgrado; incluye enlace de inscripción."),
+        ("2026-05-15", "2026-1", "Realización del Open Day 3.0 (registro fotográfico)", "Divulgación de la oferta académica", "Auditorio Sabio Caldas y Muro de Escalar", "Facultad de Ingeniería", "Ambas", None, None, None, "Anexos/Realización del OPEN DAY 3.0.jpeg", None, "Sin planilla de asistencia en la evidencia."),
+        (None, "2026-3", "Inducción 2026-3 – presentación de grupos de investigación (registro fotográfico, grupo LIDER)", "Inducción", "Auditorio, Facultad de Ingeniería", "Coordinación MCIC", "Ambas", None, None, None, "Anexos/Inducción 2026-3.jpeg", None, "Registro fotográfico."),
+        ("2026-08-22", "2026-3", "Socialización de grupos de investigación (8:00 a. m. a 12:00 m.)", "Divulgación de grupos de investigación", "Auditorio Sabio Caldas", "Facultad de Ingeniería", "Ambas", soc26[0], soc26[1], soc26[2], None, "Asistencia 22-08-22 2026-3.pdf (reservado)", f"Planilla compartida con otros programas ({ev['socializacion_grupos_2026_3_lista']['total_registros_planilla']} registros en total)."),
     ]
     eventos = [e for e in eventos if e[6] in ("Ambas", etiqueta)]
 
@@ -415,7 +415,7 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     # --- Resumen
     ws = st.hoja(wb, "Resumen", f"Factor 2 · Estudiantes — {mod['programa']}",
                  "Divulgación de la oferta académica, páginas web, inducciones y socialización de grupos de investigación. "
-                 "Consolidado a partir de capturas, fotografías, correos y planillas de asistencia; los soportes con datos personales se conservan en Original/.")
+                 "Consolidado a partir de capturas, fotografías, correos y planillas de asistencia; los registros con datos personales se resguardan y no se publican.")
     fila = encabezado_factor(ws, 4, 2, m)
     con_lista = [e for e in eventos if e[7] is not None]
     fila = st.kpis(ws, fila, [
@@ -431,8 +431,8 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 
     # --- Páginas web
     ws = st.hoja(wb, "Páginas web", "Páginas web de la Maestría", "Enlaces vigentes y capturas de la actualización.", 5)
-    webs = [[etiqueta, mod["web"], mod["web"], "Sitio propio de la modalidad", "Captura de la actualización", f"soportes/{mod['captura_web']}"],
-            ["Común (ambas modalidades)", "Sitio MCIC con menú para aspirantes de Investigación y Profundización", None, "Banner de inscripciones abiertas y acreditación de alta calidad (Res. 024858 de 2022)", "Captura del sitio común", "soportes/Actualizacion pagiona web mcic.png"]]
+    webs = [[etiqueta, mod["web"], mod["web"], "Sitio propio de la modalidad", "Captura de la actualización", f"Anexos/{mod['captura_web']}"],
+            ["Común (ambas modalidades)", "Sitio MCIC con menú para aspirantes de Investigación y Profundización", None, "Banner de inscripciones abiertas y acreditación de alta calidad (Res. 024858 de 2022)", "Captura del sitio común", "Anexos/Actualizacion pagiona web mcic.png"]]
     st.tabla(ws, 4, ["Modalidad", "Enlace", "_url", "Contenido", "Soporte", "_sop"], webs, [26, 60, 50, 40], links={1: 2, 4: 5})
 
     # --- Actividades
@@ -447,7 +447,7 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
                       e[11] or "—", e[12]])
     st.tabla(ws, 4, ["Fecha", "Periodo", "Actividad", "Tipo", "Lugar / medio", "Convoca", "Alcance",
                      f"Estudiantes de {etiqueta}", f"Estudiantes de {otra}", "Total registros", "Soporte (Presentación)", "_s",
-                     "Soporte original (contiene datos personales)", "Observación"],
+                     "Documento original (reservado: contiene datos personales)", "Observación"],
              filas, [11, 9, 48, 20, 20, 22, 12, 13, 13, 11, 14, 42, 34], links={10: 11})
 
     # --- Cobertura
@@ -456,7 +456,7 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     st.tabla(ws, 4, ["Cohorte", "Admitidos", "Actividad", "Asistentes de la cohorte", "Cobertura"], cobertura, [12, 12, 52, 22, 12])
 
     # --- Galería
-    ws = st.hoja(wb, "Galería", "Registro fotográfico y capturas", "Miniaturas de los soportes copiados en la carpeta «soportes».", 6)
+    ws = st.hoja(wb, "Galería", "Registro fotográfico y capturas", "Miniaturas de los anexos copiados en la carpeta «Anexos».", 6)
     fila = 4
     for i, f in enumerate([x for x in imagenes]):
         col = "A" if i % 2 == 0 else "E"
@@ -464,14 +464,14 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
             fila += 18
         ws[f"{col}{fila}"] = f.rsplit(".", 1)[0]
         ws[f"{col}{fila}"].font = st.FONT_SECCION
-        ws[f"{col}{fila}"].hyperlink = f"soportes/{f}"
+        ws[f"{col}{fila}"].hyperlink = f"Anexos/{f}"
         st.miniatura(ws, f"{col}{fila + 1}", sop / f, 300)
     for col in "ABCDEFGH":
         ws.column_dimensions[col].width = 12
 
     nombre = f"F2_Divulgacion_y_Estudiantes_{nombre_mod}.xlsx"
     wb.save(act / nombre)
-    return [f"a. Divulgación de propuestas académicas/{nombre}"] + [f"a. Divulgación de propuestas académicas/soportes/{x}" for x in imagenes + ["Open Day.pdf"]]
+    return [f"a. Divulgación de propuestas académicas/{nombre}"] + [f"a. Divulgación de propuestas académicas/Anexos/{x}" for x in imagenes + ["Open Day.pdf"]]
 
 
 # ---------------------------------------------------------------------------
@@ -757,7 +757,7 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 4 · Egresados — caracterización e impacto — {mod['programa']}",
                  f"Análisis de la base «Hoja de Vida de Egresados» del módulo institucional de la OATI ({extra['hojas']['datos basicos']} registros, {len(personas)} egresados distintos) separada por modalidad. "
-                 "El archivo original (con nombres, documentos y fechas de nacimiento) se conserva solo en Original/.")
+                 "El archivo fuente (con nombres, documentos y fechas de nacimiento) se resguarda y no se publica.")
     fila = encabezado_factor(ws, 4, 4, m)
     fila = st.kpis(ws, fila, [("Egresados OATI (total)", len(personas)), (f"Egresados de {etiqueta}", len(propios)),
                               ("Plan anterior (sin modalidad)", len(ante)), ("Sin registro en Cóndor", len(grupos["Sin registro en Cóndor"])),
@@ -809,7 +809,7 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
         ["Qué sí aporta", "Trayectoria profesional y docente, vinculación laboral marcada como actual, participación en grupos/proyectos, ponencias y patentes, y nivel de segunda lengua. Permite caracterizar el impacto profesional, académico y científico."],
         ["Qué no aporta", "El sector en el que laboran hoy los egresados 2022-2026 (el formulario pedido a la OATI sigue pendiente), fechas de actualización de la hoja de vida y datos de contacto vigentes."],
         ["Separación por modalidad", "Cruce por documento con Cóndor y las bases MCIC. Los egresados del plan anterior y los que no aparecen en Cóndor no tienen modalidad."],
-        ["Privacidad", "Esta presentación no incluye nombres, documentos, fechas de nacimiento, correos ni teléfonos; las instituciones se agregan sin asociarlas a personas."],
+        ["Privacidad", "Este informe no incluye nombres, documentos, fechas de nacimiento, correos ni teléfonos; las instituciones se agregan sin asociarlas a personas."],
         ["Calidad de los datos", "El tipo de entidad (pública/privada/mixta) viene del registro del propio egresado y tiene inconsistencias; el sector es una estimación por palabras clave."],
     ]
     st.tabla(ws, 3, ["Tema", "Detalle"], lim, [28, 130], filtro=False, congelar=False)
@@ -923,6 +923,11 @@ def factor5(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     ws = st.hoja(wb, "Comparación SNIES", "Comparación de las carpetas de syllabus de acreditación", "SNIES 17528 (Investigación) frente a SNIES 116070 (Profundización), por huella MD5.", 3)
     st.tabla(ws, 4, ["Archivo en SNIES 17528", "Archivo en SNIES 116070", "Resultado"], snies, [70, 70, 12])
 
+    for orig in sorted((fdir / "SNIES17528-Syllabus").rglob("*")):
+        if orig.is_file():
+            partes = [re.sub(r"(.)╠ü", lambda mm: unicodedata.normalize("NFC", mm.group(1) + "\u0301"), x) for x in orig.relative_to(fdir / "SNIES17528-Syllabus").parts]
+            copiar(orig, act_b / "Anexos" / "Syllabus SNIES (acreditación)" / Path(*partes[:-1]), partes[-1])
+            out.append(f"{act_b.name}/Anexos/Syllabus SNIES (acreditación)/{'/'.join(partes)}")
     nombre = "F5_Verificacion_Syllabus_Investigacion_vs_Profundizacion.xlsx"
     act_b.mkdir(parents=True, exist_ok=True)
     wb.save(act_b / nombre)
@@ -1118,7 +1123,7 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 6 · Permanencia y graduación — {mod['programa']}",
                  "Estudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. "
-                 "Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se conservan solo en Original/.")
+                 "Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no se publican.")
     fila = encabezado_factor(ws, 4, 6, m)
     fila = st.kpis(ws, fila, [("Solicitudes de prórroga 2026-3", len(filas)), ("Estudiantes distintos", unicos),
                               ("De ellos, PAGOT", n_pagot), ("PAGOT en seguimiento 2026-3", len(seg)),
@@ -1164,7 +1169,7 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     ws = st.hoja(wb, "Acompañamiento", "Reunión de acompañamiento académico (06/04/2026, 7:00 p. m., virtual)",
                  "Convocatoria de la coordinación a estudiantes cuyo tiempo de permanencia vence en 2026-1, para orientar rutas de culminación del trabajo de grado.", 3)
     st.tabla(ws, 4, ["Modalidad", "Estudiantes convocados", "Fuente"],
-             [[k, v, "Correo de convocatoria (Original/…/FACTOR 6/Reunión de acompañamiento.pdf)"] for k, v in sorted(conv_mod.items())], [24, 22, 70], filtro=False)
+             [[k, v, "Correo de convocatoria de la coordinación (6 de abril de 2026)"] for k, v in sorted(conv_mod.items())], [24, 22, 70], filtro=False)
 
     ws = st.hoja(wb, "Graduados", f"Graduados 2022-2026 — {etiqueta}", "Año estimado a partir de la última matrícula registrada en Cóndor.", 7)
     st.tabla(ws, 4, ["Modalidad"] + anios + ["Total"], grad_filas, [28, 9, 9, 9, 9, 9, 10], filtro=False)
@@ -1232,10 +1237,11 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     act_a = dest / "a. Presentación a nuevos estudiantes de procesos de investigación"
     copiar(fdir / "Directorio Grupos de Inv MCIC.xlsx", act_a)
     out.append(f"{act_a.name}/Directorio Grupos de Inv MCIC.xlsx")
+    act_b = dest / "b. Socialización y vinculación de actividades de investigación"
     if etiqueta == "Investigación":
         for f in sorted((fdir / "ANEXOS PONENCIAS").iterdir()):
-            copiar(f, dest / "ANEXOS PONENCIAS")
-            out.append(f"ANEXOS PONENCIAS/{f.name}")
+            copiar(f, act_b / "Anexos" / "Ponencias")
+            out.append(f"{act_b.name}/Anexos/Ponencias/{f.name}")
 
     fuente = fdir / "Consolidado_trabajos_grado_MCIC_2022_2026 (7).xlsx"
     todos, _ = clasificar_consolidado(fuente)
@@ -1261,7 +1267,7 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
 
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 8 · Trabajos de grado vinculados a grupos de investigación — {etiqueta}",
-                 "Versión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo se conserva sin cambios en Original/). "
+                 "Versión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). "
                  "Se omiten el código estudiantil y la ruta del archivo fuente.")
     fila = encabezado_factor(ws, 4, 8, m)
     fila = st.kpis(ws, fila, [(f"Trabajos de {etiqueta}", len(propios)), ("Sustentados", len(sust)), ("Pendientes / sin verificación", len(pend)), ("Grupos de investigación", len(grupos))])
@@ -1343,9 +1349,9 @@ def factor9(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     matric = sum(1 for r in ROSTER if r["proyecto"] == mod["proyecto"] and r["estado"] == "Matriculado")
 
     divulgacion = [
-        ["31/01/2025", "Comunicación de inicio de clases e inducción 2025-1", "Correo a estudiantes", "Investigación", "Original/…/FACTOR 9/Induccion 2025-1.pdf"],
-        ["02/02/2026", f"Inducción 2026-1: {ind26.get(etiqueta, 0)} estudiantes de {etiqueta} firmaron la planilla (cohorte 2026-1 admitida: {admit})", "Inducción", "Ambas", "Original/…/FACTOR 9/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf"],
-        ["—", "Encuentro con estudiantes – evaluación docente (registro fotográfico)", "Encuentro", "Ambas", "Presentacion/…/FACTOR 2/…/soportes/Encuentro estudiantes evaluacion docente.jpg"],
+        ["31/01/2025", "Comunicación de inicio de clases e inducción 2025-1", "Correo a estudiantes", "Investigación", "Correo de inicio de clases (reservado)"],
+        ["02/02/2026", f"Inducción 2026-1: {ind26.get(etiqueta, 0)} estudiantes de {etiqueta} firmaron la planilla (cohorte 2026-1 admitida: {admit})", "Inducción", "Ambas", "Planilla de asistencia (reservada)"],
+        ["—", "Encuentro con estudiantes – evaluación docente (registro fotográfico)", "Encuentro", "Ambas", "Presentacion/…/FACTOR 2/…/Anexos/Encuentro estudiantes evaluacion docente.jpg"],
         ["23-24/09/2026", "Presentación «Bienestar Universitario y Buen Vivir» a los pares (portafolio de servicios y uso por estudiantes MCIC)", "Presentación institucional", "Ambas", "a. Solicitud a Bienestar…/Bienestar MCIC.pptx"],
     ]
     divulgacion = [d for d in divulgacion if d[3] in ("Ambas", etiqueta)]
@@ -1589,11 +1595,11 @@ def factor11(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     enc = ant / "Encuestas"
     for grupo in ("Estudiantes", "Docentes", "Egresados"):
         for png in sorted((enc / grupo).rglob("*.png")):
-            copiar(png, d25 / "Gráficos de las encuestas" / grupo)
-            out.append(rel(d25 / "Gráficos de las encuestas" / grupo / png.name))
+            copiar(png, d25 / "Anexos" / "Gráficos de las encuestas" / grupo)
+            out.append(rel(d25 / "Anexos" / "Gráficos de las encuestas" / grupo / png.name))
     for pdf in sorted((enc / "Soportes").glob("*.pdf")):
-        copiar(pdf, d25 / "Invitaciones a las encuestas")
-        out.append(rel(d25 / "Invitaciones a las encuestas" / pdf.name))
+        copiar(pdf, d25 / "Anexos" / "Invitaciones a las encuestas")
+        out.append(rel(d25 / "Anexos" / "Invitaciones a las encuestas" / pdf.name))
 
     res26 = resultados_autoevaluacion_2026(fdir / "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx")
     n26 = {}
@@ -1614,7 +1620,7 @@ def factor11(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
         ["Propósito", "Informe de autoevaluación con fines de renovación de la acreditación en alta calidad (octubre de 2025).", "Proceso de autoevaluación permanente (Sistema Interno de Aseguramiento de la Calidad), 2026."],
         ["Documento principal", f"{informe.name}", f"MCIC AutoevaluacionPermanenteInstitucional {sigla}.pdf (29 páginas)"],
         ["Instrumentos", "Encuestas a estudiantes, docentes, egresados, directivos y empleadores aplicadas en marzo de 2025.", "Instrumentos de apreciación institucionales (Modelo CNA 2020) a estudiantes, docentes y directivos; periodo 2026-1."],
-        ["Resultados", "Gráficos por pregunta de cada encuesta (carpeta «Gráficos de las encuestas»). Las bases de respuestas contienen datos personales y quedan en Original/.", "Libro «Resultados Proceso Autoevaluación 2026-1» y análisis general por estamento (elaborado con apoyo de IA, con recomendación de análisis propio)."],
+        ["Resultados", "Gráficos por pregunta de cada encuesta (carpeta «Anexos»). Las bases de respuestas contienen datos personales y se resguardan.", "Libro «Resultados Proceso Autoevaluación 2026-1» y análisis general por estamento (elaborado con apoyo de IA, con recomendación de análisis propio)."],
         ["Plan de mejoramiento asociado", "Plan 2024-2026 (formato AA-FR-001), ver Factor 11 de este plan.", f"Plan 2026-2027 (formato CC-FR-001) — «CC-FR-001 Plan de mejoramiento {sigla}.xlsx»."],
     ], [28, 80, 80], filtro=False, congelar=False)
     ws = st.hoja(wb, "Resultados 2026-1", "Promedio por factor de las preguntas de escala 1-5 (2026-1)",
@@ -1755,6 +1761,8 @@ def factor12(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     nombre_pptx = "Laboratorios Maestría - MIC.pptx"
     diapositiva_estudiantes(fdir / nombre_pptx, c / nombre_pptx, etiqueta, filas_slide, nota)
     out.append(f"{c.name}/{nombre_pptx}")
+    copiar(fdir / nombre_pptx, c / "Anexos")
+    out.append(f"{c.name}/Anexos/{nombre_pptx}")
 
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 12 · Estudiantes activos por énfasis 2022-2026 — {mod['programa']}",
@@ -1797,50 +1805,35 @@ def sin_cambios(n: int, mod: dict, dest: Path) -> list[str]:
 # ---------------------------------------------------------------------------
 # Índice por modalidad
 # ---------------------------------------------------------------------------
-ESTADO = {1: "Actualizado (PEP definitivo pendiente)", 2: "Actualizado", 3: "Actualizado (ajustes pendientes)", 4: "Actualizado (nuevo informe de egresados)",
-          5: "Actualizado (syllabus en PDF pendientes)", 6: "Actualizado", 7: "Actualizado (enlace URELINTER)", 8: "Actualizado",
-          9: "Actualizado", 10: "Actualizado", 11: "Actualizado (2025 y 2026 diferenciadas)", 12: "Actualizado"}
+ESTADO = {n: "Disponible" for n in range(1, 13)}
+ESTADO.update({1: "Disponible (PEP definitivo en elaboración)", 3: "Disponible (en recolección)", 5: "Disponible (syllabus en PDF en preparación)"})
 OBS = {
-    1: "PEP vigente de la modalidad y actas de las jornadas con docentes; se agrega el documento de orientaciones PFA (Vicerrectoría Académica) mientras llega el PEP definitivo.",
-    2: "Libro único con páginas web, actividades, cobertura de cohortes y galería; los soportes con datos personales quedan en Original/.",
-    3: "Se mantiene así por ahora. Pendiente: soportes de capacitaciones 2025-2026 que están cargando los profesores (columna por diligenciar).",
-    4: "Se retiran «Experiencias UD» e «Infografía Esquema Normativo». Nuevo informe de caracterización e impacto a partir de la Hoja de Vida de Egresados (OATI), separado por modalidad. Pendiente: formulario de sector laboral a egresados 2022-2026.",
-    5: "Los syllabus no se diferencian por modalidad; el plan de estudios (Res. 016 de 2025) sí. Se retiraron tres hallazgos de la verificación. Pendiente: pasar los syllabus a PDF.",
-    6: "Prórrogas 2026-3 (tres rondas) con ID, cruce con PAGOT 2026-3 y graduados; sin datos personales.",
-    7: "Normativa institucional + enlace oficial de convenios vigentes de URELINTER. Pendiente: información de profesores sobre convenios.",
-    8: "Consolidado de trabajos de grado separado por modalidad (proyectos de investigación y de profundización diferenciados); ponencias solo en Investigación, de donde proviene el soporte.",
-    9: "Incluye estímulos (Res. 143 de 2025 solo aplica a Investigación) y estadísticas de uso de Bienestar.",
+    1: "PEP de la modalidad, actas de las jornadas con docentes y orientaciones PFA de la Vicerrectoría Académica.",
+    2: "Libro con páginas web, actividades, cobertura de cohortes y galería; anexos con el registro fotográfico y las capturas.",
+    3: "Participación en capacitación y movilidad docente. En recolección: soportes de capacitaciones 2025-2026 reportados por los profesores.",
+    4: "Portafolio de servicios, proyecto de acuerdo de política de egresados e informe de caracterización e impacto con la Hoja de Vida de Egresados (OATI), separado por modalidad.",
+    5: "Plan de estudios por modalidad (Res. 016 de 2025), syllabus AA-FR-003 y verificación entre modalidades. En preparación: syllabus en PDF.",
+    6: "Prórrogas 2026-3, PAGOT, acompañamiento y graduados, con identificadores en lugar de datos personales.",
+    7: "Normativa institucional y enlace oficial de convenios vigentes de URELINTER.",
+    8: "Consolidado de trabajos de grado por modalidad (proyectos de investigación y de profundización diferenciados) y ponencias (solo Investigación) como anexo.",
+    9: "Estímulos (la Res. 143 de 2025 solo aplica a Investigación) y estadísticas de uso de Bienestar.",
     10: "Presentaciones de Biblioteca y Planes TIC, anexo estadístico de Biblioteca y libro resumen (información institucional, común a las dos modalidades).",
-    11: "Autoevaluación 2025 (anterior) y 2026 (vigente) en carpetas separadas, con libro comparativo.",
-    12: "Presentación de laboratorios con la última diapositiva actualizada: estudiantes activos por énfasis 2022-2026 de la modalidad.",
-}
-DECISION_COORDINACION = {  # comentarios de la coordinación al revisar NuevaData (oct. 2026)
-    1: "Aún falta el PEP; por ahora se actualiza con el PDF de orientaciones PFA.",
-    2: "Se puede actualizar con la información entregada.",
-    3: "Se puede subir así; mañana se ajusta con la información que cargan los profesores.",
-    4: "Analizar la base de egresados de la OATI (≈140 registros) y separar Investigación y Profundización para el informe de impacto.",
-    5: "Se eliminaron 3 hallazgos negativos; falta pasar los syllabus a PDF.",
-    6: "Analizar prórrogas 2026-3 y los dos archivos de PAGOT; cruzar con la información previa.",
-    7: "Cargar así por ahora y dejar el enlace de la página de URELINTER.",
-    8: "Actualizar con el consolidado y diferenciar proyectos de investigación y de profundización.",
-    9: "Actualizar con lo ya elaborado de Bienestar.",
-    10: "Se agregan las presentaciones de Biblioteca y Planes TIC.",
-    11: "Actualizar con la autoevaluación anterior y diferenciarla de la de 2026.",
-    12: "Actualizar la última diapositiva con estudiantes activos por énfasis 2022-2026.",
+    11: "Autoevaluación 2025 y autoevaluación 2026 en carpetas separadas, con libro comparativo.",
+    12: "Presentación de laboratorios con los estudiantes activos por énfasis 2022-2026 de la modalidad.",
 }
 
 
 def indice(nombre_mod: str, mod: dict, base: Path, entregado: dict[int, list[str]], m: dict) -> None:
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Índice", f"Evidencias del Plan de Mejoramiento — {mod['programa']} (SNIES {mod['snies']})",
-                 "Propuesta de evidencias para aprobación. Periodo 2024-2027: plan anterior 2024-2026 y plan vigente 2026-2027. "
-                 "Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden. Versión revisada con los comentarios de la coordinación (octubre de 2026).", 8)
+                 "Evidencias del Plan de Mejoramiento. Periodo 2024-2027: plan anterior 2024-2026 y plan vigente 2026-2027. "
+                 "Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden.", 8)
     filas = []
     for n in range(1, 13):
         filas.append([n, m[n]["factor"].split(". ", 1)[1].rstrip("."), m[n]["meta_anterior"], m[n]["meta_vigente"],
-                      SOLICITUDES_PARES[n][0], DECISION_COORDINACION[n], SOLICITUDES_PARES[n][1], ESTADO[n], len(entregado[n]), OBS[n]])
+                      SOLICITUDES_PARES[n][0], SOLICITUDES_PARES[n][1], ESTADO[n], len(entregado[n]), OBS[n]])
     st.tabla(ws, 4, ["N°", "Factor", "Meta plan anterior (2024-2026)", "Meta plan vigente (2026-2027)", "Solicitud de los pares (sep. 2026)",
-                     "Comentario de la coordinación (oct. 2026)", "Responsable", "Estado", "Archivos", "Observaciones"], filas, [5, 30, 45, 45, 45, 45, 20, 22, 9, 60])
+                     "Responsable", "Estado", "Archivos", "Observaciones"], filas, [5, 30, 45, 45, 45, 20, 22, 9, 60])
     ws = st.hoja(wb, "Archivos", "Archivos entregados por factor", "Rutas relativas a esta carpeta.", 3)
     rutas = []
     carpetas = {n: d.name for n, d in factor_dirs(mod["plan"]).items()}
