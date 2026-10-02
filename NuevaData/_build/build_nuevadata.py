@@ -1,16 +1,19 @@
 """Construye NuevaData/ (propuesta de evidencias para aprobación).
 
     NuevaData/
-      Original/<Modalidad>/...        copia fiel de Data/Bronze/<MCIC.*>/.../Plan de Mejoramiento
+      Original/<Modalidad>/...        evidencia original por FACTOR (partió de una copia de
+                                      Data/Bronze/<MCIC.*>/.../Plan de Mejoramiento y se amplió
+                                      con lo que cargó la coordinación). ES LA FUENTE: el script
+                                      solo la lee, nunca la borra ni la modifica.
       Original/_transcripciones/      transcripción manual de planillas (datos personales)
       Presentacion/<Modalidad>/...    evidencia analizada, ordenada por FACTOR / actividad,
                                       sin datos sensibles y separada por modalidad
 
 Uso:  .venv/bin/python NuevaData/_build/build_nuevadata.py
 
-El script es idempotente: borra y regenera Original/ y Presentacion/. Lee
-únicamente archivos de Data/Bronze, Data/Silver, SolicitudesPares/ y el
-consolidado de trabajos de grado de la raíz; no modifica ninguno de ellos.
+El script es idempotente: borra y regenera solo Presentacion/. Lee Original/ y,
+además, Data/Bronze, Data/Silver, SolicitudesPares/ y el consolidado de trabajos
+de grado de la raíz; no modifica ninguno de ellos.
 La transcripción manual de las planillas escaneadas (nombres y códigos) vive
 en NuevaData/_build/_privado/transcripciones.json (fuera de git).
 """
@@ -48,7 +51,7 @@ MODALIDADES = {
         "programa": "MCIC - INVESTIGACIÓN",
         "proyecto": "595",
         "snies": "17528",
-        "plan": BRONZE / "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
+        "plan": OUT / "Original/Investigacion",
         "web": "https://facingenieria.udistrital.edu.co/mcic-investigacion/",
         "captura_web": "Actualizacion pagiona web mcic -  investigacion.png",
     },
@@ -58,7 +61,7 @@ MODALIDADES = {
         "programa": "MCIC - PROFUNDIZACIÓN",
         "proyecto": "695",
         "snies": "116070",
-        "plan": BRONZE / "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
+        "plan": OUT / "Original/Profundizacion",
         "web": "https://facingenieria.udistrital.edu.co/mcic-profundizacion/",
         "captura_web": "Actualizacion pagiona web mcic -  profundizacion.png",
     },
@@ -173,6 +176,7 @@ def cargar_roster() -> list[dict]:
                 "proyecto": (r.get("Cod. Proyecto") or "").strip(),
                 "estado": r.get("DescripciÓn") or r.get("Estado") or "",
                 "ultima": r.get("Ultima Matricula") or "",
+                "documento": (r.get("Documento") or "").strip(),
             })
     return filas
 
@@ -220,6 +224,10 @@ def cargar_bases_mcic() -> dict[str, dict]:
 
 ROSTER = cargar_roster()
 ROSTER_POR_CODIGO = {r["codigo"]: r for r in ROSTER}
+ROSTER_POR_DOC: dict[str, list[dict]] = defaultdict(list)
+for _r in ROSTER:
+    if _r["documento"]:
+        ROSTER_POR_DOC[_r["documento"]].append(_r)
 BASES = cargar_bases_mcic()
 
 
@@ -321,6 +329,11 @@ def encabezado_factor(ws, fila: int, n: int, m: dict, ancho: int = 8) -> int:
 def factor1(mod: dict, dest: Path) -> list[str]:
     fdir = factor_dirs(mod["plan"])[1]
     entregado = []
+    # Orientaciones institucionales (Vicerrectoría Académica, 2025) para evaluar los propósitos de formación y aprendizaje:
+    # se entrega con el PEP vigente mientras llega el PEP definitivo.
+    pfa = "2026IE4045-GC-RemisionEvaluacionPFA-ANEXO1.pdf"
+    copiar(fdir / pfa, dest / "a. PEP")
+    entregado.append(f"a. PEP/{pfa}")
     for act in ("a. PEP", "b. Jornadas de trabajo con docentes"):
         for f in sorted((fdir / act).iterdir()):
             copiar(f, dest / act)
@@ -543,14 +556,269 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 
 
 # ---------------------------------------------------------------------------
-# FACTOR 4 — Egresados (se retiran Experiencias UD e infografía)
+# FACTOR 4 — Egresados: servicios (se retiran Experiencias UD e infografía) e
+# informe de caracterización e impacto con la Hoja de Vida de Egresados (OATI)
 # ---------------------------------------------------------------------------
-def factor4(mod: dict, dest: Path) -> list[str]:
-    src = factor_dirs(mod["plan"])[4] / "a. Servicios"
+GRUPOS_EGRESADOS = ["Investigación", "Profundización", "Plan anterior (sin modalidad)", "Sin registro en Cóndor"]
+
+SECTORES = [  # (sector, palabras clave sin tildes, en minúscula); el primero que coincide gana
+    ("Defensa y seguridad", ["defensa", "policia", "ejercito", "armada", "fuerza aerea", "fuerzas militares", "inteligencia"]),
+    ("Educación", ["universidad", "colegio", "educacion", "sena", "servicio nacional de aprendizaje", "escuela", "instituto tecnico",
+                   "politecnico", "corporacion universitaria", "fundacion universitaria", "uniminuto", "unad", "ecci", "fuac", "docente", "institucion educativa"]),
+    ("Gobierno y entidades públicas", ["alcaldia", "gobernacion", "ministerio", "secretaria", "superintendencia", "igac", "instituto geografico",
+                                       "catastro", "unidad administrativa", "departamento administrativo", "contraloria", "procuraduria",
+                                       "fiscalia", "judicatura", "registraduria", "dane", "dian", "ideam", "instituto distrital", "agencia", "servicio geologico", "empresa de"]),
+    ("Energía y servicios públicos", ["energia", "vanti", "gas", "acueducto", "codensa", "enel", "esp", "electrica", "petrol", "ecopetrol"]),
+    ("Financiero y seguros", ["banco", "seguros", "financier", "fiduciaria", "bancolombia"]),
+    ("Salud", ["salud", "hospital", "clinica", "eps"]),
+    ("Telecomunicaciones y TIC", ["telefonica", "claro", "movistar", "tigo", "etb", "software", "tecnolog", "technolog", "sistemas", "informatic",
+                                  "telecom", "digital", "datos", "systems", "ztech", "sofka", "epam", "redes", "cyber", "cloud", "system", "it"]),
+    ("Geoinformación, consultoría e ingeniería", ["geomat", "geograf", "geoespac", "geodes", "geoinform", "sig", "mapper", "consult", "ingenier", "topograf", "cartograf", "swissphoto", "constructora", "proyectos", "asesor"]),
+]
+
+
+def _sin_tildes(s: str | None) -> str:
+    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+
+
+def sector_de(nombre: str | None) -> str:
+    n = " " + re.sub(r"[^a-z0-9 ]", " ", _sin_tildes(nombre)) + " "
+    for sector, claves in SECTORES:
+        if any((" " + c.strip() + " " in n) if len(c.strip()) <= 3 else (c.strip() in n) for c in claves):
+            return sector
+    return "Sin clasificar"
+
+
+ALIAS_INSTITUCIONES = [("distrital", "Universidad Distrital Francisco José de Caldas"), ("codazzi", "Instituto Geográfico Agustín Codazzi (IGAC)"),
+                       ("igac", "Instituto Geográfico Agustín Codazzi (IGAC)"), ("servicio nacional de aprendizaje", "SENA"), ("sena-", "SENA"),
+                       ("ecci", "Universidad ECCI"), ("nacional abierta", "UNAD"), ("unad", "UNAD"), ("uptc", "UPTC"),
+                       ("pedagogica y tecnologica", "UPTC"), ("minuto de dios", "UNIMINUTO"), ("autonoma de colombia", "FUAC"),
+                       ("udca", "UDCA"), ("ciencias aplicadas y ambientales", "UDCA")]
+MINUSCULAS = {"de", "la", "del", "los", "las", "el", "y", "en", "para", "a"}
+
+
+def institucion_canonica(nombre: str | None) -> str:
+    n = _sin_tildes(nombre)
+    for clave, canon in ALIAS_INSTITUCIONES:
+        if clave in n:
+            return canon
+    palabras = re.sub(r"\s+", " ", (nombre or "").strip(" .-")).split()
+    return " ".join(w.lower() if w.lower() in MINUSCULAS else (w.capitalize() if len(w) > 3 else w.upper()) for w in palabras)
+
+
+def grupo_egresado(documento: str) -> tuple[str, dict | None]:
+    """Modalidad de un egresado según Cóndor (por documento): primero su registro de graduación."""
+    regs = sorted(ROSTER_POR_DOC.get(documento, []), key=lambda r: r["estado"] != "Graduado")
+    if not regs:
+        return "Sin registro en Cóndor", None
+    for r in regs:
+        mod, _ = modalidad_de(r["codigo"])
+        if mod:
+            return mod, regs[0]
+    return "Plan anterior (sin modalidad)", regs[0]
+
+
+def analizar_egresados(path: Path) -> tuple[list[dict], dict]:
+    import pandas as pd
+    hojas = pd.read_excel(path, sheet_name=None, dtype=str)
+    for d in hojas.values():
+        if "identificacion" in d.columns:
+            d["identificacion"] = d["identificacion"].astype(str).str.strip()
+    por_persona = {h: d.groupby("identificacion") for h, d in hojas.items() if "identificacion" in d.columns and h != "datos basicos"}
+    personas = []
+    for doc in hojas["datos basicos"]["identificacion"].dropna().astype(str).str.strip().unique():
+        grupo, reg = grupo_egresado(doc)
+        get = lambda h: por_persona[h].get_group(doc) if doc in por_persona[h].groups else None  # noqa: E731
+        prof, docn, inv, prod, idi = get("experiencia profesional"), get("experiencia docente"), get("grupos investigacion"), get("productos investigacion"), get("segunda lengua")
+        p = {"grupo": grupo, "estado": reg["estado"] if reg else "Sin registro", "codigo": reg["codigo"] if reg else None,
+             "proyecto_condor": reg["proyecto"] if reg else None}
+        p["anio_grado"] = int(reg["ultima"][:4]) if reg and reg["estado"] == "Graduado" and re.match(r"\d{4}", reg["ultima"] or "") else None
+        p["enfasis"] = enfasis_de(reg["codigo"]) if reg else None
+        p["n_prof"] = 0 if prof is None else len(prof)
+        act = prof[prof["actual"] == "S"] if prof is not None else None
+        p["trabaja_actual"] = act is not None and len(act) > 0
+        p["nivel_actual"] = sorted(set(act["nivel_institucion"].dropna())) if p["trabaja_actual"] else []
+        p["sector_actual"] = sorted({sector_de(x) for x in act["nombre_institucion"]}) if p["trabaja_actual"] else []
+        p["sectores_hist"] = sorted({sector_de(x) for x in prof["nombre_institucion"]}) if prof is not None else []
+        p["inst_prof"] = sorted({institucion_canonica(x) for x in prof["nombre_institucion"].dropna()}) if prof is not None else []
+        p["inst_prof_actual"] = sorted({institucion_canonica(x) for x in act["nombre_institucion"].dropna()}) if p["trabaja_actual"] else []
+        p["n_doc"] = 0 if docn is None else len(docn)
+        p["docente_actual"] = docn is not None and (docn["actual"] == "S").any()
+        p["niveles_doc"] = sorted(set(docn["nivel_docencia"].dropna())) if docn is not None else []
+        p["docente_posgrado"] = any(n in ("Maestria", "Especialización", "Doctorado") for n in p["niveles_doc"])
+        p["inst_doc"] = sorted({institucion_canonica(x) for x in docn["nombre_institucion"].dropna()}) if docn is not None else []
+        p["docente_ud"] = any("Distrital" in i for i in p["inst_doc"])
+        p["n_grupos"] = 0 if inv is None else int(inv["grupo_investigacion"].notna().sum())
+        p["n_proyectos"] = 0 if inv is None else int(inv["titulo_investigacion"].fillna("").str.strip().ne("").sum())
+        p["cat_grupos"] = sorted({str(c).strip().upper() for c in inv["categoria_grupo"].dropna()}) if inv is not None else []
+        p["en_investigacion"] = inv is not None and len(inv) > 0
+        p["prod"] = dict(prod["tipo_producto"].dropna().value_counts()) if prod is not None else {}
+        p["idiomas"] = [] if idi is None else [(r["idioma"], r["nivel_certificado"]) for _, r in idi.iterrows()]
+        niv = [n for _, n in p["idiomas"] if n]
+        orden = ["A1", "A2", "B1", "B2", "C1", "C2"]
+        p["mejor_nivel"] = max(niv, key=lambda x: orden.index(x) if x in orden else -1) if niv else None
+        p["secciones"] = sum([p["n_prof"] > 0, p["n_doc"] > 0, p["en_investigacion"] or bool(p["prod"]), bool(p["idiomas"])])
+        personas.append(p)
+    # cobertura: graduados distintos en Cóndor por grupo
+    grad = {}
+    for r in ROSTER:
+        if r["estado"] == "Graduado" and r["documento"]:
+            g, _ = grupo_egresado(r["documento"])
+            grad[r["documento"]] = (g, int(r["ultima"][:4]) if re.match(r"\d{4}", r["ultima"] or "") else None)
+    return personas, {"graduados_condor": grad, "hojas": {h: len(d) for h, d in hojas.items()}}
+
+
+def _pct(n, d):
+    return f"{n / d * 100:.0f} %" if d else "—"
+
+
+def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
+    etiqueta = mod["etiqueta"]
+    fdir = factor_dirs(mod["plan"])[4]
     out = []
     for f in ("Portafolio de Servicios Grupo Funcional Egresados.pdf", "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf"):
-        copiar(src / f, dest / "a. Servicios")
+        copiar(fdir / "a. Servicios" / f, dest / "a. Servicios")
         out.append(f"a. Servicios/{f}")
+
+    personas, extra = analizar_egresados(fdir / "HojaVidaEgresados.xlsx")
+    graduados = extra["graduados_condor"]
+    grupos = {g: [p for p in personas if p["grupo"] == g] for g in GRUPOS_EGRESADOS}
+    propios = grupos[etiqueta]
+    ante = grupos["Plan anterior (sin modalidad)"]
+
+    def ind(ps: list[dict]) -> list:
+        n = len(ps)
+        c = lambda f: sum(1 for p in ps if f(p))  # noqa: E731
+        return [n, c(lambda p: p["estado"] == "Graduado"), c(lambda p: p["estado"] != "Graduado"),
+                c(lambda p: p["n_prof"]), c(lambda p: p["trabaja_actual"]),
+                c(lambda p: "Pública" in p["nivel_actual"]), c(lambda p: "Privada" in p["nivel_actual"]), c(lambda p: "Mixta" in p["nivel_actual"]),
+                c(lambda p: p["n_doc"]), c(lambda p: p["docente_actual"]), c(lambda p: p["docente_posgrado"]), c(lambda p: p["docente_ud"]),
+                c(lambda p: p["en_investigacion"]), c(lambda p: p["n_grupos"]), c(lambda p: p["n_proyectos"]),
+                c(lambda p: p["prod"].get("Ponencia internacional")), c(lambda p: p["prod"].get("Ponencia nacional")), c(lambda p: p["prod"].get("Patente")),
+                c(lambda p: p["idiomas"]), c(lambda p: p["mejor_nivel"] in ("B1", "B2", "C1", "C2")),
+                c(lambda p: p["secciones"] >= 3)]
+
+    etiquetas_ind = ["Egresados con Hoja de Vida (módulo OATI)", "  de ellos, graduados según Cóndor", "  de ellos, otros estados (matriculados, inactivos, suspendidos)",
+                     "Con experiencia profesional registrada", "Con vinculación laboral actual", "  vinculación actual en entidad pública", "  vinculación actual en entidad privada",
+                     "  vinculación actual en entidad mixta", "Con experiencia docente registrada", "  docente actual", "  ha dictado docencia en posgrado",
+                     "  ha sido docente de la Universidad Distrital", "Con grupo o proyecto de investigación registrado", "  con pertenencia a grupo de investigación",
+                     "  con proyectos de investigación registrados", "Con ponencia internacional", "Con ponencia nacional", "Con patente",
+                     "Con segunda lengua declarada", "  con nivel B1 o superior certificado", "Hoja de Vida con 3 o más secciones diligenciadas (de 4)"]
+    cols = {g: ind(grupos[g]) for g in GRUPOS_EGRESADOS}
+    total_ind = ind(personas)
+    propios_ind = cols[etiqueta]
+    filas_ind = []
+    for i, e in enumerate(etiquetas_ind):
+        base = [cols[g][i] for g in GRUPOS_EGRESADOS]
+        fila = [e] + base + [total_ind[i]]
+        fila += ["—" if i == 0 else _pct(propios_ind[i], len(propios))]
+        filas_ind.append(fila)
+
+    # Cobertura frente a los graduados de Cóndor
+    cob = []
+    grad_por_grupo = Counter(g for g, _ in graduados.values())
+    oati_grad_por_grupo = Counter(p["grupo"] for p in personas if p["estado"] == "Graduado")
+    for g in GRUPOS_EGRESADOS[:3]:
+        cob.append([g, grad_por_grupo.get(g, 0), oati_grad_por_grupo.get(g, 0), _pct(oati_grad_por_grupo.get(g, 0), grad_por_grupo.get(g, 0))])
+    cob.append(["Total", sum(grad_por_grupo.values()), sum(oati_grad_por_grupo.values()), _pct(sum(oati_grad_por_grupo.values()), sum(grad_por_grupo.values()))])
+    anios = ["2022", "2023", "2024", "2025", "2026"]
+    cob_anio = []
+    for g in (etiqueta, "Plan anterior (sin modalidad)"):
+        for a in anios:
+            nc = sum(1 for gg, y in graduados.values() if gg == g and y == int(a))
+            no = sum(1 for p in personas if p["grupo"] == g and p["estado"] == "Graduado" and p["anio_grado"] == int(a))
+            cob_anio.append([g, a, nc, no, _pct(no, nc)])
+
+    # Perfil por persona (anónimo y grueso: sin nombre, documento ni empleador)
+    perfil = []
+    for i, p in enumerate(sorted(propios, key=lambda x: (x["anio_grado"] or 0, x["enfasis"] or "")), 1):
+        perfil.append([f"E-{i:03d}", p["enfasis"] or "—", p["estado"], p["anio_grado"] or "—",
+                       "Sí" if p["trabaja_actual"] else "No", ", ".join(p["nivel_actual"]) or "—", ", ".join(p["sector_actual"]) or "—",
+                       "Sí" if p["docente_actual"] else "No", ", ".join(x for x in p["niveles_doc"]) or "—",
+                       p["n_grupos"], p["n_proyectos"], p["prod"].get("Ponencia internacional", 0) + p["prod"].get("Ponencia nacional", 0),
+                       p["prod"].get("Patente", 0), p["mejor_nivel"] or "—", f"{p['secciones']}/4"])
+
+    def tabla_sector(ps, clave):
+        c = Counter()
+        for p in ps:
+            for s in p[clave]:
+                c[s] += 1
+        return [[s, n] for s, n in c.most_common()]
+
+    inst = Counter()
+    for p in personas:
+        for i in p["inst_prof"]:
+            inst[i] += 1
+    inst_doc = Counter()
+    for p in personas:
+        for i in p["inst_doc"]:
+            inst_doc[i] += 1
+
+    wb = st.nuevo_libro()
+    ws = st.hoja(wb, "Resumen", f"Factor 4 · Egresados — caracterización e impacto — {mod['programa']}",
+                 f"Análisis de la base «Hoja de Vida de Egresados» del módulo institucional de la OATI ({extra['hojas']['datos basicos']} registros, {len(personas)} egresados distintos) separada por modalidad. "
+                 "El archivo original (con nombres, documentos y fechas de nacimiento) se conserva solo en Original/.")
+    fila = encabezado_factor(ws, 4, 4, m)
+    fila = st.kpis(ws, fila, [("Egresados OATI (total)", len(personas)), (f"Egresados de {etiqueta}", len(propios)),
+                              ("Plan anterior (sin modalidad)", len(ante)), ("Sin registro en Cóndor", len(grupos["Sin registro en Cóndor"])),
+                              (f"Con experiencia profesional ({etiqueta})", f"{_pct(sum(1 for p in propios if p['n_prof']), len(propios))}"),
+                              (f"Docentes actuales ({etiqueta})", sum(1 for p in propios if p["docente_actual"])),
+                              (f"Con ponencias o patentes ({etiqueta})", sum(1 for p in propios if p["prod"])),
+                              (f"Cobertura OATI {etiqueta} 2022-2026",
+                               f"{sum(x[3] for x in cob_anio if x[0] == etiqueta)}/{sum(x[2] for x in cob_anio if x[0] == etiqueta)}")])
+    st.nota(ws, fila + 1, "La modalidad se obtiene cruzando el documento de cada egresado con Cóndor y las bases MCIC. "
+            f"{len(ante)} de {len(personas)} egresados terminaron en el plan anterior (énfasis 95-495), antes de que existieran Investigación y Profundización, por lo que no se pueden separar: "
+            "se muestran como «Plan anterior (sin modalidad)» en ambos libros. La base incluye también personas que hoy están matriculadas, inactivas o suspendidas (docentes y otros), identificadas en la columna «Estado». "
+            f"Con {len(propios)} egresados de {etiqueta} los porcentajes son indicativos.")
+    for col in "ABCDEFGH":
+        ws.column_dimensions[col].width = 18
+
+    ws = st.hoja(wb, "Indicadores", "Indicadores de impacto por modalidad (conteo de personas)", f"Columna «% {etiqueta}»: porcentaje sobre los egresados de {etiqueta}.", 7)
+    st.tabla(ws, 4, ["Indicador"] + GRUPOS_EGRESADOS + ["Total OATI", f"% {etiqueta}"], filas_ind, [58, 16, 16, 20, 18, 14, 14], filtro=False)
+
+    ws = st.hoja(wb, "Perfil egresados", f"Perfil de los egresados de {etiqueta} (anónimo)",
+                 "Un registro por persona con identificador interno (E-001…). No incluye nombre, documento, empleador ni cargo; la relación persona–identificador no se publica.", 15)
+    st.tabla(ws, 4, ["ID", "Énfasis (plan de ingreso)", "Estado en Cóndor", "Año de grado (est.)", "Vinculación actual", "Tipo de entidad", "Sector estimado",
+                     "Docente actual", "Niveles de docencia", "Grupos de investigación", "Proyectos de investigación", "Ponencias", "Patentes", "Mejor nivel de inglés/2ª lengua", "Secciones diligenciadas"],
+             perfil, [8, 22, 16, 11, 11, 18, 30, 10, 28, 11, 11, 10, 9, 14, 12])
+
+    ws = st.hoja(wb, "Sector y vinculación", "Dónde trabajan los egresados (sector estimado por nombre de la entidad)",
+                 "El módulo no tiene un campo de sector económico: se estimó por palabras clave en el nombre de la entidad. Quedan «Sin clasificar» los nombres que no permiten inferirlo.", 6)
+    f2 = st.seccion(ws, 4, f"Vinculación actual — {etiqueta}", 4)
+    f2 = st.tabla(ws, f2, ["Sector estimado", "Egresados"], tabla_sector(propios, "sector_actual") or [["Sin vinculación actual registrada", 0]], [46, 14], filtro=False, congelar=False)
+    f2 = st.seccion(ws, f2, f"Trayectoria profesional (todas las experiencias) — {etiqueta}", 4)
+    f2 = st.tabla(ws, f2, ["Sector estimado", "Egresados con experiencia"], tabla_sector(propios, "sectores_hist") or [["—", 0]], [46, 14], filtro=False, congelar=False)
+    f2 = st.seccion(ws, f2, "Plan anterior (compartido) — trayectoria profesional", 4)
+    f2 = st.tabla(ws, f2, ["Sector estimado", "Egresados con experiencia"], tabla_sector(ante, "sectores_hist"), [46, 14], filtro=False, congelar=False)
+
+    ws = st.hoja(wb, "Instituciones", "Instituciones donde han trabajado o dictado docencia los egresados (todas las modalidades)",
+                 "Conteo de egresados distintos por institución (las 25 principales con 2 o más egresados); no se asocia a personas.", 4)
+    f2 = st.tabla(ws, 4, ["Experiencia profesional — institución", "Egresados"], [[i, n] for i, n in inst.most_common(25) if n >= 2], [60, 12], filtro=False, congelar=False)
+    st.tabla(ws, f2, ["Docencia — institución", "Egresados"], [[i, n] for i, n in inst_doc.most_common(25) if n >= 2], [60, 12], filtro=False, congelar=False)
+
+    ws = st.hoja(wb, "Cobertura", "Cobertura de la Hoja de Vida de Egresados frente a los graduados de Cóndor",
+                 "Meta 2026-2027: al menos el 50 % de los egresados con información actualizada en el módulo de Hoja de Vida (OATI). Graduados de Cóndor = documentos distintos con estado Graduado.", 5)
+    f2 = st.tabla(ws, 4, ["Grupo", "Graduados (Cóndor)", "Con Hoja de Vida (OATI)", "Cobertura"], cob, [34, 20, 24, 12], filtro=False, congelar=False)
+    f2 = st.seccion(ws, f2, f"Graduados por año de grado estimado (última matrícula) — {etiqueta} y plan anterior", 5)
+    st.tabla(ws, f2, ["Grupo", "Año", "Graduados (Cóndor)", "Con Hoja de Vida (OATI)", "Cobertura"], cob_anio, [34, 8, 20, 24, 12], filtro=False, congelar=False)
+
+    ws = st.hoja(wb, "Alcance y límites", "Qué se rescató de la base y qué no", None, 3)
+    lim = [
+        ["Fuente", "HojaVidaEgresados.xlsx (OATI): 7 hojas — datos básicos, experiencia docente, experiencia profesional, grupos de investigación, productos de investigación, publicación de obras y segunda lengua. "
+                   f"Registros: {extra['hojas']}."],
+        ["Qué sí aporta", "Trayectoria profesional y docente, vinculación laboral marcada como actual, participación en grupos/proyectos, ponencias y patentes, y nivel de segunda lengua. Permite caracterizar el impacto profesional, académico y científico."],
+        ["Qué no aporta", "El sector en el que laboran hoy los egresados 2022-2026 (el formulario pedido a la OATI sigue pendiente), fechas de actualización de la hoja de vida y datos de contacto vigentes."],
+        ["Separación por modalidad", "Cruce por documento con Cóndor y las bases MCIC. Los egresados del plan anterior y los que no aparecen en Cóndor no tienen modalidad."],
+        ["Privacidad", "Esta presentación no incluye nombres, documentos, fechas de nacimiento, correos ni teléfonos; las instituciones se agregan sin asociarlas a personas."],
+        ["Calidad de los datos", "El tipo de entidad (pública/privada/mixta) viene del registro del propio egresado y tiene inconsistencias; el sector es una estimación por palabras clave."],
+    ]
+    st.tabla(ws, 3, ["Tema", "Detalle"], lim, [28, 130], filtro=False, congelar=False)
+
+    act = dest / "e. Caracterización e impacto de los egresados"
+    act.mkdir(parents=True, exist_ok=True)
+    nombre = f"F4_Egresados_Impacto_{nombre_mod}.xlsx"
+    wb.save(act / nombre)
+    out.append(f"{act.name}/{nombre}")
     return out
 
 
@@ -624,15 +892,14 @@ def factor5(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
                          + ", ".join(sorted({re.sub(r'[^0-9 ]', '', f[9]).split()[0] for f in con_codigo})) + "», que no corresponde a 595 ni a 695"
                          if con_codigo else "")
                       + ". Ningún syllabus indica la modalidad: el campo «Proyecto curricular» dice solo «Maestría en Ciencias de la Información y las Comunicaciones».")
+    # La coordinación retiró tres hallazgos (malla de espacios académicos, espacio sin correspondencia en la Res. 016 y denominaciones);
+    # el detalle sigue disponible en CONTEXTO_NuevaData.md §4.
     hallazgos = [
         ["Plan de estudios", "Sí se diferencia", "La Res. 016 de 2025 del Consejo Académico aprueba un plan para cada modalidad (44 créditos cada uno). Investigación: Trabajo de grado I y II (12 créditos), 3 espacios de énfasis (12 créditos) y 2 electivas. Profundización: Trabajo de grado (4 créditos), 5 espacios de énfasis (20 créditos) y 2 electivas."],
         ["Horas de trabajo académico", "Sí se diferencia", "Investigación: 384 HTD / 176 HTC / 1.552 HTA. Profundización: 480 HTD / 160 HTC / 1.472 HTA (2.112 horas en ambos casos)."],
         ["Espacios académicos", "Compartidos", "Los espacios de fundamentación, seminario y énfasis son los mismos en las dos modalidades; cambia cuántos espacios de énfasis cursa el estudiante y si los del periodo III son obligatorios (Profundización) o electivos (Investigación)."],
         ["Archivos de syllabus", "No se diferencian", f"Los {len(snies)} syllabus de la carpeta SNIES 17528 y los de SNIES 116070 son byte a byte idénticos ({iguales}/{len(snies)}). Los {len(filas)} syllabus actualizados (AA-FR-003) son un único archivo por espacio académico, usado por las dos modalidades."],
         ["Identificación de la modalidad en el syllabus", "No se diferencia", identificacion],
-        ["Malla «Información Espacios Académicos.xlsx»", "Parcial", "Tiene una hoja por modalidad y diferencia el trabajo de grado (Investigación: TG I y TG II; Profundización: TG). Marca todos los espacios de énfasis como obligatorios en ambas hojas y la hoja de Profundización registra el código de proyecto 595 (el de Profundización es 695)."],
-        ["Espacio sin correspondencia en la Res. 016", "Revisar", "«Matemática avanzada y geoprocesamiento» tiene syllabus AA-FR-003, pero no figura en el plan de estudios de la Res. 016 (podría ser electiva)."],
-        ["Denominaciones", "Revisar", "La Res. 016 usa «Modelo de simulación y redes», «Bases de datos especiales» y «Procesamiento digital de imágenes y elaboración de productos cartográficos»; los syllabus usan «Modelado y simulación de redes», «Bases de datos espaciales» y «… productos cartográficos o fotogramétricos»."],
     ]
     fila = st.seccion(ws, fila + 1, "Hallazgos")
     st.tabla(ws, fila, ["Aspecto", "Resultado", "Detalle"], hallazgos, [30, 18, 110], filtro=False, congelar=False)
@@ -664,51 +931,173 @@ def factor5(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
 
 
 # ---------------------------------------------------------------------------
-# FACTOR 6 — Permanencia y graduación
+# FACTOR 6 — Permanencia y graduación (prórrogas 2026-3, PAGOT y graduados)
 # ---------------------------------------------------------------------------
+def modalidad_declarada(txt: str | None) -> str | None:
+    t = _sin_tildes(txt)
+    if "prof" in t:
+        return "Profundización"
+    if "inv" in t:
+        return "Investigación"
+    return None
+
+
+def fecha_correo(pdf: Path) -> str | None:
+    import subprocess
+    txt = subprocess.run(["pdftotext", "-layout", str(pdf), "-"], capture_output=True, text=True).stdout
+    m = re.search(r"Fecha\s+\w{3}\s+(\d{1,2})/(\d{2})/(\d{4})", txt)
+    return f"{m.group(3)}-{m.group(2)}-{int(m.group(1)):02d}" if m else None
+
+
+def leer_prorrogas_2026_3(base: Path) -> list[dict]:
+    """Filas de los tres «Estudiantes Prorroga 2026-3» (1.ª, 2.ª y 3.ª solicitud) con la fecha del correo de cada estudiante."""
+    filas = []
+    for ronda, carpeta in enumerate(("PRIMERA SOLICITUD", "SEGUNDA SOLICITUD", "TERCERA SOLICITUD"), 1):
+        d = base / carpeta
+        xlsx = next(p for p in d.glob("*.xlsx") if "Prorroga" in p.name or "Prórroga" in p.name)
+        correos = {p: norm_tokens(p.stem) for p in (d / "CORREOS").glob("*.pdf")}
+        ws = openpyxl.load_workbook(xlsx, data_only=True).active
+        for r in ws.iter_rows(min_row=5, values_only=True):
+            if not r[2]:
+                continue
+            codigo = str(r[2]).strip().split(".")[0]
+            nombre = " ".join(str(r[3]).split())
+            toks = norm_tokens(nombre)
+            pdf = next((p for p, t in correos.items() if t == toks or t <= toks or toks <= t), None)
+            filas.append({"ronda": ronda, "num": int(r[1]), "codigo": codigo, "nombre": nombre,
+                          "tipo": "PAGOT" if str(r[4]).strip().upper() == "PAGOT" else "Regular",
+                          "modalidad": modalidad_declarada(r[5]), "viabilidad": str(r[6] or "").strip().upper(),
+                          "fecha_aval": r[7].date() if isinstance(r[7], datetime) else None,
+                          "componente1": " ".join(str(r[8] or "—").split()), "tesis_radicada": str(r[9] or "").strip().upper(),
+                          "creditos": r[10], "trabajo_grado": " ".join(str(r[11] or "—").split()),
+                          "fecha_correo": fecha_correo(pdf) if pdf else None})
+    return filas
+
+
+def leer_pagot_2026_3(path: Path) -> list[dict]:
+    ws = openpyxl.load_workbook(path, data_only=True)["SEGUMIENTO PAGOT"]
+    out = []
+    for r in ws.iter_rows(min_row=2, values_only=True):
+        if not r[4]:
+            continue
+        resp = _sin_tildes(r[9])
+        if "no respondio" in resp:
+            cat = "No respondió"
+        elif "no pago" in resp:
+            cat = "Pago incompleto"
+        elif "acta" in resp and "si acepto" not in resp:
+            cat = "Acta pendiente o no enviada"
+        elif "si acepto" in resp.replace("  ", " "):
+            cat = "Aceptó"
+        elif "pendiente" in resp or not resp:
+            cat = "Pendiente"
+        else:
+            cat = "Otra respuesta"
+        plan = str(r[5] or "")
+        out.append({"codigo": str(r[1]).strip(), "ultimo": " ".join(str(r[2] or "—").split()), "plan_est": r[3],
+                    "modalidad": "Investigación" if plan.startswith("595") else "Profundización" if plan.startswith("695") else None,
+                    "creditos": r[6], "periodos": r[7], "matriculas": r[8], "respuesta": cat,
+                    "pago": "Sí" if str(r[10] or "").strip().upper() == "SI" else "No",
+                    "p2026_3": r[11], "p2027_1": r[12], "p2027_3": r[13],
+                    "estado": r[14] if re.search(r"matriculad|renovaci|p[eé]rdida|graduad|abandono|inactiv", _sin_tildes(r[14]) or "") else None,
+                    "recibo": r[15] if re.match(r"\s*\d{4}-\d", str(r[15] or "")) else None})
+    return out
+
+
+def leer_inscritos_pagot(path: Path) -> list[dict]:
+    ws = openpyxl.load_workbook(path, data_only=True).active
+    out, per = [], None
+    for r in ws.iter_rows(min_row=3, values_only=True):
+        if r[0]:
+            per = str(r[0]).strip()
+        if r[1]:
+            out.append({"periodo": per, "codigo": str(r[1]).strip(),
+                        "modalidad": "Profundización" if "rofund" in str(r[4]) else "Investigación"})
+    return out
+
+
 def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[str]:
     etiqueta = mod["etiqueta"]
-    filas, por_confirmar = [], []
-    for p in tr["prorrogas"]:
-        mmod, criterio = modalidad_de(p["codigo"], declarada=p.get("modalidad_declarada"))
+    otra = "Profundización" if etiqueta == "Investigación" else "Investigación"
+    f6 = factor_dirs(mod["plan"])[6]
+    pr = leer_prorrogas_2026_3(f6 / "PRORROGA 2026-3")
+    pagot26 = leer_pagot_2026_3(f6 / "PAGOT 20263.xlsx")
+    inscritos = leer_inscritos_pagot(f6 / "Aspirantes Inscritos 2023-3 al 2025-3 MCIComunicaciones.xlsx")
+
+    # --- Solicitudes de prórroga 2026-3 (modalidad declarada en el cuadro de la coordinación; se contrasta con Cóndor/bases)
+    filas, por_confirmar, alertas = [], [], []
+    for p in pr:
+        mod_cruce, criterio = modalidad_de(p["codigo"])
+        mmod = p["modalidad"] or mod_cruce
         base = BASES.get(p["codigo"], {})
-        tipo = "PAGOT" if (p["pagot"] or base.get("tipo") == "PAGOT") else "No registrado como PAGOT"
         cond = ROSTER_POR_CODIGO.get(p["codigo"], {})
-        fila = [p["id"], fecha_es(p["fecha"]), mmod or "Por confirmar", enfasis_de(p["codigo"]) or frase(base.get("enfasis")) or "—", tipo,
-                p["solicitud"], p["c1"], p["producto_c1"], p["c2"], p["adjuntos"],
-                f"{cond.get('estado', '—')} (última matrícula {cond.get('ultima', '—')})" if cond else "—",
-                p.get("nota_modalidad") or criterio]
+        id_ = f"P{p['ronda']}-{p['num']:02d}"
+        obs, propia = [], mmod == etiqueta
+        if p["modalidad"] and mod_cruce and p["modalidad"] != mod_cruce:
+            obs.append(f"La modalidad del cuadro ({p['modalidad']}) no coincide con la de {criterio[0].lower() + criterio[1:]} ({mod_cruce}); se usa la del cuadro.")
+            if propia:
+                alertas.append([id_, "Modalidad", obs[-1]])
+        if propia and not p["fecha_correo"]:
+            obs.append("Sin correo de radicación en la carpeta CORREOS.")
+        if propia and p["viabilidad"] == "NO":
+            alertas.append([id_, "Aval de anteproyecto", "El cuadro registra «NO» en viabilidad del aval; revisar antes de presentar."])
+        if propia and p["fecha_aval"] and cond and p["codigo"][:4].isdigit() and p["fecha_aval"].year < int(p["codigo"][:4]):
+            alertas.append([id_, "Fecha de aval", f"La fecha del aval ({p['fecha_aval'].strftime('%d/%m/%Y')}) es anterior al ingreso; probable error de digitación."])
+        fila = [id_, f"{p['ronda']}.ª", fecha_es(p["fecha_correo"]), mmod or "Por confirmar", enfasis_de(p["codigo"]) or frase(base.get("enfasis")) or "—",
+                p["tipo"], p["viabilidad"] or "—", fecha_es(p["fecha_aval"].isoformat() if p["fecha_aval"] else None), p["componente1"], p["tesis_radicada"] or "—",
+                p["creditos"], p["trabajo_grado"], f"{cond.get('estado', '—')} (última matrícula {cond.get('ultima', '—')})" if cond else "—", "; ".join(obs)]
         if mmod == etiqueta:
             filas.append(fila)
         elif mmod is None:
             por_confirmar.append(fila)
-    filas.sort(key=lambda f: f[0])
-    c1_ok = sum(1 for f in filas if re.search(r"aceptad|aprobad", f[6], re.I))
-    c2_ok = sum(1 for f in filas if re.search(r"radicad|entregad", f[8], re.I))
+    codigos_pr = {p["codigo"] for p in pr if (p["modalidad"] or modalidad_de(p["codigo"])[0]) == etiqueta}
+    unicos = len(codigos_pr)
+    n_pagot = sum(1 for f in filas if f[5] == "PAGOT")
+    por_ronda = Counter(f[1] for f in filas)
+
+    # --- PAGOT: cruce de las cuatro fuentes
+    arch = "MCIC - Base de datos INVESTIGACION.xlsx" if etiqueta == "Investigación" else "MCIC - Base de datos Profundizacion.xlsx"
+    hoja = "N-A Investigación" if etiqueta == "Investigación" else "N-A Profundizacion"
+    wbb = openpyxl.load_workbook(BRONZE / "Maestria CIC/2026/BASES  DE DATOS ESTUDIANTES" / arch, read_only=True, data_only=True)
+    rows = list(wbb[hoja].iter_rows(values_only=True))
+    enc = [str(c).strip() if c else "" for c in rows[0]]
+    it, ig = enc.index("TIPO DE ESTUDIANTE"), enc.index("INGRESO")
+    base_pagot = {str(r[0]).split(".")[0].strip(): r for r in rows[1:] if r and r[0] and r[it] == "PAGOT"}
+    regulares = [r for r in rows[1:] if r and r[0] and r[it] == "REGULAR"]
+    seg = [x for x in pagot26 if (x["modalidad"] or modalidad_de(x["codigo"])[0]) == etiqueta]
+    seg_otra = [x for x in pagot26 if (x["modalidad"] or modalidad_de(x["codigo"])[0]) == otra]
+    seg_cod = {x["codigo"] for x in seg}
+    pagaron = [x for x in seg if x["pago"] == "Sí"]
+    insc = [x for x in inscritos if x["modalidad"] == etiqueta]
+    insc_cod = {x["codigo"] for x in insc}
+    pr_pagot = {p["codigo"] for p in pr if p["tipo"] == "PAGOT" and (p["modalidad"] or modalidad_de(p["codigo"])[0]) == etiqueta}
+    cruce = [
+        ["Base MCIC (columna «Tipo de estudiante» = PAGOT)", len(base_pagot), len(set(base_pagot) & seg_cod), len(set(base_pagot) & pr_pagot)],
+        ["Inscritos oficiales a PAGOT 2024-1 a 2025-3 (listado de aspirantes)", len(insc_cod), len(insc_cod & seg_cod), len(insc_cod & pr_pagot)],
+        ["Seguimiento PAGOT 2026-3 (Plan vigente " + ("595" if etiqueta == "Investigación" else "695") + ")", len(seg_cod), len(seg_cod), len(seg_cod & pr_pagot)],
+        ["  de ellos, con pago registrado para 2026-3", len(pagaron), len(pagaron), len({x['codigo'] for x in pagaron} & pr_pagot)],
+        ["Solicitudes de prórroga 2026-3 de estudiantes PAGOT", len(pr_pagot), len(pr_pagot & seg_cod), len(pr_pagot)],
+    ]
+    ing = Counter(x["periodo"] for x in insc)
+    resp = Counter(x["respuesta"] for x in seg)
+    est = Counter(" ".join(str(x["estado"] or "Sin dato de estado").split())[:48] for x in seg)
+    pagot_filas = []
+    for i, x in enumerate(sorted(seg, key=lambda z: z["ultimo"]), 1):
+        pagot_filas.append([f"G-{i:02d}", enfasis_de(x["codigo"]) or "—", x["ultimo"], x["creditos"], x["periodos"], x["matriculas"], x["respuesta"], x["pago"],
+                            x["p2026_3"] or "—", x["p2027_1"] or "—", x["p2027_3"] or "—", " ".join(str(x["estado"] or "—").split()), x["recibo"] or "—",
+                            "Sí" if x["codigo"] in codigos_pr else "No", "Sí" if x["codigo"] in base_pagot else "No", "Sí" if x["codigo"] in insc_cod else "No"])
+    disc = [x for x in seg if modalidad_de(x["codigo"])[0] and modalidad_de(x["codigo"])[0] != x["modalidad"]]
+    if disc:
+        alertas.append(["PAGOT", "Modalidad", f"{len(disc)} de {len(seg)} estudiantes del seguimiento PAGOT tienen plan vigente de {etiqueta} en el archivo de PAGOT, pero las bases MCIC o Cóndor los registran en {otra}. Se usó la del archivo de PAGOT."])
+    otros = [x for x in seg_otra if modalidad_de(x["codigo"])[0] == etiqueta]
+    if otros:
+        alertas.append(["PAGOT", "Modalidad", f"{len(otros)} estudiantes con plan vigente de {otra} en el archivo de PAGOT figuran como {etiqueta} en las bases MCIC."])
 
     # Reunión de acompañamiento (convocatoria del 06/04/2026)
     conv = tr["eventos"]["reunion_acompanamiento_2026_04_06"]["convocados_codigos"]
     conv_mod = Counter(modalidad_de(c)[0] or "Sin registro" for c in conv)
 
-    # PAGOT de la modalidad
-    archivo = "MCIC - Base de datos INVESTIGACION.xlsx" if etiqueta == "Investigación" else "MCIC - Base de datos Profundizacion.xlsx"
-    hoja = "N-A Investigación" if etiqueta == "Investigación" else "N-A Profundizacion"
-    wbb = openpyxl.load_workbook(BRONZE / "Maestria CIC/2026/BASES  DE DATOS ESTUDIANTES" / archivo, read_only=True, data_only=True)
-    rows = list(wbb[hoja].iter_rows(values_only=True))
-    enc = [str(c).strip() if c else "" for c in rows[0]]
-    it, ie, ig = enc.index("TIPO DE ESTUDIANTE"), enc.index("ESTADO"), enc.index("INGRESO")
-    ien = next((enc.index(k) for k in ("ÉNFASIS", "ENFASIS") if k in enc), None)
-    estados = {}
-    for r in openpyxl.load_workbook(BRONZE / "Maestria CIC/2026/BASES  DE DATOS ESTUDIANTES" / archivo, read_only=True, data_only=True)["Listas"].iter_rows(values_only=True):
-        if r and len(r) > 2 and r[1] and r[2] and len(str(r[1])) == 1:
-            estados[r[1]] = frase(str(r[2]).replace("A?O", "AÑO"))
-    pagot = [r for r in rows[1:] if r and r[0] and r[it] == "PAGOT"]
-    regulares = [r for r in rows[1:] if r and r[0] and r[it] == "REGULAR"]
-    pag_ing = Counter(r[ig] for r in pagot)
-    pag_est = Counter(estados.get(r[ie], r[ie]) for r in pagot)
-    pag_enf = Counter(enfasis_normalizado(r[ien]) if ien is not None and r[ien] else "Sin dato" for r in pagot)
-
-    # Graduados por año (estimado por última matrícula, mismo criterio del sitio) y modalidad
+    # Graduados por año (estimado por última matrícula) y modalidad
     grad = Counter()
     for r in ROSTER:
         if r["estado"] == "Graduado" and r["ultima"][:4].isdigit() and 2022 <= int(r["ultima"][:4]) <= 2026:
@@ -720,38 +1109,62 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
         vals = [grad.get((mm, a), 0) for a in anios]
         grad_filas.append([mm] + vals + [sum(vals)])
 
+    norma = openpyxl.load_workbook(f6 / "Normativa_PAGOT_UD.xlsx", data_only=True)["Normativa PAGOT"]
+    normas = []
+    for r in norma.iter_rows(min_row=3, values_only=True):
+        if r[0]:
+            normas.append([r[0], r[1], r[2], r[3], "Ver norma" if r[4] else "—", r[4]])
+
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 6 · Permanencia y graduación — {mod['programa']}",
-                 "Estudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga (mayo de 2026), acompañamiento, estudiantes PAGOT y graduados. "
-                 "Los estudiantes se identifican con un ID (S-01…); la relación ID–estudiante y los correos originales se conservan en Original/.")
+                 "Estudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. "
+                 "Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se conservan solo en Original/.")
     fila = encabezado_factor(ws, 4, 6, m)
-    fila = st.kpis(ws, fila, [("Solicitudes de prórroga", len(filas)), ("Componente 1 aceptado/aprobado", c1_ok),
-                              ("Componente 2 radicado/entregado", c2_ok), ("Estudiantes PAGOT (base MCIC)", len(pagot)),
-                              ("Convocados a acompañamiento", conv_mod.get(etiqueta, 0)), ("Estudiantes regulares (base MCIC)", len(regulares)),
-                              ("Graduados 2022-2026", grad_filas[0][-1]), ("Solicitudes con modalidad por confirmar", len(por_confirmar))])
-    st.nota(ws, fila + 1, "Modalidad de cada solicitud: declarada por el estudiante, o según las bases de datos MCIC (hojas N-A Investigación / N-A Profundización) y Cóndor (595/695). "
-            "Graduados: año estimado por la última matrícula en Cóndor, el mismo criterio del micrositio; «Sin modalidad registrada» agrupa graduados del plan anterior (proyectos 195–495) que no aparecen en las bases por modalidad.")
+    fila = st.kpis(ws, fila, [("Solicitudes de prórroga 2026-3", len(filas)), ("Estudiantes distintos", unicos),
+                              ("De ellos, PAGOT", n_pagot), ("PAGOT en seguimiento 2026-3", len(seg)),
+                              ("PAGOT con pago 2026-3", len(pagaron)), ("Inscritos oficiales PAGOT", len(insc_cod)),
+                              ("Convocados a acompañamiento", conv_mod.get(etiqueta, 0)), (f"Graduados 2022-2026", grad_filas[0][-1])])
+    st.nota(ws, fila + 1, f"Solicitudes por ronda: {', '.join(f'{k} = {v}' for k, v in sorted(por_ronda.items()))}. {'Una estudiante radicó en dos rondas y cuenta una sola vez entre los estudiantes distintos. ' if len(filas) != unicos else ''}"
+            "Modalidad: la del cuadro de la coordinación («Estudiantes Prórroga 2026-3»), contrastada con Cóndor y las bases MCIC (hoja «Cruces y alertas»). "
+            "Graduados: año estimado por la última matrícula en Cóndor; «Sin modalidad registrada» agrupa graduados del plan anterior (proyectos 195–495).")
     for col in "ABCDEFGH":
         ws.column_dimensions[col].width = 17
 
-    enc_p = ["ID", "Fecha", "Modalidad", "Énfasis", "Tipo de estudiante", "Solicitud", "Componente 1", "Producto / evento del componente 1",
-             "Componente 2 (trabajo de grado)", "Adjuntos", "Estado en Cóndor 2026-3", "Criterio de modalidad"]
-    anch = [7, 11, 14, 18, 16, 34, 36, 34, 40, 9, 26, 26]
-    ws = st.hoja(wb, "Solicitudes de prórroga", f"Solicitudes de prórroga de permanencia — {etiqueta}", "Radicadas ante la coordinación entre el 19 y el 26 de mayo de 2026 para estudio del Consejo de Facultad.", 12)
+    enc_p = ["ID", "Ronda", "Fecha del correo", "Modalidad", "Énfasis", "Tipo de estudiante", "Aval anteproyecto", "Fecha del aval", "Componente 1 (evento o revista)",
+             "Tesis radicada", "Créditos aprobados", "Trabajo de grado", "Estado en Cóndor", "Observación"]
+    anch = [8, 7, 12, 14, 20, 11, 11, 11, 38, 9, 10, 26, 28, 40]
+    ws = st.hoja(wb, "Solicitudes de prórroga", f"Solicitudes de prórroga de permanencia 2026-3 — {etiqueta}",
+                 "Tres rondas de radicación ante la coordinación (mayo-junio de 2026) para estudio del Consejo de Facultad.", 14)
     st.tabla(ws, 4, enc_p, filas, anch)
     if por_confirmar:
-        ws = st.hoja(wb, "Modalidad por confirmar", "Solicitudes sin modalidad registrada", "No se encontró la modalidad en las fuentes; confirmar antes de publicar.", 12)
+        ws = st.hoja(wb, "Modalidad por confirmar", "Solicitudes sin modalidad registrada", "No se encontró la modalidad en las fuentes; confirmar antes de publicar.", 14)
         st.tabla(ws, 4, enc_p, por_confirmar, anch)
+
+    ws = st.hoja(wb, "PAGOT", f"Estudiantes PAGOT — {etiqueta}", "Cruce de las cuatro fuentes disponibles y seguimiento individual 2026-3 (anónimo).", 16)
+    f2 = st.seccion(ws, 4, "Cruce de fuentes", 8)
+    f2 = st.tabla(ws, f2, ["Fuente", "Estudiantes", "También en seguimiento 2026-3", "También solicitó prórroga 2026-3"], cruce, [64, 14, 22, 22], filtro=False, congelar=False)
+    f2 = st.seccion(ws, f2, "Respuesta a la convocatoria de PAGOT (seguimiento 2026-3)", 8)
+    f2 = st.tabla(ws, f2, ["Respuesta", "Estudiantes"], [[k, v] for k, v in resp.most_common()], filtro=False, congelar=False)
+    f2 = st.seccion(ws, f2, "Estado en Cóndor (seguimiento 2026-3)", 8)
+    f2 = st.tabla(ws, f2, ["Estado", "Estudiantes"], [[k, v] for k, v in est.most_common()], filtro=False, congelar=False)
+    f2 = st.seccion(ws, f2, "Inscritos oficiales a PAGOT por periodo", 8)
+    f2 = st.tabla(ws, f2, ["Periodo", "Estudiantes"], [[k, v] for k, v in sorted(ing.items())], filtro=False, congelar=False)
+    ws = st.hoja(wb, "Seguimiento PAGOT 2026-3", f"Seguimiento individual PAGOT 2026-3 — {etiqueta}",
+                 "Un registro por estudiante con ID interno (G-01…); sin nombre, documento ni código. El plan de trabajo son los espacios que cursará cada estudiante en cada periodo.", 16)
+    st.tabla(ws, 4, ["ID", "Énfasis (plan de ingreso)", "Último periodo activo", "Créditos aprobados", "Periodos", "Matrículas", "Respuesta a la convocatoria", "Pago 2026-3",
+                     "Plan 2026-3", "Plan 2027-1", "Plan 2027-3", "Estado en Cóndor", "Último recibo", "Solicitó prórroga 2026-3", "En base MCIC como PAGOT", "Inscrito oficial PAGOT"],
+             pagot_filas, [7, 22, 12, 10, 9, 10, 22, 9, 26, 22, 22, 30, 12, 12, 13, 12])
+    ws = st.hoja(wb, "Normativa PAGOT", "Normativa institucional del Plan de Graduación Oportuna (PAGOT)", "Fuente: Normativa_PAGOT_UD.xlsx.", 5)
+    st.tabla(ws, 4, ["Tipo", "Número", "Año", "Expedida por", "Enlace", "_u"], normas, [14, 9, 8, 32, 14], links={4: 5})
+
+    if alertas:
+        ws = st.hoja(wb, "Cruces y alertas", "Diferencias entre fuentes por revisar", "Los registros se identifican con su ID; no se corrigió ninguna fuente.", 3)
+        st.tabla(ws, 4, ["Registro", "Tema", "Detalle"], alertas, [12, 24, 110], filtro=False)
 
     ws = st.hoja(wb, "Acompañamiento", "Reunión de acompañamiento académico (06/04/2026, 7:00 p. m., virtual)",
                  "Convocatoria de la coordinación a estudiantes cuyo tiempo de permanencia vence en 2026-1, para orientar rutas de culminación del trabajo de grado.", 3)
     st.tabla(ws, 4, ["Modalidad", "Estudiantes convocados", "Fuente"],
              [[k, v, "Correo de convocatoria (Original/…/FACTOR 6/Reunión de acompañamiento.pdf)"] for k, v in sorted(conv_mod.items())], [24, 22, 70], filtro=False)
-
-    ws = st.hoja(wb, "PAGOT", f"Estudiantes PAGOT — {etiqueta}", f"Fuente: {archivo} (hoja {hoja}), columna «Tipo de estudiante».", 4)
-    f2 = st.tabla(ws, 4, ["Periodo de ingreso a PAGOT", "Estudiantes"], [[k, v] for k, v in sorted(pag_ing.items(), key=lambda x: str(x[0]))], [30, 14], filtro=False, congelar=False)
-    f2 = st.tabla(ws, f2, ["Estado académico", "Estudiantes"], [[k, v] for k, v in pag_est.most_common()], [30, 14], filtro=False, congelar=False)
-    st.tabla(ws, f2, ["Énfasis", "Estudiantes"], [[k, v] for k, v in pag_enf.most_common()], [30, 14], filtro=False, congelar=False)
 
     ws = st.hoja(wb, "Graduados", f"Graduados 2022-2026 — {etiqueta}", "Año estimado a partir de la última matrícula registrada en Cóndor.", 7)
     st.tabla(ws, 4, ["Modalidad"] + anios + ["Total"], grad_filas, [28, 9, 9, 9, 9, 9, 10], filtro=False)
@@ -760,17 +1173,60 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     act.mkdir(parents=True, exist_ok=True)
     nombre = f"F6_Permanencia_y_Graduacion_{nombre_mod}.xlsx"
     wb.save(act / nombre)
-    return [f"{act.name}/{nombre}"]
+    copiar(f6 / "Normativa_PAGOT_UD.xlsx", act)
+    return [f"{act.name}/{nombre}", f"{act.name}/Normativa_PAGOT_UD.xlsx"]
 
 
 # ---------------------------------------------------------------------------
 # FACTOR 8 — Trabajos de grado vinculados a grupos (consolidado por modalidad)
 # ---------------------------------------------------------------------------
-CONSOLIDADO = ROOT / "Consolidado_trabajos_grado_MCIC_2022_2026 (7).xlsx"
+def modalidad_por_nombre(estudiantes: str | None) -> tuple[str | None, str]:
+    """Modalidad inferida por el nombre de los estudiantes (Cóndor/bases). Solo si todos coinciden y el nombre identifica a una única persona."""
+    nombres = [n.strip() for n in re.split(r";|\n| y |,", str(estudiantes or "")) if n.strip()]
+    if not nombres:
+        return None, "Sin estudiantes"
+    mods = set()
+    for n in nombres:
+        t = norm_tokens(n)
+        if len(t) < 3:
+            return None, "Nombre incompleto"
+        cands = [r for r in ROSTER if t <= norm_tokens(r["nombre"])]
+        if not cands or len({r["documento"] or r["codigo"] for r in cands}) != 1:
+            return None, "Sin coincidencia única en Cóndor"
+        mm = {modalidad_de(r["codigo"])[0] for r in cands} - {None}
+        if len(mm) != 1:
+            return None, "Cóndor/bases sin modalidad"
+        mods |= mm
+    return (mods.pop(), "Inferida por nombre (Cóndor/bases)") if len(mods) == 1 else (None, "Estudiantes de modalidades distintas")
+
+
+def clasificar_consolidado(fuente: Path) -> tuple[list[list], list[str]]:
+    """Cada fila: [ID, grupo, título, año, modalidad|None, directores, estudiantes, fecha, RIUD, estado, tipo, nota de modalidad, observación]."""
+    src = openpyxl.load_workbook(fuente, data_only=True)
+    filas = []
+    for r in src["Consolidado"].iter_rows(min_row=2, values_only=True):
+        if not r[0]:
+            continue
+        cod = str(r[1]).split(".")[0] if r[1] else None
+        modal, obs_mod, tipo = r[5], None, None
+        if modal == "Pasantía":
+            modal, obs_mod, tipo = "Profundización", "Pasantía (opción de grado de Profundización)", "Pasantía"
+        if modal not in ("Investigación", "Profundización"):
+            mm, criterio = modalidad_de(cod) if cod else (None, "Sin código")
+            if mm:
+                modal, obs_mod = mm, f"Modalidad completada por cruce: {criterio.lower()}"
+            else:
+                mm, criterio = modalidad_por_nombre(r[7])
+                modal, obs_mod = (mm, f"{criterio}; verificar") if mm else (None, None)
+        tipo = tipo or ("Trabajo de investigación" if modal == "Investigación" else "Trabajo de profundización" if modal == "Profundización" else None)
+        # Se omiten el código estudiantil y la ruta del archivo fuente (contienen códigos); siguen en el consolidado de Original/
+        filas.append([r[0], r[2], r[3], r[4], modal, r[6], r[7], r[8], r[9], r[11], tipo, obs_mod or "", re.sub(r"\b\d{11}\b", "[código]", str(r[12] or ""))])
+    return filas, [c.value for c in src["Consolidado"][1]]
 
 
 def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     etiqueta = mod["etiqueta"]
+    otra = "Profundización" if etiqueta == "Investigación" else "Investigación"
     fdir = factor_dirs(mod["plan"])[8]
     out = []
     act_a = dest / "a. Presentación a nuevos estudiantes de procesos de investigación"
@@ -781,65 +1237,64 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
             copiar(f, dest / "ANEXOS PONENCIAS")
             out.append(f"ANEXOS PONENCIAS/{f.name}")
 
-    src = openpyxl.load_workbook(CONSOLIDADO, data_only=True)
-    enc = [c.value for c in src["Consolidado"][1]]
-    filas_mod, por_confirmar = [], []
-    for r in src["Consolidado"].iter_rows(min_row=2, values_only=True):
-        if not r[0]:
-            continue
-        r = list(r)
-        cod = str(r[1]).split(".")[0] if r[1] else None
-        modal = r[5]
-        obs_mod = None
-        if modal == "Pasantía":
-            modal, obs_mod = "Profundización", "Pasantía (opción de grado de Profundización)"
-        if modal not in ("Investigación", "Profundización"):
-            mm, criterio = modalidad_de(cod) if cod else (None, "Sin código")
-            if mm:
-                modal, obs_mod = mm, f"Modalidad completada por cruce: {criterio.lower()}"
-            else:
-                modal = None
-        # Se omiten el código estudiantil y la ruta del archivo fuente (contiene códigos); ambos siguen en el consolidado de Original/
-        fila = [r[0], r[2], r[3], r[4], modal or "Por confirmar", r[6], r[7], r[8], r[9], r[11], obs_mod or "", re.sub(r"\b\d{11}\b", "[código]", str(r[12] or ""))]
-        if modal == etiqueta:
-            filas_mod.append(fila)
-        elif modal is None:
-            por_confirmar.append(fila)
+    fuente = fdir / "Consolidado_trabajos_grado_MCIC_2022_2026 (7).xlsx"
+    todos, _ = clasificar_consolidado(fuente)
+    por_mod = {k: [f for f in todos if f[4] == k] for k in ("Investigación", "Profundización")}
+    por_confirmar = [f for f in todos if f[4] is None]
+    inferidos = [f for f in todos if str(f[11]).startswith("Inferida")]
+    propios = por_mod[etiqueta]
+    sustentado = lambda f: str(f[9]).startswith("Sustentado")  # noqa: E731
+    sust = [f for f in propios if sustentado(f)]
+    pend = [f for f in propios if not sustentado(f)]
+    por_anio = Counter((f[3], sustentado(f)) for f in propios)
+    grupos = Counter(f[1] for f in propios)
 
-    sust = [f for f in filas_mod if str(f[9]).startswith("Sustentado")]
-    pend = [f for f in filas_mod if not str(f[9]).startswith("Sustentado")]
-    por_anio = Counter((f[3], str(f[9]).startswith("Sustentado")) for f in filas_mod)
-    grupos = Counter(f[1] for f in filas_mod)
+    def fila_comp(nombre, lista):
+        s = sum(1 for f in lista if sustentado(f))
+        return [nombre, len(lista), s, len(lista) - s, len({f[1] for f in lista}), sum(1 for f in lista if f[10] == "Pasantía")]
+    comparativo = [fila_comp("Investigación", por_mod["Investigación"]), fila_comp("Profundización", por_mod["Profundización"]),
+                   ["Por confirmar", len(por_confirmar), sum(1 for f in por_confirmar if sustentado(f)), sum(1 for f in por_confirmar if not sustentado(f)), len({f[1] for f in por_confirmar}), 0],
+                   ["Total consolidado", len(todos), sum(1 for f in todos if sustentado(f)), sum(1 for f in todos if not sustentado(f)), len({f[1] for f in todos}), sum(1 for f in todos if f[10] == "Pasantía")]]
+    todos_grupos = sorted({f[1] for f in todos if f[1]}, key=lambda g: -sum(1 for f in todos if f[1] == g))
+    por_grupo = [[g, sum(1 for f in por_mod["Investigación"] if f[1] == g), sum(1 for f in por_mod["Profundización"] if f[1] == g),
+                  sum(1 for f in por_confirmar if f[1] == g)] for g in todos_grupos]
 
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 8 · Trabajos de grado vinculados a grupos de investigación — {etiqueta}",
                  "Versión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo se conserva sin cambios en Original/). "
                  "Se omiten el código estudiantil y la ruta del archivo fuente.")
     fila = encabezado_factor(ws, 4, 8, m)
-    fila = st.kpis(ws, fila, [("Trabajos de grado", len(filas_mod)), ("Sustentados", len(sust)),
-                              ("Pendientes / sin verificación", len(pend)), ("Grupos de investigación", len(grupos))])
-    st.nota(ws, fila + 1, f"Casos del consolidado sin modalidad en la fuente y sin código para cruzar: {len(por_confirmar)} (hoja «Modalidad por confirmar», la misma en ambas modalidades).")
+    fila = st.kpis(ws, fila, [(f"Trabajos de {etiqueta}", len(propios)), ("Sustentados", len(sust)), ("Pendientes / sin verificación", len(pend)), ("Grupos de investigación", len(grupos))])
+    fila = st.nota(ws, fila + 1, f"Modalidad: la del consolidado; si falta, se completa por código o por nombre del estudiante (Cóndor y bases MCIC, marcado como «Inferida por nombre» en la columna «Nota de modalidad»: {len(inferidos)} casos por verificar). "
+                   f"Quedan {len(por_confirmar)} casos sin modalidad (hoja «Modalidad por confirmar», la misma en ambas modalidades). Pasantía se clasifica como Profundización.")
     for col in "ABCDEFGH":
         ws.column_dimensions[col].width = 17
-    fila = st.seccion(ws, fila + 3, "Por año")
-    anios = sorted({f[3] for f in filas_mod if f[3]})
+    fila = st.seccion(ws, fila + 2, "Proyectos de investigación y de profundización (comparativo)")
+    fila = st.tabla(ws, fila, ["Modalidad", "Trabajos", "Sustentados", "No sustentados", "Grupos distintos", "Pasantías"], comparativo, filtro=False, congelar=False)
+    fila = st.seccion(ws, fila, f"Por año — {etiqueta}")
+    anios = sorted({f[3] for f in propios if f[3]})
     fila = st.tabla(ws, fila, ["Año", "Sustentados", "No sustentados", "Total"],
                     [[a, por_anio.get((a, True), 0), por_anio.get((a, False), 0), por_anio.get((a, True), 0) + por_anio.get((a, False), 0)] for a in anios],
                     filtro=False, congelar=False)
-    fila = st.seccion(ws, fila, "Por grupo de investigación")
+    fila = st.seccion(ws, fila, f"Por grupo de investigación — {etiqueta}")
     st.tabla(ws, fila, ["Grupo", "Trabajos de grado"], [[g, n] for g, n in grupos.most_common()], filtro=False, congelar=False)
 
-    encab = ["ID", "Grupo de investigación", "Título del trabajo de grado", "Año", "Modalidad", "Director(es)", "Estudiante(s)",
-             "Fecha / soporte de finalización", "Enlace RIUD", "Estado de sustentación", "Nota de modalidad", "Observación de cruce"]
-    anch = [6, 22, 60, 7, 14, 28, 28, 18, 30, 22, 30, 50]
-    ws = st.hoja(wb, "Consolidado", f"Trabajos de grado 2022-2026 — {etiqueta}", None, 12)
-    st.tabla(ws, 3, encab, filas_mod, anch)
-    ws = st.hoja(wb, "Pendientes sustentación", f"Casos programados, radicados o avalados sin sustentación — {etiqueta}", None, 12)
+    ws = st.hoja(wb, "Comparativo por grupo", "Trabajos de grado por grupo de investigación y modalidad",
+                 "Permite ver qué grupos acompañan proyectos de investigación y cuáles de profundización.", 4)
+    st.tabla(ws, 4, ["Grupo de investigación", "Investigación", "Profundización", "Modalidad por confirmar"], por_grupo, [50, 16, 16, 22], filtro=False)
+
+    encab = ["ID", "Grupo de investigación", "Título del trabajo de grado", "Año", "Modalidad", "Director(es)", "Estudiante(s)", "Fecha / soporte de finalización",
+             "Enlace RIUD", "Estado de sustentación", "Tipo de trabajo", "Nota de modalidad", "Observación de cruce"]
+    anch = [6, 22, 60, 7, 14, 28, 28, 18, 30, 22, 22, 34, 50]
+    ws = st.hoja(wb, "Consolidado", f"Trabajos de grado 2022-2026 — {etiqueta}", None, 13)
+    st.tabla(ws, 3, encab, propios, anch)
+    ws = st.hoja(wb, "Pendientes sustentación", f"Casos programados, radicados o avalados sin sustentación — {etiqueta}", None, 13)
     st.tabla(ws, 3, encab, pend, anch)
-    ws = st.hoja(wb, "Modalidad por confirmar", "Casos sin modalidad registrada en las fuentes", "Confirmar la modalidad antes de publicar.", 12)
+    ws = st.hoja(wb, "Modalidad por confirmar", "Casos sin modalidad registrada en las fuentes", "Confirmar la modalidad antes de publicar.", 13)
     st.tabla(ws, 4, encab, por_confirmar, anch)
     ws = st.hoja(wb, "Fuentes y calidad", "Fuentes, alcance y control de calidad (tomado del consolidado original)", None, 4)
-    fuentes = [[c for c in r] for r in src["Fuentes y calidad"].iter_rows(min_row=4, values_only=True) if any(r)]
+    srcwb = openpyxl.load_workbook(fuente, data_only=True)
+    fuentes = [[c for c in r] for r in srcwb["Fuentes y calidad"].iter_rows(min_row=4, values_only=True) if any(r)]
     st.tabla(ws, 3, ["Fuente", "Registros incorporados", "Uso en el consolidado", "Observación"], fuentes[1:], [50, 20, 30, 80], filtro=False)
 
     act_b = dest / "b. Socialización y vinculación de actividades de investigación"
@@ -935,13 +1390,397 @@ def factor9(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 
 
 # ---------------------------------------------------------------------------
-# FACTORES 7, 10, 11, 12 — sin cambios de contenido (se ubican en su actividad)
+# FACTOR 7 — normas institucionales + enlace a URELINTER (convenios vigentes)
+# ---------------------------------------------------------------------------
+URL_URELINTER = "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones"
+
+
+def factor7(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
+    out = sin_cambios(7, mod, dest)
+    conv = json.loads((SILVER / "convenios.json").read_text(encoding="utf-8"))
+    wb = st.nuevo_libro()
+    ws = st.hoja(wb, "URELINTER", f"Factor 7 · Convenios vigentes — {mod['programa']}",
+                 "Los convenios los administra la Unidad de Relaciones Interinstitucionales (URELINTER). Se deja el enlace oficial mientras se recibe la información de los profesores sobre su participación en convenios.", 6)
+    fila = encabezado_factor(ws, 4, 7, m)
+    fila = st.seccion(ws, fila, "Enlace oficial", 6)
+    ws.cell(row=fila, column=1, value="Convenios vigentes de la Universidad Distrital (URELINTER)").font = st.FONT_CELDA
+    c = ws.cell(row=fila, column=3, value=URL_URELINTER)
+    c.hyperlink, c.font = URL_URELINTER, st.FONT_LINK
+    ws.merge_cells(start_row=fila, start_column=1, end_row=fila, end_column=2)
+    ws.merge_cells(start_row=fila, start_column=3, end_row=fila, end_column=6)
+    fila += 2
+    fila = st.kpis(ws, fila, [("Convenios institucionales vigentes", conv["convenios_totales"]), ("Internacionales", conv["por_nivel"]["Internacional"]),
+                              ("Nacionales", conv["por_nivel"]["Nacional"]), ("Que mencionan a la Facultad de Ingeniería", conv["total_convenios_relacionados"])], por_fila=4)
+    fila = st.nota(ws, fila + 1, "El listado de URELINTER es institucional (toda la Universidad) y no se puede filtrar por programa. "
+                   f"Fuente: {conv['fuente']['url']} · descargado el {fecha_es(conv['fuente']['fecha_descarga'])}. {conv['fuente']['nota']}", 6)
+    for col in "ABCDEF":
+        ws.column_dimensions[col].width = 22
+    ws = st.hoja(wb, "Por tipo", "Convenios vigentes por tipo", f"Total institucional: {conv['convenios_totales']}.", 2)
+    st.tabla(ws, 4, ["Tipo de convenio", "Convenios"], [[k, v] for k, v in conv["por_tipo"].items()], [34, 14], filtro=False)
+    ws = st.hoja(wb, "Facultad de Ingeniería", "Convenios institucionales que mencionan a la Facultad de Ingeniería",
+                 "Búsqueda por texto sobre institución, denominación y objeto de cada convenio.", 7)
+    filas = [[x["codigo"], x["nivel"], x.get("pais_categoria"), x["institucion"], x["tipo"], x["estado"], " ".join(str(x.get("objeto") or "").split())[:400]]
+             for x in conv["convenios_relacionados_facultad_ingenieria"]]
+    st.tabla(ws, 4, ["Código", "Nivel", "País", "Institución", "Tipo", "Vigencia", "Objeto"], filas, [12, 14, 18, 44, 18, 20, 80], filtro=False)
+    act = dest / "a. Diagnostico de convenios vigentes"
+    act.mkdir(parents=True, exist_ok=True)
+    nombre = f"F7_Convenios_URELINTER_{nombre_mod}.xlsx"
+    wb.save(act / nombre)
+    return out + [f"{act.name}/{nombre}"]
+
+
+# ---------------------------------------------------------------------------
+# FACTOR 10 — Biblioteca, Planes TIC y ambientes de aprendizaje
+# ---------------------------------------------------------------------------
+BIBLIOTECA_CIFRAS = [  # (indicador, Universidad (todas las bibliotecas), Biblioteca Facultad de Ingeniería)
+    ("Área (m²)", "5.489", "261"),
+    ("Puestos de lectura", "1.426", "72"),
+    ("Colecciones", "375.000+ (210.000 libros · 91 mil documentos en RIUD · 45 mil audiovisuales · 30 mil revistas · 47 bases de datos suscritas)", "24.000+ (14 mil libros · 500 audiovisuales · 10 mil trabajos de grado)"),
+    ("Tecnología", "2.370 equipos (497 portátiles · 1.675 tablets · 62 de funcionarios · 29 catálogos · 9 carteleras digitales · 14 TV · 84 audífonos)", "321 equipos (43 portátiles · 272 tablets · 1 catálogo · 1 cartelera digital · 2 TV · 2 audífonos)"),
+    ("Espacios", "88 (16 salas de lectura · 6 auditorios · 1 teatro · 9 salas grupales · 5 expositivas · 1 multifuncional · 2 de informática · 4 multimedia · 2 maker spaces · 21 mediatecas · 2 de capacitación)", "2 (1 sala de lectura · 1 sala grupal)"),
+]
+
+
+def datos_biblioteca(xlsx: Path) -> tuple[list[str], list[list]]:
+    ws = openpyxl.load_workbook(xlsx, data_only=True)["A. Uso_Servicios CRAI+desglose"]
+    filas, anios = [], []
+    for r in ws.iter_rows(values_only=True):
+        r = list(r[1:])  # la tabla empieza en la columna B
+        if r and r[0] == "SERVICIOS CRAI+":
+            anios = [str(x) for x in r[1:10]]
+        elif anios and r[0] and (str(r[0]).startswith("Servicios CRAI+") or r[0] == "TOTAL"):
+            filas.append([" ".join(str(r[0]).split())] + [int(v or 0) for v in r[1:10]] + [int(r[10] or 0)])
+            if r[0] == "TOTAL":
+                break
+    return anios, filas
+
+
+def factor10(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
+    fdir = factor_dirs(mod["plan"])[10]
+    inv_dir = factor_dirs(MODALIDADES["Investigacion"]["plan"])[10]
+    out = []
+    a = dest / "a. Diagnóstico sobre ambientes de aprendizaje"
+    b = dest / "b. Consolidación de propuesta de medios educativos"
+    copiar(fdir / "Ambientes de Aprendizaje Facultad Ing.png", a)
+    out.append(f"{a.name}/Ambientes de Aprendizaje Facultad Ing.png")
+    for f in ("02 Biblioteca - Versión acreditación 2026 - Posgrado (1).pptx", "Presentación PlanesTIC MCIC.pptx"):
+        copiar(fdir / f, b)
+        out.append(f"{b.name}/{f}")
+    anexo = "Anexo 1 Biblioteca Estadísticas Ingenieria_Maestria Ciencias.xlsx"
+    copiar(inv_dir / anexo, b)  # estadística institucional: se entrega en ambas modalidades
+    out.append(f"{b.name}/{anexo}")
+    anios, uso = datos_biblioteca(inv_dir / anexo)
+
+    from pptx import Presentation
+    tic = Presentation(fdir / "Presentación PlanesTIC MCIC.pptx")
+    hitos = sorted((sh.left, sh.text_frame.text) for sh in tic.slides[14].shapes if sh.has_text_frame and sh.name.startswith("CuadroTexto 2") and "TRAYECTORIA" not in sh.text_frame.text)
+    anios_h = ["2017", "2018", "2020", "2021", "2022", "2024", "2025", "2026"]
+    trayectoria = [[a_, "; ".join(x.strip(" .") for x in t.split("\n") if x.strip())] for a_, (_, t) in zip(anios_h, hitos)]
+
+    wb = st.nuevo_libro()
+    ws = st.hoja(wb, "Resumen", f"Factor 10 · Medios educativos y ambientes de aprendizaje — {mod['programa']}",
+                 "Propuesta de medios educativos articulada con la Unidad de Biblioteca y el Comité de Planes TIC (PlanEsTIC). Información institucional, común a las dos modalidades.")
+    fila = encabezado_factor(ws, 4, 10, m)
+    fila = st.kpis(ws, fila, [("Colección de la Biblioteca de Ingeniería", "24.000+"), ("Puestos de lectura (Ingeniería)", 72), ("Bases de datos suscritas (UD)", 47),
+                              ("Casos de soporte virtual en posgrados", 608), ("…de ellos, de la Maestría desde 2024", 77), ("Servicios CRAI+ usados 2025", f"{uso[-1][8]:,}".replace(",", "."))])
+    st.nota(ws, fila + 1, "Las cifras de Biblioteca y PlanEsTIC son institucionales: no se pueden separar por modalidad de la Maestría (el anexo estadístico es de la Facultad de Ingeniería y la Maestría).")
+    for col in "ABCDEFGH":
+        ws.column_dimensions[col].width = 18
+
+    ws = st.hoja(wb, "Biblioteca - cifras", "Unidad de Biblioteca: infraestructura, colecciones y tecnología", "Fuente: presentación «02 Biblioteca – Versión acreditación 2026 – Posgrado» (Unidad de Biblioteca, 30 de agosto de 2024).", 3)
+    st.tabla(ws, 4, ["Indicador", "Sistema de Bibliotecas UD", "Biblioteca Vytautas Gabriunas – Facultad de Ingeniería"], [list(x) for x in BIBLIOTECA_CIFRAS], [26, 70, 60], filtro=False)
+    ws = st.hoja(wb, "Biblioteca - uso CRAI+", "Uso de los servicios CRAI+ por año (Sistema de Bibliotecas)", "Fuente: «Anexo 1 Biblioteca – Estadísticas» (datos del Sistema de Bibliotecas al 30 de junio de 2026). 2026 es parcial.", 12)
+    st.tabla(ws, 4, ["Servicio CRAI+"] + anios + ["Total"], uso, [64] + [11] * 9 + [12], filtro=False)
+    for row in ws.iter_rows(min_row=5, min_col=2, max_col=11):
+        for c in row:
+            c.number_format = "#,##0"
+    ws = st.hoja(wb, "PlanEsTIC", "Maestría en articulación con PlanEsTIC (educación virtual)", "Fuente: presentación «Maestría en Ciencias de la Información y las Comunicaciones en articulación con PlanEsTIC».", 2)
+    f2 = st.tabla(ws, 4, ["Componente", "Contenido"], [
+        ["Estructura virtual", "Equipo virtual con roles: decano / coordinador de programa y de PlanEsTIC, autor de contenido y asesor pedagógico, profesional de servicio y soporte virtual."],
+        ["Diseño pedagógico", "Modelo ADDIE para el diseño instruccional de los cursos de la modalidad virtual (calidad de los recursos y mejora continua)."],
+        ["Gestión académica", "Gestión académica con facultades y coordinaciones; prevención de la deserción; atención a docentes y estudiantes; calidad de los cursos; seguimiento de la acción tutorial."],
+        ["Gestión tecnológica", "Plataforma de aprendizaje (Moodle institucional), herramientas web, software y hardware para producción de contenidos; encuentros sincrónicos por Teams institucional."],
+        ["Soporte técnico virtual", "608 casos atendidos en posgrados; 77 casos de la Maestría desde 2024, además de la atención por chat y correo."],
+        ["Ambiente virtual de aprendizaje", "Aulas virtuales creadas por solicitud, alistadas desde un esqueleto de curso, con matrícula de usuarios, capacitación y lanzamiento."],
+    ], [30, 120], filtro=False, congelar=False)
+    f2 = st.seccion(ws, f2, "Trayectoria del programa (modalidad presencial con apoyo de la virtualidad) — espacios académicos por hito", 2)
+    st.tabla(ws, f2, ["Año del hito", "Espacios académicos"], trayectoria, [30, 120], filtro=False, congelar=False)
+
+    b.mkdir(parents=True, exist_ok=True)
+    nombre = f"F10_Medios_Educativos_{nombre_mod}.xlsx"
+    wb.save(b / nombre)
+    out.append(f"{b.name}/{nombre}")
+    return out
+
+
+# ---------------------------------------------------------------------------
+# FACTOR 11 — Autoevaluación 2025 (anterior) y 2026 diferenciadas
+# ---------------------------------------------------------------------------
+def resultados_autoevaluacion_2026(path: Path) -> list[list]:
+    """Por instrumento y factor: respuestas máximas y promedio (1-5) de las preguntas de escala."""
+    wb = openpyxl.load_workbook(path, data_only=True)
+    out = []
+    for hoja, etiqueta in (("ESTUDIANTES", "Estudiantes"), ("DOCENTES", "Docentes"), ("DIRECTIVOS", "Directivos")):
+        factor, n_max, acum = None, 0, defaultdict(lambda: [0, 0.0, 0])  # factor -> [n_pesos, suma, n_preguntas]
+        n_por_factor = defaultdict(int)
+        filas = [r for r in wb[hoja].iter_rows(values_only=True)]
+        i = 0
+        while i < len(filas):
+            celdas = [c for c in filas[i] if c is not None]
+            txt = str(celdas[0]) if celdas else ""
+            mf = re.match(r"(FACTOR \d+)\.", txt)
+            if mf:
+                factor = mf.group(1)
+            if txt.startswith("Personas que han contestado") and factor:
+                n = int(celdas[1])
+                j, vals = i + 3, []
+                while j < len(filas):
+                    c2 = [c for c in filas[j] if c is not None]
+                    if len(c2) >= 2 and re.fullmatch(r"[1-5]", str(c2[0]).strip()):
+                        vals.append((int(str(c2[0]).strip()), int(c2[1])))
+                        j += 1
+                    else:
+                        break
+                if vals and sum(v for _, v in vals) == n:
+                    acum[factor][0] += n
+                    acum[factor][1] += sum(k * v for k, v in vals)
+                    acum[factor][2] += 1
+                    n_por_factor[factor] = max(n_por_factor[factor], n)
+                i = j
+                continue
+            i += 1
+        for f, (nn, suma, nq) in sorted(acum.items(), key=lambda kv: int(kv[0].split()[1])):
+            out.append([etiqueta, f, n_por_factor[f], nq, round(suma / nn, 2)])
+    return out
+
+
+def contar_respuestas_2025(carpeta: Path) -> list[list]:
+    cuentas = []
+    for etiqueta, patron in (("Estudiantes", "Proceso de Autoevaluación 2025 - Estudiantes.xlsx"), ("Docentes", "Proceso de Autoevaluación 2025 - Docentes.xlsx"),
+                             ("Egresados", "Proceso de Autoevaluación 2025 - Egresados.xlsx")):
+        f = next((p for p in carpeta.rglob("*.xlsx") if unicodedata.normalize("NFC", p.name).lower() == unicodedata.normalize("NFC", patron).lower()), None)
+        if f:
+            ws = openpyxl.load_workbook(f, read_only=True, data_only=True).worksheets[0]
+            cuentas.append([etiqueta, sum(1 for r in ws.iter_rows(min_row=2, values_only=True) if r and r[0])])
+    return cuentas
+
+
+def factor11(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
+    etiqueta = mod["etiqueta"]
+    sigla = "INV" if etiqueta == "Investigación" else "PROF"
+    fdir = factor_dirs(mod["plan"])[11]
+    ant = next(p for p in fdir.iterdir() if p.is_dir() and unicodedata.normalize("NFC", p.name).lower().startswith("autoevaluación anterior"))
+    out = []
+    c26 = dest / "c. Implementación de los lineamientos del SIAC" / "Autoevaluación 2026 (vigente)"
+    c25 = dest / "c. Implementación de los lineamientos del SIAC" / "Autoevaluación 2025 (anterior)"
+    d26 = dest / "d. Construcción de reportes" / "Autoevaluación 2026 (vigente)"
+    d25 = dest / "d. Construcción de reportes" / "Autoevaluación 2025 (anterior)"
+    rel = lambda p: str(p.relative_to(dest))  # noqa: E731
+    for f in (f"CC-FR-001 Plan de mejoramiento {sigla}.xlsx", f"MCIC AutoevaluacionPermanenteInstitucional {sigla}.pdf"):
+        copiar(fdir / f, c26)
+        out.append(rel(c26 / f))
+    for f in ("ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+              "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx"):
+        copiar(fdir / f, d26)
+        out.append(rel(d26 / f))
+    informe = next(ant.glob("Informe autoev*.pdf"))
+    copiar(informe, c25)
+    out.append(rel(c25 / informe.name))
+    enc = ant / "Encuestas"
+    for grupo in ("Estudiantes", "Docentes", "Egresados"):
+        for png in sorted((enc / grupo).rglob("*.png")):
+            copiar(png, d25 / "Gráficos de las encuestas" / grupo)
+            out.append(rel(d25 / "Gráficos de las encuestas" / grupo / png.name))
+    for pdf in sorted((enc / "Soportes").glob("*.pdf")):
+        copiar(pdf, d25 / "Invitaciones a las encuestas")
+        out.append(rel(d25 / "Invitaciones a las encuestas" / pdf.name))
+
+    res26 = resultados_autoevaluacion_2026(fdir / "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx")
+    n26 = {}
+    for inst, _f, n, _q, _p in res26:
+        n26[inst] = max(n26.get(inst, 0), n)
+    n25 = dict(contar_respuestas_2025(enc))
+    wb = st.nuevo_libro()
+    ws = st.hoja(wb, "Resumen", f"Factor 11 · Autoevaluación 2025 (anterior) y 2026 (vigente) — {mod['programa']}",
+                 "Los dos procesos están en carpetas separadas, con el año en el nombre: «Autoevaluación 2025 (anterior)» y «Autoevaluación 2026 (vigente)».")
+    fila = encabezado_factor(ws, 4, 11, m)
+    fila = st.kpis(ws, fila, [("Estudiantes que respondieron 2025", n25.get("Estudiantes", "—")), ("Estudiantes que respondieron 2026-1", n26.get("Estudiantes", "—")),
+                              ("Docentes que respondieron 2025", n25.get("Docentes", "—")), ("Docentes que respondieron 2026-1", n26.get("Docentes", "—")),
+                              ("Egresados que respondieron 2025", n25.get("Egresados", "—")), ("Directivos que respondieron 2026-1", n26.get("Directivos", "—"))])
+    for col in "ABCDEFGH":
+        ws.column_dimensions[col].width = 18
+    ws = st.hoja(wb, "2025 vs 2026", "Diferencias entre la autoevaluación 2025 y la de 2026", None, 4)
+    st.tabla(ws, 3, ["Aspecto", "Autoevaluación 2025 (anterior)", "Autoevaluación 2026 (vigente)"], [
+        ["Propósito", "Informe de autoevaluación con fines de renovación de la acreditación en alta calidad (octubre de 2025).", "Proceso de autoevaluación permanente (Sistema Interno de Aseguramiento de la Calidad), 2026."],
+        ["Documento principal", f"{informe.name}", f"MCIC AutoevaluacionPermanenteInstitucional {sigla}.pdf (29 páginas)"],
+        ["Instrumentos", "Encuestas a estudiantes, docentes, egresados, directivos y empleadores aplicadas en marzo de 2025.", "Instrumentos de apreciación institucionales (Modelo CNA 2020) a estudiantes, docentes y directivos; periodo 2026-1."],
+        ["Resultados", "Gráficos por pregunta de cada encuesta (carpeta «Gráficos de las encuestas»). Las bases de respuestas contienen datos personales y quedan en Original/.", "Libro «Resultados Proceso Autoevaluación 2026-1» y análisis general por estamento (elaborado con apoyo de IA, con recomendación de análisis propio)."],
+        ["Plan de mejoramiento asociado", "Plan 2024-2026 (formato AA-FR-001), ver Factor 11 de este plan.", f"Plan 2026-2027 (formato CC-FR-001) — «CC-FR-001 Plan de mejoramiento {sigla}.xlsx»."],
+    ], [28, 80, 80], filtro=False, congelar=False)
+    ws = st.hoja(wb, "Resultados 2026-1", "Promedio por factor de las preguntas de escala 1-5 (2026-1)",
+                 "Solo preguntas de selección única con escala 1 a 5; el detalle por pregunta está en el libro de resultados. No hay un cálculo equivalente para 2025 porque sus respuestas individuales contienen datos personales.", 5)
+    st.tabla(ws, 4, ["Instrumento", "Factor", "Respuestas (máx.)", "Preguntas de escala", "Promedio (1-5)"], res26, [16, 14, 18, 18, 14], filtro=False)
+    ws = st.hoja(wb, "Archivos", "Archivos por autoevaluación", "Rutas relativas a esta carpeta de factor.", 3)
+    fil = []
+    for r in out:
+        fil.append(["2025 (anterior)" if "2025" in r else "2026 (vigente)", r.split("/")[0], "/".join(r.split("/")[1:])])
+    st.tabla(ws, 3, ["Autoevaluación", "Actividad", "Archivo"], fil, [18, 52, 100])
+    d26.mkdir(parents=True, exist_ok=True)
+    nombre = f"F11_Autoevaluacion_2025_vs_2026_{nombre_mod}.xlsx"
+    wb.save(d26.parent / nombre)
+    out.append(rel(d26.parent / nombre))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# FACTOR 12 — Laboratorios: estudiantes activos por énfasis 2022-2026
+# ---------------------------------------------------------------------------
+ENFASIS_ORDEN = ["Teleinformática", "Sistemas de Información", "Geomática", "Ingeniería de Software", "Inteligencia Artificial", "Sin énfasis registrado"]
+ETIQUETA_ENFASIS = {"Sin énfasis registrado": "Sin énfasis definido aún"}
+ANIOS_ACTIVOS = list(range(2022, 2027))
+
+
+def cargar_enfasis_bases() -> dict[str, str]:
+    base = BRONZE / "Maestria CIC/2026/BASES  DE DATOS ESTUDIANTES"
+    out: dict[str, str] = {}
+    for archivo in ("MCIC - Base de datos Profundizacion.xlsx", "MCIC - Base de datos INVESTIGACION.xlsx", "MCIC - Base de datos V2.xlsx"):
+        rows = list(openpyxl.load_workbook(base / archivo, read_only=True, data_only=True)["Datos Personales"].iter_rows(values_only=True))
+        enc = [str(c).replace("\n", "").strip().upper() if c else "" for c in rows[0]]
+        ie = next((i for i, x in enumerate(enc) if x.startswith(("ENFASIS", "ÉNFASIS"))), None)
+        if ie is None:
+            continue
+        for r in rows[1:]:
+            if r and r[0] and r[ie]:
+                out.setdefault(str(r[0]).split(".")[0].strip(), enfasis_normalizado(str(r[ie])))
+    return out
+
+
+def activos_por_enfasis() -> dict[tuple[str, str], Counter]:
+    """(grupo, énfasis) -> Counter(año -> estudiantes con matrícula vigente ese año). Activo = año entre el ingreso (código) y la última matrícula en Cóndor."""
+    enf = cargar_enfasis_bases()
+    tabla: dict[tuple[str, str], Counter] = defaultdict(Counter)
+    for r in ROSTER:
+        c, u = r["codigo"], r["ultima"]
+        if len(c) != 11 or not re.match(r"\d{4}-\d", u):
+            continue
+        mod, _ = modalidad_de(c)
+        grupo = mod or "Plan anterior (sin modalidad)"
+        e = ENFASIS_POR_PROYECTO.get(c[5:8]) if c[5:8] in ("195", "295", "395", "495") else None
+        e = e or enf.get(c) or "Sin énfasis registrado"
+        if e == "Por Definir" or e == "Por definir":
+            e = "Sin énfasis registrado"
+        for y in ANIOS_ACTIVOS:
+            if int(c[:4]) <= y <= int(u[:4]):
+                tabla[(grupo, e)][y] += 1
+    return tabla
+
+
+def diapositiva_estudiantes(src: Path, destino: Path, etiqueta: str, filas: list[list], anio_nota: str) -> None:
+    from pptx import Presentation
+    from pptx.dml.color import RGBColor
+    from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+    from pptx.util import Emu, Pt
+
+    prs = Presentation(src)
+    s = prs.slides[-1]
+    for sh in list(s.shapes):  # idempotente: retira tablas o notas previas
+        if sh.name.startswith("Estudiantes activos"):
+            sh._element.getparent().remove(sh._element)
+    sub = s.shapes.add_textbox(Emu(783293), Emu(1300000), Emu(8900000), Emu(420000))
+    sub.name = "Estudiantes activos - subtítulo"
+    p = sub.text_frame.paragraphs[0]
+    r = p.add_run()
+    r.text = f"Estudiantes activos por énfasis, 2022 a 2026 — modalidad {etiqueta}"
+    r.font.size, r.font.bold, r.font.name = Pt(18), True, "Segoe UI"
+    n_filas, n_cols = len(filas) + 1, 1 + len(ANIOS_ACTIVOS)
+    alto = 340000
+    gf = s.shapes.add_table(n_filas, n_cols, Emu(785362), Emu(1780000), Emu(8900000), Emu(alto * n_filas))
+    gf.name = "Estudiantes activos - tabla"
+    tbl = gf.table
+    tbl._tbl.tblPr.find("{http://schemas.openxmlformats.org/drawingml/2006/main}tableStyleId").text = "{5940675A-B579-460E-94D1-54222C63F5DA}"
+    tbl.columns[0].width = Emu(3900000)
+    for j in range(1, n_cols):
+        tbl.columns[j].width = Emu(1000000)
+    for i in range(n_filas):
+        tbl.rows[i].height = Emu(alto)
+    encabezados = ["Énfasis"] + [str(a) for a in ANIOS_ACTIVOS]
+    for i in range(n_filas):
+        vals = encabezados if i == 0 else filas[i - 1]
+        negrita = i == 0 or str(vals[0]).startswith("Total")
+        for j in range(n_cols):
+            c = tbl.cell(i, j)
+            c.vertical_anchor = MSO_ANCHOR.MIDDLE
+            c.margin_left = c.margin_right = Emu(70000)
+            tf = c.text_frame
+            tf.text = str(vals[j])
+            pa = tf.paragraphs[0]
+            pa.alignment = PP_ALIGN.LEFT if j == 0 else PP_ALIGN.CENTER
+            for run in pa.runs:
+                run.font.size, run.font.bold, run.font.name = Pt(14), negrita, "Segoe UI"
+            if negrita:
+                c.fill.solid()
+                c.fill.fore_color.rgb = RGBColor(0xDC, 0xE6, 0xF1)
+    nota = s.shapes.add_textbox(Emu(785362), Emu(1780000 + alto * n_filas + 50000), Emu(8900000), Emu(420000))
+    nota.name = "Estudiantes activos - nota"
+    nota.text_frame.word_wrap = True
+    r = nota.text_frame.paragraphs[0].add_run()
+    r.text = anio_nota
+    r.font.size, r.font.name, r.font.italic = Pt(9), "Segoe UI", True
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    prs.save(destino)
+
+
+def factor12(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
+    etiqueta = mod["etiqueta"]
+    fdir = factor_dirs(mod["plan"])[12]
+    out = []
+    a = dest / "a. Solicitud de informe de avance de la obra"
+    c = dest / "c. Socialización con la comunidad académica de acciones y avances"
+    copiar(fdir / "G312-3 Requerimientos equipos tecnológicos y de software.pdf", a)
+    out.append(f"{a.name}/G312-3 Requerimientos equipos tecnológicos y de software.pdf")
+
+    tabla = activos_por_enfasis()
+    filas = []
+    for e in ENFASIS_ORDEN:
+        vals = [tabla[(etiqueta, e)][y] for y in ANIOS_ACTIVOS]
+        if any(vals):
+            filas.append([ETIQUETA_ENFASIS.get(e, e)] + vals)
+    total = [sum(f[1 + i] for f in filas) for i in range(len(ANIOS_ACTIVOS))]
+    ante = [sum(v[y] for (g, _e), v in tabla.items() if g == "Plan anterior (sin modalidad)") for y in ANIOS_ACTIVOS]
+    filas_slide = filas + [["Total " + etiqueta] + total]
+    if any(ante):
+        filas_slide.append(["Plan anterior sin modalidad (aparte)"] + ante)
+    nota = ("Estudiantes con matrícula vigente en el año (entre su ingreso y su última matrícula en Cóndor). Fuente: Cóndor y bases de datos MCIC. "
+            "Un estudiante cuenta una vez por año; el énfasis es el de su plan de ingreso.")
+    nombre_pptx = "Laboratorios Maestría - MIC.pptx"
+    diapositiva_estudiantes(fdir / nombre_pptx, c / nombre_pptx, etiqueta, filas_slide, nota)
+    out.append(f"{c.name}/{nombre_pptx}")
+
+    wb = st.nuevo_libro()
+    ws = st.hoja(wb, "Resumen", f"Factor 12 · Estudiantes activos por énfasis 2022-2026 — {mod['programa']}",
+                 "Soporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de las otras modalidades para contexto.")
+    fila = encabezado_factor(ws, 4, 12, m)
+    fila = st.kpis(ws, fila, [(f"Activos {etiqueta} en 2026", total[-1]), (f"Activos {etiqueta} en 2022", total[0]),
+                              ("Plan anterior sin modalidad en 2022", ante[0]), ("Énfasis con estudiantes", len(filas))])
+    fila = st.seccion(ws, fila + 1, f"Estudiantes activos por énfasis — {etiqueta}")
+    fila = st.tabla(ws, fila, ["Énfasis"] + [str(y) for y in ANIOS_ACTIVOS], filas_slide, [38] + [10] * 5, filtro=False, congelar=False)
+    for g in ("Investigación", "Profundización", "Plan anterior (sin modalidad)"):
+        if g == etiqueta:
+            continue
+        fila = st.seccion(ws, fila, f"Contexto — {g}")
+        fg = [[ETIQUETA_ENFASIS.get(e, e)] + [tabla[(g, e)][y] for y in ANIOS_ACTIVOS] for e in ENFASIS_ORDEN if any(tabla[(g, e)][y] for y in ANIOS_ACTIVOS)]
+        fila = st.tabla(ws, fila, ["Énfasis"] + [str(y) for y in ANIOS_ACTIVOS], fg + [["Total"] + [sum(f[1 + i] for f in fg) for i in range(5)]], filtro=False, congelar=False)
+    st.nota(ws, fila, nota + " Es una aproximación: no se conocen los periodos intermedios sin matrícula. «Sin énfasis definido aún»: estudiantes de los proyectos 595/695 que no aparecen con énfasis en las bases MCIC (cohortes recientes).")
+    wb.save(c / f"F12_Estudiantes_activos_por_enfasis_{nombre_mod}.xlsx")
+    out.append(f"{c.name}/F12_Estudiantes_activos_por_enfasis_{nombre_mod}.xlsx")
+    return out
+
+
+# ---------------------------------------------------------------------------
+# FACTOR 7 (normas) — sin cambios de contenido: se ubican en su actividad
 # ---------------------------------------------------------------------------
 UBICACION_SIN_CAMBIOS = {
     7: lambda f: "d. Definición de acción para la formalización de convenios",
-    10: lambda f: "a. Diagnóstico sobre ambientes de aprendizaje",
-    11: lambda f: "c. Implementación de los lineamientos del SIAC" if f.name.startswith(("CC-FR-001", "MCIC Autoevaluacion")) else "d. Construcción de reportes",
-    12: lambda f: "a. Solicitud de informe de avance de la obra",
 }
 
 
@@ -958,22 +1797,36 @@ def sin_cambios(n: int, mod: dict, dest: Path) -> list[str]:
 # ---------------------------------------------------------------------------
 # Índice por modalidad
 # ---------------------------------------------------------------------------
-ESTADO = {1: "Sin cambios (aprobado)", 2: "Actualizado", 3: "Actualizado (en recolección)", 4: "Actualizado",
-          5: "Verificado", 6: "Actualizado", 7: "Sin cambios", 8: "Actualizado (para revisión)", 9: "Actualizado",
-          10: "Sin cambios", 11: "Sin cambios", 12: "Sin cambios"}
+ESTADO = {1: "Actualizado (PEP definitivo pendiente)", 2: "Actualizado", 3: "Actualizado (ajustes pendientes)", 4: "Actualizado (nuevo informe de egresados)",
+          5: "Actualizado (syllabus en PDF pendientes)", 6: "Actualizado", 7: "Actualizado (enlace URELINTER)", 8: "Actualizado",
+          9: "Actualizado", 10: "Actualizado", 11: "Actualizado (2025 y 2026 diferenciadas)", 12: "Actualizado"}
 OBS = {
-    1: "PEP y actas de las jornadas con docentes de Ingeniería de Software y Geomática.",
+    1: "PEP vigente de la modalidad y actas de las jornadas con docentes; se agrega el documento de orientaciones PFA (Vicerrectoría Académica) mientras llega el PEP definitivo.",
     2: "Libro único con páginas web, actividades, cobertura de cohortes y galería; los soportes con datos personales quedan en Original/.",
-    3: "Pendiente: soportes de capacitaciones 2025-2026 que reporten los profesores (columna por diligenciar).",
-    4: "Se retiran «Experiencias UD» e «Infografía Esquema Normativo». Pendiente: formulario a egresados 2022-2026 (sector en que laboran) enviado a la OATI.",
-    5: "Los syllabus no se diferencian por modalidad; el plan de estudios (Res. 016 de 2025) sí. Ver hallazgos en el libro de verificación.",
-    6: "Las solicitudes de prórroga se presentan con ID, sin datos personales.",
-    7: "Normativa institucional de internacionalización y cooperación. Pendiente: correo a profesores sobre participación en convenios.",
-    8: "Consolidado de trabajos de grado separado por modalidad; ponencias (ANEXOS PONENCIAS) solo en Investigación, de donde proviene el soporte.",
+    3: "Se mantiene así por ahora. Pendiente: soportes de capacitaciones 2025-2026 que están cargando los profesores (columna por diligenciar).",
+    4: "Se retiran «Experiencias UD» e «Infografía Esquema Normativo». Nuevo informe de caracterización e impacto a partir de la Hoja de Vida de Egresados (OATI), separado por modalidad. Pendiente: formulario de sector laboral a egresados 2022-2026.",
+    5: "Los syllabus no se diferencian por modalidad; el plan de estudios (Res. 016 de 2025) sí. Se retiraron tres hallazgos de la verificación. Pendiente: pasar los syllabus a PDF.",
+    6: "Prórrogas 2026-3 (tres rondas) con ID, cruce con PAGOT 2026-3 y graduados; sin datos personales.",
+    7: "Normativa institucional + enlace oficial de convenios vigentes de URELINTER. Pendiente: información de profesores sobre convenios.",
+    8: "Consolidado de trabajos de grado separado por modalidad (proyectos de investigación y de profundización diferenciados); ponencias solo en Investigación, de donde proviene el soporte.",
     9: "Incluye estímulos (Res. 143 de 2025 solo aplica a Investigación) y estadísticas de uso de Bienestar.",
-    10: "Pendiente: información de Biblioteca y Planes TIC.",
-    11: "Plan de mejoramiento y autoevaluación propios de la modalidad, más resultados e instrumentos de autoevaluación.",
-    12: "Pendiente: información de laboratorios.",
+    10: "Presentaciones de Biblioteca y Planes TIC, anexo estadístico de Biblioteca y libro resumen (información institucional, común a las dos modalidades).",
+    11: "Autoevaluación 2025 (anterior) y 2026 (vigente) en carpetas separadas, con libro comparativo.",
+    12: "Presentación de laboratorios con la última diapositiva actualizada: estudiantes activos por énfasis 2022-2026 de la modalidad.",
+}
+DECISION_COORDINACION = {  # comentarios de la coordinación al revisar NuevaData (oct. 2026)
+    1: "Aún falta el PEP; por ahora se actualiza con el PDF de orientaciones PFA.",
+    2: "Se puede actualizar con la información entregada.",
+    3: "Se puede subir así; mañana se ajusta con la información que cargan los profesores.",
+    4: "Analizar la base de egresados de la OATI (≈140 registros) y separar Investigación y Profundización para el informe de impacto.",
+    5: "Se eliminaron 3 hallazgos negativos; falta pasar los syllabus a PDF.",
+    6: "Analizar prórrogas 2026-3 y los dos archivos de PAGOT; cruzar con la información previa.",
+    7: "Cargar así por ahora y dejar el enlace de la página de URELINTER.",
+    8: "Actualizar con el consolidado y diferenciar proyectos de investigación y de profundización.",
+    9: "Actualizar con lo ya elaborado de Bienestar.",
+    10: "Se agregan las presentaciones de Biblioteca y Planes TIC.",
+    11: "Actualizar con la autoevaluación anterior y diferenciarla de la de 2026.",
+    12: "Actualizar la última diapositiva con estudiantes activos por énfasis 2022-2026.",
 }
 
 
@@ -981,13 +1834,13 @@ def indice(nombre_mod: str, mod: dict, base: Path, entregado: dict[int, list[str
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Índice", f"Evidencias del Plan de Mejoramiento — {mod['programa']} (SNIES {mod['snies']})",
                  "Propuesta de evidencias para aprobación. Periodo 2024-2027: plan anterior 2024-2026 y plan vigente 2026-2027. "
-                 "Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden.", 8)
+                 "Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden. Versión revisada con los comentarios de la coordinación (octubre de 2026).", 8)
     filas = []
     for n in range(1, 13):
         filas.append([n, m[n]["factor"].split(". ", 1)[1].rstrip("."), m[n]["meta_anterior"], m[n]["meta_vigente"],
-                      SOLICITUDES_PARES[n][0], SOLICITUDES_PARES[n][1], ESTADO[n], len(entregado[n]), OBS[n]])
+                      SOLICITUDES_PARES[n][0], DECISION_COORDINACION[n], SOLICITUDES_PARES[n][1], ESTADO[n], len(entregado[n]), OBS[n]])
     st.tabla(ws, 4, ["N°", "Factor", "Meta plan anterior (2024-2026)", "Meta plan vigente (2026-2027)", "Solicitud de los pares (sep. 2026)",
-                     "Responsable", "Estado", "Archivos", "Observaciones"], filas, [5, 30, 45, 45, 45, 20, 18, 9, 50])
+                     "Comentario de la coordinación (oct. 2026)", "Responsable", "Estado", "Archivos", "Observaciones"], filas, [5, 30, 45, 45, 45, 45, 20, 22, 9, 60])
     ws = st.hoja(wb, "Archivos", "Archivos entregados por factor", "Rutas relativas a esta carpeta.", 3)
     rutas = []
     carpetas = {n: d.name for n, d in factor_dirs(mod["plan"]).items()}
@@ -1003,15 +1856,7 @@ def indice(nombre_mod: str, mod: dict, base: Path, entregado: dict[int, list[str
 # ---------------------------------------------------------------------------
 def main() -> None:
     tr = json.loads(PRIVADO.read_text(encoding="utf-8"))
-    for sub in ("Original", "Presentacion"):
-        shutil.rmtree(OUT / sub, ignore_errors=True)
-
-    # Original: copia fiel de cada modalidad + insumos adicionales usados
-    for nombre_mod, mod in MODALIDADES.items():
-        o = OUT / "Original" / nombre_mod
-        copiar_arbol(mod["plan"], o)
-        f8 = o / factor_dirs(mod["plan"])[8].name
-        copiar(CONSOLIDADO, f8)
+    shutil.rmtree(OUT / "Presentacion", ignore_errors=True)  # Original/ es la fuente: no se toca
     copiar(PRIVADO, OUT / "Original/_transcripciones")
 
     for nombre_mod, mod in MODALIDADES.items():
@@ -1023,20 +1868,19 @@ def main() -> None:
             1: factor1(mod, d[1]),
             2: factor2(nombre_mod, mod, d[2], tr, m),
             3: factor3(nombre_mod, mod, d[3], tr, m),
-            4: factor4(mod, d[4]),
+            4: factor4(nombre_mod, mod, d[4], m),
             5: factor5(nombre_mod, mod, d[5], m),
             6: factor6(nombre_mod, mod, d[6], tr, m),
-            7: sin_cambios(7, mod, d[7]),
+            7: factor7(nombre_mod, mod, d[7], m),
             8: factor8(nombre_mod, mod, d[8], m),
             9: factor9(nombre_mod, mod, d[9], tr, m),
-            10: sin_cambios(10, mod, d[10]),
-            11: sin_cambios(11, mod, d[11]),
-            12: sin_cambios(12, mod, d[12]),
+            10: factor10(nombre_mod, mod, d[10], m),
+            11: factor11(nombre_mod, mod, d[11], m),
+            12: factor12(nombre_mod, mod, d[12], m),
         }
         indice(nombre_mod, mod, base, entregado, m)
         total = sum(len(v) for v in entregado.values())
         print(f"Presentacion/{nombre_mod}: {total} archivos en 12 factores")
-    print("Original/: copia fiel de Investigación y Profundización + consolidado de trabajos de grado + transcripciones")
 
 
 if __name__ == "__main__":

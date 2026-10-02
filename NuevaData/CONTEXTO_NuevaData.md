@@ -1,14 +1,15 @@
-# NuevaData — propuesta de evidencias del Plan de Mejoramiento (pendiente de aprobación)
+# NuevaData — evidencias del Plan de Mejoramiento (aprobadas con ajustes, listas para revisión final)
 
 Este documento deja todo el contexto para que, en otra sesión, se pueda pedir:
-**«integra NuevaData a Bronze, Silver y Gold»** una vez la coordinación apruebe las correcciones.
+**«integra NuevaData a Bronze, Silver y Gold»** una vez el usuario revise `Presentacion/` y lo confirme.
 
-- Fecha de preparación: 30 de septiembre de 2026.
-- Origen del pedido: correcciones solicitadas por los pares en la visita de septiembre de 2026
-  (`CorreccionEvidencias.ods`, raíz del repo). A los pares les gustó que se conservara la data
-  original, pero no que estuviera «esparcida». Por eso se entrega ya analizada, sin perder lo original.
-- **Estado: PENDIENTE DE APROBACIÓN.** Nada de `NuevaData/` está en `Data/` todavía. El micrositio
+- Primera versión: 30 de septiembre de 2026 (correcciones de los pares, `CorreccionEvidencias.ods`, raíz del repo).
+- **Segunda versión: 1 de octubre de 2026.** La coordinación aprobó NuevaData con 13 comentarios (§4) y cargó
+  insumos nuevos directamente en `Original/`. Esta versión los incorpora.
+- **Estado: PENDIENTE DE REVISIÓN DEL USUARIO.** Nada de `NuevaData/` está en `Data/` todavía. El micrositio
   sigue mostrando las evidencias anteriores, salvo los dos cambios de código descritos en §5.
+- Los pares valoraron conservar la data original, pero no que estuviera «esparcida»: por eso se entrega la
+  original (`Original/`) y la analizada (`Presentacion/`), siempre separadas por modalidad.
 
 ---
 
@@ -18,142 +19,143 @@ Este documento deja todo el contexto para que, en otra sesión, se pueda pedir:
 NuevaData/
 ├── CONTEXTO_NuevaData.md            ← este documento (versionado en git)
 ├── _build/
-│   ├── build_nuevadata.py           ← genera Original/ y Presentacion/ (idempotente)
+│   ├── build_nuevadata.py           ← genera Presentacion/ a partir de Original/ (idempotente)
 │   ├── xlsx_style.py                ← estilo común de los .xlsx
 │   └── _privado/transcripciones.json← transcripción manual de planillas (DATOS PERSONALES, fuera de git)
-├── Original/                        ← fuera de git (contiene datos personales)
-│   ├── Investigacion/               ← copia fiel de Data/Bronze/MCIC.INVESTIGACION/…/Plan de Mejoramiento
-│   ├── Profundizacion/              ← copia fiel de Data/Bronze/MCIC-PROFUNDIZACION/…/Plan de Mejoramiento
-│   │   (en ambas, FACTOR 8 incluye además el «Consolidado_trabajos_grado_MCIC_2022_2026 (7).xlsx» sin cambios)
+├── Original/                        ← FUENTE. Fuera de git (datos personales). El script NO la borra ni la modifica
+│   ├── Investigacion/FACTOR 1…12/   ← copia de Bronze (plan de mejoramiento) + lo que cargó la coordinación
+│   ├── Profundizacion/FACTOR 1…12/
 │   └── _transcripciones/transcripciones.json
 └── Presentacion/                    ← fuera de git (se sube a SharePoint para la aprobación)
-    ├── Investigacion/
-    │   ├── 00_Indice_Evidencias_Investigacion.xlsx
-    │   └── FACTOR 1 … FACTOR 12/<actividad>/<archivos>
-    └── Profundizacion/
-        ├── 00_Indice_Evidencias_Profundizacion.xlsx
-        └── FACTOR 1 … FACTOR 12/<actividad>/<archivos>
+    ├── Investigacion/ 00_Indice_Evidencias_Investigacion.xlsx + FACTOR 1 … FACTOR 12/<actividad>/<archivos>
+    └── Profundizacion/ 00_Indice_Evidencias_Profundizacion.xlsx + FACTOR 1 … FACTOR 12/<actividad>/<archivos>
 ```
 
 - Las carpetas `FACTOR N. …` usan **exactamente** los mismos nombres que en Bronze, así que
   `app/extract_seguimiento_evidencia.py` las reconoce sin cambios.
-- En `Presentacion/` **ningún archivo queda suelto**: todos están dentro de una carpeta de actividad
-  (`a. …`, `b. …`). El extractor solo marca «(sin actividad específica)» los archivos que quedan en la
-  raíz del FACTOR, y en Presentacion no hay ninguno.
-- Regenerar: `.venv/bin/python NuevaData/_build/build_nuevadata.py` (unos 10 s). El script borra y vuelve a crear
-  `Original/` y `Presentacion/`. Solo lee `Data/Bronze`, `Data/Silver`, `SolicitudesPares/` y el consolidado
-  de la raíz, y no modifica ninguno de ellos.
+- En `Presentacion/` **ningún archivo queda suelto**: todos están dentro de una carpeta de actividad.
+- Regenerar: `.venv/bin/python NuevaData/_build/build_nuevadata.py` (unos 15 s). Solo borra y recrea
+  `Presentacion/`. Lee `Original/`, `Data/Bronze` (Cóndor y bases MCIC), `Data/Silver`, `SolicitudesPares/` y no modifica nada de eso.
+  **Si se agrega o cambia un insumo, se coloca en `Original/<Modalidad>/FACTOR N…` (en ambas modalidades) y se vuelve a correr.**
 - `.gitignore` excluye `NuevaData/Original/`, `NuevaData/Presentacion/` y `NuevaData/_build/_privado/`.
+- Nota técnica: los nombres de archivo de `Original/` pueden venir con tildes en distinta normalización Unicode
+  (p. ej. `Investigacio╠ün`); el script no depende de ellas salvo por los nombres exactos listados en el código.
+- Se dejó un respaldo de la `Presentacion/` anterior (con carpetas duplicadas `FACTOR 01…09` creadas por la sincronización)
+  en el directorio temporal de la sesión; `Presentacion/` se regeneró completa.
 
 ## 2. Reglas aplicadas en todo Presentacion/
 
 1. **Periodo 2024-2027**: plan anterior 2024-2026 (formato AA-FR-001) y plan vigente 2026-2027 (CC-FR-001).
-2. **Meta del plan anterior visible en cada factor.** Cada libro nuevo abre con el bloque «Metas del plan
-   de mejoramiento»: meta 2024-2026, meta 2026-2027 y la solicitud de los pares. El índice
-   `00_Indice_Evidencias_<Mod>.xlsx` las reúne para los 12 factores.
-3. **Sin datos sensibles.** Presentacion no incluye cédulas, códigos estudiantiles, teléfonos, correos
-   personales, firmas ni nombres de estudiantes en planillas o solicitudes.
-   - Las planillas de asistencia y los correos con destinatarios quedan **solo en Original/**. Los libros
-     citan su ruta como «Soporte original (contiene datos personales)».
-   - Las solicitudes de prórroga se identifican con un ID (S-01…S-25). La relación ID → archivo
-     está en `_privado/transcripciones.json` y en `Original/_transcripciones/`.
-   - Se verificó con un escaneo automático que no quedan códigos de 11 dígitos ni correos en los libros
-     generados. Los únicos correos en archivos copiados son institucionales: decanaturas en
-     `Open Day.pdf`, Egresados y los docentes de `Directorio Grupos de Inv MCIC.xlsx`, que ya se
-     publica en el micrositio.
-   - Los nombres de autores y directores de trabajos de grado (FACTOR 8) se conservan porque son
-     información pública (RIUD).
-4. **Sin archivos sueltos ni duplicados.** Las copias de evidencias del FACTOR 2 que estaban sueltas en los
-   FACTORES 8 y 9 no se repiten en Presentacion; su información quedó en los libros. Los duplicados
-   «(1)» del FACTOR 2 tampoco se copian.
+2. **Meta del plan anterior visible en cada factor** (bloque «Metas del plan de mejoramiento» al abrir cada libro) y
+   en el índice `00_Indice_Evidencias_<Mod>.xlsx`, que ahora incluye una columna con el **comentario de la coordinación (oct. 2026)**.
+3. **Sin datos sensibles.** Presentacion no incluye cédulas, códigos estudiantiles, teléfonos, correos personales, firmas
+   ni nombres de estudiantes o egresados.
+   - Prórrogas: ID `P<ronda>-<n>` (P1-01…). PAGOT: ID `G-01…`. Egresados: ID `E-001…`. La relación ID → persona no se publica.
+   - Los libros de egresados no traen empleador ni cargo por persona; las instituciones solo se cuentan agregadas.
+   - Los correos, planillas, respuestas de encuestas 2025 (`DB mensajes`, `Información empleadores`, bases de respuestas)
+     y soportes de las prórrogas quedan solo en `Original/`.
+   - Los nombres de autores y directores de trabajos de grado (FACTOR 8) se conservan: son públicos (RIUD).
+   - Se verificó con un escaneo automático que los libros generados no contienen correos personales, códigos, documentos
+     ni nombres de los estudiantes/egresados (el único correo es institucional: `convenios-ceri@udistrital.edu.co`).
+4. **Sin archivos sueltos ni duplicados.** `CC-FR-001 P.xlsx` (Autoevaluación anterior, INV) es idéntico byte a byte al
+   plan vigente `CC-FR-001 Plan de mejoramiento INV.xlsx`, por eso se entrega una sola vez.
 5. **Separación Investigación / Profundización en todo lo que se pudo.** Cada estudiante se clasifica con
    esta prioridad (función `modalidad_de` del script):
-   1. modalidad declarada en la solicitud (p. ej. un cambio de modalidad aprobado);
+   1. modalidad declarada (cuadro de prórrogas, archivo PAGOT o consolidado);
    2. código de proyecto en el código estudiantil (`AAAAP595NNN` = Investigación, `AAAAP695NNN` = Profundización);
    3. proyecto actual en Cóndor (`Data/Bronze/Estados/Listado_de_estudiantes_por_estado_*.csv`, 595/695);
-   4. bases MCIC 2026 (`Maestria CIC/2026/BASES  DE DATOS ESTUDIANTES/`: hojas *N-A Investigación*,
-      *N-A Profundizacion*, *Pasantías*) y después `MCIC - Base de datos V2.xlsx`.
+   4. bases MCIC 2026 (`Maestria CIC/2026/BASES  DE DATOS ESTUDIANTES/`) y después `MCIC - Base de datos V2.xlsx`;
+   5. (solo FACTOR 8) nombre del estudiante contra Cóndor, si identifica a una única persona; queda marcado «Inferida por nombre».
 
-   Lo que la fuente no permite separar se marca como compartido y se explica en el propio libro:
-   planta docente, syllabus y estadísticas de Bienestar.
+   Lo que la fuente no permite separar se marca como compartido y se explica: planta docente, syllabus, Bienestar,
+   Biblioteca/PlanEsTIC, convenios URELINTER y los egresados del plan anterior (antes de que existieran las modalidades).
 
-## 3. Qué hay por factor
+## 3. Qué hay por factor (versión 2)
 
-Los estados coinciden con la columna «Estado» del índice.
-
-| N° | Presentacion/<Mod>/FACTOR N | Estado | Diferencia INV / PROF |
+| N° | Qué se entrega en Presentacion/<Mod>/FACTOR N | Estado | Diferencia INV / PROF |
 |---|---|---|---|
-| 1 | `a. PEP/` (PEP propio de la modalidad) y `b. Jornadas de trabajo con docentes/` (actas de Ing. Software y Geomática) | Sin cambios (aprobado por los pares) | El PEP es distinto en cada modalidad |
-| 2 | `a. Divulgación…/F2_Divulgacion_y_Estudiantes_<Mod>.xlsx` + `soportes/` (capturas web, fotos, Open Day.pdf) | Actualizado | Página web propia de cada modalidad, conteos por modalidad y cobertura por cohorte |
-| 3 | `a. Informes…/F3_Participacion_Docente_Capacitacion.xlsx` | Actualizado (en recolección) | Mismo libro en ambas: la planta docente es común (Cuadro Maestro No. 05 idéntico en los dos SNIES) |
-| 4 | `a. Servicios/` Portafolio de Servicios + Proyecto de Acuerdo Política de Egresados | Actualizado (se retiraron *Experiencias UD* e *Infografía Esquema Normativo*) | Compartido |
-| 5 | `a. …/Res 016 de 2025…pdf`, `b. …/Syllabus AA-FR-003/<área>/*.xlsx` (29) y `F5_Verificacion_Syllabus_Investigacion_vs_Profundizacion.xlsx` | Verificado | Ver §4 |
-| 6 | `d. Seguimiento…/F6_Permanencia_y_Graduacion_<Mod>.xlsx` | Actualizado | INV: 19 prórrogas, 32 PAGOT, 72 graduados 2022-2026. PROF: 6 prórrogas, 19 PAGOT, 56 graduados. En ambos se agregan 25 graduados del plan anterior sin modalidad registrada |
-| 7 | `d. Definición de acción para la formalización de convenios/` (8 normas institucionales) | Sin cambios (solo se ubicaron en una actividad) | Compartido |
-| 8 | `a. …/Directorio Grupos de Inv MCIC.xlsx`, `b. …/F8_Trabajos_de_grado_por_grupo_<Mod>.xlsx` y, solo en INV, `ANEXOS PONENCIAS/` (26) | Actualizado (para revisión) | Consolidado separado: INV 66 casos, PROF 52 (incluye 3 pasantías), 30 «por confirmar» en ambos. Las ponencias vienen del paquete SNIES 17528 (Investigación); 18 autores confirmados como de Investigación y ninguno de Profundización |
-| 9 | `a. …/Bienestar MCIC.pptx`, `b. …/acuerdo_02_2019_beca_ecaes.pdf`, `res_2025-143…pdf` (solo INV) y `F9_Bienestar_<Mod>.xlsx` | Actualizado | La Res. 143 de 2025 (Programa de Excelencia Académica) aplica solo a maestrías de investigación. Las estadísticas de Bienestar son de la Maestría en conjunto |
-| 10 | `a. Diagnóstico…/Ambientes de Aprendizaje Facultad Ing.png` | Sin cambios | Compartido |
-| 11 | `c. Implementación…/` CC-FR-001 y Autoevaluación de la modalidad; `d. Construcción de reportes/` análisis de instrumentos y resultados 2026-1 | Sin cambios (solo se ubicaron en actividades) | Plan y autoevaluación propios de cada modalidad |
-| 12 | `a. Solicitud de informe de avance de la obra/G312-3 Requerimientos…pdf` | Sin cambios | Compartido |
+| 1 | `a. PEP/` (PEP propio de cada modalidad **+ PDF «Orientaciones PFA» 2026IE4045…**) y `b. Jornadas…` | Actualizado; **falta el PEP definitivo** | El PEP es distinto en cada modalidad; el PDF PFA es institucional |
+| 2 | `F2_Divulgacion_y_Estudiantes_<Mod>.xlsx` + `soportes/` | Actualizado (aprobado) | Páginas web, conteos y cohortes por modalidad |
+| 3 | `F3_Participacion_Docente_Capacitacion.xlsx` | Se sube así; **mañana se ajusta** con lo que cargan los profesores | Planta docente común |
+| 4 | `a. Servicios/` (2 PDF) + **`e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_<Mod>.xlsx`** | Actualizado | Ver §3.1 |
+| 5 | Res. 016, `F5_Verificacion_Syllabus…xlsx` (5 hallazgos), syllabus por área | Actualizado; **faltan los syllabus en PDF** | Ver §4 |
+| 6 | `F6_Permanencia_y_Graduacion_<Mod>.xlsx` + `Normativa_PAGOT_UD.xlsx` | Actualizado | Ver §3.2 |
+| 7 | **`a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_<Mod>.xlsx`** (enlace oficial) + 8 normas en `d.` | Actualizado | Compartido |
+| 8 | `F8_Trabajos_de_grado_por_grupo_<Mod>.xlsx` (con comparativo INV vs PROF), Directorio de grupos, ponencias (solo INV) | Actualizado | Ver §3.3 |
+| 9 | `Bienestar MCIC.pptx`, acuerdo 02/2019, `res_2025-143` (solo INV), `F9_Bienestar_<Mod>.xlsx` | Actualizado (sin cambios de fondo) | Estadísticas de Bienestar compartidas |
+| 10 | `b.` Biblioteca (pptx + anexo estadístico xlsx), Planes TIC (pptx), `F10_Medios_Educativos_<Mod>.xlsx`; `a.` ambientes | Actualizado | Compartido (institucional) |
+| 11 | `c.`/`d.` con subcarpetas **«Autoevaluación 2025 (anterior)»** y **«Autoevaluación 2026 (vigente)»** + `F11_Autoevaluacion_2025_vs_2026_<Mod>.xlsx` | Actualizado | Informe y plan propios de cada modalidad |
+| 12 | `c.` `Laboratorios Maestría - MIC.pptx` con **última diapositiva actualizada** + `F12_Estudiantes_activos_por_enfasis_<Mod>.xlsx`; `a.` G312-3 | Actualizado | Tabla por modalidad |
 
-Detalle de los libros nuevos:
+### 3.1 Factor 4 — informe de impacto de egresados
+- Fuente: `HojaVidaEgresados.xlsx` (módulo Hoja de Vida de la OATI): **146 registros, 145 egresados distintos**, 7 hojas
+  (datos básicos, experiencia docente/profesional, grupos y productos de investigación, obras, segunda lengua).
+  Es el insumo de la meta 2026-2027 del factor (≥ 50 % de egresados con hoja de vida actualizada). Los archivos de INV y PROF
+  tienen el mismo contenido.
+- Separación por modalidad (cruce por documento con Cóndor + bases MCIC): **Investigación 18, Profundización 6,
+  plan anterior sin modalidad 119, sin registro en Cóndor 2**. 135 son graduados; 10 son personas que hoy figuran
+  matriculadas, inactivas o suspendidas (los «profes y demás»; columna «Estado» del perfil).
+- Libro: *Resumen*, *Indicadores* (las 4 categorías lado a lado), *Perfil egresados* (anónimo), *Sector y vinculación*
+  (sector estimado por palabras clave del nombre de la entidad), *Instituciones* (agregadas), *Cobertura* (frente a graduados
+  de Cóndor: 23 % en total; INV 14/76, PROF 4/75) y *Alcance y límites*.
+- Límites: el módulo no trae sector económico ni fechas de actualización; los egresados 2022-2026 están poco cubiertos
+  (el formulario a la OATI sigue pendiente). Con 6 egresados de Profundización los porcentajes son indicativos.
 
-- **F2**: hojas *Resumen*, *Páginas web* (enlaces vigentes `facingenieria.udistrital.edu.co/mcic-investigacion/`
-  y `…/mcic-profundizacion/`), *Actividades* (12 en INV, 10 en PROF; dos correos salieron desde la cuenta de
-  Investigación), *Cobertura cohortes* y *Galería* (miniaturas con enlace a `soportes/`).
-  - Inducción 2026-1: 15 asistentes (5 de INV, 10 de PROF).
-  - Presentación de grupos del 21/02/2026: 15 estudiantes MCIC (5 INV, 10 PROF), 2 de otros programas y
-    9 docentes o representantes de grupos.
-  - Socialización del 22/08/2026: 13 estudiantes MCIC (4 INV, 9 PROF) en una planilla de 55 registros.
-  - Cobertura de la cohorte 2026-1: INV 5/6 (83 %), PROF 10/14 (71 %).
-- **F3**: hojas *Resumen* (30 profesores, 13 con capacitación registrada, 43 % frente a la meta del 15 %),
-  *Capacitación docente* (con grupo y categoría MinCiencias tomados del Cuadro Maestro No. 05, y una
-  columna vacía «Capacitaciones 2025-2026 reportadas por el profesor» para lo que llegue por correo) y
-  *Movilidad*. Sin cédulas.
-- **F5**: hojas *Resumen* (hallazgos), *Plan de estudios Res 016*, *Syllabus AA-FR-003* y *Comparación SNIES*.
-- **F6**: hojas *Resumen*, *Solicitudes de prórroga* (ID, fecha, énfasis, PAGOT, componente 1 / evento,
-  componente 2, estado en Cóndor 2026-3), *Acompañamiento* (reunión del 06/04/2026: 18 INV, 2 PROF),
-  *PAGOT* (por ingreso, estado y énfasis) y *Graduados*. El año de grado se estima con la última
-  matrícula, igual que en el micrositio; la suma 72 + 56 + 25 = 153 cuadra con Gold.
-- **F8**: hojas *Resumen* (recalculado por modalidad), *Consolidado*, *Pendientes sustentación*,
-  *Modalidad por confirmar* y *Fuentes y calidad* (copiada del original). Se omiten el código estudiantil y
-  la ruta del archivo fuente, y en las observaciones los códigos se reemplazan por «[código]».
-- **F9**: hojas *Resumen*, *Divulgación*, *Estímulos y becas*, *Uso de servicios* (Bienestar MCIC.pptx,
-  2020 – 2026-1) y *Cuadro Maestro No. 10*.
+### 3.2 Factor 6 — prórrogas 2026-3 y PAGOT
+- Fuente de las prórrogas: carpeta `PRORROGA 2026-3/` (1.ª, 2.ª y 3.ª solicitud; mismo contenido en ambas modalidades) y sus tres
+  cuadros «Estudiantes Prórroga…xlsx», que traen la **modalidad declarada**. La fecha sale del correo de cada estudiante.
+  **38 solicitudes = 37 estudiantes** (una estudiante radicó en la 2.ª y la 3.ª ronda): **INV 27 filas / 26 estudiantes
+  (16 PAGOT); PROF 11 (4 PAGOT)**. Reemplaza las 25 solicitudes transcritas de la versión 1.
+- PAGOT: `PAGOT 20263.xlsx` (seguimiento 2026-3: 35 estudiantes; modalidad = «Plan vigente» 595/695) → **INV 22 (17 con pago), PROF 13 (9 con pago)**;
+  `Aspirantes Inscritos 2023-3 al 2025-3…xlsx` (inscritos oficiales a PAGOT: INV 30, PROF 14 inscripciones = 13 estudiantes); `Normativa_PAGOT_UD.xlsx` (9 normas, con enlaces).
+  La hoja *PAGOT* cruza cuatro fuentes: base MCIC (INV 32 / PROF 19), inscritos oficiales, seguimiento 2026-3 y prórrogas.
+- Hallazgo del cruce: **el seguimiento PAGOT 2026-3 y las prórrogas de PAGOT no comparten ningún estudiante** (son cohortes distintas:
+  quienes piden prórroga están en PAGOT desde 2025-1; el seguimiento 2026-3 reúne a quienes se invitó a reingresar).
+- Alertas (hoja *Cruces y alertas*): 1 solicitud con aval «NO» y fecha de aval de 2015 (probable error de digitación), 1 con modalidad del cuadro
+  distinta de las bases MCIC, y **7 de los 13 PAGOT con plan vigente 695 figuran como Investigación en las bases MCIC** (se usó la del archivo PAGOT).
+- Se conservan *Acompañamiento* (reunión del 06/04/2026) y *Graduados* (INV 72, PROF 56, 25 sin modalidad registrada).
 
-## 4. Hallazgos que necesitan decisión de la coordinación
+### 3.3 Factor 8 — proyectos de investigación vs profundización
+- El nuevo `Consolidado_trabajos_grado_MCIC_2022_2026 (7).xlsx` de `b. Socialización…` tiene el **mismo contenido** que el de la raíz
+  (solo cambian los metadatos). Se agregó una hoja *Comparativo por grupo* y una tabla comparativa en *Resumen*, y una columna «Tipo de trabajo».
+- Resultado: INV 74 trabajos (67 sustentados), PROF 55 (47 sustentados, 3 pasantías), **19 por confirmar** (antes 30). 11 casos se
+  completaron por el nombre del estudiante contra Cóndor/bases (8 INV, 3 PROF) y quedan marcados «Inferida por nombre; verificar».
 
-1. **FACTOR 5: los syllabus NO se diferencian por modalidad.**
-   - Los 28 archivos de `SNIES17528-Syllabus` y de `SNIES116070-Syllabus` son byte a byte idénticos.
-   - La carpeta FACTOR 5 de Profundización contiene la carpeta de Investigación (`SNIES17528-Syllabus`).
-   - 27 de los 29 syllabus AA-FR-003 dejan vacío el «Código plan de estudios» y los otros 2 (Redes y
-     Política sectorial…) registran «919». Ninguno indica la modalidad.
-   - En cambio, **el plan de estudios sí se diferencia** (Res. 016 de 2025): INV tiene TG I + TG II
-     (12 créditos), 3 énfasis y los espacios del periodo III como electivos; PROF tiene TG (4 créditos) y
-     5 énfasis. Las horas son 384/176/1552 frente a 480/160/1472.
-   - Otros detalles: la malla `Información Espacios Académicos.xlsx` registra el proyecto 595 en la hoja
-     de Profundización (debería ser 695). «Matemática avanzada y geoprocesamiento» tiene syllabus pero no
-     aparece en la Res. 016. Hay denominaciones distintas entre la Res. 016 y los syllabus.
-   - Decisión: ¿se diligencia el código de plan y la modalidad en los syllabus, o se aclara ante los pares
-     que el espacio académico es común y lo que cambia es la estructura del plan?
-2. **FACTOR 8**: 30 trabajos del consolidado no traen modalidad ni código para cruzar. Están en la hoja
-   «Modalidad por confirmar» (la misma en ambos libros). También hay que confirmar si se acepta
-   Pasantía = Profundización.
-3. **Pendientes de insumo (no se inventó nada):**
-   - F3: correo de Karol a los profesores pidiendo capacitaciones 2025-2026.
-   - F4: formulario a egresados 2022-2026 (tarea enviada a la OATI).
-   - F7: correo a profesores sobre convenios.
-   - F10: Biblioteca y Planes TIC.
-   - F11: «las 2 autoevaluaciones y encuestas»; ya están las que había en Bronze.
-   - F12: laboratorios.
-4. **Ubicación de archivos sueltos (F7, F10, F11, F12).** Se asignaron así; ajustar si la coordinación
-   prefiere otra actividad:
-   - F7: las 8 normas → `d. Definición de acción para la formalización de convenios`.
-   - F11: CC-FR-001 y Autoevaluación → `c.`; análisis y resultados → `d.`.
-   - F12: G312-3 → `a.`.
-5. **Numeración del pedido.** El punto «7» del pedido («montaremos el consolidado de trabajos de grado»)
-   se interpretó como **FACTOR 8**, porque así lo indica `CorreccionEvidencias.ods` («Cargar excel de
-   consolidado»). El FACTOR 7 quedó sin cambios de contenido.
+### 3.4 Factor 12 — última diapositiva de Laboratorios
+- `Laboratorios Maestría - MIC.pptx` (mismo archivo en ambas modalidades). La diapositiva 13 («Estudiantes Impactados») estaba vacía:
+  se le agregó una tabla nativa de **estudiantes activos por énfasis 2022-2026** de la modalidad, más una fila aparte para el plan anterior
+  sin modalidad y una nota de método. El original sigue en `Original/`.
+- Definición: «activo en el año Y» = Y entre el año de ingreso (código) y el de la última matrícula en Cóndor. **Es una aproximación**: no se
+  conocen periodos intermedios sin matrícula. El énfasis es el del plan de ingreso (195 Teleinformática, 295 Sistemas de Información,
+  395 Geomática, 495 Ingeniería de Software; para 595/695, de las bases MCIC). 2026: INV 94, PROF 92.
+- Verificado solo por contenido (python-pptx): **no hay LibreOffice en el equipo para renderizar**; conviene abrirlo en PowerPoint y revisar el aspecto.
+
+## 4. Comentarios de la coordinación (oct. 2026) y cómo se resolvieron
+
+1. **F1**: aún falta el PEP; se entrega el PDF `2026IE4045-GC-RemisionEvaluacionPFA-ANEXO1.pdf` (Orientaciones para la evaluación de los
+   propósitos de formación y aprendizaje, Vicerrectoría Académica, 54 págs.) en `a. PEP` junto al PEP de cada modalidad.
+2. **F2**: se actualiza con lo ya elaborado.
+3. **F3**: se sube igual; hay que rehacerlo con las capacitaciones que reporten los profesores (columna J de «Capacitación docente»).
+4. **F4**: nuevo informe de impacto (§3.1).
+5. **F5**: se eliminaron 3 hallazgos negativos. **Supuesto mío (confirmar)**: se retiraron los de *Malla «Información Espacios Académicos.xlsx»*,
+   *Espacio sin correspondencia en la Res. 016* y *Denominaciones*, y se conservan *Plan de estudios*, *Horas*, *Espacios académicos*,
+   *Archivos de syllabus* e *Identificación de la modalidad*. Si eran otros, se cambia la lista `hallazgos` en `factor5()`. Pendiente: pasar los syllabus a PDF.
+   - Lo que sigue pendiente de decisión (de la v1): los syllabus no se diferencian por modalidad (los 28 de SNIES 17528 y 116070 son idénticos;
+     27 de 29 syllabus AA-FR-003 dejan vacío el código de plan); el plan de estudios (Res. 016/2025) sí se diferencia.
+6. **F6**: §3.2.
+7. **F7**: se deja el enlace `https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones` y un resumen institucional
+   (388 convenios vigentes: 221 internacionales, 167 nacionales; 7 mencionan a la Facultad de Ingeniería). Pendiente: correo a profesores.
+8. **F8**: §3.3.
+9. **F9**: sin cambios de fondo.
+10. **F10**: se agregan Biblioteca y Planes TIC. El anexo estadístico de Biblioteca solo estaba en la carpeta de Investigación; se entrega en ambas por ser institucional.
+11. **F11**: autoevaluación 2025 (informe de octubre de 2025 con fines de renovación, encuestas de marzo de 2025) y 2026 (proceso permanente, resultados 2026-1)
+    en carpetas separadas. En la parte 2025 solo van el informe, los gráficos de resultados (PNG) y las invitaciones; las bases de respuestas tienen datos personales.
+    El libro comparativo trae respondientes de cada año y el promedio por factor de 2026 (no hay equivalente 2025 sin abrir datos personales).
+12. **F12**: §3.4.
+13. **F8** (diferenciar proyectos): §3.3.
+
+Pendientes de insumo (no se inventó nada): F3 (capacitaciones 2025-2026), F4 (formulario de sector a egresados 2022-2026, enviado a la OATI),
+F7 (correo a profesores sobre convenios), F5 (syllabus en PDF), F1 (PEP definitivo).
 
 ## 5. Cambios que YA se hicieron en el micrositio (fuera de NuevaData)
 
@@ -180,7 +182,8 @@ Hacerlo **por modalidad y por factor**, respetando los ajustes que pida la coord
 2. **Originales con datos personales → `Data/Bronze/PII_Interno/`**, que `build_bronze_manifest.py`
    excluye del catálogo:
    `NuevaData/Original/<Mod>/` → `Data/Bronze/PII_Interno/Evidencias_Originales_Plan_Mejoramiento/<Mod>/`
-   (y `_transcripciones/`). Así se conserva la data original sin publicarla en el sitio.
+   (y `_transcripciones/`). Así se conserva la data original sin publicarla en el sitio. `Original/` ya incluye lo que cargó la
+   coordinación (≈770 archivos: prórrogas 2026-3, PAGOT, egresados, encuestas 2025, presentaciones); pasa completo.
 3. **Reemplazar** en Bronze el contenido de cada `FACTOR N. …` por el de
    `NuevaData/Presentacion/<Mod>/FACTOR N. …`:
    - `Investigacion` → `MCIC.INVESTIGACION/…/Plan de Mejoramiento/`
@@ -189,6 +192,8 @@ Hacerlo **por modalidad y por factor**, respetando los ajustes que pida la coord
    Hay que borrar lo anterior de cada FACTOR para que no queden sueltos ni duplicados. El
    `00_Indice_Evidencias_<Mod>.xlsx` va en la raíz de `Plan de Mejoramiento/`: el extractor de evidencias
    lo ignora y el catálogo lo lista.
+   - Algunos factores traen subcarpetas dentro de la actividad (F5 `Syllabus AA-FR-003/<área>`, F11 `Autoevaluación 2025 (anterior)` /
+     `Autoevaluación 2026 (vigente)`, F2 `soportes`): el extractor las recorre con `rglob`, no requiere cambios.
 4. Quitar `Entregables Plan de Mejoramiento.xlsx` (documento interno de trabajo, solo en INV) de la raíz
    de Bronze; ya está en Original.
 5. **Correr la pipeline completa**: `cd app && ../.venv/bin/python run_pipeline.py`.
