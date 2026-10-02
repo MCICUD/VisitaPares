@@ -328,7 +328,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F2_Divulgacion_y_Estudiantes_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/F2_Divulgacion_y_Estudiantes_Investigacion.xlsx",
-                  "tamano_legible": "752.4 KB"
+                  "tamano_legible": "751.4 KB"
                 }
               ],
               "anexos": [
@@ -476,13 +476,39 @@ const GOLD_DATA = {
                 {
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
-                  "tamano_legible": "18.5 KB"
+                  "tamano_legible": "17.5 KB"
                 }
               ],
-              "anexos": []
+              "anexos": [
+                {
+                  "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+                  "tamano_legible": "210.4 KB"
+                },
+                {
+                  "nombre": "Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+                  "tamano_legible": "262.6 KB"
+                },
+                {
+                  "nombre": "Ernesto Gómez Vargas.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Ernesto Gómez Vargas.pdf",
+                  "tamano_legible": "118.9 KB"
+                },
+                {
+                  "nombre": "LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+                  "tamano_legible": "237.2 KB"
+                },
+                {
+                  "nombre": "Sebastian Camilo Vanegas Ayala – 2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Sebastian Camilo Vanegas Ayala – 2025.pdf",
+                  "tamano_legible": "703.8 KB"
+                }
+              ]
             }
           ],
-          "total_archivos": 1
+          "total_archivos": 6
         }
       },
       {
@@ -5311,7 +5337,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F2_Divulgacion_y_Estudiantes_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/F2_Divulgacion_y_Estudiantes_Profundizacion.xlsx",
-                  "tamano_legible": "751.3 KB"
+                  "tamano_legible": "750.3 KB"
                 }
               ],
               "anexos": [
@@ -5459,13 +5485,39 @@ const GOLD_DATA = {
                 {
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
-                  "tamano_legible": "18.5 KB"
+                  "tamano_legible": "17.5 KB"
                 }
               ],
-              "anexos": []
+              "anexos": [
+                {
+                  "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+                  "tamano_legible": "210.4 KB"
+                },
+                {
+                  "nombre": "Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+                  "tamano_legible": "262.6 KB"
+                },
+                {
+                  "nombre": "Ernesto Gómez Vargas.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Ernesto Gómez Vargas.pdf",
+                  "tamano_legible": "118.9 KB"
+                },
+                {
+                  "nombre": "LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+                  "tamano_legible": "237.2 KB"
+                },
+                {
+                  "nombre": "Sebastian Camilo Vanegas Ayala – 2025.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Sebastian Camilo Vanegas Ayala – 2025.pdf",
+                  "tamano_legible": "703.8 KB"
+                }
+              ]
             }
           ],
-          "total_archivos": 1
+          "total_archivos": 6
         }
       },
       {
@@ -5566,7 +5618,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F4_Egresados_Impacto_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Profundizacion.xlsx",
-                  "tamano_legible": "17.0 KB"
+                  "tamano_legible": "17.2 KB"
                 }
               ],
               "anexos": []
@@ -12217,11 +12269,71 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 769356,
-      "tamano_legible": "751.3 KB",
+      "tamano_bytes": 768301,
+      "tamano_legible": "750.3 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 2 · Estudiantes — MCIC - PROFUNDIZACIÓN\nDivulgación de la oferta académica, páginas web, inducciones y socialización de grupos de investigación. Consolidado a partir de capturas, fotografías, correos y planillas de asistencia; los registros con datos personales se resguardan y no se publican.\nMetas del plan de m…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+      "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 215408,
+      "tamano_legible": "210.4 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Issued:13 May 2024 \n \n \n \n \nCERTIFICATE OF \nATTENDANCE \nAlvaro Enrique Ortiz Dávila \nPresented to \n \nfor attending \nINTRODUCTION TO GEOWEBAPP BUILDING WITH OPEN-\nSOURCE TOOLS \n \nAn online non-credit course (40 hours)"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+      "nombre": "Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 268928,
+      "tamano_legible": "262.6 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "El Rector de La Universidad Internacional de La Rioja\nDe conformidad con los acuerdos adoptados por el Consejo Directivo de esta\nUniversidad que regulan la concesión de Títulos Propios, certifica que\nThe Rector of the International University of La Rioja\nIn accordance with the agreements adopted by the Board of Directo…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Ernesto Gómez Vargas.pdf",
+      "nombre": "Ernesto Gómez Vargas.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 121737,
+      "tamano_legible": "118.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+      "nombre": "LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 242869,
+      "tamano_legible": "237.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "To verify this certificate visit verify.mygreatlearning.com/AUBBZABH"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Sebastian Camilo Vanegas Ayala – 2025.pdf",
+      "nombre": "Sebastian Camilo Vanegas Ayala – 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 720651,
+      "tamano_legible": "703.8 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Hace constar que\nSEBASTIAN CAMILO VANEGAS AYALA\nCon número de identificación 1.026.591.661\nParticipó en el taller\nInstalación Local de  Modelos de IA\nrealizado el día 16 de julio de 2025\ncon una intensidad de 1 hora.\nSe firma en la ciudad de Bogotá, en el mes de julio de 2025\nRegistro oficial\n\nHace constar que\nSEBASTIA…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
@@ -12229,11 +12341,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 18977,
-      "tamano_legible": "18.5 KB",
+      "tamano_bytes": 17938,
+      "tamano_legible": "17.5 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
-      "extracto": "Factor 3 · Profesores — MCIC - PROFUNDIZACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente» y hoja «Certificados»).\nMetas …"
+      "extracto": "Factor 3 · Profesores — MCIC - PROFUNDIZACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente»); los certificados se adjuntan…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
@@ -12265,8 +12377,8 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 17457,
-      "tamano_legible": "17.0 KB",
+      "tamano_bytes": 17573,
+      "tamano_legible": "17.2 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 4 · Egresados — caracterización e impacto — MCIC - PROFUNDIZACIÓN\nHoja de Vida de Egresados del módulo institucional de la OATI (6 egresados de Profundización) y encuesta de caracterización e impacto.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nRealizar la Caracterización con el fin de analizar el i…"
@@ -14581,11 +14693,71 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 770427,
-      "tamano_legible": "752.4 KB",
+      "tamano_bytes": 769386,
+      "tamano_legible": "751.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 2 · Estudiantes — MCIC - INVESTIGACIÓN\nDivulgación de la oferta académica, páginas web, inducciones y socialización de grupos de investigación. Consolidado a partir de capturas, fotografías, correos y planillas de asistencia; los registros con datos personales se resguardan y no se publican.\nMetas del plan de me…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+      "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 215408,
+      "tamano_legible": "210.4 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Issued:13 May 2024 \n \n \n \n \nCERTIFICATE OF \nATTENDANCE \nAlvaro Enrique Ortiz Dávila \nPresented to \n \nfor attending \nINTRODUCTION TO GEOWEBAPP BUILDING WITH OPEN-\nSOURCE TOOLS \n \nAn online non-credit course (40 hours)"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+      "nombre": "Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 268928,
+      "tamano_legible": "262.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "El Rector de La Universidad Internacional de La Rioja\nDe conformidad con los acuerdos adoptados por el Consejo Directivo de esta\nUniversidad que regulan la concesión de Títulos Propios, certifica que\nThe Rector of the International University of La Rioja\nIn accordance with the agreements adopted by the Board of Directo…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Ernesto Gómez Vargas.pdf",
+      "nombre": "Ernesto Gómez Vargas.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 121737,
+      "tamano_legible": "118.9 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+      "nombre": "LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 242869,
+      "tamano_legible": "237.2 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "To verify this certificate visit verify.mygreatlearning.com/AUBBZABH"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Sebastian Camilo Vanegas Ayala – 2025.pdf",
+      "nombre": "Sebastian Camilo Vanegas Ayala – 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+      "tamano_bytes": 720651,
+      "tamano_legible": "703.8 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Hace constar que\nSEBASTIAN CAMILO VANEGAS AYALA\nCon número de identificación 1.026.591.661\nParticipó en el taller\nInstalación Local de  Modelos de IA\nrealizado el día 16 de julio de 2025\ncon una intensidad de 1 hora.\nSe firma en la ciudad de Bogotá, en el mes de julio de 2025\nRegistro oficial\n\nHace constar que\nSEBASTIA…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
@@ -14593,11 +14765,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 18974,
-      "tamano_legible": "18.5 KB",
+      "tamano_bytes": 17934,
+      "tamano_legible": "17.5 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "Factor 3 · Profesores — MCIC - INVESTIGACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente» y hoja «Certificados»).\nMetas d…"
+      "extracto": "Factor 3 · Profesores — MCIC - INVESTIGACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente»); los certificados se adjuntan …"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
@@ -14629,7 +14801,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 26923,
+      "tamano_bytes": 26963,
       "tamano_legible": "26.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -17169,15 +17341,15 @@ const GOLD_DATA = {
     }
   ],
   "documentosBronzeStats": {
-    "total": 614,
+    "total": 624,
     "por_modalidad": {
-      "profundizacion": 186,
+      "profundizacion": 191,
       "ambas": 20,
-      "investigacion": 292,
+      "investigacion": 297,
       "general": 116
     },
     "por_extension": {
-      "pdf": 249,
+      "pdf": 259,
       "xlsx": 246,
       "xls": 24,
       "png": 67,
@@ -17191,14 +17363,14 @@ const GOLD_DATA = {
       "ACREDITACIÓN DE ALTA CALIDAD": 125,
       "Convenios": 1,
       "Docentes": 41,
-      "MCIC-PROFUNDIZACION": 136,
-      "MCIC.INVESTIGACION": 228,
+      "MCIC-PROFUNDIZACION": 141,
+      "MCIC.INVESTIGACION": 233,
       "Maestria CIC": 14,
       "Normativa": 36,
       "PresLabIng-20261-esuarez-01-p36-48.pdf": 1,
       "Syllabus": 32
     },
-    "con_texto_extraido": 537
+    "con_texto_extraido": 545
   },
   "evidenciaProcesosRcAac": {
     "investigacion": [

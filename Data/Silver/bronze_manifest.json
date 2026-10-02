@@ -2015,8 +2015,58 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 769356,
-    "tamano_legible": "751.3 KB",
+    "tamano_bytes": 768301,
+    "tamano_legible": "750.3 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+    "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 215408,
+    "tamano_legible": "210.4 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+    "nombre": "Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 268928,
+    "tamano_legible": "262.6 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Ernesto Gómez Vargas.pdf",
+    "nombre": "Ernesto Gómez Vargas.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 121737,
+    "tamano_legible": "118.9 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+    "nombre": "LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 242869,
+    "tamano_legible": "237.2 KB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Sebastian Camilo Vanegas Ayala – 2025.pdf",
+    "nombre": "Sebastian Camilo Vanegas Ayala – 2025.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 720651,
+    "tamano_legible": "703.8 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2025,8 +2075,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-    "tamano_bytes": 18977,
-    "tamano_legible": "18.5 KB",
+    "tamano_bytes": 17938,
+    "tamano_legible": "17.5 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2055,8 +2105,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-    "tamano_bytes": 17457,
-    "tamano_legible": "17.0 KB",
+    "tamano_bytes": 17573,
+    "tamano_legible": "17.2 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -3985,8 +4035,58 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 770427,
-    "tamano_legible": "752.4 KB",
+    "tamano_bytes": 769386,
+    "tamano_legible": "751.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+    "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 215408,
+    "tamano_legible": "210.4 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+    "nombre": "Alvaro Ortiz - 2026 - Competencias docentes y materiales didacticos para educacion en linea.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 268928,
+    "tamano_legible": "262.6 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Ernesto Gómez Vargas.pdf",
+    "nombre": "Ernesto Gómez Vargas.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 121737,
+    "tamano_legible": "118.9 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+    "nombre": "LEONARDO PLAZAS NOSSA - certificate-2023.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 242869,
+    "tamano_legible": "237.2 KB",
+    "modalidad": "investigacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Sebastian Camilo Vanegas Ayala – 2025.pdf",
+    "nombre": "Sebastian Camilo Vanegas Ayala – 2025.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados",
+    "tamano_bytes": 720651,
+    "tamano_legible": "703.8 KB",
     "modalidad": "investigacion"
   },
   {
@@ -3995,8 +4095,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-    "tamano_bytes": 18974,
-    "tamano_legible": "18.5 KB",
+    "tamano_bytes": 17934,
+    "tamano_legible": "17.5 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4025,7 +4125,7 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-    "tamano_bytes": 26923,
+    "tamano_bytes": 26963,
     "tamano_legible": "26.3 KB",
     "modalidad": "investigacion"
   },

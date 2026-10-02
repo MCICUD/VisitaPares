@@ -387,32 +387,6 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     ]
     eventos = [e for e in eventos if e[6] in ("Ambas", etiqueta)]
 
-    # Cobertura de cohortes nuevas (admitidos según Cóndor)
-    def admitidos(prefijo):
-        return sum(1 for r in ROSTER if r["codigo"].startswith(prefijo + mod["proyecto"]))
-
-    def asistentes_cohorte(personas, prefijo):
-        n = 0
-        for nombre, codigo in personas:
-            if not codigo:
-                r = buscar_en_roster(nombre)
-                codigo = r["codigo"] if r else None
-            if codigo and codigo.startswith(prefijo + mod["proyecto"]):
-                n += 1
-        return n
-
-    ind_l = [tuple(x) for x in ev["induccion_2026_1_lista"]["asistentes"]]
-    gru_l = [tuple(x) for x in ev["presentacion_grupos_2026_1_lista"]["asistentes"]]
-    soc_l = [tuple(x) for x in ev["socializacion_grupos_2026_3_lista"]["asistentes_mcic"]]
-    a261, a263 = admitidos("20261"), admitidos("20262")
-    cobertura = [
-        ["2026-1", a261, "Inducción 2026-1 (02/02/2026)", asistentes_cohorte(ind_l, "20261")],
-        ["2026-1", a261, "Presentación de grupos de investigación (21/02/2026)", asistentes_cohorte(gru_l, "20261")],
-        ["2026-3", a263, "Socialización de grupos de investigación (22/08/2026)", asistentes_cohorte(soc_l, "20262")],
-    ]
-    for c in cobertura:
-        c.append(f"{(c[3] / c[1] * 100):.0f} %" if c[1] else "—")
-
     wb = st.nuevo_libro()
     # --- Resumen
     ws = st.hoja(wb, "Resumen", f"Factor 2 · Estudiantes — {mod['programa']}",
@@ -424,7 +398,6 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
         ("Página web de la modalidad", "Actualizada"),
         ("Actividades documentadas", len(eventos)),
         (f"Registros de estudiantes de {etiqueta}", sum(e[7] for e in con_lista)),
-        ("Cobertura inducción 2026-1", cobertura[0][4]),
     ])
     fila = st.nota(ws, fila + 1, "Los conteos por modalidad se obtienen cruzando cada nombre/código de las planillas con Cóndor (proyectos 595 = Investigación, 695 = Profundización) y con las bases de datos MCIC. "
                    "Un mismo estudiante puede aparecer en varias actividades; los registros no se suman como personas únicas.")
@@ -451,11 +424,6 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
                      f"Estudiantes de {etiqueta}", f"Estudiantes de {otra}", "Total registros", "Soporte (Presentación)", "_s",
                      "Documento original (reservado: contiene datos personales)", "Observación"],
              filas, [11, 9, 48, 20, 20, 22, 12, 13, 13, 11, 14, 42, 34], links={10: 11})
-
-    # --- Cobertura
-    ws = st.hoja(wb, "Cobertura cohortes", f"Cobertura de las actividades sobre las cohortes nuevas de {etiqueta}",
-                 f"Admitidos: estudiantes con código de ingreso del periodo en el proyecto {mod['proyecto']} según Cóndor.", 5)
-    st.tabla(ws, 4, ["Cohorte", "Admitidos", "Actividad", "Asistentes de la cohorte", "Cobertura"], cobertura, [12, 12, 52, 22, 12])
 
     # --- Galería
     ws = st.hoja(wb, "Galería", "Registro fotográfico y capturas", "Miniaturas de los anexos copiados en la carpeta «Anexos».", 6)
@@ -533,8 +501,14 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
         linea = f"{titulo} — {entidad} ({fecha}{f', {horas} h' if horas else ''})"
         fila_d[9] = f"{fila_d[9]}\n{linea}" if fila_d[9] else linea
     docentes.sort(key=lambda d: d[1])
+    cert_dir = src.parent / "Certificados"
+    cert_pdfs = sorted(cert_dir.glob("*.pdf")) if cert_dir.exists() else []
     for i, d in enumerate(docentes, 1):
         d[0] = i
+        toks = set(norm_tokens(d[1]))
+        propios_pdf = [f for f in cert_pdfs if len(toks & set(norm_tokens(f.stem))) >= 2]
+        d.append("\n".join(f.name for f in propios_pdf) or None)
+        d.append(f"Anexos/Certificados/{propios_pdf[0].name if len(propios_pdf) == 1 else ''}" if propios_pdf else None)
     con_cap = sum(1 for d in docentes if d[3] or d[5] or d[9])
 
     movilidad = []
@@ -553,7 +527,7 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 3 · Profesores — {mod['programa']}",
                  "Participación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. "
-                 "Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente» y hoja «Certificados»).")
+                 "Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente»); los certificados se adjuntan como soporte en la carpeta «Anexos/Certificados» (columna K).")
     fila = encabezado_factor(ws, 4, 3, m)
     pct = con_cap / len(docentes) * 100 if docentes else 0
     fila = st.kpis(ws, fila, [("Profesores de la Maestría", len(docentes)), ("Con capacitación registrada", con_cap),
@@ -565,12 +539,10 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 
     ws = st.hoja(wb, "Capacitación docente", "Capacitación docente (SCRUM e ILUD) y perfil investigativo", "Fuentes: Decanatura (capacitaciones) y Cuadro Maestro CNA No. 05 (grupo y categoría).", 10)
     st.tabla(ws, 4, ["N°", "Profesor", "Categoría escalafón", "Capacitación SCRUM", "Año", "Segunda lengua (ILUD)", "Año",
-                     "Grupo de investigación", "Categoría investigador MinCiencias", "Otras capacitaciones con certificado"],
-             docentes, [5, 34, 13, 18, 7, 40, 7, 18, 16, 70])
+                     "Grupo de investigación", "Categoría investigador MinCiencias", "Otras capacitaciones con certificado",
+                     "Soporte (certificados en Anexos)", "_c"],
+             docentes, [5, 34, 13, 18, 7, 40, 7, 18, 16, 70, 44], links={10: 11})
 
-    ws = st.hoja(wb, "Certificados", "Capacitaciones con certificado reportadas por los profesores", "Certificados recientes entregados por los profesores; los documentos se resguardan en el archivo del programa.", 7)
-    filas_c = [[" ".join(w.capitalize() for w in p_.split()), t_, e_, f_, h_ if h_ else "—", a_, "Certificado en archivo"] for p_, t_, e_, f_, h_, a_ in sorted(CERTIFICADOS_F3, key=lambda x: (x[0], x[5]))]
-    st.tabla(ws, 4, ["Profesor", "Capacitación", "Entidad", "Fecha", "Horas", "Año", "Soporte"], filas_c, [32, 80, 44, 24, 8, 8, 20])
     ws = st.hoja(wb, "Movilidad", "Movilidad académica de profesores (entrante y saliente)", "Fuente: Decanatura – movilidad. Ordenada de la más reciente a la más antigua.", 9)
     st.tabla(ws, 4, ["Profesor / invitado", "Tipo", "Entidad o evento", "Lugar", "Objeto", "Modalidad", "Inicio", "Fin", "Días"],
              movilidad, [30, 24, 40, 22, 60, 12, 11, 11, 6])
@@ -582,7 +554,11 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     act.mkdir(parents=True, exist_ok=True)
     nombre = "F3_Participacion_Docente_Capacitacion.xlsx"
     wb.save(act / nombre)
-    return [f"a. Informes de participación de los docentes/{nombre}"]
+    anexos = []
+    for f in cert_pdfs:
+        copiar(f, act / "Anexos" / "Certificados")
+        anexos.append(f"a. Informes de participación de los docentes/Anexos/Certificados/{f.name}")
+    return [f"a. Informes de participación de los docentes/{nombre}"] + anexos
 
 
 # ---------------------------------------------------------------------------
@@ -713,7 +689,7 @@ def _pct(n, d):
     return f"{n / d * 100:.0f} %" if d else "—"
 
 
-ARCHIVO_ENCUESTA_EGRESADOS = "Caracterización e impacto de Egresados- MCIC (1-18).xlsx"
+ARCHIVO_ENCUESTA_EGRESADOS = "Caracterización e impacto de Egresados- MCIC (1-22).xlsx"
 NIVELES_APORTE = ["Muy alto", "Alto", "Medio", "Bajo", "Ningún aporte"]
 DIMENSIONES_APORTE = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]  # columnas de la encuesta (posición)
 ITEMS_VALORACION = [37, 38, 39, 40, 41, 42, 43]
@@ -827,7 +803,7 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
         for i in p["inst_doc"]:
             inst_doc[i] += 1
 
-    enc = analizar_encuesta_egresados(next(fdir.glob("Caracteriz*(1-18).xlsx"), fdir / ARCHIVO_ENCUESTA_EGRESADOS), etiqueta)
+    enc = analizar_encuesta_egresados(next(fdir.glob("Caracteriz*(1-22).xlsx"), fdir / ARCHIVO_ENCUESTA_EGRESADOS), etiqueta)
 
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 4 · Egresados — caracterización e impacto — {mod['programa']}",
@@ -1954,7 +1930,7 @@ ESTADO = {n: "Disponible" for n in range(1, 13)}
 ESTADO.update({1: "Disponible (PEP definitivo en elaboración)", 3: "Disponible (en recolección)", 5: "Disponible (syllabus en PDF en preparación)"})
 OBS = {
     1: "PEP de la modalidad, actas de las jornadas con docentes y orientaciones PFA de la Vicerrectoría Académica.",
-    2: "Libro con páginas web, actividades, cobertura de cohortes y galería; anexos con el registro fotográfico y las capturas.",
+    2: "Libro con páginas web, actividades y galería; anexos con el registro fotográfico y las capturas.",
     3: "Participación en capacitación y movilidad docente. En recolección: soportes de capacitaciones 2025-2026 reportados por los profesores.",
     4: "Portafolio de servicios, proyecto de acuerdo de política de egresados e informe de caracterización e impacto con la Hoja de Vida de Egresados (OATI), separado por modalidad.",
     5: "Plan de estudios por modalidad (Res. 016 de 2025), syllabus AA-FR-003 y verificación entre modalidades. En preparación: syllabus en PDF.",

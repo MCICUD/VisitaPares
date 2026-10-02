@@ -265,7 +265,7 @@ Solo quedan `Original/`, `Presentacion/`, `_build/` y este documento; las carpet
 | Insumo | Ubicación en `Original/<Modalidad>/` |
 |---|---|
 | Certificados de profesores | `FACTOR 3…/a. Informes de participación de los docentes/Certificados/` |
-| Encuesta de egresados | `FACTOR 4…/Caracterización e impacto de Egresados- MCIC (1-18).xlsx` |
+| Encuesta de egresados | `FACTOR 4…/Caracterización e impacto de Egresados- MCIC (1-22).xlsx` |
 | Listado URELINTER y soportes IGAC | `FACTOR 7…/a. Diagnostico de convenios vigentes/` (`Convenios vigentes URELINTER (3).xlsx`, `CONVENIO IGAC/`) |
 | Informe de grupos, proyectos ejecutados, xlsx de tesis | `FACTOR 8…/b. Socialización y vinculación…/` (ambas modalidades) |
 | Tesis (PDF) | `FACTOR 8…/b. …/Tesis/` (cada una en la carpeta de su modalidad, según el consolidado) |
