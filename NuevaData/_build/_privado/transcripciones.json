@@ -1,0 +1,111 @@
+{
+  "_nota": "Transcripción manual (lectura de planillas escaneadas y correos) hecha para construir NuevaData. Contiene datos personales: NO se publica; sólo se usa para calcular conteos por modalidad (cruce con Cóndor y bases de datos MCIC). Los códigos se transcriben tal como se leen en el soporte; si no son legibles se deja null y se clasifica por nombre.",
+  "eventos": {
+    "induccion_2025_1_correo": {
+      "fuente": "FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Induccion 2025-1.pdf",
+      "destinatarios": ["CRISTIAN ALAPE AVILA", "MARIA ALEJANDRA BONILLA DIAZ", "ORTIZ VARGAS YOUSSEF ALEJANDRO", "SANCHEZ LEON LUDWING ALEJANDRO", "ZARABANDA GUTIERREZ ALVARO ALEJANDRO"],
+      "destinatarios_externos": 1
+    },
+    "divulgacion_grupos_2025_3_correo": {
+      "fuente": "FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Divulgacio grupos 2025-3.pdf",
+      "destinatarios": ["OMAR RICARDO CASTELLANOS HERNANDEZ", "JHON FREDDY CARANTON VELOZA", "OSWALDO ENRIQUE GRANADOS PEÑATE", "DIEGO ALEJANDRO RUBIO RAMOS", "JOHAN NICOLAS CUELLAR SALINAS", "MIGUEL ANGEL GUERRERO PALMERA", "RICARDO ARTURO ALAYON MORA", "AMPARO MOLINA ESPITIA", "DIEGO ANDRES MONCADA VEGA", "FRANCISCO JAVIER GONZALEZ AGUIRRE", "LUIS EDUARDO BECERRA LOPEZ", "HENRY ARIAS BERNAL", "LUIS CARRILLO MEJIA", "DIANA MILENA SALAZAR BAEZ", "JOSE ANTONIO SILVA ROJAS", "FAUSTO ALEXANDER GAMBOA QUIROGA", "JHONATAN JOSE BARBOSA PEÑA", "MAURICIO ALEXANDER GOMEZ RODRIGUEZ", "GUSTAVO ADOLFO MAYORGA RONCANCIO"],
+      "destinatarios_sin_nombre": 1
+    },
+    "induccion_2026_1_lista": {
+      "fuente": "FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/LISTA ASISTENCIA INDUCCIONES 2026-1.pdf",
+      "asistentes": [
+        ["CRISTIAN CAMILO ALCANTARA CORTES", "20261695001"],
+        ["ANGIE JIMENEZ BOHORQUEZ", "20261695006"],
+        ["CARLOS STIVEN MORA HOYOS", "20261595003"],
+        ["SERGIO SANTIAGO DUARTE ROJAS", "20261595002"],
+        ["JULY PAULINA MUÑOZ LUNA", "20261695008"],
+        ["DANIEL FERNANDO ROMERO OCHOA", "20261695011"],
+        ["JONATHAN SNEYDER ARDILA NEIRA", "20261695002"],
+        ["NATALIA LIZETH RODRIGUEZ VARGAS", "20261595005"],
+        ["ANGIE TATIANA DIAZ LOPEZ", "20261695004"],
+        ["SONIA JOHANA CHIVATA RIVERA", null],
+        ["NATALIA IGUAVITA TORO", null],
+        ["JORGE LEONARDO GUTIERREZ MENDIETA", null],
+        ["CAMILO ANDRES BELTRAN CORTES", null],
+        ["MARIA CAMILA RUBIANO ALARCON", "20261695012"],
+        ["STIVEN FELIPE RODRIGUEZ CASTELLANOS", "20261695010"]
+      ]
+    },
+    "presentacion_grupos_2026_1_lista": {
+      "fuente": "FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Presentación de Grupos de Investigación MCIC2026-1.pdf",
+      "asistentes": [
+        ["CARLOS STIVEN MORA HOYOS", "20261595003"],
+        ["DANIEL FERNANDO ROMERO OCHOA", "20261695011"],
+        ["NATALIA IGUAVITA TORO", "20261695005"],
+        ["MARIA CAMILA RUBIANO ALARCON", "20261695012"],
+        ["STIVEN FELIPE RODRIGUEZ CASTELLANOS", "20261695010"],
+        ["SONIA JOHANA CHIVATA RIVERA", "20261695003"],
+        ["JULY PAULINA MUÑOZ LUNA", "20261695008"],
+        ["ANGIE TATIANA DIAZ LOPEZ", "20261695004"],
+        ["NATALIA LIZETH RODRIGUEZ VARGAS", "20261595005"],
+        ["JORGE LEONARDO GUTIERREZ MENDIETA", "20261595006"],
+        ["CRISTIAN CAMILO ALCANTARA CORTES", "20261695001"],
+        ["ANGIE JIMENEZ BOHORQUEZ", "20261695006"],
+        ["JONATHAN SNEYDER ARDILA NEIRA", "20261695002"],
+        ["SERGIO SANTIAGO DUARTE ROJAS", "20261595002"],
+        ["JUAN FELIPE RODRIGUEZ GALINDO", "20261595004"],
+        ["DAVID SANTIAGO PEÑA FLORIAN", "OTRO_PROGRAMA"],
+        ["CRISTIAN STIVEN FLOREZ", "OTRO_PROGRAMA"]
+      ],
+      "docentes_y_grupos": 9
+    },
+    "socializacion_grupos_2026_3_lista": {
+      "fuente": "FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Asistencia 22-08-22 2026-3.pdf",
+      "total_registros_planilla": 55,
+      "asistentes_mcic": [
+        ["JOHNATHAN STEVE PERILLA GOMEZ", "20261695009"],
+        ["IVAN ANDRES FELIPE SERNA GALEANO", "20262695014"],
+        ["YEISON ESTEVEN GUTIERREZ MOLANO", "20262595006"],
+        ["HILDO NORBEY ROJAS CASTILLO", "20262695004"],
+        ["JESUS ALFONSO ARIAS SANTOS", "20262695010"],
+        ["BRIAN SANTIAGO ALARCON MANRIQUE", "20262695006"],
+        ["SERGIO DAVID TORRES LLANES", "20262695007"],
+        ["ANGELO ALEXANDER PEDRAZA ORTIZ", "20262595005"],
+        ["JISSEDT ANDREA PACHECO CASTRO", "20262595001"],
+        ["JULIAN SANTIAGO LOPEZ CORREA", "20262695013"],
+        ["YAN SEBASTIAN MUÑOZ GAMBA", "20262695011"],
+        ["DILAN STEVEN SOLER MONSALVE", "20262595004"],
+        ["MIGUEL ANGEL RODRIGUEZ REYES", "20262695003"]
+      ],
+      "registro_duplicado_mcic": 1,
+      "docentes_y_personal_mcic": 2
+    },
+    "reunion_acompanamiento_2026_04_06": {
+      "fuente": "FACTOR 6. PERMANENCIA Y GRADUACIÓN/Reunión de acompañamiento.pdf",
+      "convocados_codigos": ["20182395007", "20192195003", "20192495003", "20201195002", "20201195005", "20201195006", "20201195010", "20201195011", "20201495002", "20202195004", "20202195005", "20202395001", "20202395004", "20202395007", "20202495005", "20202495014", "20211495001", "20211495008", "20211495016", "20212195001"]
+    }
+  },
+  "prorrogas": [
+    {"id": "S-01", "archivo": "AGUILAR RUIZ JOSE MANUEL.pdf", "codigo": "20202395001", "fecha": "2026-05-22", "pagot": false, "c1": "Carta de participación en evento (firmada) radicada", "c2": "Tesis con aval de presentación y solicitud de jurados radicadas", "producto_c1": "Evento no especificado en el correo", "solicitud": "Semestre adicional", "adjuntos": 4},
+    {"id": "S-02", "archivo": "AGUIRRE CARPETA WILLIAM YESID.pdf", "codigo": "20201495002", "fecha": "2026-05-22", "pagot": false, "c1": "Ponencia aceptada", "c2": "Libro de tesis radicado con aval del director; en espera de asignación de jurados", "producto_c1": "Conferencia internacional (Vietnam, agosto 2026)", "solicitud": "Prórroga de un semestre", "adjuntos": 5},
+    {"id": "S-03", "archivo": "ALAYON MORA RICARDO ARTURO.pdf", "codigo": "20162195001", "fecha": "2026-05-22", "pagot": true, "c1": "Pendiente: artículos/ponencias sometidos, en espera de respuesta", "c2": "Tesis radicada", "producto_c1": "WEA y LoHacemosxTIC (sometidos)", "solicitud": "Ampliación de plazo de un semestre", "adjuntos": 6},
+    {"id": "S-04", "archivo": "CAPERA QUINTANA JONATHAN STEVEN.pdf", "codigo": "20202495005", "fecha": "2026-05-22", "pagot": false, "c1": "Aprobado (ponencia, Acta No. 11 del 19/05/2026)", "c2": "Radicado junto con el informe final; anteproyecto aprobado (Acta No. 10 del 05/05/2026)", "producto_c1": "Ponencia (certificado y memorias adjuntos)", "solicitud": "Prórroga de un semestre para agendar sustentación", "adjuntos": 5},
+    {"id": "S-05", "archivo": "CUCHIA RUIZ JAIME ANDRÉS.pdf", "codigo": "20172495004", "fecha": "2026-05-22", "pagot": true, "c1": "Ponencia aceptada", "c2": "Tesis final y solicitud de jurados radicadas; TESIS II es la única asignatura pendiente", "producto_c1": "MISNC 2026 (Danang, Vietnam, 10-12 de agosto de 2026)", "solicitud": "Prórroga para 2026-3", "adjuntos": 6},
+    {"id": "S-06", "archivo": "DAVID MONROY MACHADO.pdf", "codigo": "20181195005", "fecha": "2026-05-23", "pagot": true, "c1": "Ponencia postulada, sin respuesta del evento", "c2": "Tomo de tesis y solicitud de jurados radicados", "producto_c1": "LoHacemosxTIC 2026 (28-30 de octubre de 2026)", "solicitud": "Prórroga de un semestre e inscripción de TESIS II", "adjuntos": 5},
+    {"id": "S-07", "archivo": "ERAZO GUERRERO HERNAN ALVEIRO.pdf", "codigo": "20181495009", "fecha": "2026-05-22", "pagot": true, "c1": "Productos sometidos a revisión, sin respuesta", "c2": "No se reporta en el correo", "producto_c1": "IJECE (artículo sometido) y ponencia sometida", "solicitud": "Tiempo adicional para el Componente I", "adjuntos": 3},
+    {"id": "S-08", "archivo": "ESPITIA PARDO DANIEL ENRIQUE.pdf", "codigo": "20191495031", "fecha": "2026-05-26", "pagot": true, "c1": "Ponencia aceptada", "c2": "Libro de tesis y solicitud de jurados radicados", "producto_c1": "LoHacemosxTIC 2026 (Cartagena, 28-30 de octubre de 2026)", "solicitud": "Prórroga curricular de un semestre", "adjuntos": 1},
+    {"id": "S-09", "archivo": "GARZÓN BAUTISTA HARVEY ALEXANDER.pdf", "codigo": "20201195002", "fecha": "2026-05-22", "pagot": false, "c1": "Ponencia registrada; aval institucional pendiente", "c2": "Solicitud de jurados radicada", "producto_c1": "LoHacemosxTIC 2026", "solicitud": "Prórroga de tesis y designación de jurados", "adjuntos": 3},
+    {"id": "S-10", "archivo": "GARZÓN CORREA MAGDA LORENA.pdf", "codigo": "20162195005", "fecha": "2026-05-22", "pagot": true, "c1": "Ponencia sometida; el evento se realiza en octubre de 2026", "c2": "Libro de tesis y solicitud de jurados (sin firmas al momento del envío)", "producto_c1": "LoHacemosxTIC 2026", "solicitud": "Prórroga de un semestre", "adjuntos": 3},
+    {"id": "S-11", "archivo": "GERSON DAVID CRUZ CAPADOR.pdf", "codigo": "20181195004", "fecha": "2026-05-22", "pagot": true, "c1": "Ponencia postulada", "c2": "Libro de trabajo de grado entregado", "producto_c1": "LoHacemosxTIC 2026 (octubre de 2026)", "solicitud": "Prórroga de un semestre", "adjuntos": 2},
+    {"id": "S-12", "archivo": "GONZALEZ AGUIRRE FRANCISCO JAVIER.pdf", "codigo": "20171195003", "fecha": "2026-05-25", "pagot": true, "c1": "Ponencia sometida; solicita presentar el Componente 1 en octubre de 2026", "c2": "Informe de investigación y solicitud de jurados radicados", "producto_c1": "LoHacemosxTIC 2026", "solicitud": "Tiempo adicional para el Componente 1", "adjuntos": 5},
+    {"id": "S-13", "archivo": "HENRY ARIAS BERNAL.pdf", "codigo": "20171495002", "fecha": "2026-05-26", "pagot": true, "c1": "Ponencia aceptada", "c2": "Libro de tesis y solicitud de jurados firmada radicados", "producto_c1": "LoHacemosxTIC 2026 (octubre de 2026)", "solicitud": "Prórroga de permanencia de un semestre (hasta diciembre de 2026)", "adjuntos": 8},
+    {"id": "S-14", "archivo": "JOHAN CAMILO PINZON BALLESTEROS.pdf", "codigo": "20172495013", "fecha": "2026-05-22", "pagot": true, "c1": "Inscripción a congreso con carta del director", "c2": "Documento final de tesis y solicitud de jurados radicados", "producto_c1": "LoHacemosxTIC 2026", "solicitud": "Prórroga para 2026-3", "adjuntos": 6},
+    {"id": "S-15", "archivo": "JOSE ANDRES GARCIA FLOREZ.pdf", "codigo": "20172495007", "fecha": "2026-05-25", "pagot": true, "c1": "Inscripción a congreso", "c2": "Proyecto de profundización en culminación (oficio con visto bueno del director y codirectora)", "producto_c1": "Congreso descrito en el oficio anexo", "solicitud": "Prórroga para la presentación y culminación del trabajo de grado", "adjuntos": 1},
+    {"id": "S-16", "archivo": "JOSE ANTONIO SILVA ROJAS.pdf", "codigo": "20171495020", "fecha": "2026-05-26", "pagot": true, "c1": "Ponencia aceptada", "c2": "Libro de tesis y solicitud de jurados radicados; inscrito en TESIS II", "producto_c1": "LoHacemosxTIC 2026 (28-30 de octubre de 2026)", "solicitud": "Prórroga de un semestre (2026-3)", "adjuntos": 1},
+    {"id": "S-17", "archivo": "MARTINEZ MORALES BRENDA MELISSA.pdf", "codigo": "20202195004", "fecha": "2026-05-26", "pagot": false, "c1": "Ponencia aceptada (26/05/2026)", "c2": "Trabajo final y solicitud de jurados radicados", "producto_c1": "LoHacemosxTIC 2026 (octubre de 2026)", "solicitud": "Prórroga de un semestre", "adjuntos": 3},
+    {"id": "S-18", "archivo": "MONTENEGRO ALVARADO ANDRES DAVID.pdf", "codigo": "20192495003", "fecha": "2026-05-26", "pagot": false, "c1": "Artículo enviado a revista (Publindex A2), en revisión", "c2": "Informe de investigación y solicitud de jurados radicados", "producto_c1": "Revista Data Intelligence (A2)", "solicitud": "Vinculación al estudio de prórroga (cursa prórroga previa, Acta SAC-276-2026)", "adjuntos": 7},
+    {"id": "S-19", "archivo": "MORA PEÑA DANNY FABIAN.pdf", "codigo": "20181495011", "fecha": "2026-05-26", "pagot": true, "c1": "Ponencia aceptada (carta de aceptación)", "c2": "No se reporta en el correo", "producto_c1": "Congreso con carta de aceptación adjunta", "solicitud": "Prórroga académica", "adjuntos": 2},
+    {"id": "S-20", "archivo": "OVIEDO PERDOMO JUAN PABLO.pdf", "codigo": "20201195011", "fecha": "2026-05-21", "pagot": false, "c1": "Ponencia aceptada", "c2": "Libro de tesis con avance superior al 80 %", "producto_c1": "ICOME 26 (7-12 de junio de 2026)", "solicitud": "Semestre adicional", "adjuntos": 3},
+    {"id": "S-21", "archivo": "PATIÑO LOPEZ LUIS FELIPE.pdf", "codigo": "20201195006", "fecha": "2026-05-25", "pagot": false, "c1": "Radicado", "c2": "Proyecto final con 90 % de avance; anteproyecto vigente", "producto_c1": "Artículo radicado", "solicitud": "Prórroga de permanencia de un semestre", "adjuntos": 3, "modalidad_declarada": "Profundización", "nota_modalidad": "Cambio a modalidad de profundización aprobado (declarado en la solicitud)."},
+    {"id": "S-22", "archivo": "QUINTERO GARZON CESAR IVAN.pdf", "codigo": "20211195006", "fecha": "2026-05-22", "pagot": false, "c1": "Artículo a presentar en revista indexada", "c2": "Documento final concluido; pendiente firma de la solicitud de jurados", "producto_c1": "Revista Ciberespacio, Tecnología e Innovación (ESDEG)", "solicitud": "Prórroga del período de estudio", "adjuntos": 0},
+    {"id": "S-23", "archivo": "REY VANEGAS DIEGO ARMANDO.pdf", "codigo": "20162495013", "fecha": "2026-05-26", "pagot": true, "c1": "Ponencia aceptada", "c2": "Libro de tesis entregado", "producto_c1": "LoHacemosxTIC 2026 (Cartagena, 28-30 de octubre de 2026)", "solicitud": "Prórroga de un semestre", "adjuntos": 1},
+    {"id": "S-24", "archivo": "SOLARTE ROSAS CRISTIAN JULIAN.pdf", "codigo": "20181195011", "fecha": "2026-05-19", "pagot": true, "c1": "Ponencia aprobada", "c2": "Tesis radicada y solicitud de jurados", "producto_c1": "Congreso Internacional de Investigación Interdisciplinar (28-30 de octubre de 2026)", "solicitud": "Semestre adicional, asignación de jurados y aclaración de matrícula", "adjuntos": 6},
+    {"id": "S-25", "archivo": "TORRES RODRIGUEZ JENIFER ANDREA.pdf", "codigo": "20201195010", "fecha": "2026-05-26", "pagot": false, "c1": "Artículo aceptado", "c2": "Libro de tesis entregado", "producto_c1": "LoHacemosxTIC 2026 (Cartagena, 29-30 de octubre de 2026)", "solicitud": "Ampliación de permanencia de un semestre", "adjuntos": 2}
+  ],
+  "docentes_excluidos_f3": ["BOLAÑOS CASTRO SANDRO JAVIER", "CALVO LONDOÑO JORGE MARIO", "FIGUEROA GARCIA JUAN CARLOS", "JACINTO GOMEZ EDWARD", "MUÑOZ QUIÑONES GERARDO ALCIDES", "TORRIJOS CADENA GERMAN"]
+}

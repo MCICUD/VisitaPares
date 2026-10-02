@@ -1,13 +1,3 @@
 .venv/
 **/__pycache__/
 *.pyc
-Presentacion/*.aux
-Presentacion/*.log
-Presentacion/*.nav
-Presentacion/*.out
-Presentacion/*.snm
-Presentacion/*.toc
-# NuevaData: Original/ y la transcripción privada contienen datos personales; Presentacion/ se entrega por SharePoint
-NuevaData/Original/
-NuevaData/Presentacion/
-NuevaData/_build/_privado/
