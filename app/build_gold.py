@@ -238,7 +238,7 @@ ENLACE_MODULO_EGRESADOS = {
 }
 
 
-def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_factor8: dict) -> None:
+def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_factor8: dict, modalidad: str) -> None:
     """Añade a los Factores 4 (Egresados), 8 (Aportes de la investigación) y
     9 (Bienestar) los datos reales del Cuadro Maestro CNA (Data/Silver/
     cuadros_maestros.json) — evidencia oficial que hoy no se mostraba en
@@ -254,6 +254,18 @@ def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_f
             f["datos_comunidad_factor4"] = {
                 "egresados": load_json("egresados_agregado.json"),
                 "estados": load_json("estado_academico_agregado.json"),
+            }
+        elif numero == "2":
+            sufijo = "investigacion" if modalidad == "investigacion" else "profundizacion"
+            nombre = "Investigación" if modalidad == "investigacion" else "Profundización"
+            f["datos_cuadro_maestro_cna"] = {
+                "titulo_bloque": "Página web del programa",
+                "titulo_enlaces": f"Página web de la Maestría — {nombre}:",
+                "enlaces_oficiales": [{
+                    "titulo": f"MCIC {nombre}",
+                    "url": f"https://facingenieria.udistrital.edu.co/mcic-{sufijo}/",
+                    "descripcion": f"Sitio oficial de la Maestría en Ciencias de la Información y las Comunicaciones — {nombre} (Facultad de Ingeniería).",
+                }],
             }
         elif numero == "8":
             f["datos_cuadro_maestro_cna"] = {
@@ -440,8 +452,8 @@ def main() -> None:
         "programa_consolidado_por_etapa": resumen_seguimiento_tesis["por_etapa"],
         "fuentes_consultadas": resumen_seguimiento_tesis.get("fuentes_consultadas", []),
     }
-    merge_cuadros_maestros(silver_inv["factores"], cuadros_maestros, resumen_factor8_inv)
-    merge_cuadros_maestros(silver_prof["factores"], cuadros_maestros, resumen_factor8_prof)
+    merge_cuadros_maestros(silver_inv["factores"], cuadros_maestros, resumen_factor8_inv, "investigacion")
+    merge_cuadros_maestros(silver_prof["factores"], cuadros_maestros, resumen_factor8_prof, "profundizacion")
 
     convenios = load_json("convenios.json")
     merge_convenios(silver_inv["factores"], convenios)

@@ -299,6 +299,17 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 10
+        },
+        "datos_cuadro_maestro_cna": {
+          "titulo_bloque": "Página web del programa",
+          "titulo_enlaces": "Página web de la Maestría — Investigación:",
+          "enlaces_oficiales": [
+            {
+              "titulo": "MCIC Investigación",
+              "url": "https://facingenieria.udistrital.edu.co/mcic-investigacion/",
+              "descripcion": "Sitio oficial de la Maestría en Ciencias de la Información y las Comunicaciones — Investigación (Facultad de Ingeniería)."
+            }
+          ]
         }
       },
       {
@@ -383,7 +394,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
-                  "tamano_legible": "16.1 KB"
+                  "tamano_legible": "18.5 KB"
                 }
               ],
               "anexos": []
@@ -4818,6 +4829,17 @@ const GOLD_DATA = {
             }
           ],
           "total_archivos": 10
+        },
+        "datos_cuadro_maestro_cna": {
+          "titulo_bloque": "Página web del programa",
+          "titulo_enlaces": "Página web de la Maestría — Profundización:",
+          "enlaces_oficiales": [
+            {
+              "titulo": "MCIC Profundización",
+              "url": "https://facingenieria.udistrital.edu.co/mcic-profundizacion/",
+              "descripcion": "Sitio oficial de la Maestría en Ciencias de la Información y las Comunicaciones — Profundización (Facultad de Ingeniería)."
+            }
+          ]
         }
       },
       {
@@ -4902,7 +4924,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
-                  "tamano_legible": "16.1 KB"
+                  "tamano_legible": "18.5 KB"
                 }
               ],
               "anexos": []
@@ -8707,7 +8729,8 @@ const GOLD_DATA = {
       {
         "factor": "FACTOR 2. ESTUDIANTES",
         "campos_distintos": [
-          "plan_anterior"
+          "plan_anterior",
+          "datos_cuadro_maestro_cna"
         ]
       },
       {
@@ -11235,11 +11258,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 16460,
-      "tamano_legible": "16.1 KB",
+      "tamano_bytes": 18978,
+      "tamano_legible": "18.5 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
-      "extracto": "Factor 3 · Profesores — MCIC - PROFUNDIZACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Información en actualización: se solicitó a los profesores reportar con soporte las capacitaciones adicionales del periodo 2025-2026 (columna J de la hoja «Capa…"
+      "extracto": "Factor 3 · Profesores — MCIC - PROFUNDIZACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente» y hoja «Certificados»).\nMetas …"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
@@ -13395,11 +13418,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 16456,
-      "tamano_legible": "16.1 KB",
+      "tamano_bytes": 18975,
+      "tamano_legible": "18.5 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "Factor 3 · Profesores — MCIC - INVESTIGACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Información en actualización: se solicitó a los profesores reportar con soporte las capacitaciones adicionales del periodo 2025-2026 (columna J de la hoja «Capac…"
+      "extracto": "Factor 3 · Profesores — MCIC - INVESTIGACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente» y hoja «Certificados»).\nMetas d…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",

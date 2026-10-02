@@ -342,7 +342,7 @@ function renderPlanCard(f, indexEnModalidad) {
         ` : ''}
         ${f.datos_cuadro_maestro_cna && f.datos_cuadro_maestro_cna.enlaces_oficiales ? `
           <div style="margin-top: 10px; padding: 7px 10px; background: #F0FDF4; border: 1px solid #BBF7D0; border-left: 4px solid #16A34A; border-radius: var(--radius-sm); font-size: 11.5px; color: #166534; line-height: 1.4;">
-            <strong>🔬 Portales Oficiales de Investigación:</strong>
+            <strong>${f.datos_cuadro_maestro_cna.titulo_enlaces ? '🌐 ' + escapeHtml(f.datos_cuadro_maestro_cna.titulo_enlaces) : '🔬 Portales Oficiales de Investigación:'}</strong>
             <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;">
               ${f.datos_cuadro_maestro_cna.enlaces_oficiales.map(e => `<a href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer" style="color:#15803D; font-weight:600; text-decoration:underline;">${escapeHtml(e.titulo)} ↗</a>`).join(' • ')}
             </div>
@@ -845,7 +845,7 @@ function renderCuadroMaestroHtml(datos) {
     bloques += `
       <div style="margin-top:14px; padding:12px 14px; background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm);">
         <strong style="font-size:12.5px; color:var(--ud-blue); display:flex; align-items:center; gap:6px; margin-bottom:8px;">
-          <span>🌐</span> Enlaces Oficiales de Investigación y Grupos (Universidad Distrital):
+          <span>🌐</span> ${escapeHtml(datos.titulo_enlaces || 'Enlaces Oficiales de Investigación y Grupos (Universidad Distrital):')}
         </strong>
         <div style="display:flex; flex-wrap:wrap; gap:8px;">
           ${datos.enlaces_oficiales.map((e) => `
@@ -861,7 +861,7 @@ function renderCuadroMaestroHtml(datos) {
   if (!bloques) return '';
   return `
     <div style="margin-bottom:16px;">
-      <p style="margin-bottom:8px;"><strong>📊 Datos oficiales del Cuadro Maestro (CNA):</strong></p>
+      <p style="margin-bottom:8px;"><strong>${datos.titulo_bloque ? '🌐 ' + escapeHtml(datos.titulo_bloque) : '📊 Datos oficiales del Cuadro Maestro (CNA):'}</strong></p>
       ${bloques}
     </div>
   `;

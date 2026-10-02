@@ -477,6 +477,19 @@ def factor2(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 # ---------------------------------------------------------------------------
 # FACTOR 3 — Participación docente en capacitación (planta compartida)
 # ---------------------------------------------------------------------------
+# Certificados recientes de los profesores (transcritos de los PDF de Original/<Mod>/FACTOR 3/…/Certificados).
+# (profesor, capacitación, entidad, fecha, horas, año)
+CERTIFICADOS_F3 = [
+    ("Ortiz Davila Alvaro Enrique", "Introduction to GeoWebApp Building with open-source tools (curso en línea)", "Universidad de Twente (ITC) y Geoversity", "13/05/2024", 40, 2024),
+    ("Ortiz Davila Alvaro Enrique", "Curso Internacional de Competencias Docentes y Diseño de Materiales Didácticos para la Educación en Línea (título propio, calificación 9,60)", "Universidad Internacional de La Rioja (UNIR)", "04/05/2026 al 05/07/2026", 125, 2026),
+    ("Gomez Vargas Ernesto", "Taller de formación EUR-ACE «Aseguramiento de calidad y acreditación internacional EUR-ACE de programas educativos en ingeniería»", "ENAEE, ENTEA y LACCEI (Girardot, Colombia)", "08/11/2022 al 10/11/2022", None, 2022),
+    ("Plazas Nossa Leonardo", "Data Science and Machine Learning: Making Data-Driven Decisions", "MIT Schwarzman College of Computing y MIT IDSS", "agosto de 2023", None, 2023),
+    ("Vanegas Ayala Sebastian Camilo", "Taller «Instalación local de modelos de IA»", "Vicerrectoría Académica y Comité PlanEsTIC-UD", "16/07/2025", 1, 2025),
+    ("Vanegas Ayala Sebastian Camilo", "Taller «Automatización de tareas de ofimática con IA a través del uso de protocolo MCP»", "Vicerrectoría Académica y Comité PlanEsTIC-UD", "15/07/2025", 1, 2025),
+    ("Vanegas Ayala Sebastian Camilo", "Taller «Da vida a tus ideas con presentaciones creativas e impactantes en Gamma AI»", "Vicerrectoría Académica y Comité PlanEsTIC-UD", "20/08/2025", 1, 2025),
+]
+
+
 def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[str]:
     src = factor_dirs(mod["plan"])[3] / "a. Informes de participación de los docentes/Participcion docente.xlsx"
     wb_src = openpyxl.load_workbook(src, data_only=True)
@@ -505,10 +518,22 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
         docentes.append([None, " ".join(w.capitalize() for w in nombre.split()), categoria_escalafon(r[3]),
                          frase(r[4]), r[5], frase(r[6]), r[7],
                          grupo, frase(cat_inv) if cat_inv and cat_inv.isupper() else cat_inv, None])
+    for prof, titulo, entidad, fecha, horas, _anio in CERTIFICADOS_F3:
+        clave = frozenset(norm_tokens(prof))
+        fila_d = next((d for d in docentes if frozenset(norm_tokens(d[1])) == clave), None)
+        if fila_d is None:  # profesor que no figura en el listado de Decanatura
+            info = cm_info.get(clave, {})
+            cat_inv = re.sub(r"^\d+\.\s*", "", str(info.get("cat"))) if info.get("cat") and str(info["cat"]).strip() not in ("N/A", "None") else None
+            grupo = info.get("grupo")
+            grupo = frase(grupo) if grupo and grupo.upper().startswith("SIN ") else grupo
+            fila_d = [None, " ".join(w.capitalize() for w in prof.split()), None, None, None, None, None, grupo, frase(cat_inv) if cat_inv and cat_inv.isupper() else cat_inv, None]
+            docentes.append(fila_d)
+        linea = f"{titulo} — {entidad} ({fecha}{f', {horas} h' if horas else ''})"
+        fila_d[9] = f"{fila_d[9]}\n{linea}" if fila_d[9] else linea
     docentes.sort(key=lambda d: d[1])
     for i, d in enumerate(docentes, 1):
         d[0] = i
-    con_cap = sum(1 for d in docentes if d[3] or d[5])
+    con_cap = sum(1 for d in docentes if d[3] or d[5] or d[9])
 
     movilidad = []
     for r in wb_src["DECANATURA  movilidad"].iter_rows(min_row=4, values_only=True):
@@ -526,7 +551,7 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 3 · Profesores — {mod['programa']}",
                  "Participación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. "
-                 "Información en actualización: se solicitó a los profesores reportar con soporte las capacitaciones adicionales del periodo 2025-2026 (columna J de la hoja «Capacitación docente»).")
+                 "Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente» y hoja «Certificados»).")
     fila = encabezado_factor(ws, 4, 3, m)
     pct = con_cap / len(docentes) * 100 if docentes else 0
     fila = st.kpis(ws, fila, [("Profesores de la Maestría", len(docentes)), ("Con capacitación registrada", con_cap),
@@ -538,9 +563,12 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 
     ws = st.hoja(wb, "Capacitación docente", "Capacitación docente (SCRUM e ILUD) y perfil investigativo", "Fuentes: Decanatura (capacitaciones) y Cuadro Maestro CNA No. 05 (grupo y categoría).", 10)
     st.tabla(ws, 4, ["N°", "Profesor", "Categoría escalafón", "Capacitación SCRUM", "Año", "Segunda lengua (ILUD)", "Año",
-                     "Grupo de investigación", "Categoría investigador MinCiencias", "Capacitaciones 2025-2026 reportadas por el profesor (por diligenciar)"],
-             docentes, [5, 34, 13, 18, 7, 40, 7, 18, 16, 38])
+                     "Grupo de investigación", "Categoría investigador MinCiencias", "Otras capacitaciones con certificado"],
+             docentes, [5, 34, 13, 18, 7, 40, 7, 18, 16, 70])
 
+    ws = st.hoja(wb, "Certificados", "Capacitaciones con certificado reportadas por los profesores", "Certificados recientes entregados por los profesores; los documentos se resguardan en el archivo del programa.", 7)
+    filas_c = [[" ".join(w.capitalize() for w in p_.split()), t_, e_, f_, h_ if h_ else "—", a_, "Certificado en archivo"] for p_, t_, e_, f_, h_, a_ in sorted(CERTIFICADOS_F3, key=lambda x: (x[0], x[5]))]
+    st.tabla(ws, 4, ["Profesor", "Capacitación", "Entidad", "Fecha", "Horas", "Año", "Soporte"], filas_c, [32, 80, 44, 24, 8, 8, 20])
     ws = st.hoja(wb, "Movilidad", "Movilidad académica de profesores (entrante y saliente)", "Fuente: Decanatura – movilidad. Ordenada de la más reciente a la más antigua.", 9)
     st.tabla(ws, 4, ["Profesor / invitado", "Tipo", "Entidad o evento", "Lugar", "Objeto", "Modalidad", "Inicio", "Fin", "Días"],
              movilidad, [30, 24, 40, 22, 60, 12, 11, 11, 6])
