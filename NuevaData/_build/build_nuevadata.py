@@ -836,7 +836,7 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     kpis = [(f"Egresados de {etiqueta} (OATI)", len(propios)),
             ("Con experiencia profesional", _pct(sum(1 for p in propios if p["n_prof"]), len(propios))),
             ("Docentes actuales", sum(1 for p in propios if p["docente_actual"])),
-            ("Con ponencias o patentes", sum(1 for p in propios if p["prod"])),
+            ("Con ponencias o patentes", sum(1 for p in propios if any(p["prod"].get(t) for t in ("Ponencia internacional", "Ponencia nacional", "Patente")))),
             ("Cobertura OATI 2022-2026", f"{sum(x[3] for x in cob_anio)}/{sum(x[2] for x in cob_anio)}")]
     if enc and enc["n"]:
         recom = sum(v for x, v in enc["recomienda"].items() if x in ("Definitivamente sí", "Probablemente sí"))

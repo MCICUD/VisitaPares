@@ -491,6 +491,7 @@ def main() -> None:
                 "investigacion": silver_inv["cabecera"],
                 "profundizacion": silver_prof["cabecera"],
             },
+            "normativa": load_json("normativa.json")["normas"],
             "generadoPor": "app/run_pipeline.py (Bronze -> Silver -> Gold)",
         },
         "factores": {

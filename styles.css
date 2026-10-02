@@ -1164,3 +1164,15 @@ body {
 .catalogo-menu { border: 1px solid var(--border-color); border-radius: var(--radius-md); background: #fff; padding: 0 16px; margin-bottom: 24px; }
 .catalogo-menu > summary { cursor: pointer; padding: 14px 0; font-size: 15px; font-weight: 700; color: var(--ud-blue-dark); }
 .catalogo-menu[open] { padding-bottom: 16px; }
+
+/* Normativa dentro del cuadro de la modalidad */
+.modality-banner-normativa { margin-top: 14px; background: rgba(255, 255, 255, 0.8); border: 1px solid rgba(191, 219, 254, 0.6); border-radius: var(--radius-sm); padding: 12px 16px; }
+.modality-banner-normativa-title { font-size: 11px; color: var(--text-soft); text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px; margin-bottom: 8px; }
+.modality-banner-normativa-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; }
+.norma-item { display: flex; flex-direction: column; gap: 3px; padding: 10px 12px; background: #fff; border: 1px solid var(--border-color); border-left: 4px solid var(--ud-blue); border-radius: var(--radius-sm); text-decoration: none; color: var(--text-main); font-size: 12px; }
+.norma-item:hover { border-color: var(--ud-blue); box-shadow: var(--shadow-sm); }
+.norma-item strong { font-size: 12.5px; color: var(--ud-blue-dark); }
+.norma-item-norma { font-size: 10.5px; font-weight: 700; color: var(--text-soft); text-transform: uppercase; letter-spacing: 0.3px; }
+.norma-item-meta { font-size: 11px; color: var(--text-muted); }
+.norma-item-aplica { font-size: 11px; font-weight: 700; color: #166534; }
+.norma-item-detalle { font-size: 11px; color: var(--text-muted); }

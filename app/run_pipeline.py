@@ -12,6 +12,7 @@ import extract_egresados_agregado
 import extract_enfasis_estudiantes
 import extract_estado_academico
 import extract_grupos_investigacion
+import extract_normativa
 import extract_plan_mejoramiento
 import extract_plan_mejoramiento_2025
 import extract_seguimiento_evidencia
@@ -63,6 +64,9 @@ def main() -> None:
     print()
     print("== 12b/15 Bronze -> Silver: autoevaluaciones 2025 y 2026 (Factor 11) ==")
     extract_autoevaluaciones.main()
+    print()
+    print("== 12c/15 Bronze -> Silver: normativa ==")
+    extract_normativa.main()
     print()
     print("== 13/15 SolicitudesPares -> Silver: material entregado a los pares ==")
     filter_solicitudes_mcic.main()

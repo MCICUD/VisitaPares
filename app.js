@@ -232,6 +232,28 @@ function populateFactorFilter() {
   state.factorFiltro = 'all';
 }
 
+function renderNormativaBanner(normas, modalidad) {
+  if (!normas || !normas.length) return '';
+  return `
+    <div class="modality-banner-normativa">
+      <div class="modality-banner-normativa-title">📚 Normativa aplicable (${normas.length})</div>
+      <div class="modality-banner-normativa-list">
+        ${normas.map((n) => {
+          const det = n.detalle && n.detalle[modalidad];
+          const href = fileHref(n.archivo) + (det && det.pagina ? `#page=${det.pagina}` : '');
+          return `
+            <a class="norma-item" href="${href}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(n.nombre)}">
+              <span class="norma-item-norma">${escapeHtml(n.norma)} · ${escapeHtml(n.expide)}</span>
+              <strong>${escapeHtml(n.titulo)}</strong>
+              <span class="norma-item-meta">${escapeHtml(n.fecha)} · ${escapeHtml(n.estado)} · ${escapeHtml(n.tamano_legible)}</span>
+              <span class="norma-item-aplica">Aplica a: ${escapeHtml((n.aplica && n.aplica[modalidad]) || '')}</span>
+              ${det ? `<span class="norma-item-detalle">${escapeHtml(det.texto)}</span>` : ''}
+            </a>`;
+        }).join('')}
+      </div>
+    </div>`;
+}
+
 function renderPlanBanner() {
   const cab = GOLD_DATA.meta.modalidades[state.modalidad];
   const stats = GOLD_DATA.stats[state.modalidad];
@@ -255,6 +277,7 @@ function renderPlanBanner() {
       <div class="modality-banner-item"><span>Fecha Proyección del Plan</span><strong>2024-2027</strong></div>
       <div class="modality-banner-item"><span>Peso-Prioridad Promedio (12 factores)</span><strong>${stats.peso_prioridad_promedio}</strong></div>
     </div>
+    ${renderNormativaBanner(GOLD_DATA.meta.normativa, state.modalidad)}
   `;
 
   document.getElementById('plan-header-subtitle').innerHTML =
