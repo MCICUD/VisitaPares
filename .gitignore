@@ -7,7 +7,6 @@ Presentacion/*.nav
 Presentacion/*.out
 Presentacion/*.snm
 Presentacion/*.toc
-Data/
 # NuevaData: Original/ y la transcripción privada contienen datos personales; Presentacion/ se entrega por SharePoint
 NuevaData/Original/
 NuevaData/Presentacion/
