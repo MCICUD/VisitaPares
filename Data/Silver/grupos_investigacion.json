@@ -835,29 +835,6 @@
       }
     },
     {
-      "nombre": "Cooperación Intergrupal LASER - LAMIC",
-      "sigla": "LASER LAMIC",
-      "clasificacion": "Intergrupal (B / C)",
-      "lider": "César Andrey Perdomo Charry",
-      "lineas_investigacion": "Robótica, Automática, Microelectrónica",
-      "gruplac": null,
-      "pagina_web": null,
-      "email": null,
-      "integrantes": [
-        {
-          "nombre": "César Andrey Perdomo Charry",
-          "correo": "caperdomoc@udistrital.edu.co",
-          "tematicas": "Robótica y Automática",
-          "cvlac": null
-        }
-      ],
-      "proyectos_grado": [],
-      "fuente": {
-        "archivo": "Data/Bronze/MCIC - Base de datos V2.xlsx",
-        "hoja": "N-A Investigación"
-      }
-    },
-    {
       "nombre": "Grupo de Investigación en Energías y Tecnologías XUÉ",
       "sigla": "XUE",
       "clasificacion": "Facultad de Ingeniería",

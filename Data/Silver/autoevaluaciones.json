@@ -1,0 +1,424 @@
+{
+  "investigacion": {
+    "libro": {
+      "nombre": "F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
+      "tamano_legible": "11.3 KB"
+    },
+    "anio_2025": {
+      "titulo": "Autoevaluación 2025 (anterior)",
+      "respondentes": {
+        "Estudiantes": 53,
+        "Docentes": 17,
+        "Egresados": 36
+      },
+      "documentos": [
+        {
+          "nombre": "Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+          "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2025 (anterior)/Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+          "tamano_legible": "4.0 MB"
+        }
+      ],
+      "anexos_total": 65
+    },
+    "anio_2026": {
+      "titulo": "Autoevaluación 2026 (vigente)",
+      "respondentes": {
+        "Estudiantes": 34,
+        "Docentes": 9,
+        "Directivos": 2
+      },
+      "documentos": [
+        {
+          "nombre": "CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/CC-FR-001 Plan de mejoramiento INV.xlsx",
+          "tamano_legible": "122.0 KB"
+        },
+        {
+          "nombre": "MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+          "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+          "tamano_legible": "591.9 KB"
+        },
+        {
+          "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+          "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+          "tamano_legible": "325.1 KB"
+        },
+        {
+          "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+          "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+          "tamano_legible": "121.4 KB"
+        }
+      ],
+      "anexos_total": 0,
+      "promedios_por_factor": [
+        {
+          "instrumento": "Estudiantes",
+          "factor": 1,
+          "factor_nombre": "Proyecto educativo",
+          "respuestas": 34,
+          "preguntas": 7,
+          "promedio": 4.04
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 3,
+          "factor_nombre": "Profesores",
+          "respuestas": 34,
+          "preguntas": 2,
+          "promedio": 3.71
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 5,
+          "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+          "respuestas": 31,
+          "preguntas": 14,
+          "promedio": 3.8
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 10,
+          "factor_nombre": "Medios educativos y ambientes de aprendizaje",
+          "respuestas": 30,
+          "preguntas": 25,
+          "promedio": 3.47
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 11,
+          "factor_nombre": "Organización, administración y financiación",
+          "respuestas": 30,
+          "preguntas": 11,
+          "promedio": 3.18
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 1,
+          "factor_nombre": "Proyecto educativo",
+          "respuestas": 9,
+          "preguntas": 7,
+          "promedio": 4.19
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 2,
+          "factor_nombre": "Estudiantes",
+          "respuestas": 9,
+          "preguntas": 7,
+          "promedio": 4.06
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 3,
+          "factor_nombre": "Profesores",
+          "respuestas": 9,
+          "preguntas": 27,
+          "promedio": 4.19
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 5,
+          "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+          "respuestas": 9,
+          "preguntas": 14,
+          "promedio": 4.39
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 8,
+          "factor_nombre": "Aportes de la investigación",
+          "respuestas": 7,
+          "preguntas": 6,
+          "promedio": 4.12
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 11,
+          "factor_nombre": "Organización, administración y financiación",
+          "respuestas": 9,
+          "preguntas": 11,
+          "promedio": 3.86
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 1,
+          "factor_nombre": "Proyecto educativo",
+          "respuestas": 2,
+          "preguntas": 1,
+          "promedio": 4.5
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 2,
+          "factor_nombre": "Estudiantes",
+          "respuestas": 2,
+          "preguntas": 4,
+          "promedio": 4.5
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 3,
+          "factor_nombre": "Profesores",
+          "respuestas": 2,
+          "preguntas": 25,
+          "promedio": 4.26
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 5,
+          "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+          "respuestas": 2,
+          "preguntas": 8,
+          "promedio": 4.56
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 9,
+          "factor_nombre": "Bienestar",
+          "respuestas": 2,
+          "preguntas": 15,
+          "promedio": 4.21
+        }
+      ]
+    },
+    "comparacion": [
+      {
+        "aspecto": "Propósito",
+        "anio_2025": "Informe de autoevaluación con fines de renovación de la acreditación en alta calidad (octubre de 2025).",
+        "anio_2026": "Proceso de autoevaluación permanente (Sistema Interno de Aseguramiento de la Calidad), 2026."
+      },
+      {
+        "aspecto": "Documento principal",
+        "anio_2025": "Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+        "anio_2026": "MCIC AutoevaluacionPermanenteInstitucional INV.pdf (29 páginas)"
+      },
+      {
+        "aspecto": "Instrumentos",
+        "anio_2025": "Encuestas a estudiantes, docentes, egresados, directivos y empleadores aplicadas en marzo de 2025.",
+        "anio_2026": "Instrumentos de apreciación institucionales (Modelo CNA 2020) a estudiantes, docentes y directivos; periodo 2026-1."
+      },
+      {
+        "aspecto": "Resultados",
+        "anio_2025": "Gráficos por pregunta de cada encuesta (carpeta «Anexos»). Las bases de respuestas contienen datos personales y se resguardan.",
+        "anio_2026": "Libro «Resultados Proceso Autoevaluación 2026-1» y análisis general por estamento (elaborado con apoyo de IA, con recomendación de análisis propio)."
+      },
+      {
+        "aspecto": "Plan de mejoramiento asociado",
+        "anio_2025": "Plan 2024-2026 (formato AA-FR-001), ver Factor 11 de este plan.",
+        "anio_2026": "Plan 2026-2027 (formato CC-FR-001) — «CC-FR-001 Plan de mejoramiento INV.xlsx»."
+      }
+    ]
+  },
+  "profundizacion": {
+    "libro": {
+      "nombre": "F11_Autoevaluacion_2025_vs_2026_Profundizacion.xlsx",
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Profundizacion.xlsx",
+      "tamano_legible": "9.7 KB"
+    },
+    "anio_2025": {
+      "titulo": "Autoevaluación 2025 (anterior)",
+      "respondentes": {
+        "Estudiantes": 53,
+        "Docentes": 17,
+        "Egresados": 36
+      },
+      "documentos": [
+        {
+          "nombre": "Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+          "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2025 (anterior)/Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+          "tamano_legible": "4.2 MB"
+        }
+      ],
+      "anexos_total": 4
+    },
+    "anio_2026": {
+      "titulo": "Autoevaluación 2026 (vigente)",
+      "respondentes": {
+        "Estudiantes": 34,
+        "Docentes": 9,
+        "Directivos": 2
+      },
+      "documentos": [
+        {
+          "nombre": "CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+          "tamano_legible": "122.0 KB"
+        },
+        {
+          "nombre": "MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+          "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+          "tamano_legible": "593.7 KB"
+        },
+        {
+          "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+          "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+          "tamano_legible": "325.1 KB"
+        },
+        {
+          "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+          "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+          "tamano_legible": "121.4 KB"
+        }
+      ],
+      "anexos_total": 0,
+      "promedios_por_factor": [
+        {
+          "instrumento": "Estudiantes",
+          "factor": 1,
+          "factor_nombre": "Proyecto educativo",
+          "respuestas": 34,
+          "preguntas": 7,
+          "promedio": 4.04
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 3,
+          "factor_nombre": "Profesores",
+          "respuestas": 34,
+          "preguntas": 2,
+          "promedio": 3.71
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 5,
+          "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+          "respuestas": 31,
+          "preguntas": 14,
+          "promedio": 3.8
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 10,
+          "factor_nombre": "Medios educativos y ambientes de aprendizaje",
+          "respuestas": 30,
+          "preguntas": 25,
+          "promedio": 3.47
+        },
+        {
+          "instrumento": "Estudiantes",
+          "factor": 11,
+          "factor_nombre": "Organización, administración y financiación",
+          "respuestas": 30,
+          "preguntas": 11,
+          "promedio": 3.18
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 1,
+          "factor_nombre": "Proyecto educativo",
+          "respuestas": 9,
+          "preguntas": 7,
+          "promedio": 4.19
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 2,
+          "factor_nombre": "Estudiantes",
+          "respuestas": 9,
+          "preguntas": 7,
+          "promedio": 4.06
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 3,
+          "factor_nombre": "Profesores",
+          "respuestas": 9,
+          "preguntas": 27,
+          "promedio": 4.19
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 5,
+          "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+          "respuestas": 9,
+          "preguntas": 14,
+          "promedio": 4.39
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 8,
+          "factor_nombre": "Aportes de la investigación",
+          "respuestas": 7,
+          "preguntas": 6,
+          "promedio": 4.12
+        },
+        {
+          "instrumento": "Docentes",
+          "factor": 11,
+          "factor_nombre": "Organización, administración y financiación",
+          "respuestas": 9,
+          "preguntas": 11,
+          "promedio": 3.86
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 1,
+          "factor_nombre": "Proyecto educativo",
+          "respuestas": 2,
+          "preguntas": 1,
+          "promedio": 4.5
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 2,
+          "factor_nombre": "Estudiantes",
+          "respuestas": 2,
+          "preguntas": 4,
+          "promedio": 4.5
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 3,
+          "factor_nombre": "Profesores",
+          "respuestas": 2,
+          "preguntas": 25,
+          "promedio": 4.26
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 5,
+          "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+          "respuestas": 2,
+          "preguntas": 8,
+          "promedio": 4.56
+        },
+        {
+          "instrumento": "Directivos",
+          "factor": 9,
+          "factor_nombre": "Bienestar",
+          "respuestas": 2,
+          "preguntas": 15,
+          "promedio": 4.21
+        }
+      ]
+    },
+    "comparacion": [
+      {
+        "aspecto": "Propósito",
+        "anio_2025": "Informe de autoevaluación con fines de renovación de la acreditación en alta calidad (octubre de 2025).",
+        "anio_2026": "Proceso de autoevaluación permanente (Sistema Interno de Aseguramiento de la Calidad), 2026."
+      },
+      {
+        "aspecto": "Documento principal",
+        "anio_2025": "Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+        "anio_2026": "MCIC AutoevaluacionPermanenteInstitucional PROF.pdf (29 páginas)"
+      },
+      {
+        "aspecto": "Instrumentos",
+        "anio_2025": "Encuestas a estudiantes, docentes, egresados, directivos y empleadores aplicadas en marzo de 2025.",
+        "anio_2026": "Instrumentos de apreciación institucionales (Modelo CNA 2020) a estudiantes, docentes y directivos; periodo 2026-1."
+      },
+      {
+        "aspecto": "Resultados",
+        "anio_2025": "Gráficos por pregunta de cada encuesta (carpeta «Anexos»). Las bases de respuestas contienen datos personales y se resguardan.",
+        "anio_2026": "Libro «Resultados Proceso Autoevaluación 2026-1» y análisis general por estamento (elaborado con apoyo de IA, con recomendación de análisis propio)."
+      },
+      {
+        "aspecto": "Plan de mejoramiento asociado",
+        "anio_2025": "Plan 2024-2026 (formato AA-FR-001), ver Factor 11 de este plan.",
+        "anio_2026": "Plan 2026-2027 (formato CC-FR-001) — «CC-FR-001 Plan de mejoramiento PROF.xlsx»."
+      }
+    ]
+  }
+}

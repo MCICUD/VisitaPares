@@ -235,3 +235,25 @@ Hacerlo **por modalidad y por factor**, respetando los ajustes que pida la coord
 - OATI: 146 registros / 145 personas / 143 clasificadas (INV 137, PROF 6; 2 sin registro en Cóndor quedan fuera).
 - Gold: el bloque de graduados del Factor 4 ahora es por modalidad y la sección Comunidad estudiantil suma una tabla «Graduados por modalidad» (los totales por proyecto/año no cambian).
 - Discrepancia abierta: la tabla de énfasis de Comunidad (archivo «Énfasis estudiantes - Consolidado», 2026-1) da INV 79 / PROF 77 matriculados; Cóndor+bases (2026-3) da INV 83 (con 2 sin base) / PROF 73. El bloque «Matriculados» del Factor 4 sigue mostrando el total MCIC (156).
+
+## 9. Ajustes posteriores (2-oct-2026)
+
+- F6: pagaron = recibo «2026-3 A» (20: INV 13, PROF 7); se quitaron nota del Resumen, «Cruces y alertas» y «Modalidad por confirmar». Plan anterior = Investigación en todo (F2, F4, F6, F8, F9, F12); no debe quedar «sin modalidad».
+- F8: «Pendientes por sustentar»; «LASER LAMIC» → LASER (también en Silver: `grupos_investigacion`, `seguimiento_tesis`); sin hoja «Fuentes y calidad». 9 trabajos sin registro en Cóndor se asignan a Investigación (plan anterior), marcados «verificar» en «Nota de modalidad».
+- F9: «Asistieron a la inducción»; matriculados por modalidad con Cóndor + regla de plan anterior.
+- F11: `app/extract_autoevaluaciones.py` → `Data/Silver/autoevaluaciones.json` → bloque «Autoevaluación 2025 (anterior) y 2026 (vigente)» en el detalle del factor. Las respuestas 2025 (53/17/36) están solo en la carpeta de Investigación y se usan para ambas modalidades.
+- F12: solo recursos físicos: PPT de laboratorios sin la diapositiva «Estudiantes impactados», G312-3 y libro de salas de informática y software.
+- F7: `NuevaData/Convenios/Convenios vigentes URELINTER (3).xlsx` es idéntico (388 filas) al de `Data/Bronze/Convenios/`; la tabla del sitio solo lista los convenios que aplican a posgrado (3 de 7 relacionados con la Facultad de Ingeniería).
+
+## 10. Insumos de F7, F8 y F12 (2-oct-2026)
+
+- F7: `NuevaData/Convenios/…(3).xlsx` (descarga 2-oct) tiene los mismos 388 convenios que el anterior; ahora la tabla del modal lista los 388 con filtros (primero los que aplican a la MCIC y los relacionados con Ingeniería). Silver `convenios.json` incluye `convenios`.
+- F8: «Informe Grupos Investigación.docx» (impacto social por grupo) va en `b.` (compartido); la sección «LASER LAMIC» se integró a LASER (7 trabajos, 6 sustentados, igual que el consolidado). Presentaciones de GIIRA y Multimedia en `a.` (los videos incrustados quedan como imagen fija: el pptx de GIIRA pesaba 192 MB, sobre el límite de GitHub). Proyectos ejecutados y tesis en `b./Anexos`; las tesis se asignan por título al consolidado y por modalidad (INV 8, PROF 4). Los 11 trabajos del xlsx «Tesis Maestria Grupo Multimedia GIIRA» coinciden con el consolidado.
+- F12: planos de laboratorios del nuevo edificio (81 MB) en `a.`.
+- Los originales pesados están en `NuevaData/Info para 12 y 8/` (en `.gitignore`).
+
+## 11. Convenio IGAC 5570 de 2025 (2-oct-2026)
+
+- `NuevaData/Convenios/CONVENIO IGAC/` (7 PDF): convenio específico IGAC-UDFJC N.° 5570 de 2025 (maestrías y doctorados en geografía, geomática, catastro, IA y ciencia de datos; nació de la coordinación de la MCIC). No figura aún en el listado de URELINTER; se agrega a la tabla del Factor 7 como «Aplica a la MCIC» (aplican: 4, complementan: 2) con sus soportes en `a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/` (ambas modalidades).
+- Los soportes se publican con los números de cédula tapados (`redactar_documentos_identidad`). `0-Apertura Financiera IGAC.pdf` NO se publica: trae datos bancarios y su nombre de proyecto no corresponde (dice «Pueblo Rrom»).
+- El convenio marco C-2023-1 (IGAC, cooperación en investigación y formación) es el marco del que se deriva.

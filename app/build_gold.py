@@ -309,6 +309,15 @@ def merge_convenios(factores: list[dict], convenios: dict) -> None:
             f["datos_convenios"] = convenios
 
 
+def merge_autoevaluaciones(factores: list[dict], datos: dict) -> None:
+    """Añade al Factor 11 la comparación entre la autoevaluación 2025 (anterior) y la 2026 (vigente)
+    (Data/Silver/autoevaluaciones.json). Modifica in-place."""
+    for f in factores:
+        m = FACTOR_RE.match(f["factor"] or "")
+        if m and m.group(1) == "11":
+            f["datos_autoevaluacion"] = datos
+
+
 def merge_syllabi(factores: list[dict], syllabi: dict) -> None:
     """Añade al Factor 5 (Aspectos Académicos y Resultados de Aprendizaje)
     los microcurrículos oficiales actualizados (Data/Silver/syllabi.json) bajo el
@@ -463,6 +472,10 @@ def main() -> None:
     convenios = load_json("convenios.json")
     merge_convenios(silver_inv["factores"], convenios)
     merge_convenios(silver_prof["factores"], convenios)
+
+    autoevaluaciones = load_json("autoevaluaciones.json")
+    merge_autoevaluaciones(silver_inv["factores"], autoevaluaciones["investigacion"])
+    merge_autoevaluaciones(silver_prof["factores"], autoevaluaciones["profundizacion"])
 
     syllabi = load_json("syllabi.json")
     merge_syllabi(silver_inv["factores"], syllabi)

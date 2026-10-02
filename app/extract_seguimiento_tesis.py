@@ -54,6 +54,13 @@ COL_COD_ESTUDIANTE = 3
 PROYECTOS = ("595", "695")
 
 
+def canonizar_grupo(grupo: str | None) -> str | None:
+    """'LASER LAMIC' no es un grupo: es una confusión de LASER (existen los grupos LASER y LAMIC por separado)."""
+    if grupo and re.sub(r"[^A-Z]", "", str(grupo).upper()) == "LASERLAMIC":
+        return "LASER"
+    return grupo
+
+
 def normalizar_texto(texto: Any) -> str:
     if not texto:
         return ""
@@ -469,7 +476,7 @@ def main() -> None:
             "titulo_proyecto": p["titulo_proyecto"],
             "director": p["director"],
             "codirector": p["codirector"],
-            "grupo_investigacion": p["grupo_investigacion"],
+            "grupo_investigacion": canonizar_grupo(p["grupo_investigacion"]),
             "numero_acta_sustentacion": p["numero_acta_sustentacion"],
             "nota_sustentacion": p["nota_sustentacion"],
             "caracter_sustentacion": p["caracter_sustentacion"],

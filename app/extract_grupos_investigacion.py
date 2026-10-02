@@ -171,18 +171,6 @@ def main() -> None:
         },
         {"sigla": "LAMIC", "clasificacion": "C", "hoja_dir": "LAMIC"},
         {
-            "sigla": "LASER LAMIC",
-            "clasificacion": "Intergrupal (B / C)",
-            "hoja_dir": None,
-            "nombre": "Cooperación Intergrupal LASER - LAMIC",
-            "lider": "César Andrey Perdomo Charry",
-            "lineas_investigacion": "Robótica, Automática, Microelectrónica",
-            "integrantes": [
-                {"nombre": "César Andrey Perdomo Charry", "correo": "caperdomoc@udistrital.edu.co", "tematicas": "Robótica y Automática", "cvlac": None},
-            ],
-            "fuente": {"archivo": "Data/Bronze/MCIC - Base de datos V2.xlsx", "hoja": "N-A Investigación"}
-        },
-        {
             "sigla": "XUE",
             "clasificacion": "Facultad de Ingeniería",
             "hoja_dir": None,

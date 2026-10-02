@@ -2316,10 +2316,41 @@
                 {
                   "nombre": "F7_Convenios_URELINTER_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Investigacion.xlsx",
-                  "tamano_legible": "9.6 KB"
+                  "tamano_legible": "11.0 KB"
                 }
               ],
-              "anexos": []
+              "anexos": [
+                {
+                  "nombre": "Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+                  "tamano_legible": "1.5 MB"
+                },
+                {
+                  "nombre": "Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+                  "tamano_legible": "395.0 KB"
+                },
+                {
+                  "nombre": "Designación de apoyo a la supervisión (marzo de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación de apoyo a la supervisión (marzo de 2026).pdf",
+                  "tamano_legible": "615.3 KB"
+                },
+                {
+                  "nombre": "Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+                  "tamano_legible": "150.7 KB"
+                },
+                {
+                  "nombre": "Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+                  "tamano_legible": "558.6 KB"
+                },
+                {
+                  "nombre": "SECOP II - Convenio específico 5570 de 2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/SECOP II - Convenio específico 5570 de 2025.pdf",
+                  "tamano_legible": "80.0 KB"
+                }
+              ]
             },
             {
               "nombre": "d. Definición de acción para la formalización de convenios",
@@ -2368,9 +2399,120 @@
               "anexos": []
             }
           ],
-          "total_archivos": 9
+          "total_archivos": 15
         },
         "datos_convenios": {
+          "convenios": [
+            {
+              "codigo": "C-2012-12",
+              "nivel": "Internacional",
+              "pais_categoria": "Estados Unidos",
+              "institucion": "Comisión Interamericana de Telecomunicaciones de la OEA- CITEL",
+              "tipo": "Convenio Marco",
+              "denominacion": "Cooperación",
+              "fecha_inicio": "2012-04-29",
+              "fecha_fin": "N/A",
+              "estado": "Vigencia indefinida",
+              "objeto": "Organización de seminarios, reuniones y mesas redondas sobre materias de interés común; colaboración en proyectos conjuntos, capacitación y publicaciones conjuntas entre otras.",
+              "relacion": "aplica_posgrado",
+              "justificacion": null
+            },
+            {
+              "codigo": "CE-5570-2025",
+              "nivel": "Nacional",
+              "pais_categoria": "Colombia Otros Organismos",
+              "institucion": "Instituto Geográfico Agustín Codazzi - IGAC",
+              "tipo": "Convenio Específico",
+              "denominacion": "Cooperación (proyectos de maestría y doctorado)",
+              "fecha_inicio": "2025-11-11",
+              "fecha_fin": "2027-11-07",
+              "estado": "En ejecución",
+              "objeto": "Convenio específico de cooperación N.° 5570 de 2025: aunar esfuerzos académicos y administrativos para un programa de fortalecimiento en geografía, geomática, catastro, inteligencia artificial y ciencia de datos, mediante proyectos de maestría y doctorado. Se origina en el trabajo del IGAC con la coordinación de la MCIC.",
+              "relacion": "aplica_posgrado",
+              "soportes": [
+                {
+                  "nombre": "Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf"
+                },
+                {
+                  "nombre": "Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf"
+                },
+                {
+                  "nombre": "Designación de apoyo a la supervisión (marzo de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación de apoyo a la supervisión (marzo de 2026).pdf"
+                },
+                {
+                  "nombre": "Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del comité técnico por el IGAC (septiembre de 2026).pdf"
+                },
+                {
+                  "nombre": "Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf"
+                },
+                {
+                  "nombre": "SECOP II - Convenio específico 5570 de 2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/SECOP II - Convenio específico 5570 de 2025.pdf"
+                }
+              ]
+            },
+            {
+              "codigo": "C-2019-28",
+              "nivel": "Internacional",
+              "pais_categoria": "Chile",
+              "institucion": "Universidad de Valparaiso",
+              "tipo": "Convenio Específico",
+              "denominacion": "Movilidad de estudiantes",
+              "fecha_inicio": "2019-06-27",
+              "fecha_fin": "2027-06-26",
+              "estado": "Renovación Automática",
+              "objeto": "Convenio de Intercambio y/o movilidad estudiantil Objeto: Establecer un programa de intercambio estudiantil, en el podrán participar todos los estudiantes de la UDFJC y los estudiantes de la Escuela de Ingeniería Civil Industrial de la Facultad de Ingeniería de la Universidad de Valparaíso, el cual será regulado en el presente convenio.",
+              "relacion": "aplica_posgrado",
+              "justificacion": null
+            },
+            {
+              "codigo": "C-2022-29",
+              "nivel": "Internacional",
+              "pais_categoria": "México",
+              "institucion": "Universidad Popular Autónoma del Estado de Puebla UPAEP",
+              "tipo": "Convenio Específico",
+              "denominacion": "Movilidad estudianestes Facultad de Ingeniería",
+              "fecha_inicio": "2022-08-17",
+              "fecha_fin": "2027-08-17",
+              "estado": "Vigente",
+              "objeto": " Convenio Específico de Movilidad Académica de Estudiantes y Docentes Objeto: El presente convenio tiene por objeto establecer las bases para la movilidad académica de estudiantes (pregrado y postgrado) de la facultad de ingeniería y de personal docente de la facultad de ingeniería de la “UDFJC” y de “UPAEP, A.C.”, en desarrollo del Convenio Marco de Cooperación celebrado entre “UPAEP, A.C.” y la “UDFJC”.",
+              "relacion": "aplica_posgrado",
+              "justificacion": null
+            },
+            {
+              "codigo": "C-2023-19",
+              "nivel": "Nacional",
+              "pais_categoria": "Colombia IES",
+              "institucion": "Fundación UNIR",
+              "tipo": "Convenio Específico",
+              "denominacion": "Cotitulación",
+              "fecha_inicio": "2023-06-28",
+              "fecha_fin": "2030-06-28",
+              "estado": "Vigente",
+              "objeto": "El objeto de este convenio consiste en regular la cooperación entre la UDFJC y la FUNDACIÓN para permitir el desarrollo del programa académico conjunto “Pregrado en Ingeniería de Software”, que se impartirá en modalidad virtual, previa obtención por la UDFJC del registro calificado adscrito a la Facultad de Ingeniería otorgado por el Ministerio de Educación Nacional (MEN), bajo los mecanismos y estrategias para el desarrollo conjunto de los procesos de diseño y gestión de las actividades académicas del programa que se desarrollan en el presente instrumento.",
+              "relacion": "complementa",
+              "justificacion": "Programa conjunto con la Fundación UNIR en Ingeniería de Software adscrito a la Facultad de Ingeniería: es de pregrado, pero fortalece el área de software y la cooperación de la Facultad con UNIR."
+            },
+            {
+              "codigo": "C-2025-46",
+              "nivel": "Internacional",
+              "pais_categoria": "Francia",
+              "institucion": "IMT Ataltique",
+              "tipo": "Convenio Específico",
+              "denominacion": "Cadena de Formación",
+              "fecha_inicio": "2025-11-21",
+              "fecha_fin": "2030-11-21",
+              "estado": "Vigente",
+              "objeto": "El objeto de este acuerdo es establecer los términos y condiciones bajo los cuales los estudiantes de pregrado de la Facultad de Ingeniería de la UDFJC tendrán acceso a los programas de estudios de posgrado del IMT Atlantique en el marco de la estrategia de cadena de formación para el doble diploma.",
+              "relacion": "complementa",
+              "justificacion": "Doble diploma entre la Facultad de Ingeniería y los posgrados de IMT Atlantique (telecomunicaciones e informática): no cubre a estudiantes de la MCIC, pero abre una cadena de formación posgradual internacional en la misma Facultad."
+            }
+          ],
           "convenios_totales": 388,
           "por_nivel": {
             "Nacional": 167,
@@ -2519,13 +2661,14 @@
             }
           ],
           "total_convenios_relacionados": 7,
-          "total_convenios_aplicables_mcic": 3,
+          "total_convenios_aplicables_mcic": 4,
+          "total_convenios_complementarios_mcic": 2,
           "criterio_filtro": "Se buscó, sobre institución + denominación + objeto de cada convenio (sin tildes ni mayúsculas), alguna de estas frases: FACULTAD DE INGENIERIA, INGENIERIA DE SISTEMAS, TELEMATICA, TELEINFORMATICA, GEOMATICA, TELECOMUNICACIONES, CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES, MAESTRIA EN CIENCIAS DE LA INFORMACION, MCIC. Cada convenio relevante trae 'frases_encontradas' con las que hizo calzar, para poder verificar el filtro contra el Excel fuente. Además, cada uno trae 'aplica_a_posgrado_mcic' (true/false) y 'justificacion_aplicabilidad': una lectura manual del objeto de ESE convenio (citada literalmente) que dice si su alcance incluye posgrado (y por tanto a la MCIC) o si el propio texto lo restringe a un programa de pregrado distinto — ver APLICA_A_POSGRADO_MCIC en este script.",
-          "limitacion": "Este es el listado INSTITUCIONAL de convenios vigentes de toda la Universidad Distrital (no uno filtrado por programa: URELINTER no ofrece un recorte por programa/facultad). Ningún convenio de los 388 menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones (MCIC). Se encontraron por texto 7 que mencionan a la Facultad de Ingeniería (la facultad a la que pertenece la MCIC) o a alguna de sus áreas afines; de esos, solo 3 aplican realmente a un programa de posgrado como la MCIC según su propio objeto (los otros 4 quedaron descartados de la lista que se muestra porque su objeto restringe explícitamente el convenio a un programa de PREGRADO — Ingeniería de Sistemas o Ingeniería de Software — y no benefician a estudiantes de la maestría). El detalle de los 7 encontrados y por qué se descartaron los 4 queda en 'convenios_relacionados_facultad_ingenieria' (campo 'aplica_a_posgrado_mcic') de este mismo archivo, para que se pueda auditar.",
+          "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 2 que la complementan desde la Facultad de Ingeniería.",
           "fuente": {
             "url": "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones",
             "archivo_descargado": "Data/Bronze/Convenios/Convenios vigentes URELINTER.xlsx",
-            "fecha_descarga": "2026-09-18",
+            "fecha_descarga": "2026-10-02",
             "nota": "Descrito por URELINTER como 'el listado de los convenios vigentes al último trimestre 2025'. Para copia de un convenio o información adicional: convenios-ceri@udistrital.edu.co."
           }
         }
@@ -2613,6 +2756,16 @@
                   "nombre": "Directorio Grupos de Inv MCIC.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Directorio Grupos de Inv MCIC.xlsx",
                   "tamano_legible": "54.2 KB"
+                },
+                {
+                  "nombre": "Giira 2026-3.pptx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Giira 2026-3.pptx",
+                  "tamano_legible": "6.7 MB"
+                },
+                {
+                  "nombre": "Multimedia Interactiva 2026-3.pptx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Multimedia Interactiva 2026-3.pptx",
+                  "tamano_legible": "11.8 MB"
                 }
               ],
               "anexos": []
@@ -2623,7 +2776,12 @@
                 {
                   "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
-                  "tamano_legible": "29.5 KB"
+                  "tamano_legible": "29.0 KB"
+                },
+                {
+                  "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
+                  "tamano_legible": "42.1 KB"
                 }
               ],
               "anexos": [
@@ -2756,11 +2914,71 @@
                   "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Ponencias/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
                   "tamano_legible": "138.3 KB"
+                },
+                {
+                  "nombre": "Proyecto Monitoreo Ruido.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto Monitoreo Ruido.pdf",
+                  "tamano_legible": "7.3 MB"
+                },
+                {
+                  "nombre": "Proyecto VisRoute.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto VisRoute.pdf",
+                  "tamano_legible": "3.0 MB"
+                },
+                {
+                  "nombre": "Resumen Proyecto Jardin Botanico.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Jardin Botanico.pdf",
+                  "tamano_legible": "11.2 MB"
+                },
+                {
+                  "nombre": "Resumen Proyecto Laboratorio Virtual Redes.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Laboratorio Virtual Redes.pdf",
+                  "tamano_legible": "3.8 MB"
+                },
+                {
+                  "nombre": "Tesis - METAMODELO SOFTWARE DE SIMULACION REMOTA INTERACTIVA EN AMBIENTE WEB.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - METAMODELO SOFTWARE DE SIMULACION REMOTA INTERACTIVA EN AMBIENTE WEB.pdf",
+                  "tamano_legible": "759.6 KB"
+                },
+                {
+                  "nombre": "Tesis - MODELO DE INFERENCIA ONTOLOGICA PARA CARACTERIZACION DE OPCIONES DE CULTIVO A PARTIR DE VA.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - MODELO DE INFERENCIA ONTOLOGICA PARA CARACTERIZACION DE OPCIONES DE CULTIVO A PARTIR DE VA.pdf",
+                  "tamano_legible": "2.4 MB"
+                },
+                {
+                  "nombre": "Tesis - Mejoramiento de la descripción de recursos educativos abiertos, a partir de técnicas basad.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Mejoramiento de la descripción de recursos educativos abiertos, a partir de técnicas basad.pdf",
+                  "tamano_legible": "4.6 MB"
+                },
+                {
+                  "nombre": "Tesis - Metodología comparativa para modelos de lenguaje de gran tamaño y algorítmos de aprendizaj.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Metodología comparativa para modelos de lenguaje de gran tamaño y algorítmos de aprendizaj.pdf",
+                  "tamano_legible": "4.1 MB"
+                },
+                {
+                  "nombre": "Tesis - Modelo de clasificación de imágenes basado en Multiview Learning.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de clasificación de imágenes basado en Multiview Learning.pdf",
+                  "tamano_legible": "4.0 MB"
+                },
+                {
+                  "nombre": "Tesis - Modelo de evaluación crediticio basado en principios de un ecosistema digital bancario med.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de evaluación crediticio basado en principios de un ecosistema digital bancario med.pdf",
+                  "tamano_legible": "3.1 MB"
+                },
+                {
+                  "nombre": "Tesis - Modelo de learning analytics basado en métricas emocionales para aplicaciones móviles de a.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de learning analytics basado en métricas emocionales para aplicaciones móviles de a.pdf",
+                  "tamano_legible": "4.2 MB"
+                },
+                {
+                  "nombre": "Tesis - Modelo de sistemas multi-agentes para la consulta basada en niveles de confianza sobre rec.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de sistemas multi-agentes para la consulta basada en niveles de confianza sobre rec.pdf",
+                  "tamano_legible": "3.5 MB"
                 }
               ]
             }
           ],
-          "total_archivos": 28
+          "total_archivos": 43
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -2983,8 +3201,8 @@
             }
           },
           "resumen_grupos_investigacion": {
-            "total_grupos": 25,
-            "total_docentes_disponibles": 87,
+            "total_grupos": 24,
+            "total_docentes_disponibles": 86,
             "total_proyectos_grado_detectados": 374,
             "proyectos_grado_por_etapa": {
               "Anteproyecto radicado": 2,
@@ -4490,6 +4708,217 @@
             }
           ],
           "total_archivos": 71
+        },
+        "datos_autoevaluacion": {
+          "libro": {
+            "nombre": "F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
+            "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
+            "tamano_legible": "11.3 KB"
+          },
+          "anio_2025": {
+            "titulo": "Autoevaluación 2025 (anterior)",
+            "respondentes": {
+              "Estudiantes": 53,
+              "Docentes": 17,
+              "Egresados": 36
+            },
+            "documentos": [
+              {
+                "nombre": "Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+                "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2025 (anterior)/Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+                "tamano_legible": "4.0 MB"
+              }
+            ],
+            "anexos_total": 65
+          },
+          "anio_2026": {
+            "titulo": "Autoevaluación 2026 (vigente)",
+            "respondentes": {
+              "Estudiantes": 34,
+              "Docentes": 9,
+              "Directivos": 2
+            },
+            "documentos": [
+              {
+                "nombre": "CC-FR-001 Plan de mejoramiento INV.xlsx",
+                "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/CC-FR-001 Plan de mejoramiento INV.xlsx",
+                "tamano_legible": "122.0 KB"
+              },
+              {
+                "nombre": "MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+                "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/MCIC AutoevaluacionPermanenteInstitucional INV.pdf",
+                "tamano_legible": "591.9 KB"
+              },
+              {
+                "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                "tamano_legible": "325.1 KB"
+              },
+              {
+                "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                "tamano_legible": "121.4 KB"
+              }
+            ],
+            "anexos_total": 0,
+            "promedios_por_factor": [
+              {
+                "instrumento": "Estudiantes",
+                "factor": 1,
+                "factor_nombre": "Proyecto educativo",
+                "respuestas": 34,
+                "preguntas": 7,
+                "promedio": 4.04
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 3,
+                "factor_nombre": "Profesores",
+                "respuestas": 34,
+                "preguntas": 2,
+                "promedio": 3.71
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 5,
+                "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+                "respuestas": 31,
+                "preguntas": 14,
+                "promedio": 3.8
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 10,
+                "factor_nombre": "Medios educativos y ambientes de aprendizaje",
+                "respuestas": 30,
+                "preguntas": 25,
+                "promedio": 3.47
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 11,
+                "factor_nombre": "Organización, administración y financiación",
+                "respuestas": 30,
+                "preguntas": 11,
+                "promedio": 3.18
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 1,
+                "factor_nombre": "Proyecto educativo",
+                "respuestas": 9,
+                "preguntas": 7,
+                "promedio": 4.19
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 2,
+                "factor_nombre": "Estudiantes",
+                "respuestas": 9,
+                "preguntas": 7,
+                "promedio": 4.06
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 3,
+                "factor_nombre": "Profesores",
+                "respuestas": 9,
+                "preguntas": 27,
+                "promedio": 4.19
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 5,
+                "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+                "respuestas": 9,
+                "preguntas": 14,
+                "promedio": 4.39
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 8,
+                "factor_nombre": "Aportes de la investigación",
+                "respuestas": 7,
+                "preguntas": 6,
+                "promedio": 4.12
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 11,
+                "factor_nombre": "Organización, administración y financiación",
+                "respuestas": 9,
+                "preguntas": 11,
+                "promedio": 3.86
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 1,
+                "factor_nombre": "Proyecto educativo",
+                "respuestas": 2,
+                "preguntas": 1,
+                "promedio": 4.5
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 2,
+                "factor_nombre": "Estudiantes",
+                "respuestas": 2,
+                "preguntas": 4,
+                "promedio": 4.5
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 3,
+                "factor_nombre": "Profesores",
+                "respuestas": 2,
+                "preguntas": 25,
+                "promedio": 4.26
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 5,
+                "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+                "respuestas": 2,
+                "preguntas": 8,
+                "promedio": 4.56
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 9,
+                "factor_nombre": "Bienestar",
+                "respuestas": 2,
+                "preguntas": 15,
+                "promedio": 4.21
+              }
+            ]
+          },
+          "comparacion": [
+            {
+              "aspecto": "Propósito",
+              "anio_2025": "Informe de autoevaluación con fines de renovación de la acreditación en alta calidad (octubre de 2025).",
+              "anio_2026": "Proceso de autoevaluación permanente (Sistema Interno de Aseguramiento de la Calidad), 2026."
+            },
+            {
+              "aspecto": "Documento principal",
+              "anio_2025": "Informe autoev con fines de renovacion Acreditacion MCIC INVESTIGACION.pdf",
+              "anio_2026": "MCIC AutoevaluacionPermanenteInstitucional INV.pdf (29 páginas)"
+            },
+            {
+              "aspecto": "Instrumentos",
+              "anio_2025": "Encuestas a estudiantes, docentes, egresados, directivos y empleadores aplicadas en marzo de 2025.",
+              "anio_2026": "Instrumentos de apreciación institucionales (Modelo CNA 2020) a estudiantes, docentes y directivos; periodo 2026-1."
+            },
+            {
+              "aspecto": "Resultados",
+              "anio_2025": "Gráficos por pregunta de cada encuesta (carpeta «Anexos»). Las bases de respuestas contienen datos personales y se resguardan.",
+              "anio_2026": "Libro «Resultados Proceso Autoevaluación 2026-1» y análisis general por estamento (elaborado con apoyo de IA, con recomendación de análisis propio)."
+            },
+            {
+              "aspecto": "Plan de mejoramiento asociado",
+              "anio_2025": "Plan 2024-2026 (formato AA-FR-001), ver Factor 11 de este plan.",
+              "anio_2026": "Plan 2026-2027 (formato CC-FR-001) — «CC-FR-001 Plan de mejoramiento INV.xlsx»."
+            }
+          ]
         }
       },
       {
@@ -4575,6 +5004,11 @@
                   "nombre": "G312-3 Requerimientos equipos tecnológicos y de software.pdf",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/G312-3 Requerimientos equipos tecnológicos y de software.pdf",
                   "tamano_legible": "835.2 KB"
+                },
+                {
+                  "nombre": "Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+                  "tamano_legible": "77.8 MB"
                 }
               ],
               "anexos": []
@@ -4583,9 +5017,9 @@
               "nombre": "c. Socialización con la comunidad académica de acciones y avances",
               "archivos": [
                 {
-                  "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
-                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
-                  "tamano_legible": "6.8 KB"
+                  "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
+                  "tamano_legible": "9.8 KB"
                 },
                 {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
@@ -4593,13 +5027,7 @@
                   "tamano_legible": "1.2 MB"
                 }
               ],
-              "anexos": [
-                {
-                  "nombre": "Laboratorios Maestría - MIC.pptx",
-                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Anexos/Laboratorios Maestría - MIC.pptx",
-                  "tamano_legible": "1.2 MB"
-                }
-              ]
+              "anexos": []
             }
           ],
           "total_archivos": 4
@@ -6871,10 +7299,41 @@
                 {
                   "nombre": "F7_Convenios_URELINTER_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Profundizacion.xlsx",
-                  "tamano_legible": "9.6 KB"
+                  "tamano_legible": "11.0 KB"
                 }
               ],
-              "anexos": []
+              "anexos": [
+                {
+                  "nombre": "Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+                  "tamano_legible": "1.5 MB"
+                },
+                {
+                  "nombre": "Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+                  "tamano_legible": "395.0 KB"
+                },
+                {
+                  "nombre": "Designación de apoyo a la supervisión (marzo de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación de apoyo a la supervisión (marzo de 2026).pdf",
+                  "tamano_legible": "615.3 KB"
+                },
+                {
+                  "nombre": "Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+                  "tamano_legible": "150.7 KB"
+                },
+                {
+                  "nombre": "Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+                  "tamano_legible": "558.6 KB"
+                },
+                {
+                  "nombre": "SECOP II - Convenio específico 5570 de 2025.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/SECOP II - Convenio específico 5570 de 2025.pdf",
+                  "tamano_legible": "80.0 KB"
+                }
+              ]
             },
             {
               "nombre": "d. Definición de acción para la formalización de convenios",
@@ -6923,9 +7382,120 @@
               "anexos": []
             }
           ],
-          "total_archivos": 9
+          "total_archivos": 15
         },
         "datos_convenios": {
+          "convenios": [
+            {
+              "codigo": "C-2012-12",
+              "nivel": "Internacional",
+              "pais_categoria": "Estados Unidos",
+              "institucion": "Comisión Interamericana de Telecomunicaciones de la OEA- CITEL",
+              "tipo": "Convenio Marco",
+              "denominacion": "Cooperación",
+              "fecha_inicio": "2012-04-29",
+              "fecha_fin": "N/A",
+              "estado": "Vigencia indefinida",
+              "objeto": "Organización de seminarios, reuniones y mesas redondas sobre materias de interés común; colaboración en proyectos conjuntos, capacitación y publicaciones conjuntas entre otras.",
+              "relacion": "aplica_posgrado",
+              "justificacion": null
+            },
+            {
+              "codigo": "CE-5570-2025",
+              "nivel": "Nacional",
+              "pais_categoria": "Colombia Otros Organismos",
+              "institucion": "Instituto Geográfico Agustín Codazzi - IGAC",
+              "tipo": "Convenio Específico",
+              "denominacion": "Cooperación (proyectos de maestría y doctorado)",
+              "fecha_inicio": "2025-11-11",
+              "fecha_fin": "2027-11-07",
+              "estado": "En ejecución",
+              "objeto": "Convenio específico de cooperación N.° 5570 de 2025: aunar esfuerzos académicos y administrativos para un programa de fortalecimiento en geografía, geomática, catastro, inteligencia artificial y ciencia de datos, mediante proyectos de maestría y doctorado. Se origina en el trabajo del IGAC con la coordinación de la MCIC.",
+              "relacion": "aplica_posgrado",
+              "soportes": [
+                {
+                  "nombre": "Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf"
+                },
+                {
+                  "nombre": "Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf"
+                },
+                {
+                  "nombre": "Designación de apoyo a la supervisión (marzo de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación de apoyo a la supervisión (marzo de 2026).pdf"
+                },
+                {
+                  "nombre": "Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del comité técnico por el IGAC (septiembre de 2026).pdf"
+                },
+                {
+                  "nombre": "Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf"
+                },
+                {
+                  "nombre": "SECOP II - Convenio específico 5570 de 2025.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/SECOP II - Convenio específico 5570 de 2025.pdf"
+                }
+              ]
+            },
+            {
+              "codigo": "C-2019-28",
+              "nivel": "Internacional",
+              "pais_categoria": "Chile",
+              "institucion": "Universidad de Valparaiso",
+              "tipo": "Convenio Específico",
+              "denominacion": "Movilidad de estudiantes",
+              "fecha_inicio": "2019-06-27",
+              "fecha_fin": "2027-06-26",
+              "estado": "Renovación Automática",
+              "objeto": "Convenio de Intercambio y/o movilidad estudiantil Objeto: Establecer un programa de intercambio estudiantil, en el podrán participar todos los estudiantes de la UDFJC y los estudiantes de la Escuela de Ingeniería Civil Industrial de la Facultad de Ingeniería de la Universidad de Valparaíso, el cual será regulado en el presente convenio.",
+              "relacion": "aplica_posgrado",
+              "justificacion": null
+            },
+            {
+              "codigo": "C-2022-29",
+              "nivel": "Internacional",
+              "pais_categoria": "México",
+              "institucion": "Universidad Popular Autónoma del Estado de Puebla UPAEP",
+              "tipo": "Convenio Específico",
+              "denominacion": "Movilidad estudianestes Facultad de Ingeniería",
+              "fecha_inicio": "2022-08-17",
+              "fecha_fin": "2027-08-17",
+              "estado": "Vigente",
+              "objeto": " Convenio Específico de Movilidad Académica de Estudiantes y Docentes Objeto: El presente convenio tiene por objeto establecer las bases para la movilidad académica de estudiantes (pregrado y postgrado) de la facultad de ingeniería y de personal docente de la facultad de ingeniería de la “UDFJC” y de “UPAEP, A.C.”, en desarrollo del Convenio Marco de Cooperación celebrado entre “UPAEP, A.C.” y la “UDFJC”.",
+              "relacion": "aplica_posgrado",
+              "justificacion": null
+            },
+            {
+              "codigo": "C-2023-19",
+              "nivel": "Nacional",
+              "pais_categoria": "Colombia IES",
+              "institucion": "Fundación UNIR",
+              "tipo": "Convenio Específico",
+              "denominacion": "Cotitulación",
+              "fecha_inicio": "2023-06-28",
+              "fecha_fin": "2030-06-28",
+              "estado": "Vigente",
+              "objeto": "El objeto de este convenio consiste en regular la cooperación entre la UDFJC y la FUNDACIÓN para permitir el desarrollo del programa académico conjunto “Pregrado en Ingeniería de Software”, que se impartirá en modalidad virtual, previa obtención por la UDFJC del registro calificado adscrito a la Facultad de Ingeniería otorgado por el Ministerio de Educación Nacional (MEN), bajo los mecanismos y estrategias para el desarrollo conjunto de los procesos de diseño y gestión de las actividades académicas del programa que se desarrollan en el presente instrumento.",
+              "relacion": "complementa",
+              "justificacion": "Programa conjunto con la Fundación UNIR en Ingeniería de Software adscrito a la Facultad de Ingeniería: es de pregrado, pero fortalece el área de software y la cooperación de la Facultad con UNIR."
+            },
+            {
+              "codigo": "C-2025-46",
+              "nivel": "Internacional",
+              "pais_categoria": "Francia",
+              "institucion": "IMT Ataltique",
+              "tipo": "Convenio Específico",
+              "denominacion": "Cadena de Formación",
+              "fecha_inicio": "2025-11-21",
+              "fecha_fin": "2030-11-21",
+              "estado": "Vigente",
+              "objeto": "El objeto de este acuerdo es establecer los términos y condiciones bajo los cuales los estudiantes de pregrado de la Facultad de Ingeniería de la UDFJC tendrán acceso a los programas de estudios de posgrado del IMT Atlantique en el marco de la estrategia de cadena de formación para el doble diploma.",
+              "relacion": "complementa",
+              "justificacion": "Doble diploma entre la Facultad de Ingeniería y los posgrados de IMT Atlantique (telecomunicaciones e informática): no cubre a estudiantes de la MCIC, pero abre una cadena de formación posgradual internacional en la misma Facultad."
+            }
+          ],
           "convenios_totales": 388,
           "por_nivel": {
             "Nacional": 167,
@@ -7074,13 +7644,14 @@
             }
           ],
           "total_convenios_relacionados": 7,
-          "total_convenios_aplicables_mcic": 3,
+          "total_convenios_aplicables_mcic": 4,
+          "total_convenios_complementarios_mcic": 2,
           "criterio_filtro": "Se buscó, sobre institución + denominación + objeto de cada convenio (sin tildes ni mayúsculas), alguna de estas frases: FACULTAD DE INGENIERIA, INGENIERIA DE SISTEMAS, TELEMATICA, TELEINFORMATICA, GEOMATICA, TELECOMUNICACIONES, CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES, MAESTRIA EN CIENCIAS DE LA INFORMACION, MCIC. Cada convenio relevante trae 'frases_encontradas' con las que hizo calzar, para poder verificar el filtro contra el Excel fuente. Además, cada uno trae 'aplica_a_posgrado_mcic' (true/false) y 'justificacion_aplicabilidad': una lectura manual del objeto de ESE convenio (citada literalmente) que dice si su alcance incluye posgrado (y por tanto a la MCIC) o si el propio texto lo restringe a un programa de pregrado distinto — ver APLICA_A_POSGRADO_MCIC en este script.",
-          "limitacion": "Este es el listado INSTITUCIONAL de convenios vigentes de toda la Universidad Distrital (no uno filtrado por programa: URELINTER no ofrece un recorte por programa/facultad). Ningún convenio de los 388 menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones (MCIC). Se encontraron por texto 7 que mencionan a la Facultad de Ingeniería (la facultad a la que pertenece la MCIC) o a alguna de sus áreas afines; de esos, solo 3 aplican realmente a un programa de posgrado como la MCIC según su propio objeto (los otros 4 quedaron descartados de la lista que se muestra porque su objeto restringe explícitamente el convenio a un programa de PREGRADO — Ingeniería de Sistemas o Ingeniería de Software — y no benefician a estudiantes de la maestría). El detalle de los 7 encontrados y por qué se descartaron los 4 queda en 'convenios_relacionados_facultad_ingenieria' (campo 'aplica_a_posgrado_mcic') de este mismo archivo, para que se pueda auditar.",
+          "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 2 que la complementan desde la Facultad de Ingeniería.",
           "fuente": {
             "url": "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones",
             "archivo_descargado": "Data/Bronze/Convenios/Convenios vigentes URELINTER.xlsx",
-            "fecha_descarga": "2026-09-18",
+            "fecha_descarga": "2026-10-02",
             "nota": "Descrito por URELINTER como 'el listado de los convenios vigentes al último trimestre 2025'. Para copia de un convenio o información adicional: convenios-ceri@udistrital.edu.co."
           }
         }
@@ -7168,6 +7739,16 @@
                   "nombre": "Directorio Grupos de Inv MCIC.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Directorio Grupos de Inv MCIC.xlsx",
                   "tamano_legible": "54.2 KB"
+                },
+                {
+                  "nombre": "Giira 2026-3.pptx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Giira 2026-3.pptx",
+                  "tamano_legible": "6.7 MB"
+                },
+                {
+                  "nombre": "Multimedia Interactiva 2026-3.pptx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Multimedia Interactiva 2026-3.pptx",
+                  "tamano_legible": "11.8 MB"
                 }
               ],
               "anexos": []
@@ -7178,13 +7759,59 @@
                 {
                   "nombre": "F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
-                  "tamano_legible": "24.6 KB"
+                  "tamano_legible": "23.4 KB"
+                },
+                {
+                  "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
+                  "tamano_legible": "42.1 KB"
                 }
               ],
-              "anexos": []
+              "anexos": [
+                {
+                  "nombre": "Proyecto Monitoreo Ruido.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto Monitoreo Ruido.pdf",
+                  "tamano_legible": "7.3 MB"
+                },
+                {
+                  "nombre": "Proyecto VisRoute.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto VisRoute.pdf",
+                  "tamano_legible": "3.0 MB"
+                },
+                {
+                  "nombre": "Resumen Proyecto Jardin Botanico.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Jardin Botanico.pdf",
+                  "tamano_legible": "11.2 MB"
+                },
+                {
+                  "nombre": "Resumen Proyecto Laboratorio Virtual Redes.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Laboratorio Virtual Redes.pdf",
+                  "tamano_legible": "3.8 MB"
+                },
+                {
+                  "nombre": "Tesis - Diseño de modelo arquitectónico asíncrono para la implementación de servicios de computaci.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Diseño de modelo arquitectónico asíncrono para la implementación de servicios de computaci.pdf",
+                  "tamano_legible": "3.5 MB"
+                },
+                {
+                  "nombre": "Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di (2).pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di (2).pdf",
+                  "tamano_legible": "7.5 MB"
+                },
+                {
+                  "nombre": "Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di.pdf",
+                  "tamano_legible": "7.0 MB"
+                },
+                {
+                  "nombre": "Tesis - Modelo para la evaluación de la calidad intrínseca y dinámica de los datos abiertos sector.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo para la evaluación de la calidad intrínseca y dinámica de los datos abiertos sector.pdf",
+                  "tamano_legible": "2.3 MB"
+                }
+              ]
             }
           ],
-          "total_archivos": 2
+          "total_archivos": 13
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -7407,8 +8034,8 @@
             }
           },
           "resumen_grupos_investigacion": {
-            "total_grupos": 25,
-            "total_docentes_disponibles": 87,
+            "total_grupos": 24,
+            "total_docentes_disponibles": 86,
             "total_proyectos_grado_detectados": 218,
             "proyectos_grado_por_etapa": {
               "Anteproyecto radicado": 2,
@@ -8603,6 +9230,217 @@
             }
           ],
           "total_archivos": 10
+        },
+        "datos_autoevaluacion": {
+          "libro": {
+            "nombre": "F11_Autoevaluacion_2025_vs_2026_Profundizacion.xlsx",
+            "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Profundizacion.xlsx",
+            "tamano_legible": "9.7 KB"
+          },
+          "anio_2025": {
+            "titulo": "Autoevaluación 2025 (anterior)",
+            "respondentes": {
+              "Estudiantes": 53,
+              "Docentes": 17,
+              "Egresados": 36
+            },
+            "documentos": [
+              {
+                "nombre": "Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+                "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2025 (anterior)/Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+                "tamano_legible": "4.2 MB"
+              }
+            ],
+            "anexos_total": 4
+          },
+          "anio_2026": {
+            "titulo": "Autoevaluación 2026 (vigente)",
+            "respondentes": {
+              "Estudiantes": 34,
+              "Docentes": 9,
+              "Directivos": 2
+            },
+            "documentos": [
+              {
+                "nombre": "CC-FR-001 Plan de mejoramiento PROF.xlsx",
+                "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/CC-FR-001 Plan de mejoramiento PROF.xlsx",
+                "tamano_legible": "122.0 KB"
+              },
+              {
+                "nombre": "MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+                "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/c. Implementación de los lineamientos del SIAC/Autoevaluación 2026 (vigente)/MCIC AutoevaluacionPermanenteInstitucional PROF.pdf",
+                "tamano_legible": "593.7 KB"
+              },
+              {
+                "nombre": "ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/ANÁLISIS GENERAL DE RESULTADOS APLICACIÓN INSTRUMENTOS MCIC.pdf",
+                "tamano_legible": "325.1 KB"
+              },
+              {
+                "nombre": "Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Autoevaluación 2026 (vigente)/Resultados Proceso Autoevaluación 2026-1 Maestría en Ciencias de la Información y las Comunicaciones.xlsx",
+                "tamano_legible": "121.4 KB"
+              }
+            ],
+            "anexos_total": 0,
+            "promedios_por_factor": [
+              {
+                "instrumento": "Estudiantes",
+                "factor": 1,
+                "factor_nombre": "Proyecto educativo",
+                "respuestas": 34,
+                "preguntas": 7,
+                "promedio": 4.04
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 3,
+                "factor_nombre": "Profesores",
+                "respuestas": 34,
+                "preguntas": 2,
+                "promedio": 3.71
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 5,
+                "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+                "respuestas": 31,
+                "preguntas": 14,
+                "promedio": 3.8
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 10,
+                "factor_nombre": "Medios educativos y ambientes de aprendizaje",
+                "respuestas": 30,
+                "preguntas": 25,
+                "promedio": 3.47
+              },
+              {
+                "instrumento": "Estudiantes",
+                "factor": 11,
+                "factor_nombre": "Organización, administración y financiación",
+                "respuestas": 30,
+                "preguntas": 11,
+                "promedio": 3.18
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 1,
+                "factor_nombre": "Proyecto educativo",
+                "respuestas": 9,
+                "preguntas": 7,
+                "promedio": 4.19
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 2,
+                "factor_nombre": "Estudiantes",
+                "respuestas": 9,
+                "preguntas": 7,
+                "promedio": 4.06
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 3,
+                "factor_nombre": "Profesores",
+                "respuestas": 9,
+                "preguntas": 27,
+                "promedio": 4.19
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 5,
+                "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+                "respuestas": 9,
+                "preguntas": 14,
+                "promedio": 4.39
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 8,
+                "factor_nombre": "Aportes de la investigación",
+                "respuestas": 7,
+                "preguntas": 6,
+                "promedio": 4.12
+              },
+              {
+                "instrumento": "Docentes",
+                "factor": 11,
+                "factor_nombre": "Organización, administración y financiación",
+                "respuestas": 9,
+                "preguntas": 11,
+                "promedio": 3.86
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 1,
+                "factor_nombre": "Proyecto educativo",
+                "respuestas": 2,
+                "preguntas": 1,
+                "promedio": 4.5
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 2,
+                "factor_nombre": "Estudiantes",
+                "respuestas": 2,
+                "preguntas": 4,
+                "promedio": 4.5
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 3,
+                "factor_nombre": "Profesores",
+                "respuestas": 2,
+                "preguntas": 25,
+                "promedio": 4.26
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 5,
+                "factor_nombre": "Aspectos académicos y resultados de aprendizaje",
+                "respuestas": 2,
+                "preguntas": 8,
+                "promedio": 4.56
+              },
+              {
+                "instrumento": "Directivos",
+                "factor": 9,
+                "factor_nombre": "Bienestar",
+                "respuestas": 2,
+                "preguntas": 15,
+                "promedio": 4.21
+              }
+            ]
+          },
+          "comparacion": [
+            {
+              "aspecto": "Propósito",
+              "anio_2025": "Informe de autoevaluación con fines de renovación de la acreditación en alta calidad (octubre de 2025).",
+              "anio_2026": "Proceso de autoevaluación permanente (Sistema Interno de Aseguramiento de la Calidad), 2026."
+            },
+            {
+              "aspecto": "Documento principal",
+              "anio_2025": "Informe autoev con fines de renovacion Acreditacion MCIC PROFUNDIZACIÓN.pdf",
+              "anio_2026": "MCIC AutoevaluacionPermanenteInstitucional PROF.pdf (29 páginas)"
+            },
+            {
+              "aspecto": "Instrumentos",
+              "anio_2025": "Encuestas a estudiantes, docentes, egresados, directivos y empleadores aplicadas en marzo de 2025.",
+              "anio_2026": "Instrumentos de apreciación institucionales (Modelo CNA 2020) a estudiantes, docentes y directivos; periodo 2026-1."
+            },
+            {
+              "aspecto": "Resultados",
+              "anio_2025": "Gráficos por pregunta de cada encuesta (carpeta «Anexos»). Las bases de respuestas contienen datos personales y se resguardan.",
+              "anio_2026": "Libro «Resultados Proceso Autoevaluación 2026-1» y análisis general por estamento (elaborado con apoyo de IA, con recomendación de análisis propio)."
+            },
+            {
+              "aspecto": "Plan de mejoramiento asociado",
+              "anio_2025": "Plan 2024-2026 (formato AA-FR-001), ver Factor 11 de este plan.",
+              "anio_2026": "Plan 2026-2027 (formato CC-FR-001) — «CC-FR-001 Plan de mejoramiento PROF.xlsx»."
+            }
+          ]
         }
       },
       {
@@ -8688,6 +9526,11 @@
                   "nombre": "G312-3 Requerimientos equipos tecnológicos y de software.pdf",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/G312-3 Requerimientos equipos tecnológicos y de software.pdf",
                   "tamano_legible": "835.2 KB"
+                },
+                {
+                  "nombre": "Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+                  "tamano_legible": "77.8 MB"
                 }
               ],
               "anexos": []
@@ -8696,9 +9539,9 @@
               "nombre": "c. Socialización con la comunidad académica de acciones y avances",
               "archivos": [
                 {
-                  "nombre": "F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
-                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
-                  "tamano_legible": "6.8 KB"
+                  "nombre": "F12_Laboratorios_y_Software_Profundizacion.xlsx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Profundizacion.xlsx",
+                  "tamano_legible": "9.8 KB"
                 },
                 {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
@@ -8706,13 +9549,7 @@
                   "tamano_legible": "1.2 MB"
                 }
               ],
-              "anexos": [
-                {
-                  "nombre": "Laboratorios Maestría - MIC.pptx",
-                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Anexos/Laboratorios Maestría - MIC.pptx",
-                  "tamano_legible": "1.2 MB"
-                }
-              ]
+              "anexos": []
             }
           ],
           "total_archivos": 4
@@ -8836,7 +9673,8 @@
       {
         "factor": "FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO",
         "campos_distintos": [
-          "plan_anterior"
+          "plan_anterior",
+          "datos_autoevaluacion"
         ]
       },
       {
@@ -10385,8 +11223,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "Convenios",
       "carpeta_contenedora": "Convenios",
-      "tamano_bytes": 79673,
-      "tamano_legible": "77.8 KB",
+      "tamano_bytes": 76452,
+      "tamano_legible": "74.7 KB",
       "modalidad": "general",
       "texto_extraido": true,
       "extracto": "Información Importante\n•\tSe debe tener en cuenta la fecha de terminación de los convenios.\n• Para saber el alcance de los convenios es importante leer el objeto de estos, ya que algunos se enfocan en facultades, actividades o proyectos específicos.\n• Antes de realizar alguna actividad en el marco de los convenios se de…"
@@ -10901,8 +11739,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-      "tamano_bytes": 16955,
-      "tamano_legible": "16.6 KB",
+      "tamano_bytes": 17782,
+      "tamano_legible": "17.4 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Evidencias del Plan de Mejoramiento — MCIC - PROFUNDIZACIÓN (SNIES 116070)\nEvidencias del Plan de Mejoramiento. Periodo 2024-2027: plan anterior 2024-2026 y plan vigente 2026-2027. Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden.\nN°\nFactor\nMeta plan anterior (2024-202…"
@@ -11148,28 +11986,28 @@
       "extracto": "CONSTRUCCIÓN Y DOTACIÓN DE MOBILIARIO DEL EDIFICIO DE \nLABORATORIOS E INVESTIGACIÓN DE LA FACULTAD DE INGENIERÍA DE \nLA UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS \n \n \n \n \n \n \n \n \n \n \n \n \nREQUERIMIENTOS Y COSTOS DE DOTACIÓN EQUIPOS TECNOLÓGICOS EDUCATIVOS  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nUNIVERSIDAD DISTRITAL …"
     },
     {
-      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Anexos/Laboratorios Maestría - MIC.pptx",
-      "nombre": "Laboratorios Maestría - MIC.pptx",
-      "extension": "pptx",
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+      "nombre": "Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+      "extension": "pdf",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
-      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Anexos",
-      "tamano_bytes": 1241664,
-      "tamano_legible": "1.2 MB",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra",
+      "tamano_bytes": 81593954,
+      "tamano_legible": "77.8 MB",
       "modalidad": "profundizacion",
-      "texto_extraido": true,
-      "extracto": "LABORATORIOS FACULTAD DE INGENIERÍA \nFacultad de Ingeniería – Universidad Distrital Francisco José de Caldas\nSoftware Maestría en Ciencias de la Información y las Comunicaciones\nSolicitudes de Software por la Maestría\nSe presenta la información sobre los aplicativos, programas y software requeridos por docentes de la M…"
+      "texto_extraido": false,
+      "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
-      "nombre": "F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Profundizacion.xlsx",
+      "nombre": "F12_Laboratorios_y_Software_Profundizacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 6944,
-      "tamano_legible": "6.8 KB",
+      "tamano_bytes": 10086,
+      "tamano_legible": "9.8 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
-      "extracto": "Factor 12 · Estudiantes activos por énfasis 2022-2026 — MCIC - PROFUNDIZACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de la otra modalidad para contexto. Investigación incluye a los estudiantes del plan anterior…"
+      "extracto": "Factor 12 · Recursos físicos y tecnológicos — MCIC - PROFUNDIZACIÓN\nSalas de informática de la Facultad de Ingeniería usadas por la Maestría y software requerido por los docentes (Aulas de Software, desde 2025-1). Información institucional, común a las dos modalidades.\nMetas del plan de mejoramiento\nPlan anterior (2024…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
@@ -11177,7 +12015,7 @@
       "extension": "pptx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 1235808,
+      "tamano_bytes": 1232970,
       "tamano_legible": "1.2 MB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11297,7 +12135,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 769354,
+      "tamano_bytes": 769356,
       "tamano_legible": "751.3 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11309,7 +12147,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 18978,
+      "tamano_bytes": 18977,
       "tamano_legible": "18.5 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11345,7 +12183,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 17458,
+      "tamano_bytes": 17457,
       "tamano_legible": "17.0 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11681,7 +12519,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-      "tamano_bytes": 13697,
+      "tamano_bytes": 13693,
       "tamano_legible": "13.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
@@ -12041,7 +12879,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 15952,
+      "tamano_bytes": 15951,
       "tamano_legible": "15.6 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12060,13 +12898,85 @@
       "extracto": "Tipo de norma\nNúmero\nAño\nExpedida por\nEnlace\nAcuerdo\n2\n2023\nConsejo Superior Universitario\nhttps://sgral.udistrital.edu.co/xdata/csu/acu_2023-002.pdf\nResolución\n12\n2023\nConsejo Académico\nhttps://sgral.udistrital.edu.co/xdata/ca/res_2023-012.pdf\nResolución\n43\n2024\nConsejo Académico\nhttps://sgral.udistrital.edu.co/xdata/…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+      "nombre": "Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 1545296,
+      "tamano_legible": "1.5 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO: ACTA DE REUNIÓN \nCódigo: GI-FR-010 \n \nMacroproceso: Direccionamiento \nEstratégico \nVersión: 03 \nProceso: Gestión Integrada \nFecha de \nAprobación: \n21/03/2017 \n \nEste documento es propiedad de la Universidad Distrital Francisco José de Caldas. Prohibida su reproducción por \ncualquier medio, sin previa autorizac…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+      "nombre": "Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 404452,
+      "tamano_legible": "395.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Página 1  \n \n \nCONVENIO ESPECÍFICO DE COOPERACIÓN N ° 5570 DE 2025 \nSUSCRITO ENTRE LA UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS Y EL \nINSTITUTO GEOGRAFICO AGUSTIN CODAZZI \n \nEntre los suscritos, de una parte, GIOVANNY MAURICIO TARAZONA BERMÚDEZ, identificado \ncon la cédula de ciudadanía número \n de Bogotá, actuand…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación de apoyo a la supervisión (marzo de 2026).pdf",
+      "nombre": "Designación de apoyo a la supervisión (marzo de 2026).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 630056,
+      "tamano_legible": "615.3 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Sede Aduanilla de Paiba - Cl. 13# 31-75, Sótano 1, Biblioteca \nCentral. \nPBX: 3239300 Exts.: 1346-1329 \nBogotá, D. C. – Colombia - www.udistrital.edu.co \nAcreditación Institucional de Alta Calidad. \nResolución No. 023653 del 10 de diciembre de 2021 \nLínea de atención gratuita \n01  800 \n091 \n44 \n10 \nwww.udistrital.edu.c…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+      "nombre": "Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 154291,
+      "tamano_legible": "150.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Página | 1 \n________________________________________________________________________\nInstituto Geográfico Agustín Codazzi\n  Carrera 30 No 48 - 51 Bogotá D.C., Colombia\n  (+57) 601 653 1888\n  www.igac.gov.co\nMEMORANDO\nBogotá D.C.,\nPARA: \nSANDRA MILENA ORTEGON\nDirección De Investigación Y Prospectiva\nDE: \nDIRECTOR TÉCNIC…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+      "nombre": "Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 571996,
+      "tamano_legible": "558.6 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Sede Aduanilla de Paiba - Cl. 13# 31-75, Sótano 1, Biblioteca \nCentral.   \nPBX: 3239300 Exts.: 1346-1329  \nBogotá, D. C. – Colombia - www.udistrital.edu.co \nAcreditación Institucional de Alta Calidad.  \nResolución No. 023653 del 10 de diciembre de 2021 \n \nLínea de atención gratuita \n01    800     091     44     10 \nwww…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/SECOP II - Convenio específico 5570 de 2025.pdf",
+      "nombre": "SECOP II - Convenio específico 5570 de 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 81937,
+      "tamano_legible": "80.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Número del contrato\nDuración del contrato\nFecha de inicio de contrato\nFecha de terminación del\ncontrato\nLiquidación\nFecha de inicio de liquidación\nFecha fin de liquidación\nObligaciones Ambientales\nObligaciones pos consumo\nReversión\nDocumentos Tipo\n¿Debe cumplir con invertir\nmínimo el 30% de los recursos\ndel presupuesto…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Profundizacion.xlsx",
       "nombre": "F7_Convenios_URELINTER_Profundizacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
-      "tamano_bytes": 9785,
-      "tamano_legible": "9.6 KB",
+      "tamano_bytes": 11261,
+      "tamano_legible": "11.0 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 7 · Convenios vigentes — MCIC - PROFUNDIZACIÓN\nLos convenios los administra la Unidad de Relaciones Interinstitucionales (URELINTER). Se deja el enlace oficial mientras se recibe la información de los profesores sobre su participación en convenios.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nIncreme…"
@@ -12180,16 +13090,148 @@
       "extracto": "Nombre:\nArqusoft - Arquitecturas de Software\nLíneas de investigación:\n1.-Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software\nClasificación - Colciencias:\nC\nGrupLAC:\nhttps://scienti.minciencias.gov.co/gruplac/jsp/visualiza…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Giira 2026-3.pptx",
+      "nombre": "Giira 2026-3.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación",
+      "tamano_bytes": 7029401,
+      "tamano_legible": "6.7 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Facultad de Ingeniería\nUNIVERSIDAD DISTRITAL\nFRANCISCO JOSÉ DE CALDAS - 2026\nAgenda de presentación\nPresentación General\nLíneas de Investigación\nProyectos Relevantes\nResultados Generales\nINGENIERÍA: COMPROMISO CON EL DESARROLLO CIENTÍFICO, TECNOLÓGICO Y SOCIAL DEL PAÍS\nMULTIMEDIA INTERACTIVA\nPresentación\nGrupo de Inves…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Multimedia Interactiva 2026-3.pptx",
+      "nombre": "Multimedia Interactiva 2026-3.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación",
+      "tamano_bytes": 12380629,
+      "tamano_legible": "11.8 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Facultad de Ingeniería\nUNIVERSIDAD DISTRITAL\nFRANCISCO JOSÉ DE CALDAS - 2026\nAgenda de presentación\nPresentación General\nLíneas de Investigación\nSectores de Aplicación \nProyectos Relevantes\nResultados Generales\nINGENIERÍA: COMPROMISO CON EL DESARROLLO CIENTÍFICO, TECNOLÓGICO Y SOCIAL DEL PAÍS\nMULTIMEDIA INTERACTIVA\nPre…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto Monitoreo Ruido.pdf",
+      "nombre": "Proyecto Monitoreo Ruido.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 7702969,
+      "tamano_legible": "7.3 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto: \nAMS \n\nCONTROL DE CAMBIOS \n \nVersión \nFecha \nResponsable \nDescripción \n1.0 \n22/06/2026 \nCarlos Andres Pescador Castro \nVersión final \n\nIntroducción \nEste documento tiene la funcionalidad de instruir al usuario sobre el uso del Sistema de \nMonitoreo Acústico, una plataforma web para visualizar y anali…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto VisRoute.pdf",
+      "nombre": "Proyecto VisRoute.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 3136316,
+      "tamano_legible": "3.0 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto: VisRouteAS \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nVisRoute \n \n \n \n\nVisRoute \n \n \n \nINTRODUCCIÓN \n \n \nEl documento presenta resumen proyecto para el uso de VisRouteAS, una aplicación web \nque permite visualizar trazas de red desde distintos puntos a nivel mundial, hasta \ndiferentes …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Jardin Botanico.pdf",
+      "nombre": "Resumen Proyecto Jardin Botanico.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 11697394,
+      "tamano_legible": "11.2 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto:  \nGarden'Species  \n\nGarden'Species  \n \n\nGarden'Species  \n \n \nIntroducción \n \n \nEl documento presente tiene la funcionalidad presentar un resumen de proyecto al uso del \naplicativo Garden'Species D&M el cual tiene la funcionalidad de mostrar información de los \nespecímenes vegetales que se encuentran …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Laboratorio Virtual Redes.pdf",
+      "nombre": "Resumen Proyecto Laboratorio Virtual Redes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 3947462,
+      "tamano_legible": "3.8 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto: NetVR Lab \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nProyecto de realidad \nvirtual, para \nsimulación de \nlaboratorios de red. \n\nNetVR Lab \n \n \n \n \n\nNetVR Lab \n \n \nINTRODUCCIÓN \n \n \nEl documento presenta un resumen del funcionamiento asociado al proyecto NetVR Lab, \nun prototipo de aplicació…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Diseño de modelo arquitectónico asíncrono para la implementación de servicios de computaci.pdf",
+      "nombre": "Tesis - Diseño de modelo arquitectónico asíncrono para la implementación de servicios de computaci.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 3670262,
+      "tamano_legible": "3.5 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "DISEÑO DE MODELO ARQUITECTÓNICO ASÍNCRONO PARA \nLA IMPLEMENTACIÓN DE SERVICIOS DE COMPUTACIÓN \nSIN SERVIDOR EN LA INFRAESTRUCTURA DE NUBE \nPRIVADA DE IFX NETWORKS \n \n \n \nAutor \nBREITNER ENRIQUE GONZÁLEZ ANGARITA \n \n \nDirector \nPhD. PAULO ALONSO GAONA GARCIA \nDoctor en Ingeniería de la Información y del Conocimiento \n \n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di (2).pdf",
+      "nombre": "Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di (2).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 7871093,
+      "tamano_legible": "7.5 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "​\n \nINVESTIGACIÓN ____​\n​\nPROFUNDIZACIÓN __X__ \n \nDiseño de una plataforma para la ejecución de modelos \nde predicción sobre el mercado de divisas mediante \nmachine learning \n \n \nAutor \nKevin Steven Gordillo Orjuela \n \nDirector \nPaulo Alonso Gaona García. PhD. \n \n \n \n \n \n \n \nUniversidad Distrital Francisco José De Cald…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di.pdf",
+      "nombre": "Tesis - Diseño de una plataforma para la ejecución de modelos de predicción sobre el mercado de di.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 7370990,
+      "tamano_legible": "7.0 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "INVESTIGACIÓN ____\nPROFUNDIZACIÓN __X__\nDiseño de una plataforma para la ejecución de\nmodelos de predicción sobre el mercado de divisas\nmediante machine learning\nAutor\nKevin Steven Gordillo Orjuela\nDirector\nPaulo Alonso Gaona García. PhD.\nUniversidad Distrital Francisco José De Caldas\nMaestría en Ciencias de la Informa…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo para la evaluación de la calidad intrínseca y dinámica de los datos abiertos sector.pdf",
+      "nombre": "Tesis - Modelo para la evaluación de la calidad intrínseca y dinámica de los datos abiertos sector.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 2456868,
+      "tamano_legible": "2.3 MB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "INVESTIGACIÓN ____ \n \n        PROFUNDIZACIÓN _X_ \n  \nMODELO PARA LA EVALUACIÓN DE LA CALIDAD INTRÍNSECA Y DINÁMICA DE LOS DATOS \nABIERTOS SECTOR SALUD EN BOGOTÁ D.C. BASADO EN MACHINE LEARNING \n  \n  \n \n  \nAutor \nÁlvaro Varón Capera \n \n  \n  \nTutor \nPaulo Alonso Gaona García, PhD \n  \n \n \n  \nUniversidad Distrital Francisc…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
       "nombre": "F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-      "tamano_bytes": 25235,
-      "tamano_legible": "24.6 KB",
+      "tamano_bytes": 23972,
+      "tamano_legible": "23.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
       "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Profundización\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente.\nMetas del plan de mejoramiento\nPlan …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
+      "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+      "tamano_bytes": 43139,
+      "tamano_legible": "42.1 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "INFORME IMPACTO SOCIAL PROYECTOS MCIC 2022-2026\nGrupo de investigación: NIDE\nLa producción vinculada a la Maestría comprende 26 trabajos de grado, 21 de ellos sustentados. El conjunto muestra una actividad amplia y sostenida, con desarrollos en gestión ambiental y territorial, riesgos naturales, inteligencia artificial…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/a. Solicitud a Bienestar de las actividades ofrecidas/Bienestar MCIC.pptx",
@@ -12209,7 +13251,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/b. Divulgación de los servicios ofrecidos por Bienestar",
-      "tamano_bytes": 11085,
+      "tamano_bytes": 11080,
       "tamano_legible": "10.8 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12329,8 +13371,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-      "tamano_bytes": 19682,
-      "tamano_legible": "19.2 KB",
+      "tamano_bytes": 20804,
+      "tamano_legible": "20.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Evidencias del Plan de Mejoramiento — MCIC - INVESTIGACIÓN (SNIES 17528)\nEvidencias del Plan de Mejoramiento. Periodo 2024-2027: plan anterior 2024-2026 y plan vigente 2026-2027. Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden.\nN°\nFactor\nMeta plan anterior (2024-2026)…"
@@ -13289,7 +14331,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes",
-      "tamano_bytes": 11620,
+      "tamano_bytes": 11619,
       "tamano_legible": "11.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13308,28 +14350,28 @@
       "extracto": "CONSTRUCCIÓN Y DOTACIÓN DE MOBILIARIO DEL EDIFICIO DE \nLABORATORIOS E INVESTIGACIÓN DE LA FACULTAD DE INGENIERÍA DE \nLA UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS \n \n \n \n \n \n \n \n \n \n \n \n \nREQUERIMIENTOS Y COSTOS DE DOTACIÓN EQUIPOS TECNOLÓGICOS EDUCATIVOS  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nUNIVERSIDAD DISTRITAL …"
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Anexos/Laboratorios Maestría - MIC.pptx",
-      "nombre": "Laboratorios Maestría - MIC.pptx",
-      "extension": "pptx",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+      "nombre": "Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+      "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Anexos",
-      "tamano_bytes": 1241664,
-      "tamano_legible": "1.2 MB",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra",
+      "tamano_bytes": 81593954,
+      "tamano_legible": "77.8 MB",
       "modalidad": "investigacion",
-      "texto_extraido": true,
-      "extracto": "LABORATORIOS FACULTAD DE INGENIERÍA \nFacultad de Ingeniería – Universidad Distrital Francisco José de Caldas\nSoftware Maestría en Ciencias de la Información y las Comunicaciones\nSolicitudes de Software por la Maestría\nSe presenta la información sobre los aplicativos, programas y software requeridos por docentes de la M…"
+      "texto_extraido": false,
+      "extracto": null
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
-      "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
+      "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 6936,
-      "tamano_legible": "6.8 KB",
+      "tamano_bytes": 10082,
+      "tamano_legible": "9.8 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "Factor 12 · Estudiantes activos por énfasis 2022-2026 — MCIC - INVESTIGACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de la otra modalidad para contexto. Investigación incluye a los estudiantes del plan anterior.…"
+      "extracto": "Factor 12 · Recursos físicos y tecnológicos — MCIC - INVESTIGACIÓN\nSalas de informática de la Facultad de Ingeniería usadas por la Maestría y software requerido por los docentes (Aulas de Software, desde 2025-1). Información institucional, común a las dos modalidades.\nMetas del plan de mejoramiento\nPlan anterior (2024-…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
@@ -13337,7 +14379,7 @@
       "extension": "pptx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 1235809,
+      "tamano_bytes": 1232970,
       "tamano_legible": "1.2 MB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13457,7 +14499,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 770429,
+      "tamano_bytes": 770427,
       "tamano_legible": "752.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13505,7 +14547,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 26925,
+      "tamano_bytes": 26924,
       "tamano_legible": "26.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13841,7 +14883,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-      "tamano_bytes": 13694,
+      "tamano_bytes": 13693,
       "tamano_legible": "13.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
@@ -14201,7 +15243,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 17970,
+      "tamano_bytes": 17969,
       "tamano_legible": "17.5 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -14220,13 +15262,85 @@
       "extracto": "Tipo de norma\nNúmero\nAño\nExpedida por\nEnlace\nAcuerdo\n2\n2023\nConsejo Superior Universitario\nhttps://sgral.udistrital.edu.co/xdata/csu/acu_2023-002.pdf\nResolución\n12\n2023\nConsejo Académico\nhttps://sgral.udistrital.edu.co/xdata/ca/res_2023-012.pdf\nResolución\n43\n2024\nConsejo Académico\nhttps://sgral.udistrital.edu.co/xdata/…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+      "nombre": "Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 1545296,
+      "tamano_legible": "1.5 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "FORMATO: ACTA DE REUNIÓN \nCódigo: GI-FR-010 \n \nMacroproceso: Direccionamiento \nEstratégico \nVersión: 03 \nProceso: Gestión Integrada \nFecha de \nAprobación: \n21/03/2017 \n \nEste documento es propiedad de la Universidad Distrital Francisco José de Caldas. Prohibida su reproducción por \ncualquier medio, sin previa autorizac…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+      "nombre": "Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 404452,
+      "tamano_legible": "395.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Página 1  \n \n \nCONVENIO ESPECÍFICO DE COOPERACIÓN N ° 5570 DE 2025 \nSUSCRITO ENTRE LA UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS Y EL \nINSTITUTO GEOGRAFICO AGUSTIN CODAZZI \n \nEntre los suscritos, de una parte, GIOVANNY MAURICIO TARAZONA BERMÚDEZ, identificado \ncon la cédula de ciudadanía número \n de Bogotá, actuand…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación de apoyo a la supervisión (marzo de 2026).pdf",
+      "nombre": "Designación de apoyo a la supervisión (marzo de 2026).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 630056,
+      "tamano_legible": "615.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Sede Aduanilla de Paiba - Cl. 13# 31-75, Sótano 1, Biblioteca \nCentral. \nPBX: 3239300 Exts.: 1346-1329 \nBogotá, D. C. – Colombia - www.udistrital.edu.co \nAcreditación Institucional de Alta Calidad. \nResolución No. 023653 del 10 de diciembre de 2021 \nLínea de atención gratuita \n01  800 \n091 \n44 \n10 \nwww.udistrital.edu.c…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+      "nombre": "Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 154291,
+      "tamano_legible": "150.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Página | 1 \n________________________________________________________________________\nInstituto Geográfico Agustín Codazzi\n  Carrera 30 No 48 - 51 Bogotá D.C., Colombia\n  (+57) 601 653 1888\n  www.igac.gov.co\nMEMORANDO\nBogotá D.C.,\nPARA: \nSANDRA MILENA ORTEGON\nDirección De Investigación Y Prospectiva\nDE: \nDIRECTOR TÉCNIC…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+      "nombre": "Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 571996,
+      "tamano_legible": "558.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Sede Aduanilla de Paiba - Cl. 13# 31-75, Sótano 1, Biblioteca \nCentral.   \nPBX: 3239300 Exts.: 1346-1329  \nBogotá, D. C. – Colombia - www.udistrital.edu.co \nAcreditación Institucional de Alta Calidad.  \nResolución No. 023653 del 10 de diciembre de 2021 \n \nLínea de atención gratuita \n01    800     091     44     10 \nwww…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/SECOP II - Convenio específico 5570 de 2025.pdf",
+      "nombre": "SECOP II - Convenio específico 5570 de 2025.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
+      "tamano_bytes": 81937,
+      "tamano_legible": "80.0 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Número del contrato\nDuración del contrato\nFecha de inicio de contrato\nFecha de terminación del\ncontrato\nLiquidación\nFecha de inicio de liquidación\nFecha fin de liquidación\nObligaciones Ambientales\nObligaciones pos consumo\nReversión\nDocumentos Tipo\n¿Debe cumplir con invertir\nmínimo el 30% de los recursos\ndel presupuesto…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Investigacion.xlsx",
       "nombre": "F7_Convenios_URELINTER_Investigacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
-      "tamano_bytes": 9781,
-      "tamano_legible": "9.6 KB",
+      "tamano_bytes": 11259,
+      "tamano_legible": "11.0 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 7 · Convenios vigentes — MCIC - INVESTIGACIÓN\nLos convenios los administra la Unidad de Relaciones Interinstitucionales (URELINTER). Se deja el enlace oficial mientras se recibe la información de los profesores sobre su participación en convenios.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nIncremen…"
@@ -14338,6 +15452,30 @@
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Nombre:\nArqusoft - Arquitecturas de Software\nLíneas de investigación:\n1.-Calidad e innovación para la informática, las telecomunicaciones y gestión del conocimiento.\n2.- Ciencias de la Computación\n3.- Ingenieria de Software\nClasificación - Colciencias:\nC\nGrupLAC:\nhttps://scienti.minciencias.gov.co/gruplac/jsp/visualiza…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Giira 2026-3.pptx",
+      "nombre": "Giira 2026-3.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación",
+      "tamano_bytes": 7029401,
+      "tamano_legible": "6.7 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Facultad de Ingeniería\nUNIVERSIDAD DISTRITAL\nFRANCISCO JOSÉ DE CALDAS - 2026\nAgenda de presentación\nPresentación General\nLíneas de Investigación\nProyectos Relevantes\nResultados Generales\nINGENIERÍA: COMPROMISO CON EL DESARROLLO CIENTÍFICO, TECNOLÓGICO Y SOCIAL DEL PAÍS\nMULTIMEDIA INTERACTIVA\nPresentación\nGrupo de Inves…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Multimedia Interactiva 2026-3.pptx",
+      "nombre": "Multimedia Interactiva 2026-3.pptx",
+      "extension": "pptx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación",
+      "tamano_bytes": 12380629,
+      "tamano_legible": "11.8 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Facultad de Ingeniería\nUNIVERSIDAD DISTRITAL\nFRANCISCO JOSÉ DE CALDAS - 2026\nAgenda de presentación\nPresentación General\nLíneas de Investigación\nSectores de Aplicación \nProyectos Relevantes\nResultados Generales\nINGENIERÍA: COMPROMISO CON EL DESARROLLO CIENTÍFICO, TECNOLÓGICO Y SOCIAL DEL PAÍS\nMULTIMEDIA INTERACTIVA\nPre…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Ponencias/Ponencia Andrés Felipe Sánchez Cruz.pdf",
@@ -14652,16 +15790,172 @@
       "extracto": "CERTIFICATE \n \nOctober 25, 2024 \nTo whom it may concern.  \nThis certifies that Wilmar Neiser Rengifo Güiza, Universidad Distrital Francisco José de \nCaldas has attended and presented the paper ID 90 entitled “A Risk assessment approach \nmethodology to score vulnerabilities in airworthiness systems” in the 2024 Workshop…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto Monitoreo Ruido.pdf",
+      "nombre": "Proyecto Monitoreo Ruido.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 7702969,
+      "tamano_legible": "7.3 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto: \nAMS \n\nCONTROL DE CAMBIOS \n \nVersión \nFecha \nResponsable \nDescripción \n1.0 \n22/06/2026 \nCarlos Andres Pescador Castro \nVersión final \n\nIntroducción \nEste documento tiene la funcionalidad de instruir al usuario sobre el uso del Sistema de \nMonitoreo Acústico, una plataforma web para visualizar y anali…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto VisRoute.pdf",
+      "nombre": "Proyecto VisRoute.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 3136316,
+      "tamano_legible": "3.0 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto: VisRouteAS \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nVisRoute \n \n \n \n\nVisRoute \n \n \n \nINTRODUCCIÓN \n \n \nEl documento presenta resumen proyecto para el uso de VisRouteAS, una aplicación web \nque permite visualizar trazas de red desde distintos puntos a nivel mundial, hasta \ndiferentes …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Jardin Botanico.pdf",
+      "nombre": "Resumen Proyecto Jardin Botanico.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 11697394,
+      "tamano_legible": "11.2 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto:  \nGarden'Species  \n\nGarden'Species  \n \n\nGarden'Species  \n \n \nIntroducción \n \n \nEl documento presente tiene la funcionalidad presentar un resumen de proyecto al uso del \naplicativo Garden'Species D&M el cual tiene la funcionalidad de mostrar información de los \nespecímenes vegetales que se encuentran …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Laboratorio Virtual Redes.pdf",
+      "nombre": "Resumen Proyecto Laboratorio Virtual Redes.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados",
+      "tamano_bytes": 3947462,
+      "tamano_legible": "3.8 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Resumen \nProyecto: NetVR Lab \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nProyecto de realidad \nvirtual, para \nsimulación de \nlaboratorios de red. \n\nNetVR Lab \n \n \n \n \n\nNetVR Lab \n \n \nINTRODUCCIÓN \n \n \nEl documento presenta un resumen del funcionamiento asociado al proyecto NetVR Lab, \nun prototipo de aplicació…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - METAMODELO SOFTWARE DE SIMULACION REMOTA INTERACTIVA EN AMBIENTE WEB.pdf",
+      "nombre": "Tesis - METAMODELO SOFTWARE DE SIMULACION REMOTA INTERACTIVA EN AMBIENTE WEB.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 777790,
+      "tamano_legible": "759.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "INVESTIGACIÓN  X  \n \nPROFUNDIZACIÓN ____ \n \nMETAMODELO SOFTWARE PARA \nSIMULACIÓN REMOTA INTERACTIVA EN \nAMBIENTE WEB \n \n \n \nAutor \nJeisson Rodrigo Piñeros Ramirez. Ing. \n \nDirector \nJulio Barón Velandia. PhD. \nCodirector \nSebastian Camilo Vanegas Ayala. PhD. \n \n \n \n \nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS \nMaes…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - MODELO DE INFERENCIA ONTOLOGICA PARA CARACTERIZACION DE OPCIONES DE CULTIVO A PARTIR DE VA.pdf",
+      "nombre": "Tesis - MODELO DE INFERENCIA ONTOLOGICA PARA CARACTERIZACION DE OPCIONES DE CULTIVO A PARTIR DE VA.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 2505697,
+      "tamano_legible": "2.4 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "MODELO DE INFERENCIA ONTOLÓGICA \nPARA CARACTERIZACIÓN DE OPCIONES DE \nCULTIVO A PARTIR DE VARIABLES \nCLIMÁTICAS \n \n \n \n \n \nMADDYZETH ARIZA RIAÑO \n \n \n \n \n \n \nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS \nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES \nFACULTAD DE INGENIERÍA \nBOGOTÁ, COLOMBIA \n2022 \n\n \n \n…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Mejoramiento de la descripción de recursos educativos abiertos, a partir de técnicas basad.pdf",
+      "nombre": "Tesis - Mejoramiento de la descripción de recursos educativos abiertos, a partir de técnicas basad.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 4822192,
+      "tamano_legible": "4.6 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "INVESTIGACIÓN __X__ \n \nPROFUNDIZACIÓN ____ \n \nMEJORAMIENTO DE LA DESCRIPCIÓN DE RECURSOS \nEDUCATIVOS ABIERTOS, A PARTIR DE TÉCNICAS BASADAS EN \nINTELIGENCIA ARTIFICIAL, MACHINE LEARNING Y MINERÍA DE \nDATOS \n \nAutor \nJuan Guillermo Cotta García \n \nDirector: \nJhon Francined Herrera Cubides \n \nCo-director: \nPaulo Alonso G…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Metodología comparativa para modelos de lenguaje de gran tamaño y algorítmos de aprendizaj.pdf",
+      "nombre": "Tesis - Metodología comparativa para modelos de lenguaje de gran tamaño y algorítmos de aprendizaj.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 4247164,
+      "tamano_legible": "4.1 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "METODOLOGÍA PARA LA ELECCIÓN DE MODELOS \nDE LENGUAJE DE GRAN TAMAÑO (LLMS) EN \nAPLICACIONES DE PREDICCIÓN \nMETEREOLÓGICAS A TRAVÉS DE ALGORITMOS \nDE APRENDIZAJE AUTOMÁTICO SOBRE \nENTORNOS DE COMPUTACIÓN EN LA NUBE Y \nCAPTURAS DE DATOS A TRAVÉS DE IOT \nAGENTES IA EN IOT \nNOVEMBER 20, 2024 \n\nMETODOLOGÍA PARA LA ELECCIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de clasificación de imágenes basado en Multiview Learning.pdf",
+      "nombre": "Tesis - Modelo de clasificación de imágenes basado en Multiview Learning.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 4199681,
+      "tamano_legible": "4.0 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "MODELO DE CLASIFICACIÓN DE ÍMAGENES \nBASADO EN MULTIVIEW LEARNING \nMonografía \n \n \n \nKevin Camilo Díaz Monje \n \n \n \n \n \n \n \n \n \n \nUniversidad Distrital Francisco José de Caldas \nMaestría en Ciencias de la Información y las Comunicaciones \nFacultad de Ingeniería \nBogotá D. C., Colombia \n2025 \n \n\nMODELO DE CLASIFICACIÓN …"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de evaluación crediticio basado en principios de un ecosistema digital bancario med.pdf",
+      "nombre": "Tesis - Modelo de evaluación crediticio basado en principios de un ecosistema digital bancario med.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 3274285,
+      "tamano_legible": "3.1 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "INVESTIGACIÓN _X__ \n \nPROFUNDIZACIÓN ____ \n \nMODELO DE EVALUACIÓN CREDITICIO BASADO \nEN PRINCIPIOS DE UN ECOSISTEMA DIGITAL \nBANCARIO MEDIANTE ESTRATEGIAS DE \nBUSINESS INTELLIGENCE Y MECANISMOS DE \nREPUTACIÓN EN EL SECTOR DE INDUSTRIA \nTEXTIL DE LAS PYMES COLOMBIANAS \n \n \nAutor \nWilliam Steven Rodriguez Rodriguez \n  \nT…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de learning analytics basado en métricas emocionales para aplicaciones móviles de a.pdf",
+      "nombre": "Tesis - Modelo de learning analytics basado en métricas emocionales para aplicaciones móviles de a.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 4438957,
+      "tamano_legible": "4.2 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "MODELO DE LEARNING ANALYTICS BASADO EN \nMÉTRICAS EMOCIONALES PARA APLICACIONES \nMÓVILES DE APRENDIZAJE EN SEGUNDA LENGUA \n \n \n \n \n \n \nANDRÉS OVIDIO RESTREPO RODRÍGUEZ \n \n \n \n \n \n \n \n \nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS \nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES \nFACULTAD DE INGENIERÍA \nBOG…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de sistemas multi-agentes para la consulta basada en niveles de confianza sobre rec.pdf",
+      "nombre": "Tesis - Modelo de sistemas multi-agentes para la consulta basada en niveles de confianza sobre rec.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis",
+      "tamano_bytes": 3626372,
+      "tamano_legible": "3.5 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "MODELO DE SISTEMAS MULTI-AGENTES PARA \nLA CONSULTA BASADA EN NIVELES DE \nCONFIANZA, SOBRE RECURSOS VINCULADOS \nMEDIANTE DATOS ABIERTOS ENLAZADOS \n \nAutor \nCamilo Alejandro Valencia Martínez \nIngeniero de Sistemas \nTutor \nPaulo Alonso Gaona \nPhD en Ingeniería de la Información y del Conocimiento \nUniversidad Distrital F…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
       "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-      "tamano_bytes": 30253,
-      "tamano_legible": "29.5 KB",
+      "tamano_bytes": 29702,
+      "tamano_legible": "29.0 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Investigación\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente.\nMetas del plan de mejoramiento\nPlan a…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
+      "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
+      "extension": "docx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+      "tamano_bytes": 43139,
+      "tamano_legible": "42.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "INFORME IMPACTO SOCIAL PROYECTOS MCIC 2022-2026\nGrupo de investigación: NIDE\nLa producción vinculada a la Maestría comprende 26 trabajos de grado, 21 de ellos sustentados. El conjunto muestra una actividad amplia y sostenida, con desarrollos en gestión ambiental y territorial, riesgos naturales, inteligencia artificial…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/a. Solicitud a Bienestar de las actividades ofrecidas/Bienestar MCIC.pptx",
@@ -14681,7 +15975,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/b. Divulgación de los servicios ofrecidos por Bienestar",
-      "tamano_bytes": 11327,
+      "tamano_bytes": 11321,
       "tamano_legible": "11.1 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -15793,35 +17087,36 @@
     }
   ],
   "documentosBronzeStats": {
-    "total": 576,
+    "total": 614,
     "por_modalidad": {
-      "profundizacion": 180,
-      "ambas": 9,
-      "investigacion": 271,
+      "profundizacion": 186,
+      "ambas": 20,
+      "investigacion": 292,
       "general": 116
     },
     "por_extension": {
-      "pdf": 215,
+      "pdf": 249,
       "xlsx": 246,
       "xls": 24,
       "png": 67,
-      "pptx": 10,
+      "pptx": 12,
       "jpg": 8,
       "jpeg": 4,
+      "docx": 2,
       "xlsm": 2
     },
     "por_carpeta_raiz": {
       "ACREDITACIÓN DE ALTA CALIDAD": 125,
       "Convenios": 1,
       "Docentes": 41,
-      "MCIC-PROFUNDIZACION": 119,
-      "MCIC.INVESTIGACION": 207,
+      "MCIC-PROFUNDIZACION": 136,
+      "MCIC.INVESTIGACION": 228,
       "Maestria CIC": 14,
       "Normativa": 36,
       "PresLabIng-20261-esuarez-01-p36-48.pdf": 1,
       "Syllabus": 32
     },
-    "con_texto_extraido": 501
+    "con_texto_extraido": 537
   },
   "evidenciaProcesosRcAac": {
     "investigacion": [
@@ -15904,14 +17199,14 @@
       {
         "nombre": "00_Indice_Evidencias_Investigacion.xlsx",
         "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/00_Indice_Evidencias_Investigacion.xlsx",
-        "tamano_legible": "19.2 KB"
+        "tamano_legible": "20.3 KB"
       }
     ],
     "profundizacion": [
       {
         "nombre": "00_Indice_Evidencias_Profundizacion.xlsx",
         "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/00_Indice_Evidencias_Profundizacion.xlsx",
-        "tamano_legible": "16.6 KB"
+        "tamano_legible": "17.4 KB"
       }
     ]
   },
@@ -19713,6 +21008,13 @@
             "cod_proyecto": "595"
           },
           {
+            "titulo_proyecto": "EXTRACCION DE CONTEXTO GEOGRAFICO A PARTIR DE NLP PARA INFORMACION DE TRANSITO EN REDES SOCIALES",
+            "director": "Cesar Andrey Perdomo Charry",
+            "codirector": null,
+            "etapa_actual": "Sustentado",
+            "cod_proyecto": "595"
+          },
+          {
             "titulo_proyecto": "Diseño e implementación de un sistema inteligente para \nel apoyo al diagnóstico de fallos operativos en entornos \ncloud basados en AWS",
             "director": "Cesar Andrey Perdomo Charry",
             "codirector": null,
@@ -19753,6 +21055,13 @@
             "codirector": null,
             "etapa_actual": "Jurados solicitados, pendiente sustentación",
             "cod_proyecto": "595"
+          },
+          {
+            "titulo_proyecto": "PROPUESTA DE MODELO DE CLASIFICACION DE COMPORTAMIENTO DE DEPRESION EN JOVENES COLOMBIANOS EN ENTORNOS DIGITALES",
+            "director": "Ernesto Gomez Vargas",
+            "codirector": null,
+            "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
+            "cod_proyecto": "695"
           },
           {
             "titulo_proyecto": "MODELACIÓN HIDROLÓGICA PARA LA ESTIMACIÓN CUANTITATIVA DE PRECIPITACIONES MEDIANTE EL PROCESAMIENTO DE IMÁGENES PRODUCIDAS POR RADAR METEOROLÓGICO",
@@ -19811,6 +21120,13 @@
             "cod_proyecto": "595"
           },
           {
+            "titulo_proyecto": "DISEÑO Y EVALUACION DE UN PROTOTIPO DE HARDWARE Y SOFTWARE PARA EL CONTROL DE VUELO REMOTO DE UN DRONE APLICADO A LA INSPECCION DE LINEAS ELECTRICAS",
+            "director": "Cesar Andrey Perdomo Charry",
+            "codirector": null,
+            "etapa_actual": "Jurados solicitados, pendiente sustentación",
+            "cod_proyecto": "595"
+          },
+          {
             "titulo_proyecto": "MODELO DE DETECCION Y ELIMINACION DE ECOS DE TIERRA (GROUND CLUTTER) EN IMAGENES DE RADARES METEOROLOGICOS/ MODELO DE DETECCION Y ELIMINACION DE ECOS DE TIERRA EN IMAGENES DE RADARES METEOROLOGICOS.",
             "director": "Ernesto Gomez Vargas",
             "codirector": null,
@@ -19822,6 +21138,27 @@
             "director": "Ernesto Gomez Vargas",
             "codirector": null,
             "etapa_actual": "Jurados solicitados, pendiente sustentación",
+            "cod_proyecto": "595"
+          },
+          {
+            "titulo_proyecto": "MODELO HIBRIDO DE CONTROL CON SEÑALES MIOELECTRICA Y ENCEFALOGRAFICA PARA UNA PROTESIS DE MIEMBRO SUPERIOR",
+            "director": "Cesar Andrey Perdomo Charry",
+            "codirector": "Oscar Perdomo Charry",
+            "etapa_actual": "Sustentado (Laureado)",
+            "cod_proyecto": "595"
+          },
+          {
+            "titulo_proyecto": "MODELO DE ESTIMACION CUANTITATIVA DE LA PRECIPITACION PARA COLOMBIA CON VARIABILIDAD TEMPORAL PARA RADARES METEOROLOGICOS DE BANDA C.",
+            "director": "Cesar Andrey Perdomo Charry",
+            "codirector": null,
+            "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
+            "cod_proyecto": "595"
+          },
+          {
+            "titulo_proyecto": "SISTEMAS DE ALERTAS TEMPRANAS PARA HELADAS",
+            "director": "Cesar Andrey Perdomo Charry",
+            "codirector": null,
+            "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
             "cod_proyecto": "595"
           }
         ]
@@ -20460,72 +21797,6 @@
             "cod_proyecto": "695"
           }
         ]
-      },
-      {
-        "nombre": "Cooperación Intergrupal LASER - LAMIC",
-        "sigla": "LASER LAMIC",
-        "clasificacion": "Intergrupal (B / C)",
-        "lider": "César Andrey Perdomo Charry",
-        "lineas_investigacion": "Robótica, Automática, Microelectrónica",
-        "gruplac": null,
-        "pagina_web": null,
-        "email": null,
-        "integrantes": [
-          {
-            "nombre": "César Andrey Perdomo Charry",
-            "correo": "caperdomoc@udistrital.edu.co",
-            "tematicas": "Robótica y Automática",
-            "cvlac": null
-          }
-        ],
-        "proyectos_grado": [
-          {
-            "titulo_proyecto": "EXTRACCION DE CONTEXTO GEOGRAFICO A PARTIR DE NLP PARA INFORMACION DE TRANSITO EN REDES SOCIALES",
-            "director": "Cesar Andrey Perdomo Charry",
-            "codirector": null,
-            "etapa_actual": "Sustentado",
-            "cod_proyecto": "595"
-          },
-          {
-            "titulo_proyecto": "PROPUESTA DE MODELO DE CLASIFICACION DE COMPORTAMIENTO DE DEPRESION EN JOVENES COLOMBIANOS EN ENTORNOS DIGITALES",
-            "director": "Ernesto Gomez Vargas",
-            "codirector": null,
-            "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
-            "cod_proyecto": "695"
-          },
-          {
-            "titulo_proyecto": "DISEÑO Y EVALUACION DE UN PROTOTIPO DE HARDWARE Y SOFTWARE PARA EL CONTROL DE VUELO REMOTO DE UN DRONE APLICADO A LA INSPECCION DE LINEAS ELECTRICAS",
-            "director": "Cesar Andrey Perdomo Charry",
-            "codirector": null,
-            "etapa_actual": "Jurados solicitados, pendiente sustentación",
-            "cod_proyecto": "595"
-          },
-          {
-            "titulo_proyecto": "MODELO HIBRIDO DE CONTROL CON SEÑALES MIOELECTRICA Y ENCEFALOGRAFICA PARA UNA PROTESIS DE MIEMBRO SUPERIOR",
-            "director": "Cesar Andrey Perdomo Charry",
-            "codirector": "Oscar Perdomo Charry",
-            "etapa_actual": "Sustentado (Laureado)",
-            "cod_proyecto": "595"
-          },
-          {
-            "titulo_proyecto": "MODELO DE ESTIMACION CUANTITATIVA DE LA PRECIPITACION PARA COLOMBIA CON VARIABILIDAD TEMPORAL PARA RADARES METEOROLOGICOS DE BANDA C.",
-            "director": "Cesar Andrey Perdomo Charry",
-            "codirector": null,
-            "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
-            "cod_proyecto": "595"
-          },
-          {
-            "titulo_proyecto": "SISTEMAS DE ALERTAS TEMPRANAS PARA HELADAS",
-            "director": "Cesar Andrey Perdomo Charry",
-            "codirector": null,
-            "etapa_actual": "Anteproyecto radicado, pendiente asignación de jurados",
-            "cod_proyecto": "595"
-          }
-        ],
-        "fuente": {
-          "archivo": "Data/Bronze/MCIC - Base de datos V2.xlsx",
-          "hoja": "N-A Investigación"
-        }
       },
       {
         "nombre": "Grupo de Investigación en Energías y Tecnologías XUÉ",
@@ -21615,7 +22886,7 @@
       "MCIC - Base de datos Profundizacion.xlsx",
       "MCIC - Base de datos V2.xlsx"
     ],
-    "grupos_con_proyectos_asociados": 25,
+    "grupos_con_proyectos_asociados": 24,
     "proyectos_sin_grupo_identificado": 115,
     "metodologia": "Datos consolidados a partir de las tres bases de datos oficiales de seguimiento de trabajo de grado de la Maestría en Ciencias de la Información y las Comunicaciones (MCIC): MCIC - Base de datos INVESTIGACION.xlsx, MCIC - Base de datos Profundizacion.xlsx y MCIC - Base de datos V2.xlsx. Se extrae cada proceso de trabajo de grado de las modalidades de Investigación (595) y Profundización (695), clasificando la etapa en: Sustentado (Aprobado / Meritorio / Laureado), Jurados solicitados (en evaluación / pendiente sustentación) y Anteproyecto radicado (pendiente jurados). No se publica el código ni el nombre del estudiante para garantizar la estricta confidencialidad de los datos personales."
   },

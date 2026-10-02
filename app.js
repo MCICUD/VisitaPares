@@ -357,6 +357,90 @@ function renderPlanCard(f, indexEnModalidad) {
   `;
 }
 
+function renderAutoevaluacionHtml(datos) {
+  if (!datos) return '';
+  const chipDoc = (d) => `<a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(d.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(d.archivo)}">📄 ${escapeHtml(d.nombre)} (${escapeHtml(d.tamano_legible)})</a>`;
+  const tarjeta = (anio, color) => {
+    const resp = Object.entries(anio.respondentes || {});
+    return `
+      <div style="flex:1 1 300px; border:1px solid var(--border-color); border-top:4px solid ${color}; border-radius:var(--radius-sm); padding:12px 14px; background:white;">
+        <div style="font-size:14px; font-weight:800; color:${color}; margin-bottom:8px;">${escapeHtml(anio.titulo)}</div>
+        ${resp.length ? `
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px;">
+            ${resp.map(([k, v]) => `<div style="background:var(--bg-subtle); border-radius:var(--radius-sm); padding:6px 10px; text-align:center; min-width:76px;"><div style="font-size:18px; font-weight:800;">${escapeHtml(v)}</div><div style="font-size:10.5px; color:var(--text-muted);">${escapeHtml(k)}</div></div>`).join('')}
+          </div>
+          <div style="font-size:10.5px; color:var(--text-soft); margin:-4px 0 10px;">Personas que respondieron cada instrumento</div>` : ''}
+        <div style="display:flex; flex-wrap:wrap; gap:6px;">${anio.documentos.map(chipDoc).join('')}</div>
+        ${anio.anexos_total ? `<div style="font-size:11px; color:var(--text-soft); margin-top:8px;">+ ${anio.anexos_total} anexos (gráficos e invitaciones a las encuestas) en la evidencia de seguimiento.</div>` : ''}
+      </div>`;
+  };
+  const comparacion = (datos.comparacion || []).length ? `
+    <div style="overflow-x:auto; margin-top:14px;">
+      <table style="width:100%; border-collapse:collapse; font-size:12px;">
+        <thead>
+          <tr style="background:var(--bg-subtle); border-bottom:2px solid var(--border-color); text-align:left;">
+            <th style="padding:7px 10px; width:18%;">Aspecto</th>
+            <th style="padding:7px 10px;">2025 (anterior)</th>
+            <th style="padding:7px 10px;">2026 (vigente)</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${datos.comparacion.map((c) => `
+            <tr style="border-bottom:1px solid var(--border-color); vertical-align:top;">
+              <td style="padding:7px 10px; font-weight:700;">${escapeHtml(c.aspecto)}</td>
+              <td style="padding:7px 10px;">${escapeHtml(c.anio_2025)}</td>
+              <td style="padding:7px 10px;">${escapeHtml(c.anio_2026)}</td>
+            </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>` : '';
+  const prom = (datos.anio_2026 && datos.anio_2026.promedios_por_factor) || [];
+  let promedios = '';
+  if (prom.length) {
+    const instrumentos = [...new Set(prom.map((p) => p.instrumento))];
+    const factores = [...new Set(prom.map((p) => p.factor))].sort((a, b) => a - b);
+    const celda = (inst, fac) => {
+      const x = prom.find((p) => p.instrumento === inst && p.factor === fac);
+      if (!x) return '<td style="padding:6px 10px; color:var(--text-soft);">—</td>';
+      const pct = Math.round((x.promedio / 5) * 100);
+      return `<td style="padding:6px 10px;" title="${x.respuestas} respuestas · ${x.preguntas} preguntas">
+        <div style="display:flex; align-items:center; gap:8px;"><div style="flex:1; height:8px; background:var(--bg-subtle); border-radius:4px; min-width:60px;"><div style="width:${pct}%; height:8px; background:#16A34A; border-radius:4px;"></div></div><strong style="min-width:32px; text-align:right;">${x.promedio.toFixed(2)}</strong></div></td>`;
+    };
+    promedios = `
+      <div style="margin-top:14px;">
+        <div style="font-size:12.5px; font-weight:700; margin-bottom:6px;">Autoevaluación 2026 — promedio por factor (escala 1 a 5)</div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-size:12px;">
+            <thead>
+              <tr style="background:var(--bg-subtle); border-bottom:2px solid var(--border-color); text-align:left;">
+                <th style="padding:7px 10px;">Factor</th>
+                ${instrumentos.map((i) => `<th style="padding:7px 10px;">${escapeHtml(i)}</th>`).join('')}
+              </tr>
+            </thead>
+            <tbody>
+              ${factores.map((fac) => {
+                const nombre = (prom.find((p) => p.factor === fac) || {}).factor_nombre || '';
+                return `<tr style="border-bottom:1px solid var(--border-color);"><td style="padding:6px 10px;">Factor ${fac}${nombre ? ` — ${escapeHtml(nombre)}` : ''}</td>${instrumentos.map((i) => celda(i, fac)).join('')}</tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>`;
+  }
+  return `
+    <div style="margin-bottom:18px;">
+      <p style="margin-bottom:10px;"><strong>📋 Autoevaluación 2025 (anterior) y 2026 (vigente):</strong></p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        ${tarjeta(datos.anio_2025, '#64748B')}
+        ${tarjeta(datos.anio_2026, '#16A34A')}
+      </div>
+      ${comparacion}
+      ${promedios}
+      ${datos.libro ? `<p style="margin-top:10px;"><a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(datos.libro.archivo)}" target="_blank" rel="noopener noreferrer">📊 ${escapeHtml(datos.libro.nombre)} (${escapeHtml(datos.libro.tamano_legible)})</a></p>` : ''}
+    </div>
+  `;
+}
+
 function renderEvidenciaSeguimientoHtml(evidencia) {
   if (!evidencia || !evidencia.total_archivos) {
     return '';
@@ -674,6 +758,7 @@ function openFactorModal(modalidad, index) {
     <p style="margin-bottom:8px;"><strong>Actividades requeridas para lograr la meta:</strong></p>
     <p style="margin-bottom:14px; white-space: pre-line; font-size: 13px; color: var(--text-muted);">${escapeHtml(f.actividades)}</p>
 
+    ${renderAutoevaluacionHtml(f.datos_autoevaluacion)}
     ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
     ${renderCuadroMaestroHtml(f.datos_cuadro_maestro_cna)}
     ${renderComunidadFactor4Html(f.datos_comunidad_factor4)}
@@ -902,16 +987,19 @@ function renderConveniosHtml(datos) {
     <div class="plan-meta-box" style="margin-bottom:12px;">
       <div class="plan-meta-row"><span>Convenios institucionales vigentes (toda la UD)</span><span>${datos.convenios_totales}</span></div>
       ${Object.entries(datos.por_nivel || {}).map(([nivel, n]) => `<div class="plan-meta-row"><span>· ${escapeHtml(nivel)}</span><span>${n}</span></div>`).join('')}
-      <div class="plan-meta-row"><span>Relacionados con la Facultad de Ingeniería / áreas afines de la MCIC</span><span>${relacionados.length}</span></div>
-      <div class="plan-meta-row"><span>Aplican realmente a un posgrado como la MCIC (los que se listan abajo)</span><span>${aplicables.length}</span></div>
+      <div class="plan-meta-row"><span>Aplican realmente a un posgrado como la MCIC</span><span>${datos.total_convenios_aplicables_mcic ?? aplicables.length}</span></div>
+      ${datos.total_convenios_complementarios_mcic ? `<div class="plan-meta-row"><span>Complementan a la MCIC desde la Facultad de Ingeniería</span><span>${datos.total_convenios_complementarios_mcic}</span></div>` : ''}
     </div>
   `;
 
-  const tablaHtml = aplicables.length ? `
-    <div style="overflow-x:auto; margin-bottom:10px;">
-      <table style="width:100%; border-collapse: collapse; font-size: 11.5px; min-width:640px;">
+  const todos = datos.convenios || [];
+  const etiquetaRel = { aplica_posgrado: ['Aplica a la MCIC', '#166534', '#DCFCE7'], complementa: ['Complementa a la MCIC', '#1E40AF', '#DBEAFE'], ingenieria: ['Relacionado con Ingeniería', '#92400E', '#FEF3C7'] };
+  const tipos = [...new Set(todos.map((c) => c.tipo).filter(Boolean))].sort();
+  const tablaHtml = todos.length ? `
+    <div style="overflow:auto; margin-bottom:10px; border:1px solid var(--border-color); border-radius:var(--radius-sm);">
+      <table style="width:100%; border-collapse: collapse; font-size: 11.5px; min-width:700px;">
         <thead>
-          <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+          <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left; position:sticky; top:0;">
             <th style="padding:6px 8px;">Institución</th>
             <th style="padding:6px 8px;">País / Categoría</th>
             <th style="padding:6px 8px;">Tipo</th>
@@ -920,15 +1008,18 @@ function renderConveniosHtml(datos) {
           </tr>
         </thead>
         <tbody>
-          ${aplicables.map((c) => `
-            <tr style="border-bottom:1px solid var(--border-color);" title="${escapeHtml(c.objeto || '')}">
-              <td style="padding:5px 8px;">${escapeHtml(c.institucion)}</td>
+          ${todos.map((c) => {
+            const rel = etiquetaRel[c.relacion];
+            const txt = `${c.institucion || ''} ${c.pais_categoria || ''} ${c.objeto || ''} ${c.denominacion || ''}`.toLowerCase();
+            return `
+            <tr class="conv-fila" data-txt="${escapeHtml(txt)}" data-nivel="${escapeHtml(c.nivel || '')}" data-tipo="${escapeHtml(c.tipo || '')}" style="border-bottom:1px solid var(--border-color);" title="${escapeHtml(c.justificacion || c.objeto || '')}">
+              <td style="padding:5px 8px;">${escapeHtml(c.institucion)}${rel ? `<div><span style="font-size:10px; font-weight:700; color:${rel[1]}; background:${rel[2]}; border-radius:8px; padding:1px 7px;">${rel[0]}</span></div>` : ''}${(c.soportes && c.soportes.length) ? `<details style="margin-top:4px;"><summary style="cursor:pointer; font-size:11px; color:var(--text-muted);">Soportes (${c.soportes.length})</summary><div style="display:flex; flex-direction:column; gap:3px; margin-top:4px;">${c.soportes.map((x) => `<a href="${fileHref(x.archivo)}" target="_blank" rel="noopener noreferrer" style="font-size:11px;">📄 ${escapeHtml(x.nombre)}</a>`).join('')}</div></details>` : ''}</td>
               <td style="padding:5px 8px;">${escapeHtml(c.pais_categoria)}</td>
               <td style="padding:5px 8px;">${escapeHtml(c.tipo)}</td>
               <td style="padding:5px 8px;">${escapeHtml(c.denominacion)}</td>
               <td style="padding:5px 8px;">${escapeHtml(c.fecha_fin)} (${escapeHtml(c.estado)})</td>
-            </tr>
-          `).join('')}
+            </tr>`;
+          }).join('')}
         </tbody>
       </table>
     </div>
@@ -1373,4 +1464,6 @@ if (document.readyState === 'loading') {
 } else {
   initApp();
 }
+
+
 

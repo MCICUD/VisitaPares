@@ -4,7 +4,7 @@
     {
       "nombre": "00_Indice_Evidencias_Investigacion.xlsx",
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/00_Indice_Evidencias_Investigacion.xlsx",
-      "tamano_legible": "19.2 KB"
+      "tamano_legible": "20.3 KB"
     }
   ],
   "procesos_rc_aac": [
@@ -525,10 +525,41 @@
             {
               "nombre": "F7_Convenios_URELINTER_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Investigacion.xlsx",
-              "tamano_legible": "9.6 KB"
+              "tamano_legible": "11.0 KB"
             }
           ],
-          "anexos": []
+          "anexos": [
+            {
+              "nombre": "Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Acta de la mesa técnica del 3 de junio de 2026 (apoyo a la supervisión).pdf",
+              "tamano_legible": "1.5 MB"
+            },
+            {
+              "nombre": "Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Convenio específico de cooperación 5570 de 2025 (IGAC - UDFJC).pdf",
+              "tamano_legible": "395.0 KB"
+            },
+            {
+              "nombre": "Designación de apoyo a la supervisión (marzo de 2026).pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación de apoyo a la supervisión (marzo de 2026).pdf",
+              "tamano_legible": "615.3 KB"
+            },
+            {
+              "nombre": "Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del comité técnico por el IGAC (septiembre de 2026).pdf",
+              "tamano_legible": "150.7 KB"
+            },
+            {
+              "nombre": "Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/Designación del representante de la UD ante el comité técnico (agosto de 2026).pdf",
+              "tamano_legible": "558.6 KB"
+            },
+            {
+              "nombre": "SECOP II - Convenio específico 5570 de 2025.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/SECOP II - Convenio específico 5570 de 2025.pdf",
+              "tamano_legible": "80.0 KB"
+            }
+          ]
         },
         {
           "nombre": "d. Definición de acción para la formalización de convenios",
@@ -588,6 +619,16 @@
               "nombre": "Directorio Grupos de Inv MCIC.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Directorio Grupos de Inv MCIC.xlsx",
               "tamano_legible": "54.2 KB"
+            },
+            {
+              "nombre": "Giira 2026-3.pptx",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Giira 2026-3.pptx",
+              "tamano_legible": "6.7 MB"
+            },
+            {
+              "nombre": "Multimedia Interactiva 2026-3.pptx",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/a. Presentación a nuevos estudiantes de procesos de investigación/Multimedia Interactiva 2026-3.pptx",
+              "tamano_legible": "11.8 MB"
             }
           ],
           "anexos": []
@@ -598,7 +639,12 @@
             {
               "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
-              "tamano_legible": "29.5 KB"
+              "tamano_legible": "29.0 KB"
+            },
+            {
+              "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
+              "tamano_legible": "42.1 KB"
             }
           ],
           "anexos": [
@@ -731,6 +777,66 @@
               "nombre": "Ponencia Wilmar Neiser Rengifo Guiza.pdf",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Ponencias/Ponencia Wilmar Neiser Rengifo Guiza.pdf",
               "tamano_legible": "138.3 KB"
+            },
+            {
+              "nombre": "Proyecto Monitoreo Ruido.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto Monitoreo Ruido.pdf",
+              "tamano_legible": "7.3 MB"
+            },
+            {
+              "nombre": "Proyecto VisRoute.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Proyecto VisRoute.pdf",
+              "tamano_legible": "3.0 MB"
+            },
+            {
+              "nombre": "Resumen Proyecto Jardin Botanico.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Jardin Botanico.pdf",
+              "tamano_legible": "11.2 MB"
+            },
+            {
+              "nombre": "Resumen Proyecto Laboratorio Virtual Redes.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Proyectos ejecutados/Resumen Proyecto Laboratorio Virtual Redes.pdf",
+              "tamano_legible": "3.8 MB"
+            },
+            {
+              "nombre": "Tesis - METAMODELO SOFTWARE DE SIMULACION REMOTA INTERACTIVA EN AMBIENTE WEB.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - METAMODELO SOFTWARE DE SIMULACION REMOTA INTERACTIVA EN AMBIENTE WEB.pdf",
+              "tamano_legible": "759.6 KB"
+            },
+            {
+              "nombre": "Tesis - MODELO DE INFERENCIA ONTOLOGICA PARA CARACTERIZACION DE OPCIONES DE CULTIVO A PARTIR DE VA.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - MODELO DE INFERENCIA ONTOLOGICA PARA CARACTERIZACION DE OPCIONES DE CULTIVO A PARTIR DE VA.pdf",
+              "tamano_legible": "2.4 MB"
+            },
+            {
+              "nombre": "Tesis - Mejoramiento de la descripción de recursos educativos abiertos, a partir de técnicas basad.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Mejoramiento de la descripción de recursos educativos abiertos, a partir de técnicas basad.pdf",
+              "tamano_legible": "4.6 MB"
+            },
+            {
+              "nombre": "Tesis - Metodología comparativa para modelos de lenguaje de gran tamaño y algorítmos de aprendizaj.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Metodología comparativa para modelos de lenguaje de gran tamaño y algorítmos de aprendizaj.pdf",
+              "tamano_legible": "4.1 MB"
+            },
+            {
+              "nombre": "Tesis - Modelo de clasificación de imágenes basado en Multiview Learning.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de clasificación de imágenes basado en Multiview Learning.pdf",
+              "tamano_legible": "4.0 MB"
+            },
+            {
+              "nombre": "Tesis - Modelo de evaluación crediticio basado en principios de un ecosistema digital bancario med.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de evaluación crediticio basado en principios de un ecosistema digital bancario med.pdf",
+              "tamano_legible": "3.1 MB"
+            },
+            {
+              "nombre": "Tesis - Modelo de learning analytics basado en métricas emocionales para aplicaciones móviles de a.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de learning analytics basado en métricas emocionales para aplicaciones móviles de a.pdf",
+              "tamano_legible": "4.2 MB"
+            },
+            {
+              "nombre": "Tesis - Modelo de sistemas multi-agentes para la consulta basada en niveles de confianza sobre rec.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Anexos/Tesis/Tesis - Modelo de sistemas multi-agentes para la consulta basada en niveles de confianza sobre rec.pdf",
+              "tamano_legible": "3.5 MB"
             }
           ]
         }
@@ -1198,6 +1304,11 @@
               "nombre": "G312-3 Requerimientos equipos tecnológicos y de software.pdf",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/G312-3 Requerimientos equipos tecnológicos y de software.pdf",
               "tamano_legible": "835.2 KB"
+            },
+            {
+              "nombre": "Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf",
+              "tamano_legible": "77.8 MB"
             }
           ],
           "anexos": []
@@ -1206,9 +1317,9 @@
           "nombre": "c. Socialización con la comunidad académica de acciones y avances",
           "archivos": [
             {
-              "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
-              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
-              "tamano_legible": "6.8 KB"
+              "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
+              "tamano_legible": "9.8 KB"
             },
             {
               "nombre": "Laboratorios Maestría - MIC.pptx",
@@ -1216,13 +1327,7 @@
               "tamano_legible": "1.2 MB"
             }
           ],
-          "anexos": [
-            {
-              "nombre": "Laboratorios Maestría - MIC.pptx",
-              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Anexos/Laboratorios Maestría - MIC.pptx",
-              "tamano_legible": "1.2 MB"
-            }
-          ]
+          "anexos": []
         }
       ]
     }

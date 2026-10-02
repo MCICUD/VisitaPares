@@ -61,7 +61,7 @@ ARCHIVO = ROOT / "Data/Bronze/Convenios/Convenios vigentes URELINTER.xlsx"
 SHEET_NAME = "Convenios URELINTER"
 
 FUENTE_URL = "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones"
-FECHA_DESCARGA = "2026-09-18"
+FECHA_DESCARGA = "2026-10-02"
 
 COLUMNAS = (
     "codigo", "nivel", "pais_categoria", "institucion", "fecha_inicio", "fecha_fin",
@@ -94,6 +94,14 @@ FRASES_FACULTAD_INGENIERIA = (
 # "pregrado" (dice "Proyecto Curricular de Ingeniería de Sistemas", que es el
 # nombre del programa de pregrado). Se deja la cita exacta que sustenta cada
 # decisión para que se pueda verificar contra el Excel fuente.
+# Convenios que no benefician directamente a estudiantes de la MCIC pero sí complementan su entorno desde la Facultad de Ingeniería.
+COMPLEMENTA_MCIC: dict[str, str] = {
+    "C-2025-46": "Doble diploma entre la Facultad de Ingeniería y los posgrados de IMT Atlantique (telecomunicaciones e informática): no cubre a estudiantes de la MCIC, "
+                 "pero abre una cadena de formación posgradual internacional en la misma Facultad.",
+    "C-2023-19": "Programa conjunto con la Fundación UNIR en Ingeniería de Software adscrito a la Facultad de Ingeniería: es de pregrado, pero fortalece el área de software "
+                 "y la cooperación de la Facultad con UNIR.",
+}
+
 APLICA_A_POSGRADO_MCIC: dict[str, tuple[bool, str]] = {
     "C-2012-12": (
         True,
@@ -212,13 +220,43 @@ def main() -> None:
 
     aplicables_mcic = [c for c in relevantes if c["aplica_a_posgrado_mcic"] is True]
 
+    rel_ing = {c["codigo"]: c for c in relevantes}
+    listado = []
+    for c in convenios:
+        r = rel_ing.get(c["codigo"])
+        listado.append({
+            "codigo": c["codigo"], "nivel": c["nivel"], "pais_categoria": c["pais_categoria"], "institucion": c["institucion"],
+            "tipo": c["tipo"], "denominacion": c["denominacion"], "fecha_inicio": c["fecha_inicio"], "fecha_fin": c["fecha_fin"],
+            "estado": c["estado"], "objeto": (c.get("objeto") or "")[:600],
+            "relacion": "aplica_posgrado" if r and r["aplica_a_posgrado_mcic"] is True else ("complementa" if c["codigo"] in COMPLEMENTA_MCIC else ("ingenieria" if r else None)),
+            "justificacion": COMPLEMENTA_MCIC.get(c["codigo"]),
+        })
+    # Convenio específico con soportes propios que aún no figura en el listado de URELINTER
+    carpeta_igac = ROOT / "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento" / (
+        "FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025")
+    soportes_igac = sorted(rel(p) for p in carpeta_igac.glob("*.pdf")) if carpeta_igac.exists() else []
+    if soportes_igac:
+        listado.append({
+            "codigo": "CE-5570-2025", "nivel": "Nacional", "pais_categoria": "Colombia Otros Organismos", "institucion": "Instituto Geográfico Agustín Codazzi - IGAC",
+            "tipo": "Convenio Específico", "denominacion": "Cooperación (proyectos de maestría y doctorado)", "fecha_inicio": "2025-11-11", "fecha_fin": "2027-11-07",
+            "estado": "En ejecución",
+            "objeto": "Convenio específico de cooperación N.° 5570 de 2025: aunar esfuerzos académicos y administrativos para un programa de fortalecimiento en geografía, geomática, catastro, "
+                      "inteligencia artificial y ciencia de datos, mediante proyectos de maestría y doctorado. Se origina en el trabajo del IGAC con la coordinación de la MCIC.",
+            "relacion": "aplica_posgrado", "soportes": [{"nombre": Path(x).name, "archivo": x} for x in soportes_igac],
+        })
+    orden = {"aplica_posgrado": 0, "complementa": 1, "ingenieria": 2, None: 3}
+    listado = [x for x in listado if x["relacion"] in ("aplica_posgrado", "complementa")]  # solo los que aplican o complementan a la MCIC
+    listado.sort(key=lambda x: (orden[x["relacion"]], (x["institucion"] or "").lower()))
+
     data = {
+        "convenios": listado,
         "convenios_totales": len(convenios),
         "por_nivel": por_nivel,
         "por_tipo": por_tipo,
         "convenios_relacionados_facultad_ingenieria": relevantes,
         "total_convenios_relacionados": len(relevantes),
-        "total_convenios_aplicables_mcic": len(aplicables_mcic),
+        "total_convenios_aplicables_mcic": len(aplicables_mcic) + (1 if soportes_igac else 0),
+        "total_convenios_complementarios_mcic": len(COMPLEMENTA_MCIC),
         "criterio_filtro": (
             "Se buscó, sobre institución + denominación + objeto de cada convenio (sin tildes ni "
             "mayúsculas), alguna de estas frases: " + ", ".join(FRASES_FACULTAD_INGENIERIA) + ". "
@@ -230,19 +268,10 @@ def main() -> None:
             "distinto — ver APLICA_A_POSGRADO_MCIC en este script."
         ),
         "limitacion": (
-            "Este es el listado INSTITUCIONAL de convenios vigentes de toda la Universidad Distrital "
-            "(no uno filtrado por programa: URELINTER no ofrece un recorte por programa/facultad). "
-            "Ningún convenio de los 388 menciona por su nombre a la Maestría en Ciencias de la "
-            "Información y las Comunicaciones (MCIC). Se encontraron por texto "
-            f"{len(relevantes)} que mencionan a la Facultad de Ingeniería (la facultad a la que "
-            f"pertenece la MCIC) o a alguna de sus áreas afines; de esos, solo {len(aplicables_mcic)} "
-            "aplican realmente a un programa de posgrado como la MCIC según su propio objeto (los "
-            "otros 4 quedaron descartados de la lista que se muestra porque su objeto restringe "
-            "explícitamente el convenio a un programa de PREGRADO — Ingeniería de Sistemas o "
-            "Ingeniería de Software — y no benefician a estudiantes de la maestría). El detalle de "
-            "los 7 encontrados y por qué se descartaron los 4 queda en "
-            "'convenios_relacionados_facultad_ingenieria' (campo 'aplica_a_posgrado_mcic') de este "
-            "mismo archivo, para que se pueda auditar."
+            "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio "
+            "menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los "
+            f"{len(convenios)} convenios vigentes se muestran los {len(aplicables_mcic)} que aplican a un posgrado como la MCIC según su propio objeto "
+            f"y los {len(COMPLEMENTA_MCIC)} que la complementan desde la Facultad de Ingeniería."
         ),
         "fuente": {
             "url": FUENTE_URL,

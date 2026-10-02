@@ -6,6 +6,7 @@ import build_comunidad_xlsx
 import build_gold
 import build_solicitudes_pares
 import extract_convenios
+import extract_autoevaluaciones
 import extract_cuadros_maestros
 import extract_egresados_agregado
 import extract_enfasis_estudiantes
@@ -59,6 +60,9 @@ def main() -> None:
     print()
     print("== 12/15 Bronze -> Silver: microcurrículos (Syllabus AA-FR-003) ==")
     extract_syllabi.main()
+    print()
+    print("== 12b/15 Bronze -> Silver: autoevaluaciones 2025 y 2026 (Factor 11) ==")
+    extract_autoevaluaciones.main()
     print()
     print("== 13/15 SolicitudesPares -> Silver: material entregado a los pares ==")
     filter_solicitudes_mcic.main()
