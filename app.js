@@ -56,6 +56,7 @@ function initApp() {
   initPlanMejoramiento();
   initComunidad();
   initDocumentos();
+  initEvidenciaFactores();
   initBronzeCatalog();
   initSolicitudesPares();
   initModal();
@@ -1229,8 +1230,35 @@ function initDocumentos() {
   }).join('');
 }
 
+function initEvidenciaFactores() {
+  const grid = document.getElementById('evidencia-factores-grid');
+  const select = document.getElementById('evidencia-modalidad-filter');
+  if (!grid || !select) return;
+  const chip = (arch) => `<a class="btn btn-outline" style="font-size:11.5px; padding:4px 10px;" href="${fileHref(arch.archivo)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(arch.archivo)}">📄 ${escapeHtml(arch.nombre)} (${escapeHtml(arch.tamano_legible)})</a>`;
+  const render = () => {
+    const factores = GOLD_DATA.factores[select.value] || [];
+    grid.innerHTML = factores.map((f) => {
+      const { numero, nombre } = factorNumeroYNombre(f.factor);
+      const acts = ((f.evidencia_seguimiento && f.evidencia_seguimiento.actividades) || []).filter((a) => (a.archivos || []).length || (a.anexos || []).length);
+      if (!acts.length) return '';
+      return `
+        <div class="evid-card">
+          <h4>${escapeHtml(numero)} — ${escapeHtml(nombre)}</h4>
+          ${acts.map((a) => `
+            <div class="evid-act">
+              <div class="evid-act-nombre">${escapeHtml(a.nombre)}</div>
+              ${(a.archivos || []).length ? `<div class="evid-files">${a.archivos.map(chip).join('')}</div>` : ''}
+              ${(a.anexos || []).length ? `<details><summary>Anexos (${a.anexos.length})</summary><div class="evid-files" style="margin-top:6px;">${a.anexos.map(chip).join('')}</div></details>` : ''}
+            </div>`).join('')}
+        </div>`;
+    }).join('');
+  };
+  select.addEventListener('change', render);
+  render();
+}
+
 // ==========================================================================
-// CATÁLOGO COMPLETO DE Data/Bronze (data RAW)
+// CATÁLOGO COMPLETO DE DOCUMENTOS
 // ==========================================================================
 function initBronzeCatalog() {
   const manifest = GOLD_DATA.documentosBronze;

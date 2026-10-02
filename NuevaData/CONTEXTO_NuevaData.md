@@ -257,3 +257,19 @@ Hacerlo **por modalidad y por factor**, respetando los ajustes que pida la coord
 - `NuevaData/Convenios/CONVENIO IGAC/` (7 PDF): convenio específico IGAC-UDFJC N.° 5570 de 2025 (maestrías y doctorados en geografía, geomática, catastro, IA y ciencia de datos; nació de la coordinación de la MCIC). No figura aún en el listado de URELINTER; se agrega a la tabla del Factor 7 como «Aplica a la MCIC» (aplican: 4, complementan: 2) con sus soportes en `a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025/` (ambas modalidades).
 - Los soportes se publican con los números de cédula tapados (`redactar_documentos_identidad`). `0-Apertura Financiera IGAC.pdf` NO se publica: trae datos bancarios y su nombre de proyecto no corresponde (dice «Pueblo Rrom»).
 - El convenio marco C-2023-1 (IGAC, cooperación en investigación y formación) es el marco del que se deriva.
+
+## 12. Organización final de NuevaData/ (2-oct-2026)
+
+Solo quedan `Original/`, `Presentacion/`, `_build/` y este documento; las carpetas sueltas (`Certificados`, `Convenios`, `Encuesta egresados`, `gruposInvestigacion`, `Info para 12 y 8`) se movieron a `Original/<Modalidad>/FACTOR N…` y el generador lee de ahí:
+
+| Insumo | Ubicación en `Original/<Modalidad>/` |
+|---|---|
+| Certificados de profesores | `FACTOR 3…/a. Informes de participación de los docentes/Certificados/` |
+| Encuesta de egresados | `FACTOR 4…/Caracterización e impacto de Egresados- MCIC (1-18).xlsx` |
+| Listado URELINTER y soportes IGAC | `FACTOR 7…/a. Diagnostico de convenios vigentes/` (`Convenios vigentes URELINTER (3).xlsx`, `CONVENIO IGAC/`) |
+| Informe de grupos, proyectos ejecutados, xlsx de tesis | `FACTOR 8…/b. Socialización y vinculación…/` (ambas modalidades) |
+| Tesis (PDF) | `FACTOR 8…/b. …/Tesis/` (cada una en la carpeta de su modalidad, según el consolidado) |
+| Presentaciones GIIRA y Multimedia | `FACTOR 8…/a. Presentación a nuevos estudiantes…/` **solo en Investigación** |
+| Planos de laboratorios del nuevo edificio | `FACTOR 12…/` **solo en Investigación** |
+
+Los documentos pesados compartidos (presentaciones y planos) están una sola vez, en Investigación; el generador busca primero en la carpeta de la modalidad y si no están usa la de Investigación (`compartido()` en `build_nuevadata.py`). El pptx de GIIRA (192 MB) está en `.gitignore` por el límite de GitHub; sin ese archivo el generador simplemente no produce su versión sin videos.

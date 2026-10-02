@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MCIC — Plan de Mejoramiento para la Visita de Pares (Renovación AAC)</title>
   <meta name="description" content="Plan de mejoramiento (CC-FR-001) de la Maestría en Ciencias de la Información y las Comunicaciones (MCIC) — Universidad Distrital Francisco José de Caldas — para la visita de pares de renovación de la Acreditación de Alta Calidad. Cada dato mostrado enlaza a su archivo fuente en Data/Bronze.">
-  <link rel="stylesheet" href="styles.css?v=20261002-v8">
+  <link rel="stylesheet" href="styles.css?v=20261002-v9">
 </head>
 <body>
 
@@ -226,6 +226,20 @@
         </a>
       </div>
 
+      <h3 class="card-title" style="margin-bottom: 4px;">📂 Evidencia por factor del Plan de Mejoramiento</h3>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px;">
+        Documentos de cada factor, organizados por actividad.
+      </p>
+      <div class="section-actions" style="margin-bottom: 14px;">
+        <select id="evidencia-modalidad-filter" class="filter-select">
+          <option value="investigacion">Investigación</option>
+          <option value="profundizacion">Profundización</option>
+        </select>
+      </div>
+      <div id="evidencia-factores-grid" class="evid-grid" style="margin-bottom: 32px;">
+        <!-- Renderizado dinámico desde app.js -->
+      </div>
+
       <h3 class="card-title" style="margin-bottom: 12px;">🎯 Documentos principales del Plan de Mejoramiento</h3>
       <div id="documentos-grid" class="doc-grid" style="margin-bottom: 32px;">
         <!-- Renderizado dinámico desde app.js -->
@@ -240,8 +254,9 @@
         <!-- Renderizado dinámico desde app.js -->
       </div>
 
-      <h3 class="card-title" style="margin-bottom: 4px;">🗂️ Catálogo completo de <code>Data/Bronze</code> (data RAW)</h3>
-      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px;" id="bronze-count-label">
+      <details class="catalogo-menu">
+      <summary>🗂️ Catálogo completo de documentos</summary>
+      <p style="font-size: 13px; color: var(--text-muted); margin: 12px 0 14px;" id="bronze-count-label">
         <!-- conteo dinámico -->
       </p>
 
@@ -285,6 +300,7 @@
           </tbody>
         </table>
       </div>
+      </details>
     </section>
 
     <!-- ======================================================================
@@ -338,7 +354,7 @@
   </footer>
 
   <!-- Scripts con control de caché -->
-  <script src="Data/Gold/gold_data.js?v=20261002-v8"></script>
-  <script src="app.js?v=20261002-v8"></script>
+  <script src="Data/Gold/gold_data.js?v=20261002-v9"></script>
+  <script src="app.js?v=20261002-v9"></script>
 </body>
 </html>

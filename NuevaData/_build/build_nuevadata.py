@@ -1248,10 +1248,20 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 
 
 # ---------------------------------------------------------------------------
-# Insumos entregados para los factores 8 y 12 (NuevaData/Info para 12 y 8, NuevaData/gruposInvestigacion)
+# Insumos de los factores 7, 8 y 12 (viven en Original/<Modalidad>/FACTOR N; ver CONTEXTO §12)
 # ---------------------------------------------------------------------------
-INFO = OUT / "Info para 12 y 8"
-INFORME_GRUPOS = next((OUT / "gruposInvestigacion").glob("Informe Grupos*.docx"), None)
+def compartido(mod: dict, n: int, relativo: str, patron: str) -> list[Path]:
+    """Archivos que coinciden en la carpeta de la modalidad; si no están, en la de Investigación (documentos pesados compartidos por las dos modalidades)."""
+    for m in (mod, MODALIDADES["Investigacion"]):
+        base = factor_dirs(m["plan"])[n] / relativo
+        encontrados = sorted(base.glob(patron)) if base.exists() else []
+        if encontrados:
+            return encontrados
+    return []
+
+
+def carpeta_factor(mod: dict, n: int) -> Path:
+    return factor_dirs(mod["plan"])[n]
 
 
 CEDULAS_CONVENIO_IGAC = ["79.571.941", "51.975.477", "79.367.935", "60261576"]  # documentos de identidad que aparecen en los soportes
@@ -1303,10 +1313,10 @@ def aligerar_pptx(src: Path, dst: Path) -> None:
     prs.save(dst)
 
 
-def informe_grupos_corregido(dst: Path) -> None:
+def informe_grupos_corregido(src: Path, dst: Path) -> None:
     """Informe de impacto social por grupo; «LASER LAMIC» no es un grupo (confusión de LASER): su sección se integra a LASER."""
     import docx
-    d = docx.Document(INFORME_GRUPOS)
+    d = docx.Document(src)
     ps = list(d.paragraphs)
     idx = {p.text.strip(): i for i, p in enumerate(ps) if p.style.name.startswith("Heading")}
     h_laser, h_mix = idx.get("Grupo de investigación: LASER"), idx.get("Grupo de investigación: LASER LAMIC")
@@ -1333,12 +1343,12 @@ def _toks(s: str) -> set[str]:
     return {t for t in re.sub(r"[^a-z0-9 ]", " ", _sin_tildes(s)).split() if len(t) > 3}
 
 
-def tesis_por_modalidad(todos: list[list]) -> dict[str, list[tuple[Path, str, list]]]:
-    """Cada PDF de INFO/Tesis se asocia, por su título, a una fila del consolidado: {modalidad: [(pdf, nombre_sin_codigos, fila)]}."""
+def tesis_por_modalidad(todos: list[list], carpeta: Path) -> dict[str, list[tuple[Path, str, list]]]:
+    """Cada PDF de la carpeta de tesis se asocia, por su título, a una fila del consolidado: {modalidad: [(pdf, nombre_sin_codigos, fila)]}."""
     import subprocess
     out: dict[str, list] = {"Investigación": [], "Profundización": []}
     usados: Counter = Counter()
-    for pdf in sorted((INFO / "Tesis").glob("*.pdf")):
+    for pdf in sorted(carpeta.glob("*.pdf")):
         tt = _toks(subprocess.run(["pdftotext", "-l", "4", str(pdf), "-"], capture_output=True, text=True).stdout)
         mejor = max((f for f in todos if f[2]), key=lambda f: len(_toks(str(f[2])) & tt) / max(1, len(_toks(str(f[2])))))
         if len(_toks(str(mejor[2])) & tt) / max(1, len(_toks(str(mejor[2])))) < 0.6 or mejor[4] not in out:
@@ -1469,22 +1479,22 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     wb.save(act_b / nombre)
     out.append(f"{act_b.name}/{nombre}")
 
-    # Insumos de los grupos (presentaciones, informe de impacto, proyectos ejecutados y tesis)
-    if INFO.exists():
-        for g in sorted(INFO.glob("*.pptx")):
-            nombre_g = g.name.replace("_2026-3", " 2026-3")
-            aligerar_pptx(g, act_a / nombre_g)
-            out.append(f"{act_a.name}/{nombre_g}")
-    if INFORME_GRUPOS:
-        informe_grupos_corregido(act_b / "Informe de impacto social de los grupos de investigación 2022-2026.docx")
+    # Insumos de los grupos (presentaciones, informe de impacto, proyectos ejecutados y tesis), tomados de Original/
+    rel_a, rel_b = "a. Presentación a nuevos estudiantes de procesos de investigación", "b. Socialización y vinculación de actividades de investigación"
+    for g in compartido(mod, 8, rel_a, "*.pptx"):
+        nombre_g = g.name.replace("_2026-3", " 2026-3")
+        aligerar_pptx(g, act_a / nombre_g)
+        out.append(f"{act_a.name}/{nombre_g}")
+    for informe in compartido(mod, 8, rel_b, "Informe Grupos*.docx")[:1]:
+        informe_grupos_corregido(informe, act_b / "Informe de impacto social de los grupos de investigación 2022-2026.docx")
         out.append(f"{act_b.name}/Informe de impacto social de los grupos de investigación 2022-2026.docx")
-    if (INFO / "Proyectos Ejecutados").exists():
-        for f in sorted((INFO / "Proyectos Ejecutados").glob("*.pdf")):
-            copiar(f, act_b / "Anexos" / "Proyectos ejecutados")
-            out.append(f"{act_b.name}/Anexos/Proyectos ejecutados/{f.name}")
-    if (INFO / "Tesis").exists():
+    for f in compartido(mod, 8, rel_b + "/Proyectos Ejecutados", "*.pdf"):
+        copiar(f, act_b / "Anexos" / "Proyectos ejecutados")
+        out.append(f"{act_b.name}/Anexos/Proyectos ejecutados/{f.name}")
+    carpeta_tesis = mod["plan"] / factor_dirs(mod["plan"])[8].name / rel_b / "Tesis"
+    if carpeta_tesis.exists():
         filas_t = []
-        for pdf, nombre_t, fila_t in tesis_por_modalidad(todos)[etiqueta]:
+        for pdf, nombre_t, fila_t in tesis_por_modalidad(todos, carpeta_tesis)[etiqueta]:
             copiar(pdf, act_b / "Anexos" / "Tesis", nombre_t)
             out.append(f"{act_b.name}/Anexos/Tesis/{nombre_t}")
             filas_t.append([fila_t[1], fila_t[2], fila_t[6], fila_t[5], fila_t[3], fila_t[9], nombre_t])
@@ -1616,7 +1626,7 @@ def factor7(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
                    f"{c['fecha_fin']} ({c['estado']})", " ".join(str(c["objeto"]).split())] for c in conv["convenios"]],
                  [22, 12, 14, 18, 46, 18, 20, 26, 90])
     act = dest / "a. Diagnostico de convenios vigentes"
-    carpeta_igac = next((d for d in (OUT / "Convenios").glob("CONVENIO IGAC*") if d.is_dir()), None)
+    carpeta_igac = next((d for d in (carpeta_factor(mod, 7) / "a. Diagnostico de convenios vigentes").glob("CONVENIO IGAC*") if d.is_dir()), None) if (carpeta_factor(mod, 7) / "a. Diagnostico de convenios vigentes").exists() else None
     soportes_igac = []
     if carpeta_igac:
         for f in sorted(carpeta_igac.glob("*.pdf")):
@@ -1892,7 +1902,7 @@ def factor12(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     c = dest / "c. Socialización con la comunidad académica de acciones y avances"
     copiar(fdir / "G312-3 Requerimientos equipos tecnológicos y de software.pdf", a)
     out.append(f"{a.name}/G312-3 Requerimientos equipos tecnológicos y de software.pdf")
-    planos = next(INFO.glob("Planos*.pdf"), None) if INFO.exists() else None
+    planos = next(iter(compartido(mod, 12, ".", "Planos*.pdf")), None)
     if planos:
         copiar(planos, a, "Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf")
         out.append(f"{a.name}/Planos laboratorios nuevo edificio - diseño arquitectónico (agosto 2020).pdf")

@@ -1149,3 +1149,18 @@ body {
     break-inside: avoid;
   }
 }
+
+/* Evidencia por factor (pestaña Documentos Fuente) */
+.evid-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 14px; }
+.evid-card { background: #fff; border: 1px solid var(--border-color); border-top: 4px solid var(--ud-blue); border-radius: var(--radius-md); padding: 14px 16px; box-shadow: var(--shadow-sm); }
+.evid-card h4 { font-size: 13.5px; margin: 0 0 10px; color: var(--ud-blue-dark); }
+.evid-act { margin-bottom: 10px; }
+.evid-act-nombre { font-size: 12px; font-weight: 700; color: var(--text-main); margin-bottom: 4px; }
+.evid-files { display: flex; flex-wrap: wrap; gap: 6px; }
+.evid-card details { margin-top: 6px; }
+.evid-card summary { cursor: pointer; font-size: 11.5px; color: var(--text-muted); }
+
+/* Catálogo completo */
+.catalogo-menu { border: 1px solid var(--border-color); border-radius: var(--radius-md); background: #fff; padding: 0 16px; margin-bottom: 24px; }
+.catalogo-menu > summary { cursor: pointer; padding: 14px 0; font-size: 15px; font-weight: 700; color: var(--ud-blue-dark); }
+.catalogo-menu[open] { padding-bottom: 16px; }

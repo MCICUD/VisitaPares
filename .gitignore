@@ -2,4 +2,5 @@
 **/__pycache__/
 *.pyc
 
-NuevaData/Info para 12 y 8
+# El pptx de GIIRA pesa >190 MB (límite de GitHub: 100 MB); su versión sin videos está en Presentacion/ y Data/Bronze
+NuevaData/Original/**/Giira_2026-3.pptx
