@@ -2,5 +2,4 @@
 **/__pycache__/
 *.pyc
 
-# Insumos originales pesados (el pptx de GIIRA pesa >190 MB; sus versiones publicables están en Presentacion/ y Data/Bronze)
-NuevaData/Info para 12 y 8/
+NuevaData/Info para 12 y 8
