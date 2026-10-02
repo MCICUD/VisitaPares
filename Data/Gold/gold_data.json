@@ -2220,7 +2220,7 @@
                 {
                   "nombre": "F6_Permanencia_y_Graduacion_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Investigacion.xlsx",
-                  "tamano_legible": "18.9 KB"
+                  "tamano_legible": "17.5 KB"
                 },
                 {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -2623,7 +2623,7 @@
                 {
                   "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
-                  "tamano_legible": "31.3 KB"
+                  "tamano_legible": "29.5 KB"
                 }
               ],
               "anexos": [
@@ -6775,7 +6775,7 @@
                 {
                   "nombre": "F6_Permanencia_y_Graduacion_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Profundizacion.xlsx",
-                  "tamano_legible": "16.8 KB"
+                  "tamano_legible": "15.6 KB"
                 },
                 {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -7178,7 +7178,7 @@
                 {
                   "nombre": "F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
-                  "tamano_legible": "29.2 KB"
+                  "tamano_legible": "24.6 KB"
                 }
               ],
               "anexos": []
@@ -10997,7 +10997,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/b. Consolidación de propuesta de medios educativos",
-      "tamano_bytes": 11385,
+      "tamano_bytes": 11386,
       "tamano_legible": "11.1 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11345,7 +11345,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 17457,
+      "tamano_bytes": 17458,
       "tamano_legible": "17.0 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11681,7 +11681,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-      "tamano_bytes": 13693,
+      "tamano_bytes": 13697,
       "tamano_legible": "13.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
@@ -12041,8 +12041,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 17252,
-      "tamano_legible": "16.8 KB",
+      "tamano_bytes": 15952,
+      "tamano_legible": "15.6 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - PROFUNDIZACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no …"
@@ -12185,8 +12185,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-      "tamano_bytes": 29893,
-      "tamano_legible": "29.2 KB",
+      "tamano_bytes": 25235,
+      "tamano_legible": "24.6 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
       "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Profundización\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente.\nMetas del plan de mejoramiento\nPlan …"
@@ -12209,7 +12209,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/b. Divulgación de los servicios ofrecidos por Bienestar",
-      "tamano_bytes": 11084,
+      "tamano_bytes": 11085,
       "tamano_legible": "10.8 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -13469,7 +13469,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 18975,
+      "tamano_bytes": 18974,
       "tamano_legible": "18.5 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13505,7 +13505,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 26927,
+      "tamano_bytes": 26925,
       "tamano_legible": "26.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -14201,8 +14201,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 19384,
-      "tamano_legible": "18.9 KB",
+      "tamano_bytes": 17970,
+      "tamano_legible": "17.5 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - INVESTIGACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no s…"
@@ -14657,8 +14657,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-      "tamano_bytes": 32003,
-      "tamano_legible": "31.3 KB",
+      "tamano_bytes": 30253,
+      "tamano_legible": "29.5 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Investigación\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente.\nMetas del plan de mejoramiento\nPlan a…"
@@ -14681,7 +14681,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/b. Divulgación de los servicios ofrecidos por Bienestar",
-      "tamano_bytes": 11328,
+      "tamano_bytes": 11327,
       "tamano_legible": "11.1 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,

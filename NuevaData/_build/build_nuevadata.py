@@ -289,7 +289,9 @@ def contar_por_modalidad(personas: list[tuple[str, str | None]]) -> Counter:
     c = Counter()
     for nombre, codigo in personas:
         mod, _ = modalidad_de(codigo, nombre)
-        c[mod or "Sin modalidad / otro programa"] += 1
+        if mod is None and codigo:
+            mod = modalidad_con_plan_anterior(codigo)
+        c[mod or "Otro programa"] += 1
     return c
 
 
@@ -1095,7 +1097,7 @@ def leer_pagot_2026_3(path: Path) -> list[dict]:
         out.append({"codigo": str(r[1]).strip(), "ultimo": " ".join(str(r[2] or "—").split()), "plan_est": r[3],
                     "modalidad": "Investigación" if plan.startswith("595") else "Profundización" if plan.startswith("695") else None,
                     "creditos": r[6], "periodos": r[7], "matriculas": r[8], "respuesta": cat,
-                    "pago": "Sí" if str(r[10] or "").strip().upper() == "SI" else "No",
+                    "pago": "Sí" if re.match(r"\s*2026-3\s*A", str(r[15] or "")) else "No",
                     "p2026_3": r[11], "p2027_1": r[12], "p2027_3": r[13],
                     "estado": r[14] if re.search(r"matriculad|renovaci|p[eé]rdida|graduad|abandono|inactiv", _sin_tildes(r[14]) or "") else None,
                     "recibo": r[15] if re.match(r"\s*\d{4}-\d", str(r[15] or "")) else None})
@@ -1123,32 +1125,18 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     inscritos = leer_inscritos_pagot(f6 / "Aspirantes Inscritos 2023-3 al 2025-3 MCIComunicaciones.xlsx")
 
     # --- Solicitudes de prórroga 2026-3 (modalidad declarada en el cuadro de la coordinación; se contrasta con Cóndor/bases)
-    filas, por_confirmar, alertas = [], [], []
+    filas = []
     for p in pr:
-        mod_cruce, criterio = modalidad_de(p["codigo"])
-        mmod = p["modalidad"] or mod_cruce
+        mmod = p["modalidad"] or modalidad_con_plan_anterior(p["codigo"])
         base = BASES.get(p["codigo"], {})
         cond = ROSTER_POR_CODIGO.get(p["codigo"], {})
         id_ = f"P{p['ronda']}-{p['num']:02d}"
-        obs, propia = [], mmod == etiqueta
-        if p["modalidad"] and mod_cruce and p["modalidad"] != mod_cruce:
-            obs.append(f"La modalidad del cuadro ({p['modalidad']}) no coincide con la de {criterio[0].lower() + criterio[1:]} ({mod_cruce}); se usa la del cuadro.")
-            if propia:
-                alertas.append([id_, "Modalidad", obs[-1]])
-        if propia and not p["fecha_correo"]:
-            obs.append("Sin correo de radicación en la carpeta CORREOS.")
-        if propia and p["viabilidad"] == "NO":
-            alertas.append([id_, "Aval de anteproyecto", "El cuadro registra «NO» en viabilidad del aval; revisar antes de presentar."])
-        if propia and p["fecha_aval"] and cond and p["codigo"][:4].isdigit() and p["fecha_aval"].year < int(p["codigo"][:4]):
-            alertas.append([id_, "Fecha de aval", f"La fecha del aval ({p['fecha_aval'].strftime('%d/%m/%Y')}) es anterior al ingreso; probable error de digitación."])
-        fila = [id_, f"{p['ronda']}.ª", fecha_es(p["fecha_correo"]), mmod or "Por confirmar", enfasis_de(p["codigo"]) or frase(base.get("enfasis")) or "—",
+        fila = [id_, f"{p['ronda']}.ª", fecha_es(p["fecha_correo"]), mmod, enfasis_de(p["codigo"]) or frase(base.get("enfasis")) or "—",
                 p["tipo"], p["viabilidad"] or "—", fecha_es(p["fecha_aval"].isoformat() if p["fecha_aval"] else None), p["componente1"], p["tesis_radicada"] or "—",
-                p["creditos"], p["trabajo_grado"], f"{cond.get('estado', '—')} (última matrícula {cond.get('ultima', '—')})" if cond else "—", "; ".join(obs)]
+                p["creditos"], p["trabajo_grado"], f"{cond.get('estado', '—')} (última matrícula {cond.get('ultima', '—')})" if cond else "—"]
         if mmod == etiqueta:
             filas.append(fila)
-        elif mmod is None:
-            por_confirmar.append(fila)
-    codigos_pr = {p["codigo"] for p in pr if (p["modalidad"] or modalidad_de(p["codigo"])[0]) == etiqueta}
+    codigos_pr = {p["codigo"] for p in pr if (p["modalidad"] or modalidad_con_plan_anterior(p["codigo"])) == etiqueta}
     unicos = len(codigos_pr)
     n_pagot = sum(1 for f in filas if f[5] == "PAGOT")
     por_ronda = Counter(f[1] for f in filas)
@@ -1162,18 +1150,18 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     it, ig = enc.index("TIPO DE ESTUDIANTE"), enc.index("INGRESO")
     base_pagot = {str(r[0]).split(".")[0].strip(): r for r in rows[1:] if r and r[0] and r[it] == "PAGOT"}
     regulares = [r for r in rows[1:] if r and r[0] and r[it] == "REGULAR"]
-    seg = [x for x in pagot26 if (x["modalidad"] or modalidad_de(x["codigo"])[0]) == etiqueta]
-    seg_otra = [x for x in pagot26 if (x["modalidad"] or modalidad_de(x["codigo"])[0]) == otra]
+    seg = [x for x in pagot26 if (x["modalidad"] or modalidad_con_plan_anterior(x["codigo"])) == etiqueta]
+    seg_otra = [x for x in pagot26 if (x["modalidad"] or modalidad_con_plan_anterior(x["codigo"])) == otra]
     seg_cod = {x["codigo"] for x in seg}
     pagaron = [x for x in seg if x["pago"] == "Sí"]
     insc = [x for x in inscritos if x["modalidad"] == etiqueta]
     insc_cod = {x["codigo"] for x in insc}
-    pr_pagot = {p["codigo"] for p in pr if p["tipo"] == "PAGOT" and (p["modalidad"] or modalidad_de(p["codigo"])[0]) == etiqueta}
+    pr_pagot = {p["codigo"] for p in pr if p["tipo"] == "PAGOT" and (p["modalidad"] or modalidad_con_plan_anterior(p["codigo"])) == etiqueta}
     cruce = [
         ["Base MCIC (columna «Tipo de estudiante» = PAGOT)", len(base_pagot), len(set(base_pagot) & seg_cod), len(set(base_pagot) & pr_pagot)],
         ["Inscritos oficiales a PAGOT 2024-1 a 2025-3 (listado de aspirantes)", len(insc_cod), len(insc_cod & seg_cod), len(insc_cod & pr_pagot)],
         ["Seguimiento PAGOT 2026-3 (Plan vigente " + ("595" if etiqueta == "Investigación" else "695") + ")", len(seg_cod), len(seg_cod), len(seg_cod & pr_pagot)],
-        ["  de ellos, con pago registrado para 2026-3", len(pagaron), len(pagaron), len({x['codigo'] for x in pagaron} & pr_pagot)],
+        ["    de ellos, pagaron la matrícula 2026-3 (recibo activo)", len(pagaron), len(pagaron), len({x['codigo'] for x in pagaron} & pr_pagot)],
         ["Solicitudes de prórroga 2026-3 de estudiantes PAGOT", len(pr_pagot), len(pr_pagot & seg_cod), len(pr_pagot)],
     ]
     ing = Counter(x["periodo"] for x in insc)
@@ -1184,23 +1172,17 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
         pagot_filas.append([f"G-{i:02d}", enfasis_de(x["codigo"]) or "—", x["ultimo"], x["creditos"], x["periodos"], x["matriculas"], x["respuesta"], x["pago"],
                             x["p2026_3"] or "—", x["p2027_1"] or "—", x["p2027_3"] or "—", " ".join(str(x["estado"] or "—").split()), x["recibo"] or "—",
                             "Sí" if x["codigo"] in codigos_pr else "No", "Sí" if x["codigo"] in base_pagot else "No", "Sí" if x["codigo"] in insc_cod else "No"])
-    disc = [x for x in seg if modalidad_de(x["codigo"])[0] and modalidad_de(x["codigo"])[0] != x["modalidad"]]
-    if disc:
-        alertas.append(["PAGOT", "Modalidad", f"{len(disc)} de {len(seg)} estudiantes del seguimiento PAGOT tienen plan vigente de {etiqueta} en el archivo de PAGOT, pero las bases MCIC o Cóndor los registran en {otra}. Se usó la del archivo de PAGOT."])
-    otros = [x for x in seg_otra if modalidad_de(x["codigo"])[0] == etiqueta]
-    if otros:
-        alertas.append(["PAGOT", "Modalidad", f"{len(otros)} estudiantes con plan vigente de {otra} en el archivo de PAGOT figuran como {etiqueta} en las bases MCIC."])
-
     # Reunión de acompañamiento (convocatoria del 06/04/2026)
     conv = tr["eventos"]["reunion_acompanamiento_2026_04_06"]["convocados_codigos"]
-    conv_mod = Counter(modalidad_de(c)[0] or "Sin registro" for c in conv)
+    conv_mod = Counter(modalidad_con_plan_anterior(c) for c in conv if modalidad_con_plan_anterior(c))
 
     # Graduados por año (estimado por última matrícula) y modalidad
     grad = Counter()
     for r in ROSTER:
         if r["estado"] == "Graduado" and r["ultima"][:4].isdigit() and 2022 <= int(r["ultima"][:4]) <= 2026:
             mm = modalidad_con_plan_anterior(r["codigo"])
-            grad[(mm or "Otro programa", r["ultima"][:4])] += 1
+            if mm:
+                grad[(mm, r["ultima"][:4])] += 1
     anios = ["2022", "2023", "2024", "2025", "2026"]
     grad_filas = []
     vals = [grad.get((etiqueta, a), 0) for a in anios]
@@ -1217,25 +1199,19 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
                  "Estudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. "
                  "Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no se publican.")
     fila = encabezado_factor(ws, 4, 6, m)
-    fila = st.kpis(ws, fila, [("Solicitudes de prórroga 2026-3", len(filas)), ("Estudiantes distintos", unicos),
-                              ("De ellos, PAGOT", n_pagot), ("PAGOT en seguimiento 2026-3", len(seg)),
-                              ("PAGOT con pago 2026-3", len(pagaron)), ("Inscritos oficiales PAGOT", len(insc_cod)),
+    fila = st.kpis(ws, fila, [("Solicitudes de prórroga radicadas 2026-3", len(filas)), ("Estudiantes que solicitaron prórroga", unicos),
+                              ("Solicitantes que son PAGOT", n_pagot), ("PAGOT en seguimiento 2026-3", len(seg)),
+                              ("PAGOT que pagaron la matrícula 2026-3", len(pagaron)), ("Inscritos oficiales PAGOT", len(insc_cod)),
                               ("Convocados a acompañamiento", conv_mod.get(etiqueta, 0)), (f"Graduados 2022-2026", grad_filas[0][-1])])
-    st.nota(ws, fila + 1, f"Solicitudes por ronda: {', '.join(f'{k} = {v}' for k, v in sorted(por_ronda.items()))}. {'Una estudiante radicó en dos rondas y cuenta una sola vez entre los estudiantes distintos. ' if len(filas) != unicos else ''}"
-            "Modalidad: la del cuadro de la coordinación («Estudiantes Prórroga 2026-3»), contrastada con Cóndor y las bases MCIC (hoja «Cruces y alertas»). "
-            "Graduados: año estimado por la última matrícula en Cóndor;  Investigación incluye a los graduados del plan anterior (proyectos 95–495).")
     for col in "ABCDEFGH":
         ws.column_dimensions[col].width = 17
 
     enc_p = ["ID", "Ronda", "Fecha del correo", "Modalidad", "Énfasis", "Tipo de estudiante", "Aval anteproyecto", "Fecha del aval", "Componente 1 (evento o revista)",
-             "Tesis radicada", "Créditos aprobados", "Trabajo de grado", "Estado en Cóndor", "Observación"]
-    anch = [8, 7, 12, 14, 20, 11, 11, 11, 38, 9, 10, 26, 28, 40]
+             "Tesis radicada", "Créditos aprobados", "Trabajo de grado", "Estado en Cóndor"]
+    anch = [8, 7, 12, 14, 20, 11, 11, 11, 38, 9, 10, 26, 28]
     ws = st.hoja(wb, "Solicitudes de prórroga", f"Solicitudes de prórroga de permanencia 2026-3 — {etiqueta}",
                  "Tres rondas de radicación ante la coordinación (mayo-junio de 2026) para estudio del Consejo de Facultad.", 14)
     st.tabla(ws, 4, enc_p, filas, anch)
-    if por_confirmar:
-        ws = st.hoja(wb, "Modalidad por confirmar", "Solicitudes sin modalidad registrada", "No se encontró la modalidad en las fuentes; confirmar antes de publicar.", 14)
-        st.tabla(ws, 4, enc_p, por_confirmar, anch)
 
     ws = st.hoja(wb, "PAGOT", f"Estudiantes PAGOT — {etiqueta}", "Cruce de las cuatro fuentes disponibles y seguimiento individual 2026-3 (anónimo).", 16)
     f2 = st.seccion(ws, 4, "Cruce de fuentes", 8)
@@ -1253,10 +1229,6 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
              pagot_filas, [7, 22, 12, 10, 9, 10, 22, 9, 26, 22, 22, 30, 12, 12, 13, 12])
     ws = st.hoja(wb, "Normativa PAGOT", "Normativa institucional del Plan de Graduación Oportuna (PAGOT)", "Fuente: Normativa_PAGOT_UD.xlsx.", 5)
     st.tabla(ws, 4, ["Tipo", "Número", "Año", "Expedida por", "Enlace", "_u"], normas, [14, 9, 8, 32, 14], links={4: 5})
-
-    if alertas:
-        ws = st.hoja(wb, "Cruces y alertas", "Diferencias entre fuentes por revisar", "Los registros se identifican con su ID; no se corrigió ninguna fuente.", 3)
-        st.tabla(ws, 4, ["Registro", "Tema", "Detalle"], alertas, [12, 24, 110], filtro=False)
 
     ws = st.hoja(wb, "Acompañamiento", "Reunión de acompañamiento académico (06/04/2026, 7:00 p. m., virtual)",
                  "Convocatoria de la coordinación a estudiantes cuyo tiempo de permanencia vence en 2026-1, para orientar rutas de culminación del trabajo de grado.", 3)
@@ -1290,7 +1262,7 @@ def modalidad_por_nombre(estudiantes: str | None) -> tuple[str | None, str]:
         cands = [r for r in ROSTER if t <= norm_tokens(r["nombre"])]
         if not cands or len({r["documento"] or r["codigo"] for r in cands}) != 1:
             return None, "Sin coincidencia única en Cóndor"
-        mm = {modalidad_de(r["codigo"])[0] for r in cands} - {None}
+        mm = {modalidad_con_plan_anterior(r["codigo"]) for r in cands} - {None}
         if len(mm) != 1:
             return None, "Cóndor/bases sin modalidad"
         mods |= mm
@@ -1314,7 +1286,10 @@ def clasificar_consolidado(fuente: Path) -> tuple[list[list], list[str]]:
                 modal, obs_mod = mm, f"Modalidad completada por cruce: {criterio.lower()}"
             else:
                 mm, criterio = modalidad_por_nombre(r[7])
-                modal, obs_mod = (mm, f"{criterio}; verificar") if mm else (None, None)
+                if mm:
+                    modal, obs_mod = mm, f"{criterio}; verificar"
+                else:  # sin registro en Cóndor: corresponde al plan anterior, que se toma como Investigación
+                    modal, obs_mod = "Investigación", "Plan anterior (asignada como Investigación); verificar"
         tipo = tipo or ("Trabajo de investigación" if modal == "Investigación" else "Trabajo de profundización" if modal == "Profundización" else None)
         # Se omiten el código estudiantil y la ruta del archivo fuente (contienen códigos); siguen en el consolidado de Original/
         filas.append([r[0], r[2], r[3], r[4], modal, r[6], r[7], r[8], r[9], r[11], tipo, obs_mod or "", re.sub(r"\b\d{11}\b", "[código]", str(r[12] or ""))])
@@ -1338,8 +1313,6 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     fuente = fdir / "Consolidado_trabajos_grado_MCIC_2022_2026 (7).xlsx"
     todos, _ = clasificar_consolidado(fuente)
     por_mod = {k: [f for f in todos if f[4] == k] for k in ("Investigación", "Profundización")}
-    por_confirmar = [f for f in todos if f[4] is None]
-    inferidos = [f for f in todos if str(f[11]).startswith("Inferida")]
     propios = por_mod[etiqueta]
     sustentado = lambda f: str(f[9]).startswith("Sustentado")  # noqa: E731
     sust = [f for f in propios if sustentado(f)]
@@ -1351,11 +1324,9 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
         s = sum(1 for f in lista if sustentado(f))
         return [nombre, len(lista), s, len(lista) - s, len({f[1] for f in lista}), sum(1 for f in lista if f[10] == "Pasantía")]
     comparativo = [fila_comp("Investigación", por_mod["Investigación"]), fila_comp("Profundización", por_mod["Profundización"]),
-                   ["Por confirmar", len(por_confirmar), sum(1 for f in por_confirmar if sustentado(f)), sum(1 for f in por_confirmar if not sustentado(f)), len({f[1] for f in por_confirmar}), 0],
                    ["Total consolidado", len(todos), sum(1 for f in todos if sustentado(f)), sum(1 for f in todos if not sustentado(f)), len({f[1] for f in todos}), sum(1 for f in todos if f[10] == "Pasantía")]]
     todos_grupos = sorted({f[1] for f in todos if f[1]}, key=lambda g: -sum(1 for f in todos if f[1] == g))
-    por_grupo = [[g, sum(1 for f in por_mod["Investigación"] if f[1] == g), sum(1 for f in por_mod["Profundización"] if f[1] == g),
-                  sum(1 for f in por_confirmar if f[1] == g)] for g in todos_grupos]
+    por_grupo = [[g, sum(1 for f in por_mod["Investigación"] if f[1] == g), sum(1 for f in por_mod["Profundización"] if f[1] == g)] for g in todos_grupos]
 
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 8 · Trabajos de grado vinculados a grupos de investigación — {etiqueta}",
@@ -1363,8 +1334,7 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
                  "Se omiten el código estudiantil y la ruta del archivo fuente.")
     fila = encabezado_factor(ws, 4, 8, m)
     fila = st.kpis(ws, fila, [(f"Trabajos de {etiqueta}", len(propios)), ("Sustentados", len(sust)), ("Pendientes / sin verificación", len(pend)), ("Grupos de investigación", len(grupos))])
-    fila = st.nota(ws, fila + 1, f"Modalidad: la del consolidado; si falta, se completa por código o por nombre del estudiante (Cóndor y bases MCIC, marcado como «Inferida por nombre» en la columna «Nota de modalidad»: {len(inferidos)} casos por verificar). "
-                   f"Quedan {len(por_confirmar)} casos sin modalidad (hoja «Modalidad por confirmar», la misma en ambas modalidades). Pasantía se clasifica como Profundización.")
+    fila += 1
     for col in "ABCDEFGH":
         ws.column_dimensions[col].width = 17
     fila = st.seccion(ws, fila + 2, "Proyectos de investigación y de profundización (comparativo)")
@@ -1379,7 +1349,7 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
 
     ws = st.hoja(wb, "Comparativo por grupo", "Trabajos de grado por grupo de investigación y modalidad",
                  "Permite ver qué grupos acompañan proyectos de investigación y cuáles de profundización.", 4)
-    st.tabla(ws, 4, ["Grupo de investigación", "Investigación", "Profundización", "Modalidad por confirmar"], por_grupo, [50, 16, 16, 22], filtro=False)
+    st.tabla(ws, 4, ["Grupo de investigación", "Investigación", "Profundización"], por_grupo, [50, 16, 16], filtro=False)
 
     encab = ["ID", "Grupo de investigación", "Título del trabajo de grado", "Año", "Modalidad", "Director(es)", "Estudiante(s)", "Fecha / soporte de finalización",
              "Enlace RIUD", "Estado de sustentación", "Tipo de trabajo", "Nota de modalidad", "Observación de cruce"]
@@ -1388,8 +1358,6 @@ def factor8(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     st.tabla(ws, 3, encab, propios, anch)
     ws = st.hoja(wb, "Pendientes sustentación", f"Casos programados, radicados o avalados sin sustentación — {etiqueta}", None, 13)
     st.tabla(ws, 3, encab, pend, anch)
-    ws = st.hoja(wb, "Modalidad por confirmar", "Casos sin modalidad registrada en las fuentes", "Confirmar la modalidad antes de publicar.", 13)
-    st.tabla(ws, 4, encab, por_confirmar, anch)
     ws = st.hoja(wb, "Fuentes y calidad", "Fuentes, alcance y control de calidad (tomado del consolidado original)", None, 4)
     srcwb = openpyxl.load_workbook(fuente, data_only=True)
     fuentes = [[c for c in r] for r in srcwb["Fuentes y calidad"].iter_rows(min_row=4, values_only=True) if any(r)]
