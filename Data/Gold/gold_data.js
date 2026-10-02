@@ -501,7 +501,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F4_Egresados_Impacto_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Investigacion.xlsx",
-                  "tamano_legible": "16.6 KB"
+                  "tamano_legible": "26.3 KB"
                 }
               ],
               "anexos": []
@@ -519,7 +519,7 @@ const GOLD_DATA = {
         "datos_comunidad_factor4": {
           "egresados": {
             "rango_presentado": "2022-2026",
-            "total_historico_graduados": 577,
+            "total_historico_graduados": 502,
             "por_proyecto_historico": [
               {
                 "cod_proyecto": "95",
@@ -565,11 +565,11 @@ const GOLD_DATA = {
               }
             ],
             "por_anio_estimado": {
-              "2022": 35,
-              "2023": 39,
-              "2024": 28,
-              "2025": 36,
-              "2026": 15
+              "2022": 26,
+              "2023": 24,
+              "2024": 23,
+              "2025": 19,
+              "2026": 5
             },
             "por_proyecto_por_anio_estimado": [
               {
@@ -634,6 +634,30 @@ const GOLD_DATA = {
                 }
               }
             ],
+            "por_modalidad": {
+              "Investigación": {
+                "total_historico": 502,
+                "por_anio_estimado": {
+                  "2022": 26,
+                  "2023": 24,
+                  "2024": 23,
+                  "2025": 19,
+                  "2026": 5
+                },
+                "total_rango": 97
+              },
+              "Profundización": {
+                "total_historico": 75,
+                "por_anio_estimado": {
+                  "2022": 9,
+                  "2023": 15,
+                  "2024": 5,
+                  "2025": 17,
+                  "2026": 10
+                },
+                "total_rango": 56
+              }
+            },
             "con_fecha_real": {
               "rango": "2022-2023",
               "total_graduados": 59,
@@ -702,7 +726,8 @@ const GOLD_DATA = {
                 "archivo": "Data/Bronze/PII_Interno/Información Egresados Maestria y Doctorados 2025.xlsx",
                 "nota": "Roster de egresados actualizado a 2025, usado solo para verificar el total por proyecto contra Estados/; no se publica en el catálogo de Data/Bronze."
               }
-            }
+            },
+            "modalidad_etiqueta": "Investigación (incluye plan anterior)"
           },
           "estados": {
             "proyectos": [
@@ -2195,7 +2220,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F6_Permanencia_y_Graduacion_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Investigacion.xlsx",
-                  "tamano_legible": "19.0 KB"
+                  "tamano_legible": "18.9 KB"
                 },
                 {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -4132,7 +4157,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
-                  "tamano_legible": "11.4 KB"
+                  "tamano_legible": "11.3 KB"
                 }
               ],
               "anexos": [
@@ -4560,7 +4585,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
-                  "tamano_legible": "7.0 KB"
+                  "tamano_legible": "6.8 KB"
                 },
                 {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
@@ -5031,7 +5056,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F4_Egresados_Impacto_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Profundizacion.xlsx",
-                  "tamano_legible": "15.6 KB"
+                  "tamano_legible": "17.0 KB"
                 }
               ],
               "anexos": []
@@ -5049,7 +5074,7 @@ const GOLD_DATA = {
         "datos_comunidad_factor4": {
           "egresados": {
             "rango_presentado": "2022-2026",
-            "total_historico_graduados": 577,
+            "total_historico_graduados": 75,
             "por_proyecto_historico": [
               {
                 "cod_proyecto": "95",
@@ -5095,11 +5120,11 @@ const GOLD_DATA = {
               }
             ],
             "por_anio_estimado": {
-              "2022": 35,
-              "2023": 39,
-              "2024": 28,
-              "2025": 36,
-              "2026": 15
+              "2022": 9,
+              "2023": 15,
+              "2024": 5,
+              "2025": 17,
+              "2026": 10
             },
             "por_proyecto_por_anio_estimado": [
               {
@@ -5164,6 +5189,30 @@ const GOLD_DATA = {
                 }
               }
             ],
+            "por_modalidad": {
+              "Investigación": {
+                "total_historico": 502,
+                "por_anio_estimado": {
+                  "2022": 26,
+                  "2023": 24,
+                  "2024": 23,
+                  "2025": 19,
+                  "2026": 5
+                },
+                "total_rango": 97
+              },
+              "Profundización": {
+                "total_historico": 75,
+                "por_anio_estimado": {
+                  "2022": 9,
+                  "2023": 15,
+                  "2024": 5,
+                  "2025": 17,
+                  "2026": 10
+                },
+                "total_rango": 56
+              }
+            },
             "con_fecha_real": {
               "rango": "2022-2023",
               "total_graduados": 59,
@@ -5232,7 +5281,8 @@ const GOLD_DATA = {
                 "archivo": "Data/Bronze/PII_Interno/Información Egresados Maestria y Doctorados 2025.xlsx",
                 "nota": "Roster de egresados actualizado a 2025, usado solo para verificar el total por proyecto contra Estados/; no se publica en el catálogo de Data/Bronze."
               }
-            }
+            },
+            "modalidad_etiqueta": "Profundización"
           },
           "estados": {
             "proyectos": [
@@ -6725,7 +6775,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F6_Permanencia_y_Graduacion_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Profundizacion.xlsx",
-                  "tamano_legible": "16.9 KB"
+                  "tamano_legible": "16.8 KB"
                 },
                 {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -8648,7 +8698,7 @@ const GOLD_DATA = {
                 {
                   "nombre": "F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
-                  "tamano_legible": "7.0 KB"
+                  "tamano_legible": "6.8 KB"
                 },
                 {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
@@ -8742,7 +8792,8 @@ const GOLD_DATA = {
       {
         "factor": "FACTOR 4. EGRESADOS",
         "campos_distintos": [
-          "plan_anterior"
+          "plan_anterior",
+          "datos_comunidad_factor4"
         ]
       },
       {
@@ -10850,7 +10901,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-      "tamano_bytes": 16953,
+      "tamano_bytes": 16955,
       "tamano_legible": "16.6 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -10946,7 +10997,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/b. Consolidación de propuesta de medios educativos",
-      "tamano_bytes": 11384,
+      "tamano_bytes": 11385,
       "tamano_legible": "11.1 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11078,7 +11129,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes",
-      "tamano_bytes": 9960,
+      "tamano_bytes": 9962,
       "tamano_legible": "9.7 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11114,11 +11165,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 7204,
-      "tamano_legible": "7.0 KB",
+      "tamano_bytes": 6944,
+      "tamano_legible": "6.8 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
-      "extracto": "Factor 12 · Estudiantes activos por énfasis 2022-2026 — MCIC - PROFUNDIZACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de las otras modalidades para contexto.\nMetas del plan de mejoramiento\nPlan anterior (2024-20…"
+      "extracto": "Factor 12 · Estudiantes activos por énfasis 2022-2026 — MCIC - PROFUNDIZACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de la otra modalidad para contexto. Investigación incluye a los estudiantes del plan anterior…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
@@ -11126,7 +11177,7 @@ const GOLD_DATA = {
       "extension": "pptx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 1235854,
+      "tamano_bytes": 1235808,
       "tamano_legible": "1.2 MB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11246,7 +11297,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 769351,
+      "tamano_bytes": 769354,
       "tamano_legible": "751.3 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -11294,11 +11345,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 16010,
-      "tamano_legible": "15.6 KB",
+      "tamano_bytes": 17457,
+      "tamano_legible": "17.0 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
-      "extracto": "Factor 4 · Egresados — caracterización e impacto — MCIC - PROFUNDIZACIÓN\nAnálisis de la base «Hoja de Vida de Egresados» del módulo institucional de la OATI (146 registros, 145 egresados distintos) separada por modalidad. El archivo fuente (con nombres, documentos y fechas de nacimiento) se resguarda y no se publica.\nM…"
+      "extracto": "Factor 4 · Egresados — caracterización e impacto — MCIC - PROFUNDIZACIÓN\nHoja de Vida de Egresados del módulo institucional de la OATI (6 egresados de Profundización) y encuesta de caracterización e impacto.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nRealizar la Caracterización con el fin de analizar el i…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
@@ -11990,8 +12041,8 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 17313,
-      "tamano_legible": "16.9 KB",
+      "tamano_bytes": 17252,
+      "tamano_legible": "16.8 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - PROFUNDIZACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no …"
@@ -12014,7 +12065,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
-      "tamano_bytes": 9783,
+      "tamano_bytes": 9785,
       "tamano_legible": "9.6 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12158,7 +12209,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 9. BIENESTAR DE LA COMUNIDAD ACADÉMICA DEL PROGRAMA/b. Divulgación de los servicios ofrecidos por Bienestar",
-      "tamano_bytes": 11083,
+      "tamano_bytes": 11084,
       "tamano_legible": "10.8 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12278,7 +12329,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-      "tamano_bytes": 19685,
+      "tamano_bytes": 19682,
       "tamano_legible": "19.2 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13238,8 +13289,8 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes",
-      "tamano_bytes": 11623,
-      "tamano_legible": "11.4 KB",
+      "tamano_bytes": 11620,
+      "tamano_legible": "11.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 11 · Autoevaluación 2025 (anterior) y 2026 (vigente) — MCIC - INVESTIGACIÓN\nLos dos procesos están en carpetas separadas, con el año en el nombre: «Autoevaluación 2025 (anterior)» y «Autoevaluación 2026 (vigente)».\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nParticipar del establecimiento del Sistem…"
@@ -13274,11 +13325,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 7202,
-      "tamano_legible": "7.0 KB",
+      "tamano_bytes": 6936,
+      "tamano_legible": "6.8 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "Factor 12 · Estudiantes activos por énfasis 2022-2026 — MCIC - INVESTIGACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de las otras modalidades para contexto.\nMetas del plan de mejoramiento\nPlan anterior (2024-202…"
+      "extracto": "Factor 12 · Estudiantes activos por énfasis 2022-2026 — MCIC - INVESTIGACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de la otra modalidad para contexto. Investigación incluye a los estudiantes del plan anterior.…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
@@ -13286,7 +13337,7 @@ const GOLD_DATA = {
       "extension": "pptx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 1235866,
+      "tamano_bytes": 1235809,
       "tamano_legible": "1.2 MB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13406,7 +13457,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 770430,
+      "tamano_bytes": 770429,
       "tamano_legible": "752.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -13454,11 +13505,11 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 17006,
-      "tamano_legible": "16.6 KB",
+      "tamano_bytes": 26927,
+      "tamano_legible": "26.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "Factor 4 · Egresados — caracterización e impacto — MCIC - INVESTIGACIÓN\nAnálisis de la base «Hoja de Vida de Egresados» del módulo institucional de la OATI (146 registros, 145 egresados distintos) separada por modalidad. El archivo fuente (con nombres, documentos y fechas de nacimiento) se resguarda y no se publica.\nMe…"
+      "extracto": "Factor 4 · Egresados — caracterización e impacto — MCIC - INVESTIGACIÓN\nHoja de Vida de Egresados del módulo institucional de la OATI (137 egresados de Investigación) y encuesta de caracterización e impacto.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nRealizar la Caracterización con el fin de analizar el i…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
@@ -13790,7 +13841,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-      "tamano_bytes": 13693,
+      "tamano_bytes": 13694,
       "tamano_legible": "13.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
@@ -14150,8 +14201,8 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 19446,
-      "tamano_legible": "19.0 KB",
+      "tamano_bytes": 19384,
+      "tamano_legible": "18.9 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - INVESTIGACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no s…"
@@ -14606,7 +14657,7 @@ const GOLD_DATA = {
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-      "tamano_bytes": 32008,
+      "tamano_bytes": 32003,
       "tamano_legible": "31.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -16184,6 +16235,30 @@ const GOLD_DATA = {
           }
         }
       ],
+      "por_modalidad": {
+        "Investigación": {
+          "total_historico": 502,
+          "por_anio_estimado": {
+            "2022": 26,
+            "2023": 24,
+            "2024": 23,
+            "2025": 19,
+            "2026": 5
+          },
+          "total_rango": 97
+        },
+        "Profundización": {
+          "total_historico": 75,
+          "por_anio_estimado": {
+            "2022": 9,
+            "2023": 15,
+            "2024": 5,
+            "2025": 17,
+            "2026": 10
+          },
+          "total_rango": 56
+        }
+      },
       "con_fecha_real": {
         "rango": "2022-2023",
         "total_graduados": 59,

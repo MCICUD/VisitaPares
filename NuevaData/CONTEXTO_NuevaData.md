@@ -226,3 +226,12 @@ Hacerlo **por modalidad y por factor**, respetando los ajustes que pida la coord
 - Cuando se hizo este trabajo (30/09/2026) ya no estaban en el árbol de trabajo las carpetas `Data2/` y
   `Presentacion/` (LaTeX) de la raíz. Siguen en git (`git checkout -- Data2 Presentacion` las recupera).
   NuevaData no depende de ellas.
+
+
+## 8. Ajustes de octubre (Factor 4)
+
+- Encuesta de caracterización e impacto de egresados (18 respuestas: INV 11, PROF 7) en `Original/<Mod>/FACTOR 4…/`; hoja «Encuesta de impacto» en cada F4 (agregados, sin texto libre).
+- **Regla: el plan anterior (proyectos 95-495 sin modalidad) se toma como Investigación** (F4, graduados de F6, activos de F12; `app/lib/modalidad.py` para Silver/Gold). Cóndor: graduados 577 = INV 502 + PROF 75; 2022-2026: 153 = INV 97 + PROF 56.
+- OATI: 146 registros / 145 personas / 143 clasificadas (INV 137, PROF 6; 2 sin registro en Cóndor quedan fuera).
+- Gold: el bloque de graduados del Factor 4 ahora es por modalidad y la sección Comunidad estudiantil suma una tabla «Graduados por modalidad» (los totales por proyecto/año no cambian).
+- Discrepancia abierta: la tabla de énfasis de Comunidad (archivo «Énfasis estudiantes - Consolidado», 2026-1) da INV 79 / PROF 77 matriculados; Cóndor+bases (2026-3) da INV 83 (con 2 sin base) / PROF 73. El bloque «Matriculados» del Factor 4 sigue mostrando el total MCIC (156).

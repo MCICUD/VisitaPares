@@ -516,7 +516,33 @@ function renderEgresados(egresados) {
     </table>
   `;
 
+  const pm = egresados.por_modalidad;
+  const modalidadTable = pm ? `
+    <table style="width:100%; border-collapse: collapse; font-size: 13px; margin-bottom:18px;">
+      <thead>
+        <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+          <th style="padding:8px 12px;">Modalidad</th>
+          <th style="padding:8px 12px; text-align:right;">Total histórico</th>
+          ${anios.map((a) => `<th style="padding:8px 12px; text-align:right;">${escapeHtml(a)}</th>`).join('')}
+          <th style="padding:8px 12px; text-align:right; font-weight:800;">Total (${escapeHtml(egresados.rango_presentado)})</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${Object.entries(pm).map(([nombre, d]) => `
+          <tr style="border-bottom:1px solid var(--border-color);">
+            <td style="padding:7px 12px;">${escapeHtml(nombre)}${nombre === 'Investigación' ? ' (incluye plan anterior)' : ''}</td>
+            <td style="padding:7px 12px; text-align:right;">${d.total_historico}</td>
+            ${anios.map((a) => `<td style="padding:7px 12px; text-align:right;">${d.por_anio_estimado[a] ?? 0}</td>`).join('')}
+            <td style="padding:7px 12px; text-align:right; font-weight:700;">${d.total_rango}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  ` : '';
+
   document.getElementById('egresados-container').innerHTML = `
+    <h4 style="font-size:13.5px; margin:0 0 8px;">Graduados por modalidad</h4>
+    ${modalidadTable}
     <h4 style="font-size:13.5px; margin:0 0 8px;">Graduados por énfasis (${escapeHtml(egresados.rango_presentado)})</h4>
     ${totalHistoricoTable}
     <h4 style="font-size:13.5px; margin:0 0 8px;">Por año (${escapeHtml(egresados.rango_presentado)})</h4>
@@ -677,7 +703,7 @@ function renderComunidadFactor4Html(datos) {
   const egresados = datos.egresados;
   const estados = datos.estados;
   
-  const anios = Object.keys(egresados.por_anio_estimado).sort();
+  const anios = Object.keys(GOLD_DATA.comunidadEstudiantil.egresados.por_anio_estimado).sort();
   
   let matriculadosTotal = 0;
   estados.proyectos.forEach(p => {
@@ -718,9 +744,9 @@ function renderComunidadFactor4Html(datos) {
             </thead>
             <tbody>
               <tr>
-                <td style="padding:5px 8px;">Graduados</td>
-                ${anios.map(a => `<td style="padding:5px 8px; text-align:right;">${egresados.por_anio_estimado[a]}</td>`).join('')}
-                <td style="padding:5px 8px; text-align:right; font-weight:700;">${anios.reduce((acc, a) => acc + egresados.por_anio_estimado[a], 0)}</td>
+                <td style="padding:5px 8px;">Graduados${egresados.modalidad_etiqueta ? ` — ${escapeHtml(egresados.modalidad_etiqueta)}` : ''}</td>
+                ${anios.map(a => `<td style="padding:5px 8px; text-align:right;">${egresados.por_anio_estimado[a] ?? 0}</td>`).join('')}
+                <td style="padding:5px 8px; text-align:right; font-weight:700;">${anios.reduce((acc, a) => acc + (egresados.por_anio_estimado[a] ?? 0), 0)}</td>
               </tr>
             </tbody>
           </table>

@@ -115,6 +115,30 @@
       }
     }
   ],
+  "por_modalidad": {
+    "Investigación": {
+      "total_historico": 502,
+      "por_anio_estimado": {
+        "2022": 26,
+        "2023": 24,
+        "2024": 23,
+        "2025": 19,
+        "2026": 5
+      },
+      "total_rango": 97
+    },
+    "Profundización": {
+      "total_historico": 75,
+      "por_anio_estimado": {
+        "2022": 9,
+        "2023": 15,
+        "2024": 5,
+        "2025": 17,
+        "2026": 10
+      },
+      "total_rango": 56
+    }
+  },
   "con_fecha_real": {
     "rango": "2022-2023",
     "total_graduados": 59,

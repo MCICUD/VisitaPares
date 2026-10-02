@@ -50,6 +50,7 @@ import datetime
 import json
 import re
 import warnings
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -69,6 +70,9 @@ COL_ULTIMA_MATRICULA = 14
 
 HOJAS_ACTA = ("195", "295", "395", "495")  # únicos 4 proyectos con acta de grado digitalizada
 PROYECTOS_TODOS = ("95", "195", "295", "395", "495", "595", "695")
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.modalidad import INVESTIGACION, PROFUNDIZACION, ClasificadorModalidad  # noqa: E402
 
 ANIO_RE = re.compile(r"^(\d{4})")
 
@@ -288,12 +292,29 @@ def main() -> None:
 
     validacion = validar_estimacion_contra_fecha_real(graduados_estados, acta)
 
+    # Graduados por modalidad (el plan anterior se toma como Investigación; ver app/lib/modalidad.py)
+    clasificador = ClasificadorModalidad()
+    por_modalidad: dict[str, dict] = {m: {"total_historico": 0, "por_anio_estimado": {}} for m in (INVESTIGACION, PROFUNDIZACION)}
+    for datos in graduados_estados.values():
+        for g in datos["graduados"]:
+            mod = clasificador.de(g["codigo"])
+            if mod is None:
+                continue
+            por_modalidad[mod]["total_historico"] += 1
+            anio = g["anio_estimado"]
+            if anio is not None and ANIO_MIN <= anio <= ANIO_MAX:
+                por_modalidad[mod]["por_anio_estimado"][anio] = por_modalidad[mod]["por_anio_estimado"].get(anio, 0) + 1
+    for m in por_modalidad.values():
+        m["por_anio_estimado"] = dict(sorted(m["por_anio_estimado"].items()))
+        m["total_rango"] = sum(m["por_anio_estimado"].values())
+
     data = {
         "rango_presentado": f"{ANIO_MIN}-{ANIO_MAX}",
         "total_historico_graduados": total_historico_graduados,
         "por_proyecto_historico": por_proyecto_historico,
         "por_anio_estimado": dict(sorted(por_anio_estimado.items())),
         "por_proyecto_por_anio_estimado": por_proyecto_por_anio_estimado,
+        "por_modalidad": por_modalidad,
         "con_fecha_real": {
             "rango": f"{min(con_fecha_real_por_anio)}-{max(con_fecha_real_por_anio)}" if con_fecha_real_por_anio else None,
             "total_graduados": con_fecha_real_total,

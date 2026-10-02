@@ -251,8 +251,13 @@ def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_f
                 "enlace_modulo_egresados": ENLACE_MODULO_EGRESADOS,
             }
             # Add data from community for Factor 4
+            egr = load_json("egresados_agregado.json")
+            etiqueta_mod = "Investigación" if modalidad == "investigacion" else "Profundización"
+            pm = egr["por_modalidad"][etiqueta_mod]
+            egr_mod = {**egr, "por_anio_estimado": pm["por_anio_estimado"], "total_historico_graduados": pm["total_historico"],
+                       "modalidad_etiqueta": etiqueta_mod + (" (incluye plan anterior)" if modalidad == "investigacion" else "")}
             f["datos_comunidad_factor4"] = {
-                "egresados": load_json("egresados_agregado.json"),
+                "egresados": egr_mod,
                 "estados": load_json("estado_academico_agregado.json"),
             }
         elif numero == "2":

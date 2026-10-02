@@ -587,7 +587,8 @@ def factor3(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
 # FACTOR 4 — Egresados: servicios (se retiran Experiencias UD e infografía) e
 # informe de caracterización e impacto con la Hoja de Vida de Egresados (OATI)
 # ---------------------------------------------------------------------------
-GRUPOS_EGRESADOS = ["Investigación", "Profundización", "Plan anterior (sin modalidad)", "Sin registro en Cóndor"]
+GRUPOS_EGRESADOS = ["Investigación", "Profundización"]  # el plan anterior se toma como Investigación
+PLAN_ANTERIOR = ("95", "195", "295", "395", "495")
 
 SECTORES = [  # (sector, palabras clave sin tildes, en minúscula); el primero que coincide gana
     ("Defensa y seguridad", ["defensa", "policia", "ejercito", "armada", "fuerza aerea", "fuerzas militares", "inteligencia"]),
@@ -634,16 +635,26 @@ def institucion_canonica(nombre: str | None) -> str:
     return " ".join(w.lower() if w.lower() in MINUSCULAS else (w.capitalize() if len(w) > 3 else w.upper()) for w in palabras)
 
 
+def modalidad_con_plan_anterior(codigo: str) -> str | None:
+    """Modalidad del estudiante; los del plan anterior (proyectos 95-495 sin modalidad registrada) se toman como Investigación."""
+    mod, _ = modalidad_de(codigo)
+    if mod:
+        return mod
+    r = ROSTER_POR_CODIGO.get(codigo)
+    proy = codigo[5:8] if len(codigo) == 11 else ""
+    return "Investigación" if proy in PLAN_ANTERIOR or (r and r["proyecto"] in PLAN_ANTERIOR) else None
+
+
 def grupo_egresado(documento: str) -> tuple[str, dict | None]:
     """Modalidad de un egresado según Cóndor (por documento): primero su registro de graduación."""
     regs = sorted(ROSTER_POR_DOC.get(documento, []), key=lambda r: r["estado"] != "Graduado")
     if not regs:
         return "Sin registro en Cóndor", None
     for r in regs:
-        mod, _ = modalidad_de(r["codigo"])
+        mod = modalidad_con_plan_anterior(r["codigo"])
         if mod:
             return mod, regs[0]
-    return "Plan anterior (sin modalidad)", regs[0]
+    return "Sin registro en Cóndor", regs[0]
 
 
 def analizar_egresados(path: Path) -> tuple[list[dict], dict]:
@@ -700,6 +711,47 @@ def _pct(n, d):
     return f"{n / d * 100:.0f} %" if d else "—"
 
 
+ARCHIVO_ENCUESTA_EGRESADOS = "Caracterización e impacto de Egresados- MCIC (1-18).xlsx"
+NIVELES_APORTE = ["Muy alto", "Alto", "Medio", "Bajo", "Ningún aporte"]
+DIMENSIONES_APORTE = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]  # columnas de la encuesta (posición)
+ITEMS_VALORACION = [37, 38, 39, 40, 41, 42, 43]
+
+
+def analizar_encuesta_egresados(path: Path, etiqueta: str) -> dict | None:
+    """Agregados de la encuesta de caracterización e impacto para la modalidad (sin nombres, documentos, organizaciones ni texto libre)."""
+    import pandas as pd
+    if not path.exists():
+        return None
+    d = pd.read_excel(path, dtype=str)
+    col = lambda i: d.columns[i]  # noqa: E731
+    mod = d[col(9)].fillna("").str.strip()
+    d = d[mod == etiqueta].reset_index(drop=True)
+    n = len(d)
+
+    def conteo(i, multiple=False):
+        c = Counter()
+        for v in d[col(i)].dropna():
+            partes = [x.strip() for x in str(v).split(";")] if multiple else [str(v).strip()]
+            for x in partes:
+                if x:
+                    c[" ".join(x.split())] += 1
+        return c.most_common()
+
+    anios = Counter(int(str(v)[:4]) for v in d[col(10)].dropna())
+    aporte = []
+    for i in DIMENSIONES_APORTE:
+        cn = Counter(d[col(i)].fillna("").str.strip())
+        aporte.append([" ".join(col(i).split())] + [cn.get(x, 0) for x in NIVELES_APORTE] + [_pct(cn.get("Muy alto", 0) + cn.get("Alto", 0), n)])
+    valoracion = []
+    for i in ITEMS_VALORACION:
+        vals = [int(x) for x in d[col(i)].dropna() if str(x).strip().isdigit()]
+        valoracion.append([" ".join(col(i).split()).rstrip("."), round(sum(vals) / len(vals), 2) if vals else None, len(vals)])
+    return {"n": n, "anios": sorted(anios.items()), "enfasis": conteo(11), "grupos": conteo(13), "situacion": conteo(14),
+            "sector": conteo(15), "nivel": conteo(19), "relacion": conteo(20), "aporte": aporte, "actividades": conteo(32, True),
+            "formacion": conteo(34, True), "grupo_inv": conteo(35), "publicaciones": conteo(36), "valoracion": valoracion,
+            "recomienda": Counter(d[col(44)].fillna("").str.strip()), "impacto": conteo(45)}
+
+
 def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     etiqueta = mod["etiqueta"]
     fdir = factor_dirs(mod["plan"])[4]
@@ -709,10 +761,10 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
         out.append(f"a. Servicios/{f}")
 
     personas, extra = analizar_egresados(fdir / "HojaVidaEgresados.xlsx")
+    personas = [p for p in personas if p["grupo"] in GRUPOS_EGRESADOS]
     graduados = extra["graduados_condor"]
     grupos = {g: [p for p in personas if p["grupo"] == g] for g in GRUPOS_EGRESADOS}
     propios = grupos[etiqueta]
-    ante = grupos["Plan anterior (sin modalidad)"]
 
     def ind(ps: list[dict]) -> list:
         n = len(ps)
@@ -735,29 +787,22 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     cols = {g: ind(grupos[g]) for g in GRUPOS_EGRESADOS}
     total_ind = ind(personas)
     propios_ind = cols[etiqueta]
-    filas_ind = []
-    for i, e in enumerate(etiquetas_ind):
-        base = [cols[g][i] for g in GRUPOS_EGRESADOS]
-        fila = [e] + base + [total_ind[i]]
-        fila += ["—" if i == 0 else _pct(propios_ind[i], len(propios))]
-        filas_ind.append(fila)
+    filas_ind = [[e] + [cols[g][i] for g in GRUPOS_EGRESADOS] + [total_ind[i], "—" if i == 0 else _pct(propios_ind[i], len(propios))] for i, e in enumerate(etiquetas_ind)]
 
     # Cobertura frente a los graduados de Cóndor
-    cob = []
     grad_por_grupo = Counter(g for g, _ in graduados.values())
     oati_grad_por_grupo = Counter(p["grupo"] for p in personas if p["estado"] == "Graduado")
-    for g in GRUPOS_EGRESADOS[:3]:
-        cob.append([g, grad_por_grupo.get(g, 0), oati_grad_por_grupo.get(g, 0), _pct(oati_grad_por_grupo.get(g, 0), grad_por_grupo.get(g, 0))])
-    cob.append(["Total", sum(grad_por_grupo.values()), sum(oati_grad_por_grupo.values()), _pct(sum(oati_grad_por_grupo.values()), sum(grad_por_grupo.values()))])
+    cob = [[g, grad_por_grupo.get(g, 0), oati_grad_por_grupo.get(g, 0), _pct(oati_grad_por_grupo.get(g, 0), grad_por_grupo.get(g, 0))] for g in GRUPOS_EGRESADOS]
+    tg, to = sum(grad_por_grupo.get(g, 0) for g in GRUPOS_EGRESADOS), sum(oati_grad_por_grupo.get(g, 0) for g in GRUPOS_EGRESADOS)
+    cob.append(["Total", tg, to, _pct(to, tg)])
     anios = ["2022", "2023", "2024", "2025", "2026"]
     cob_anio = []
-    for g in (etiqueta, "Plan anterior (sin modalidad)"):
-        for a in anios:
-            nc = sum(1 for gg, y in graduados.values() if gg == g and y == int(a))
-            no = sum(1 for p in personas if p["grupo"] == g and p["estado"] == "Graduado" and p["anio_grado"] == int(a))
-            cob_anio.append([g, a, nc, no, _pct(no, nc)])
+    for a in anios:
+        nc = sum(1 for gg, y in graduados.values() if gg == etiqueta and y == int(a))
+        no = sum(1 for p in propios if p["estado"] == "Graduado" and p["anio_grado"] == int(a))
+        cob_anio.append([etiqueta, a, nc, no, _pct(no, nc)])
 
-    # Perfil por persona (anónimo y grueso: sin nombre, documento ni empleador)
+    # Perfil por persona (anónimo y grueso: sin nombre, documento, empleador ni cargo)
     perfil = []
     for i, p in enumerate(sorted(propios, key=lambda x: (x["anio_grado"] or 0, x["enfasis"] or "")), 1):
         perfil.append([f"E-{i:03d}", p["enfasis"] or "—", p["estado"], p["anio_grado"] or "—",
@@ -773,36 +818,67 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
                 c[s] += 1
         return [[s, n] for s, n in c.most_common()]
 
-    inst = Counter()
-    for p in personas:
+    inst, inst_doc = Counter(), Counter()
+    for p in propios:
         for i in p["inst_prof"]:
             inst[i] += 1
-    inst_doc = Counter()
-    for p in personas:
         for i in p["inst_doc"]:
             inst_doc[i] += 1
 
+    enc = analizar_encuesta_egresados(next(fdir.glob("Caracteriz*(1-18).xlsx"), fdir / ARCHIVO_ENCUESTA_EGRESADOS), etiqueta)
+
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 4 · Egresados — caracterización e impacto — {mod['programa']}",
-                 f"Análisis de la base «Hoja de Vida de Egresados» del módulo institucional de la OATI ({extra['hojas']['datos basicos']} registros, {len(personas)} egresados distintos) separada por modalidad. "
-                 "El archivo fuente (con nombres, documentos y fechas de nacimiento) se resguarda y no se publica.")
+                 f"Hoja de Vida de Egresados del módulo institucional de la OATI ({len(propios)} egresados de {etiqueta}) y encuesta de caracterización e impacto.")
     fila = encabezado_factor(ws, 4, 4, m)
-    fila = st.kpis(ws, fila, [("Egresados OATI (total)", len(personas)), (f"Egresados de {etiqueta}", len(propios)),
-                              ("Plan anterior (sin modalidad)", len(ante)), ("Sin registro en Cóndor", len(grupos["Sin registro en Cóndor"])),
-                              (f"Con experiencia profesional ({etiqueta})", f"{_pct(sum(1 for p in propios if p['n_prof']), len(propios))}"),
-                              (f"Docentes actuales ({etiqueta})", sum(1 for p in propios if p["docente_actual"])),
-                              (f"Con ponencias o patentes ({etiqueta})", sum(1 for p in propios if p["prod"])),
-                              (f"Cobertura OATI {etiqueta} 2022-2026",
-                               f"{sum(x[3] for x in cob_anio if x[0] == etiqueta)}/{sum(x[2] for x in cob_anio if x[0] == etiqueta)}")])
-    st.nota(ws, fila + 1, "La modalidad se obtiene cruzando el documento de cada egresado con Cóndor y las bases MCIC. "
-            f"{len(ante)} de {len(personas)} egresados terminaron en el plan anterior (énfasis 95-495), antes de que existieran Investigación y Profundización, por lo que no se pueden separar: "
-            "se muestran como «Plan anterior (sin modalidad)» en ambos libros. La base incluye también personas que hoy están matriculadas, inactivas o suspendidas (docentes y otros), identificadas en la columna «Estado». "
-            f"Con {len(propios)} egresados de {etiqueta} los porcentajes son indicativos.")
+    kpis = [(f"Egresados de {etiqueta} (OATI)", len(propios)),
+            ("Con experiencia profesional", _pct(sum(1 for p in propios if p["n_prof"]), len(propios))),
+            ("Docentes actuales", sum(1 for p in propios if p["docente_actual"])),
+            ("Con ponencias o patentes", sum(1 for p in propios if p["prod"])),
+            ("Cobertura OATI 2022-2026", f"{sum(x[3] for x in cob_anio)}/{sum(x[2] for x in cob_anio)}")]
+    if enc and enc["n"]:
+        recom = sum(v for x, v in enc["recomienda"].items() if x in ("Definitivamente sí", "Probablemente sí"))
+        alto = next((r for r in enc["aporte"] if r[0].lower().startswith("desarrollo profesional")), None)
+        kpis += [("Respuestas a la encuesta de impacto", enc["n"]), ("Recomendarían la MCIC", _pct(recom, enc["n"])),
+                 ("Aporte alto o muy alto al desarrollo profesional", alto[-1] if alto else "—")]
+    fila = st.kpis(ws, fila, kpis)
     for col in "ABCDEFGH":
         ws.column_dimensions[col].width = 18
 
-    ws = st.hoja(wb, "Indicadores", "Indicadores de impacto por modalidad (conteo de personas)", f"Columna «% {etiqueta}»: porcentaje sobre los egresados de {etiqueta}.", 7)
-    st.tabla(ws, 4, ["Indicador"] + GRUPOS_EGRESADOS + ["Total OATI", f"% {etiqueta}"], filas_ind, [58, 16, 16, 20, 18, 14, 14], filtro=False)
+    ws = st.hoja(wb, "Indicadores", "Indicadores de impacto por modalidad (conteo de personas)",
+                 f"Investigación incluye a los egresados del plan anterior. Columna «% {etiqueta}»: porcentaje sobre los egresados de {etiqueta}.", 5)
+    st.tabla(ws, 4, ["Indicador"] + GRUPOS_EGRESADOS + ["Total OATI", f"% {etiqueta}"], filas_ind, [58, 16, 16, 14, 14], filtro=False)
+
+    if enc and enc["n"]:
+        n = enc["n"]
+        ws = st.hoja(wb, "Encuesta de impacto", f"Encuesta de caracterización e impacto de egresados — {etiqueta}",
+                     f"{n} respuestas de egresados de {etiqueta}. Sin nombres, documentos ni organizaciones; el texto libre no se publica.", 8)
+        f2 = 4
+
+        def bloque(titulo, filas_):
+            nonlocal f2
+            f2 = st.seccion(ws, f2, titulo, 8)
+            f2 = st.tabla(ws, f2, ["Respuesta", "Egresados", "%"], [[k, v, _pct(v, n)] for k, v in filas_], filtro=False, congelar=False)
+        bloque("Año de graduación", [(str(a), v) for a, v in enc["anios"]])
+        bloque("Énfasis", enc["enfasis"])
+        bloque("Grupo de investigación del trabajo de grado", enc["grupos"])
+        bloque("Situación principal actual", enc["situacion"])
+        bloque("Sector en el que se desempeña", enc["sector"])
+        bloque("Nivel de responsabilidad del cargo", enc["nivel"])
+        bloque("Relación de la actividad actual con la formación recibida", enc["relacion"])
+        f2 = st.seccion(ws, f2, "Aporte de la MCIC a su desarrollo (número de egresados por nivel)", 8)
+        f2 = st.tabla(ws, f2, ["Dimensión"] + NIVELES_APORTE + ["% Alto o Muy alto"], enc["aporte"], filtro=False, congelar=False)
+        bloque("Actividades después de graduarse (selección múltiple)", enc["actividades"])
+        bloque("Formación continuada después de graduarse (selección múltiple)", enc["formacion"])
+        bloque("Pertenece o ha pertenecido a un grupo de investigación", enc["grupo_inv"])
+        bloque("Ha publicado productos académicos o científicos después de graduarse", enc["publicaciones"])
+        f2 = st.seccion(ws, f2, "Valoración de la formación (escala 1 a 5)", 8)
+        f2 = st.tabla(ws, f2, ["Aspecto", "Promedio", "Respuestas"], enc["valoracion"], filtro=False, congelar=False)
+        bloque("¿Recomendaría la MCIC a otros profesionales?", enc["recomienda"].most_common())
+        bloque("¿Ha generado algún impacto en su entorno a partir de su formación?", enc["impacto"])
+        ws.column_dimensions["A"].width = 64
+        for c_ in "BCDEFGH":
+            ws.column_dimensions[c_].width = 14
 
     ws = st.hoja(wb, "Perfil egresados", f"Perfil de los egresados de {etiqueta} (anónimo)",
                  "Un registro por persona con identificador interno (E-001…). No incluye nombre, documento, empleador ni cargo; la relación persona–identificador no se publica.", 15)
@@ -815,32 +891,21 @@ def factor4(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
     f2 = st.seccion(ws, 4, f"Vinculación actual — {etiqueta}", 4)
     f2 = st.tabla(ws, f2, ["Sector estimado", "Egresados"], tabla_sector(propios, "sector_actual") or [["Sin vinculación actual registrada", 0]], [46, 14], filtro=False, congelar=False)
     f2 = st.seccion(ws, f2, f"Trayectoria profesional (todas las experiencias) — {etiqueta}", 4)
-    f2 = st.tabla(ws, f2, ["Sector estimado", "Egresados con experiencia"], tabla_sector(propios, "sectores_hist") or [["—", 0]], [46, 14], filtro=False, congelar=False)
-    f2 = st.seccion(ws, f2, "Plan anterior (compartido) — trayectoria profesional", 4)
-    f2 = st.tabla(ws, f2, ["Sector estimado", "Egresados con experiencia"], tabla_sector(ante, "sectores_hist"), [46, 14], filtro=False, congelar=False)
+    st.tabla(ws, f2, ["Sector estimado", "Egresados con experiencia"], tabla_sector(propios, "sectores_hist") or [["—", 0]], [46, 14], filtro=False, congelar=False)
 
-    ws = st.hoja(wb, "Instituciones", "Instituciones donde han trabajado o dictado docencia los egresados (todas las modalidades)",
+    ws = st.hoja(wb, "Instituciones", f"Instituciones donde han trabajado o dictado docencia los egresados de {etiqueta}",
                  "Conteo de egresados distintos por institución (las 25 principales con 2 o más egresados); no se asocia a personas.", 4)
-    f2 = st.tabla(ws, 4, ["Experiencia profesional — institución", "Egresados"], [[i, n] for i, n in inst.most_common(25) if n >= 2], [60, 12], filtro=False, congelar=False)
-    st.tabla(ws, f2, ["Docencia — institución", "Egresados"], [[i, n] for i, n in inst_doc.most_common(25) if n >= 2], [60, 12], filtro=False, congelar=False)
+    f2 = st.tabla(ws, 4, ["Experiencia profesional — institución", "Egresados"], [[i, n_] for i, n_ in inst.most_common(25) if n_ >= 2], [60, 12], filtro=False, congelar=False)
+    st.tabla(ws, f2, ["Docencia — institución", "Egresados"], [[i, n_] for i, n_ in inst_doc.most_common(25) if n_ >= 2], [60, 12], filtro=False, congelar=False)
 
     ws = st.hoja(wb, "Cobertura", "Cobertura de la Hoja de Vida de Egresados frente a los graduados de Cóndor",
                  "Meta 2026-2027: al menos el 50 % de los egresados con información actualizada en el módulo de Hoja de Vida (OATI). Graduados de Cóndor = documentos distintos con estado Graduado.", 5)
     f2 = st.tabla(ws, 4, ["Grupo", "Graduados (Cóndor)", "Con Hoja de Vida (OATI)", "Cobertura"], cob, [34, 20, 24, 12], filtro=False, congelar=False)
-    f2 = st.seccion(ws, f2, f"Graduados por año de grado estimado (última matrícula) — {etiqueta} y plan anterior", 5)
+    f2 = st.seccion(ws, f2, f"Graduados por año de grado estimado (última matrícula) — {etiqueta}", 5)
     st.tabla(ws, f2, ["Grupo", "Año", "Graduados (Cóndor)", "Con Hoja de Vida (OATI)", "Cobertura"], cob_anio, [34, 8, 20, 24, 12], filtro=False, congelar=False)
 
-    ws = st.hoja(wb, "Alcance y límites", "Qué se rescató de la base y qué no", None, 3)
-    lim = [
-        ["Fuente", "HojaVidaEgresados.xlsx (OATI): 7 hojas — datos básicos, experiencia docente, experiencia profesional, grupos de investigación, productos de investigación, publicación de obras y segunda lengua. "
-                   f"Registros: {extra['hojas']}."],
-        ["Qué sí aporta", "Trayectoria profesional y docente, vinculación laboral marcada como actual, participación en grupos/proyectos, ponencias y patentes, y nivel de segunda lengua. Permite caracterizar el impacto profesional, académico y científico."],
-        ["Qué no aporta", "El sector en el que laboran hoy los egresados 2022-2026 (el formulario pedido a la OATI sigue pendiente), fechas de actualización de la hoja de vida y datos de contacto vigentes."],
-        ["Separación por modalidad", "Cruce por documento con Cóndor y las bases MCIC. Los egresados del plan anterior y los que no aparecen en Cóndor no tienen modalidad."],
-        ["Privacidad", "Este informe no incluye nombres, documentos, fechas de nacimiento, correos ni teléfonos; las instituciones se agregan sin asociarlas a personas."],
-        ["Calidad de los datos", "El tipo de entidad (pública/privada/mixta) viene del registro del propio egresado y tiene inconsistencias; el sector es una estimación por palabras clave."],
-    ]
-    st.tabla(ws, 3, ["Tema", "Detalle"], lim, [28, 130], filtro=False, congelar=False)
+    ws = st.hoja(wb, "Privacidad", "Privacidad", None, 2)
+    st.tabla(ws, 3, ["Tema", "Detalle"], [["Privacidad", "Este informe no incluye nombres, documentos, fechas de nacimiento, correos ni teléfonos; las instituciones se agregan sin asociarlas a personas."]], [28, 130], filtro=False, congelar=False)
 
     act = dest / "e. Caracterización e impacto de los egresados"
     act.mkdir(parents=True, exist_ok=True)
@@ -1134,13 +1199,12 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
     grad = Counter()
     for r in ROSTER:
         if r["estado"] == "Graduado" and r["ultima"][:4].isdigit() and 2022 <= int(r["ultima"][:4]) <= 2026:
-            mm, _ = modalidad_de(r["codigo"])
-            grad[(mm or "Sin modalidad registrada", r["ultima"][:4])] += 1
+            mm = modalidad_con_plan_anterior(r["codigo"])
+            grad[(mm or "Otro programa", r["ultima"][:4])] += 1
     anios = ["2022", "2023", "2024", "2025", "2026"]
     grad_filas = []
-    for mm in (etiqueta, "Sin modalidad registrada"):
-        vals = [grad.get((mm, a), 0) for a in anios]
-        grad_filas.append([mm] + vals + [sum(vals)])
+    vals = [grad.get((etiqueta, a), 0) for a in anios]
+    grad_filas.append([etiqueta] + vals + [sum(vals)])
 
     norma = openpyxl.load_workbook(f6 / "Normativa_PAGOT_UD.xlsx", data_only=True)["Normativa PAGOT"]
     normas = []
@@ -1159,7 +1223,7 @@ def factor6(nombre_mod: str, mod: dict, dest: Path, tr: dict, m: dict) -> list[s
                               ("Convocados a acompañamiento", conv_mod.get(etiqueta, 0)), (f"Graduados 2022-2026", grad_filas[0][-1])])
     st.nota(ws, fila + 1, f"Solicitudes por ronda: {', '.join(f'{k} = {v}' for k, v in sorted(por_ronda.items()))}. {'Una estudiante radicó en dos rondas y cuenta una sola vez entre los estudiantes distintos. ' if len(filas) != unicos else ''}"
             "Modalidad: la del cuadro de la coordinación («Estudiantes Prórroga 2026-3»), contrastada con Cóndor y las bases MCIC (hoja «Cruces y alertas»). "
-            "Graduados: año estimado por la última matrícula en Cóndor; «Sin modalidad registrada» agrupa graduados del plan anterior (proyectos 195–495).")
+            "Graduados: año estimado por la última matrícula en Cóndor;  Investigación incluye a los graduados del plan anterior (proyectos 95–495).")
     for col in "ABCDEFGH":
         ws.column_dimensions[col].width = 17
 
@@ -1697,8 +1761,9 @@ def activos_por_enfasis() -> dict[tuple[str, str], Counter]:
         c, u = r["codigo"], r["ultima"]
         if len(c) != 11 or not re.match(r"\d{4}-\d", u):
             continue
-        mod, _ = modalidad_de(c)
-        grupo = mod or "Plan anterior (sin modalidad)"
+        grupo = modalidad_con_plan_anterior(c)
+        if grupo is None:
+            continue
         e = ENFASIS_POR_PROYECTO.get(c[5:8]) if c[5:8] in ("195", "295", "395", "495") else None
         e = e or enf.get(c) or "Sin énfasis registrado"
         if e == "Por Definir" or e == "Por definir":
@@ -1780,10 +1845,7 @@ def factor12(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
         if any(vals):
             filas.append([ETIQUETA_ENFASIS.get(e, e)] + vals)
     total = [sum(f[1 + i] for f in filas) for i in range(len(ANIOS_ACTIVOS))]
-    ante = [sum(v[y] for (g, _e), v in tabla.items() if g == "Plan anterior (sin modalidad)") for y in ANIOS_ACTIVOS]
     filas_slide = filas + [["Total " + etiqueta] + total]
-    if any(ante):
-        filas_slide.append(["Plan anterior sin modalidad (aparte)"] + ante)
     nota = ("Estudiantes con matrícula vigente en el año (entre su ingreso y su última matrícula en Cóndor). Fuente: Cóndor y bases de datos MCIC. "
             "Un estudiante cuenta una vez por año; el énfasis es el de su plan de ingreso.")
     nombre_pptx = "Laboratorios Maestría - MIC.pptx"
@@ -1794,13 +1856,13 @@ def factor12(nombre_mod: str, mod: dict, dest: Path, m: dict) -> list[str]:
 
     wb = st.nuevo_libro()
     ws = st.hoja(wb, "Resumen", f"Factor 12 · Estudiantes activos por énfasis 2022-2026 — {mod['programa']}",
-                 "Soporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de las otras modalidades para contexto.")
+                 "Soporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios. Misma información que la diapositiva, más el detalle de la otra modalidad para contexto. Investigación incluye a los estudiantes del plan anterior.")
     fila = encabezado_factor(ws, 4, 12, m)
     fila = st.kpis(ws, fila, [(f"Activos {etiqueta} en 2026", total[-1]), (f"Activos {etiqueta} en 2022", total[0]),
-                              ("Plan anterior sin modalidad en 2022", ante[0]), ("Énfasis con estudiantes", len(filas))])
+                              ("Énfasis con estudiantes", len(filas))])
     fila = st.seccion(ws, fila + 1, f"Estudiantes activos por énfasis — {etiqueta}")
     fila = st.tabla(ws, fila, ["Énfasis"] + [str(y) for y in ANIOS_ACTIVOS], filas_slide, [38] + [10] * 5, filtro=False, congelar=False)
-    for g in ("Investigación", "Profundización", "Plan anterior (sin modalidad)"):
+    for g in ("Investigación", "Profundización"):
         if g == etiqueta:
             continue
         fila = st.seccion(ws, fila, f"Contexto — {g}")
