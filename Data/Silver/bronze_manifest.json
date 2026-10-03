@@ -1685,8 +1685,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-    "tamano_bytes": 17782,
-    "tamano_legible": "17.4 KB",
+    "tamano_bytes": 18045,
+    "tamano_legible": "17.6 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -1700,13 +1700,13 @@
     "modalidad": "profundizacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEPMaestriaEnCienciasDeLaInformaciónYLasComunicacionesComponenteProfundizacion_13Enero202.pdf",
-    "nombre": "PEPMaestriaEnCienciasDeLaInformaciónYLasComunicacionesComponenteProfundizacion_13Enero202.pdf",
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Profundización.pdf",
+    "nombre": "PEP MCIC Profundización.pdf",
     "extension": "pdf",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 1121636,
-    "tamano_legible": "1.1 MB",
+    "tamano_bytes": 17317656,
+    "tamano_legible": "16.5 MB",
     "modalidad": "profundizacion"
   },
   {
@@ -1765,7 +1765,7 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/b. Consolidación de propuesta de medios educativos",
-    "tamano_bytes": 11386,
+    "tamano_bytes": 11385,
     "tamano_legible": "11.1 KB",
     "modalidad": "profundizacion"
   },
@@ -1875,7 +1875,7 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes",
-    "tamano_bytes": 9962,
+    "tamano_bytes": 9960,
     "tamano_legible": "9.7 KB",
     "modalidad": "profundizacion"
   },
@@ -1900,13 +1900,23 @@
     "modalidad": "profundizacion"
   },
   {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
+    "nombre": "F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
+    "tamano_bytes": 7000,
+    "tamano_legible": "6.8 KB",
+    "modalidad": "profundizacion"
+  },
+  {
     "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Profundizacion.xlsx",
     "nombre": "F12_Laboratorios_y_Software_Profundizacion.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-    "tamano_bytes": 10086,
-    "tamano_legible": "9.8 KB",
+    "tamano_bytes": 10175,
+    "tamano_legible": "9.9 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -1915,7 +1925,7 @@
     "extension": "pptx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-    "tamano_bytes": 1232970,
+    "tamano_bytes": 1235813,
     "tamano_legible": "1.2 MB",
     "modalidad": "profundizacion"
   },
@@ -2015,7 +2025,7 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 768301,
+    "tamano_bytes": 768297,
     "tamano_legible": "750.3 KB",
     "modalidad": "profundizacion"
   },
@@ -2075,18 +2085,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-    "tamano_bytes": 17938,
-    "tamano_legible": "17.5 KB",
-    "modalidad": "profundizacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-    "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC-PROFUNDIZACION",
-    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
-    "tamano_bytes": 293770,
-    "tamano_legible": "286.9 KB",
+    "tamano_bytes": 18014,
+    "tamano_legible": "17.6 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2097,6 +2097,16 @@
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
     "tamano_bytes": 15316937,
     "tamano_legible": "14.6 MB",
+    "modalidad": "profundizacion"
+  },
+  {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/acu_2024-004 Politica Egresados.pdf",
+    "nombre": "acu_2024-004 Politica Egresados.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 1250351,
+    "tamano_legible": "1.2 MB",
     "modalidad": "profundizacion"
   },
   {
@@ -2385,7 +2395,7 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-    "tamano_bytes": 13693,
+    "tamano_bytes": 13695,
     "tamano_legible": "13.4 KB",
     "modalidad": "ambas"
   },
@@ -2425,8 +2435,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-    "tamano_bytes": 66715,
-    "tamano_legible": "65.2 KB",
+    "tamano_bytes": 64563,
+    "tamano_legible": "63.0 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2475,8 +2485,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-    "tamano_bytes": 66296,
-    "tamano_legible": "64.7 KB",
+    "tamano_bytes": 64193,
+    "tamano_legible": "62.7 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2495,8 +2505,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-    "tamano_bytes": 67892,
-    "tamano_legible": "66.3 KB",
+    "tamano_bytes": 65925,
+    "tamano_legible": "64.4 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2605,8 +2615,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Inteligencia Artificial",
-    "tamano_bytes": 67401,
-    "tamano_legible": "65.8 KB",
+    "tamano_bytes": 65263,
+    "tamano_legible": "63.7 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2645,8 +2655,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Teleinformática",
-    "tamano_bytes": 72410,
-    "tamano_legible": "70.7 KB",
+    "tamano_bytes": 69323,
+    "tamano_legible": "67.7 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2685,8 +2695,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-    "tamano_bytes": 15951,
-    "tamano_legible": "15.6 KB",
+    "tamano_bytes": 13133,
+    "tamano_legible": "12.8 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2755,7 +2765,7 @@
     "extension": "pdf",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
-    "tamano_bytes": 81937,
+    "tamano_bytes": 81939,
     "tamano_legible": "80.0 KB",
     "modalidad": "profundizacion"
   },
@@ -2765,8 +2775,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
-    "tamano_bytes": 11261,
-    "tamano_legible": "11.0 KB",
+    "tamano_bytes": 11539,
+    "tamano_legible": "11.3 KB",
     "modalidad": "profundizacion"
   },
   {
@@ -2960,12 +2970,22 @@
     "modalidad": "ambas"
   },
   {
+    "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+    "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC-PROFUNDIZACION",
+    "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+    "tamano_bytes": 43499,
+    "tamano_legible": "42.5 KB",
+    "modalidad": "ambas"
+  },
+  {
     "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
     "nombre": "F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "MCIC-PROFUNDIZACION",
     "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-    "tamano_bytes": 23972,
+    "tamano_bytes": 24012,
     "tamano_legible": "23.4 KB",
     "modalidad": "ambas"
   },
@@ -3095,8 +3115,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-    "tamano_bytes": 20804,
-    "tamano_legible": "20.3 KB",
+    "tamano_bytes": 21099,
+    "tamano_legible": "20.6 KB",
     "modalidad": "investigacion"
   },
   {
@@ -3110,13 +3130,13 @@
     "modalidad": "investigacion"
   },
   {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.pdf",
-    "nombre": "PEP-MCIC-INV-V2.pdf",
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Investigación.pdf",
+    "nombre": "PEP MCIC Investigación.pdf",
     "extension": "pdf",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-    "tamano_bytes": 1108021,
-    "tamano_legible": "1.1 MB",
+    "tamano_bytes": 15094547,
+    "tamano_legible": "14.4 MB",
     "modalidad": "investigacion"
   },
   {
@@ -3920,13 +3940,23 @@
     "modalidad": "investigacion"
   },
   {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+    "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
+    "tamano_bytes": 6992,
+    "tamano_legible": "6.8 KB",
+    "modalidad": "investigacion"
+  },
+  {
     "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
     "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-    "tamano_bytes": 10082,
-    "tamano_legible": "9.8 KB",
+    "tamano_bytes": 10173,
+    "tamano_legible": "9.9 KB",
     "modalidad": "investigacion"
   },
   {
@@ -3935,7 +3965,7 @@
     "extension": "pptx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-    "tamano_bytes": 1232970,
+    "tamano_bytes": 1235814,
     "tamano_legible": "1.2 MB",
     "modalidad": "investigacion"
   },
@@ -4035,7 +4065,7 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-    "tamano_bytes": 769386,
+    "tamano_bytes": 769383,
     "tamano_legible": "751.4 KB",
     "modalidad": "investigacion"
   },
@@ -4095,18 +4125,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-    "tamano_bytes": 17934,
-    "tamano_legible": "17.5 KB",
-    "modalidad": "investigacion"
-  },
-  {
-    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-    "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-    "extension": "pdf",
-    "carpeta_raiz": "MCIC.INVESTIGACION",
-    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
-    "tamano_bytes": 293770,
-    "tamano_legible": "286.9 KB",
+    "tamano_bytes": 18011,
+    "tamano_legible": "17.6 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4120,12 +4140,22 @@
     "modalidad": "investigacion"
   },
   {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/acu_2024-004 Politica Egresados.pdf",
+    "nombre": "acu_2024-004 Politica Egresados.pdf",
+    "extension": "pdf",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+    "tamano_bytes": 1250351,
+    "tamano_legible": "1.2 MB",
+    "modalidad": "investigacion"
+  },
+  {
     "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Investigacion.xlsx",
     "nombre": "F4_Egresados_Impacto_Investigacion.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-    "tamano_bytes": 26963,
+    "tamano_bytes": 26959,
     "tamano_legible": "26.3 KB",
     "modalidad": "investigacion"
   },
@@ -4405,7 +4435,7 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-    "tamano_bytes": 13693,
+    "tamano_bytes": 13695,
     "tamano_legible": "13.4 KB",
     "modalidad": "ambas"
   },
@@ -4445,8 +4475,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-    "tamano_bytes": 66715,
-    "tamano_legible": "65.2 KB",
+    "tamano_bytes": 64563,
+    "tamano_legible": "63.0 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4495,8 +4525,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-    "tamano_bytes": 66296,
-    "tamano_legible": "64.7 KB",
+    "tamano_bytes": 64193,
+    "tamano_legible": "62.7 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4515,8 +4545,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-    "tamano_bytes": 67892,
-    "tamano_legible": "66.3 KB",
+    "tamano_bytes": 65925,
+    "tamano_legible": "64.4 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4625,8 +4655,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Inteligencia Artificial",
-    "tamano_bytes": 67401,
-    "tamano_legible": "65.8 KB",
+    "tamano_bytes": 65263,
+    "tamano_legible": "63.7 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4665,8 +4695,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Teleinformática",
-    "tamano_bytes": 72410,
-    "tamano_legible": "70.7 KB",
+    "tamano_bytes": 69323,
+    "tamano_legible": "67.7 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4705,8 +4735,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-    "tamano_bytes": 17969,
-    "tamano_legible": "17.5 KB",
+    "tamano_bytes": 14486,
+    "tamano_legible": "14.1 KB",
     "modalidad": "investigacion"
   },
   {
@@ -4775,7 +4805,7 @@
     "extension": "pdf",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
-    "tamano_bytes": 81937,
+    "tamano_bytes": 81939,
     "tamano_legible": "80.0 KB",
     "modalidad": "investigacion"
   },
@@ -4785,8 +4815,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
-    "tamano_bytes": 11259,
-    "tamano_legible": "11.0 KB",
+    "tamano_bytes": 11540,
+    "tamano_legible": "11.3 KB",
     "modalidad": "investigacion"
   },
   {
@@ -5280,12 +5310,22 @@
     "modalidad": "investigacion"
   },
   {
+    "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+    "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+    "extension": "xlsx",
+    "carpeta_raiz": "MCIC.INVESTIGACION",
+    "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+    "tamano_bytes": 43499,
+    "tamano_legible": "42.5 KB",
+    "modalidad": "investigacion"
+  },
+  {
     "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
     "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
     "extension": "xlsx",
     "carpeta_raiz": "MCIC.INVESTIGACION",
     "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-    "tamano_bytes": 29702,
+    "tamano_bytes": 29744,
     "tamano_legible": "29.0 KB",
     "modalidad": "investigacion"
   },
@@ -5945,8 +5985,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "Syllabus",
     "carpeta_contenedora": "Syllabus/EnfGeomatica",
-    "tamano_bytes": 66715,
-    "tamano_legible": "65.2 KB",
+    "tamano_bytes": 64563,
+    "tamano_legible": "63.0 KB",
     "modalidad": "general"
   },
   {
@@ -5995,8 +6035,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "Syllabus",
     "carpeta_contenedora": "Syllabus/EnfGeomatica",
-    "tamano_bytes": 66296,
-    "tamano_legible": "64.7 KB",
+    "tamano_bytes": 64193,
+    "tamano_legible": "62.7 KB",
     "modalidad": "general"
   },
   {
@@ -6015,8 +6055,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "Syllabus",
     "carpeta_contenedora": "Syllabus/EnfGeomatica",
-    "tamano_bytes": 67892,
-    "tamano_legible": "66.3 KB",
+    "tamano_bytes": 65925,
+    "tamano_legible": "64.4 KB",
     "modalidad": "general"
   },
   {
@@ -6125,8 +6165,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "Syllabus",
     "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
-    "tamano_bytes": 67401,
-    "tamano_legible": "65.8 KB",
+    "tamano_bytes": 65263,
+    "tamano_legible": "63.7 KB",
     "modalidad": "general"
   },
   {
@@ -6165,8 +6205,8 @@
     "extension": "xlsx",
     "carpeta_raiz": "Syllabus",
     "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
-    "tamano_bytes": 72410,
-    "tamano_legible": "70.7 KB",
+    "tamano_bytes": 69323,
+    "tamano_legible": "67.7 KB",
     "modalidad": "general"
   },
   {

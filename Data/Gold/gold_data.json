@@ -219,9 +219,9 @@
                   "tamano_legible": "1.6 MB"
                 },
                 {
-                  "nombre": "PEP-MCIC-INV-V2.pdf",
-                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.pdf",
-                  "tamano_legible": "1.1 MB"
+                  "nombre": "PEP MCIC Investigación.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Investigación.pdf",
+                  "tamano_legible": "14.4 MB"
                 }
               ],
               "anexos": []
@@ -476,7 +476,7 @@
                 {
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
-                  "tamano_legible": "17.5 KB"
+                  "tamano_legible": "17.6 KB"
                 }
               ],
               "anexos": [
@@ -591,14 +591,14 @@
               "nombre": "a. Servicios",
               "archivos": [
                 {
-                  "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-                  "tamano_legible": "286.9 KB"
-                },
-                {
                   "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
                   "tamano_legible": "14.6 MB"
+                },
+                {
+                  "nombre": "acu_2024-004 Politica Egresados.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/acu_2024-004 Politica Egresados.pdf",
+                  "tamano_legible": "1.2 MB"
                 }
               ],
               "anexos": []
@@ -1068,7 +1068,7 @@
                 {
                   "nombre": "Análisis espacial.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Análisis espacial.xlsx",
-                  "tamano_legible": "65.2 KB"
+                  "tamano_legible": "63.0 KB"
                 },
                 {
                   "nombre": "Bases de datos espaciales.xlsx",
@@ -1093,7 +1093,7 @@
                 {
                   "nombre": "Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
-                  "tamano_legible": "64.7 KB"
+                  "tamano_legible": "62.7 KB"
                 },
                 {
                   "nombre": "Servicios geográficos web.xlsx",
@@ -1103,7 +1103,7 @@
                 {
                   "nombre": "Sistemas de posicionamiento geodésico.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Sistemas de posicionamiento geodésico.xlsx",
-                  "tamano_legible": "66.3 KB"
+                  "tamano_legible": "64.4 KB"
                 },
                 {
                   "nombre": "Bases de datos.xlsx",
@@ -1158,7 +1158,7 @@
                 {
                   "nombre": "Inteligencia de negocios.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Inteligencia Artificial/Inteligencia de negocios.xlsx",
-                  "tamano_legible": "65.8 KB"
+                  "tamano_legible": "63.7 KB"
                 },
                 {
                   "nombre": "Robótica.xlsx",
@@ -1178,7 +1178,7 @@
                 {
                   "nombre": "Modelado y Simulación de Redes.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Teleinformática/Modelado y Simulación de Redes.xlsx",
-                  "tamano_legible": "70.7 KB"
+                  "tamano_legible": "67.7 KB"
                 },
                 {
                   "nombre": "Política Sectorial y Regulación en Telecomunicaciones.xlsx",
@@ -1506,19 +1506,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": "Conocer y aplicar técnicas, metodologías de análisis y modelado espacial para la extracción de información a partir de datos espaciales y para la solución de problemas geográficos que sirvan de base en la toma de decisiones. OBJETIVOS ESPECÍFICOS: -Conocer e implementar las principales funciones de ",
-              "pfa_extracto": null,
+              "pfa_extracto": "Aplica técnicas de análisis espacial en modelos de datos vectoriales y raster.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
+                "Evaluación de habilidades prácticas",
                 "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación escrita",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Análisis espacial.xlsx",
               "nombre_archivo": "Análisis espacial.xlsx",
-              "tamano_bytes": 66715,
-              "tamano_legible": "65.2 KB",
+              "tamano_bytes": 64563,
+              "tamano_legible": "63.0 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -1596,19 +1596,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": "Objetivo general: Enseñar al estudiante de la Maestría en Ciencias de la Información y Comunicaciones (Énfasis en Geomática) elementos científicos del Posicionamiento. Geodésico, que le garanticen un conocimiento teórico y práctico de GNSS y sus aplicaciones en Ciencias de la Tierra. OBJETIVOS ESPEC",
-              "pfa_extracto": null,
+              "pfa_extracto": "Fundamenta matemática y conceptualmente el posicionamiento satelital GNSS.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
-                "Evaluación oral o presentaciones",
+                "Evaluación de habilidades prácticas",
                 "Evaluación escrita",
+                "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Sistemas de posicionamiento geodésico.xlsx",
               "nombre_archivo": "Sistemas de posicionamiento geodésico.xlsx",
-              "tamano_bytes": 67892,
-              "tamano_legible": "66.3 KB",
+              "tamano_bytes": 65925,
+              "tamano_legible": "64.4 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -1686,19 +1686,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": null,
-              "pfa_extracto": null,
+              "pfa_extracto": "Comprende los fundamentos de la fotogrametría digital y de las imágenes que utiliza.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
-                "Evaluación oral o presentaciones",
+                "Evaluación de habilidades prácticas",
                 "Evaluación escrita",
+                "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
               "nombre_archivo": "Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
-              "tamano_bytes": 66296,
-              "tamano_legible": "64.7 KB",
+              "tamano_bytes": 64193,
+              "tamano_legible": "62.7 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -1986,19 +1986,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": "Objetivo general: Proporcionar instrumentos analíticos que ayuden a resolver los principales problemas de negocio, la estrategia de inteligencia integral de negocios en una organización y su aplicación. OBJETIVOS ESPECÍFICOS: Objetivos específicos: 1. El alumno será capaz de diseñar e implantar estr",
-              "pfa_extracto": null,
+              "pfa_extracto": "Comprende la inteligencia de negocios como metodología de soporte a la toma de decisiones.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación escrita",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
+                "Evaluación de habilidades prácticas",
+                "Evaluación escrita",
                 "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Inteligencia de negocios.xlsx",
               "nombre_archivo": "Inteligencia de negocios.xlsx",
-              "tamano_bytes": 67401,
-              "tamano_legible": "65.8 KB",
+              "tamano_bytes": 65263,
+              "tamano_legible": "63.7 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -2136,19 +2136,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": null,
-              "pfa_extracto": null,
+              "pfa_extracto": "Formula modelos matemáticos de redes de comunicaciones.",
               "evaluacion_tipos": [
                 "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
-                "Evaluación oral o presentaciones",
+                "Evaluación de habilidades prácticas",
                 "Evaluación escrita",
+                "Evaluación oral o presentaciones",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Modelado y Simulación de Redes.xlsx",
               "nombre_archivo": "Modelado y Simulación de Redes.xlsx",
-              "tamano_bytes": 72410,
-              "tamano_legible": "70.7 KB",
+              "tamano_bytes": 69323,
+              "tamano_legible": "67.7 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -2328,7 +2328,7 @@
                 {
                   "nombre": "F6_Permanencia_y_Graduacion_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Investigacion.xlsx",
-                  "tamano_legible": "17.5 KB"
+                  "tamano_legible": "14.1 KB"
                 },
                 {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -2424,7 +2424,7 @@
                 {
                   "nombre": "F7_Convenios_URELINTER_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Investigacion.xlsx",
-                  "tamano_legible": "11.0 KB"
+                  "tamano_legible": "11.3 KB"
                 }
               ],
               "anexos": [
@@ -2882,6 +2882,11 @@
               "nombre": "b. Socialización y vinculación de actividades de investigación",
               "archivos": [
                 {
+                  "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+                  "tamano_legible": "42.5 KB"
+                },
+                {
                   "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
                   "tamano_legible": "29.0 KB"
@@ -3086,7 +3091,7 @@
               ]
             }
           ],
-          "total_archivos": 43
+          "total_archivos": 44
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -5125,9 +5130,14 @@
               "nombre": "c. Socialización con la comunidad académica de acciones y avances",
               "archivos": [
                 {
+                  "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+                  "tamano_legible": "6.8 KB"
+                },
+                {
                   "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
-                  "tamano_legible": "9.8 KB"
+                  "tamano_legible": "9.9 KB"
                 },
                 {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
@@ -5138,7 +5148,83 @@
               "anexos": []
             }
           ],
-          "total_archivos": 4
+          "total_archivos": 5
+        },
+        "datos_impacto_estudiantes": {
+          "periodo": "2022-2026",
+          "modalidad_etiqueta": "Investigación (incluye plan anterior)",
+          "criterio": "Estudiantes con matrícula vigente en el año (entre el año de ingreso y el de la última matrícula en Cóndor); únicos = personas distintas con al menos un año activo. El plan anterior se cuenta en Investigación.",
+          "fuente": "Data/Bronze/Estados (Cóndor) y bases de datos MCIC",
+          "unicos_2022_2026": 245,
+          "por_anio": {
+            "2022": 209,
+            "2023": 158,
+            "2024": 140,
+            "2025": 121,
+            "2026": 96
+          },
+          "por_enfasis": [
+            {
+              "enfasis": "Teleinformática",
+              "por_anio": {
+                "2022": 54,
+                "2023": 43,
+                "2024": 39,
+                "2025": 26,
+                "2026": 21
+              }
+            },
+            {
+              "enfasis": "Sistemas de Información",
+              "por_anio": {
+                "2022": 4,
+                "2023": 1,
+                "2024": 1,
+                "2025": 0,
+                "2026": 0
+              }
+            },
+            {
+              "enfasis": "Geomática",
+              "por_anio": {
+                "2022": 58,
+                "2023": 39,
+                "2024": 34,
+                "2025": 26,
+                "2026": 18
+              }
+            },
+            {
+              "enfasis": "Ingeniería de Software",
+              "por_anio": {
+                "2022": 92,
+                "2023": 75,
+                "2024": 61,
+                "2025": 58,
+                "2026": 38
+              }
+            },
+            {
+              "enfasis": "Inteligencia Artificial",
+              "por_anio": {
+                "2022": 0,
+                "2023": 0,
+                "2024": 5,
+                "2025": 11,
+                "2026": 15
+              }
+            },
+            {
+              "enfasis": "Sin énfasis definido aún",
+              "por_anio": {
+                "2022": 1,
+                "2023": 0,
+                "2024": 0,
+                "2025": 0,
+                "2026": 4
+              }
+            }
+          ]
         }
       }
     ],
@@ -5228,9 +5314,9 @@
                   "tamano_legible": "1.6 MB"
                 },
                 {
-                  "nombre": "PEPMaestriaEnCienciasDeLaInformaciónYLasComunicacionesComponenteProfundizacion_13Enero202.pdf",
-                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEPMaestriaEnCienciasDeLaInformaciónYLasComunicacionesComponenteProfundizacion_13Enero202.pdf",
-                  "tamano_legible": "1.1 MB"
+                  "nombre": "PEP MCIC Profundización.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Profundización.pdf",
+                  "tamano_legible": "16.5 MB"
                 }
               ],
               "anexos": []
@@ -5485,7 +5571,7 @@
                 {
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
-                  "tamano_legible": "17.5 KB"
+                  "tamano_legible": "17.6 KB"
                 }
               ],
               "anexos": [
@@ -5600,14 +5686,14 @@
               "nombre": "a. Servicios",
               "archivos": [
                 {
-                  "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-                  "tamano_legible": "286.9 KB"
-                },
-                {
                   "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
                   "tamano_legible": "14.6 MB"
+                },
+                {
+                  "nombre": "acu_2024-004 Politica Egresados.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/acu_2024-004 Politica Egresados.pdf",
+                  "tamano_legible": "1.2 MB"
                 }
               ],
               "anexos": []
@@ -6077,7 +6163,7 @@
                 {
                   "nombre": "Análisis espacial.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Análisis espacial.xlsx",
-                  "tamano_legible": "65.2 KB"
+                  "tamano_legible": "63.0 KB"
                 },
                 {
                   "nombre": "Bases de datos espaciales.xlsx",
@@ -6102,7 +6188,7 @@
                 {
                   "nombre": "Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
-                  "tamano_legible": "64.7 KB"
+                  "tamano_legible": "62.7 KB"
                 },
                 {
                   "nombre": "Servicios geográficos web.xlsx",
@@ -6112,7 +6198,7 @@
                 {
                   "nombre": "Sistemas de posicionamiento geodésico.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Sistemas de posicionamiento geodésico.xlsx",
-                  "tamano_legible": "66.3 KB"
+                  "tamano_legible": "64.4 KB"
                 },
                 {
                   "nombre": "Bases de datos.xlsx",
@@ -6167,7 +6253,7 @@
                 {
                   "nombre": "Inteligencia de negocios.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Inteligencia Artificial/Inteligencia de negocios.xlsx",
-                  "tamano_legible": "65.8 KB"
+                  "tamano_legible": "63.7 KB"
                 },
                 {
                   "nombre": "Robótica.xlsx",
@@ -6187,7 +6273,7 @@
                 {
                   "nombre": "Modelado y Simulación de Redes.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Teleinformática/Modelado y Simulación de Redes.xlsx",
-                  "tamano_legible": "70.7 KB"
+                  "tamano_legible": "67.7 KB"
                 },
                 {
                   "nombre": "Política Sectorial y Regulación en Telecomunicaciones.xlsx",
@@ -6515,19 +6601,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": "Conocer y aplicar técnicas, metodologías de análisis y modelado espacial para la extracción de información a partir de datos espaciales y para la solución de problemas geográficos que sirvan de base en la toma de decisiones. OBJETIVOS ESPECÍFICOS: -Conocer e implementar las principales funciones de ",
-              "pfa_extracto": null,
+              "pfa_extracto": "Aplica técnicas de análisis espacial en modelos de datos vectoriales y raster.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
+                "Evaluación de habilidades prácticas",
                 "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación escrita",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Análisis espacial.xlsx",
               "nombre_archivo": "Análisis espacial.xlsx",
-              "tamano_bytes": 66715,
-              "tamano_legible": "65.2 KB",
+              "tamano_bytes": 64563,
+              "tamano_legible": "63.0 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -6605,19 +6691,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": "Objetivo general: Enseñar al estudiante de la Maestría en Ciencias de la Información y Comunicaciones (Énfasis en Geomática) elementos científicos del Posicionamiento. Geodésico, que le garanticen un conocimiento teórico y práctico de GNSS y sus aplicaciones en Ciencias de la Tierra. OBJETIVOS ESPEC",
-              "pfa_extracto": null,
+              "pfa_extracto": "Fundamenta matemática y conceptualmente el posicionamiento satelital GNSS.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
-                "Evaluación oral o presentaciones",
+                "Evaluación de habilidades prácticas",
                 "Evaluación escrita",
+                "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Sistemas de posicionamiento geodésico.xlsx",
               "nombre_archivo": "Sistemas de posicionamiento geodésico.xlsx",
-              "tamano_bytes": 67892,
-              "tamano_legible": "66.3 KB",
+              "tamano_bytes": 65925,
+              "tamano_legible": "64.4 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -6695,19 +6781,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": null,
-              "pfa_extracto": null,
+              "pfa_extracto": "Comprende los fundamentos de la fotogrametría digital y de las imágenes que utiliza.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
-                "Evaluación oral o presentaciones",
+                "Evaluación de habilidades prácticas",
                 "Evaluación escrita",
+                "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
               "nombre_archivo": "Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
-              "tamano_bytes": 66296,
-              "tamano_legible": "64.7 KB",
+              "tamano_bytes": 64193,
+              "tamano_legible": "62.7 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -6995,19 +7081,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": "Objetivo general: Proporcionar instrumentos analíticos que ayuden a resolver los principales problemas de negocio, la estrategia de inteligencia integral de negocios en una organización y su aplicación. OBJETIVOS ESPECÍFICOS: Objetivos específicos: 1. El alumno será capaz de diseñar e implantar estr",
-              "pfa_extracto": null,
+              "pfa_extracto": "Comprende la inteligencia de negocios como metodología de soporte a la toma de decisiones.",
               "evaluacion_tipos": [
-                "Evaluación de desempeño",
-                "Evaluación escrita",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
+                "Evaluación de habilidades prácticas",
+                "Evaluación escrita",
                 "Evaluación oral o presentaciones",
+                "Evaluación de desempeño",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Inteligencia de negocios.xlsx",
               "nombre_archivo": "Inteligencia de negocios.xlsx",
-              "tamano_bytes": 67401,
-              "tamano_legible": "65.8 KB",
+              "tamano_bytes": 65263,
+              "tamano_legible": "63.7 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -7145,19 +7231,19 @@
               "caracter": "Teórico-Práctico",
               "modalidad_oferta": "Presencial con TIC",
               "objetivo_general": null,
-              "pfa_extracto": null,
+              "pfa_extracto": "Formula modelos matemáticos de redes de comunicaciones.",
               "evaluacion_tipos": [
                 "Evaluación de desempeño",
-                "Evaluación de habilidades prácticas",
                 "Evaluación basada en proyectos",
-                "Evaluación oral o presentaciones",
+                "Evaluación de habilidades prácticas",
                 "Evaluación escrita",
+                "Evaluación oral o presentaciones",
                 "Evaluación formativa"
               ],
               "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Modelado y Simulación de Redes.xlsx",
               "nombre_archivo": "Modelado y Simulación de Redes.xlsx",
-              "tamano_bytes": 72410,
-              "tamano_legible": "70.7 KB",
+              "tamano_bytes": 69323,
+              "tamano_legible": "67.7 KB",
               "formato": "AA-FR-003",
               "version_formato": "01",
               "estado_actualizacion": "Actualizado (100%)"
@@ -7337,7 +7423,7 @@
                 {
                   "nombre": "F6_Permanencia_y_Graduacion_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Profundizacion.xlsx",
-                  "tamano_legible": "15.6 KB"
+                  "tamano_legible": "12.8 KB"
                 },
                 {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -7433,7 +7519,7 @@
                 {
                   "nombre": "F7_Convenios_URELINTER_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Profundizacion.xlsx",
-                  "tamano_legible": "11.0 KB"
+                  "tamano_legible": "11.3 KB"
                 }
               ],
               "anexos": [
@@ -7891,6 +7977,11 @@
               "nombre": "b. Socialización y vinculación de actividades de investigación",
               "archivos": [
                 {
+                  "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+                  "tamano_legible": "42.5 KB"
+                },
+                {
                   "nombre": "F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
                   "tamano_legible": "23.4 KB"
@@ -7945,7 +8036,7 @@
               ]
             }
           ],
-          "total_archivos": 13
+          "total_archivos": 14
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -9673,9 +9764,14 @@
               "nombre": "c. Socialización con la comunidad académica de acciones y avances",
               "archivos": [
                 {
+                  "nombre": "F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
+                  "tamano_legible": "6.8 KB"
+                },
+                {
                   "nombre": "F12_Laboratorios_y_Software_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Profundizacion.xlsx",
-                  "tamano_legible": "9.8 KB"
+                  "tamano_legible": "9.9 KB"
                 },
                 {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
@@ -9686,7 +9782,83 @@
               "anexos": []
             }
           ],
-          "total_archivos": 4
+          "total_archivos": 5
+        },
+        "datos_impacto_estudiantes": {
+          "periodo": "2022-2026",
+          "modalidad_etiqueta": "Profundización",
+          "criterio": "Estudiantes con matrícula vigente en el año (entre el año de ingreso y el de la última matrícula en Cóndor); únicos = personas distintas con al menos un año activo. El plan anterior se cuenta en Investigación.",
+          "fuente": "Data/Bronze/Estados (Cóndor) y bases de datos MCIC",
+          "unicos_2022_2026": 164,
+          "por_anio": {
+            "2022": 102,
+            "2023": 89,
+            "2024": 88,
+            "2025": 95,
+            "2026": 92
+          },
+          "por_enfasis": [
+            {
+              "enfasis": "Teleinformática",
+              "por_anio": {
+                "2022": 23,
+                "2023": 16,
+                "2024": 16,
+                "2025": 14,
+                "2026": 11
+              }
+            },
+            {
+              "enfasis": "Sistemas de Información",
+              "por_anio": {
+                "2022": 5,
+                "2023": 4,
+                "2024": 2,
+                "2025": 2,
+                "2026": 2
+              }
+            },
+            {
+              "enfasis": "Geomática",
+              "por_anio": {
+                "2022": 27,
+                "2023": 24,
+                "2024": 30,
+                "2025": 33,
+                "2026": 31
+              }
+            },
+            {
+              "enfasis": "Ingeniería de Software",
+              "por_anio": {
+                "2022": 47,
+                "2023": 45,
+                "2024": 38,
+                "2025": 36,
+                "2026": 26
+              }
+            },
+            {
+              "enfasis": "Inteligencia Artificial",
+              "por_anio": {
+                "2022": 0,
+                "2023": 0,
+                "2024": 1,
+                "2025": 9,
+                "2026": 12
+              }
+            },
+            {
+              "enfasis": "Sin énfasis definido aún",
+              "por_anio": {
+                "2022": 0,
+                "2023": 0,
+                "2024": 1,
+                "2025": 1,
+                "2026": 10
+              }
+            }
+          ]
         }
       }
     ]
@@ -9814,7 +9986,8 @@
       {
         "factor": "FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS",
         "campos_distintos": [
-          "plan_anterior"
+          "plan_anterior",
+          "datos_impacto_estudiantes"
         ]
       }
     ],
@@ -11873,8 +12046,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-      "tamano_bytes": 17782,
-      "tamano_legible": "17.4 KB",
+      "tamano_bytes": 18045,
+      "tamano_legible": "17.6 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Evidencias del Plan de Mejoramiento — MCIC - PROFUNDIZACIÓN (SNIES 116070)\nEvidencias del Plan de Mejoramiento. Periodo 2024-2027: plan anterior 2024-2026 y plan vigente 2026-2027. Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden.\nN°\nFactor\nMeta plan anterior (2024-202…"
@@ -11892,16 +12065,16 @@
       "extracto": "ORIENTACIONES PARA LA EVALUACIÓN \nDE LOS PROPÓSITOS DE FORMACIÓN Y \nDE APRENDIZAJE \n \n \n \n \n2025 \n \n \n\n \n1\nVicerrectora Académica \nLuz Esperanza Bohórquez Arévalo. \n \nIntegrantes Mesa de Trabajo PFA \n• Néstor Ricardo Bernal Suárez, Coordinador Comité de Currículo y Calidad Pregrado \nFacultad de Medio Ambiente y Recurso…"
     },
     {
-      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEPMaestriaEnCienciasDeLaInformaciónYLasComunicacionesComponenteProfundizacion_13Enero202.pdf",
-      "nombre": "PEPMaestriaEnCienciasDeLaInformaciónYLasComunicacionesComponenteProfundizacion_13Enero202.pdf",
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Profundización.pdf",
+      "nombre": "PEP MCIC Profundización.pdf",
       "extension": "pdf",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 1121636,
-      "tamano_legible": "1.1 MB",
+      "tamano_bytes": 17317656,
+      "tamano_legible": "16.5 MB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
-      "extracto": "1 \n \nPROYECTO EDUCATIVO \nDEL PROGRAMA -PEP- \n \n \n \nMAESTRÍA EN CIENCIAS DE LA \nINFORMACIÓN Y LAS \nCOMUNICACIONES \nCOMPONENTE PROFUNDIZACIÓN \n \n \n \nUNIVERSIDAD DISTRITAL \nFRANCISCO JOSÉ DE CALDAS \nFacultad de Ingeniería \n2024 \n \n \n \n \n \n \n \n \n \n \n \n \n\n2 \n \nINTRODUCCIÓN \n \nEste documento toma como referente el concepto a…"
+      "extracto": "Versión 003 - 2026\nPROYECTO EDUCATIVO DE PROGRAMA · PEP\nMaestria en Ciencias de la\nInformación y las\nComunicaciones\nProfundización\nFacultad de Ingeniería · Universidad Distrital Francisco José de\nCaldas\n\nFACULTAD DE INGENIERÍA\nUniversidad\nJosé Andelfo Lizcano Caro\nRector\nWilman Enrique Navarro Mejía\nVicerrector Académi…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_IngSoftware.pdf",
@@ -11969,7 +12142,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/b. Consolidación de propuesta de medios educativos",
-      "tamano_bytes": 11386,
+      "tamano_bytes": 11385,
       "tamano_legible": "11.1 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12101,7 +12274,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes",
-      "tamano_bytes": 9962,
+      "tamano_bytes": 9960,
       "tamano_legible": "9.7 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12132,13 +12305,25 @@
       "extracto": null
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
+      "nombre": "F12_Estudiantes_activos_por_enfasis_Profundizacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
+      "tamano_bytes": 7000,
+      "tamano_legible": "6.8 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 12 · Estudiantes activos 2022-2026 — MCIC - PROFUNDIZACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios: estudiantes con matrícula en el periodo 2022-2026. Investigación incluye a los estudiantes del plan anterior.\nMetas del plan de mejoramiento\nPlan anterior (20…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Profundizacion.xlsx",
       "nombre": "F12_Laboratorios_y_Software_Profundizacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 10086,
-      "tamano_legible": "9.8 KB",
+      "tamano_bytes": 10175,
+      "tamano_legible": "9.9 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 12 · Recursos físicos y tecnológicos — MCIC - PROFUNDIZACIÓN\nSalas de informática de la Facultad de Ingeniería usadas por la Maestría y software requerido por los docentes (Aulas de Software, desde 2025-1). Información institucional, común a las dos modalidades.\nMetas del plan de mejoramiento\nPlan anterior (2024…"
@@ -12149,7 +12334,7 @@
       "extension": "pptx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 1232970,
+      "tamano_bytes": 1235813,
       "tamano_legible": "1.2 MB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12269,7 +12454,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 768301,
+      "tamano_bytes": 768297,
       "tamano_legible": "750.3 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -12341,23 +12526,11 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 17938,
-      "tamano_legible": "17.5 KB",
+      "tamano_bytes": 18014,
+      "tamano_legible": "17.6 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 3 · Profesores — MCIC - PROFUNDIZACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente»); los certificados se adjuntan…"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-      "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC-PROFUNDIZACION",
-      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
-      "tamano_bytes": 293770,
-      "tamano_legible": "286.9 KB",
-      "modalidad": "profundizacion",
-      "texto_extraido": true,
-      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO No. 004 \n(8 de julio de 2024) \n \n“Por medio del cual se adopta la Política de Egresados de la Universidad Distrital \nFrancisco José de Caldas” \n \nPágina 1 de 8 \nEl Consejo Superior de la Universidad Distrital Francisco José de Caldas, en uso de sus facultades legales y \nestatutar…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
@@ -12370,6 +12543,18 @@
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Índice\nPÁGINA WEB\nResolución N° 689\n“Por medio de la cual se establece el Portafolio de\n Servicios para las personas Egresadas de la Uni\nUniversidad Distrital Francisco José de Caldas”\nPORTAFOLIO\nPORTAFOLIO\nDE SERVICIOS\nDE SERVICIOS\n\nÍNDICE\nÍNDICE\n¿Quiénes Somos?\nObjetivos\n¿Quiénes Son los Egresados?\nMisión y Visión\nCo…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/acu_2024-004 Politica Egresados.pdf",
+      "nombre": "acu_2024-004 Politica Egresados.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 1250351,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "profundizacion",
+      "texto_extraido": false,
+      "extracto": null
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Profundizacion.xlsx",
@@ -12713,7 +12898,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-      "tamano_bytes": 13693,
+      "tamano_bytes": 13695,
       "tamano_legible": "13.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
@@ -12761,8 +12946,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-      "tamano_bytes": 66715,
-      "tamano_legible": "65.2 KB",
+      "tamano_bytes": 64563,
+      "tamano_legible": "63.0 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
@@ -12821,8 +13006,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-      "tamano_bytes": 66296,
-      "tamano_legible": "64.7 KB",
+      "tamano_bytes": 64193,
+      "tamano_legible": "62.7 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
@@ -12845,8 +13030,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-      "tamano_bytes": 67892,
-      "tamano_legible": "66.3 KB",
+      "tamano_bytes": 65925,
+      "tamano_legible": "64.4 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones Maestría en Ciencias de la Información y l…"
@@ -12977,8 +13162,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Inteligencia Artificial",
-      "tamano_bytes": 67401,
-      "tamano_legible": "65.8 KB",
+      "tamano_bytes": 65263,
+      "tamano_legible": "63.7 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y L…"
@@ -13025,8 +13210,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Teleinformática",
-      "tamano_bytes": 72410,
-      "tamano_legible": "70.7 KB",
+      "tamano_bytes": 69323,
+      "tamano_legible": "67.7 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y L…"
@@ -13073,8 +13258,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 15951,
-      "tamano_legible": "15.6 KB",
+      "tamano_bytes": 13133,
+      "tamano_legible": "12.8 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - PROFUNDIZACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no …"
@@ -13157,7 +13342,7 @@
       "extension": "pdf",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
-      "tamano_bytes": 81937,
+      "tamano_bytes": 81939,
       "tamano_legible": "80.0 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
@@ -13169,8 +13354,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
-      "tamano_bytes": 11261,
-      "tamano_legible": "11.0 KB",
+      "tamano_bytes": 11539,
+      "tamano_legible": "11.3 KB",
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 7 · Convenios vigentes — MCIC - PROFUNDIZACIÓN\nLos convenios los administra la Unidad de Relaciones Interinstitucionales (URELINTER). Se deja el enlace oficial mientras se recibe la información de los profesores sobre su participación en convenios.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nIncreme…"
@@ -13404,16 +13589,28 @@
       "extracto": "INVESTIGACIÓN ____ \n \n        PROFUNDIZACIÓN _X_ \n  \nMODELO PARA LA EVALUACIÓN DE LA CALIDAD INTRÍNSECA Y DINÁMICA DE LOS DATOS \nABIERTOS SECTOR SALUD EN BOGOTÁ D.C. BASADO EN MACHINE LEARNING \n  \n  \n \n  \nAutor \nÁlvaro Varón Capera \n \n  \n  \nTutor \nPaulo Alonso Gaona García, PhD \n  \n \n \n  \nUniversidad Distrital Francisc…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+      "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+      "tamano_bytes": 43499,
+      "tamano_legible": "42.5 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Trabajos de grado vinculados con grupos de investigación\nAño\nSustentados\nNo sustentados\nMaestría en Ciencias de la Información y las Comunicaciones | Consolidado 2022–2026\n2022\n32\n0\n2023\n27\n0\nCasos consolidados\nTrabajos sustentados\nPendientes / sin verificación\nGrupos identificados\n2024\n24\n1\n148\n133\n15\n25\n2025\n24\n1\n202…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
       "nombre": "F8_Trabajos_de_grado_por_grupo_Profundizacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC-PROFUNDIZACION",
       "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-      "tamano_bytes": 23972,
+      "tamano_bytes": 24012,
       "tamano_legible": "23.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
-      "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Profundización\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente.\nMetas del plan de mejoramiento\nPlan …"
+      "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Profundización\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente. El consolidado completo está en la m…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
@@ -13565,8 +13762,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento",
-      "tamano_bytes": 20804,
-      "tamano_legible": "20.3 KB",
+      "tamano_bytes": 21099,
+      "tamano_legible": "20.6 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Evidencias del Plan de Mejoramiento — MCIC - INVESTIGACIÓN (SNIES 17528)\nEvidencias del Plan de Mejoramiento. Periodo 2024-2027: plan anterior 2024-2026 y plan vigente 2026-2027. Cada factor se entrega en su carpeta, con los archivos dentro de la actividad a la que corresponden.\nN°\nFactor\nMeta plan anterior (2024-2026)…"
@@ -13584,16 +13781,16 @@
       "extracto": "ORIENTACIONES PARA LA EVALUACIÓN \nDE LOS PROPÓSITOS DE FORMACIÓN Y \nDE APRENDIZAJE \n \n \n \n \n2025 \n \n \n\n \n1\nVicerrectora Académica \nLuz Esperanza Bohórquez Arévalo. \n \nIntegrantes Mesa de Trabajo PFA \n• Néstor Ricardo Bernal Suárez, Coordinador Comité de Currículo y Calidad Pregrado \nFacultad de Medio Ambiente y Recurso…"
     },
     {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.pdf",
-      "nombre": "PEP-MCIC-INV-V2.pdf",
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Investigación.pdf",
+      "nombre": "PEP MCIC Investigación.pdf",
       "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
-      "tamano_bytes": 1108021,
-      "tamano_legible": "1.1 MB",
+      "tamano_bytes": 15094547,
+      "tamano_legible": "14.4 MB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "1 \n \nPROYECTO EDUCATIVO \nDEL PROGRAMA -PEP- \n \n \n \nMAESTRÍA EN CIENCIAS DE LA \nINFORMACIÓN Y LAS \nCOMUNICACIONES \nCOMPONENTE INVESTIGACIÓN \n \n \n \nUNIVERSIDAD DISTRITAL \nFRANCISCO JOSÉ DE CALDAS \nFacultad de Ingeniería \n2024 \n \n \n \n \n \n \n \n \n \n \n \n \n\n2 \n \nINTRODUCCIÓN \nEste documento toma como referente el concepto adop…"
+      "extracto": "Versión 003 - [2026]\nPROYECTO EDUCATIVO DE PROGRAMA · PEP\nMaestría en Ciencias de la\nInformación y las\nComunicaciones\nInvestigación\nFacultad de Ingeniería · Universidad Distrital Francisco José de\nCaldas\n\nFACULTAD DE INGENIERÍA\nUniversidad\nJosé Andelfo Lizcano Caro\nRector\nWilman Enrique Navarro Mejía\nVicerrector Académ…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/b. Jornadas de trabajo con docentes/MCIC_Anexo_reunion_IngSoftware.pdf",
@@ -14556,13 +14753,25 @@
       "extracto": null
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+      "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
+      "tamano_bytes": 6992,
+      "tamano_legible": "6.8 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 12 · Estudiantes activos 2022-2026 — MCIC - INVESTIGACIÓN\nSoporte de la última diapositiva («Estudiantes impactados») de la presentación de laboratorios: estudiantes con matrícula en el periodo 2022-2026. Investigación incluye a los estudiantes del plan anterior.\nMetas del plan de mejoramiento\nPlan anterior (202…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
       "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 10082,
-      "tamano_legible": "9.8 KB",
+      "tamano_bytes": 10173,
+      "tamano_legible": "9.9 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 12 · Recursos físicos y tecnológicos — MCIC - INVESTIGACIÓN\nSalas de informática de la Facultad de Ingeniería usadas por la Maestría y software requerido por los docentes (Aulas de Software, desde 2025-1). Información institucional, común a las dos modalidades.\nMetas del plan de mejoramiento\nPlan anterior (2024-…"
@@ -14573,7 +14782,7 @@
       "extension": "pptx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
-      "tamano_bytes": 1232970,
+      "tamano_bytes": 1235814,
       "tamano_legible": "1.2 MB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -14693,7 +14902,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
-      "tamano_bytes": 769386,
+      "tamano_bytes": 769383,
       "tamano_legible": "751.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -14765,23 +14974,11 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
-      "tamano_bytes": 17934,
-      "tamano_legible": "17.5 KB",
+      "tamano_bytes": 18011,
+      "tamano_legible": "17.6 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 3 · Profesores — MCIC - INVESTIGACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente»); los certificados se adjuntan …"
-    },
-    {
-      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-      "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-      "extension": "pdf",
-      "carpeta_raiz": "MCIC.INVESTIGACION",
-      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
-      "tamano_bytes": 293770,
-      "tamano_legible": "286.9 KB",
-      "modalidad": "investigacion",
-      "texto_extraido": true,
-      "extracto": "CONSEJO SUPERIOR UNIVERSITARIO \nACUERDO No. 004 \n(8 de julio de 2024) \n \n“Por medio del cual se adopta la Política de Egresados de la Universidad Distrital \nFrancisco José de Caldas” \n \nPágina 1 de 8 \nEl Consejo Superior de la Universidad Distrital Francisco José de Caldas, en uso de sus facultades legales y \nestatutar…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
@@ -14796,12 +14993,24 @@
       "extracto": "Índice\nPÁGINA WEB\nResolución N° 689\n“Por medio de la cual se establece el Portafolio de\n Servicios para las personas Egresadas de la Uni\nUniversidad Distrital Francisco José de Caldas”\nPORTAFOLIO\nPORTAFOLIO\nDE SERVICIOS\nDE SERVICIOS\n\nÍNDICE\nÍNDICE\n¿Quiénes Somos?\nObjetivos\n¿Quiénes Son los Egresados?\nMisión y Visión\nCo…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/acu_2024-004 Politica Egresados.pdf",
+      "nombre": "acu_2024-004 Politica Egresados.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios",
+      "tamano_bytes": 1250351,
+      "tamano_legible": "1.2 MB",
+      "modalidad": "investigacion",
+      "texto_extraido": false,
+      "extracto": null
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Investigacion.xlsx",
       "nombre": "F4_Egresados_Impacto_Investigacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
-      "tamano_bytes": 26963,
+      "tamano_bytes": 26959,
       "tamano_legible": "26.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -15137,7 +15346,7 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular",
-      "tamano_bytes": 13693,
+      "tamano_bytes": 13695,
       "tamano_legible": "13.4 KB",
       "modalidad": "ambas",
       "texto_extraido": true,
@@ -15185,8 +15394,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-      "tamano_bytes": 66715,
-      "tamano_legible": "65.2 KB",
+      "tamano_bytes": 64563,
+      "tamano_legible": "63.0 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
@@ -15245,8 +15454,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-      "tamano_bytes": 66296,
-      "tamano_legible": "64.7 KB",
+      "tamano_bytes": 64193,
+      "tamano_legible": "62.7 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
@@ -15269,8 +15478,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática",
-      "tamano_bytes": 67892,
-      "tamano_legible": "66.3 KB",
+      "tamano_bytes": 65925,
+      "tamano_legible": "64.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones Maestría en Ciencias de la Información y l…"
@@ -15401,8 +15610,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Inteligencia Artificial",
-      "tamano_bytes": 67401,
-      "tamano_legible": "65.8 KB",
+      "tamano_bytes": 65263,
+      "tamano_legible": "63.7 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y L…"
@@ -15449,8 +15658,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Teleinformática",
-      "tamano_bytes": 72410,
-      "tamano_legible": "70.7 KB",
+      "tamano_bytes": 69323,
+      "tamano_legible": "67.7 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y L…"
@@ -15497,8 +15706,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 17969,
-      "tamano_legible": "17.5 KB",
+      "tamano_bytes": 14486,
+      "tamano_legible": "14.1 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - INVESTIGACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no s…"
@@ -15581,7 +15790,7 @@
       "extension": "pdf",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Anexos/Convenio específico IGAC 5570 de 2025",
-      "tamano_bytes": 81937,
+      "tamano_bytes": 81939,
       "tamano_legible": "80.0 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
@@ -15593,8 +15802,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
-      "tamano_bytes": 11259,
-      "tamano_legible": "11.0 KB",
+      "tamano_bytes": 11540,
+      "tamano_legible": "11.3 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 7 · Convenios vigentes — MCIC - INVESTIGACIÓN\nLos convenios los administra la Unidad de Relaciones Interinstitucionales (URELINTER). Se deja el enlace oficial mientras se recibe la información de los profesores sobre su participación en convenios.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nIncremen…"
@@ -16188,16 +16397,28 @@
       "extracto": "MODELO DE SISTEMAS MULTI-AGENTES PARA \nLA CONSULTA BASADA EN NIVELES DE \nCONFIANZA, SOBRE RECURSOS VINCULADOS \nMEDIANTE DATOS ABIERTOS ENLAZADOS \n \nAutor \nCamilo Alejandro Valencia Martínez \nIngeniero de Sistemas \nTutor \nPaulo Alonso Gaona \nPhD en Ingeniería de la Información y del Conocimiento \nUniversidad Distrital F…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+      "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+      "extension": "xlsx",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+      "tamano_bytes": 43499,
+      "tamano_legible": "42.5 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Trabajos de grado vinculados con grupos de investigación\nAño\nSustentados\nNo sustentados\nMaestría en Ciencias de la Información y las Comunicaciones | Consolidado 2022–2026\n2022\n32\n0\n2023\n27\n0\nCasos consolidados\nTrabajos sustentados\nPendientes / sin verificación\nGrupos identificados\n2024\n24\n1\n148\n133\n15\n25\n2025\n24\n1\n202…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
       "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
-      "tamano_bytes": 29702,
+      "tamano_bytes": 29744,
       "tamano_legible": "29.0 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
-      "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Investigación\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente.\nMetas del plan de mejoramiento\nPlan a…"
+      "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Investigación\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente. El consolidado completo está en la mi…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
@@ -16985,8 +17206,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "Syllabus",
       "carpeta_contenedora": "Syllabus/EnfGeomatica",
-      "tamano_bytes": 66715,
-      "tamano_legible": "65.2 KB",
+      "tamano_bytes": 64563,
+      "tamano_legible": "63.0 KB",
       "modalidad": "general",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
@@ -17045,8 +17266,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "Syllabus",
       "carpeta_contenedora": "Syllabus/EnfGeomatica",
-      "tamano_bytes": 66296,
-      "tamano_legible": "64.7 KB",
+      "tamano_bytes": 64193,
+      "tamano_legible": "62.7 KB",
       "modalidad": "general",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y LAS COMUNICACIONES\nCÓDIGO PLAN DE ESTUDIOS:\nI. IDENTIFICACIÓN…"
@@ -17069,8 +17290,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "Syllabus",
       "carpeta_contenedora": "Syllabus/EnfGeomatica",
-      "tamano_bytes": 67892,
-      "tamano_legible": "66.3 KB",
+      "tamano_bytes": 65925,
+      "tamano_legible": "64.4 KB",
       "modalidad": "general",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones Maestría en Ciencias de la Información y l…"
@@ -17201,8 +17422,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "Syllabus",
       "carpeta_contenedora": "Syllabus/EnfInteligenciaArtificial",
-      "tamano_bytes": 67401,
-      "tamano_legible": "65.8 KB",
+      "tamano_bytes": 65263,
+      "tamano_legible": "63.7 KB",
       "modalidad": "general",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y L…"
@@ -17249,8 +17470,8 @@
       "extension": "xlsx",
       "carpeta_raiz": "Syllabus",
       "carpeta_contenedora": "Syllabus/EnfTeleinformatica",
-      "tamano_bytes": 72410,
-      "tamano_legible": "70.7 KB",
+      "tamano_bytes": 69323,
+      "tamano_legible": "67.7 KB",
       "modalidad": "general",
       "texto_extraido": true,
       "extracto": "FORMATO DE SYLLABUS\nCódigo: AA-FR-003\nMacroproceso: Direccionamiento Estratégico\nVersión: 01\nProceso: Autoevaluación y Acreditación\nFecha de Aprobación: 27/07/2023\nFACULTAD:\nFACULTAD DE INGENIERÍA\nPROYECTO CURRICULAR:\nMaestría en Ciencias de la Información y las Comunicaciones MAESTRÍA EN CIENCIAS DE LA INFORMACIÓN Y L…"
@@ -17341,16 +17562,16 @@
     }
   ],
   "documentosBronzeStats": {
-    "total": 624,
+    "total": 628,
     "por_modalidad": {
-      "profundizacion": 191,
-      "ambas": 20,
-      "investigacion": 297,
+      "profundizacion": 192,
+      "ambas": 21,
+      "investigacion": 299,
       "general": 116
     },
     "por_extension": {
       "pdf": 259,
-      "xlsx": 246,
+      "xlsx": 250,
       "xls": 24,
       "png": 67,
       "pptx": 12,
@@ -17363,14 +17584,14 @@
       "ACREDITACIÓN DE ALTA CALIDAD": 125,
       "Convenios": 1,
       "Docentes": 41,
-      "MCIC-PROFUNDIZACION": 141,
-      "MCIC.INVESTIGACION": 233,
+      "MCIC-PROFUNDIZACION": 143,
+      "MCIC.INVESTIGACION": 235,
       "Maestria CIC": 14,
       "Normativa": 36,
       "PresLabIng-20261-esuarez-01-p36-48.pdf": 1,
       "Syllabus": 32
     },
-    "con_texto_extraido": 545
+    "con_texto_extraido": 547
   },
   "evidenciaProcesosRcAac": {
     "investigacion": [
@@ -17453,14 +17674,14 @@
       {
         "nombre": "00_Indice_Evidencias_Investigacion.xlsx",
         "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/00_Indice_Evidencias_Investigacion.xlsx",
-        "tamano_legible": "20.3 KB"
+        "tamano_legible": "20.6 KB"
       }
     ],
     "profundizacion": [
       {
         "nombre": "00_Indice_Evidencias_Profundizacion.xlsx",
         "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/00_Indice_Evidencias_Profundizacion.xlsx",
-        "tamano_legible": "17.4 KB"
+        "tamano_legible": "17.6 KB"
       }
     ]
   },
@@ -24657,19 +24878,19 @@
         "caracter": "Teórico-Práctico",
         "modalidad_oferta": "Presencial con TIC",
         "objetivo_general": "Conocer y aplicar técnicas, metodologías de análisis y modelado espacial para la extracción de información a partir de datos espaciales y para la solución de problemas geográficos que sirvan de base en la toma de decisiones. OBJETIVOS ESPECÍFICOS: -Conocer e implementar las principales funciones de ",
-        "pfa_extracto": null,
+        "pfa_extracto": "Aplica técnicas de análisis espacial en modelos de datos vectoriales y raster.",
         "evaluacion_tipos": [
-          "Evaluación de desempeño",
-          "Evaluación de habilidades prácticas",
           "Evaluación basada en proyectos",
+          "Evaluación de habilidades prácticas",
           "Evaluación oral o presentaciones",
+          "Evaluación de desempeño",
           "Evaluación escrita",
           "Evaluación formativa"
         ],
         "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Análisis espacial.xlsx",
         "nombre_archivo": "Análisis espacial.xlsx",
-        "tamano_bytes": 66715,
-        "tamano_legible": "65.2 KB",
+        "tamano_bytes": 64563,
+        "tamano_legible": "63.0 KB",
         "formato": "AA-FR-003",
         "version_formato": "01",
         "estado_actualizacion": "Actualizado (100%)"
@@ -24747,19 +24968,19 @@
         "caracter": "Teórico-Práctico",
         "modalidad_oferta": "Presencial con TIC",
         "objetivo_general": "Objetivo general: Enseñar al estudiante de la Maestría en Ciencias de la Información y Comunicaciones (Énfasis en Geomática) elementos científicos del Posicionamiento. Geodésico, que le garanticen un conocimiento teórico y práctico de GNSS y sus aplicaciones en Ciencias de la Tierra. OBJETIVOS ESPEC",
-        "pfa_extracto": null,
+        "pfa_extracto": "Fundamenta matemática y conceptualmente el posicionamiento satelital GNSS.",
         "evaluacion_tipos": [
-          "Evaluación de desempeño",
-          "Evaluación de habilidades prácticas",
           "Evaluación basada en proyectos",
-          "Evaluación oral o presentaciones",
+          "Evaluación de habilidades prácticas",
           "Evaluación escrita",
+          "Evaluación oral o presentaciones",
+          "Evaluación de desempeño",
           "Evaluación formativa"
         ],
         "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Sistemas de posicionamiento geodésico.xlsx",
         "nombre_archivo": "Sistemas de posicionamiento geodésico.xlsx",
-        "tamano_bytes": 67892,
-        "tamano_legible": "66.3 KB",
+        "tamano_bytes": 65925,
+        "tamano_legible": "64.4 KB",
         "formato": "AA-FR-003",
         "version_formato": "01",
         "estado_actualizacion": "Actualizado (100%)"
@@ -24837,19 +25058,19 @@
         "caracter": "Teórico-Práctico",
         "modalidad_oferta": "Presencial con TIC",
         "objetivo_general": null,
-        "pfa_extracto": null,
+        "pfa_extracto": "Comprende los fundamentos de la fotogrametría digital y de las imágenes que utiliza.",
         "evaluacion_tipos": [
-          "Evaluación de desempeño",
-          "Evaluación de habilidades prácticas",
           "Evaluación basada en proyectos",
-          "Evaluación oral o presentaciones",
+          "Evaluación de habilidades prácticas",
           "Evaluación escrita",
+          "Evaluación oral o presentaciones",
+          "Evaluación de desempeño",
           "Evaluación formativa"
         ],
         "archivo": "Data/Bronze/Syllabus/EnfGeomatica/Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
         "nombre_archivo": "Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
-        "tamano_bytes": 66296,
-        "tamano_legible": "64.7 KB",
+        "tamano_bytes": 64193,
+        "tamano_legible": "62.7 KB",
         "formato": "AA-FR-003",
         "version_formato": "01",
         "estado_actualizacion": "Actualizado (100%)"
@@ -25137,19 +25358,19 @@
         "caracter": "Teórico-Práctico",
         "modalidad_oferta": "Presencial con TIC",
         "objetivo_general": "Objetivo general: Proporcionar instrumentos analíticos que ayuden a resolver los principales problemas de negocio, la estrategia de inteligencia integral de negocios en una organización y su aplicación. OBJETIVOS ESPECÍFICOS: Objetivos específicos: 1. El alumno será capaz de diseñar e implantar estr",
-        "pfa_extracto": null,
+        "pfa_extracto": "Comprende la inteligencia de negocios como metodología de soporte a la toma de decisiones.",
         "evaluacion_tipos": [
-          "Evaluación de desempeño",
-          "Evaluación escrita",
-          "Evaluación de habilidades prácticas",
           "Evaluación basada en proyectos",
+          "Evaluación de habilidades prácticas",
+          "Evaluación escrita",
           "Evaluación oral o presentaciones",
+          "Evaluación de desempeño",
           "Evaluación formativa"
         ],
         "archivo": "Data/Bronze/Syllabus/EnfInteligenciaArtificial/Inteligencia de negocios.xlsx",
         "nombre_archivo": "Inteligencia de negocios.xlsx",
-        "tamano_bytes": 67401,
-        "tamano_legible": "65.8 KB",
+        "tamano_bytes": 65263,
+        "tamano_legible": "63.7 KB",
         "formato": "AA-FR-003",
         "version_formato": "01",
         "estado_actualizacion": "Actualizado (100%)"
@@ -25287,19 +25508,19 @@
         "caracter": "Teórico-Práctico",
         "modalidad_oferta": "Presencial con TIC",
         "objetivo_general": null,
-        "pfa_extracto": null,
+        "pfa_extracto": "Formula modelos matemáticos de redes de comunicaciones.",
         "evaluacion_tipos": [
           "Evaluación de desempeño",
-          "Evaluación de habilidades prácticas",
           "Evaluación basada en proyectos",
-          "Evaluación oral o presentaciones",
+          "Evaluación de habilidades prácticas",
           "Evaluación escrita",
+          "Evaluación oral o presentaciones",
           "Evaluación formativa"
         ],
         "archivo": "Data/Bronze/Syllabus/EnfTeleinformatica/Modelado y Simulación de Redes.xlsx",
         "nombre_archivo": "Modelado y Simulación de Redes.xlsx",
-        "tamano_bytes": 72410,
-        "tamano_legible": "70.7 KB",
+        "tamano_bytes": 69323,
+        "tamano_legible": "67.7 KB",
         "formato": "AA-FR-003",
         "version_formato": "01",
         "estado_actualizacion": "Actualizado (100%)"

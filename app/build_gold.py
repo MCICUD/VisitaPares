@@ -293,6 +293,16 @@ def merge_cuadros_maestros(factores: list[dict], cuadros: dict, resumen_grupos_f
             f["datos_cuadro_maestro_cna"] = {
                 "bienestar": cuadros["bienestar"],
             }
+        elif numero == "12":
+            activos = load_json("estudiantes_activos_2022_2026.json")
+            etiqueta_mod = "Investigación" if modalidad == "investigacion" else "Profundización"
+            f["datos_impacto_estudiantes"] = {
+                "periodo": activos["periodo"],
+                "modalidad_etiqueta": etiqueta_mod + (" (incluye plan anterior)" if modalidad == "investigacion" else ""),
+                "criterio": activos["criterio"],
+                "fuente": activos["fuente"],
+                **activos["modalidades"][etiqueta_mod],
+            }
 
 
 def merge_convenios(factores: list[dict], convenios: dict) -> None:

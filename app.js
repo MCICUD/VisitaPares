@@ -786,6 +786,7 @@ function openFactorModal(modalidad, index) {
     ${renderEvidenciaSeguimientoHtml(f.evidencia_seguimiento)}
     ${renderCuadroMaestroHtml(f.datos_cuadro_maestro_cna)}
     ${renderComunidadFactor4Html(f.datos_comunidad_factor4)}
+    ${renderImpactoEstudiantesHtml(f.datos_impacto_estudiantes)}
     ${renderConveniosHtml(f.datos_convenios)}
     ${renderSyllabusFactor5Html(f.datos_syllabus)}
   `;
@@ -863,6 +864,41 @@ function renderComunidadFactor4Html(datos) {
         <p style="font-size:10.5px; color: var(--text-soft); margin-top:6px;">Fuente: Consolidado Comunidad Estudiantil</p>
       </div>
       ${fuenteHtml}
+    </div>
+  `;
+}
+
+function renderImpactoEstudiantesHtml(datos) {
+  if (!datos) return '';
+  const anios = Object.keys(datos.por_anio).sort();
+  return `
+    <div style="margin-bottom:16px;">
+      <p style="margin-bottom:8px;"><strong>📊 Estudiantes impactados (${escapeHtml(datos.periodo)}):</strong></p>
+      <div class="plan-meta-box" style="margin-bottom:10px;">
+        <div class="plan-meta-row"><span>Estudiantes que han estado activos entre 2022 y 2026 — ${escapeHtml(datos.modalidad_etiqueta)}</span><span>${datos.unicos_2022_2026}</span></div>
+      </div>
+      <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse: collapse; font-size: 11.5px;">
+          <thead>
+            <tr style="background: var(--bg-subtle); border-bottom: 2px solid var(--border-color); text-align:left;">
+              <th style="padding:6px 8px;">Énfasis</th>
+              ${anios.map((a) => `<th style="padding:6px 8px; text-align:right;">${escapeHtml(a)}</th>`).join('')}
+            </tr>
+          </thead>
+          <tbody>
+            ${datos.por_enfasis.map((e) => `
+              <tr>
+                <td style="padding:5px 8px;">${escapeHtml(e.enfasis)}</td>
+                ${anios.map((a) => `<td style="padding:5px 8px; text-align:right;">${e.por_anio[a] ?? 0}</td>`).join('')}
+              </tr>`).join('')}
+            <tr style="font-weight:700; border-top:2px solid var(--border-color);">
+              <td style="padding:5px 8px;">Total activos por año</td>
+              ${anios.map((a) => `<td style="padding:5px 8px; text-align:right;">${datos.por_anio[a] ?? 0}</td>`).join('')}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:10.5px; color: var(--text-soft); margin-top:6px;">${escapeHtml(datos.criterio)} Fuente: ${escapeHtml(datos.fuente)}.</p>
     </div>
   `;
 }

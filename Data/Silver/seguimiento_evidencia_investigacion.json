@@ -4,7 +4,7 @@
     {
       "nombre": "00_Indice_Evidencias_Investigacion.xlsx",
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/00_Indice_Evidencias_Investigacion.xlsx",
-      "tamano_legible": "20.3 KB"
+      "tamano_legible": "20.6 KB"
     }
   ],
   "procesos_rc_aac": [
@@ -57,9 +57,9 @@
               "tamano_legible": "1.6 MB"
             },
             {
-              "nombre": "PEP-MCIC-INV-V2.pdf",
-              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP-MCIC-INV-V2.pdf",
-              "tamano_legible": "1.1 MB"
+              "nombre": "PEP MCIC Investigación.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Investigación.pdf",
+              "tamano_legible": "14.4 MB"
             }
           ],
           "anexos": []
@@ -153,7 +153,7 @@
             {
               "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
-              "tamano_legible": "17.5 KB"
+              "tamano_legible": "17.6 KB"
             }
           ],
           "anexos": [
@@ -193,14 +193,14 @@
           "nombre": "a. Servicios",
           "archivos": [
             {
-              "nombre": "PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/PROYECTO DE ACUERDO POLÍTICA DE EGRESADOS.pdf",
-              "tamano_legible": "286.9 KB"
-            },
-            {
               "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
               "tamano_legible": "14.6 MB"
+            },
+            {
+              "nombre": "acu_2024-004 Politica Egresados.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/acu_2024-004 Politica Egresados.pdf",
+              "tamano_legible": "1.2 MB"
             }
           ],
           "anexos": []
@@ -258,7 +258,7 @@
             {
               "nombre": "Análisis espacial.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Análisis espacial.xlsx",
-              "tamano_legible": "65.2 KB"
+              "tamano_legible": "63.0 KB"
             },
             {
               "nombre": "Bases de datos espaciales.xlsx",
@@ -283,7 +283,7 @@
             {
               "nombre": "Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Procesamiento de imágenes y elaboración de productos cartográficos o fotogramétricos.xlsx",
-              "tamano_legible": "64.7 KB"
+              "tamano_legible": "62.7 KB"
             },
             {
               "nombre": "Servicios geográficos web.xlsx",
@@ -293,7 +293,7 @@
             {
               "nombre": "Sistemas de posicionamiento geodésico.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Geomática/Sistemas de posicionamiento geodésico.xlsx",
-              "tamano_legible": "66.3 KB"
+              "tamano_legible": "64.4 KB"
             },
             {
               "nombre": "Bases de datos.xlsx",
@@ -348,7 +348,7 @@
             {
               "nombre": "Inteligencia de negocios.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Inteligencia Artificial/Inteligencia de negocios.xlsx",
-              "tamano_legible": "65.8 KB"
+              "tamano_legible": "63.7 KB"
             },
             {
               "nombre": "Robótica.xlsx",
@@ -368,7 +368,7 @@
             {
               "nombre": "Modelado y Simulación de Redes.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/b. Resultados de Aprendizaje a nivel microcurricular/Syllabus AA-FR-003/Énfasis en Teleinformática/Modelado y Simulación de Redes.xlsx",
-              "tamano_legible": "70.7 KB"
+              "tamano_legible": "67.7 KB"
             },
             {
               "nombre": "Política Sectorial y Regulación en Telecomunicaciones.xlsx",
@@ -530,7 +530,7 @@
             {
               "nombre": "F6_Permanencia_y_Graduacion_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Investigacion.xlsx",
-              "tamano_legible": "17.5 KB"
+              "tamano_legible": "14.1 KB"
             },
             {
               "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -551,7 +551,7 @@
             {
               "nombre": "F7_Convenios_URELINTER_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Investigacion.xlsx",
-              "tamano_legible": "11.0 KB"
+              "tamano_legible": "11.3 KB"
             }
           ],
           "anexos": [
@@ -662,6 +662,11 @@
         {
           "nombre": "b. Socialización y vinculación de actividades de investigación",
           "archivos": [
+            {
+              "nombre": "Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Consolidado_trabajos_grado_MCIC_2022_2026.xlsx",
+              "tamano_legible": "42.5 KB"
+            },
             {
               "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
@@ -1343,9 +1348,14 @@
           "nombre": "c. Socialización con la comunidad académica de acciones y avances",
           "archivos": [
             {
+              "nombre": "F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Estudiantes_activos_por_enfasis_Investigacion.xlsx",
+              "tamano_legible": "6.8 KB"
+            },
+            {
               "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
-              "tamano_legible": "9.8 KB"
+              "tamano_legible": "9.9 KB"
             },
             {
               "nombre": "Laboratorios Maestría - MIC.pptx",

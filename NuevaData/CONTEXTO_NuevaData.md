@@ -38,7 +38,7 @@ NuevaData/
 - Regenerar: `.venv/bin/python NuevaData/_build/build_nuevadata.py` (unos 15 s). Solo borra y recrea
   `Presentacion/`. Lee `Original/`, `Data/Bronze` (Cóndor y bases MCIC), `Data/Silver`, `SolicitudesPares/` y no modifica nada de eso.
   **Si se agrega o cambia un insumo, se coloca en `Original/<Modalidad>/FACTOR N…` (en ambas modalidades) y se vuelve a correr.**
-- `.gitignore` excluye `NuevaData/Original/`, `NuevaData/Presentacion/` y `NuevaData/_build/_privado/`.
+- **Nota (2-oct-2026):** el `.gitignore` real solo excluye `.venv/`, `__pycache__/` y el pptx de GIIRA; `Original/` y `Presentacion/` SÍ están versionados (verificado con `git status`).
 - Nota técnica: los nombres de archivo de `Original/` pueden venir con tildes en distinta normalización Unicode
   (p. ej. `Investigacio╠ün`); el script no depende de ellas salvo por los nombres exactos listados en el código.
 - Se dejó un respaldo de la `Presentacion/` anterior (con carpetas duplicadas `FACTOR 01…09` creadas por la sincronización)
@@ -122,7 +122,7 @@ NuevaData/
 - Resultado: INV 74 trabajos (67 sustentados), PROF 55 (47 sustentados, 3 pasantías), **19 por confirmar** (antes 30). 11 casos se
   completaron por el nombre del estudiante contra Cóndor/bases (8 INV, 3 PROF) y quedan marcados «Inferida por nombre; verificar».
 
-### 3.4 Factor 12 — última diapositiva de Laboratorios
+### 3.4 Factor 12 — última diapositiva de Laboratorios (vigente de nuevo desde el 2-oct-2026, ver §13; el §9 la había retirado)
 - `Laboratorios Maestría - MIC.pptx` (mismo archivo en ambas modalidades). La diapositiva 13 («Estudiantes Impactados») estaba vacía:
   se le agregó una tabla nativa de **estudiantes activos por énfasis 2022-2026** de la modalidad, más una fila aparte para el plan anterior
   sin modalidad y una nota de método. El original sigue en `Original/`.
@@ -273,3 +273,17 @@ Solo quedan `Original/`, `Presentacion/`, `_build/` y este documento; las carpet
 | Planos de laboratorios del nuevo edificio | `FACTOR 12…/` **solo en Investigación** |
 
 Los documentos pesados compartidos (presentaciones y planos) están una sola vez, en Investigación; el generador busca primero en la carpeta de la modalidad y si no están usa la de Investigación (`compartido()` en `build_nuevadata.py`). El pptx de GIIRA (192 MB) está en `.gitignore` por el límite de GitHub; sin ese archivo el generador simplemente no produce su versión sin videos.
+
+
+## 13. Ajustes del 2-oct-2026 (noche) — pipeline alineado con NuevaData
+
+Todo entra por `Original/` + `NuevaData/_build/build_nuevadata.py`, se copia a Bronze y se corre la pipeline. **Comando de integración** (por modalidad, `Investigacion:MCIC.INVESTIGACION`, `Profundizacion:MCIC-PROFUNDIZACION`):
+`rsync -a --delete NuevaData/Presentacion/<Mod>/ "Data/Bronze/<carpeta>/Procesos de Renocavion y acreditación/Plan de Mejoramiento/"` y luego `cd app && ../.venv/bin/python run_pipeline.py`; subir el `?v=` de `index.html`. Si `filter_solicitudes_mcic` regenera `SolicitudesPares/`, descartar esos cambios (`git checkout -- SolicitudesPares`).
+
+- **F1**: PEP definitivos (`PEP MCIC Investigación.pdf`, `PEP MCIC Profundización.pdf`) reemplazan a los anteriores en `Original/<Mod>/FACTOR 1/a. PEP/`. La portada del PEP de Investigación conserva «[2026]» entre corchetes.
+- **F4**: `acu_2024-004 Politica Egresados.pdf` (Acuerdo 004 de 2024 del CSU, firmado, 24 págs. con documento soporte) reemplaza el proyecto de acuerdo en `a. Servicios/` (ambas modalidades).
+- **F3**: el libro `F3_Participacion_Docente_Capacitacion.xlsx` (31 profesores de la Decanatura; 15 con capacitación = 48 %) es la única fuente. La columna X (fila 14) de los dos «Plan de Mejoramiento» de la raíz se unificó a 48 % (antes 36 % / 37,5 %; las copias de Bronze dicen 57 % y no se tocaron). Los listados de 11 (Cuadro 05) y 21 (planta) son otras poblaciones, no subconjuntos. **Pendiente:** los 15 incluyen a 2 profesores que reprobaron (13/31 = 42 % sin ellos).
+- **F5**: 5 syllabus nuevos (`NuevaData/Syllabus/`) sobrescriben a los homónimos en `Data/Bronze/Syllabus/` y `Syllabus/` (raíz); `extract_syllabi.py` y el generador los propagan a ambas modalidades.
+- **F6**: libro generado sin las hojas `PAGOT` y `Seguimiento PAGOT 2026-3` (internas); KPIs: estudiantes que solicitaron prórroga (26 INV / 11 PROF), solicitantes PAGOT, inscritos oficiales PAGOT 2024-1 a 2025-3 (30 / 13) y graduados 2022-2026 (97 / 56). Hoja nueva «Lectura de los datos» con cifras verificadas contra Cóndor y las prórrogas (pérdida de calidad por proyecto vigente: INV 10, 8 ingresaron en 2016-2017; PROF 13, 5 ingresaron en 2024 y 2026). Lo que viene de la hoja interna (22 con seguimiento, 12 con ruta de grado) no se publica. Coincide con el libro editado por el usuario salvo lo pedido.
+- **F8**: `Consolidado_trabajos_grado_MCIC_2022_2026.xlsx` (sin columnas «Código» ni «Archivo fuente», que traían códigos estudiantiles) queda en `b. Socialización…/` en ambas modalidades, por lo que se ve en la parte inicial del factor. **Pendiente:** informe nuevo de la profe (no está en el equipo): colocarlo en `Original/<Mod>/FACTOR 8…/b…/` con patrón `Informe Grupos*.docx` y regenerar.
+- **F12**: la diapositiva 13 vuelve con la tabla de activos 2022-2026 por énfasis y el total de distintos (**INV 245, PROF 164**; por año INV 209/158/140/121/96, PROF 102/89/88/95/92; no cuenta 33 admitidos ≥ 2022 sin matrícula). Libro `F12_Estudiantes_activos_por_enfasis_<Mod>.xlsx`, KPI en `F12_Laboratorios_y_Software_<Mod>.xlsx`, `Data/Silver/estudiantes_activos_2022_2026.json` (lo escribe `build_nuevadata.py`, no `run_pipeline.py`) y bloque «Estudiantes impactados» en el detalle del Factor 12 (`datos_impacto_estudiantes` en Gold, `renderImpactoEstudiantesHtml` en `app.js`). Pendiente: revisar el aspecto de la diapositiva en PowerPoint.
