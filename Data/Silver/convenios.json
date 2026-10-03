@@ -82,6 +82,20 @@
       "justificacion": null
     },
     {
+      "codigo": "C-2025-16",
+      "nivel": "Internacional",
+      "pais_categoria": "Países Bajos",
+      "institucion": " La Agencia de Catastro, Registro de Propiedad y Cartografía de los Países Bajos (Kadaster)",
+      "tipo": "MOU",
+      "denominacion": "Cooperación",
+      "fecha_inicio": "2025-05-01",
+      "fecha_fin": "2028-05-01",
+      "estado": "Vigente",
+      "objeto": "Los signatarios promoverán la elaboración e implementación de programas, proyectos y \ncualquier otra forma de cooperación técnica en áreas de interés común, de acuerdo con sus respectivas legislaciones \nnacionales. ",
+      "relacion": "complementa",
+      "justificacion": "Memorando de entendimiento con Kadaster (agencia de catastro, registro de la propiedad y cartografía de los Países Bajos) para cooperación técnica en programas y proyectos de interés común; se relaciona con el énfasis en Geomática y con el convenio IGAC."
+    },
+    {
       "codigo": "C-2023-19",
       "nivel": "Nacional",
       "pais_categoria": "Colombia IES",
@@ -259,9 +273,9 @@
   ],
   "total_convenios_relacionados": 7,
   "total_convenios_aplicables_mcic": 4,
-  "total_convenios_complementarios_mcic": 2,
+  "total_convenios_complementarios_mcic": 3,
   "criterio_filtro": "Se buscó, sobre institución + denominación + objeto de cada convenio (sin tildes ni mayúsculas), alguna de estas frases: FACULTAD DE INGENIERIA, INGENIERIA DE SISTEMAS, TELEMATICA, TELEINFORMATICA, GEOMATICA, TELECOMUNICACIONES, CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES, MAESTRIA EN CIENCIAS DE LA INFORMACION, MCIC. Cada convenio relevante trae 'frases_encontradas' con las que hizo calzar, para poder verificar el filtro contra el Excel fuente. Además, cada uno trae 'aplica_a_posgrado_mcic' (true/false) y 'justificacion_aplicabilidad': una lectura manual del objeto de ESE convenio (citada literalmente) que dice si su alcance incluye posgrado (y por tanto a la MCIC) o si el propio texto lo restringe a un programa de pregrado distinto — ver APLICA_A_POSGRADO_MCIC en este script.",
-  "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 2 que la complementan desde la Facultad de Ingeniería.",
+  "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 3 que la complementan desde la Facultad de Ingeniería.",
   "fuente": {
     "url": "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones",
     "archivo_descargado": "Data/Bronze/Convenios/Convenios vigentes URELINTER.xlsx",

@@ -219,6 +219,11 @@
                   "tamano_legible": "1.6 MB"
                 },
                 {
+                  "nombre": "Factor1_PEP_Identidad_MCIC_Investigacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Factor1_PEP_Identidad_MCIC_Investigacion.pdf",
+                  "tamano_legible": "240.3 KB"
+                },
+                {
                   "nombre": "PEP MCIC Investigación.pdf",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Investigación.pdf",
                   "tamano_legible": "14.4 MB"
@@ -243,7 +248,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 4
+          "total_archivos": 5
         }
       },
       {
@@ -329,6 +334,11 @@
                   "nombre": "F2_Divulgacion_y_Estudiantes_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/F2_Divulgacion_y_Estudiantes_Investigacion.xlsx",
                   "tamano_legible": "751.4 KB"
+                },
+                {
+                  "nombre": "Factor2_Estudiantes_Investigacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Factor2_Estudiantes_Investigacion.pdf",
+                  "tamano_legible": "164.7 KB"
                 }
               ],
               "anexos": [
@@ -380,7 +390,7 @@
               ]
             }
           ],
-          "total_archivos": 10
+          "total_archivos": 11
         },
         "datos_cuadro_maestro_cna": {
           "titulo_bloque": "Página web del programa",
@@ -477,6 +487,11 @@
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
                   "tamano_legible": "17.6 KB"
+                },
+                {
+                  "nombre": "Factor3_Profesores_MCIC_Investigacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Factor3_Profesores_MCIC_Investigacion.pdf",
+                  "tamano_legible": "256.1 KB"
                 }
               ],
               "anexos": [
@@ -508,7 +523,7 @@
               ]
             }
           ],
-          "total_archivos": 6
+          "total_archivos": 7
         }
       },
       {
@@ -610,12 +625,17 @@
                   "nombre": "F4_Egresados_Impacto_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Investigacion.xlsx",
                   "tamano_legible": "26.3 KB"
+                },
+                {
+                  "nombre": "Factor4_Egresados_Investigacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/Factor4_Egresados_Investigacion.pdf",
+                  "tamano_legible": "465.6 KB"
                 }
               ],
               "anexos": []
             }
           ],
-          "total_archivos": 3
+          "total_archivos": 4
         },
         "datos_cuadro_maestro_cna": {
           "enlace_modulo_egresados": {
@@ -1035,6 +1055,11 @@
               "nombre": "a. Definición y socialización de ejes de formación y competencias",
               "archivos": [
                 {
+                  "nombre": "Factor5_Aspectos_Academicos_MCIC_Investigacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Factor5_Aspectos_Academicos_MCIC_Investigacion.pdf",
+                  "tamano_legible": "425.3 KB"
+                },
+                {
                   "nombre": "Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
                   "tamano_legible": "9.1 MB"
@@ -1330,7 +1355,7 @@
               ]
             }
           ],
-          "total_archivos": 57
+          "total_archivos": 58
         },
         "datos_syllabus": {
           "resumen": {
@@ -2328,7 +2353,12 @@
                 {
                   "nombre": "F6_Permanencia_y_Graduacion_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Investigacion.xlsx",
-                  "tamano_legible": "14.1 KB"
+                  "tamano_legible": "20.4 KB"
+                },
+                {
+                  "nombre": "Factor6_Permanencia_Graduacion_MCIC_Investigacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Factor6_Permanencia_Graduacion_MCIC_Investigacion.pdf",
+                  "tamano_legible": "176.8 KB"
                 },
                 {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -2339,7 +2369,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 2
+          "total_archivos": 3
         }
       },
       {
@@ -2425,6 +2455,11 @@
                   "nombre": "F7_Convenios_URELINTER_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Investigacion.xlsx",
                   "tamano_legible": "11.3 KB"
+                },
+                {
+                  "nombre": "Factor7_Interaccion_Entorno_MCIC_Investigacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Factor7_Interaccion_Entorno_MCIC_Investigacion.pdf",
+                  "tamano_legible": "170.3 KB"
                 }
               ],
               "anexos": [
@@ -2507,7 +2542,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 15
+          "total_archivos": 16
         },
         "datos_convenios": {
           "convenios": [
@@ -2591,6 +2626,20 @@
               "objeto": " Convenio Específico de Movilidad Académica de Estudiantes y Docentes Objeto: El presente convenio tiene por objeto establecer las bases para la movilidad académica de estudiantes (pregrado y postgrado) de la facultad de ingeniería y de personal docente de la facultad de ingeniería de la “UDFJC” y de “UPAEP, A.C.”, en desarrollo del Convenio Marco de Cooperación celebrado entre “UPAEP, A.C.” y la “UDFJC”.",
               "relacion": "aplica_posgrado",
               "justificacion": null
+            },
+            {
+              "codigo": "C-2025-16",
+              "nivel": "Internacional",
+              "pais_categoria": "Países Bajos",
+              "institucion": " La Agencia de Catastro, Registro de Propiedad y Cartografía de los Países Bajos (Kadaster)",
+              "tipo": "MOU",
+              "denominacion": "Cooperación",
+              "fecha_inicio": "2025-05-01",
+              "fecha_fin": "2028-05-01",
+              "estado": "Vigente",
+              "objeto": "Los signatarios promoverán la elaboración e implementación de programas, proyectos y \ncualquier otra forma de cooperación técnica en áreas de interés común, de acuerdo con sus respectivas legislaciones \nnacionales. ",
+              "relacion": "complementa",
+              "justificacion": "Memorando de entendimiento con Kadaster (agencia de catastro, registro de la propiedad y cartografía de los Países Bajos) para cooperación técnica en programas y proyectos de interés común; se relaciona con el énfasis en Geomática y con el convenio IGAC."
             },
             {
               "codigo": "C-2023-19",
@@ -2770,9 +2819,9 @@
           ],
           "total_convenios_relacionados": 7,
           "total_convenios_aplicables_mcic": 4,
-          "total_convenios_complementarios_mcic": 2,
+          "total_convenios_complementarios_mcic": 3,
           "criterio_filtro": "Se buscó, sobre institución + denominación + objeto de cada convenio (sin tildes ni mayúsculas), alguna de estas frases: FACULTAD DE INGENIERIA, INGENIERIA DE SISTEMAS, TELEMATICA, TELEINFORMATICA, GEOMATICA, TELECOMUNICACIONES, CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES, MAESTRIA EN CIENCIAS DE LA INFORMACION, MCIC. Cada convenio relevante trae 'frases_encontradas' con las que hizo calzar, para poder verificar el filtro contra el Excel fuente. Además, cada uno trae 'aplica_a_posgrado_mcic' (true/false) y 'justificacion_aplicabilidad': una lectura manual del objeto de ESE convenio (citada literalmente) que dice si su alcance incluye posgrado (y por tanto a la MCIC) o si el propio texto lo restringe a un programa de pregrado distinto — ver APLICA_A_POSGRADO_MCIC en este script.",
-          "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 2 que la complementan desde la Facultad de Ingeniería.",
+          "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 3 que la complementan desde la Facultad de Ingeniería.",
           "fuente": {
             "url": "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones",
             "archivo_descargado": "Data/Bronze/Convenios/Convenios vigentes URELINTER.xlsx",
@@ -2890,6 +2939,11 @@
                   "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
                   "tamano_legible": "29.0 KB"
+                },
+                {
+                  "nombre": "Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+                  "tamano_legible": "198.1 KB"
                 },
                 {
                   "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
@@ -3091,7 +3145,7 @@
               ]
             }
           ],
-          "total_archivos": 44
+          "total_archivos": 45
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -4341,6 +4395,11 @@
                   "nombre": "Ambientes de Aprendizaje Facultad Ing.png",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Ambientes de Aprendizaje Facultad Ing.png",
                   "tamano_legible": "72.4 KB"
+                },
+                {
+                  "nombre": "Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+                  "tamano_legible": "271.4 KB"
                 }
               ],
               "anexos": []
@@ -4372,7 +4431,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 5
+          "total_archivos": 6
         }
       },
       {
@@ -4489,6 +4548,11 @@
                   "nombre": "F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
                   "tamano_legible": "11.3 KB"
+                },
+                {
+                  "nombre": "Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+                  "tamano_legible": "151.8 KB"
                 }
               ],
               "anexos": [
@@ -4820,7 +4884,7 @@
               ]
             }
           ],
-          "total_archivos": 71
+          "total_archivos": 72
         },
         "datos_autoevaluacion": {
           "libro": {
@@ -5140,6 +5204,11 @@
                   "tamano_legible": "9.9 KB"
                 },
                 {
+                  "nombre": "Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+                  "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+                  "tamano_legible": "402.1 KB"
+                },
+                {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
                   "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
                   "tamano_legible": "1.2 MB"
@@ -5148,7 +5217,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 5
+          "total_archivos": 6
         },
         "datos_impacto_estudiantes": {
           "periodo": "2022-2026",
@@ -5314,6 +5383,11 @@
                   "tamano_legible": "1.6 MB"
                 },
                 {
+                  "nombre": "Factor1_PEP_Identidad_MCIC_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Factor1_PEP_Identidad_MCIC_Profundizacion.pdf",
+                  "tamano_legible": "243.7 KB"
+                },
+                {
                   "nombre": "PEP MCIC Profundización.pdf",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Profundización.pdf",
                   "tamano_legible": "16.5 MB"
@@ -5338,7 +5412,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 4
+          "total_archivos": 5
         }
       },
       {
@@ -5424,6 +5498,11 @@
                   "nombre": "F2_Divulgacion_y_Estudiantes_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/F2_Divulgacion_y_Estudiantes_Profundizacion.xlsx",
                   "tamano_legible": "750.3 KB"
+                },
+                {
+                  "nombre": "Factor2_Estudiantes_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Factor2_Estudiantes_Profundizacion.pdf",
+                  "tamano_legible": "158.7 KB"
                 }
               ],
               "anexos": [
@@ -5475,7 +5554,7 @@
               ]
             }
           ],
-          "total_archivos": 10
+          "total_archivos": 11
         },
         "datos_cuadro_maestro_cna": {
           "titulo_bloque": "Página web del programa",
@@ -5572,6 +5651,11 @@
                   "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
                   "tamano_legible": "17.6 KB"
+                },
+                {
+                  "nombre": "Factor3_Profesores_MCIC_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Factor3_Profesores_MCIC_Profundizacion.pdf",
+                  "tamano_legible": "254.8 KB"
                 }
               ],
               "anexos": [
@@ -5603,7 +5687,7 @@
               ]
             }
           ],
-          "total_archivos": 6
+          "total_archivos": 7
         }
       },
       {
@@ -5705,12 +5789,17 @@
                   "nombre": "F4_Egresados_Impacto_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Profundizacion.xlsx",
                   "tamano_legible": "17.2 KB"
+                },
+                {
+                  "nombre": "Factor4_Egresados_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/Factor4_Egresados_Profundizacion.pdf",
+                  "tamano_legible": "287.9 KB"
                 }
               ],
               "anexos": []
             }
           ],
-          "total_archivos": 3
+          "total_archivos": 4
         },
         "datos_cuadro_maestro_cna": {
           "enlace_modulo_egresados": {
@@ -6130,6 +6219,11 @@
               "nombre": "a. Definición y socialización de ejes de formación y competencias",
               "archivos": [
                 {
+                  "nombre": "Factor5_Aspectos_Academicos_MCIC_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Factor5_Aspectos_Academicos_MCIC_Profundizacion.pdf",
+                  "tamano_legible": "312.2 KB"
+                },
+                {
                   "nombre": "Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
                   "tamano_legible": "9.1 MB"
@@ -6425,7 +6519,7 @@
               ]
             }
           ],
-          "total_archivos": 57
+          "total_archivos": 58
         },
         "datos_syllabus": {
           "resumen": {
@@ -7426,6 +7520,11 @@
                   "tamano_legible": "12.8 KB"
                 },
                 {
+                  "nombre": "Factor6_Permanencia_Graduacion_MCIC_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Factor6_Permanencia_Graduacion_MCIC_Profundizacion.pdf",
+                  "tamano_legible": "178.0 KB"
+                },
+                {
                   "nombre": "Normativa_PAGOT_UD.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Normativa_PAGOT_UD.xlsx",
                   "tamano_legible": "10.5 KB"
@@ -7434,7 +7533,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 2
+          "total_archivos": 3
         }
       },
       {
@@ -7520,6 +7619,11 @@
                   "nombre": "F7_Convenios_URELINTER_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Profundizacion.xlsx",
                   "tamano_legible": "11.3 KB"
+                },
+                {
+                  "nombre": "Factor7_Interaccion_Entorno_MCIC_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Factor7_Interaccion_Entorno_MCIC_Profundizacion.pdf",
+                  "tamano_legible": "172.9 KB"
                 }
               ],
               "anexos": [
@@ -7602,7 +7706,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 15
+          "total_archivos": 16
         },
         "datos_convenios": {
           "convenios": [
@@ -7686,6 +7790,20 @@
               "objeto": " Convenio Específico de Movilidad Académica de Estudiantes y Docentes Objeto: El presente convenio tiene por objeto establecer las bases para la movilidad académica de estudiantes (pregrado y postgrado) de la facultad de ingeniería y de personal docente de la facultad de ingeniería de la “UDFJC” y de “UPAEP, A.C.”, en desarrollo del Convenio Marco de Cooperación celebrado entre “UPAEP, A.C.” y la “UDFJC”.",
               "relacion": "aplica_posgrado",
               "justificacion": null
+            },
+            {
+              "codigo": "C-2025-16",
+              "nivel": "Internacional",
+              "pais_categoria": "Países Bajos",
+              "institucion": " La Agencia de Catastro, Registro de Propiedad y Cartografía de los Países Bajos (Kadaster)",
+              "tipo": "MOU",
+              "denominacion": "Cooperación",
+              "fecha_inicio": "2025-05-01",
+              "fecha_fin": "2028-05-01",
+              "estado": "Vigente",
+              "objeto": "Los signatarios promoverán la elaboración e implementación de programas, proyectos y \ncualquier otra forma de cooperación técnica en áreas de interés común, de acuerdo con sus respectivas legislaciones \nnacionales. ",
+              "relacion": "complementa",
+              "justificacion": "Memorando de entendimiento con Kadaster (agencia de catastro, registro de la propiedad y cartografía de los Países Bajos) para cooperación técnica en programas y proyectos de interés común; se relaciona con el énfasis en Geomática y con el convenio IGAC."
             },
             {
               "codigo": "C-2023-19",
@@ -7865,9 +7983,9 @@
           ],
           "total_convenios_relacionados": 7,
           "total_convenios_aplicables_mcic": 4,
-          "total_convenios_complementarios_mcic": 2,
+          "total_convenios_complementarios_mcic": 3,
           "criterio_filtro": "Se buscó, sobre institución + denominación + objeto de cada convenio (sin tildes ni mayúsculas), alguna de estas frases: FACULTAD DE INGENIERIA, INGENIERIA DE SISTEMAS, TELEMATICA, TELEINFORMATICA, GEOMATICA, TELECOMUNICACIONES, CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES, MAESTRIA EN CIENCIAS DE LA INFORMACION, MCIC. Cada convenio relevante trae 'frases_encontradas' con las que hizo calzar, para poder verificar el filtro contra el Excel fuente. Además, cada uno trae 'aplica_a_posgrado_mcic' (true/false) y 'justificacion_aplicabilidad': una lectura manual del objeto de ESE convenio (citada literalmente) que dice si su alcance incluye posgrado (y por tanto a la MCIC) o si el propio texto lo restringe a un programa de pregrado distinto — ver APLICA_A_POSGRADO_MCIC en este script.",
-          "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 2 que la complementan desde la Facultad de Ingeniería.",
+          "limitacion": "El listado de URELINTER es institucional (toda la Universidad Distrital) y no se puede filtrar por programa; ningún convenio menciona por su nombre a la Maestría en Ciencias de la Información y las Comunicaciones. De los 388 convenios vigentes se muestran los 3 que aplican a un posgrado como la MCIC según su propio objeto y los 3 que la complementan desde la Facultad de Ingeniería.",
           "fuente": {
             "url": "https://urelinter.udistrital.edu.co/convenios/cooperacion-redes-asociaciones",
             "archivo_descargado": "Data/Bronze/Convenios/Convenios vigentes URELINTER.xlsx",
@@ -7987,6 +8105,11 @@
                   "tamano_legible": "23.4 KB"
                 },
                 {
+                  "nombre": "Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+                  "tamano_legible": "198.1 KB"
+                },
+                {
                   "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
                   "tamano_legible": "42.1 KB"
@@ -8036,7 +8159,7 @@
               ]
             }
           ],
-          "total_archivos": 14
+          "total_archivos": 15
         },
         "datos_cuadro_maestro_cna": {
           "grupos_produccion": {
@@ -9280,6 +9403,11 @@
                   "nombre": "Ambientes de Aprendizaje Facultad Ing.png",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Ambientes de Aprendizaje Facultad Ing.png",
                   "tamano_legible": "72.4 KB"
+                },
+                {
+                  "nombre": "Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+                  "tamano_legible": "271.4 KB"
                 }
               ],
               "anexos": []
@@ -9311,7 +9439,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 5
+          "total_archivos": 6
         }
       },
       {
@@ -9428,6 +9556,11 @@
                   "nombre": "F11_Autoevaluacion_2025_vs_2026_Profundizacion.xlsx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Profundizacion.xlsx",
                   "tamano_legible": "9.7 KB"
+                },
+                {
+                  "nombre": "Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+                  "tamano_legible": "151.8 KB"
                 }
               ],
               "anexos": [
@@ -9454,7 +9587,7 @@
               ]
             }
           ],
-          "total_archivos": 10
+          "total_archivos": 11
         },
         "datos_autoevaluacion": {
           "libro": {
@@ -9774,6 +9907,11 @@
                   "tamano_legible": "9.9 KB"
                 },
                 {
+                  "nombre": "Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+                  "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+                  "tamano_legible": "402.1 KB"
+                },
+                {
                   "nombre": "Laboratorios Maestría - MIC.pptx",
                   "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
                   "tamano_legible": "1.2 MB"
@@ -9782,7 +9920,7 @@
               "anexos": []
             }
           ],
-          "total_archivos": 5
+          "total_archivos": 6
         },
         "datos_impacto_estudiantes": {
           "periodo": "2022-2026",
@@ -12065,6 +12203,18 @@
       "extracto": "ORIENTACIONES PARA LA EVALUACIÓN \nDE LOS PROPÓSITOS DE FORMACIÓN Y \nDE APRENDIZAJE \n \n \n \n \n2025 \n \n \n\n \n1\nVicerrectora Académica \nLuz Esperanza Bohórquez Arévalo. \n \nIntegrantes Mesa de Trabajo PFA \n• Néstor Ricardo Bernal Suárez, Coordinador Comité de Currículo y Calidad Pregrado \nFacultad de Medio Ambiente y Recurso…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Factor1_PEP_Identidad_MCIC_Profundizacion.pdf",
+      "nombre": "Factor1_PEP_Identidad_MCIC_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 249520,
+      "tamano_legible": "243.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 1. Proyecto Educativo del Programa e identidad institucional \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Profundización (SNIES 116070) \nPresentación \nEntre 2022 y 2026 la modalidad de Profundización se consolidó como un programa con \nregistro y proyecto educativo…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Profundización.pdf",
       "nombre": "PEP MCIC Profundización.pdf",
       "extension": "pdf",
@@ -12111,6 +12261,18 @@
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Salas de sistemas | 12 salas con 40 equipos | Clases de software, | Incremento del 30% en el\ncada una simulaciones, análisis de datos y | uso por estudiantes MCIC\nproyectos interdisciplinarios\nLaboratorios 34 laboratorios con más | Prácticas académicas, | Fortalecimiento del trabajo\nespecializados — | de 800 equipos in…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+      "nombre": "Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje",
+      "tamano_bytes": 277957,
+      "tamano_legible": "271.4 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Factor 10. Medios educativos y ambientes de aprendizaje \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidades de Investigación (SNIES 17528) y Profundización (SNIES 116070) \nPresentación \nLa Maestría desarrolla su formación con tres tipos de medios educativos: los ambientes \nde…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/b. Consolidación de propuesta de medios educativos/02 Biblioteca - Versión acreditación 2026 - Posgrado (1).pptx",
@@ -12281,6 +12443,18 @@
       "extracto": "Factor 11 · Autoevaluación 2025 (anterior) y 2026 (vigente) — MCIC - PROFUNDIZACIÓN\nLos dos procesos están en carpetas separadas, con el año en el nombre: «Autoevaluación 2025 (anterior)» y «Autoevaluación 2026 (vigente)».\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nParticipar del establecimiento del Siste…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+      "nombre": "Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes",
+      "tamano_bytes": 155449,
+      "tamano_legible": "151.8 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Factor 11. Organización, administración y financiación del programa académico \nMaestría en Ciencias de la Información y las Comunicaciones  \n1. Propósito y alcance \nEste informe presenta el impacto de la organización, la administración y la financiación \nde la Maestría en Ciencias de la Información y las Comunicaciones…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/G312-3 Requerimientos equipos tecnológicos y de software.pdf",
       "nombre": "G312-3 Requerimientos equipos tecnológicos y de software.pdf",
       "extension": "pdf",
@@ -12327,6 +12501,18 @@
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 12 · Recursos físicos y tecnológicos — MCIC - PROFUNDIZACIÓN\nSalas de informática de la Facultad de Ingeniería usadas por la Maestría y software requerido por los docentes (Aulas de Software, desde 2025-1). Información institucional, común a las dos modalidades.\nMetas del plan de mejoramiento\nPlan anterior (2024…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+      "nombre": "Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
+      "tamano_bytes": 411791,
+      "tamano_legible": "402.1 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 12. Recursos físicos y tecnológicos: impacto en la formación \nMaestría en Ciencias de la Información y las Comunicaciones · Modalidades de \nInvestigación (SNIES 17528) y de Profundización (SNIES 116070) · Facultad de \nIngeniería, Universidad Distrital Francisco José de Caldas \nPresentación \nLa formación en la Ma…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
@@ -12461,6 +12647,18 @@
       "extracto": "Factor 2 · Estudiantes — MCIC - PROFUNDIZACIÓN\nDivulgación de la oferta académica, páginas web, inducciones y socialización de grupos de investigación. Consolidado a partir de capturas, fotografías, correos y planillas de asistencia; los registros con datos personales se resguardan y no se publican.\nMetas del plan de m…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Factor2_Estudiantes_Profundizacion.pdf",
+      "nombre": "Factor2_Estudiantes_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 162461,
+      "tamano_legible": "158.7 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 2. Estudiantes \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Profundización (SNIES 116070) \nPresentación \nDesde que obtuvo su registro calificado propio (Resolución 9925 del 21 de junio de 2023), \nla modalidad de Profundización ha incorporado 78 estudiantes en seis…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
       "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
       "extension": "pdf",
@@ -12533,6 +12731,18 @@
       "extracto": "Factor 3 · Profesores — MCIC - PROFUNDIZACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente»); los certificados se adjuntan…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Factor3_Profesores_MCIC_Profundizacion.pdf",
+      "nombre": "Factor3_Profesores_MCIC_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
+      "tamano_bytes": 260953,
+      "tamano_legible": "254.8 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 3. Profesores \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Profundización (SNIES 116070) \nPresentación \nLa modalidad de Profundización cuenta con un cuerpo de 31 profesores de alta \nformación y experiencia en la aplicación del conocimiento: 19 tienen doctorado, 27…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
       "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
       "extension": "pdf",
@@ -12567,6 +12777,30 @@
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 4 · Egresados — caracterización e impacto — MCIC - PROFUNDIZACIÓN\nHoja de Vida de Egresados del módulo institucional de la OATI (6 egresados de Profundización) y encuesta de caracterización e impacto.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nRealizar la Caracterización con el fin de analizar el i…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/Factor4_Egresados_Profundizacion.pdf",
+      "nombre": "Factor4_Egresados_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
+      "tamano_bytes": 294813,
+      "tamano_legible": "287.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 4. Egresados \nInforme de caracterización e impacto de los egresados — Maestría en Ciencias de \nla Información y las Comunicaciones, modalidad Profundización (SNIES 116070) \nPresentación \nLos egresados de la modalidad de Profundización llevan la formación de la Maestría \ndirectamente al sector productivo y al Est…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Factor5_Aspectos_Academicos_MCIC_Profundizacion.pdf",
+      "nombre": "Factor5_Aspectos_Academicos_MCIC_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias",
+      "tamano_bytes": 319668,
+      "tamano_legible": "312.2 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 5. Aspectos académicos y resultados de aprendizaje \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Profundización (SNIES 116070) \nPresentación \nEn el periodo reciente, la modalidad de Profundización renovó su propuesta académica \nen tres frentes. El Consejo Académico…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
@@ -13265,6 +13499,18 @@
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - PROFUNDIZACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no …"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Factor6_Permanencia_Graduacion_MCIC_Profundizacion.pdf",
+      "nombre": "Factor6_Permanencia_Graduacion_MCIC_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
+      "tamano_bytes": 182228,
+      "tamano_legible": "178.0 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 6. Permanencia y graduación \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Profundización (SNIES 116070) \nPresentación \nEntre 2022 y 2026 la modalidad de Profundización graduó a 56 magísteres, y 2025 fue \nsu mejor año, con 17 graduados. Como en todo el programa, el …"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Normativa_PAGOT_UD.xlsx",
       "nombre": "Normativa_PAGOT_UD.xlsx",
       "extension": "xlsx",
@@ -13359,6 +13605,18 @@
       "modalidad": "profundizacion",
       "texto_extraido": true,
       "extracto": "Factor 7 · Convenios vigentes — MCIC - PROFUNDIZACIÓN\nLos convenios los administra la Unidad de Relaciones Interinstitucionales (URELINTER). Se deja el enlace oficial mientras se recibe la información de los profesores sobre su participación en convenios.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nIncreme…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Factor7_Interaccion_Entorno_MCIC_Profundizacion.pdf",
+      "nombre": "Factor7_Interaccion_Entorno_MCIC_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
+      "tamano_bytes": 177036,
+      "tamano_legible": "172.9 KB",
+      "modalidad": "profundizacion",
+      "texto_extraido": true,
+      "extracto": "Factor 7. Interacción con el entorno nacional e internacional \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Profundización (SNIES 116070) \nPresentación \nLa modalidad de Profundización se proyecta hacia el entorno por dos vías principales: la \nmovilidad de sus profesores y…"
     },
     {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/d. Definición de acción para la formalización de convenios/1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
@@ -13613,6 +13871,18 @@
       "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Profundización\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente. El consolidado completo está en la m…"
     },
     {
+      "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+      "nombre": "Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC-PROFUNDIZACION",
+      "carpeta_contenedora": "MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+      "tamano_bytes": 202870,
+      "tamano_legible": "198.1 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "INFORME IMPACTO SOCIAL PROYECTOS MCIC 2022-2026 \nGrupo de investigación: NIDE \nLa producción vinculada a la Maestría comprende 26 trabajos de grado, 21 de ellos sustentados. El conjunto \nmuestra una actividad amplia y sostenida, con desarrollos en gestión ambiental y territorial, riesgos \nnaturales, inteligencia artifi…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC-PROFUNDIZACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
       "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
       "extension": "docx",
@@ -13781,6 +14051,18 @@
       "extracto": "ORIENTACIONES PARA LA EVALUACIÓN \nDE LOS PROPÓSITOS DE FORMACIÓN Y \nDE APRENDIZAJE \n \n \n \n \n2025 \n \n \n\n \n1\nVicerrectora Académica \nLuz Esperanza Bohórquez Arévalo. \n \nIntegrantes Mesa de Trabajo PFA \n• Néstor Ricardo Bernal Suárez, Coordinador Comité de Currículo y Calidad Pregrado \nFacultad de Medio Ambiente y Recurso…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Factor1_PEP_Identidad_MCIC_Investigacion.pdf",
+      "nombre": "Factor1_PEP_Identidad_MCIC_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP",
+      "tamano_bytes": 246043,
+      "tamano_legible": "240.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 1. Proyecto Educativo del Programa e identidad institucional \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Investigación (SNIES 17528) \nPresentación \nEntre 2022 y 2026 la modalidad de Investigación pasó de compartir un proyecto \neducativo con la de Profundización a…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Investigación.pdf",
       "nombre": "PEP MCIC Investigación.pdf",
       "extension": "pdf",
@@ -13827,6 +14109,18 @@
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Salas de sistemas | 12 salas con 40 equipos | Clases de software, | Incremento del 30% en el\ncada una simulaciones, análisis de datos y | uso por estudiantes MCIC\nproyectos interdisciplinarios\nLaboratorios 34 laboratorios con más | Prácticas académicas, | Fortalecimiento del trabajo\nespecializados — | de 800 equipos in…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+      "nombre": "Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje",
+      "tamano_bytes": 277957,
+      "tamano_legible": "271.4 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Factor 10. Medios educativos y ambientes de aprendizaje \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidades de Investigación (SNIES 17528) y Profundización (SNIES 116070) \nPresentación \nLa Maestría desarrolla su formación con tres tipos de medios educativos: los ambientes \nde…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/b. Consolidación de propuesta de medios educativos/02 Biblioteca - Versión acreditación 2026 - Posgrado (1).pptx",
@@ -14729,6 +15023,18 @@
       "extracto": "Factor 11 · Autoevaluación 2025 (anterior) y 2026 (vigente) — MCIC - INVESTIGACIÓN\nLos dos procesos están en carpetas separadas, con el año en el nombre: «Autoevaluación 2025 (anterior)» y «Autoevaluación 2026 (vigente)».\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nParticipar del establecimiento del Sistem…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+      "nombre": "Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes",
+      "tamano_bytes": 155449,
+      "tamano_legible": "151.8 KB",
+      "modalidad": "ambas",
+      "texto_extraido": true,
+      "extracto": "Factor 11. Organización, administración y financiación del programa académico \nMaestría en Ciencias de la Información y las Comunicaciones  \n1. Propósito y alcance \nEste informe presenta el impacto de la organización, la administración y la financiación \nde la Maestría en Ciencias de la Información y las Comunicaciones…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/a. Solicitud de informe de avance de la obra/G312-3 Requerimientos equipos tecnológicos y de software.pdf",
       "nombre": "G312-3 Requerimientos equipos tecnológicos y de software.pdf",
       "extension": "pdf",
@@ -14775,6 +15081,18 @@
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 12 · Recursos físicos y tecnológicos — MCIC - INVESTIGACIÓN\nSalas de informática de la Facultad de Ingeniería usadas por la Maestría y software requerido por los docentes (Aulas de Software, desde 2025-1). Información institucional, común a las dos modalidades.\nMetas del plan de mejoramiento\nPlan anterior (2024-…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+      "nombre": "Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances",
+      "tamano_bytes": 411791,
+      "tamano_legible": "402.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 12. Recursos físicos y tecnológicos: impacto en la formación \nMaestría en Ciencias de la Información y las Comunicaciones · Modalidades de \nInvestigación (SNIES 17528) y de Profundización (SNIES 116070) · Facultad de \nIngeniería, Universidad Distrital Francisco José de Caldas \nPresentación \nLa formación en la Ma…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Laboratorios Maestría - MIC.pptx",
@@ -14909,6 +15227,18 @@
       "extracto": "Factor 2 · Estudiantes — MCIC - INVESTIGACIÓN\nDivulgación de la oferta académica, páginas web, inducciones y socialización de grupos de investigación. Consolidado a partir de capturas, fotografías, correos y planillas de asistencia; los registros con datos personales se resguardan y no se publican.\nMetas del plan de me…"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Factor2_Estudiantes_Investigacion.pdf",
+      "nombre": "Factor2_Estudiantes_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas",
+      "tamano_bytes": 168690,
+      "tamano_legible": "164.7 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 2. Estudiantes \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Investigación (SNIES 17528) \nPresentación \nCon la renovación del registro calificado de la modalidad de Investigación (Resolución \n16163 del 5 de septiembre de 2023), la Maestría reabrió sus admisiones co…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Anexos/Certificados/Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
       "nombre": "Alvaro Ortiz - 2024 - Introduction to GeoWebApp Building with open-source tools.pdf",
       "extension": "pdf",
@@ -14981,6 +15311,18 @@
       "extracto": "Factor 3 · Profesores — MCIC - INVESTIGACIÓN\nParticipación de los profesores de la Maestría en capacitación académica y administrativa, y movilidad académica. Incluye las capacitaciones adicionales con certificado reportadas por los profesores (columna J de la hoja «Capacitación docente»); los certificados se adjuntan …"
     },
     {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Factor3_Profesores_MCIC_Investigacion.pdf",
+      "nombre": "Factor3_Profesores_MCIC_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes",
+      "tamano_bytes": 262225,
+      "tamano_legible": "256.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 3. Profesores \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Investigación (SNIES 17528) \nPresentación \nLa modalidad de Investigación se apoya en un cuerpo de 31 profesores con alta \nformación y trayectoria investigativa: 19 tienen doctorado, 27 son profesores de ca…"
+    },
+    {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/a. Servicios/Portafolio de Servicios Grupo Funcional Egresados.pdf",
       "nombre": "Portafolio de Servicios Grupo Funcional Egresados.pdf",
       "extension": "pdf",
@@ -15015,6 +15357,30 @@
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 4 · Egresados — caracterización e impacto — MCIC - INVESTIGACIÓN\nHoja de Vida de Egresados del módulo institucional de la OATI (137 egresados de Investigación) y encuesta de caracterización e impacto.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nRealizar la Caracterización con el fin de analizar el i…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/Factor4_Egresados_Investigacion.pdf",
+      "nombre": "Factor4_Egresados_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados",
+      "tamano_bytes": 476780,
+      "tamano_legible": "465.6 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 4. Egresados \nInforme de caracterización e impacto de los egresados — Maestría en Ciencias de \nla Información y las Comunicaciones, modalidad Investigación (SNIES 17528) \nPresentación \nLos egresados de la modalidad de Investigación de la Maestría están vinculados de \nmanera mayoritaria a la docencia universitari…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Factor5_Aspectos_Academicos_MCIC_Investigacion.pdf",
+      "nombre": "Factor5_Aspectos_Academicos_MCIC_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias",
+      "tamano_bytes": 435526,
+      "tamano_legible": "425.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 5. Aspectos académicos y resultados de aprendizaje \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Investigación (SNIES 17528) \nPresentación \nEn el periodo reciente, la modalidad de Investigación renovó su propuesta académica en \ntres frentes. El Consejo Académico ap…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
@@ -15706,11 +16072,23 @@
       "extension": "xlsx",
       "carpeta_raiz": "MCIC.INVESTIGACION",
       "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
-      "tamano_bytes": 14486,
-      "tamano_legible": "14.1 KB",
+      "tamano_bytes": 20883,
+      "tamano_legible": "20.4 KB",
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 6 · Permanencia y graduación — MCIC - INVESTIGACIÓN\nEstudiantes con pendiente de trabajo de grado y riesgo de pérdida de calidad: solicitudes de prórroga 2026-3, estudiantes PAGOT, acompañamiento y graduados. Los estudiantes se identifican con un ID; los nombres, códigos y correos originales se resguardan y no s…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Factor6_Permanencia_Graduacion_MCIC_Investigacion.pdf",
+      "nombre": "Factor6_Permanencia_Graduacion_MCIC_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia",
+      "tamano_bytes": 181024,
+      "tamano_legible": "176.8 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 6. Permanencia y graduación \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Investigación (SNIES 17528) \nPresentación \nEntre 2022 y 2026 la modalidad de Investigación graduó a 97 magísteres. En ese mismo \nperiodo, el programa enfrentó su principal reto de permanencia…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Normativa_PAGOT_UD.xlsx",
@@ -15807,6 +16185,18 @@
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 7 · Convenios vigentes — MCIC - INVESTIGACIÓN\nLos convenios los administra la Unidad de Relaciones Interinstitucionales (URELINTER). Se deja el enlace oficial mientras se recibe la información de los profesores sobre su participación en convenios.\nMetas del plan de mejoramiento\nPlan anterior (2024-2026)\nIncremen…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Factor7_Interaccion_Entorno_MCIC_Investigacion.pdf",
+      "nombre": "Factor7_Interaccion_Entorno_MCIC_Investigacion.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes",
+      "tamano_bytes": 174340,
+      "tamano_legible": "170.3 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "Factor 7. Interacción con el entorno nacional e internacional \nInforme del factor — Maestría en Ciencias de la Información y las Comunicaciones, \nmodalidad Investigación (SNIES 17528) \nPresentación \nLa modalidad de Investigación se proyecta hacia el entorno por dos vías principales: la \nmovilidad de sus profesores y lo…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/d. Definición de acción para la formalización de convenios/1. Acuerdo CSU UD 009-2023 Política I2 UD 20.04.2023.pdf",
@@ -16419,6 +16809,18 @@
       "modalidad": "investigacion",
       "texto_extraido": true,
       "extracto": "Factor 8 · Trabajos de grado vinculados a grupos de investigación — Investigación\nVersión por modalidad del «Consolidado de trabajos de grado MCIC 2022-2026» (el libro completo del consolidado es el documento de origen). Se omiten el código estudiantil y la ruta del archivo fuente. El consolidado completo está en la mi…"
+    },
+    {
+      "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+      "nombre": "Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+      "extension": "pdf",
+      "carpeta_raiz": "MCIC.INVESTIGACION",
+      "carpeta_contenedora": "MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación",
+      "tamano_bytes": 202870,
+      "tamano_legible": "198.1 KB",
+      "modalidad": "investigacion",
+      "texto_extraido": true,
+      "extracto": "INFORME IMPACTO SOCIAL PROYECTOS MCIC 2022-2026 \nGrupo de investigación: NIDE \nLa producción vinculada a la Maestría comprende 26 trabajos de grado, 21 de ellos sustentados. El conjunto \nmuestra una actividad amplia y sostenida, con desarrollos en gestión ambiental y territorial, riesgos \nnaturales, inteligencia artifi…"
     },
     {
       "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Informe de impacto social de los grupos de investigación 2022-2026.docx",
@@ -17562,15 +17964,15 @@
     }
   ],
   "documentosBronzeStats": {
-    "total": 628,
+    "total": 650,
     "por_modalidad": {
-      "profundizacion": 192,
-      "ambas": 21,
-      "investigacion": 299,
+      "profundizacion": 200,
+      "ambas": 26,
+      "investigacion": 308,
       "general": 116
     },
     "por_extension": {
-      "pdf": 259,
+      "pdf": 281,
       "xlsx": 250,
       "xls": 24,
       "png": 67,
@@ -17584,14 +17986,14 @@
       "ACREDITACIÓN DE ALTA CALIDAD": 125,
       "Convenios": 1,
       "Docentes": 41,
-      "MCIC-PROFUNDIZACION": 143,
-      "MCIC.INVESTIGACION": 235,
+      "MCIC-PROFUNDIZACION": 154,
+      "MCIC.INVESTIGACION": 246,
       "Maestria CIC": 14,
       "Normativa": 36,
       "PresLabIng-20261-esuarez-01-p36-48.pdf": 1,
       "Syllabus": 32
     },
-    "con_texto_extraido": 547
+    "con_texto_extraido": 569
   },
   "evidenciaProcesosRcAac": {
     "investigacion": [
@@ -20322,7 +20724,7 @@
       {
         "nombre": "Multimedia Interactiva y Animación Digital",
         "sigla": "Multimedia Interactiva y Animación Digital",
-        "clasificacion": "Facultad de Ingeniería",
+        "clasificacion": "A",
         "lider": "Paulo Alonso Gaona García",
         "lineas_investigacion": "Multimedia interactiva y realidad aumentada; E-learning y ambientes virtuales; Gamificación",
         "gruplac": null,

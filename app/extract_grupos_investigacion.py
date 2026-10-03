@@ -86,7 +86,7 @@ def main() -> None:
         {"sigla": "GITEM", "clasificacion": "C", "hoja_dir": "GITEM++"},
         {
             "sigla": "Multimedia Interactiva y Animación Digital",
-            "clasificacion": "Facultad de Ingeniería",
+            "clasificacion": "A",
             "hoja_dir": None,
             "nombre": "Multimedia Interactiva y Animación Digital",
             "lider": "Paulo Alonso Gaona García",

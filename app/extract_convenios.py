@@ -100,6 +100,8 @@ COMPLEMENTA_MCIC: dict[str, str] = {
                  "pero abre una cadena de formación posgradual internacional en la misma Facultad.",
     "C-2023-19": "Programa conjunto con la Fundación UNIR en Ingeniería de Software adscrito a la Facultad de Ingeniería: es de pregrado, pero fortalece el área de software "
                  "y la cooperación de la Facultad con UNIR.",
+    "C-2025-16": "Memorando de entendimiento con Kadaster (agencia de catastro, registro de la propiedad y cartografía de los Países Bajos) para cooperación técnica "
+                 "en programas y proyectos de interés común; se relaciona con el énfasis en Geomática y con el convenio IGAC.",
 }
 
 APLICA_A_POSGRADO_MCIC: dict[str, tuple[bool, str]] = {

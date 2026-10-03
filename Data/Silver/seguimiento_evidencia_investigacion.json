@@ -57,6 +57,11 @@
               "tamano_legible": "1.6 MB"
             },
             {
+              "nombre": "Factor1_PEP_Identidad_MCIC_Investigacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/Factor1_PEP_Identidad_MCIC_Investigacion.pdf",
+              "tamano_legible": "240.3 KB"
+            },
+            {
               "nombre": "PEP MCIC Investigación.pdf",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 1. PROYECTO EDUCATIVO DEL PROGRAMA E IDENTIDAD INSTITUCIONAL/a. PEP/PEP MCIC Investigación.pdf",
               "tamano_legible": "14.4 MB"
@@ -92,6 +97,11 @@
               "nombre": "F2_Divulgacion_y_Estudiantes_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/F2_Divulgacion_y_Estudiantes_Investigacion.xlsx",
               "tamano_legible": "751.4 KB"
+            },
+            {
+              "nombre": "Factor2_Estudiantes_Investigacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 2. ESTUDIANTES/a. Divulgación de propuestas académicas/Factor2_Estudiantes_Investigacion.pdf",
+              "tamano_legible": "164.7 KB"
             }
           ],
           "anexos": [
@@ -154,6 +164,11 @@
               "nombre": "F3_Participacion_Docente_Capacitacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/F3_Participacion_Docente_Capacitacion.xlsx",
               "tamano_legible": "17.6 KB"
+            },
+            {
+              "nombre": "Factor3_Profesores_MCIC_Investigacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 3. PROFESORES/a. Informes de participación de los docentes/Factor3_Profesores_MCIC_Investigacion.pdf",
+              "tamano_legible": "256.1 KB"
             }
           ],
           "anexos": [
@@ -212,6 +227,11 @@
               "nombre": "F4_Egresados_Impacto_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/F4_Egresados_Impacto_Investigacion.xlsx",
               "tamano_legible": "26.3 KB"
+            },
+            {
+              "nombre": "Factor4_Egresados_Investigacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 4. EGRESADOS/e. Caracterización e impacto de los egresados/Factor4_Egresados_Investigacion.pdf",
+              "tamano_legible": "465.6 KB"
             }
           ],
           "anexos": []
@@ -224,6 +244,11 @@
         {
           "nombre": "a. Definición y socialización de ejes de formación y competencias",
           "archivos": [
+            {
+              "nombre": "Factor5_Aspectos_Academicos_MCIC_Investigacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Factor5_Aspectos_Academicos_MCIC_Investigacion.pdf",
+              "tamano_legible": "425.3 KB"
+            },
             {
               "nombre": "Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 5. ASPECTOS ACADÉMICOS Y RESULTADOS DE APRENDIZAJE/a. Definición y socialización de ejes de formación y competencias/Res 016 de 2025 Consejo Académico - Plan de estudios MCIC.pdf",
@@ -530,7 +555,12 @@
             {
               "nombre": "F6_Permanencia_y_Graduacion_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/F6_Permanencia_y_Graduacion_Investigacion.xlsx",
-              "tamano_legible": "14.1 KB"
+              "tamano_legible": "20.4 KB"
+            },
+            {
+              "nombre": "Factor6_Permanencia_Graduacion_MCIC_Investigacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 6. PERMANENCIA Y GRADUACIÓN/d. Seguimiento al avance de trabajos de grado y tiempos de permanencia/Factor6_Permanencia_Graduacion_MCIC_Investigacion.pdf",
+              "tamano_legible": "176.8 KB"
             },
             {
               "nombre": "Normativa_PAGOT_UD.xlsx",
@@ -552,6 +582,11 @@
               "nombre": "F7_Convenios_URELINTER_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/F7_Convenios_URELINTER_Investigacion.xlsx",
               "tamano_legible": "11.3 KB"
+            },
+            {
+              "nombre": "Factor7_Interaccion_Entorno_MCIC_Investigacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 7. INTERACCIÓN CON EL ENTORNO NACIONAL E INTERNACIONAL/a. Diagnostico de convenios vigentes/Factor7_Interaccion_Entorno_MCIC_Investigacion.pdf",
+              "tamano_legible": "170.3 KB"
             }
           ],
           "anexos": [
@@ -671,6 +706,11 @@
               "nombre": "F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/F8_Trabajos_de_grado_por_grupo_Investigacion.xlsx",
               "tamano_legible": "29.0 KB"
+            },
+            {
+              "nombre": "Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 8. APORTES DE LA INVESTIGACIÓN, LA INNOVACIÓN, EL DESARROLLO TECNOLÓGICO Y LA CREACIÓN ASOCIADOS AL PROGRAMA ACADÉMICO/b. Socialización y vinculación de actividades de investigación/Factor8_Informe de impacto social de los grupos de investigación 2022-2026.pdf",
+              "tamano_legible": "198.1 KB"
             },
             {
               "nombre": "Informe de impacto social de los grupos de investigación 2022-2026.docx",
@@ -920,6 +960,11 @@
               "nombre": "Ambientes de Aprendizaje Facultad Ing.png",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Ambientes de Aprendizaje Facultad Ing.png",
               "tamano_legible": "72.4 KB"
+            },
+            {
+              "nombre": "Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 10. MEDIOS EDUCATIVOS Y AMBIENTES DE APRENDIZAJE/a. Diagnóstico sobre ambientes de aprendizaje/Factor10_Medios_Educativos_MCIC_Investigacion_y_Profundizacion.pdf",
+              "tamano_legible": "271.4 KB"
             }
           ],
           "anexos": []
@@ -993,6 +1038,11 @@
               "nombre": "F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/F11_Autoevaluacion_2025_vs_2026_Investigacion.xlsx",
               "tamano_legible": "11.3 KB"
+            },
+            {
+              "nombre": "Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 11. ORGANIZACIÓN, ADMINISTRACIÓN Y FINANCIACIÓN DEL PROGRAMA ACADÉMICO/d. Construcción de reportes/Factor11_Organizacion_Administracion_MCIC_investigacion y Profundizacion.pdf",
+              "tamano_legible": "151.8 KB"
             }
           ],
           "anexos": [
@@ -1356,6 +1406,11 @@
               "nombre": "F12_Laboratorios_y_Software_Investigacion.xlsx",
               "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/F12_Laboratorios_y_Software_Investigacion.xlsx",
               "tamano_legible": "9.9 KB"
+            },
+            {
+              "nombre": "Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+              "archivo": "Data/Bronze/MCIC.INVESTIGACION/Procesos de Renocavion y acreditación/Plan de Mejoramiento/FACTOR 12. RECURSOS FÍSICOS Y TECNOLÓGICOS/c. Socialización con la comunidad académica de acciones y avances/Factor12_Recursos_Fisicos_Tecnologicos_MCIC.pdf",
+              "tamano_legible": "402.1 KB"
             },
             {
               "nombre": "Laboratorios Maestría - MIC.pptx",
